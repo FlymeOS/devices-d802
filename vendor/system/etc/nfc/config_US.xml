@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="EUC-KR" standalone="no" ?>
+<Configure>
+    <!-- AT&T / United States -->
+    <!-- T-Mobile / United States -->
+    <Config operator="" country="US" device="">
+        <AdvancedHCEEnable> false </AdvancedHCEEnable>
+        <TransactionEventScenario> multicast </TransactionEventScenario>
+        <HostCardEmulationScenario> host_uicc, host_uicc, uicc, uicc </HostCardEmulationScenario>
+    </Config>
+    <!-- Sprint / United States -->
+    <Config operator="SPR" country="US" device="">
+        <SecureElementType> INITVALUE </SecureElementType>
+        <AccessControlEnable> false </AccessControlEnable>
+        <PermittedSeBroadcastEnable> false </PermittedSeBroadcastEnable>
+        <AdvancedHCEEnable> false </AdvancedHCEEnable>
+        <HostCardEmulationScenario> host, host, na, na </HostCardEmulationScenario>
+    </Config>
+    <!-- USC / United States -->
+    <Config operator="USC" country="US" device="">
+        <SecureElementType> INITVALUE </SecureElementType>
+        <AccessControlEnable> false </AccessControlEnable>
+        <PermittedSeBroadcastEnable> false </PermittedSeBroadcastEnable>
+        <AdvancedHCEEnable> false </AdvancedHCEEnable>
+        <HostCardEmulationScenario> host, host, na, na </HostCardEmulationScenario>
+    </Config>
+    <!-- ACG / United States -->
+    <Config operator="ACG" country="US" device="">
+        <SecureElementType> INITVALUE </SecureElementType>
+        <AccessControlEnable> false </AccessControlEnable>
+        <PermittedSeBroadcastEnable> false </PermittedSeBroadcastEnable>
+        <AdvancedHCEEnable> false </AdvancedHCEEnable>
+        <HostCardEmulationScenario> host, host, na, na </HostCardEmulationScenario>
+    </Config>
+    <!-- Verizon / United States -->
+    <Config operator="VZW" country="US" device="">
+        <AdvancedHCEEnable> false </AdvancedHCEEnable>
+        <WCScenarioEnable> update </WCScenarioEnable>
+        <DefaultOnOffType> offp2p </DefaultOnOffType>
+        <RingSoundScenarioType> usevibrate </RingSoundScenarioType>
+        <PopupDialogType> vzw </PopupDialogType>
+        <EmptyPopupSupport> false </EmptyPopupSupport>
+        <TransactionEventScenario> multicast </TransactionEventScenario>
+        <RemoveIconWhenLockScreen> true </RemoveIconWhenLockScreen>
+        <HostCardEmulationScenario> host_uicc, na, na, na </HostCardEmulationScenario>
+    </Config>
+    <!-- Criket / United States -->
+    <Config operator="CRK" country="US" device="">
+    </Config>
+</Configure>

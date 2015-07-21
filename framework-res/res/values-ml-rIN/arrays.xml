@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>ഹോം</item>
+        <item>ജോലി</item>
+        <item>മറ്റുള്ളവ</item>
+        <item>കസ്റ്റം</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>വിന്‍ഡോസ് ലൈവ്</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>ജോലി</item>
+        <item>മറ്റുള്ളവ</item>
+        <item>കസ്റ്റം</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>ഹോം</item>
+        <item>മൊബൈല്‍</item>
+        <item>ജോലി</item>
+        <item>വര്‍ക്ക് ഫാക്സ്</item>
+        <item>ഹോം ഫാക്സ്</item>
+        <item>പേജര്‍</item>
+        <item>മറ്റുള്ളവ</item>
+        <item>കസ്റ്റം</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>ഹോം</item>
+        <item>ജോലി</item>
+        <item>മറ്റുള്ളവ</item>
+        <item>കസ്റ്റം</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>ഹോം</item>
+        <item>ജോലി</item>
+        <item>മറ്റുള്ളവ</item>
+        <item>കസ്റ്റം</item>
+    </string-array>
+</resources>

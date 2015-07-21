@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Rumah</item>
+        <item>Bekerja</item>
+        <item>Lain-lain</item>
+        <item>Kastam</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Celoteh</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Bekerja</item>
+        <item>Lain-lain</item>
+        <item>Kastam</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Rumah</item>
+        <item>Bimbit</item>
+        <item>Bekerja</item>
+        <item>Faks kerja</item>
+        <item>Faks Asal</item>
+        <item>Alat kelui</item>
+        <item>Lain-lain</item>
+        <item>Kastam</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Rumah</item>
+        <item>Bekerja</item>
+        <item>Lain-lain</item>
+        <item>Kastam</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Rumah</item>
+        <item>Bekerja</item>
+        <item>Lain-lain</item>
+        <item>Kastam</item>
+    </string-array>
+</resources>

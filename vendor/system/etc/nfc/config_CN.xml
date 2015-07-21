@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="EUC-KR" standalone="no" ?>
+<Configure>
+    <!--
+    OPEN_CN ( Open / China )
+    -->
+    <Config operator="" country="CN" device="">
+        <NFCCEventConfig> rffield_EEevent_off </NFCCEventConfig>
+        <PermittedSeBroadcastEnable> false </PermittedSeBroadcastEnable>
+    </Config>
+    <!--
+    CMCC_CN ( ChinaMobile / China )
+    -->
+    <Config operator="CMCC" country="CN" device="">
+        <IndicatorType> three_toggleV1N </IndicatorType>
+        <PermittedSeBroadcastEnable> false </PermittedSeBroadcastEnable>
+        <NFCCEventConfig> rffield_EEevent_off </NFCCEventConfig>
+    </Config>
+    <!--
+    CT_CN ( ChinaTelecom / China )
+    -->
+    <Config operator="CTC" country="CN" device="">
+        <PermittedSeBroadcastEnable> false </PermittedSeBroadcastEnable>
+        <NFCCEventConfig> rffield_EEevent_off </NFCCEventConfig>
+    </Config>
+    <!--
+    CU_CN ( ChinaUnicom / China )
+    -->
+    <Config operator="CUCC" country="CN" device="">
+        <PermittedSeBroadcastEnable> false </PermittedSeBroadcastEnable>
+        <NFCCEventConfig> rffield_EEevent_off </NFCCEventConfig>
+    </Config>
+</Configure>

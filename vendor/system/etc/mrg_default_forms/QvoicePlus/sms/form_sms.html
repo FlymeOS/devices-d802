@@ -1,0 +1,142 @@
+<script>
+var pressed_fmsg_imgae = "url("+folderPath+"agent_list_bg_pressed.png)";
+var org_fmsg_image;
+
+$(".fmsgSend").on('touchstart',function(e){
+    org_fmsg_image =  $(e.currentTarget).css('background-image');
+    $(e.currentTarget).css('background-image', pressed_fmsg_imgae);
+
+    return true;
+});
+
+$(".fmsgSend").on('touchmove',function(e){
+    $(e.currentTarget).css('background-image', org_fmsg_image);
+    return true;
+});
+
+$(".fmsgSend").on('touchend',function(e){
+    $(e.currentTarget).css('background-image', org_fmsg_image);
+
+    var info= $(".fmsgSend").data('gotosmsapp');
+
+    console.log(JSON.stringify(info));
+    window.AndroidInterface.sendToAndroidForStartActivity(JSON.stringify(info));
+
+    return true;
+});
+
+//---------------------------------------------------------------------------------------------------
+// button & click event
+
+var pressed_msgbtn_color = '#34363B';
+var org_msgbtn_color;
+
+$(".msgbtn").on('touchstart',function(e){
+    org_msgbtn_color =  $(e.currentTarget).css('background-color');
+    $(e.currentTarget).css('background-color', pressed_msgbtn_color);
+
+    return true;
+});
+
+$(".msgbtn").on('touchmove',function(e){
+    $(e.currentTarget).css('background-color', org_msgbtn_color);
+
+    return true;
+});
+
+$(".msgbtn").on('touchend',function(e){
+    $(e.currentTarget).css('background-color', org_msgbtn_color);
+
+    return true;
+});
+
+function buttonSend(e) {
+    //send pressed info "send"
+    var JSONObject = {"choice":"yes"};
+    console.log(JSON.stringify(JSONObject));
+    window.AndroidInterface.sendToAndroidForWernickeManager(JSON.stringify(JSONObject));
+
+    $(".button").hide();
+}
+
+function buttonCancel(e) {
+    ///send pressed info "no"
+    var JSONObject = {"choice":"no"};
+    console.log(JSON.stringify(JSONObject));
+    window.AndroidInterface.sendToAndroidForWernickeManager(JSON.stringify(JSONObject));
+
+    $(".button").hide();
+}
+</script>
+
+<li>
+    <% if(data.name) {%>
+    <div width=100% style="background-image: url('<%= folderPath %>agent_list_bg_01.png');">
+        <table class="fmsgSend" width=100% border="0" cellpadding="0" cellspacing="0" style="padding: 9px 8px 9.5px 8px; " data-gotosmsapp='{
+            <% if(data.status == "sending") {%>
+            <% //GoTo compose message, before send %>
+                "action": "android.intent.action.SENDTO",
+                "uri": "<%= data.uri %>",
+                "sms_body":"<%= data.sms_body %>"
+            <%} else {%>
+            <% //GoTo conversation view, after sent %>
+                "action": "<%= data.action %>",
+                "package": "<%= data.package %>",
+                "class": "<%= data.class %>"
+            <%}%>
+        }'>
+            <tr>
+                <td colspan="2" style="padding:0px 4px 9px 4px;">
+                    <span class="agent_list_01"><%= data.name %></span>
+                </td>
+            </tr>
+            <tr align="right">
+                <td colspan="2" >
+                    <div style="
+                            border-image-source: url('<%= folderPath %>agent_message_balloon_send_02.png');
+                            border-image-slice: 24 32 24 32;
+                            border-image-width: 6px 8px 6px 8px;
+                            border-image-outset: 0px 0px 0px 0px;
+                            border-image-repeat: stretch stretch; display: inline-block;
+                            background-position:right;">
+                        <span class="agent_list_03" style="margin: 0px 5px 0px 5px; background-color: #f5eda8; display: inline-block; word-break:break-all;">
+                            <% if(data.sms_body) {%><%= data.sms_body %><%} else {%><span class="agent_list_03_guide"><%= data.guide_msg %></span><%}%>
+                        </span>
+                    </div>
+                </td>
+                <td width="15px" style="background-image: url('<%= folderPath %>agent_message_balloon_send_01.png'); background-size: contain; background-repeat: no-repeat; background-position: bottom;" >
+                </td>
+            </tr>
+        </table>
+        <div class="button" style="padding: 13px 10px 14px 10px;
+            <% if(data.confirm && data.cancel) {%>
+            <%} else {%>
+               display : none;
+            <%}%>
+            " data-sendsms='{
+                "sms_body": "<%= data.sms_body %>",
+                "address":"<%= data.address %>"
+        }'>
+            <table width=100%>
+                <tr>
+                    <td  width=50% align="center" >
+                        <button type="button" class="msgbtn" style="height:36px; width:96%; border-radius:22px; background-color:#84888E; border:0;" onclick="buttonCancel(event);">
+                            <span class="agent_list_01"><%= data.cancel %></span>
+                        </button>
+                    </td>
+                    <td  width=50% align="center" >
+                        <button type="button" class="msgbtn" style="height:36px; width:96%; border-radius:22px; background-color:#84888E; border:0;" onclick="buttonSend(event);">
+                            <span class="agent_list_01"><%= data.confirm %></span>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+            <%
+            if (data.is_exceeded == 'exceeded') {
+                window.AndroidInterface.showToast('is_exceeded');
+            }
+            %>
+        </div>
+    </div>
+    <%}%>
+</li>

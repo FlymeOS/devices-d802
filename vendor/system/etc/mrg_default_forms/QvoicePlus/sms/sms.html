@@ -1,0 +1,132 @@
+<script>
+var pressed_msg_imgae = "url("+folderPath+"agent_list_bg_pressed.png)";
+var org_msg_image;
+
+$(".fmsgReceive").on('touchstart',function(e){
+    org_msg_image =  $(e.currentTarget).css('background-image');
+    $(e.currentTarget).css('background-image', pressed_msg_imgae);
+
+    return true;
+});
+
+$(".fmsgReceive").on('touchmove',function(e){
+    $(e.currentTarget).css('background-image', org_msg_image);
+    return true;
+});
+
+$(".fmsgReceive").on('touchend',function(e){
+    $(e.currentTarget).css('background-image', org_msg_image);
+
+    var info= $(".fmsgReceive").data('gotoconversation');
+
+    console.log(JSON.stringify(info));
+    window.AndroidInterface.sendToAndroidForStartActivity(JSON.stringify(info));
+
+    return true;
+});
+
+//---------------------------------------------------------------------------------------------------
+// button & click event
+
+var pressed_msgbtn_color = '#34363B';
+var org_msgbtn_color;
+
+$(".msgbtn").on('touchstart',function(e){
+    org_msgbtn_color =  $(e.currentTarget).css('background-color');
+    $(e.currentTarget).css('background-color', pressed_msgbtn_color);
+
+    return true;
+});
+
+$(".msgbtn").on('touchmove',function(e){
+    $(e.currentTarget).css('background-color', org_msgbtn_color);
+
+    return true;
+});
+
+$(".msgbtn").on('touchend',function(e){
+    $(e.currentTarget).css('background-color', org_msgbtn_color);
+
+    return true;
+});
+
+function buttonReply(e) {
+    //send pressed info "reply"
+    var JSONObject = {"choice":"reply"};
+    console.log(JSON.stringify(JSONObject));
+    window.AndroidInterface.sendToAndroidForWernickeManager(JSON.stringify(JSONObject));
+
+    $(".button").hide();
+}
+
+function buttonNext(e) {
+    //send pressed info "next"
+    var JSONObject = {"choice":"next"};
+    console.log(JSON.stringify(JSONObject));
+    window.AndroidInterface.sendToAndroidForWernickeManager(JSON.stringify(JSONObject));
+
+    $(".button").hide();
+}
+
+</script>
+
+<li>
+    <% _.each( data, function(listItem, index){ %>
+    <div width=100% style="background-image: url('<%= folderPath %>agent_list_bg_01.png');">
+        <table class="fmsgReceive" width=100% border="0" cellpadding="0" cellspacing="0" style="padding: 9px 8px 9.5px 8px;" data-gotoconversation='{
+                "action": "<%= listItem.action %>",
+                "uri": "<%= listItem.uri %>"
+             }'>
+            <tr>
+                <td colspan="2" style="padding:0px 4px 9px 4px;" >
+                    <span class="agent_list_01">
+                    <% if(listItem.name) {%>
+                        <%= listItem.name %>
+                    <%} else {%>
+                        <%= listItem.number %>
+                    <%}%></span>
+                </td>
+            </tr>
+            <tr>
+                <td width="15px" style="background-image: url('<%= folderPath %>agent_message_balloon_receive_01.png'); background-size: contain; background-repeat: no-repeat; background-position: bottom;" >
+                </td>
+                <td>
+                    <div style="
+                            border-image-source: url('<%= folderPath %>agent_message_balloon_receive_02.png');
+                            border-image-slice: 24 32 24 32;
+                            border-image-width: 6px 8px 6px 8px;
+                            border-image-outset: 0px 0px 0px 0px;
+                            border-image-repeat: stretch stretch; display: inline-block;">
+                        <span class="agent_list_03" style="margin: 0px 5px 0px 5px; background-color: #e5e8eb; display: inline-block; word-break:break-all;">
+                            <%= listItem.contents %>
+                        </span>
+                    </div>
+                </td>
+            </tr>
+            <tr><td colspan="2"><span class="agent_weather_weather"><%= listItem.time %></span></td>
+            </tr>
+        </table>
+        <div class="button" style="padding: 13px 10px 14px 10px;">
+            <table width=100% >
+                <tr>
+                    <td width=50% align="center" style="
+                    <% if(listItem.next) {
+                    } else {%>
+                        display : none;
+                    <%}%>
+                    ">
+                        <button type="button" class="msgbtn" style="height:36px; width:96%; border-radius:22px; background-color:#84888E; border:0; " onclick="buttonNext(event);">
+                            <span class="agent_list_01"><%= listItem.next %></span>
+                        </button>
+                    </td>
+                    <td  width=50% align="center" >
+                        <button type="button" class="msgbtn" style="height:36px; width:96%; border-radius:22px; background-color:#84888E; border:0; " onclick="buttonReply(event);">
+                            <span class="agent_list_01"><%= listItem.reply %></span>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <% }); %>
+</li>

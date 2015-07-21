@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="EUC-KR" standalone="no" ?>
+<Configure>
+    <Config operator="" country="HK" device="">
+    </Config>
+    <!-- HK -->
+    <Config operator="OPEN" country="HK" device="g3">
+<!--        <NxpConfigFileName> libnfc-nxp-hk.conf </NxpConfigFileName>  -->
+    </Config>
+</Configure>

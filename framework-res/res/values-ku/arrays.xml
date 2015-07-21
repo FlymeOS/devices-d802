@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>‏ماڵه‌وه‌</item>
+        <item>‏کار</item>
+        <item>‏دیتر</item>
+        <item>‏سفارشتی</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>‏کار</item>
+        <item>‏دیتر</item>
+        <item>‏سفارشتی</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>‏ماڵه‌وه‌</item>
+        <item>‏مۆبایل</item>
+        <item>‏کار</item>
+        <item>‏فەکسی کار</item>
+        <item>‏فه‌کسی بینگه‌ی سه‌ره‌کی (ماڵه‌وه‌)</item>
+        <item>‏لاپەڕە</item>
+        <item>‏دیتر</item>
+        <item>‏سفارشتی</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>‏ماڵه‌وه‌</item>
+        <item>‏کار</item>
+        <item>‏دیتر</item>
+        <item>‏سفارشتی</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>‏ماڵه‌وه‌</item>
+        <item>‏کار</item>
+        <item>‏دیتر</item>
+        <item>‏سفارشتی</item>
+    </string-array>
+</resources>

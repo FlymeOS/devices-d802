@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Nyumbani</item>
+        <item>Kazi</item>
+        <item>nyingine</item>
+        <item>Kaida</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Dirisha Hai</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Kazi</item>
+        <item>nyingine</item>
+        <item>Kaida</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Nyumbani</item>
+        <item>Simu ya mkono</item>
+        <item>Kazi</item>
+        <item>Faksi ya Kazini</item>
+        <item>Faksi ya Nyumbani</item>
+        <item>Peja</item>
+        <item>nyingine</item>
+        <item>Kaida</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Nyumbani</item>
+        <item>Kazi</item>
+        <item>nyingine</item>
+        <item>Kaida</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Nyumbani</item>
+        <item>Kazi</item>
+        <item>nyingine</item>
+        <item>Kaida</item>
+    </string-array>
+</resources>

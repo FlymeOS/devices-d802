@@ -1,0 +1,154 @@
+<script>
+//---------------------------------------------------------------------------------------------------
+//fcontact line & click event
+
+var pressed_fcontactLine_imgae = 'url(' + folderPath + 'agent_list_bg_pressed.png)';
+var org_fcontactLine_image;
+
+$(".fcontact").on('touchstart',function(e){
+    org_fcontactLine_image =  $(e.currentTarget).css('background-image');
+    $(e.currentTarget).css('background-image', pressed_fcontactLine_imgae);
+
+    return true;
+});
+
+$(".fcontact").on('touchmove',function(e){
+    $(e.currentTarget).css('background-image', org_fcontactLine_image);
+    return true;
+});
+
+$(".fcontact").on('touchend',function(e){
+    $(e.currentTarget).css('background-image', org_fcontactLine_image);
+
+    var info = $(e.currentTarget).data('fcontactinfo');
+    var saveduri = window.AndroidInterface.getSavedContactUrl();
+
+    if( info["uri"] == "temp") {
+    	info["uri"] = saveduri;
+    }
+
+    console.log(JSON.stringify(info));
+    window.AndroidInterface.sendToAndroidForStartActivity(JSON.stringify(info));
+
+    return true;
+});
+//---------------------------------------------------------------------------------------------------
+//fcontact button & click event
+
+var pressed_fcontactbtn_imgae = '#34363B';
+var org_fcontactbtn_image;
+
+$(".fcontactbtn").on('touchstart',function(e){
+    org_fcontactbtn_image =  $(e.currentTarget).css('background-image');
+    $(e.currentTarget).css('background-image', pressed_fcontactbtn_imgae);
+
+    return true;
+});
+
+$(".fcontactbtn").on('touchmove',function(e){
+    $(e.currentTarget).css('background-image', org_fcontactbtn_image);
+
+    return true;
+});
+
+$(".fcontactbtn").on('touchend',function(e){
+    $(e.currentTarget).css('background-image', org_fcontactbtn_image);
+
+    return true;
+});
+
+function TypeClass (v, value) {
+   this.type = v;
+   this.value = value;
+};
+
+function buttonSave(e) {
+    var info= $(".buttondiv").data('fcontactbtninfo');
+
+/*     console.log(JSON.stringify(info));
+    window.AndroidInterface.sendToAndroidForContacts(JSON.stringify(info)); */
+
+    ///send pressed info "yes"
+    var JSONObject = {"choice":"yes"};
+    console.log(JSON.stringify(JSONObject));
+    window.AndroidInterface.sendToAndroidForWernickeManager(JSON.stringify(JSONObject));
+
+    $(".fcontactbtn").css('display','none');
+}
+
+function buttonCancel(e) {
+    $(".fcontactbtn").css('display','none');
+
+    ///send pressed info "no"
+    var JSONObject = {"choice":"no"};
+    console.log(JSON.stringify(JSONObject));
+    window.AndroidInterface.sendToAndroidForWernickeManager(JSON.stringify(JSONObject));
+}
+</script>
+
+<li>
+    <div width=100% style="background-image: url('<%= folderPath %>agent_list_bg_01.png'); ">
+        <table width=100% style="color:#ffffff; " class="fcontact"
+         data-fcontactinfo=
+         <% if( data.device){ %>
+         '{"action":"android.intent.action.VIEW", "uri": "temp"}'
+         <% } else { %>
+         '{"action":"<%= data.action %>","type":"vnd.android.cursor.dir/contact","name":"<%= data.name %>","phone":"<%= data.number %>"}'
+         <% }%>
+         >
+         <% if( data.guide_name){ %>
+            <tr height=43px>
+                <td  style="text-align:left; padding-left: 12px; padding-top: 15px;"><div class="agent_contact_title_01"><%= data.guide_name %></div></td>
+            </tr>
+            <tr>
+                <td style="padding-left: 12px;"><img src="<%= folderPath %>agent_list_line.png" height=1px width=96%></td>
+            </tr>
+              <% } else {%>
+            <tr height=43px>
+                <td  style="text-align:left; padding-left: 12px; padding-top: 15px;"><div class="agent_contact_title_01"><%= data.name %></div></td>
+            </tr>
+            <tr>
+                <td style="padding-left: 12px;"><img src="<%= folderPath %>agent_list_line.png" height=1px width=96%></td>
+            </tr>
+               <%}%>
+            <% if( data.guide_phone){ %>
+            <tr height=26px>
+                <td valign="bottom"  style="text-align:left; padding-left: 12px;"><div class="agent_list_02"><%= data.guide_phone %></div></td>
+             </tr>
+             <tr height=27px>
+                <td valign="top" style="text-align:left; padding-left: 12px;"><div class="agent_list_sub_02" style="color:#aaaaaa"><%= data.guide_mobile %></div></td>
+            </tr>
+            <% } else {%>
+            <tr height=26px>
+                <td valign="bottom" style="text-align:left; padding-left: 12px;"><div class="agent_list_02" style="color:#ffffff"><%= data.number %></div></td>
+             </tr>
+             <tr height=27px>
+                <td valign="top" style="text-align:left; padding-left: 12px;"><div class="agent_list_sub_02" style="color:#aaaaaa"><%= data.guide_mobile %></div></td>
+            </tr>
+            <%}%>
+        </table>
+
+        <div  class='buttondiv' style="padding: 8px 5px 12px 5px;
+            <% if(data.confirm && data.cancel) { %>
+            <%} else {%>
+                display : none;
+            <%}%>
+        " data-fcontactbtninfo='{"name":"<%= data.name %>",
+        "number":"<%= data.number %>"}'>
+         <table width=100%>
+                <tr>
+                    <td  width=50% align="center">
+                        <button type="button" class="fcontactbtn" style=" height:36px; width:96%;  border-radius:22px; background-color:#84888E; border:0; " onclick="buttonCancel(event);">
+                            <span class="agent_list_01"><%= data.cancel %></span>
+                        </button>
+                    </td>
+                    <td  width=50% align="center" >
+                        <button type="button" class="fcontactbtn"  style=" height:36px; width:96%;  border-radius:22px; background-color:#84888E; border:0; " onclick="buttonSave(event);">
+                            <span class="agent_list_01"><%= data.confirm %></span>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</li>

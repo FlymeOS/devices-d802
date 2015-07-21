@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">‏%d هەوڵت ماوە بەر لەوەی سیم كارتەكە قوفڵ بدرێت.</item>
+        <item quantity="one">‏%d هەوڵت ماوە بەر لەوەی سیم كارتەكە قوفڵ بدرێت.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">‏%dچرکه‌ پێش</item>
+        <item quantity="one">‏1چرکه‌ پێش</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">‏%dخوله‌ک پێش</item>
+        <item quantity="one">‏1خوله‌ک پێش</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">‏%d کاتژمێر پێش</item>
+        <item quantity="one">‏1 کاتژمێر پێش</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">‏دوایین %d رۆژ</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">‏%d رۆژ پێش</item>
+        <item quantity="one">‏دوێنێ</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">‏له‌ %dچرکه‌</item>
+        <item quantity="one">‏له‌ 1 چرکه‌</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">‏له‌ %dخوله‌ک</item>
+        <item quantity="one">‏له‌ 1 خوله‌ک</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">‏له‌ %dکاتژمێر</item>
+        <item quantity="one">‏له‌ 1 کاتژمێر</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">‏له‌ %d رۆژ</item>
+        <item quantity="one">‏سبه‌ینێ</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">‏%dچرکه‌ پێش</item>
+        <item quantity="one">‏1چرکه‌ پێش</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">‏%dخوله‌ک پێش</item>
+        <item quantity="one">‏1خوله‌ک پێش</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">‏%d کاتژمێر پێش</item>
+        <item quantity="one">‏1 کاتژمێر پێش</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">‏%d رۆژ پێش</item>
+        <item quantity="one">‏دوێنێ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">‏له‌ %dچرکه‌</item>
+        <item quantity="one">‏له‌ 1چرکه‌</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">‏له‌ %d خوله‌ک</item>
+        <item quantity="one">‏له‌ 1 خوله‌ک</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">‏له‌ %dکاتژمێر</item>
+        <item quantity="one">‏له‌ 1 کاتژمێر</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">‏له‌ %d رۆژ</item>
+        <item quantity="one">‏سبه‌ینێ</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">‏%d چرکه‌</item>
+        <item quantity="one">‏1 چرکه‌</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">‏%d خولەکەکان</item>
+        <item quantity="one">‏1 خوله‌ک</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">‏%dکاتژمێر</item>
+        <item quantity="one">‏1 کاتژمێر</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">‏تۆڕەکانی Wi-Fi لەبەردەست دان</item>
+        <item quantity="one">‏Wi-Fi تۆڕی لەبەردەستدا نییە</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">‏رایه‌ڵه‌ کراوه‌کانیWi-Fi له‌ به‌رده‌ستن</item>
+        <item quantity="one">‏رایه‌ڵه‌ی کراوه‌یWi-Fi له‌ به‌رده‌سته‌</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">‏%1$d له‌ %2$d</item>
+        <item quantity="one">‏1 هاوتایی</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">‏له‌ %d چرکه‌ی تردا دیسان تاقی بکه‌نه‌وه‌.</item>
+        <item quantity="one">‏له‌ 1 چرکه‌ی تردا دیسان تاقی بکه‌نه‌وه‌.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">‏بۆ ماوەی %d خولەك</item>
+        <item quantity="one">‏بۆ یەك خولەك</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">‏بۆ ماوەی %d كاتژمێر</item>
+        <item quantity="one">‏بۆ یەك كاتژمێر</item>
+    </plurals>
+</resources>

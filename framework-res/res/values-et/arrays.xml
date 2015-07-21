@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Kodu</item>
+        <item>Töö</item>
+        <item>Muud</item>
+        <item>Kohandatud</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Töö</item>
+        <item>Muud</item>
+        <item>Kohandatud</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Kodu</item>
+        <item>Mobiil</item>
+        <item>Töö</item>
+        <item>Töö faks</item>
+        <item>Kodu faks</item>
+        <item>Piipar</item>
+        <item>Muud</item>
+        <item>Kohandatud</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Kodu</item>
+        <item>Töö</item>
+        <item>Muud</item>
+        <item>Kohandatud</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Kodu</item>
+        <item>Töö</item>
+        <item>Muud</item>
+        <item>Kohandatud</item>
+    </string-array>
+</resources>

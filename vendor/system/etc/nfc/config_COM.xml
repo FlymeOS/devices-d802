@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="EUC-KR" standalone="no" ?>
+<Configure>
+    <!-- Default -->
+    <!--
+    OPEN_XXX
+
+    OPEN_EU(Europe)
+    OPEN_VNM(Vietnam)
+    OPEN_MYS(Malaysia)
+    OPEN_CIS
+    OPEN_TW(Taiwan)
+    OPEN_ZAF(South Africa)
+    OPEN_SCA(South Centrl America)
+    OPEN_HK(Hongkong)
+    OPEN_ESA(East South Asia)
+    OPEN_AME(Middle East Asia & Africa)
+     -->
+    <Config operator="" country="" device="">
+    </Config>
+
+    <!-- XXX_COM  -->
+    <Config operator="" country="COM" device="">
+        <DefaultOnOffType targetdevice="c50n"> open </DefaultOnOffType>
+        <MccMncSupport targetdevice="c50n"> true </MccMncSupport>
+        <DefaultOnOffType targetdevice="c70n"> open </DefaultOnOffType>
+        <MccMncSupport targetdevice="c70n"> true </MccMncSupport>
+        <DefaultOnOffType targetdevice="c90n"> open </DefaultOnOffType>
+        <MccMncSupport targetdevice="c90n"> true </MccMncSupport>
+        <DefaultOnOffType targetdevice="z2"> open </DefaultOnOffType>
+        <MccMncSupport targetdevice="z2"> true </MccMncSupport>
+    </Config>
+    <!-- XXX_EU  -->
+    <Config operator="" country="EU" device="">
+        <DefaultOnOffType targetdevice="luv50ssn"> open </DefaultOnOffType>
+        <DefaultOnOffType targetdevice="c50n"> open </DefaultOnOffType>
+        <MccMncSupport targetdevice="c50n"> true </MccMncSupport>
+        <DefaultOnOffType targetdevice="c70n"> open </DefaultOnOffType>
+        <MccMncSupport targetdevice="c70n"> true </MccMncSupport>
+        <DefaultOnOffType targetdevice="c90n"> open </DefaultOnOffType>
+        <MccMncSupport targetdevice="c90n"> true </MccMncSupport>
+        <DefaultOnOffType targetdevice="z2"> open </DefaultOnOffType>
+        <MccMncSupport targetdevice="z2"> true </MccMncSupport>
+        <DefaultOnOffType targetdevice="e2n"> open </DefaultOnOffType>
+        <MccMncSupport targetdevice="e2n"> true </MccMncSupport>
+    </Config>
+    <!-- Vodafone / Open -->
+    <Config operator="VDF" country="COM" device="">
+        <DefaultOnOffType> open </DefaultOnOffType>
+        <MccMncSupport targetdevice="c50n"> true </MccMncSupport>
+        <MccMncSupport targetdevice="c70n"> true </MccMncSupport>
+        <MccMncSupport targetdevice="z2"> true </MccMncSupport>
+        <MccMncSupport targetdevice="g2"> true </MccMncSupport>
+    </Config>
+    <!-- Orange / Open -->
+    <Config operator="ORG" country="COM" device="">
+        <RingSoundScenarioType> usevibrate </RingSoundScenarioType>
+        <DefaultOnOffType> open </DefaultOnOffType>
+        <MccMncSupport targetdevice="c50n"> true </MccMncSupport>
+        <MccMncSupport targetdevice="c70n"> true </MccMncSupport>
+        <MccMncSupport targetdevice="z2"> true </MccMncSupport>
+    </Config>
+    <!-- T-Mobile / Open -->
+    <Config operator="TMO" country="COM" device="">
+        <DefaultOnOffType> open </DefaultOnOffType>
+        <MccMncSupport targetdevice="z2"> true </MccMncSupport>
+        <MccMncSupport targetdevice="c50n"> true </MccMncSupport>
+        <MccMncSupport targetdevice="c70n"> true </MccMncSupport>
+    </Config>
+    <!-- AME / Open -->
+    <Config operator="OPEN" country="AME" device="">
+        <DefaultOnOffType> open </DefaultOnOffType>
+        <MccMncSupport targetdevice="z2"> true </MccMncSupport>
+    </Config>
+    <!-- Hutchison / Open -->
+    <Config operator="H3G" country="COM" device="">
+        <DefaultOnOffType> open </DefaultOnOffType>
+    </Config>
+</Configure>

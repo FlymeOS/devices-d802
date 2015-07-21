@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>მთავარი გვერდი</item>
+        <item>სამუშაო</item>
+        <item>სხვა</item>
+        <item>ინდივიდუალური</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>სამუშაო</item>
+        <item>სხვა</item>
+        <item>ინდივიდუალური</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>მთავარი გვერდი</item>
+        <item>მობილური</item>
+        <item>სამუშაო</item>
+        <item>სამსახურის ფაქსი</item>
+        <item>მთავარი ფაქსი</item>
+        <item>პეიჯერი</item>
+        <item>სხვა</item>
+        <item>ინდივიდუალური</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>მთავარი გვერდი</item>
+        <item>სამუშაო</item>
+        <item>სხვა</item>
+        <item>ინდივიდუალური</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>მთავარი გვერდი</item>
+        <item>სამუშაო</item>
+        <item>სხვა</item>
+        <item>ინდივიდუალური</item>
+    </string-array>
+</resources>

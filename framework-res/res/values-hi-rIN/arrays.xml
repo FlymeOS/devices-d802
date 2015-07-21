@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>होम</item>
+        <item>कार्य</item>
+        <item>अन्य</item>
+        <item>कस्टम</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>कार्य</item>
+        <item>अन्य</item>
+        <item>कस्टम</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>होम</item>
+        <item>मोबाइल</item>
+        <item>कार्य</item>
+        <item>कार्य फैक्स</item>
+        <item>" होम  फैक्स"</item>
+        <item>पेजर</item>
+        <item>अन्य</item>
+        <item>कस्टम</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>होम</item>
+        <item>कार्य</item>
+        <item>अन्य</item>
+        <item>कस्टम</item>
+    </string-array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>20593684</item>
+        <item>78962880</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>3</item>
+    </integer-array>
+    <string-array name="imAddressTypes">
+        <item>होम</item>
+        <item>कार्य</item>
+        <item>अन्य</item>
+        <item>कस्टम</item>
+    </string-array>
+</resources>

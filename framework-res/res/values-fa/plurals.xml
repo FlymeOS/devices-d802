@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">‏شما %d بار دیگر می توانید امتحان کنید و بعد از آن سیم قفل می شود.</item>
+        <item quantity="one">‏شما %d بار دیگر می توانید امتحان کنید و بعد از آن سیم قفل می شود.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">‏%d ثانیه قبل</item>
+        <item quantity="one">‏1 ثانیه قبل</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">‏%d دقیقه قبل</item>
+        <item quantity="one">‏1دقیقه قبل</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">‏%d ساعت قبل</item>
+        <item quantity="one">‏1 ساعت قبل</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">‏ %d روز آخر</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">‏%d روز قبل</item>
+        <item quantity="one">‏دیروز</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">‏ثانیه %d</item>
+        <item quantity="one">‏داخلی 1 ثانیه</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">‏دقیقه %d</item>
+        <item quantity="one">‏در 1 دقیقه اخیر</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">‏ساعت اخیر %dدر</item>
+        <item quantity="one">‏در 1 ساعت اخیر</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">‏%d روز بعد</item>
+        <item quantity="one">‏فردا</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">‏%d ثانیه قبل</item>
+        <item quantity="one">‏1 ثانیه قبل</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">‏%d دقیقه قبل</item>
+        <item quantity="one">‏1 دقیقه قبل</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">‏%d ساعت قبل</item>
+        <item quantity="one">‏1 ساعت قبل</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">‏%d روز قبل</item>
+        <item quantity="one">‏دیروز</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">‏ثانیه %d</item>
+        <item quantity="one">‏داخلی 1 ثانیه</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">‏دقیقه %d</item>
+        <item quantity="one">‏داخلی 1 دقیقه</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">‏ساعت اخیر %dدر</item>
+        <item quantity="one">‏داخلی 1 ساعت</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">‏%d روز بعد</item>
+        <item quantity="one">‏فردا</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">‏%d ثانیه</item>
+        <item quantity="one">‏1 ثانیه</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">‏%d دقیقه</item>
+        <item quantity="one">‏۱ دقیقه</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">‏%d ساعت</item>
+        <item quantity="one">‏۱ ساعت</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">‏شبکه های Wi-Fi موجود</item>
+        <item quantity="one">‏شبکه Wi-Fi موجود است</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">‏باز کردن شبکه های Wi-Fi موجود</item>
+        <item quantity="one">‏باز کردن شبکه Wi-Fi موجود</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">‏%1$d از %2$d</item>
+        <item quantity="one">‏1 مورد منطبق</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">‏تا %d ثانیه دوباره امتحان کنید.</item>
+        <item quantity="one">‏تا 1 ثانیه دوباره امتحان کنید.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">‏‏برای %d دقیقه</item>
+        <item quantity="one">‏برای یک دقیقه</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">‏‏برای %d ساعت</item>
+        <item quantity="one">‏برای یک ساعت</item>
+    </plurals>
+</resources>

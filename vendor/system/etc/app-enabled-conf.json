@@ -1,0 +1,211 @@
+{"ApplicationEnabledSetting":[
+           {
+                     "target_country":"------ default ------",
+                     "sim.mcc":"",
+                     "sim.mnc":[""],
+                     "pkglist":[
+				{"path":"/system/vendor/carrier/system/LGTTSPAService.apk", "type":"system_app"},
+				{"path":"/system/vendor/carrier/system/LGNLPService.apk", "type":"system_app"},
+				{"path":"/system/vendor/carrier/system/LGQVoice.apk", "type":"system_app"}
+                                ]
+           },
+           {
+                     "target_country":"------ VDF AU ------",
+                     "sim.mcc":"232",
+                     "sim.mnc":["01"],
+                     "pkglist":[
+                     			{"path":"/system/vendor/carrier/system/A1_Apps_v2.3_aligned/A1_Apps_v2.3_aligned.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LG_V9_Amazon_KindleForAndroid-4.0.1.3/LG_V9_Amazon_KindleForAndroid-4.0.1.3.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/Discover_3.0.10GA/Discover_3.0.10GA.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/MobileCostManager/MobileCostManager.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LGTTSPAService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGNLPService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGQVoice.apk", "type":"system_app"}
+                     ]
+           },
+	   {
+                     "target_country":"------ VDF ES ------",
+                     "sim.mcc":"214",
+                     "sim.mnc":["01"],
+                     "pkglist":[
+                     			{"path":"/system/vendor/carrier/system/LG_V9_Amazon_AmazonShopping_v2.4.0/LG_V9_Amazon_AmazonShopping_v2.4.0.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LG_V9_Amazon_KindleForAndroid-4.0.1.3/LG_V9_Amazon_KindleForAndroid-4.0.1.3.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/Discover_3.0.10GA/Discover_3.0.10GA.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LG_V9_eBay_eBayMobile_2.3.0.25c26/LG_V9_eBay_eBayMobile_2.3.0.25c26.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/ec26_signed/ec26_signed.apk", "type":"system_app"},
+                     			{"path":"/system/vendor/carrier/system/My_Web_v1.0.12/My_Web_v1.0.12.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/Contacts_3.0.50.01/Contacts_3.0.50.01.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/VodafoneCloud_2.000000056/VodafoneCloud_2.000000056.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/Protect_v2.2.106/Protect_v2.2.106.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/p-unsigned_24-06-2013-10-36-58_AndroidVFSigned/p-unsigned_24-06-2013-10-36-58_AndroidVFSigned.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/s-unsigned_24-06-2013-10-36-46_AndroidVFSigned/s-unsigned_24-06-2013-10-36-46_AndroidVFSigned.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LG_V9_Tripadvisor_TripAdvisor_3.0.1/LG_V9_Tripadvisor_TripAdvisor_3.0.1.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/MiVodafone.3.0.2/MiVodafone.3.0.2.apk", "type":"uninstallable"},
+					{"path":"/system/vendor/carrier/system/LGTTSPAService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGNLPService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGQVoice.apk", "type":"system_app"}
+                     ]
+           },
+           {
+                     "target_country":"------ VDF DE ------",
+                     "sim.mcc":"262",
+                     "sim.mnc":["02"],
+                     "pkglist":[
+                     			{"path":"/system/vendor/carrier/system/LG_V9_Amazon_AmazonShopping_v2.4.0/LG_V9_Amazon_AmazonShopping_v2.4.0.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LG_V9_Amazon_KindleForAndroid-4.0.1.3/LG_V9_Amazon_KindleForAndroid-4.0.1.3.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/Discover_3.0.10GA/Discover_3.0.10GA.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LG_V9_eBay_eBayMobile_2.3.0.25c26/LG_V9_eBay_eBayMobile_2.3.0.25c26.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/ec26_signed/ec26_signed.apk", "type":"system_app"},
+                     			{"path":"/system/vendor/carrier/system/My_Web_v1.0.12/My_Web_v1.0.12.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/Contacts_3.0.50.01/Contacts_3.0.50.01.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/VodafoneCloud_2.000000056/VodafoneCloud_2.000000056.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/Protect_v2.2.106/Protect_v2.2.106.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/p-unsigned_24-06-2013-10-36-58_AndroidVFSigned/p-unsigned_24-06-2013-10-36-58_AndroidVFSigned.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/s-unsigned_24-06-2013-10-36-46_AndroidVFSigned/s-unsigned_24-06-2013-10-36-46_AndroidVFSigned.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LG_V9_Tripadvisor_TripAdvisor_3.0.1/LG_V9_Tripadvisor_TripAdvisor_3.0.1.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/Vouchercloud_V.2.6.0/Vouchercloud_V.2.6.0.apk", "type":"uninstallable"},
+					{"path":"/system/vendor/carrier/system/LGSmartWorldbin.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LGTTSPAService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGNLPService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGQVoice.apk", "type":"system_app"}
+                     ]
+           },
+           {
+                     "target_country":"------ VDF HU ------",
+                     "sim.mcc":"216",
+                     "sim.mnc":["70"],
+                     "pkglist":[
+                     			{"path":"/system/vendor/carrier/system/MobilVodafone/MobilVodafone.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LG_V9_Amazon_KindleForAndroid-4.0.1.3/LG_V9_Amazon_KindleForAndroid-4.0.1.3.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LGTTSPAService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGNLPService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGQVoice.apk", "type":"system_app"}
+                     ]
+           },
+	   {
+                     "target_country":"------ VDF IT ------",
+                     "sim.mcc":"222",
+                     "sim.mnc":["10"],
+                     "pkglist":[
+                     			{"path":"/system/vendor/carrier/system/LG_V9_Amazon_AmazonShopping_v2.4.0/LG_V9_Amazon_AmazonShopping_v2.4.0.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LG_V9_Amazon_KindleForAndroid-4.0.1.3/LG_V9_Amazon_KindleForAndroid-4.0.1.3.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/Discover_3.0.10GA/Discover_3.0.10GA.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LG_V9_eBay_eBayMobile_2.3.0.25c26/LG_V9_eBay_eBayMobile_2.3.0.25c26.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/ec26_signed/ec26_signed.apk", "type":"system_app"},
+                     			{"path":"/system/vendor/carrier/system/My_Web_v1.0.12/My_Web_v1.0.12.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/Contacts_3.0.50.01/Contacts_3.0.50.01.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/VodafoneCloud_2.000000056/VodafoneCloud_2.000000056.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/VodafoneCalcio_2.2.6/VodafoneCalcio_2.2.6.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/p-unsigned_24-06-2013-10-36-58_AndroidVFSigned/p-unsigned_24-06-2013-10-36-58_AndroidVFSigned.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/s-unsigned_24-06-2013-10-36-46_AndroidVFSigned/s-unsigned_24-06-2013-10-36-46_AndroidVFSigned.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LG_V9_Tripadvisor_TripAdvisor_3.0.1/LG_V9_Tripadvisor_TripAdvisor_3.0.1.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/MyVodafone/MyVodafone.apk", "type":"uninstallable"},
+					{"path":"/system/vendor/carrier/system/LGTTSPAService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGNLPService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGQVoice.apk", "type":"system_app"}
+                     ]
+           },
+	   {
+                     "target_country":"------ VDF Crotia ------",
+                     "sim.mcc":"219",
+                     "sim.mnc":["10"],
+                     "pkglist":[
+                     			{"path":"/system/vendor/carrier/system/Discover_3.0.10GA/Discover_3.0.10GA.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/OSAMojVip/OSAMojVip.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/Svastanesto/Svastanesto.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/eKnjizara-1.0.9/eKnjizara-1.0.9.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/vipepg_1.1/vipepg_1.1.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/VIP_TV_za_van/VIP_TV_za_van.apk", "type":"uninstallable"},
+					{"path":"/system/vendor/carrier/system/LGTTSPAService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGNLPService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGQVoice.apk", "type":"system_app"}
+                     ]
+           },
+           {
+                     "target_country":"------ VDF UK ------",
+                     "sim.mcc":"234",
+                     "sim.mnc":["15"],
+                     "pkglist":[
+                     			{"path":"/system/vendor/carrier/system/LG_V9_Amazon_AmazonShopping_v2.4.0/LG_V9_Amazon_AmazonShopping_v2.4.0.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LG_V9_Amazon_KindleForAndroid-4.0.1.3/LG_V9_Amazon_KindleForAndroid-4.0.1.3.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/Discover_3.0.10GA/Discover_3.0.10GA.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/LG_V9_eBay_eBayMobile_2.3.0.25c26/LG_V9_eBay_eBayMobile_2.3.0.25c26.apk", "type":"uninstallable"},
+                     			{"path":"/system/vendor/carrier/system/ec26_signed/ec26_signed.apk", "type":"system_app"},
+                     			{"path":"/system/vendor/carrier/system/My_Web_v1.0.12/My_Web_v1.0.12.apk", "type":"uninstallable"},
+					{"path":"/system/vendor/carrier/system/Music2.apk", "type":"system_app"},
+           				{"path":"/system/vendor/carrier/system/Videos.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/Books.apk", "type":"system_app"},
+                     			{"path":"/system/vendor/carrier/system/LGTTSPAService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGNLPService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGQVoice.apk", "type":"system_app"}
+                     ]
+           },
+	              {
+                     "target_country":"------ SFR ------",
+                     "sim.mcc":"208",
+                     "sim.mnc":["10"],
+                     "pkglist":[
+					{"path":"/system/vendor/carrier/system/OSASFRCitizy/OSASFRCitizy.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/1555_SFRJeux_3.0.1/1555_SFRJeux_3.0.1.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/1754_SFR_MesApplis_v2.0.0/1754_SFR_MesApplis_v2.0.0.apk", "type":"system_app"}
+                     ]
+           },
+	   {
+                     "target_country":"------ SRR ------",
+                     "sim.mcc":"647",
+                     "sim.mnc":["10"],
+                     "pkglist":[
+					{"path":"/system/vendor/carrier/system/1754_SFR_MesApplis_v2.0.0/1754_SFR_MesApplis_v2.0.0.apk", "type":"system_app"}
+                     ]
+           },
+	   {
+                     "target_country":"------ NRJ ------",
+                     "sim.mcc":"208",
+                     "sim.mnc":["10"],
+                     "sim.gid":"4E524A31",
+                     "pkglist":[
+
+                     ]
+           },
+	   {
+                     "target_country":"------ Coriolis  ------",
+                     "sim.mcc":"208",
+                     "sim.mnc":["10"],
+                     "sim.gid":"12",
+                     "pkglist":[
+
+                     ]
+           },
+	   {
+                     "target_country":"------ Coriolis  ------",
+                     "sim.mcc":"647",
+                     "sim.mnc":["10"],
+                     "sim.gid":"12",
+                     "pkglist":[
+
+                     ]
+           },
+	   {
+                     "target_country":"------ VDF Cyprus ------",
+                     "sim.mcc":"280",
+                     "sim.mnc":["01"],
+                     "pkglist":[
+                     			{"path":"/system/vendor/carrier/system/LGTTSPAService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGNLPService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGQVoice.apk", "type":"system_app"}
+                     ]
+           },
+           {
+                     "target_country":"------ O2 UK ------",
+                     "sim.mcc":"234",
+                     "sim.mnc":["10"],
+                     "pkglist":[
+             				{"path":"/system/vendor/carrier/system/Videos.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/Books.apk", "type":"system_app"},
+                     			{"path":"/system/vendor/carrier/system/LGTTSPAService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGNLPService.apk", "type":"system_app"},
+					{"path":"/system/vendor/carrier/system/LGQVoice.apk", "type":"system_app"}
+                     ]
+           }
+]
+}

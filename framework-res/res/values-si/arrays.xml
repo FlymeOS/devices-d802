@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>නිවස්න</item>
+        <item>වැඩ</item>
+        <item>අනන්‍යයා</item>
+        <item>අභිමත</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>සජීව කවුළු</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>වැඩ</item>
+        <item>අනන්‍යයා</item>
+        <item>අභිමත</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>නිවස්න</item>
+        <item>ජංගම</item>
+        <item>වැඩ</item>
+        <item>වැඩ ෆැක්ස් එක</item>
+        <item>Home ෆැක්ස්</item>
+        <item>පේජරය</item>
+        <item>අනන්‍යයා</item>
+        <item>අභිමත</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>නිවස්න</item>
+        <item>වැඩ</item>
+        <item>අනන්‍යයා</item>
+        <item>අභිමත</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>නිවස්න</item>
+        <item>වැඩ</item>
+        <item>අනන්‍යයා</item>
+        <item>අභිමත</item>
+    </string-array>
+</resources>

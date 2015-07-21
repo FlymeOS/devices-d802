@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profiles>
+    <profile>
+        <siminfo operator="OPEN" country="EU" mcc="" mnc="" default="true">
+            <item name="ShortCodeCall">08</item>
+        </siminfo>
+    </profile>
+    <profile>
+        <siminfo operator="3" country="Ireland" mcc="272" mnc="05" />
+        <item name="VMS">+353833333171</item>
+        <item name="RVMS">+353833333171</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="3 AT" country="Austria" mcc="232" mnc="05" />
+        <item name="VMS">+43660303060</item>
+        <item name="RVMS">+43660303060</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">23203,23205,23210</item>
+    </profile>
+    <profile>
+        <siminfo operator="3 AT" country="Austria" mcc="232" mnc="10" />
+        <item name="VMS">+43660303060</item>
+        <item name="RVMS">+43660303060</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">23201,23203,23205,23210,23211</item>
+    </profile>
+    <profile>
+        <siminfo operator="A1" country="Austria" mcc="232" mnc="01" />
+        <item name="VMS">66477</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">23201,23210,23211</item>
+    </profile>
+    <profile>
+        <siminfo operator="BASE" country="Belgium" mcc="206" mnc="20" />
+        <item name="VMS">1933</item>
+        <item name="RVMS">+32486191933</item>
+        <item name="ECC_list">100,101</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="BEN" country="Netherlands" mcc="204" mnc="16" spn="Ben NL" />
+        <item name="VMS">+31624001233</item>
+        <item name="RVMS">+31624001233</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="BH TELECOM" country="Bosnia and Herzegovina" mcc="218" mnc="90" />
+        <item name="VMS">+38761123123</item>
+        <item name="RVMS">+38761123123</item>
+        <item name="ECC_IdleMode">122,123,124</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="BIBOB" country="Denmark" mcc="238" mnc="02" spn="BiBoB" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="BITE" country="Latvia" mcc="247" mnc="05" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="BITE" country="Lithuania" mcc="246" mnc="02" />
+        <item name="VMS">1511</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="BOUYGUES" country="France" mcc="208" mnc="20" />
+        <item name="VMS">+33660660001</item>
+        <item name="RVMS">+33660660001</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="BTC" country="Bulgaria" mcc="284" mnc="03" />
+        <item name="VMS">+35987110</item>
+        <item name="RVMS">+35987110</item>
+        <item name="ECC_list">150,160,166</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Bt" country="United Kingdom" mcc="234" mnc="08" gid="B2" />
+        <siminfo operator="Bt" country="United Kingdom" mcc="234" mnc="15" gid="B3" />
+        <siminfo operator="Bt" country="United Kingdom" mcc="234" mnc="30" gid="B2" />
+        <siminfo operator="Bt" country="United Kingdom" mcc="234" mnc="30" gid="B3" />
+        <siminfo operator="Bt" country="United Kingdom" mcc="234" mnc="30" gid="C3" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Bulsatcom" country="Bulgaria" mcc="284" mnc="11" />
+        <item name="ECC_list">150,160,166</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="CALL_ME" country="Denmark" mcc="238" mnc="20" spn="Call me" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="CARREFOUR" country="France" mcc="208" mnc="01" gid="33633437" />
+        <item name="VMS">888</item>
+        <item name="RVMS">888</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="CBB_MOBIL" country="Denmark" mcc="238" mnc="02" spn="CBB Mobil" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="CHESS" country="Norway" mcc="242" mnc="02" imsi="2420256xxxxxxxx" />
+        <item name="VMS">92100000</item>
+        <item name="RVMS">+4792100000</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="COSMOTE" country="Greece" mcc="202" mnc="01" />
+        <item name="VMS">+306971000123</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Telekom" country="Romania" mcc="226" mnc="03" />
+        <siminfo operator="Telekom" country="Romania" mcc="226" mnc="06" />
+        <item name="VMS">177</item>
+        <item name="RVMS">+40766177177</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">22603,22606</item>
+    </profile>
+    <profile>
+        <siminfo operator="Carrefour" country="Spain" mcc="214" mnc="03" imsi="2140352xxxxxxxx" />
+        <item name="VMS">242</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">21401,21403,21404,21407</item>
+    </profile>
+    <profile>
+        <siminfo operator="Coriolis" country="France" mcc="208" mnc="10" gid="12" />
+        <siminfo operator="Coriolis" country="France" mcc="647" mnc="10" gid="12" />
+        <item name="VMS">123</item>
+        <item name="RVMS">123</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="DEBITEL_E-PULS" country="Germany" mcc="262" mnc="03" spn="debitel" />
+        <siminfo operator="DEBITEL_E-PULS" country="Germany" mcc="262" mnc="03" spn="mobilcom-debitel" />
+        <item name="VMS">+491779911</item>
+        <item name="RVMS">+491779911</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="DEBITEL_O2" country="Germany" mcc="262" mnc="07" spn="debitel" />
+        <siminfo operator="DEBITEL_O2" country="Germany" mcc="262" mnc="07" spn="mobilcom-debitel" />
+        <item name="VMS">+491793000333</item>
+        <item name="RVMS">+491793000333</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="DEBITEL_TELEKOM" country="Germany" mcc="262" mnc="01" spn="debitel" />
+        <siminfo operator="DEBITEL_TELEKOM" country="Germany" mcc="262" mnc="01" spn="mobilcom-debitel" />
+        <item name="VMS">3311</item>
+        <item name="RVMS">+491712523311</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="DEBITEL_VODAFONE" country="Germany" mcc="262" mnc="02" spn="debitel" />
+        <siminfo operator="DEBITEL_VODAFONE" country="Germany" mcc="262" mnc="02" spn="mobilcom-debitel" />
+        <item name="VMS">5500</item>
+        <item name="RVMS">5500</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="DLG_TELE" country="Denmark" mcc="238" mnc="20" spn="DLG Tele" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="DNA" country="Finland" mcc="244" mnc="03" />
+        <siminfo operator="DNA" country="Finland" mcc="244" mnc="12" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Digi.Mobil" country="Romania" mcc="226" mnc="05" />
+        <item name="VMS">760</item>
+        <item name="RVMS">+40770000760</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Digicel" country="France Caraibes" mcc="340" mnc="20" />
+        <item name="VMS">660</item>
+        <item name="RVMS">+596696900660</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="E-PLUS" country="Germany" mcc="262" mnc="03" />
+        <item name="VMS">+491779911</item>
+        <item name="RVMS">+491779911</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="EE" country="United Kingdom" mcc="234" mnc="30" />
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">23430,23431,23432,23433,23434,23486</item>
+    </profile>
+    <profile>
+        <siminfo operator="EE" country="United Kingdom" mcc="234" mnc="33" />
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">23431,23432,23434,23486</item>
+    </profile>
+    <profile>
+        <siminfo operator="ELISA" country="Estonia" mcc="248" mnc="02" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="ELISA" country="Finland" mcc="244" mnc="05" />
+        <item name="VMS">+35850950777</item>
+        <item name="RVMS">+35850950777</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="EMT" country="Estonia" mcc="248" mnc="01" />
+        <siminfo operator="EMT" country="Estonia" mcc="248" mnc="01" imsi="24801012xxxxxxx" />
+        <siminfo operator="EMT" country="Estonia" mcc="248" mnc="01" imsi="24801013xxxxxxx" />
+        <siminfo operator="EMT" country="Estonia" mcc="248" mnc="01" imsi="24801022xxxxxxx" />
+        <siminfo operator="EMT" country="Estonia" mcc="248" mnc="01" imsi="24801023xxxxxxx" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="ERONET" country="Bosnia and Herzegovina" mcc="218" mnc="03" />
+        <item name="VMS">+387633888</item>
+        <item name="RVMS">+387633888</item>
+        <item name="ECC_IdleMode">122,123,124</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="EROSKI_MOVIL" country="Spain" mcc="214" mnc="06" imsi="2140606xxxxxxxx" />
+        <item name="VMS">22177</item>
+        <item name="RVMS">+34662828662</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">21401,21403,21404,21407</item>
+    </profile>
+    <profile>
+        <siminfo operator="EUSKALTEL" country="Spain" mcc="214" mnc="03" gid="0008" />
+        <siminfo operator="EUSKALTEL" country="Spain" mcc="214" mnc="03" imsi="2140359xxxxxxxx" />
+        <item name="VMS">2242</item>
+        <item name="RVMS">+34688688242</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">21401,21403,21404,21407</item>
+    </profile>
+    <profile>
+        <siminfo operator="FASTWEB" country="Italy" mcc="222" mnc="99" spn="FASTWEB" />
+        <item name="VMS">4141</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="FREE" country="France" mcc="208" mnc="15" />
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">20815,20801,20802</item>
+    </profile>
+    <profile>
+        <siminfo operator="Telenor BG" country="Bulgaria" mcc="284" mnc="05" />
+        <item name="VMS">120</item>
+        <item name="RVMS">120</item>
+        <item name="ECC_list">150,160,166</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Giffgaff" country="United Kingdom" mcc="234" mnc="10" gid="508" />
+        <item name="VMS">443</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="HALEBOP" country="Sweden" mcc="240" mnc="01" imsi="24001704xxxxxxx" />
+        <siminfo operator="HALEBOP" country="Sweden" mcc="240" mnc="01" imsi="24001714xxxxxxx" />
+        <item name="VMS">147</item>
+        <item name="RVMS">+46706133133</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">24001,24005</item>
+    </profile>
+    <profile>
+        <siminfo operator="HUTCHISON" country="Denmark" mcc="238" mnc="06" />
+        <item name="VMS">+4531133333</item>
+        <item name="RVMS">+4531133333</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="HUTCHISON" country="Italy" mcc="222" mnc="99" />
+        <item name="VMS">4133</item>
+        <item name="RVMS">+393933934133</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="HUTCHISON" country="Sweden" mcc="240" mnc="02" />
+        <siminfo operator="HUTCHISON" country="Sweden" mcc="240" mnc="04" />
+        <item name="VMS">333</item>
+        <item name="RVMS">+46735333333</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">24002,24004</item>
+    </profile>
+    <profile>
+        <siminfo operator="HUTCHISON" country="United Kingdom" mcc="234" mnc="20" />
+        <siminfo operator="HUTCHISON" country="United Kingdom" mcc="235" mnc="94" />
+        <item name="VMS">+447782333123</item>
+        <item name="RVMS">+447782333123</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="HollandsNieuwe" country="Netherlands" mcc="204" mnc="04" imsi="2040479105xxxxx" />
+        <siminfo operator="HollandsNieuwe" country="Netherlands" mcc="204" mnc="04" imsi="2040479106xxxxx" />
+        <siminfo operator="HollandsNieuwe" country="Netherlands" mcc="204" mnc="04" imsi="2040479107xxxxx" />
+        <siminfo operator="HollandsNieuwe" country="Netherlands" mcc="204" mnc="04" imsi="2040479108xxxxx" />
+        <siminfo operator="HollandsNieuwe" country="Netherlands" mcc="204" mnc="04" imsi="2040479109xxxxx" />
+        <siminfo operator="HollandsNieuwe" country="Netherlands" mcc="204" mnc="04" imsi="2040479135xxxxx" />
+        <siminfo operator="HollandsNieuwe" country="Netherlands" mcc="204" mnc="04" imsi="2040479136xxxxx" />
+        <siminfo operator="HollandsNieuwe" country="Netherlands" mcc="204" mnc="04" imsi="2040479137xxxxx" />
+        <item name="VMS">+31637001233</item>
+        <item name="RVMS">+31637001233</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="JAZZTEL" country="Spain" mcc="214" mnc="07" spn="JAZZTEL" />
+        <siminfo operator="JAZZTEL" country="Spain" mcc="214" mnc="21" spn="JAZZTEL" />
+        <item name="VMS">1222</item>
+        <item name="RVMS">+34640001222</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">21403,21401,21404,21407</item>
+    </profile>
+    <profile>
+        <siminfo operator="JOIN" country="Luxembourg" mcc="270" mnc="01" spn="Join" />
+        <siminfo operator="JOIN" country="Luxembourg" mcc="270" mnc="016" spn="Join" />
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">270016</item>
+    </profile>
+    <profile>
+        <siminfo operator="KPN" country="Netherlands" mcc="204" mnc="08" />
+        <item name="VMS">1233</item>
+        <item name="RVMS">+31612001233</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="KPN" country="Spain" mcc="214" mnc="19" />
+        <item name="VMS">1213</item>
+        <item name="RVMS">+34644001213</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">21401,21403,21404,21407</item>
+    </profile>
+    <profile>
+        <siminfo operator="LA POSTE MOBILE" country="France" mcc="208" mnc="10" gid="4C504D" />
+        <item name="VMS">123</item>
+        <item name="RVMS">0033612000123</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">20810</item>
+    </profile>
+    <profile>
+        <siminfo operator="LECLERC" country="France" mcc="208" mnc="10" spn="LeclercMobile" />
+        <item name="VMS">123</item>
+        <item name="RVMS">123</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="LMT" country="Latvia" mcc="247" mnc="01" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="LTE MVNOs" country="Netherlands" mcc="204" mnc="03" />
+        <siminfo operator="LTE MVNOs" country="Netherlands" mcc="204" mnc="04" imsi="20404794xxxxxxx" />
+        <siminfo operator="LTE MVNOs" country="Netherlands" mcc="204" mnc="06" />
+        <siminfo operator="LTE MVNOs" country="Netherlands" mcc="204" mnc="07" />
+        <siminfo operator="LTE MVNOs" country="Netherlands" mcc="204" mnc="08" imsi="204080950xxxxxx" />
+        <siminfo operator="LTE MVNOs" country="Netherlands" mcc="204" mnc="09" />
+        <siminfo operator="LTE MVNOs" country="Netherlands" mcc="204" mnc="17" />
+        <siminfo operator="LTE MVNOs" country="Netherlands" mcc="204" mnc="23" />
+        <siminfo operator="LTE MVNOs" country="Netherlands" mcc="204" mnc="24" />
+        <siminfo operator="LTE MVNOs" country="Netherlands" mcc="204" mnc="65" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Lebara" country="Switzerland" mcc="228" mnc="02" imsi="22802xx43xxxxxx" />
+        <siminfo operator="Lebara" country="Switzerland" mcc="228" mnc="02" imsi="22802xx45xxxxxx" />
+        <item name="VMS">+41763333333</item>
+        <item name="RVMS">+41763333333</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">22802</item>
+    </profile>
+    <profile>
+        <siminfo operator="Life" country="Belarus" mcc="257" mnc="04" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="M-TEL" country="Bulgaria" mcc="284" mnc="01" />
+        <item name="VMS">131</item>
+        <item name="RVMS">131</item>
+        <item name="ECC_list">150,160,166</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="MEO" country="Portugal" mcc="268" mnc="06" />
+        <item name="VMS">+351962000000</item>
+        <item name="RVMS">+351962000000</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="METEOR" country="Ireland" mcc="272" mnc="03" />
+        <item name="VMS">171</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="MOBISTAR" country="Belgium" mcc="206" mnc="10" />
+        <item name="VMS">5555</item>
+        <item name="RVMS">+32495955550</item>
+        <item name="ECC_list">100,101</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">20601,20605,20610</item>
+    </profile>
+    <profile>
+        <siminfo operator="MTEL" country="Bosnia and Herzegovina" mcc="218" mnc="05" />
+        <item name="VMS">+3876555400</item>
+        <item name="RVMS">+3876555400</item>
+        <item name="ECC_IdleMode">122,123,124</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Manx Telecom" country="United Kingdom" mcc="234" mnc="58" />
+        <item name="VMS">121</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Max" country="Bulgaria" mcc="284" mnc="13" />
+        <item name="ECC_list">150,160,166</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Mobitel" country="Slovenia" mcc="293" mnc="41" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Mtn" country="Cyprus" mcc="280" mnc="10" />
+        <item name="VMS">+35796961002</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Mts" country="Belarus" mcc="257" mnc="02" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="NETCOM" country="Norway" mcc="242" mnc="02" />
+        <item name="VMS">92100000</item>
+        <item name="RVMS">+4792100000</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="NETWORK" country="Norway" mcc="242" mnc="05" />
+        <item name="VMS">+4747919191</item>
+        <item name="RVMS">+4747919191</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="NOS" country="Portugal" mcc="268" mnc="03" />
+        <item name="VMS">133</item>
+        <item name="RVMS">133</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="NOVA" country="Iceland" mcc="222" mnc="01" imsi="22201309xxxxxxx" />
+        <siminfo operator="NOVA" country="Iceland" mcc="274" mnc="11" />
+        <siminfo operator="NOVA" country="Iceland" mcc="274" mnc="11" imsi="27411309xxxxxxx" />
+        <item name="VMS">+3547701717</item>
+        <item name="RVMS">+3547701717</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">27411</item>
+    </profile>
+    <profile>
+        <siminfo operator="NRJ" country="France" mcc="208" mnc="01" gid="4E524A31" />
+        <item name="VMS">888</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">20801</item>
+    </profile>
+    <profile>
+        <siminfo operator="NRJ" country="France" mcc="208" mnc="10" gid="4E524A31" />
+        <item name="VMS">123</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">20810</item>
+    </profile>
+    <profile>
+        <siminfo operator="NRJ" country="France" mcc="208" mnc="26" gid="4E524A31" />
+        <item name="VMS">777</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">20826,20601</item>
+    </profile>
+    <profile>
+        <siminfo operator="O2" country="Czech Republic" mcc="230" mnc="02" />
+        <item name="VMS">+420602999999</item>
+        <item name="RVMS">+420602999999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="O2" country="Ireland" mcc="272" mnc="02" />
+        <item name="VMS">171</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="O2" country="Slovakia" mcc="231" mnc="06" />
+        <item name="VMS">+421949999999</item>
+        <item name="RVMS">+421949999999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="O2" country="United Kingdom" mcc="234" mnc="10" />
+        <item name="VMS">901</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="O2D" country="Germany" mcc="262" mnc="07" />
+        <item name="VMS">+491793000333</item>
+        <item name="RVMS">+491793000333</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">26207,26208</item>
+    </profile>
+    <profile>
+        <siminfo operator="OMNITEL" country="Lithuania" mcc="246" mnc="01" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="ONO" country="Spain" mcc="214" mnc="18" />
+        <item name="VMS">1214</item>
+        <item name="RVMS">+34901401214</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">21401,21403,21404,21407</item>
+    </profile>
+    <profile>
+        <siminfo operator="ORANGE" country="Luxembourg" mcc="270" mnc="99" />
+        <item name="VMS">800</item>
+        <item name="RVMS">35150612788660</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="ORANGE" country="Poland" mcc="260" mnc="03" />
+        <item name="VMS">*501</item>
+        <item name="RVMS">+48501501501</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="ORANGE" country="Romania" mcc="226" mnc="10" />
+        <item name="VMS">555</item>
+        <item name="RVMS">555</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="ORANGE" country="Spain" mcc="214" mnc="03" />
+        <item name="VMS">242</item>
+        <item name="RVMS">+34656242242</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="ORANGE-SK" country="Slovakia" mcc="231" mnc="01" />
+        <item name="VMS">555</item>
+        <item name="RVMS">+421905055550</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="One" country="Macedonia" mcc="294" mnc="02" imsi="294020001xxxxxx" />
+        <siminfo operator="One" country="Macedonia" mcc="294" mnc="02" imsi="294020002xxxxxx" />
+        <siminfo operator="One" country="Macedonia" mcc="294" mnc="02" imsi="294020004xxxxxx" />
+        <siminfo operator="One" country="Macedonia" mcc="294" mnc="02" imsi="294020007xxxxxx" />
+        <item name="VMS">123</item>
+        <item name="RVMS">123</item>
+        <item name="ECC_IdleMode">192,193,194</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Orange" country="France" mcc="208" mnc="01" />
+        <item name="VMS">888</item>
+        <item name="RVMS">+33608080808</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Orange" country="Switzerland" mcc="228" mnc="03" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Orange Re" country="France Reunion" mcc="647" mnc="00" />
+        <item name="VMS">800</item>
+        <item name="RVMS">+262692000801</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Outremer_Telecom" country="France Reunion" mcc="647" mnc="02" />
+        <item name="VMS">123</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="PLUS" country="Poland" mcc="260" mnc="01" />
+        <siminfo operator="PLUS" country="Poland" mcc="260" mnc="12" spn="Cyfrowy Polsat" />
+        <item name="VMS">+48601222222</item>
+        <item name="RVMS">+48601222222</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="POST" country="Luxembourg" mcc="270" mnc="01" />
+        <item name="VMS">6280</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="POSTEMOBILE" country="Italy" mcc="222" mnc="10" spn="PosteMobile" />
+        <siminfo operator="POSTEMOBILE" country="Italy" mcc="222" mnc="33" spn="PosteMobile" />
+        <item name="VMS">427242</item>
+        <item name="RVMS">+393770001252</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="PROXIMUS" country="Belgium" mcc="206" mnc="01" />
+        <item name="VMS">+32475151230</item>
+        <item name="RVMS">+32475151230</item>
+        <item name="ECC_list">100,101,105,110</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">20601,20605,20610</item>
+    </profile>
+    <profile>
+        <siminfo operator="Play" country="Poland" mcc="260" mnc="06" />
+        <item name="VMS">+48790200200</item>
+        <item name="RVMS">+48790200200</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="RABOMOBIEL" country="Netherlands" mcc="204" mnc="08" spn="Rabo Mobiel" />
+        <item name="VMS">1233</item>
+        <item name="RVMS">+31612001233</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="R_CABLE" country="Spain" mcc="214" mnc="06" imsi="2140612xxxxxxxx" />
+        <item name="VMS">22277</item>
+        <item name="RVMS">+34698111277</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">21401,21403,21404,21407</item>
+    </profile>
+    <profile>
+        <siminfo operator="SAUNALAHTI" country="Finland" mcc="244" mnc="05" imsi="2440541xxxxxxxx" />
+        <item name="VMS">+35850950777</item>
+        <item name="RVMS">+35850950777</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">24421</item>
+    </profile>
+    <profile>
+        <siminfo operator="SAUNALAHTI" country="Finland" mcc="244" mnc="21" />
+        <item name="VMS">+35850950777</item>
+        <item name="RVMS">+35850950777</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">24405</item>
+    </profile>
+    <profile>
+        <siminfo operator="SFR" country="France" mcc="208" mnc="09" />
+        <item name="VMS">123</item>
+        <item name="RVMS">123</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="SFR" country="France" mcc="208" mnc="10" />
+        <item name="VMS">123</item>
+        <item name="RVMS">123</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">20810,20811</item>
+    </profile>
+    <profile>
+        <siminfo operator="SIMINN" country="Iceland" mcc="274" mnc="01" />
+        <siminfo operator="SIMINN" country="Iceland" mcc="274" mnc="12" imsi="27412xxxxxxxxxx" />
+        <item name="VMS">1411</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">27401</item>
+    </profile>
+    <profile>
+        <siminfo operator="SONERA" country="Finland" mcc="244" mnc="91" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="SRR" country="France Reunion" mcc="647" mnc="10" />
+        <item name="VMS">123</item>
+        <item name="RVMS">+262692069200</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">64710,20809</item>
+    </profile>
+    <profile>
+        <siminfo operator="SUNRISE" country="Switzerland" mcc="228" mnc="02" />
+        <item name="VMS">+41763333333</item>
+        <item name="RVMS">+41763333333</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Simobil" country="Slovenia" mcc="293" mnc="40" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Swisscom" country="Switzerland" mcc="228" mnc="01" />
+        <item name="VMS">+41794997979</item>
+        <item name="RVMS">+41794997979</item>
+        <item name="ECC_list">117,118,143,144,147</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="T-2" country="Slovenia" mcc="214" mnc="07" imsi="2140759577xxxxx" />
+        <siminfo operator="T-2" country="Slovenia" mcc="214" mnc="07" imsi="2140796692xxxxx" />
+        <siminfo operator="T-2" country="Slovenia" mcc="293" mnc="64" imsi="29364xxxxxxxxxx" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="T-MOBILE" country="Austria" mcc="232" mnc="03" />
+        <item name="VMS">+436762200</item>
+        <item name="RVMS">+436762200</item>
+        <item name="ECC_list">122,133,144</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="T-MOBILE" country="Croatia" mcc="219" mnc="01" />
+        <siminfo operator="T-MOBILE" country="Croatia" mcc="219" mnc="01" spn="bonbon" />
+        <item name="VMS">+385981511</item>
+        <item name="RVMS">+385981511</item>
+        <item name="ECC_IdleMode">92,93,94,985,987,9155,192,193,194,155,1987</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="T-MOBILE" country="Czech Republic" mcc="230" mnc="01" />
+        <item name="VMS">+420603123311</item>
+        <item name="RVMS">+420603123311</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="T-MOBILE" country="Netherlands" mcc="204" mnc="16" />
+        <siminfo operator="T-MOBILE" country="Netherlands" mcc="204" mnc="20" />
+        <item name="VMS">+31624001233</item>
+        <item name="RVMS">+31624001233</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="T-MOBILE" country="Poland" mcc="260" mnc="02" />
+        <siminfo operator="T-MOBILE" country="Poland" mcc="260" mnc="02" spn="heyah" />
+        <item name="VMS">+48602950000</item>
+        <item name="RVMS">+48602950000</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="T-Mobile" country="Macedonia" mcc="294" mnc="01" />
+        <item name="VMS">+38970121212</item>
+        <item name="RVMS">+38970121212</item>
+        <item name="ECC_IdleMode">192,193,194</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="T-Mobile" country="Montenegro" mcc="297" mnc="02" />
+        <item name="VMS">+3826714077</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TALKMOBILE" country="United Kingdom" mcc="234" mnc="15" gid="C1" />
+        <item name="VMS">121</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TALKTALK" country="United Kingdom" mcc="234" mnc="15" gid="70" />
+        <siminfo operator="TALKTALK" country="United Kingdom" mcc="234" mnc="15" gid="70FFFFFF" />
+        <item name="VMS">121</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TANGO" country="Luxembourg" mcc="270" mnc="77" />
+        <item name="VMS">700</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TDC" country="Denmark" mcc="238" mnc="01" />
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">23801</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELE2" country="Croatia" mcc="219" mnc="02" />
+        <item name="VMS">+385951000222</item>
+        <item name="RVMS">+385951000222</item>
+        <item name="ECC_IdleMode">92,93,94,985,987,9155,192,193,194,155,1987</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELE2" country="Estonia" mcc="248" mnc="03" />
+        <item name="RVMS">+37255500000</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELE2" country="Latvia" mcc="247" mnc="02" />
+        <item name="VMS">606</item>
+        <item name="RVMS">+37129500606</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELE2" country="Lithuania" mcc="246" mnc="03" />
+        <item name="VMS">1522</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" imsi="20402001xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" imsi="20402100xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" imsi="20402200xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" imsi="20402300xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" imsi="20402400xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" imsi="20402500xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" imsi="20402600xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" imsi="20402700xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" imsi="20402750xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" imsi="204028xxxxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" imsi="20402800xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" imsi="20402850xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="204" mnc="02" imsi="20402900xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="240" mnc="07" imsi="24007602xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="240" mnc="07" imsi="24007603xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="240" mnc="07" imsi="24007604xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="240" mnc="07" imsi="24007605xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="240" mnc="07" imsi="24007606xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="240" mnc="07" imsi="24007607xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="240" mnc="07" imsi="24007608xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="240" mnc="07" imsi="24007609xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="240" mnc="07" imsi="24007610xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="240" mnc="07" imsi="24007611xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="240" mnc="07" imsi="24007612xxxxxxx" />
+        <siminfo operator="TELE2" country="Netherlands" mcc="240" mnc="07" imsi="24007619xxxxxxx" />
+        <item name="VMS">1233</item>
+        <item name="RVMS">+31640192939</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">20416,20420</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELE2" country="Norway" mcc="240" mnc="07" imsi="2400768xxxxxxxx" />
+        <item name="VMS">47230000</item>
+        <item name="RVMS">+4747230001</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELE2" country="Sweden" mcc="240" mnc="07" />
+        <siminfo operator="TELE2" country="Sweden" mcc="240" mnc="05" />
+        <siminfo operator="TELE2" country="Sweden" mcc="240" mnc="24" />
+        <item name="VMS">222</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">24007,24005,24024</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELECABLE" country="Spain" mcc="214" mnc="06" imsi="2140613xxxxxxxx" />
+        <item name="VMS">333</item>
+        <item name="RVMS">+34684684333</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">21401,21403,21404,21407</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELEFONICA" country="Spain" mcc="214" mnc="07" />
+        <item name="VMS">123</item>
+        <item name="RVMS">+34609123123</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">21402,21404,21405,21407</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELENET" country="Belgium" mcc="206" mnc="01" imsi="2060188xxxxxxxx" />
+        <siminfo operator="TELENET" country="Belgium" mcc="206" mnc="05" />
+        <item name="VMS">+32468115555</item>
+        <item name="RVMS">+32468115555</item>
+        <item name="ECC_list">100,101,105,110</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">20601,20605,20610</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELENOR" country="Denmark" mcc="238" mnc="02" />
+        <item name="VMS">+4560500000</item>
+        <item name="RVMS">+4560500000</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">23802,23866</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELENOR" country="Montenegro" mcc="297" mnc="01" />
+        <item name="VMS">+3826914077</item>
+        <item name="RVMS">+3826914077</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELENOR" country="Norway" mcc="242" mnc="01" />
+        <item name="VMS">+4791509001</item>
+        <item name="RVMS">+4791509001</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELENOR" country="Serbia" mcc="220" mnc="01" />
+        <item name="VMS">+38163909</item>
+        <item name="RVMS">+38163909</item>
+        <item name="ECC_IdleMode">192,193,194</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELENOR" country="Sweden" mcc="240" mnc="08" />
+        <item name="VMS">888</item>
+        <item name="RVMS">+46708222888</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">24004,24008,24024</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELERING" country="Austria" mcc="232" mnc="07" />
+        <item name="VMS">+4365011000</item>
+        <item name="RVMS">+4365011000</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">23203</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELE_GREENLAND" country="Greenland" mcc="290" mnc="01" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELFORT" country="Netherlands" mcc="204" mnc="12" />
+        <item name="VMS">1233</item>
+        <item name="RVMS">+31626001233</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">20408</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELIA" country="Denmark" mcc="238" mnc="20" />
+        <siminfo operator="TELIA" country="Denmark" mcc="238" mnc="20" imsi="2382010xxxxxxxx" />
+        <siminfo operator="TELIA" country="Denmark" mcc="238" mnc="20" imsi="2382030xxxxxxxx" />
+        <item name="VMS">+4528184000</item>
+        <item name="RVMS">+4528184000</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">23820,23866</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELIA" country="Sweden" mcc="240" mnc="01" />
+        <item name="VMS">133</item>
+        <item name="RVMS">+46706133133</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">24001,24005</item>
+    </profile>
+    <profile>
+        <siminfo operator="TELMORE" country="Denmark" mcc="238" mnc="01" spn="TELMORE" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TESCO MOBILE" country="Ireland" mcc="206" mnc="01" gid="0A" />
+        <siminfo operator="TESCO MOBILE" country="Ireland" mcc="272" mnc="11" gid="0A" />
+        <item name="VMS">171</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TESCO MOBILE" country="United Kingdom" mcc="234" mnc="10" gid="0A" />
+        <item name="VMS">905</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="TIM" country="Italy" mcc="222" mnc="01" />
+        <item name="VMS">41901</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Telekom" country="Germany" mcc="262" mnc="01" />
+        <siminfo operator="Telekom" country="Germany" mcc="262" mnc="01" spn="congstar" />
+        <siminfo operator="Telekom" country="Germany" mcc="262" mnc="01" spn="congstar.de" />
+        <item name="VMS">3311</item>
+        <item name="RVMS">+491712523311</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Telekom" country="Slovakia" mcc="231" mnc="02" />
+        <item name="VMS">+421903333999</item>
+        <item name="RVMS">+421903333999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Telekom HU" country="Hungary" mcc="216" mnc="30" />
+        <item name="VMS">+36309888444</item>
+        <item name="RVMS">+36309888444</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Telemach" country="Slovenia" mcc="293" mnc="70" imsi="29370029xxxxxxx" />
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">29370</item>
+    </profile>
+    <profile>
+        <siminfo operator="Telenor" country="Hungary" mcc="216" mnc="01" />
+        <item name="VMS">+36209400404</item>
+        <item name="RVMS">+36209400404</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Tusmobil" country="Slovenia" mcc="293" mnc="70" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="UPC Cablecom" country="Switzerland" mcc="228" mnc="53" imsi="22853xxxxxxxxxx" />
+        <siminfo operator="UPC Cablecom" country="Switzerland" mcc="204" mnc="08" imsi="2040807505xxxxx" />
+        <siminfo operator="UPC Cablecom" country="Switzerland" mcc="204" mnc="08" imsi="2040807506xxxxx" />
+        <siminfo operator="UPC Cablecom" country="Switzerland" mcc="204" mnc="08" imsi="2040807507xxxxx" />
+        <siminfo operator="UPC Cablecom" country="Switzerland" mcc="204" mnc="08" imsi="2040807508xxxxx" />
+        <siminfo operator="UPC Cablecom" country="Switzerland" mcc="204" mnc="08" imsi="2040807509xxxxx" />
+        <siminfo operator="UPC Cablecom" country="Switzerland" mcc="204" mnc="08" imsi="204080752xxxxxx" />
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">22803</item>
+    </profile>
+    <profile>
+        <siminfo operator="Upc" country="Hungary" mcc="204" mnc="08" imsi="204080753xxxxxx" />
+        <item name="VMS">31653079063</item>
+        <item name="RVMS">+36317901717</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Upc" country="Hungary" mcc="216" mnc="71" />
+        <item name="VMS">+36317901717</item>
+        <item name="RVMS">+36317901717</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Upc" country="Netherlands" mcc="204" mnc="08" imsi="2040807500xxxxx" />
+        <siminfo operator="Upc" country="Netherlands" mcc="204" mnc="08" imsi="2040807501xxxxx" />
+        <siminfo operator="Upc" country="Netherlands" mcc="204" mnc="08" imsi="2040807502xxxxx" />
+        <siminfo operator="Upc" country="Netherlands" mcc="204" mnc="08" imsi="2040807503xxxxx" />
+        <siminfo operator="Upc" country="Netherlands" mcc="204" mnc="08" imsi="2040807504xxxxx" />
+        <siminfo operator="Upc" country="Netherlands" mcc="204" mnc="08" imsi="204080751xxxxxx" />
+        <item name="VMS">+31653079060</item>
+        <item name="RVMS">+31680191233</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Upc" country="Netherlands" mcc="204" mnc="18" />
+        <item name="VMS">+316801903500</item>
+        <item name="RVMS">+31680191233</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VENTELO" country="Norway" mcc="242" mnc="01" imsi="24201700xxxxxxx" />
+        <item name="VMS">+4747471000</item>
+        <item name="RVMS">+4747471000</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VIP" country="Macedonia" mcc="294" mnc="03" />
+        <item name="VMS">1222</item>
+        <item name="RVMS">+389771222</item>
+        <item name="ECC_IdleMode">192,193,194</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VIP" country="Serbia" mcc="220" mnc="05" />
+        <item name="VMS">+381617777</item>
+        <item name="RVMS">+381617777</item>
+        <item name="ECC_IdleMode">192,193,194</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VIPnet" country="Croatia" mcc="219" mnc="10" />
+        <item name="VMS">+385917000</item>
+        <item name="RVMS">+385917000</item>
+        <item name="ECC_IdleMode">92,93,94,985,987,9155,192,193,194,155,1987</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VIRGIN MOBILE" country="France" mcc="206" mnc="01" gid="524D4F31" />
+        <siminfo operator="VIRGIN MOBILE" country="France" mcc="208" mnc="01" gid="524D4F31" />
+        <siminfo operator="VIRGIN MOBILE" country="France" mcc="208" mnc="23" gid="524D4F31" />
+        <item name="VMS">888</item>
+        <item name="RVMS">888</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">20601</item>
+    </profile>
+    <profile>
+        <siminfo operator="VIRGIN MOBILE" country="United Kingdom" mcc="234" mnc="30" gid="28000000" />
+        <siminfo operator="VIRGIN MOBILE" country="United Kingdom" mcc="234" mnc="33" gid="28000000" />
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">23430,23431,23432,23433,23434,23486</item>
+    </profile>
+    <profile>
+        <siminfo operator="VIRGIN MOBILE" country="United Kingdom" mcc="234" mnc="38" gid="28000000" />
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VODAFONE" country="Cyprus" mcc="280" mnc="01" />
+        <item name="VMS">123</item>
+        <item name="ECC_list">1401,1407,1410,1460</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VODAFONE" country="Czech Republic" mcc="230" mnc="03" />
+        <item name="VMS">+420608989898</item>
+        <item name="RVMS">+420608989898</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VODAFONE" country="Greece" mcc="202" mnc="05" />
+        <item name="VMS">121</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VODAFONE" country="Hungary" mcc="216" mnc="70" />
+        <item name="VMS">170</item>
+        <item name="RVMS">+36709090170</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VODAFONE" country="Ireland" mcc="272" mnc="01" />
+        <item name="VMS">171</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VODAFONE" country="Italy" mcc="222" mnc="10" />
+        <item name="VMS">42020</item>
+        <item name="RVMS">+393482002020</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VODAFONE" country="Malta" mcc="278" mnc="01" />
+        <item name="VMS">0035699909909</item>
+        <item name="RVMS">0035699909909</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VODAFONE" country="Netherlands" mcc="204" mnc="04" />
+        <item name="VMS">+31654501233</item>
+        <item name="RVMS">+31654501233</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VODAFONE" country="Portugal" mcc="268" mnc="01" />
+        <item name="VMS">123</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VODAFONE" country="Romania" mcc="226" mnc="01" />
+        <item name="VMS">+40722033334</item>
+        <item name="RVMS">+40722033334</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VODAFONE" country="Spain" mcc="214" mnc="01" />
+        <item name="VMS">177</item>
+        <item name="RVMS">177</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="VODAFONE" country="United Kingdom" mcc="234" mnc="15" />
+        <item name="VMS">121</item>
+        <item name="ECC_list">999</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Velcom" country="Belarus" mcc="257" mnc="01" />
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Vodafone" country="Albania" mcc="276" mnc="02" />
+        <item name="VMS">135</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Vodafone" country="Germany" mcc="262" mnc="02" />
+        <item name="VMS">5500</item>
+        <item name="RVMS">5500</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="Vodafone" country="Iceland" mcc="274" mnc="02" />
+        <item name="VMS">1415</item>
+        <item name="RVMS">+3546899099</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="WIND" country="Greece" mcc="202" mnc="10" />
+        <item name="VMS">122</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="WIND" country="Italy" mcc="222" mnc="88" />
+        <item name="VMS">4200</item>
+        <item name="RVMS">+393234200200</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="YOIGO" country="Spain" mcc="214" mnc="04" />
+        <item name="VMS">+34633633633</item>
+        <item name="RVMS">+34633633633</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">21401,21403,21407</item>
+    </profile>
+    <profile>
+        <siminfo operator="Yesss" country="Austria" mcc="232" mnc="12" />
+        <item name="VMS">810830</item>
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">23201</item>
+    </profile>
+    <profile>
+        <siminfo operator="Ziggo" country="Netherlands" mcc="204" mnc="15" />
+        <siminfo operator="Ziggo" country="Netherlands" mcc="206" mnc="01" gid="5A69674D" />
+        <item name="VMS">+31686501233</item>
+        <item name="RVMS">+31686501233</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="bob" country="Austria" mcc="232" mnc="11" />
+        <item name="ShortCodeCall">08</item>
+        <item name="HOME_NETWORK">23201,23210,23211</item>
+    </profile>
+    <profile>
+        <siminfo operator="mtel" country="Montenegro" mcc="297" mnc="03" />
+        <item name="VMS">+3826814777</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+    <profile>
+        <siminfo operator="mts" country="Serbia" mcc="220" mnc="03" />
+        <item name="VMS">+38164711</item>
+        <item name="ECC_IdleMode">192,193,194</item>
+        <item name="ShortCodeCall">08</item>
+    </profile>
+</profiles>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>ਹੋਮ</item>
+        <item>ਕੰਮ</item>
+        <item>ਹੋਰ</item>
+        <item>ਕਸਟਮ</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>ਵਿੰਡੋ ਲਾਇਵ</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>ਕੰਮ</item>
+        <item>ਹੋਰ</item>
+        <item>ਕਸਟਮ</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>ਹੋਮ</item>
+        <item>ਮੋਬਾਇਲ</item>
+        <item>ਕੰਮ</item>
+        <item>ਕੰਮ ਫੈਕਸ</item>
+        <item>ਹੋਮ ਫੈਕਸ</item>
+        <item>ਪੇਜਰ</item>
+        <item>ਹੋਰ</item>
+        <item>ਕਸਟਮ</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>ਹੋਮ</item>
+        <item>ਕੰਮ</item>
+        <item>ਹੋਰ</item>
+        <item>ਕਸਟਮ</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>ਹੋਮ</item>
+        <item>ਕੰਮ</item>
+        <item>ਹੋਰ</item>
+        <item>ਕਸਟਮ</item>
+    </string-array>
+</resources>

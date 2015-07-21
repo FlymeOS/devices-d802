@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Acasă</item>
+        <item>SERVICIU</item>
+        <item>Altele</item>
+        <item>Personalizată</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>SERVICIU</item>
+        <item>Altele</item>
+        <item>Personalizată</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Acasă</item>
+        <item>Mobil</item>
+        <item>SERVICIU</item>
+        <item>Fax birou</item>
+        <item>Home fax</item>
+        <item>Pager</item>
+        <item>Altele</item>
+        <item>Personalizată</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Acasă</item>
+        <item>SERVICIU</item>
+        <item>Altele</item>
+        <item>Personalizată</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Acasă</item>
+        <item>SERVICIU</item>
+        <item>Altele</item>
+        <item>Personalizată</item>
+    </string-array>
+</resources>

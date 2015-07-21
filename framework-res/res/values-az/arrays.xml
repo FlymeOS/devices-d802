@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Əsas səhifə</item>
+        <item>İş</item>
+        <item>Digər</item>
+        <item>Fərdi</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>İş</item>
+        <item>Digər</item>
+        <item>Fərdi</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Əsas səhifə</item>
+        <item>Mobil</item>
+        <item>İş</item>
+        <item>İş faksı</item>
+        <item>Əsas faks</item>
+        <item>Peycer</item>
+        <item>Digər</item>
+        <item>Fərdi</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Əsas səhifə</item>
+        <item>İş</item>
+        <item>Digər</item>
+        <item>Fərdi</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Əsas səhifə</item>
+        <item>İş</item>
+        <item>Digər</item>
+        <item>Fərdi</item>
+    </string-array>
+</resources>

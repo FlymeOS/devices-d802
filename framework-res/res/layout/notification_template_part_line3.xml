@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/line3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.LGMaterial.Notification" android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/text" android:padding="0.0dip" android:fadingEdge="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:maxLines="2" android:singleLine="false" android:layout_weight="1.0" />
+    <TextView android:textAppearance="@style/TextAppearance.LGMaterial.Notification.Info" android:gravity="center" android:layout_gravity="center" android:id="@id/info" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:singleLine="true" android:layout_weight="0.0" android:paddingStart="8.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/profile_badge_line3" android:padding="0.0dip" android:visibility="gone" android:layout_width="@dimen/notification_badge_size" android:layout_height="@dimen/notification_badge_size" android:layout_marginTop="-2.0dip" android:scaleType="fitCenter" android:layout_weight="0.0" android:layout_marginStart="4.0dip" />
+</LinearLayout>

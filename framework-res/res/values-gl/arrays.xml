@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>"Casa "</item>
+        <item>"Traballo "</item>
+        <item>"Outros "</item>
+        <item>"Persoal "</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>"Traballo "</item>
+        <item>"Outros "</item>
+        <item>"Persoal "</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>"Casa "</item>
+        <item>"Móbil "</item>
+        <item>"Traballo "</item>
+        <item>"Fax do traballo "</item>
+        <item>"Fax da casa "</item>
+        <item>"Busca persoas "</item>
+        <item>"Outros "</item>
+        <item>"Persoal "</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>"Casa "</item>
+        <item>"Traballo "</item>
+        <item>"Outros "</item>
+        <item>"Persoal "</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>"Casa "</item>
+        <item>"Traballo "</item>
+        <item>"Outros "</item>
+        <item>"Persoal "</item>
+    </string-array>
+</resources>

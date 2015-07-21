@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *
+ * Lab P6, Mobile Communication Company, LG ELECTRONICS INC., SEOUL, KOREA
+ * Copyright(c) 2013 by LG Electronics Inc.
+ *
+ * All rights reserved. No part of this work may be reproduced, stored in a
+ * retrieval system, or transmitted by any means without prior written
+ * Permission of LG Electronics Inc.
+ *
+ *  2013-02-01    miseon.park@lge.com    created
+ *
+ -->
+<permissions>
+    <library name="com.lge.bluetooth"
+            file="/system/framework/com.lge.bluetooth.jar"/>
+</permissions>

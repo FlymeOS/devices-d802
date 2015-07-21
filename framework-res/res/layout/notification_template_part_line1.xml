@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/line1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.LGMaterial.Notification.Title" android:ellipsize="marquee" android:id="@id/title" android:paddingTop="0.0dip" android:fadingEdge="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/time" android:paddingTop="0.0dip" android:visibility="gone" android:layout="@layout/notification_template_part_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip" android:layout_weight="0.0" />
+    <ViewStub android:id="@id/chronometer" android:paddingTop="0.0dip" android:visibility="gone" android:layout="@layout/notification_template_part_chronometer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_weight="0.0" />
+</LinearLayout>

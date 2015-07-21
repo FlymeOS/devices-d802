@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Home</item>
+        <item>Աշխատանքային</item>
+        <item>Այլ</item>
+        <item>Հարմարեցված</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Աշխատանքային</item>
+        <item>Այլ</item>
+        <item>Հարմարեցված</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Home</item>
+        <item>Շարժական</item>
+        <item>Աշխատանքային</item>
+        <item>Աշխատանքային ֆաքս</item>
+        <item>Տուն Ֆաքս</item>
+        <item>Փեյջեր</item>
+        <item>Այլ</item>
+        <item>Հարմարեցված</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Home</item>
+        <item>Աշխատանքային</item>
+        <item>Այլ</item>
+        <item>Հարմարեցված</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Home</item>
+        <item>Աշխատանքային</item>
+        <item>Այլ</item>
+        <item>Հարմարեցված</item>
+    </string-array>
+</resources>

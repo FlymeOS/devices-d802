@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">ನೀವು SIM ಅನ್ನು ಲಾಕ್ ಮಾಡುವ ಮೊದಲು %d ಉಳಿದಿರುವ ಪ್ರಯತ್ನಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ.</item>
+        <item quantity="one">ನೀವು SIM ಅನ್ನು ಲಾಕ್ ಮಾಡುವ ಮೊದಲು %d ಉಳಿದಿರುವ ಪ್ರಯತ್ನಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d ಸೆಕೆಂಡುಗಳ ಹಿಂದೆ</item>
+        <item quantity="one">1 ಸೆಕೆಂಡ್ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d ನಿಮಿಷಗಳ ಹಿಂದೆ</item>
+        <item quantity="one">1 ನಿಮಿಷ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">"%d ಗಂಟೆಗಳ ಹಿಂದೆ "</item>
+        <item quantity="one">1 ಗಂಟೆ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">ಕೊನೆಯ %d ದಿನಗಳು</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">"%d ದಿನಗಳ ಹಿಂದೆ "</item>
+        <item quantity="one">ನಿನ್ನೆ</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%d ಸೆಕೆಂಡುಗಳಲ್ಲಿ</item>
+        <item quantity="one">1 ಸೆಕೆಂಡಿನಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d ನಿಮಿಷಗಳಲ್ಲಿ</item>
+        <item quantity="one">1 ನಿಮಿಷಗಳಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%dಗಂಟೆಗಳಲ್ಲಿ</item>
+        <item quantity="one">1 ಗಂಟೆಯಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">ದಿನಗಳ %d ಅನ್ನು ರಲ್ಲಿ</item>
+        <item quantity="one">ನಾಳೆ</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d ಸೆಕೆಂಡ್ ಹಿಂದೆ</item>
+        <item quantity="one">1 ಸೆಕೆಂಡ್ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d ನಿಮಿಷ ಹಿಂದೆ</item>
+        <item quantity="one">1 ನಿಮಿಷ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d ಗಂಟೆಗಳ ಹಿಂದೆ</item>
+        <item quantity="one">1 ಗಂಟೆ ಹಿಂದೆ</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d ದಿನಗಳ ಹಿಂದೆ</item>
+        <item quantity="one">ನಿನ್ನೆ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%d ಸೆಕೆಂಡುಗಳಲ್ಲಿ</item>
+        <item quantity="one">1 ಸೆಕೆಂಡಿನಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%dನಿಮಿಷಗಳಲ್ಲಿ</item>
+        <item quantity="one">1 ನಿಮಿಷಗಳಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%dಗಂಟೆಗಳಲ್ಲಿ</item>
+        <item quantity="one">1 ಗಂಟೆಯಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">ದಿನಗಳ %d ಅನ್ನು ರಲ್ಲಿ</item>
+        <item quantity="one">ನಾಳೆ</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d ಸೆಕೆಂಡುಗಳು</item>
+        <item quantity="one">"1 ಸೆಕೆಂಡ್ "</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d ನಿಮಿಷಗಳು</item>
+        <item quantity="one">1 ನಿಮಿಷ</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ಗಂಟೆಗಳು</item>
+        <item quantity="one">1 ಗಂಟೆ</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi ನೆಟ್ವರ್ಕ್ ಗಳು ಲಭ್ಯವಿದೆ</item>
+        <item quantity="one">"Wi-Fi ನೆಟ್ವರ್ಕ್ ಲಭ್ಯವಿದೆ "</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">ತೆರೆದ Wi-Fi ನೆಟ್‌ವರ್ಕ್ ಗಳು ಲಭ್ಯವಿದೆ</item>
+        <item quantity="one">ಲಭ್ಯವಿರುವ Wi-Fi ನೆಟ್‌ವರ್ಕ್ ತೆರೆಯಿರಿ</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d ನ %2$d</item>
+        <item quantity="one">1 ಹೊಂದಿಕೆ</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">%dಸೆಕೆಂಡ್ ನಲ್ಲಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</item>
+        <item quantity="one">1ಸೆಕೆಂಡ್ ನಲ್ಲಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d ನಿಮಿಷಗಳಿಗೆ</item>
+        <item quantity="one">1 ನಿಮಿಷಕ್ಕಾಗಿ</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d ಗಂಟೆಗಳಿಗೆ</item>
+        <item quantity="one">1 ಗಂಟೆಗಾಗಿ</item>
+    </plurals>
+</resources>

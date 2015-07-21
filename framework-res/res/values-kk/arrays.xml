@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Үй беті</item>
+        <item>Жұмыс</item>
+        <item>Басқа</item>
+        <item>Қалыпты</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Жұмыс</item>
+        <item>Басқа</item>
+        <item>Қалыпты</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Үй беті</item>
+        <item>Ұялы</item>
+        <item>Жұмыс</item>
+        <item>Жұмыс факс нөмірі</item>
+        <item>Үй факсі</item>
+        <item>Пэйджер</item>
+        <item>Басқа</item>
+        <item>Қалыпты</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Үй беті</item>
+        <item>Жұмыс</item>
+        <item>Басқа</item>
+        <item>Қалыпты</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Үй беті</item>
+        <item>Жұмыс</item>
+        <item>Басқа</item>
+        <item>Қалыпты</item>
+    </string-array>
+</resources>

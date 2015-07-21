@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RSSI>
+<!--
+// LGE_CHANGE_S, [Net_Patch_2006][CALL_FRW][H3G], 2014-08-22, RSSI spec for H3G {
+-->
+        <!-- RSSI Level Start-->
+        <item name="levelNum">5</item>
+        <!-- RSSI Level END-->
+
+        <!-- LTE Start-->
+        <!--  mLteRsrp  -->
+        <item name="mLteRsrp">5,-84,-94,-104,-112,-129</item>
+        <!-- LTE END-->
+
+        <!--  3G Start -->
+        <!--  umtsDbm(cdmaDbm)  -->
+        <item name="cdmaDbm">5,-85,-91,-99,-107,-115</item>
+        <!--  3G END -->
+<!--
+// LGE_CHANGE_E, [Net_Patch_2006][CALL_FRW][H3G], 2014-08-22, RSSI spec for H3G }
+-->
+</RSSI>

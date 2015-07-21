@@ -2105,7 +2105,7 @@
 
     iget-object v4, v4, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
 
-    const v5, 0x10404c2
+    const v5, #android:string@heavy_weight_notification#t
 
     const/4 v6, 0x1
 
@@ -2139,7 +2139,7 @@
 
     .line 1589
     .local v47, "notification":Landroid/app/Notification;
-    const v4, 0x108066b
+    const v4, #android:drawable@stat_sys_adb#t
 
     move-object/from16 v0, v47
 
@@ -2198,7 +2198,7 @@
 
     move-result-object v4
 
-    const v5, 0x1060059
+    const v5, #android:color@system_notification_accent_color#t
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2215,7 +2215,7 @@
 
     iget-object v4, v4, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
 
-    const v5, 0x10404c3
+    const v5, #android:string@heavy_weight_notification_detail#t
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2281,7 +2281,7 @@
 
     const/16 v22, 0x0
 
-    const v23, 0x10404c2
+    const v23, #android:string@heavy_weight_notification#t
 
     move-object/from16 v0, v57
 
@@ -2361,7 +2361,7 @@
 
     const/4 v5, 0x0
 
-    const v6, 0x10404c2
+    const v6, #android:string@heavy_weight_notification#t
 
     move-object/from16 v0, p1
 
@@ -2646,8 +2646,7 @@
 
     check-cast v4, Ljava/lang/String;
 
-    # invokes: Lcom/android/server/am/ActivityManagerService;->showUserSwitchDialog(ILjava/lang/String;)V
-    invoke-static {v5, v6, v4}, Lcom/android/server/am/ActivityManagerService;->access$800(Lcom/android/server/am/ActivityManagerService;ILjava/lang/String;)V
+    invoke-virtual {v5, v6, v4}, Lcom/android/server/am/ActivityManagerService;->mzShowUserSwitchDialog(ILjava/lang/String;)V
 
     goto/16 :goto_0
 

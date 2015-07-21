@@ -1,0 +1,4 @@
+2010-04-28 - SIMCARDAPI - add new exceptions
+2010-03-10 - SIMCARDAPI - add types in SimCardType enum
+2010-03-10 - SIMCARDAPI - fix case of getSimCardType method
+2010-03-10 - SIMCARDAPI - add runtime exceptions in @throws tag

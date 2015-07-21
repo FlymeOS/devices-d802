@@ -350,8 +350,7 @@
 
     invoke-virtual {v5, v6}, Landroid/app/ProgressDialog;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 535
-    const v6, 0x104011c
+    const v6, #android:string@shutdown_progress#t
 
     invoke-virtual {p0, v6}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -375,7 +374,7 @@
     invoke-virtual {v6, v7}, Landroid/view/Window;->setType(I)V
 
     .line 540
-    invoke-virtual {v5}, Landroid/app/ProgressDialog;->show()V
+    invoke-static/range {p0 .. p0}, Lcom/android/server/power/InjectorPower;->showShutDownAnimation(Landroid/content/Context;)V
 
     .line 561
     .end local v5    # "pd":Landroid/app/ProgressDialog;
@@ -1388,7 +1387,7 @@
 
     move-result-object v12
 
-    const v13, 0x10e003c
+    const v13, #android:integer@config_longPressOnPowerBehavior#t
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1747,7 +1746,7 @@
     goto/16 :goto_2
 
     :cond_7
-    const v10, 0x104011e
+    const v10, #android:string@shutdown_confirm_question#t
 
     goto/16 :goto_2
 
@@ -1835,32 +1834,27 @@
 
     sput-object v12, Lcom/android/server/power/ShutdownThread;->sConfirmDialog:Landroid/app/AlertDialog;
 
-    .line 304
     sget v12, Lcom/lge/os/Build$LGUI_VERSION;->RELEASE:I
 
     const/4 v13, 0x2
 
     if-ge v12, v13, :cond_e
 
-    .line 305
     sget-object v12, Lcom/android/server/power/ShutdownThread;->sConfirmDialog:Landroid/app/AlertDialog;
 
-    const v13, 0x1010355
+    const v13, #android:attr@alertDialogIcon#t
 
     invoke-virtual {v12, v13}, Landroid/app/AlertDialog;->setIconAttribute(I)V
 
-    .line 308
     :cond_e
     sget-object v12, Lcom/android/server/power/ShutdownThread;->sConfirmDialog:Landroid/app/AlertDialog;
 
     iput-object v12, v0, Lcom/android/server/power/ShutdownThread$CloseDialogReceiver;->dialog:Landroid/app/Dialog;
 
-    .line 309
     sget-object v12, Lcom/android/server/power/ShutdownThread;->sConfirmDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v12, v0}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    .line 310
     sget-object v12, Lcom/android/server/power/ShutdownThread;->sConfirmDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v12}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
@@ -1974,32 +1968,27 @@
 
     sput-object v12, Lcom/android/server/power/ShutdownThread;->sConfirmDialog:Landroid/app/AlertDialog;
 
-    .line 349
     sget v12, Lcom/lge/os/Build$LGUI_VERSION;->RELEASE:I
 
     const/4 v13, 0x2
 
     if-ge v12, v13, :cond_10
 
-    .line 350
     sget-object v12, Lcom/android/server/power/ShutdownThread;->sConfirmDialog:Landroid/app/AlertDialog;
 
-    const v13, 0x1010355
+    const v13, #android:attr@alertDialogIcon#t
 
     invoke-virtual {v12, v13}, Landroid/app/AlertDialog;->setIconAttribute(I)V
 
-    .line 352
     :cond_10
     sget-object v12, Lcom/android/server/power/ShutdownThread;->sConfirmDialog:Landroid/app/AlertDialog;
 
     iput-object v12, v0, Lcom/android/server/power/ShutdownThread$CloseDialogReceiver;->dialog:Landroid/app/Dialog;
 
-    .line 353
     sget-object v12, Lcom/android/server/power/ShutdownThread;->sConfirmDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v12, v0}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    .line 354
     sget-object v12, Lcom/android/server/power/ShutdownThread;->sConfirmDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v12}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
@@ -2019,7 +2008,7 @@
 
     .line 330
     :cond_11
-    const v12, 0x104011f
+    const v12, #android:string@reboot_safemode_title#t
 
     goto :goto_4
 

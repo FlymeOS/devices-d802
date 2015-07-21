@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>အိမ်</item>
+        <item>အလုပ်</item>
+        <item>အခြား</item>
+        <item>ပုံမှန်</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>ဂူဂဲလ်တော့ခ် (Google talk)</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>အလုပ်</item>
+        <item>အခြား</item>
+        <item>ပုံမှန်</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>အိမ်</item>
+        <item>မိုဘိုင်း</item>
+        <item>အလုပ်</item>
+        <item>အလုပ် ဖက်စ်</item>
+        <item>အိမ်သုံး ဖက်စ်</item>
+        <item>Pager</item>
+        <item>အခြား</item>
+        <item>ပုံမှန်</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>အိမ်</item>
+        <item>အလုပ်</item>
+        <item>အခြား</item>
+        <item>ပုံမှန်</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>အိမ်</item>
+        <item>အလုပ်</item>
+        <item>အခြား</item>
+        <item>ပုံမှန်</item>
+    </string-array>
+</resources>

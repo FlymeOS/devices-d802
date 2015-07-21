@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Beste saiakera %d gelditzen zaizu SIM blokeatu aurretik.</item>
+        <item quantity="one">Beste saiakera %d gelditzen zaizu SIM blokeatu aurretik.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">Orain dela %d segundu</item>
+        <item quantity="one">Orain dela segundu 1</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Orain dela %d minutu</item>
+        <item quantity="one">Orain dela minutu bat</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">Orain dela %d ordu</item>
+        <item quantity="one">orain dela ordu 1</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Azken %d egunak</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">Orain dela %d egun</item>
+        <item quantity="one">Atzo</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%d segundu barru</item>
+        <item quantity="one">segundu 1 barru</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d minutu barru</item>
+        <item quantity="one">minutu 1 barru</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%d ordu barru</item>
+        <item quantity="one">ordubete barru</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%d egun barru</item>
+        <item quantity="one">bihar</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">orain dela %d seg</item>
+        <item quantity="one">orain dela seg 1</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">orain dela %d min</item>
+        <item quantity="one">orain dela min 1</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">orain dela %d ordu</item>
+        <item quantity="one">orain dela ordu 1</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">orain dela %d egun</item>
+        <item quantity="one">Atzo</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%d seg barru</item>
+        <item quantity="one">seg 1 barru</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d min barru</item>
+        <item quantity="one">min 1 barru</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%d ordu barru</item>
+        <item quantity="one">ordubete barru</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%d egun barru</item>
+        <item quantity="one">bihar</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d segundu</item>
+        <item quantity="one">1 segundu</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minutu</item>
+        <item quantity="one">Minutu 1</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ordu</item>
+        <item quantity="one">Ordu 1</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi sareak eskuragarri</item>
+        <item quantity="one">Wi-Fi sarea eskuragarri</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Ireki Wi-Fi sare eskuragarriak</item>
+        <item quantity="one">Ireki Wi-Fi sare eskuragarria</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d etik %2$d</item>
+        <item quantity="one">Bat-etortze 1</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Saiatu berriz %d segundu barru.</item>
+        <item quantity="one">Saiatu berriz 1 segundu barru.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d minuturako</item>
+        <item quantity="one">Minutu baterako</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d ordurako</item>
+        <item quantity="one">Ordu baterako</item>
+    </plurals>
+</resources>

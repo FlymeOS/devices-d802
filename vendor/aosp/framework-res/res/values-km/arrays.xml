@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>ហូម</item>
+        <item>ការងារ</item>
+        <item>ផ្សេងៗ</item>
+        <item>ផ្ទាល់ខ្លួន</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>ផ្ទាំងវីនដូរផ្ទាល់</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>ការងារ</item>
+        <item>ផ្សេងៗ</item>
+        <item>ផ្ទាល់ខ្លួន</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>ហូម</item>
+        <item>ចល័ត</item>
+        <item>ការងារ</item>
+        <item>ទូរសារការងារ</item>
+        <item>លេខទូរសារផ្ទះ</item>
+        <item>ភេកហ្គ័រ</item>
+        <item>ផ្សេងៗ</item>
+        <item>ផ្ទាល់ខ្លួន</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>ហូម</item>
+        <item>ការងារ</item>
+        <item>ផ្សេងៗ</item>
+        <item>ផ្ទាល់ខ្លួន</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>ហូម</item>
+        <item>ការងារ</item>
+        <item>ផ្សេងៗ</item>
+        <item>ផ្ទាល់ខ្លួន</item>
+    </string-array>
+</resources>

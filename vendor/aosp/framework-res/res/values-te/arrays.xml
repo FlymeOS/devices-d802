@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>హోమ్</item>
+        <item>పని</item>
+        <item>ఇతర</item>
+        <item>కస్టమ్</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>పని</item>
+        <item>ఇతర</item>
+        <item>కస్టమ్</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>హోమ్</item>
+        <item>మొబైల్</item>
+        <item>పని</item>
+        <item>కార్యాలయ ఫ్యాక్స్</item>
+        <item>హోం ఫ్యాక్స్</item>
+        <item>పేజర్</item>
+        <item>ఇతర</item>
+        <item>కస్టమ్</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>హోమ్</item>
+        <item>పని</item>
+        <item>ఇతర</item>
+        <item>కస్టమ్</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>హోమ్</item>
+        <item>పని</item>
+        <item>ఇతర</item>
+        <item>కస్టమ్</item>
+    </string-array>
+</resources>

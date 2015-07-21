@@ -182,6 +182,7 @@
 /system/bin/nmbd        u:object_r:nmbd_exec:s0
 # @}
 
+
 #############################
 # Vendor files
 #
@@ -242,10 +243,12 @@
 
 # Wallpaper file for other users
 /data/system/users/[0-9]+/wallpaper		u:object_r:wallpaper_file:s0
+
 # FLYME:yfy@SHELL.FlymeWallpaer.Featur add for flyme wallpaper relative {@
 /data/system/users/[0-9]+/lock_wallpaper		u:object_r:wallpaper_file:s0
 /data/system/users/[0-9]+/smart_wallpaper_target		u:object_r:wallpaper_file:s0
 # @}
+
 #############################
 # efs files
 #

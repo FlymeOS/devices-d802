@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">H02612</item>
+        <item quantity="one">H02611</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">M74930</item>
+        <item quantity="one">M74927</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">M74926</item>
+        <item quantity="one">M74925</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">M74922</item>
+        <item quantity="one">M74525</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">M83295</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">M74920</item>
+        <item quantity="one">M95095</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">M74818</item>
+        <item quantity="one">M74812</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">M74811</item>
+        <item quantity="one">M74810</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">M74486</item>
+        <item quantity="one">M74801</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">M74457</item>
+        <item quantity="one">M74799</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">M74558</item>
+        <item quantity="one">M74557</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">M74543</item>
+        <item quantity="one">M74542</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">M74541</item>
+        <item quantity="one">M74525</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">M74524</item>
+        <item quantity="one">M95095</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">M74522</item>
+        <item quantity="one">M74489</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">M74488</item>
+        <item quantity="one">M74487</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">M74486</item>
+        <item quantity="one">M74458</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">M74457</item>
+        <item quantity="one">M74456</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">E49181</item>
+        <item quantity="one">M83959</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">M70138</item>
+        <item quantity="one">M76238</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">M70119</item>
+        <item quantity="one">F03096</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">E55976</item>
+        <item quantity="one">M75408</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">M75407</item>
+        <item quantity="one">M75400</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">T40969</item>
+        <item quantity="one">M70007</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">E86007</item>
+        <item quantity="one">E86006</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">H31398</item>
+        <item quantity="one">H31447</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">H31397</item>
+        <item quantity="one">H31446</item>
+    </plurals>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>M75196</item>
+        <item>M85817</item>
+        <item>M94882</item>
+        <item>M81827</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>M94841</item>
+        <item>M74784</item>
+        <item>M74785</item>
+        <item>M81307</item>
+        <item>M74787</item>
+        <item>M93579</item>
+        <item>M74797</item>
+        <item>M74798</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>M85817</item>
+        <item>M94882</item>
+        <item>M81827</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>M75196</item>
+        <item>M81831</item>
+        <item>M85817</item>
+        <item>M82141</item>
+        <item>M75191</item>
+        <item>F02637</item>
+        <item>M94882</item>
+        <item>M81827</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>M75196</item>
+        <item>M85817</item>
+        <item>M94882</item>
+        <item>M81827</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>M75196</item>
+        <item>M85817</item>
+        <item>M94882</item>
+        <item>M81827</item>
+    </string-array>
+</resources>

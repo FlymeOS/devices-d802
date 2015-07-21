@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Etxea</item>
+        <item>Lana</item>
+        <item>Bestelakoak</item>
+        <item>Pertsonalizatua</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Lana</item>
+        <item>Bestelakoak</item>
+        <item>Pertsonalizatua</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Etxea</item>
+        <item>Mugikorra</item>
+        <item>Lana</item>
+        <item>Laneko faxa</item>
+        <item>Etxeko faxa</item>
+        <item>Bilagailua</item>
+        <item>Bestelakoak</item>
+        <item>Pertsonalizatua</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Etxea</item>
+        <item>Lana</item>
+        <item>Bestelakoak</item>
+        <item>Pertsonalizatua</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Etxea</item>
+        <item>Lana</item>
+        <item>Bestelakoak</item>
+        <item>Pertsonalizatua</item>
+    </string-array>
+</resources>

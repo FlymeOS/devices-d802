@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">SIM ലോക്ക് ചെയ്യപ്പെടുന്നതിന് മുമ്പായി താങ്കള്‍ക്ക് %dശ്രമങ്ങള്‍ കൂടി ബാക്കിയുണ്ട്.</item>
+        <item quantity="one">SIM ലോക്ക് ചെയ്യപ്പെടുന്നതിന് മുമ്പായി താങ്കള്‍ക്ക് %dശ്രമങ്ങള്‍ കൂടി ബാക്കിയുണ്ട്.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d സെക്കന്‍ഡുകള്‍ മുമ്പ്‌</item>
+        <item quantity="one">1 സെക്കന്‍ഡ് മുമ്പ്</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d മിനുട്ടിനു മുമ്പ്</item>
+        <item quantity="one">1 മിനിറ്റ് മുമ്പ്</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d മണിക്കൂറുകള്‍ മുമ്പ്</item>
+        <item quantity="one">1 മണിക്കൂര്‍ മുമ്പ്</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">അവസാനത്തെ %d ദിവസങ്ങൾ</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d ദിവസങ്ങള്‍ മുമ്പ്</item>
+        <item quantity="one">ഇന്നലെ</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%d സെക്കന്‍റുകളില്‍</item>
+        <item quantity="one">1 സെക്കന്‍റില്‍</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">" %d മിനിട്ടുകളില്‍"</item>
+        <item quantity="one">1 മിനിട്ടില്‍</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%d മണിക്കൂറുകളില്‍</item>
+        <item quantity="one">1 മണിക്കൂറിനുള്ളില്‍</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%d ദിവസങ്ങളില്‍</item>
+        <item quantity="one">നാളെ</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d സെക്കന്‍ഡ് മുമ്പ്</item>
+        <item quantity="one">1 സെക്കന്‍ഡ് മുമ്പ്</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d മിനുട്ട് മുമ്പ്‌</item>
+        <item quantity="one">1 മിനുട്ട് മുമ്പ്‌</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d മണിക്കൂർ മുമ്പ്</item>
+        <item quantity="one">1 മണിക്കൂര്‍ മുമ്പ്</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d ദിവസങ്ങള്‍ മുമ്പ്</item>
+        <item quantity="one">ഇന്നലെ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%d സെക്കന്‍റുകളില്‍</item>
+        <item quantity="one">1 സെക്കന്‍റില്‍</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d മിനിട്ടുകളില്‍</item>
+        <item quantity="one">1 മിനിട്ടില്‍</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%d മണിക്കൂറുകളില്‍</item>
+        <item quantity="one">1 മണിക്കൂറിനുള്ളില്‍</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%d ദിവസങ്ങളില്‍</item>
+        <item quantity="one">നാളെ</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d സെക്കന്‍ഡുകൾ</item>
+        <item quantity="one">"1 സെക്കന്‍ഡ് "</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%dമിനിട്ടുകള്‍</item>
+        <item quantity="one">1 മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%dമണിക്കൂറുകള്‍</item>
+        <item quantity="one">1 മണിക്കൂര്‍</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi നെറ്റ്‍വര്‍ക്കുകൾ ലഭ്യമാണ്</item>
+        <item quantity="one">Wi-Fi നെറ്റ്‍വര്‍ക്ക് ലഭ്യമാണ്</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">തുറന്ന Wi-Fi നെറ്റ്‍വര്‍ക്കുകള്‍ ലഭ്യമാണ്</item>
+        <item quantity="one">തുറന്ന Wi-Fi നെറ്റ്‌വര്‍ക്ക് ലഭ്യമാണ്</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d %2$d</item>
+        <item quantity="one">പൊരുത്തമുള്ള 1</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">%d സെക്കണ്ടില്‍ വീണ്ടും ശ്രമിക്കുക</item>
+        <item quantity="one">1 സെക്കണ്ടില്‍ വീണ്ടും ശ്രമിക്കുക</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d മിനിട്ടുകള്‍ക്ക്</item>
+        <item quantity="one">1 മിനിട്ടിനായി</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d മണിക്കൂറുകള്‍ക്ക്</item>
+        <item quantity="one">1 മണിക്കൂറിനായി</item>
+    </plurals>
+</resources>

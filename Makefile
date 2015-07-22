@@ -40,7 +40,7 @@ vendor_modify_images := boot
 # The default value is app or pri-app which not need to configure.
 # You can configure the directory name which relative to the vendor/system directory.
 #-----------------------------------------------------------------------------
-#vendor_remove_dirs := vendor/operator/app
+vendor_remove_dirs := vendor/overlay apps sounds
 
 ##############################################################################
 # The value decides the file which you want to remove in the vendor directory for the ota package.
@@ -54,10 +54,9 @@ vendor_modify_images := boot
 # The default value is Bluetooth.
 # You can configure the apk name in the vendor/system/app or vendor/system/pri-app directory.
 #-----------------------------------------------------------------------------
-vendor_saved_apps := Bluetooth Nfc KeyChain Tag HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
-                     FusedLocation PrintSpooler SharedStorageBackup  ExternalStorageProvider InputDevices \
-                     ProxyHandler Shell DefaultContainerService FMRadioService NfceeService WifiRouter FM_Radio \
-                     Stk
+vendor_saved_apps := LGBluetooth4 LgNfc KeyChain TagGoogle HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
+                     FusedLocation PrintSpooler SharedStorageBackup  LGExternalStorageProvider InputDevices \
+                     ProxyHandler Shell DefaultContainerService LGFmRadio LGStk TimeService WapService qcrilmsgtunnel
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
@@ -130,8 +129,8 @@ board_saved_files := lib/libsqlite.so lib/libwebviewchromium.so
 # The property decide whether hide the soft mainkeys.
 # If 1, hide the soft mainkeys. If 0, display the soft mainkeys.
 # You should configure the property according to your device.
-#override_property += \
-#    qemu.hw.mainkeys=0
+override_property += \
+    qemu.hw.mainkeys=0
 
 
 # The property decide your ID on the backend server which statistical data for your device.

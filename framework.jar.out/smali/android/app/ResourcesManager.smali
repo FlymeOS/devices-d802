@@ -292,28 +292,27 @@
 
     invoke-static {v0, v9, v1}, Landroid/content/res/Resources;->updateSystemConfiguration(Landroid/content/res/Configuration;Landroid/util/DisplayMetrics;Landroid/content/res/CompatibilityInfo;)V
 
-    .line 286
+    move-object/from16 v0, p0
+
+    invoke-direct {v0, v8}, Landroid/app/ResourcesManager;->mzFreeCaches(I)V
+
     move-object/from16 v0, p0
 
     iget-boolean v4, v0, Landroid/app/ResourcesManager;->mThemeIconEnabled:Z
 
     if-eqz v4, :cond_5
 
-    .line 287
     move-object/from16 v0, p1
 
     move-object/from16 v1, p2
 
     invoke-static {v0, v9, v1}, Landroid/content/thm/ThemeIconManager;->updateThemeConfiguration(Landroid/content/res/Configuration;Landroid/util/DisplayMetrics;Landroid/content/res/CompatibilityInfo;)V
 
-    .line 290
     :cond_5
     invoke-static {}, Landroid/app/ApplicationPackageManager;->configurationChanged()V
 
-    .line 293
     const/4 v15, 0x0
 
-    .line 295
     .local v15, "tmpConfig":Landroid/content/res/Configuration;
     move-object/from16 v0, p0
 
@@ -1307,4 +1306,21 @@
     move-object v14, v7
 
     goto/16 :goto_1
+.end method
+
+.method private mzFreeCaches(I)V
+    .locals 1
+    .param p1, "changes"    # I
+
+    .prologue
+    and-int/lit16 v0, p1, 0x4000
+
+    if-eqz v0, :cond_0
+
+    invoke-static {}, Landroid/graphics/Canvas;->freeCaches()V
+
+    invoke-static {}, Landroid/graphics/Canvas;->freeTextLayoutCaches()V
+
+    :cond_0
+    return-void
 .end method

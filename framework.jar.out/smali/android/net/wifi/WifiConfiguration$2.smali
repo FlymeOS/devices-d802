@@ -231,7 +231,8 @@
 
     iput-object v2, v0, Landroid/net/wifi/WifiConfiguration;->allowedGroupCiphers:Ljava/util/BitSet;
 
-    .line 1814
+    invoke-static {p1, v0}, Landroid/net/wifi/WifiConfiguration;->readExtra(Landroid/os/Parcel;Landroid/net/wifi/WifiConfiguration;)V
+
     iget-object v2, v0, Landroid/net/wifi/WifiConfiguration;->allowedKeyManagement:Ljava/util/BitSet;
 
     const/4 v5, 0x6

@@ -818,19 +818,16 @@
     .prologue
     const/4 v5, 0x0
 
-    .line 441
     const/4 v2, 0x0
 
-    .line 442
     .local v2, "is":Ljava/io/InputStream;
     :try_start_0
-    const-string/jumbo v4, "ro.lge.device_color"
+    const-string v4, "ro.lge.device_color"
 
     invoke-static {v4}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 443
     .local v0, "deviceColor":Ljava/lang/String;
     const-string v4, "BL"
 
@@ -1056,7 +1053,7 @@
 
     .line 468
     :cond_7
-    invoke-static {p1}, Landroid/app/WallpaperManager;->openDefaultWallpaper(Landroid/content/Context;)Ljava/io/InputStream;
+    invoke-static {p1}, Landroid/app/WallpaperManager$FlymeInject;->mzOpenDefaultWallpaper(Landroid/content/Context;)Ljava/io/InputStream;
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
 
@@ -1299,7 +1296,7 @@
 
     move-result-object v6
 
-    const v7, 0x1080294
+    const v7, #android:drawable@default_wallpaper#t
 
     invoke-static {v6, v7}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

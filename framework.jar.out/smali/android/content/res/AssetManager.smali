@@ -101,66 +101,53 @@
     .prologue
     const/4 v1, 0x1
 
-    .line 88
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 69
     new-instance v0, Landroid/util/TypedValue;
 
     invoke-direct {v0}, Landroid/util/TypedValue;-><init>()V
 
     iput-object v0, p0, Landroid/content/res/AssetManager;->mValue:Landroid/util/TypedValue;
 
-    .line 70
     const/4 v0, 0x2
 
     new-array v0, v0, [J
 
     iput-object v0, p0, Landroid/content/res/AssetManager;->mOffsets:[J
 
-    .line 75
     const/4 v0, 0x0
 
     iput-object v0, p0, Landroid/content/res/AssetManager;->mStringBlocks:[Landroid/content/res/StringBlock;
 
-    .line 77
     iput v1, p0, Landroid/content/res/AssetManager;->mNumRefs:I
 
-    .line 78
     iput-boolean v1, p0, Landroid/content/res/AssetManager;->mOpen:Z
 
-    .line 89
     monitor-enter p0
 
-    .line 94
     const/4 v0, 0x0
 
     :try_start_0
     invoke-direct {p0, v0}, Landroid/content/res/AssetManager;->init(Z)V
 
-    .line 95
-    const v0, 0x1020016
+    const v0, #android:id@title#t
 
     invoke-virtual {p0, v0}, Landroid/content/res/AssetManager;->getResourceName(I)Ljava/lang/String;
 
-    .line 96
     const-string v0, "/system/framework/lge-res/lge-res.apk"
 
     invoke-virtual {p0, v0}, Landroid/content/res/AssetManager;->addAssetPath(Ljava/lang/String;)I
 
-    .line 98
     invoke-static {}, Landroid/content/res/AssetManager;->ensureSystemAssets()V
 
-    .line 99
     invoke-direct {p0}, Landroid/content/res/AssetManager;->addLgeResOverlay()V
 
-    .line 100
+    invoke-direct/range {p0 .. p0}, Landroid/content/res/AssetManager;->addFlymeAssetPath()V
+
     monitor-exit p0
 
-    .line 101
     return-void
 
-    .line 100
     :catchall_0
     move-exception v0
 
@@ -178,51 +165,42 @@
     .prologue
     const/4 v1, 0x1
 
-    .line 113
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 69
     new-instance v0, Landroid/util/TypedValue;
 
     invoke-direct {v0}, Landroid/util/TypedValue;-><init>()V
 
     iput-object v0, p0, Landroid/content/res/AssetManager;->mValue:Landroid/util/TypedValue;
 
-    .line 70
     const/4 v0, 0x2
 
     new-array v0, v0, [J
 
     iput-object v0, p0, Landroid/content/res/AssetManager;->mOffsets:[J
 
-    .line 75
     const/4 v0, 0x0
 
     iput-object v0, p0, Landroid/content/res/AssetManager;->mStringBlocks:[Landroid/content/res/StringBlock;
 
-    .line 77
     iput v1, p0, Landroid/content/res/AssetManager;->mNumRefs:I
 
-    .line 78
     iput-boolean v1, p0, Landroid/content/res/AssetManager;->mOpen:Z
 
-    .line 120
     invoke-direct {p0, v1}, Landroid/content/res/AssetManager;->init(Z)V
 
-    .line 121
-    const v0, 0x1020016
+    const v0, #android:id@title#t
 
     invoke-virtual {p0, v0}, Landroid/content/res/AssetManager;->getResourceName(I)Ljava/lang/String;
 
-    .line 122
     const-string v0, "/system/framework/lge-res/lge-res.apk"
 
     invoke-virtual {p0, v0}, Landroid/content/res/AssetManager;->addAssetPath(Ljava/lang/String;)I
 
-    .line 123
     invoke-direct {p0}, Landroid/content/res/AssetManager;->addLgeResOverlay()V
 
-    .line 125
+    invoke-direct/range {p0 .. p0}, Landroid/content/res/AssetManager;->addFlymeAssetPath()V
+
     return-void
 .end method
 
@@ -2237,4 +2215,15 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     throw v0
+.end method
+
+.method private addFlymeAssetPath()V
+    .locals 1
+
+    .prologue
+    const-string v0, "/system/framework/flyme-res/flyme-res.apk"
+
+    invoke-virtual {p0, v0}, Landroid/content/res/AssetManager;->addAssetPath(Ljava/lang/String;)I
+
+    return-void
 .end method

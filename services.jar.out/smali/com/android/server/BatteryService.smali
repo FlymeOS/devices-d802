@@ -3084,7 +3084,7 @@
     .param p1, "props"    # Landroid/os/BatteryProperties;
 
     .prologue
-    invoke-direct {p0, p1}, Lcom/android/server/BatteryService;->update(Landroid/os/BatteryProperties;)V
+    invoke-virtual {p0, p1}, Lcom/android/server/BatteryService;->update(Landroid/os/BatteryProperties;)V
 
     .line 527
     return-void

@@ -3,6 +3,14 @@
 .source "MasterClearReceiver.java"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/android/server/MasterClearReceiver$MzRebootThread;
+    }
+.end annotation
+
+
 # static fields
 .field private static final TAG:Ljava/lang/String; = "MasterClear"
 
@@ -327,6 +335,16 @@
 
     .line 55
     :cond_0
+    invoke-direct/range {p0 .. p2}, Lcom/android/server/MasterClearReceiver;->mzRebootWipeUserData(Landroid/content/Context;Landroid/content/Intent;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_flyme_0
+
+    return-void
+
+    :cond_flyme_0
+
     sget-object v1, Lcom/android/internal/telephony/lgdata/LgDataFeature$DataFeature;->LGP_DATA_APN_BACKUP_SPRINT:Lcom/android/internal/telephony/lgdata/LgDataFeature$DataFeature;
 
     invoke-virtual {v1}, Lcom/android/internal/telephony/lgdata/LgDataFeature$DataFeature;->getValue()Z
@@ -443,4 +461,22 @@
     invoke-static {v1, v2}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_1
+.end method
+
+.method private mzRebootWipeUserData(Landroid/content/Context;Landroid/content/Intent;)Z
+    .locals 2
+    .param p1, "context"    # Landroid/content/Context;
+    .param p2, "intent"    # Landroid/content/Intent;
+
+    .prologue
+    new-instance v0, Lcom/android/server/MasterClearReceiver$MzRebootThread;
+
+    invoke-direct {v0, p0, p1, p2}, Lcom/android/server/MasterClearReceiver$MzRebootThread;-><init>(Lcom/android/server/MasterClearReceiver;Landroid/content/Context;Landroid/content/Intent;)V
+
+    .local v0, "mzRebootThread":Lcom/android/server/MasterClearReceiver$MzRebootThread;
+    invoke-virtual {v0}, Lcom/android/server/MasterClearReceiver$MzRebootThread;->start()V
+
+    const/4 v1, 0x1
+
+    return v1
 .end method

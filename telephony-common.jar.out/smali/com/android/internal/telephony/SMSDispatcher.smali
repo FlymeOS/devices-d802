@@ -788,6 +788,18 @@
 
     .line 861
     :cond_0
+    invoke-direct/range {p0 .. p0}, Lcom/android/internal/telephony/SMSDispatcher;->mzCheckSimState()Z
+
+    move-result v8
+
+    if-nez v8, :cond_flyme_0
+
+    const/4 v9, 0x1
+
+    return v9
+
+    :cond_flyme_0
+
     const/4 v8, 0x0
 
     .line 862
@@ -4270,4 +4282,39 @@
     invoke-static {v4, v5}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     throw v8
+.end method
+
+.method private mzCheckSimState()Z
+    .locals 2
+
+    .prologue
+    const/4 v0, 0x1
+
+    iget-object v1, p0, Lcom/android/internal/telephony/SMSDispatcher;->mTelephonyManager:Landroid/telephony/TelephonyManager;
+
+    invoke-virtual {v1}, Landroid/telephony/TelephonyManager;->getSimState()I
+
+    move-result v1
+
+    if-eq v0, v1, :cond_0
+
+    iget-object v1, p0, Lcom/android/internal/telephony/SMSDispatcher;->mTelephonyManager:Landroid/telephony/TelephonyManager;
+
+    invoke-virtual {v1}, Landroid/telephony/TelephonyManager;->getSimState()I
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-static {}, Landroid/os/BuildExt;->isProductInternational()Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :cond_1
+    return v0
 .end method

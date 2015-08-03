@@ -132,7 +132,7 @@
 
     .line 66
     :cond_2
-    sget v0, Lcom/lge/internal/R$drawable;->stat_notify_wifi_in_range_fully:I
+    sget v0, Lcom/android/internal/R$drawable;->stat_notify_wifi_in_range:I
 
     sput v0, Lcom/android/server/wifi/WifiNotificationController;->ICON_NETWORKS_AVAILABLE:I
 

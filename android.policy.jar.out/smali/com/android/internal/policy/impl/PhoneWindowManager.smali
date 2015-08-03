@@ -24428,7 +24428,7 @@
     .param p1, "swipeTarget"    # Landroid/view/WindowManagerPolicy$WindowState;
 
     .prologue
-    invoke-direct {p0, p1}, Lcom/android/internal/policy/impl/PhoneWindowManager;->requestTransientBars(Landroid/view/WindowManagerPolicy$WindowState;)V
+    invoke-virtual {p0, p1}, Lcom/android/internal/policy/impl/PhoneWindowManager;->requestTransientBars(Landroid/view/WindowManagerPolicy$WindowState;)V
 
     return-void
 .end method

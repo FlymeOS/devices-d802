@@ -893,7 +893,7 @@
     if-nez v17, :cond_7
 
     .line 1402
-    const-string v17, "res:android:drawable/default_wallpaper"
+    const-string v17, ""
 
     move-object/from16 v0, v17
 

@@ -227,6 +227,28 @@
     return-void
 .end method
 
+.method constructor <init>(Landroid/telecom/Phone;Ljava/lang/String;Landroid/telecom/InCallAdapter;)V
+    .locals 5
+    .param p1, "phone"    # Landroid/telecom/Phone;
+    .param p2, "telecomCallId"    # Ljava/lang/String;
+    .param p3, "inCallAdapter"    # Landroid/telecom/InCallAdapter;
+
+    .prologue
+    move-object v0, p0
+
+    move-object v1, p1
+
+    move-object v2, p2
+
+    move-object v3, p3
+
+    const/4 v4, 0x0
+
+    invoke-direct/range {v0 .. v4}, Landroid/telecom/Call;-><init>(Landroid/telecom/Phone;Ljava/lang/String;Landroid/telecom/InCallAdapter;Z)V
+
+    return-void
+.end method
+
 .method private fireCallDestroyed()V
     .locals 3
 

@@ -105,6 +105,44 @@
     return-void
 .end method
 
+.method public constructor <init>(Landroid/telecom/PhoneAccountHandle;IILjava/util/List;)V
+    .locals 7
+    .param p1, "phoneAccount"    # Landroid/telecom/PhoneAccountHandle;
+    .param p2, "state"    # I
+    .param p3, "capabilities"    # I
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/telecom/PhoneAccountHandle;",
+            "II",
+            "Ljava/util/List",
+            "<",
+            "Ljava/lang/String;",
+            ">;)V"
+        }
+    .end annotation
+
+    .prologue
+    .local p4, "connectionIds":Ljava/util/List;, "Ljava/util/List<Ljava/lang/String;>;"
+    move-object v0, p0
+
+    move-object v1, p1
+
+    move v2, p2
+
+    move v3, p3
+
+    move-object/from16 v4, p4
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    invoke-direct/range {v0 .. v6}, Landroid/telecom/ParcelableConference;-><init>(Landroid/telecom/PhoneAccountHandle;IILjava/util/List;Lcom/android/internal/telecom/IVideoProvider;I)V
+
+    return-void
+.end method
+
 
 # virtual methods
 .method public describeContents()I

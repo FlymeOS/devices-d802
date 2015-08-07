@@ -11,8 +11,8 @@ import /init.${ro.hardware}.rc
 import /init.${ro.zygote}.rc
 import /init.trace.rc
 import /init.lge.rc
-import /init.vmware.rc
-import /init.acuraboot.rc
+#import /init.vmware.rc
+#import /init.acuraboot.rc
 
 on early-init
     # Set init and its forked children's oom_adj.
@@ -53,7 +53,7 @@ on init
 
     # Create cgroup mount point for cpu accounting
     mkdir /acct
-    #mount cgroup none /acct cpuacct
+    mount cgroup none /acct cpuacct
     mkdir /acct/uid
 
     # Create cgroup mount point for memory
@@ -220,8 +220,9 @@ on post-fs
     restorecon_recursive /cache
 
     # This may have been created by the recovery system with odd permissions
+    mkdir /cache/recovery
     chown system cache /cache/recovery
-    chmod 0770 /cache/recovery
+    chmod 0777 /cache/recovery
     # This may have been created by the recovery system with the wrong context.
     restorecon /cache/recovery
 

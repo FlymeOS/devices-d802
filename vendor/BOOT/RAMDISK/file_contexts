@@ -8,14 +8,14 @@
 /default\.prop		u:object_r:rootfs:s0
 /fstab\..*		u:object_r:rootfs:s0
 /init\..*		u:object_r:rootfs:s0
-/res(/.*)?		u:object_r:rootfs:s0
 /ueventd\..*		u:object_r:rootfs:s0
 
 # Executables
 /charger		u:object_r:rootfs:s0
 /init			u:object_r:rootfs:s0
 /sbin(/.*)?		u:object_r:rootfs:s0
-/sbin/busybox		u:object_r:rootfs:s0
+/sbin/busybox		u:object_r:system_file:s0
+/res(/.*)?		u:object_r:system_file:s0
 
 # Empty directories
 /lost\+found		u:object_r:rootfs:s0
@@ -124,11 +124,6 @@
 /dev/zero		u:object_r:zero_device:s0
 /dev/__kmsg__		u:object_r:klog_device:s0
 /dev/__properties__ u:object_r:properties_device:s0
-
-# Flyme kuangqianbo add for samba {@
-/dev/socket/flymed      u:object_r:flymed_socket:s0
-# @}
-
 #############################
 # System files
 #
@@ -136,8 +131,12 @@
 /system/bin/sh		--	u:object_r:shell_exec:s0
 /system/bin/run-as	--	u:object_r:runas_exec:s0
 /system/bin/bootanimation u:object_r:bootanim_exec:s0
-/system/bin/app_process32	u:object_r:zygote_exec:s0
-/system/bin/app_process64	u:object_r:zygote_exec:s0
+/system/bin/app_process_init    u:object_r:system_file:s0
+/system/bin/app_process    u:object_r:system_file:s0
+#/system/bin/app_process32	u:object_r:zygote_exec:s0
+/system/bin/app_process32_original    u:object_r:zygote_exec:s0
+/system/bin/app_process32_xposed    u:object_r:zygote_exec:s0
+#/system/bin/app_process64	u:object_r:zygote_exec:s0
 /system/bin/servicemanager	u:object_r:servicemanager_exec:s0
 /system/bin/surfaceflinger	u:object_r:surfaceflinger_exec:s0
 /system/bin/drmserver	u:object_r:drmserver_exec:s0
@@ -158,10 +157,20 @@
 /system/bin/pppd	u:object_r:ppp_exec:s0
 /system/bin/tf_daemon	u:object_r:tee_exec:s0
 /system/bin/racoon	u:object_r:racoon_exec:s0
-/system/xbin/su		u:object_r:su_exec:s0
+/system/app/SuperSU/SuperSU.apk    u:object_r:system_file:s0
+/system/etc/install-recovery.sh    u:object_r:toolbox_exec:s0
+/system/xbin/su    u:object_r:system_file:s0
+/system/bin/.ext/.su    u:object_r:system_file:s0
+/system/xbin/daemonsu    u:object_r:system_file:s0
+/system/xbin/sugote    u:object_r:zygote_exec:s0
+/system/xbin/supolicy    u:object_r:system_file:s0
+/system/lib/libsupol.so    u:object_r:system_file:s0
+/system/xbin/sugote-mksh    u:object_r:system_file:s0
+/system/etc/init.d/99SuperSUDaemon    u:object_r:system_file:s0
+/system/etc/.installed_su_daemon    u:object_r:system_file:s0
 /system/vendor/bin/gpsd u:object_r:gpsd_exec:s0
-/system/bin/ping    u:object_r:ping_exec:s0
-/system/wget/wget      u:object_r:wget_exec:s0
+/system/bin/ping    u:object_r:system_file:s0
+/system/wget/wget      u:object_r:system_file:s0
 /system/bin/dnsmasq     u:object_r:dnsmasq_exec:s0
 /system/bin/hostapd     u:object_r:hostapd_exec:s0
 /system/bin/clatd	u:object_r:clatd_exec:s0
@@ -171,16 +180,13 @@
 /system/bin/uncrypt     u:object_r:uncrypt_exec:s0
 #/system/bin/logwrapper  u:object_r:system_file:s0
 /system/bin/vdc         u:object_r:vdc_exec:s0
-/system/bin/install-recovery.sh u:object_r:install_recovery_exec:s0
+#/system/bin/install-recovery.sh u:object_r:install_recovery_exec:s0
 /system/bin/dex2oat     u:object_r:dex2oat_exec:s0
+/system/bin/dex2oat.orig    u:object_r:dex2oat_exec:s0
 # patchoat executable has (essentially) the same requirements as dex2oat.
 /system/bin/patchoat    u:object_r:dex2oat_exec:s0
-
-# Flyme kuangqianbo add for samba {@
-/system/bin/flymed      u:object_r:flymed_exec:s0
-/system/bin/smbd        u:object_r:smbd_exec:s0
-/system/bin/nmbd        u:object_r:nmbd_exec:s0
-# @}
+/system/bin/patchoat.orig    u:object_r:dex2oat_exec:s0
+/system/bin/acurafixril    u:object_r:rild_exec:s0
 
 #############################
 # Vendor files
@@ -236,16 +242,8 @@
 /data/misc/wifi/hostapd(/.*)?   u:object_r:wpa_socket:s0
 /data/misc/zoneinfo(/.*)?       u:object_r:zoneinfo_data_file:s0
 
-# Flyme kuangqianbo add for samba {@
-/data/misc/samba(/.*)?          u:object_r:samba_data_file:s0
-# @}
-
 # Wallpaper file for other users
 /data/system/users/[0-9]+/wallpaper		u:object_r:wallpaper_file:s0
-# FLYME:yfy@SHELL.FlymeWallpaer.Featur add for flyme wallpaper relative {@
-/data/system/users/[0-9]+/lock_wallpaper		u:object_r:wallpaper_file:s0
-/data/system/users/[0-9]+/smart_wallpaper_target		u:object_r:wallpaper_file:s0
-# @}
 #############################
 # efs files
 #
@@ -409,7 +407,7 @@
 /system/bin/mtsd           u:object_r:mtsd_exec:s0
 /system/bin/mcDriverDaemon u:object_r:mcdaemon_exec:s0
 /sbin/lge_fota_launcher    u:object_r:lg_fotafs:s0
-/system/lib/modules        u:object_r:system_modules_file:s0
+/system/lib/modules(/.*)?        u:object_r:system_modules_file:s0
 /system/bin/write_event_log  u:object_r:write_event_log_exec:s0
 /system/bin/spar_count     u:object_r:spar_count_exec:s0
 
@@ -667,7 +665,6 @@
 ###################################
 # System files
 #
-#/system/bin/app_process                         u:object_r:zygote_exec:s0
 /system/bin/ATFWD-daemon                        u:object_r:atfwd_exec:s0
 /system/bin/PktRspTest                          u:object_r:diag_exec:s0
 /system/bin/audiod                              u:object_r:audiod_exec:s0

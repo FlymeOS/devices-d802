@@ -74,7 +74,7 @@ vendor_saved_apps := LGBluetooth4 LgNfc KeyChain TagGoogle HTMLViewer UserDictio
 # You need to decode android.policy.jar to the project directory (use apktool d android.policy.jar) first,
 # and then you can make it by:   make android.policy
 #-----------------------------------------------------------------------------
-vendor_modify_jars := android.policy framework services telephony-common wifi-service
+vendor_modify_jars := android.policy framework services telephony-common wifi-service com.lge.services
 
 ##############################################################################
 # The value decides which board system directory you want to save.

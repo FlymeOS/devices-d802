@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static final POLICY_IMPL_CLASS_NAME:Ljava/lang/String; = "com.lge.internal.policy.impl.PolicyEx"
+.field private static final POLICY_IMPL_CLASS_NAME:Ljava/lang/String; = "com.android.internal.policy.impl.Policy"
 
 .field private static final sPolicy:Lcom/android/internal/policy/IPolicy;
 
@@ -16,7 +16,7 @@
     .prologue
     .line 39
     :try_start_0
-    const-string v2, "com.lge.internal.policy.impl.PolicyEx"
+    const-string v2, "com.android.internal.policy.impl.Policy"
 
     invoke-static {v2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
@@ -47,7 +47,7 @@
     .local v0, "ex":Ljava/lang/ClassNotFoundException;
     new-instance v2, Ljava/lang/RuntimeException;
 
-    const-string v3, "com.lge.internal.policy.impl.PolicyEx could not be loaded"
+    const-string v3, "com.android.internal.policy.impl.Policy could not be loaded"
 
     invoke-direct {v2, v3, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
@@ -62,7 +62,7 @@
     .local v0, "ex":Ljava/lang/InstantiationException;
     new-instance v2, Ljava/lang/RuntimeException;
 
-    const-string v3, "com.lge.internal.policy.impl.PolicyEx could not be instantiated"
+    const-string v3, "com.android.internal.policy.impl.Policy could not be instantiated"
 
     invoke-direct {v2, v3, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
@@ -77,7 +77,7 @@
     .local v0, "ex":Ljava/lang/IllegalAccessException;
     new-instance v2, Ljava/lang/RuntimeException;
 
-    const-string v3, "com.lge.internal.policy.impl.PolicyEx could not be instantiated"
+    const-string v3, "com.android.internal.policy.impl.Policy could not be instantiated"
 
     invoke-direct {v2, v3, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 

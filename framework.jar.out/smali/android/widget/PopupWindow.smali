@@ -4448,6 +4448,8 @@
     :cond_2
     iget-object v8, p0, Landroid/widget/PopupWindow;->mAnchor:Ljava/lang/ref/WeakReference;
 
+    const/4 v8, 0x0
+
     if-eqz v8, :cond_4
 
     .line 1529

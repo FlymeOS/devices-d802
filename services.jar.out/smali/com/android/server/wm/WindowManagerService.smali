@@ -51512,7 +51512,7 @@
     .locals 0
 
     .prologue
-    invoke-direct {p0}, Lcom/android/server/wm/WindowManagerService;->performLayoutAndPlaceSurfacesLocked()V
+    invoke-virtual {p0}, Lcom/android/server/wm/WindowManagerService;->performLayoutAndPlaceSurfacesLocked()V
 
     return-void
 .end method

@@ -6962,6 +6962,10 @@
     .locals 5
 
     .prologue
+    invoke-super {p0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->showGlobalActionsInternal()V
+
+    return-void
+
     const/4 v4, 0x0
 
     .line 1692

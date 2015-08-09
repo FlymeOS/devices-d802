@@ -56,7 +56,8 @@ vendor_remove_dirs := vendor/overlay apps sounds
 #-----------------------------------------------------------------------------
 vendor_saved_apps := LGBluetooth4 LgNfc KeyChain TagGoogle HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
                      FusedLocation PrintSpooler SharedStorageBackup  LGExternalStorageProvider InputDevices \
-                     ProxyHandler Shell DefaultContainerService LGFmRadio LGStk TimeService WapService qcrilmsgtunnel
+                     ProxyHandler Shell DefaultContainerService LGFmRadio LGStk TimeService WapService qcrilmsgtunnel \
+                     atfwd com.qualcomm.location com.qualcomm.qti.services.secureui LGSystemServer
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.

@@ -1129,6 +1129,8 @@
 
     move-result v0
 
+    const/4 v0, 0x0
+
     iput-boolean v0, p0, Landroid/view/ViewRootImpl;->mUsingTouchEventFilter:Z
 
     .line 405
@@ -1667,13 +1669,13 @@
 
     iget-object v3, p0, Landroid/view/ViewRootImpl;->mAttachInfo:Landroid/view/View$AttachInfo;
 
-    iget v3, v3, Landroid/view/View$AttachInfo;->mSystemUiVisibilityLG:I
+    #iget v3, v3, Landroid/view/View$AttachInfo;->mSystemUiVisibilityLG:I
 
-    iget v4, v1, Landroid/view/WindowManager$LayoutParams;->subtreeSystemUiVisibilityLG:I
+    #iget v4, v1, Landroid/view/WindowManager$LayoutParams;->subtreeSystemUiVisibilityLG:I
 
-    if-ne v3, v4, :cond_0
+    #if-ne v3, v4, :cond_0
 
-    iget-object v3, p0, Landroid/view/ViewRootImpl;->mAttachInfo:Landroid/view/View$AttachInfo;
+    #iget-object v3, p0, Landroid/view/ViewRootImpl;->mAttachInfo:Landroid/view/View$AttachInfo;
 
     iget-boolean v3, v3, Landroid/view/View$AttachInfo;->mHasSystemUiListeners:Z
 
@@ -1886,6 +1888,8 @@
     move-object/from16 v0, p0
 
     iget-boolean v4, v0, Landroid/view/ViewRootImpl;->DEBUG_FPS_FROM_BUILD_PROPERTY:Z
+
+    const/4 v4, 0x0
 
     if-eqz v4, :cond_2
 
@@ -2459,6 +2463,8 @@
     invoke-virtual {v4}, Landroid/view/Surface;->isValid()Z
 
     move-result v4
+
+    const/4 v4, 0x0
 
     if-eqz v4, :cond_12
 
@@ -4397,15 +4403,15 @@
     if-ne v3, v8, :cond_9
 
     .line 5168
-    if-nez v2, :cond_8
+    #if-nez v2, :cond_8
 
     .line 5171
-    invoke-direct {p0, p1, v2}, Landroid/view/ViewRootImpl;->handleDropEventWhenZdi(Landroid/view/DragEvent;Z)Z
+    #invoke-direct {p0, p1, v2}, Landroid/view/ViewRootImpl;->handleDropEventWhenZdi(Landroid/view/DragEvent;Z)Z
 
-    move-result v2
+    #move-result v2
 
     .line 5173
-    :cond_8
+    #:cond_8
     iput-object v7, p0, Landroid/view/ViewRootImpl;->mDragDescription:Landroid/content/ClipDescription;
 
     .line 5175
@@ -7464,7 +7470,7 @@
 
     iget v10, v10, Landroid/view/View$AttachInfo;->mSystemUiVisibilityLG:I
 
-    if-ne v4, v10, :cond_35
+    #if-ne v4, v10, :cond_35
 
     move-object/from16 v0, p0
 

@@ -2479,6 +2479,8 @@
 
     move-result-object v7
 
+    const/4 v7, 0x0
+
     .line 2476
     .local v7, "c":Ljava/lang/Class;
     if-eqz v7, :cond_3

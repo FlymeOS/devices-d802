@@ -1357,6 +1357,8 @@
 
     move-result-object v7
 
+    const/4 v7, 0x0
+
     .line 270
     .local v7, "c":Ljava/lang/Class;
     if-eqz v7, :cond_0
@@ -1530,6 +1532,8 @@
     invoke-static {v7}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
+
+    const/4 v0, 0x0
 
     .line 372
     .local v0, "c":Ljava/lang/Class;

@@ -74,6 +74,8 @@
 
     move-result-object v6
 
+    const/4 v6, 0x0
+
     .line 811
     .local v6, "c":Ljava/lang/Class;
     if-eqz v6, :cond_0

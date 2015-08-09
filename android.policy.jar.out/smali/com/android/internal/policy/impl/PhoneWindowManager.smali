@@ -11385,6 +11385,8 @@
 
     move-result-object v0
 
+    const/4 v0, 0x0
+
     iput-object v0, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mStatusBarServiceEx:Lcom/lge/internal/statusbar/IStatusBarServiceEx;
 
     .line 765

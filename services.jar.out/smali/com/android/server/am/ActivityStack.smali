@@ -314,6 +314,8 @@
 
     move-result-object v0
 
+    const/4 v0, 0x0
+
     .line 297
     .local v0, "c":Ljava/lang/Class;
     if-eqz v0, :cond_0

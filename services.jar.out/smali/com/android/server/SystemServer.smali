@@ -2276,6 +2276,8 @@
 
     move-result-object v43
 
+    const/16 v43, 0x0
+
     .line 723
     .restart local v43    # "c":Ljava/lang/Class;
     if-eqz v43, :cond_7
@@ -2340,6 +2342,8 @@
     .end local v57    # "ctor":Ljava/lang/reflect/Constructor;
     :cond_7
     :goto_11
+    if-eqz v112, :cond_flyme_0
+
     :try_start_18
     const-string v4, "statusbar"
 
@@ -3718,6 +3722,8 @@
     :goto_34
     sget-boolean v4, Lcom/lge/config/ConfigBuildFlags;->CAPP_THEMEICON:Z
 
+    const/4 v4, 0x0
+
     if-eqz v4, :cond_27
 
     :try_start_48
@@ -5000,6 +5006,7 @@
 
     .local v77, "e":Ljava/lang/Exception;
     :try_start_5d
+    :cond_flyme_0
     const-string v4, "SystemServer"
 
     const-string v5, "Could not load com.android.server.statusbar.StatusBarManagerServiceEx."

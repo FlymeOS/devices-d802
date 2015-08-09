@@ -734,7 +734,7 @@
     .local v0, "resolver":Landroid/content/ContentResolver;
     const-string v2, "screen_off_effect_set"
 
-    const/4 v3, 0x1
+    const/4 v3, 0x0
 
     const/4 v4, -0x2
 
@@ -1543,7 +1543,9 @@
 
     const/4 v3, -0x2
 
-    invoke-static {v0, v2, v4, v3}, Landroid/provider/Settings$System;->getIntForUser(Landroid/content/ContentResolver;Ljava/lang/String;II)I
+    const/4 v1, 0x0
+
+    invoke-static {v0, v2, v1, v3}, Landroid/provider/Settings$System;->getIntForUser(Landroid/content/ContentResolver;Ljava/lang/String;II)I
 
     move-result v2
 

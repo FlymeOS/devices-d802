@@ -112,7 +112,7 @@
 
     const/4 v5, 0x0
 
-    invoke-virtual {v3, v4, v1, v8, v5}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;IILjava/lang/String;)V
+    #invoke-virtual {v3, v4, v1, v8, v5}, Landroid/app/StatusBarManager;->setIcon(Ljava/lang/String;IILjava/lang/String;)V
 
     goto :goto_0
 
@@ -366,7 +366,7 @@
     :cond_6
     const-string v4, "nfc"
 
-    invoke-virtual {v3, v4}, Landroid/app/StatusBarManager;->removeIcon(Ljava/lang/String;)V
+    #invoke-virtual {v3, v4}, Landroid/app/StatusBarManager;->removeIcon(Ljava/lang/String;)V
 
     goto/16 :goto_0
 

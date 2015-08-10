@@ -1,0 +1,81 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_65 (Oracle Corporation)
+
+Name: res/layout/screenshot.xml
+SHA1-Digest: 3GZInK6yVdge9R0fPF/CvJstmIY=
+
+Name: res/drawable-xxhdpi-v4/stat_sys_lge_nfc_forum.png
+SHA1-Digest: icdYYW3rGvtSvzq0SiRYxAemHWA=
+
+Name: res/drawable-xxhdpi-v4/tap_again.png
+SHA1-Digest: JcnOR+GsS+0esL6rAcJ9GL3HrKU=
+
+Name: res/layout/cardemu_resolver.xml
+SHA1-Digest: 6IZg2IVkHa3UY7wXKpY8d5NwNj0=
+
+Name: res/drawable-xxhdpi-v4/stat_sys_lge_nfc_card_tonedown.png
+SHA1-Digest: 8Fmiw1rLGl2QClg/T5waklpIXO8=
+
+Name: resources.arsc
+SHA1-Digest: F0AsM/aM67uhfiElF9CUW5CsVeQ=
+
+Name: res/drawable-hdpi-v4/stat_sys_nfc.png
+SHA1-Digest: vzGEB4vySqWhOQAwnDnNBCA4o/8=
+
+Name: res/xml/token_sync.xml
+SHA1-Digest: kuLP3Wl72hWCoXWwAX62GDcZmts=
+
+Name: res/layout/tapagain.xml
+SHA1-Digest: a4FH2kE7PHarcswupf6hK/XxHXY=
+
+Name: AndroidManifest.xml
+SHA1-Digest: OI5eRx/bB2DL6tZrs5gbAvnlMvA=
+
+Name: res/layout/cardemu_item.xml
+SHA1-Digest: 7cP7nhVPMT1mjquHlrUZK7KqtmM=
+
+Name: res/drawable-xxhdpi-v4/stat_sys_lge_nfc_forum_tonedown.png
+SHA1-Digest: gSUwNOEJgsqPc3gLzKg4703lIF0=
+
+Name: res/xml/additions.xml
+SHA1-Digest: qkvvwNUsSQhFrvpbfqjSX7ALGkA=
+
+Name: res/layout/popupconfirm.xml
+SHA1-Digest: BFt+h9UvOHwvcdg4rNx8+e5vrRU=
+
+Name: res/drawable-xxhdpi-v4/android_beam.png
+SHA1-Digest: /6t9Th+9hnmjiIhzk85Uz8SOtug=
+
+Name: res/layout/cardemu_payment_item.xml
+SHA1-Digest: VL5tCOXzCiGHv99SUfv/N4iozWE=
+
+Name: res/drawable-xxhdpi-v4/stat_sys_lge_nfc_card.png
+SHA1-Digest: QB28vxufPgLeDN04XKpRwTtR+OI=
+
+Name: res/raw/start.ogg
+SHA1-Digest: v28yflF9sEdyZG/vxFycl7YOCkg=
+
+Name: assets/star.png
+SHA1-Digest: Fro9qbIdO6h/7qiYdtxF8u2beSA=
+
+Name: res/drawable-mdpi-v4/back.png
+SHA1-Digest: jCRgNhEEjswYtyWryiuIOuAYsHg=
+
+Name: res/drawable-hdpi-v4/nfc.png
+SHA1-Digest: BZFzC6WdceYcRASi8XsP4y+xeh0=
+
+Name: res/raw/end.ogg
+SHA1-Digest: bib2igpVVHanOnj/8nenHmvxoI0=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA1-Digest: tvIYbZ//RpJgNgtrB/WdxGeLxF4=
+
+Name: res/drawable-hdpi-v4/ic_menu_cancel_holo_dark.png
+SHA1-Digest: UdOJ2DW28YLSbPekCSvVrBePtvg=
+
+Name: res/drawable-mdpi-v4/p2p_bg.png
+SHA1-Digest: 1ZL2IjLE97ry9ggdNKRRm3ZnJw4=
+
+Name: res/raw/error.ogg
+SHA1-Digest: db6LQrE1Ejvrk80VC3M4iWslRtA=
+

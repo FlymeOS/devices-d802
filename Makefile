@@ -66,7 +66,7 @@ vendor_saved_apps := LGBluetooth4 LgNfc KeyChain TagGoogle HTMLViewer UserDictio
 # You need ro decode FMRadio.apk to the project directory(use apktool d FMRadio.apk) first,
 # and then you can make it by:   make FMRadio
 #-----------------------------------------------------------------------------
-#vendor_modify_apps := FMRadio
+vendor_modify_apps := LgNfc
 
 ##############################################################################
 # The value decides which vendor jar you want to modify.

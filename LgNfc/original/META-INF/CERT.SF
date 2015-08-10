@@ -1,0 +1,82 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: xQ6v73vrImct0+igFsKeVHng5sw=
+
+Name: res/layout/screenshot.xml
+SHA1-Digest: ky1Hx3yphYog3MnWgw0bs629W2U=
+
+Name: res/drawable-xxhdpi-v4/stat_sys_lge_nfc_forum.png
+SHA1-Digest: Qr8y2TkFVS2HgtyX/HoVHdTCfpE=
+
+Name: res/layout/cardemu_resolver.xml
+SHA1-Digest: nRvEDyEoFzin9yplrVTaCmQN97E=
+
+Name: res/drawable-xxhdpi-v4/tap_again.png
+SHA1-Digest: yqp6Wl9kAc85lOgL17PhTwo4Vsw=
+
+Name: res/drawable-xxhdpi-v4/stat_sys_lge_nfc_card_tonedown.png
+SHA1-Digest: O4rRjDgW+ujxEkrgeGePXbeZySE=
+
+Name: res/drawable-hdpi-v4/stat_sys_nfc.png
+SHA1-Digest: 53B/mpStzp/tW1VePgGJ1jksjeI=
+
+Name: resources.arsc
+SHA1-Digest: aiwxYLwyZsa8DSCYP71qxwnVNy8=
+
+Name: res/xml/token_sync.xml
+SHA1-Digest: 7unsMu6nnBIJKPhdCUNcpOKs4yo=
+
+Name: res/layout/tapagain.xml
+SHA1-Digest: zmDd67j9q/2W/COh663ICxdnAFQ=
+
+Name: AndroidManifest.xml
+SHA1-Digest: MhNSHhG5te/ErYkHP8igOZvcoAY=
+
+Name: res/layout/cardemu_item.xml
+SHA1-Digest: mtht3i0fTrtCYRbEuIK+4s6WVkQ=
+
+Name: res/drawable-xxhdpi-v4/stat_sys_lge_nfc_forum_tonedown.png
+SHA1-Digest: nfbFlmymF8u0m2ibu8NQgN61i7M=
+
+Name: res/xml/additions.xml
+SHA1-Digest: H8V8bfg4Qvfmz+26ZqnEPyKi2XE=
+
+Name: res/layout/popupconfirm.xml
+SHA1-Digest: XLeAUqLcAYKFgVo5GtuzoKXwfh0=
+
+Name: res/drawable-xxhdpi-v4/android_beam.png
+SHA1-Digest: lyPvaBJzp6VGxCXd/88op7HAhac=
+
+Name: res/layout/cardemu_payment_item.xml
+SHA1-Digest: mmJ1N/7UiYeZeWqVRjE6D+ssVVQ=
+
+Name: res/drawable-xxhdpi-v4/stat_sys_lge_nfc_card.png
+SHA1-Digest: 7SFunRlDgAKaFj+RsL57vcbx6eQ=
+
+Name: res/raw/start.ogg
+SHA1-Digest: cXeh+PQIhHJKeh/UtH/cK86P0Mc=
+
+Name: assets/star.png
+SHA1-Digest: 8hkqAnrx9gZjjQP7dqKsejjOga0=
+
+Name: res/drawable-mdpi-v4/back.png
+SHA1-Digest: BII8zpNYJpCCCdjAodCalpCfBjw=
+
+Name: res/drawable-hdpi-v4/nfc.png
+SHA1-Digest: u9BlHOkKmFLLSqVyGNeL07QADiA=
+
+Name: res/raw/end.ogg
+SHA1-Digest: W9Uf3V4Z6DgEFjVDUUbkcHL0JLk=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA1-Digest: /eIyK0860EBdZfZ9xcp3DsG8BuM=
+
+Name: res/drawable-hdpi-v4/ic_menu_cancel_holo_dark.png
+SHA1-Digest: +7OZlY+N20kEj+h6OZPkOeFS0UY=
+
+Name: res/drawable-mdpi-v4/p2p_bg.png
+SHA1-Digest: 9ZEu3ug3LJl9QHgibXBL8DH9OgI=
+
+Name: res/raw/error.ogg
+SHA1-Digest: xguzqlJ9jjBAWU09Ql1huLEwwIQ=
+

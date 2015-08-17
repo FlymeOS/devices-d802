@@ -1952,6 +1952,10 @@
     .param p1, "dispatch"    # Lcom/android/nfc/NfcDispatcher$DispatchInfo;
 
     .prologue
+    const/4 v3, 0x0
+
+    return v3
+
     const/4 v4, 0x1
 
     const/4 v3, 0x0

@@ -54,7 +54,7 @@ vendor_remove_dirs := vendor/overlay apps sounds
 # The default value is Bluetooth.
 # You can configure the apk name in the vendor/system/app or vendor/system/pri-app directory.
 #-----------------------------------------------------------------------------
-vendor_saved_apps := LGBluetooth4 LgNfc KeyChain TagGoogle HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
+vendor_saved_apps := LGBluetooth4 KeyChain TagGoogle HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
                      FusedLocation PrintSpooler SharedStorageBackup  LGExternalStorageProvider InputDevices \
                      ProxyHandler Shell DefaultContainerService LGFmRadio LGStk TimeService WapService qcrilmsgtunnel \
                      atfwd com.qualcomm.location com.qualcomm.qti.services.secureui LGSystemServer
@@ -135,10 +135,10 @@ override_property += \
 
 
 # The property decide your ID on the backend server which statistical data for your device.
-# The default value is Flyme.
-# You should configure the property according to your ID, ie, replace "Flyme" with your ID.
+# The default value is Unofficial.
+# You should configure the property according to your ID, ie, replace "Unofficial" with your ID.
 override_property += \
-    ro.flyme.romer=Flyme
+    ro.flyme.romer=Official
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.

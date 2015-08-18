@@ -482,6 +482,8 @@
 
     move-result v2
 
+    const/4 v2, 0x0
+
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v2
@@ -2855,6 +2857,8 @@
 
     move-result v8
 
+    const/4 v8, 0x0
+
     .line 943
     .local v8, "safeMediaVolumeEnabled":Z
     if-eqz v8, :cond_4
@@ -3675,6 +3679,8 @@
     .param p1, "toastName"    # I
 
     .prologue
+    return-void
+
     .line 905
     iget-object v0, p0, Landroid/media/AudioServiceEx;->mToast:Lcom/lge/view/SafevolumeToast;
 
@@ -3701,6 +3707,8 @@
     .param p1, "toastNameStr"    # Ljava/lang/String;
 
     .prologue
+    return-void
+
     .line 910
     iget-object v0, p0, Landroid/media/AudioServiceEx;->mToast:Lcom/lge/view/SafevolumeToast;
 
@@ -3962,6 +3970,8 @@
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
     move-result v0
+
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_4
 

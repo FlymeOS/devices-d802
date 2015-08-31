@@ -346,7 +346,7 @@
     sput-boolean v1, Lgenerated/ConfigBuildBase;->CAPP_MABL:Z
 
     .line 51
-    sput-boolean v1, Lgenerated/ConfigBuildBase;->CAPP_MDM:Z
+    sput-boolean v0, Lgenerated/ConfigBuildBase;->CAPP_MDM:Z
 
     .line 52
     sput-boolean v1, Lgenerated/ConfigBuildBase;->CAPP_MEDIA_AUDIOEFFECT:Z

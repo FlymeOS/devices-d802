@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="service_security_set_array">
+        <item>Dipercaya</item>
+        <item>Tak dipercaya</item>
+        <item>Perbarui</item>
+    </string-array>
+</resources>

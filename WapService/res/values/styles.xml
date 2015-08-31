@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NoTitleBar" parent="@com.lge:style/Theme.LGE.White">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Translucent_Dialog" parent="@com.lge:style/Theme.LGE.Default.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

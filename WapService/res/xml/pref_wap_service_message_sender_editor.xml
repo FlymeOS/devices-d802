@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sender_edit_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <EditTextPreference android:singleLine="true" android:title="@string/sender_edit_smsc_address" android:key="sender_smsc_edit_pref" android:dialogTitle="@string/sender_edit_smsc_address" android:inputType="phone" />
+    <EditTextPreference android:singleLine="true" android:title="@string/sender_edit_origin_address" android:key="sender_origin_add_edit_pref" android:dialogTitle="@string/sender_edit_origin_address" android:inputType="phone" />
+</PreferenceScreen>

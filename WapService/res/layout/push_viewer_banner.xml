@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/banner" android:background="@color/title_background" android:layout_width="fill_parent" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="16.0dip" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/app_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/push_received_title" android:singleLine="true" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:paddingStart="6.0dip" />
+</RelativeLayout>

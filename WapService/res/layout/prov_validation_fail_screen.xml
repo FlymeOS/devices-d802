@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:layout_gravity="start" android:id="@id/padding_button" android:visibility="invisible" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/common_empty_padding" android:layout_weight="0.4" android:paddingStart="6.0dip" />
+        <View android:id="@id/buttons_spacer_left" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.2" />
+        <Button android:layout_gravity="end" android:id="@id/finish" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/common_btn_ok" android:layout_weight="0.4" android:paddingEnd="6.0dip" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/button_bar" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/prov_viewer_banner" />
+            <LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorSecondary" android:id="@id/status_message" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/provviewer_install_message" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

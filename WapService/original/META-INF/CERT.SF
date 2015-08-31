@@ -1,0 +1,79 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: 5GNwIWbbxIUR4bAxlUOSHjqXssE=
+
+Name: res/layout/sender_move_layout.xml
+SHA1-Digest: xJ1EwwZH4LxKznVxjkIj1fnTbhw=
+
+Name: res/xml/pref_wap_service_message_vivo_setting.xml
+SHA1-Digest: 6at6lUrG6jcQHuk4RoXaY9buBKY=
+
+Name: res/xml/pref_wap_service_message_sender_editor.xml
+SHA1-Digest: YYxwVfatNg0fzUDxQpLNe1+vspg=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA1-Digest: U5wOkhQsdo+pM+v0aVtvh8bSg6k=
+
+Name: resources.arsc
+SHA1-Digest: zkOH0azByKzpXaonFNu1W5a/v5g=
+
+Name: res/layout/push_viewer_banner.xml
+SHA1-Digest: rhT5JewdvUKylgkwgH1iBlC3Mn8=
+
+Name: res/xml/token_sync.xml
+SHA1-Digest: 2vaGaOI4yXr9ivJmia0Y3KH+ip4=
+
+Name: res/layout/sender_list_update_layout.xml
+SHA1-Digest: EFLrYY57bdIkIj7sOD2kFDq/+wU=
+
+Name: AndroidManifest.xml
+SHA1-Digest: aQYsjlygESJywXwOPlNt5E6k60c=
+
+Name: res/layout/push_viewer.xml
+SHA1-Digest: 3R8dXYNpV1HcnYPc4aXk19uqW0k=
+
+Name: res/xml/pref_wap_service_message_setting.xml
+SHA1-Digest: uhUFr9EMP6CZbIk1EqRRaTUfwbc=
+
+Name: res/layout/service_message_setting_layout.xml
+SHA1-Digest: lHbJu2tBqhxF11k7LzWr20uUs50=
+
+Name: res/xml/additions.xml
+SHA1-Digest: H8V8bfg4Qvfmz+26ZqnEPyKi2XE=
+
+Name: res/layout/prov_validation_fail_screen.xml
+SHA1-Digest: AcHvvtDYBItU16aWXSncWVPYBoo=
+
+Name: res/layout/settings_sender_list.xml
+SHA1-Digest: 3HGDo15o2VX72M9oqvb1AUH0zpU=
+
+Name: res/layout/sender_edit_layout.xml
+SHA1-Digest: Wd7DRCAyqPt8UN4qQDFep2gBWjU=
+
+Name: res/xml/pref_wap_service_message_security_setting.xml
+SHA1-Digest: ora6EcVq8B0b0iwGNhCdCXNrd5g=
+
+Name: res/drawable/icon.png
+SHA1-Digest: 01PKrQwO7i0PdtVTZxSqqtjgZz8=
+
+Name: res/layout/prov_viewer.xml
+SHA1-Digest: SoTLZmQS/yP08czeyP1pw5ulQe4=
+
+Name: res/drawable-xxhdpi-v4/msg_provisioning.png
+SHA1-Digest: 6W9hXZIB60r3N76pjaRJI/NGs+I=
+
+Name: res/layout/service_security_setting_layout.xml
+SHA1-Digest: rOTqZEl4VYuqPKWn3EskzMi80jA=
+
+Name: res/layout/sender_delete_layout.xml
+SHA1-Digest: dShS4h8lsM5UCK63RljGWvSBxkY=
+
+Name: res/layout/prov_viewer_banner.xml
+SHA1-Digest: 35u3IfmryKYNVm/5DVwdbY7WDww=
+
+Name: res/layout/prov_pincode_input.xml
+SHA1-Digest: btaYWP+zd3A89fpUuSs45fzJvaY=
+
+Name: res/drawable-xxhdpi-v4/msg_wap_push.png
+SHA1-Digest: 0kIQQvvwWxIbYLsyXJCoWdXPcj8=
+

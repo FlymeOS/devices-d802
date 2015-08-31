@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="pref_service_message"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/array_item_message_receive" android:key="pref_message_receive" />
+    <ListPreference android:persistent="false" android:entries="@array/service_loading_setting" android:title="@string/array_item_service_loading" android:key="pref_service_loading" android:defaultValue="@string/service_loading_default" android:entryValues="@array/service_loading_setting_values" />
+</PreferenceScreen>

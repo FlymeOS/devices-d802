@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="service_security_set_array">
+        <item>Sécurisé</item>
+        <item>Non sécurisé</item>
+        <item>Mettre à jour</item>
+    </string-array>
+</resources>

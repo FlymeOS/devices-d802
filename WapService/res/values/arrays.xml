@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="security_setting_array_1">
+        <item>Service security set</item>
+        <item>Trusted list</item>
+        <item>Untrusted list</item>
+    </string-array>
+    <string-array name="service_security_set_array">
+        <item>Trusted</item>
+        <item>Untrusted</item>
+        <item>Update</item>
+    </string-array>
+    <string-array name="service_loading_setting">
+        <item>@string/directloading_setting_always</item>
+        <item>@string/directloading_setting_prompt</item>
+        <item>@string/directloading_setting_disable</item>
+    </string-array>
+    <string-array name="service_loading_setting_values">
+        <item>@string/directloading_setting_always</item>
+        <item>@string/directloading_setting_prompt</item>
+        <item>@string/directloading_setting_disable</item>
+    </string-array>
+    <string-array name="sender_list_update_menu">
+        <item>@string/sender_update_process</item>
+        <item>@string/sender_update_not_process</item>
+        <item>@string/sender_update_whitelist</item>
+        <item>@string/sender_update_blacklist</item>
+    </string-array>
+</resources>

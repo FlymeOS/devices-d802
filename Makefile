@@ -56,7 +56,7 @@ vendor_remove_dirs := vendor/overlay apps sounds
 #-----------------------------------------------------------------------------
 vendor_saved_apps := LGBluetooth4 KeyChain TagGoogle HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
                      FusedLocation PrintSpooler SharedStorageBackup  LGExternalStorageProvider InputDevices \
-                     ProxyHandler Shell DefaultContainerService LGFmRadio LGStk TimeService WapService qcrilmsgtunnel \
+                     ProxyHandler Shell DefaultContainerService LGFmRadio LGStk TimeService qcrilmsgtunnel \
                      atfwd com.qualcomm.location com.qualcomm.qti.services.secureui LGSystemServer
 
 ##############################################################################
@@ -66,7 +66,7 @@ vendor_saved_apps := LGBluetooth4 KeyChain TagGoogle HTMLViewer UserDictionaryPr
 # You need ro decode FMRadio.apk to the project directory(use apktool d FMRadio.apk) first,
 # and then you can make it by:   make FMRadio
 #-----------------------------------------------------------------------------
-vendor_modify_apps := LgNfc
+vendor_modify_apps := LgNfc WapService
 
 ##############################################################################
 # The value decides which vendor jar you want to modify.
@@ -108,7 +108,7 @@ board_remove_apps := Bluetooth NfcNci Tag
 # The command idtoname how to use: first use "apktool d source/system/framework/framework-res.apk other/TMP/framework-res",
 # and then use "idtoname other/TMP/framework-res/res/values/public_master.xml XXXX/smali"(XXXX is the directory where you decode board system apk).
 #-----------------------------------------------------------------------------
-board_modify_apps := TeleService FlymeLauncher
+board_modify_apps := TeleService FlymeLauncher TelephonyProvider
 
 ##############################################################################
 # The value decides which jar you want to modify, when the jar is based on the board framework jar.

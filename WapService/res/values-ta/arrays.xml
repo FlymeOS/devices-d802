@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="service_security_set_array">
+        <item>நம்பகமானது</item>
+        <item>நம்பகமானதல்ல</item>
+        <item>அப்டேட்</item>
+    </string-array>
+</resources>

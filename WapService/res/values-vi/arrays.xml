@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="service_security_set_array">
+        <item>Tin cậy</item>
+        <item>Không tin cậy</item>
+        <item>Cập nhật</item>
+    </string-array>
+</resources>

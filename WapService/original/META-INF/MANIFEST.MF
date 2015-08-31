@@ -1,0 +1,78 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_65 (Oracle Corporation)
+
+Name: res/layout/settings_sender_list.xml
+SHA1-Digest: lsADtdPQ1EDHYXwp/R3JHCzfoAo=
+
+Name: res/layout/sender_move_layout.xml
+SHA1-Digest: Y3bbonbQFQZnjunfepbwhR03BsU=
+
+Name: res/layout/prov_validation_fail_screen.xml
+SHA1-Digest: Ks7YqM/4L0WFVZ2SO0WJC+pi+BM=
+
+Name: res/xml/pref_wap_service_message_vivo_setting.xml
+SHA1-Digest: R0KIFxng3SV/5rsUEBGzVKg2g0w=
+
+Name: res/xml/pref_wap_service_message_sender_editor.xml
+SHA1-Digest: HhJL38AOtNtuVOvgGS31OcLlK0w=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA1-Digest: kYg8TIgx9A+NOY7h2dz31w8ch5w=
+
+Name: res/layout/sender_edit_layout.xml
+SHA1-Digest: dWxTjqzVDVagS4lTMy3qnax3jgs=
+
+Name: resources.arsc
+SHA1-Digest: u8SiOJbWYL59cER+DrQfHFcZn7s=
+
+Name: res/xml/pref_wap_service_message_security_setting.xml
+SHA1-Digest: SzBeMMnhjc5QK9xkNi+qybRY7T8=
+
+Name: res/layout/push_viewer_banner.xml
+SHA1-Digest: jTkPOxf1mrKzn7txuFyHswmEEm0=
+
+Name: res/xml/token_sync.xml
+SHA1-Digest: iM94gtM5qHckBMopt/iJhYnb2aI=
+
+Name: res/layout/sender_list_update_layout.xml
+SHA1-Digest: r0nv5M7YKNlpkTOJlSWX4MFbBgQ=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Z6Cq5/GCw834VpxWRBxjUM0tf5k=
+
+Name: res/drawable/icon.png
+SHA1-Digest: +cimB9Cf1/+esYbCcwfbiwCBfMs=
+
+Name: res/layout/prov_viewer.xml
+SHA1-Digest: F53+H97uCccFd3r5AA8Qo42AoKs=
+
+Name: res/drawable-xxhdpi-v4/msg_provisioning.png
+SHA1-Digest: 5vegtCDlLZQxRpt+PsQ7Y01k544=
+
+Name: res/layout/push_viewer.xml
+SHA1-Digest: 1+B5PXgRYhFnTRfAzIn826HtFIA=
+
+Name: res/xml/pref_wap_service_message_setting.xml
+SHA1-Digest: dk0g40EUK2moJupDneh6rVBF0ds=
+
+Name: res/layout/service_security_setting_layout.xml
+SHA1-Digest: r0nv5M7YKNlpkTOJlSWX4MFbBgQ=
+
+Name: res/layout/service_message_setting_layout.xml
+SHA1-Digest: BzZaUxh9XocYU4QKvmkFT+pJ15o=
+
+Name: res/layout/sender_delete_layout.xml
+SHA1-Digest: SScY0+YShjDSpsuLfznflNny/cs=
+
+Name: res/layout/prov_viewer_banner.xml
+SHA1-Digest: hn6vK7hOiXQsvdZ1l1BQrwR0xlw=
+
+Name: res/xml/additions.xml
+SHA1-Digest: qkvvwNUsSQhFrvpbfqjSX7ALGkA=
+
+Name: res/drawable-xxhdpi-v4/msg_wap_push.png
+SHA1-Digest: CfveNSCuxnhimfFKKixiGjOlOXA=
+
+Name: res/layout/prov_pincode_input.xml
+SHA1-Digest: XhDTqrE6lsMJugUDqd25optre8k=
+

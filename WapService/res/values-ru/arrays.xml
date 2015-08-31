@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="service_security_set_array">
+        <item>Доверенные</item>
+        <item>Ненадежные</item>
+        <item>Обновить</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="service_security_set_array">
+        <item>विश्वासिलो</item>
+        <item>अविश्वासिलो</item>
+        <item>अद्यावधिक</item>
+    </string-array>
+</resources>

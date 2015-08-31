@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="service_security_set_array">
+        <item>വിശ്വസനീയമായ</item>
+        <item>വിശ്വസനീയമല്ലാത്തത്</item>
+        <item>പുതുക്കുക</item>
+    </string-array>
+</resources>

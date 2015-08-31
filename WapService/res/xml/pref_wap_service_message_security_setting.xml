@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="pref_scr_security_setting_list"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/array_item_service_security_set" android:key="pref_security_setting_list" />
+    <Preference android:persistent="false" android:title="@string/array_item_trusted_list" android:key="pref_trusted_list" />
+    <Preference android:persistent="false" android:title="@string/array_item_untrusted_list" android:key="pref_untrusted_list" />
+</PreferenceScreen>

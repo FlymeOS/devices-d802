@@ -208,6 +208,8 @@
 
 .field mzPwm:Lcom/android/internal/policy/impl/MzPhoneWindowManager;
 
+.field mMzKeyguardSecure:Ljava/lang/Boolean;
+
 .field mAccelerometerDefault:Z
 
 .field mAccessibilityManager:Landroid/view/accessibility/AccessibilityManager;
@@ -5093,26 +5095,32 @@
 
     move v2, v6
 
+    .line 4018
     .local v2, "dismissKeyguard":Z
     :goto_3
-    invoke-virtual {p0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->isKeyguardSecure()Z
+    invoke-static {}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->mzGetKeyguardSecure()Z
 
     move-result v4
 
+    .line 4019
     .local v4, "secureKeyguard":Z
     if-eqz v1, :cond_d
 
+    .line 4020
     invoke-interface {p1}, Landroid/view/WindowManagerPolicy$WindowState;->getAppToken()Landroid/view/IApplicationToken;
 
     move-result-object v0
 
+    .line 4021
     .local v0, "appToken":Landroid/view/IApplicationToken;
     if-eqz v5, :cond_12
 
+    .line 4023
     iget-object v8, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mAppsToBeHidden:Ljava/util/HashSet;
 
     invoke-virtual {v8, v0}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
 
+    .line 4024
     iget-object v8, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mAppsThatDismissKeyguard:Ljava/util/HashSet;
 
     invoke-virtual {v8, v0}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
@@ -5133,12 +5141,16 @@
 
     if-eqz v8, :cond_7
 
+    .line 4026
     iput-object p1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mWinShowWhenLocked:Landroid/view/WindowManagerPolicy$WindowState;
 
+    .line 4027
     iput-boolean v6, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mHideLockScreen:Z
 
+    .line 4028
     iput-boolean v7, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBarFromKeyguard:Z
 
+    .line 4040
     :cond_7
     :goto_flyme_0
     invoke-static/range {p0 .. p2}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->mzPolicyShowWhenLocked(Lcom/android/internal/policy/impl/PhoneWindowManager;Landroid/view/WindowManagerPolicy$WindowState;Landroid/view/WindowManager$LayoutParams;)V
@@ -5194,6 +5206,10 @@
 
     if-eqz v8, :cond_16
 
+    invoke-static/range {p0 .. p0}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->mzGetKeyguardSecure(Lcom/android/internal/policy/impl/PhoneWindowManager;)Z
+
+    move-result v4
+
     if-eqz v4, :cond_16
 
     move v8, v6
@@ -5201,14 +5217,17 @@
     :goto_6
     iput-boolean v8, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBarFromKeyguard:Z
 
+    .line 4059
     :cond_8
     :goto_7
     and-int/lit8 v8, v3, 0x1
 
     if-eqz v8, :cond_9
 
+    .line 4060
     iput-boolean v6, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mAllowLockscreenWhenOn:Z
 
+    .line 4064
     :cond_9
     invoke-static/range {p0 .. p2}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->setHideLockScreen(Lcom/android/internal/policy/impl/PhoneWindowManager;Landroid/view/WindowManagerPolicy$WindowState;Landroid/view/WindowManager$LayoutParams;)V
 
@@ -5340,6 +5359,10 @@
     .restart local v4    # "secureKeyguard":Z
     :cond_12
     if-eqz v2, :cond_14
+
+    invoke-static/range {p0 .. p0}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->mzGetKeyguardSecure(Lcom/android/internal/policy/impl/PhoneWindowManager;)Z
+
+    move-result v4
 
     .line 4031
     if-eqz v4, :cond_13
@@ -7351,6 +7374,8 @@
     iput-object v2, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mWinShowWhenLocked:Landroid/view/WindowManagerPolicy$WindowState;
 
     iput-boolean v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceLockoutMDM:Z
+
+    invoke-static/range {p0 .. p0}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->mzSetKeyguardSecure(Lcom/android/internal/policy/impl/PhoneWindowManager;)V
 
     return-void
 .end method
@@ -10439,7 +10464,7 @@
 
     if-eqz v7, :cond_13
 
-    invoke-virtual {p0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->isKeyguardSecure()Z
+    invoke-static {p0}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->mzGetKeyguardSecure(Lcom/android/internal/policy/impl/PhoneWindowManager;)Z
 
     move-result v7
 

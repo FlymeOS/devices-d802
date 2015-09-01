@@ -5129,19 +5129,19 @@
 
     const-string v6, "activity"
 
-    invoke-virtual {v4, v6}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    #invoke-virtual {v4, v6}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
-    move-result-object v4
+    #move-result-object v4
 
-    check-cast v4, Landroid/app/ActivityManagerEx;
+    #check-cast v4, Landroid/app/ActivityManagerEx;
 
-    new-instance v6, Lcom/android/server/power/PowerManagerServiceEx$ActivityTrigger;
+    #new-instance v6, Lcom/android/server/power/PowerManagerServiceEx$ActivityTrigger;
 
-    const/4 v7, 0x0
+    #const/4 v7, 0x0
 
-    invoke-direct {v6, p0, v7}, Lcom/android/server/power/PowerManagerServiceEx$ActivityTrigger;-><init>(Lcom/android/server/power/PowerManagerServiceEx;Lcom/android/server/power/PowerManagerServiceEx$1;)V
+    #invoke-direct {v6, p0, v7}, Lcom/android/server/power/PowerManagerServiceEx$ActivityTrigger;-><init>(Lcom/android/server/power/PowerManagerServiceEx;Lcom/android/server/power/PowerManagerServiceEx$1;)V
 
-    invoke-virtual {v4, v6}, Landroid/app/ActivityManagerEx;->registerActivityTrigger(Lcom/lge/frameworks/IActivityTrigger;)V
+    #invoke-virtual {v4, v6}, Landroid/app/ActivityManagerEx;->registerActivityTrigger(Lcom/lge/frameworks/IActivityTrigger;)V
     :try_end_7
     .catch Landroid/os/RemoteException; {:try_start_7 .. :try_end_7} :catch_8
     .catchall {:try_start_7 .. :try_end_7} :catchall_0

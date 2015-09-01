@@ -820,6 +820,8 @@
 
     move-result-object v4
 
+    const/4 v4, 0x0
+
     move-object v0, p0
 
     move-object v6, v5
@@ -1064,6 +1066,8 @@
     move/from16 v0, p1
 
     move/from16 v1, v35
+
+    goto/16 :goto_flyme_0
 
     if-ne v0, v1, :cond_c
 
@@ -1962,6 +1966,7 @@
     .end local v5    # "Imsidata":Ljava/lang/String;
     .end local v26    # "nSimID":I
     :cond_a
+    :goto_flyme_1
     const-string v35, "address"
 
     move-object/from16 v0, v24
@@ -2079,6 +2084,7 @@
 
     .line 330
     :cond_c
+    :goto_flyme_0
     const/16 v35, 0x1
 
     move/from16 v0, p1
@@ -2249,13 +2255,13 @@
     .line 356
     const/16 v22, 0x1
 
-    goto/16 :goto_0
+    goto/16 :goto_flyme_1
 
     .line 358
     :cond_f
     const/16 v22, 0x2
 
-    goto/16 :goto_0
+    goto/16 :goto_flyme_1
 
     .line 363
     .end local v27    # "originatingAddress":Ljava/lang/String;

@@ -1446,6 +1446,8 @@
 
     move-result-object v8
 
+    const/4 v8, 0x0
+
     .line 137
     .local v8, "WHERE":Ljava/lang/String;
     const/16 v22, 0x0
@@ -1496,6 +1498,8 @@
 
     .line 144
     const-string v5, "(lgeMsgType=1) OR (lgeMsgType=\'2\')"
+
+    const/4 v5, 0x0
 
     .line 145
     .local v5, "GETFIRSTID_WHERE":Ljava/lang/String;
@@ -2976,6 +2980,8 @@
 
     move-result-object v8
 
+    const/4 v8, 0x0
+
     .line 385
     .restart local v8    # "WHERE":Ljava/lang/String;
     const/16 v22, 0x0
@@ -3138,9 +3144,11 @@
 
     move-object/from16 v1, v22
 
-    invoke-static {v0, v7, v8, v1}, Lcom/lge/wapservice/utils/DBManager;->getData(Landroid/content/Context;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;
+    #invoke-static {v0, v7, v8, v1}, Lcom/lge/wapservice/utils/DBManager;->getData(Landroid/content/Context;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;
 
-    move-result-object v19
+    #move-result-object v19
+
+    const/16 v19, 0x0
 
     .line 404
     .local v19, "retData":Ljava/lang/String;
@@ -3589,6 +3597,8 @@
 
     move-result-object v21
 
+    const/16 v21, 0x0
+
     .line 516
     .local v21, "update_where":Ljava/lang/String;
     sget-object v22, Landroid/provider/Telephony$Sms$Inbox;->CONTENT_URI:Landroid/net/Uri;
@@ -3708,6 +3718,8 @@
     invoke-virtual/range {v22 .. v22}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v13
+
+    const/4 v13, 0x0
 
     .line 531
     .local v13, "del_where":Ljava/lang/String;
@@ -3884,6 +3896,8 @@
     .line 591
     .local v4, "PROJECTION":[Ljava/lang/String;
     const-string v2, "(lgeMsgType=1) OR (lgeMsgType=\'2\')"
+
+    const/4 v2, 0x0
 
     .line 592
     .local v2, "GETFIRSTID_WHERE":Ljava/lang/String;
@@ -4296,6 +4310,8 @@
 
     move-result-object v6
 
+    const/4 v6, 0x0
+
     .line 667
     .local v6, "WHERE":Ljava/lang/String;
     const/4 v14, 0x0
@@ -4328,9 +4344,11 @@
 
     move-object/from16 v0, p0
 
-    invoke-static {v0, v5, v6, v14}, Lcom/lge/wapservice/utils/DBManager;->getData(Landroid/content/Context;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;
+    #invoke-static {v0, v5, v6, v14}, Lcom/lge/wapservice/utils/DBManager;->getData(Landroid/content/Context;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;
 
-    move-result-object v7
+    #move-result-object v7
+
+    const/4 v7, 0x0
 
     .line 673
     .local v7, "dbActionString":Ljava/lang/String;
@@ -4488,6 +4506,8 @@
     invoke-virtual {v14}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v13
+
+    const/4 v13, 0x0
 
     .line 699
     .local v13, "update_where":Ljava/lang/String;

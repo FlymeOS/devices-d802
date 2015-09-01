@@ -136,7 +136,7 @@
     sput-object v0, Lcom/android/internal/telephony/InboundSmsHandlerEx;->mRawUri:Landroid/net/Uri;
 
     .line 139
-    const/4 v0, 0x5
+    const/4 v0, 0x3
 
     new-array v0, v0, [Ljava/lang/String;
 
@@ -154,11 +154,11 @@
 
     const-string v1, "icc_index"
 
-    aput-object v1, v0, v5
+    #aput-object v1, v0, v5
 
     const-string v1, "time"
 
-    aput-object v1, v0, v6
+    #aput-object v1, v0, v6
 
     sput-object v0, Lcom/android/internal/telephony/InboundSmsHandlerEx;->PDU_SEQUENCE_PORT_ICC_TIME_PROJECTION:[Ljava/lang/String;
 
@@ -987,6 +987,10 @@
     .param p2, "cursor"    # Landroid/database/Cursor;
 
     .prologue
+    const-string v1, ""
+
+    return-object v1
+
     .line 2211
     const-string v2, "icc_index"
 

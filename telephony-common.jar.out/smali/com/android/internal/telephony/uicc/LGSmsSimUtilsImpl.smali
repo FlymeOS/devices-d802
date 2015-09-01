@@ -962,7 +962,7 @@
 
     move-result-object v8
 
-    invoke-virtual {v5, v6, v8}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
+    #invoke-virtual {v5, v6, v8}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
     .line 308
     const-string v6, "index_on_icc"
@@ -975,7 +975,7 @@
 
     move-result-object v8
 
-    invoke-virtual {v5, v6, v8}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+    #invoke-virtual {v5, v6, v8}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 312
     const-string v6, "uicc_csim"
@@ -1350,7 +1350,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
+    #invoke-virtual {v1, v2, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
     .line 486
     const-string v2, "body"
@@ -1979,13 +1979,15 @@
     .line 519
     const-string v4, "icc_index"
 
-    invoke-interface {v11, v4}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
+    #invoke-interface {v11, v4}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
-    move-result v4
+    #move-result v4
 
-    invoke-interface {v11, v4}, Landroid/database/Cursor;->getInt(I)I
+    #invoke-interface {v11, v4}, Landroid/database/Cursor;->getInt(I)I
 
-    move-result v17
+    #move-result v17
+
+    const/16 v17, 0x0
 
     .line 520
     invoke-static/range {v17 .. v17}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
@@ -2145,7 +2147,7 @@
 
     move-object/from16 v1, v16
 
-    invoke-virtual {v0, v4, v1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+    #invoke-virtual {v0, v4, v1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 547
     const/4 v4, 0x0

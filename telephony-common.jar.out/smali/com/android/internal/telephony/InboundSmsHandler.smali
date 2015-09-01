@@ -148,7 +148,7 @@
     sput-object v0, Lcom/android/internal/telephony/InboundSmsHandler;->PDU_SEQUENCE_PORT_PROJECTION:[Ljava/lang/String;
 
     .line 124
-    const/4 v0, 0x4
+    const/4 v0, 0x3
 
     new-array v0, v0, [Ljava/lang/String;
 
@@ -166,7 +166,7 @@
 
     const-string v1, "icc_index"
 
-    aput-object v1, v0, v5
+    #aput-object v1, v0, v5
 
     sput-object v0, Lcom/android/internal/telephony/InboundSmsHandler;->PDU_SEQUENCE_PORT_ICC_PROJECTION:[Ljava/lang/String;
 

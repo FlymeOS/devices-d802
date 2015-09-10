@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="service_security_set_array">
-        <item>විශ්වාසදායි</item>
-        <item>විශ්වාසදායී නොවන</item>
-        <item>යාවත්කාලීන කරන්න</item>
-    </string-array>
-</resources>

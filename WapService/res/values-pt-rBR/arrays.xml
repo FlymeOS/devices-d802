@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="service_security_set_array">
-        <item>Confiável</item>
-        <item>Não confiável</item>
-        <item>Atualizar</item>
-    </string-array>
-</resources>

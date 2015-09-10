@@ -1,17 +1,2 @@
 version: 2.0.1
 apkFileName: WapService.apk
-isFrameworkApk: false
-usesFramework:
-  ids:
-  - 1
-  - 2
-sdkInfo:
-  minSdkVersion: '21'
-  targetSdkVersion: '21'
-packageInfo:
-  forced-package-id: '127'
-versionInfo:
-  versionCode: '1'
-  versionName: 5.0.21200
-compressionType: false
-sharedLibrary: false

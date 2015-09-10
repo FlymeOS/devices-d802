@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="sp_service_update">Service update</string>
-    <string name="prov_notification_title_plural">%d new update messages</string>
-    <string name="prov_popupdlg_update_appid">You can update the settings of the following:</string>
-    <string name="prov_popupdlg_update_later">Tap No to update later in %s. Update now?</string>
-    <string name="common_btn_yes">YES</string>
-</resources>

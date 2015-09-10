@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="service_security_set_array">
-        <item>បានទុកចិត្ត</item>
-        <item>មិនបានទុកចិត្ត</item>
-        <item>បច្ចុប្បន្នភាព</item>
-    </string-array>
-</resources>

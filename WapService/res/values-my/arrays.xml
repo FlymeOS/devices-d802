@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="service_security_set_array">
-        <item>ယုံကြည်ရသော</item>
-        <item>မယုံကြည်ရသော</item>
-        <item>အဆင်မြှင့်ပါ</item>
-    </string-array>
-</resources>

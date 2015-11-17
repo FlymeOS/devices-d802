@@ -1,5 +1,5 @@
+#!/bin/bash
 
-echo "in $0"
 
 TARGET_DIR=out/merged_target_files/
 TARGET_BOOT_DIR=out/merged_target_files/BOOTABLE_IMAGES/

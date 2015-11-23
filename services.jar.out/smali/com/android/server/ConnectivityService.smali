@@ -16027,6 +16027,8 @@
     .restart local v2    # "details":Ljava/lang/CharSequence;
     sget v3, Lcom/lge/internal/R$drawable;->stat_notify_wifi_in_range_fully:I
 
+    const v3, #android:drawable@stat_notify_wifi_in_range#t
+
     .line 4883
     .restart local v3    # "icon":I
     goto :goto_0

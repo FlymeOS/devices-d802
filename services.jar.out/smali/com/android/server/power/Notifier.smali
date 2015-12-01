@@ -6,6 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lcom/android/server/power/Notifier$FlymeInjector;,
         Lcom/android/server/power/Notifier$NotifierHandler;
     }
 .end annotation
@@ -1420,4 +1421,13 @@
     invoke-direct {p0}, Lcom/android/server/power/Notifier;->sendGoToSleepBroadcast()V
 
     goto :goto_1
+.end method
+
+.method mzGetFieldContext()Landroid/content/Context;
+    .locals 1
+
+    .prologue
+    iget-object v0, p0, Lcom/android/server/power/Notifier;->mContext:Landroid/content/Context;
+
+    return-object v0
 .end method

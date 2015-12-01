@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/shot_mode_menu_grid_item_width" android:layout_height="@dimen/shot_mode_menu_grid_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/shot_mode_menu_item_icon" android:layout_width="fill_parent" android:layout_height="@dimen/shot_mode_menu_grid_item_img_height" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/shot_mode_menu_item_text_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_below="@id/shot_mode_menu_item_icon" style="@style/mode_menu_grid_item" />
+</RelativeLayout>

@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ካሜራ</string>
+    <string name="sp_ok_NORMAL">እሺ</string>
+    <string name="sp_lowbattery_MLINE">ካሜራውን ለማስሄድ የባትሪው መጠን ዝቅተኛ ነው። እባክዎ ስልክዎን ይምሉት።</string>
+    <string name="sp_lowbattery">ካሜራውን ለማስሄድ ባትሪ አሁን በጣም ዝቅተኛ ነው።</string>
+    <string name="setting_init">"ሁሉም ቅንጅቶች ወደ ነባሪ እሴቶች ዳግም ይጀምራሉ።
+ይቀጥል?"</string>
+    <string name="sp_reset_message_NORMAL">ወደ ነባሪ እሴቶች ዳግም ይጀምር ?</string>
+    <string name="sp_All_settings_reset_NORMAL">ሁሉም ቅንጅቶች ዳግም ማስጀመር።</string>
+    <string name="sp_blockedByEAS_NORMAL">በልውውጥ አገልጋይ ፖሊሲ ካሜራ ተሰናክሏል።</string>
+    <string name="sp_block_camera_NORMAL">ካሜራ በአገልጋይ ደንብ መሰረት ቦዝኗል</string>
+    <string name="error_cannot_use_hdmi">HDMI ላይ በመገናኘት ጊዜ ካሜራ መጠቀም አይችልም።</string>
+    <string name="sp_dual_display_status_NORMAL">በሁለትዩሽ ማሳያ ሁናቴ ውስጥ ካሜራ ማሳየት አይቻልም።</string>
+    <string name="reset">ዳግም አስጀምር</string>
+    <string name="cancel">ተወው</string>
+    <string name="yes">አዎ</string>
+    <string name="no">አይደለም</string>
+    <string name="sp_camera_helpdesc_generalsetting">ጠቅላላ</string>
+    <string name="sp_Exit_NORMAL">ውጣ</string>
+    <string name="auto">ራስሰር</string>
+    <string name="on">በርቷል</string>
+    <string name="sp_review_timer_2_NORMAL">2 ሰከንድ</string>
+    <string name="off">ጠፍቷል</string>
+    <string name="sp_none_NORMAL">ምንም</string>
+    <string name="normal">መደበኛ</string>
+    <string name="settings">ቅንጅቶች</string>
+    <string name="sp_loading_camera_NORMAL">በማዘጋጀት ላይ...</string>
+    <string name="dual_camera_select">ካሜራ አገላብጥ</string>
+    <string name="insert_sd_card">እባክዎ SD ካርድ ያስገቡ።</string>
+    <string name="insert_add_sd_card">የእርስዎን ውጫዊ SD ካርድ ይሰኩ።</string>
+    <string name="sp_preparing_int_sd_NORMAL">ውስጣዊ ማህደረ ትውስታ በማዘጋጀት ላይ...</string>
+    <string name="preparing_sd">SD ካርድ በማዘጋጀት ላይ</string>
+    <string name="sp_cannot_use_camera_UMS_NORMAL">ካሜራ መጠቀም አይቻልም ምክንያቱም SD ካርድ ወደ ፒሲ ተሰክቷልc። ለመቀጠል USB ይንቀሉ።</string>
+    <string name="sp_connected_mass_storage_NORMAL">በገፍ ማከማቻ</string>
+    <string name="sp_not_available_connected_mass_storage_NORMAL">"ካሜራ አይገኝም።
+ባለብዙ ማከማቻ ወደ ፒሲ ተገናኝቷል።"</string>
+    <string name="sp_launch_NORMAL">አስጀምር</string>
+    <string name="sp_memory_full_diag_title_NORMAL">ማህደረ ትውስታ ሙሉ ነው</string>
+    <string name="sp_memory_full_diag_1_NORMAL">"በ%1$s ውስጥ በቂ ማህደረ ትውስታ የለም።
+
+ፋይልዎ በ%2$s ላይ ይቀመጣል። 
+
+ስልኩን ወደ ፒሲ በማገናኘት ወይም የፋይል አስተዳደርን በማስነሳት በ%3$s ውስጥ ተጨማሪ  ማህደረ ትውስታ ነጻ ያድርጉ። 
+
+
+
+አሁን የፋይል አስተዳደር ይነሳ?
+
+በ'%4$s' ውስጥ ፋይሎችዎን ይመልከቱ"</string>
+    <string name="sp_memory_full_diag_1_no_file_manager_NORMAL">"በ%1$s ውስጥ በቂ ማህደረ ትውስታ የለም።
+
+ፋይልዎ በ%2$s ላይ ይቀመጣል።
+
+ስልኩን ወደ ፒሲ በማገናኘት ወይም የፋይል አስተዳደርን በማስነሳት በ%3$s ውስጥ ተጨማሪ  ማህደረ ትውስታ ነጻ ያድርጉ።"</string>
+    <string name="sp_memory_full_diag_2_NORMAL">"በ%1$s ውስጥ በቂ ማህደረ ትውስታ የለም።
+
+ስልኩን ወደ ፒሲ በማገናኘት ወይም የፋይል አስተዳደርን በማስነሳት በ%1$s ውስጥ ተጨማሪ  ማህደረ ትውስታ ነጻ ያድርጉ። 
+
+
+
+አሁን የፋይል አስተዳደር ይነሳ?
+
+በ'%2$s' ውስጥ ፋይሎችዎን ይመልከቱ"</string>
+    <string name="sp_memory_full_diag_2_no_file_manager_NORMAL">"በ%1$s ውስጥ በቂ ማህደረ ትውስታ የለም።
+ስልኩን ወደ ፒሲ በማገናኘት ወይም የፋይል አስተዳደርን በማስነሳት በ%1$s ውስጥ ተጨማሪ  ማህደረ ትውስታ ነጻ ያድርጉ።"</string>
+    <string name="sp_memory_full_diag_3_NORMAL">"በሁሉም ማህደረ ትውስታ ውስጥ በቂ ማህደረ ትውስታ የለም።
+
+ስልክ ወደ ፒሲ በማገናኘት ወይም የፋይል አስተዳደር በማስነሳት ተጨማሪ ማህደረ ትውስታ ነጻ ያድርጉ። 
+
+
+
+አሁን የፋይል አስተዳደር ይነሳ?
+
+በ'%1$s' ውስጥ ፋይሎችዎን ይመልከቱ"</string>
+    <string name="sp_memory_full_diag_3_no_file_manager_NORMAL">"በሁሉም ማህደረ ትውስታ ውስጥ በቂ ማህደረ ትውስታ የለም።
+ስልክ ወደ ፒሲ በማገናኘት ወይም የፋይል አስተዳደር በማስነሳት ተጨማሪማህደረ ትውስታ ነጻ ያድርጉ።"</string>
+    <string name="sp_storage_full_popup_ics_title_NORMAL">ማከማቻ ሙሉ ነው</string>
+    <string name="sp_storage_full_message_not_on_internal_NORMAL">በውስጣዊ ማህደረ ትውስታ ላይ በቂ ባዶ ቦታ የለም።</string>
+    <string name="sp_storage_full_message_not_on_internal_sto_NORMAL">በውስጣዊ ማህደረ ትውስታ ውስጥ በቂ ቦታ የለም።</string>
+    <string name="sp_storage_full_message_not_on_sd_NORMAL">በSD ካርድ ላይ በቂ ቦታ የለም።</string>
+    <string name="sp_storage_full_message_save_to_internal_NORMAL">ፋይሉ በውስጣዊ ማህደረ ትውስታ ተቀምጧል።</string>
+    <string name="sp_storage_full_message_save_to_internal_st_NORMAL">ፋይሉ በውስጣዊ ማከማቻ ተቀምጧል።</string>
+    <string name="sp_storage_full_message_save_to_sd_NORMAL">ፋይሉ በSD ካርድ ተቀምጧል።</string>
+    <string name="sp_storage_full_saving_file_NORMAL">ፋይል በማስቀመጥ ላይ...</string>
+    <string name="sp_storage_full_free_NORMAL">ባዶ ቦታ ነጻ ለማድረግ፣ ጥቅም ላይ ያልዋሉ ፋይሎችን ይሰርዙ።</string>
+    <string name="msg_save_progress">በማስቀመጥ ላይ...</string>
+    <string name="sp_storage_full_popup_ics_1_NORMAL">በ%s ላይ በቂ ቦታ የለም። ቦታ ነጻ ለማድረግ፣ የማያገለግሉ ፋይሎችን ይሰርዙ።</string>
+    <string name="sp_storage_full_popup_ics_2_NORMAL">በ%1$s ላይ በቂ ቦታ የለም። ፋይል ወደ %2$s የተቀመጠ ነው። ቦታ ነጻ ለማድረግ፣ የማያገለግሉ ፋይሎችን ይሰርዙ።</string>
+    <string name="sp_storage_full_popup_ics_3_NORMAL">በሁሉም ማከማቻ በቂ ባዶ ቦታ የለም። ባዶ ቦታ ለማስለቀቅ፣ ጥቅም ላይ ያልዋሉ ፋይሎችን ይሰርዙ።</string>
+    <string name="sp_storage_full_popup_ics_6_NORMAL">በ%s ላይ በቂ ቦታ የለም። ፋይል በማስቀመጥ ላይ...</string>
+    <string name="sp_full_popup_ics_1_not_in_memory_NORMAL">በውስጣዊ ማህደረ ትውስታ ውስጥ በቂ ቦታ የለም። ቦታ ነጻ ለማድረግ፣ የማያገለግሉ ፋይሎችን ይሰርዙ።</string>
+    <string name="sp_full_popup_ics_1_not_in_storage_NORMAL">በውስጣዊ ማከማቻ ላይ በቂ ቦታ የለም። አንዳንድ እርምጃዎች የተወሰኑ ናቸው። ቦታ ነጻ ለማድረግ፣ የማያገለግሉ ፋይሎችን ይሰርዙ።</string>
+    <string name="sp_full_popup_ics_1_not_sd_NORMAL">በSD ካርድ ላይ በቂ ቦታ የለም። ቦታ ነጻ ለማድረግ፣ የማያገለግሉ ፋይሎችን ይሰርዙ።</string>
+    <string name="sp_full_popup_ics_2_not_in_memory_to_sd_NORMAL">በውስጣዊ ማህደረ ትውስታ ውስጥ በቂ ቦታ የለም። ወደ SD ካርድ ፋይል ይቀመጣል። ቦታ ነጻ ለማድረግ፣ የማያገለግሉ ፋይሎችን ይሰርዙ።</string>
+    <string name="sp_full_popup_ics_2_not_in_storage_to_sd_NORMAL">በውስጣዊ ማከማቻ ውስጥ በቂ ቦታ የለም። ፋይል ወደ SD ካርድ ይቀመጣል። ቦታ ነጻ ለማድረግ፣ የማያገለግሉ ፋይሎች ይሰርዙ።</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_memory_NORMAL">በSD ካርድ ላይ በቂ ቦታ የለም። ፋይል ወደ ውስጣዊ ማህደረ ትውስታ ይቀመጣል። ቦታ ነጻ ለማድረግ፣ የማያገለግሉ ፋይሎችን ይሰርዙ።</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_storage_NORMAL">በSD ካርድ ላይ በቂ ቦታ የለም። ፋይል ወደ ውስጣዊ ማከማቻ ይቀመጣል። ቦታ ነጻ ለማድረግ፣ የማያገለግሉ ፋይሎችን ይሰርዙ።</string>
+    <string name="sp_full_popup_ics_6_not_in_memory_NORMAL">በውስጣዊ ማህደረ ትውስታ ውስጥ በቂ ቦታ የለም። በማስቀመጥ ላይ...</string>
+    <string name="sp_full_popup_ics_6_not_in_storage_NORMAL">በውስጣዊ ማከማቻ ላይ በቂ ቦታ የለም። ፋይል በማስቀመጥ ላይ...</string>
+    <string name="sp_full_popup_ics_6_not_sd_NORMAL">በSD ካርድ ላይ በቂ ቦታ የለም። ፋይል በማስቀመጥ ላይ...</string>
+    <string name="sp_internal_sd_prepared_NORMAL">ውስጣዊ ማህደረ ትውስታ ተዘጋጅቷል</string>
+    <string name="sp_external_sd_prepared_NORMAL">SD ካርድ ተዘጋጅቷል።</string>
+    <string name="sp_not_enough_memory_NORMAL">"በሁሉም ማህደረ ትውስታ በቂ ቦታ የለም።
+ተጨማሪ ማህደረ ትውስታ ነጻ ያድርጉ።"</string>
+    <string name="not_enough_space">አዲስ ውጫዊ ማከማቻ ካርድ ያስገቡ ወይም አንዳንድ መለያዎችን ይሰርዙ።</string>
+    <string name="sp_not_enough_int_sd_NORMAL">"በውስጣዊ ማህደረ ትውስታ ላይ በቂ ማከማቻ የለም።
+ፋይልዎ ወደ SD ካርድ ይቀመጣል።"</string>
+    <string name="sp_not_enough_add_space_NORMAL">"በSD ካርድ ላይ በቂ ማከማቻ የለም።
+ተጨማሪ ማህደረ ትውስታ ነጻ ያድርጉ።"</string>
+    <string name="sp_not_enough_sd_int_NORMAL">"በSD ካርድ ላይ በቂ ማከማቻ የለም።
+ፋይልዎ ወደ ውስጣዊ ማህደረ ትውስታ ይቀመጣል።"</string>
+    <string name="sp_media_scanning_NORMAL">"ሚዲያ እየቀረጸ ነው። ሚዲያ ቀረጻ ሲጠናቀቅ፣
+እንደገና ይሞክሩ።"</string>
+    <string name="sp_media_scanning_ics_NORMAL">ሚዲያ ፋይሎችን ከቃኙ በኋላ እንደገና ይሞክሩ።</string>
+    <string name="scanning_sdcard_media_files">SD ካርድ ሚዲያ ፋይሎችን በመቃኘት ላይ...</string>
+    <string name="sp_ext_sdcard_not_exist_NORMAL">SD ካርድ አይገኝም። ማከማቻ ወደ ውስጣዊ ማህደረ ትውስታ ተለውጧል።</string>
+    <string name="sp_sdremoved_change_int_NORMAL">SD ካርድ ተወግዷል። ማከማቻ ወደ ስልክ ማህደረ ትውስታ ተቀይሯል።</string>
+    <string name="sp_sd_card_removed_NORMAL">SD ካርድ ተወግዷል። SD ካርዱን ያስገቡ።</string>
+    <string name="camera_closed_due_to_sdcard_removal">SD ካርድ ሳይታሰብ ተወግዷል። ካሜራ ተዘግቷል።</string>
+    <string name="sp_sdcard_inserted_noti">ምንም SD ካርድ አልገባም ወደ SD ካርድ ይቀመጥ?</string>
+    <string name="sp_storage_always_ask_NORMAL">ሁልጊዜ ጠይቅ</string>
+    <string name="sp_storage_noti_title_NORMAL">ማሳወቂያ</string>
+    <string name="title_not_enough_space">ማህደረ ትውስታ ሙሉ ነው</string>
+    <string name="popup_storage_full_save">ማህደረ ትውስታ ሙሉ ነው። በማስቀመጥ ላይ...</string>
+    <string name="sp_notenoughmemory_NORMAL">"ውስጣዊ ማህደረ ትውስታ ወይም SD ካርድ ሙሉ ነው።
+Delete some contents."</string>
+    <string name="sp_addspace_NORMAL">"SD ካርድ ሙሉ ነው።
+አንዳንድ ይዘቶችን ይሰርዙ።"</string>
+    <string name="sp_mhl_cannot_use_camera_NORMAL">MHL ኬብል በሚገናኝበት ጊዜ ካሜራ መጠቀም አይቻልም።</string>
+    <string name="sp_mhl_cannot_show_preview_NORMAL">MHL ኬብል በሚገናኝበት ጊዜ የካሜራ ቅድመ ዕይታ ማሳየት አልተቻለም።</string>
+    <string name="msg_found_escape_char">የማይፈቀድ ቁምፊ አይገኝም</string>
+    <string name="sp_message_filename_limit_NORMAL">"የፋይል ስም ርዝመት ወሰኑ አልፏል
+(ወሰን ፤ %d ፊደላት)"</string>
+    <string name="waiting_save_image">እባክዎ ይጠብቁ…</string>
+    <string name="sp_image_size_front_NORMAL">የምስል መጠን ከፊት</string>
+    <string name="image_size">ምስል መጠን</string>
+    <string name="scene_mode">ገጽታ ሁናቴ</string>
+    <string name="scene_mode_portrait">ቁልቁል ገጽታ</string>
+    <string name="scene_mode_landscape">መልክዓምድር</string>
+    <string name="scene_mode_sports">ስፖርቶች</string>
+    <string name="scene_mode_night">ለሊት</string>
+    <string name="scene_mode_sunset">የፀሐይ ግባት</string>
+    <string name="sp_scene_mode_normal_NORMAL">መደበኛ</string>
+    <string name="sp_scene_mode_default_NORMAL">ራስሰር</string>
+    <string name="white_balance">ነጭ ማመጣጠኛ</string>
+    <string name="white_balance_incandescent">አንጸባራቂ</string>
+    <string name="white_balance_sunny">ጸሃያማ</string>
+    <string name="white_balance_fluorescent">ፍሎረሰንት</string>
+    <string name="white_balance_cloudy">ደመናማ</string>
+    <string name="sp_whitebalance_default_NORMAL">ራስሰር</string>
+    <string name="color_effect">የቀለም ማሳመሪያ</string>
+    <string name="color_effect_mono">ሞኖ</string>
+    <string name="color_effect_negative">አሉታዊ</string>
+    <string name="color_effect_solarize">ፀሐያማ አድርግ</string>
+    <string name="color_effect_sepia">ሴፒያ</string>
+    <string name="color_effect_negative_sepia">አሉታዊ ፈዛዛ ቡኒ</string>
+    <string name="color_effect_blue">ሰማያዊ</string>
+    <string name="color_effect_pastel">ፓስቴል</string>
+    <string name="color_effect_posterize">ወደፊት አስተላልፍ</string>
+    <string name="color_effect_aqua">ውሃማ</string>
+    <string name="sp_color_effect_none_cameraapp_NORMAL">ምንም</string>
+    <string name="image_quality">ምስል ጥራት</string>
+    <string name="quality_super_fine">እጽብ ምርጥ</string>
+    <string name="quality_fine">ደህና</string>
+    <string name="sp_quality_normal_NORMAL">መደበኛ</string>
+    <string name="video_quality">ቪዲዮ ጥራት</string>
+    <string name="timer">ጊዜ ቆጣሪ</string>
+    <string name="timer_1">1 ሰከንድ</string>
+    <string name="timer_3">3 ሰኮንድ</string>
+    <string name="timer_5">5 ሰከንድ</string>
+    <string name="timer_10">10 ሰከንድ</string>
+    <string name="shot_mode">የፎቶ ማንሻ ቅጥ</string>
+    <string name="shot_mode_continuous">ተከታታይ ማንሳት</string>
+    <string name="shot_mode_smile">ፈገግታ ማንሳት</string>
+    <string name="shot_mode_beauty">የውበት ማንሳት</string>
+    <string name="shot_mode_art">አርት ተኩስ</string>
+    <string name="shot_mode_panorama">ፓኖራማ</string>
+    <string name="shot_mode_face_effect">ፊት ማሳመሪያ</string>
+    <string name="shot_mode_cartoon">ካርቱን</string>
+    <string name="shot_mode_free_panorama">360 ፓናሮማ</string>
+    <string name="shot_mode_vr_panorama">VR ፓኖራማ</string>
+    <string name="shot_mode_burst">ቅጽበታዊ ማንሳት</string>
+    <string name="sp_shot_mode_burst">ቅጽበታዊ ማንሳት</string>
+    <string name="record_mode">መቅዳት ሁናቴ</string>
+    <string name="record_mode_WDR">WDR አቀዳድ</string>
+    <string name="record_mode_HDR">HDR ሮሚንግ</string>
+    <string name="artshot_original">ኦርጂናሌ</string>
+    <string name="artshot_warm">አሟሙቅ</string>
+    <string name="artshot_cold">ቀዝቃዛ</string>
+    <string name="artshot_blackwhite">ጥቁር እና ነጭ</string>
+    <string name="face_effect_blur">ብዥታ</string>
+    <string name="face_effect_snow">በረዶ</string>
+    <string name="face_effect_shallow_focus">ጠባብ ትኩረት</string>
+    <string name="face_effect_big_head">ትልቅ ራስ</string>
+    <string name="face_effect_mosaic">ሞዛይክ</string>
+    <string name="face_effect_fish_eye">ትልቅ ስእል</string>
+    <string name="face_effect_concave">ኮንኬቭ</string>
+    <string name="face_effect_funny_mask">አስቂኝ ጭምብል</string>
+    <string name="auto_review">በራሰሰር ግምገማ</string>
+    <string name="shutter_sound">የሻተር ድምጽ</string>
+    <string name="shutter_sound_1">ቶን 1</string>
+    <string name="shutter_sound_2">ቶን 2</string>
+    <string name="shutter_sound_3">ቶን 3</string>
+    <string name="shutter_sound_4">ቶን 4</string>
+    <string name="geo_tagging">መለያ አከባቢ</string>
+    <string name="sp_storage_NORMAL">ማከማቻ</string>
+    <string name="sp_default_memory_NORMAL">SD ካርታ እና ማከማቻ</string>
+    <string name="sp_internal_memory_NORMAL">ውስጣዊ</string>
+    <string name="sp_internal_storage_NORMAL">ውስጣዊ ማከማቻ</string>
+    <string name="sp_external_memory_NORMAL">SD ካርድ</string>
+    <string name="sp_anti_banding_NORMAL">ፀረ ባንድ ማድረግ</string>
+    <string name="focus">ማትኮር</string>
+    <string name="focus_macro">ማክሮ</string>
+    <string name="focus_face_tracking">ፊት ክትትል</string>
+    <string name="sp_quickfunction_focus_continuous_NORMAL">ቀጣይ</string>
+    <string name="manual_for_camera">በእጅ የሚሰራ</string>
+    <string name="flash">ፍላሽ</string>
+    <string name="sp_save_direction_NORMAL">አቅጣጫ አስቀምጥ</string>
+    <string name="zoom">አጉላ</string>
+    <string name="brightness">ብሩህነት</string>
+    <string name="sp_mirror_image_NORMAL">የመስታውት ምስል</string>
+    <string name="sp_normal_save_NORMAL">መደበኛ ማስቀመጥ</string>
+    <string name="sp_flipped_image_NORMAL">የዞረ ምስል</string>
+    <string name="sp_save_as_flipped_NORMAL">እንደ ተገለበጠ አስቀምጥ</string>
+    <string name="sp_uplusbox_NORMAL">U+ ሳጥን በራሰሰር ማስቀመጥ</string>
+    <string name="sp_help_guide_uplusbox_desc_NORMAL">ፎቶዎቹ ወደ U+ Box ይሰቀላሉ። በ ሞባይል ውሂብ ሲገናኝ የውሂብ ክፍያ ሊያስጠይቅ ይችል ይሆናል።</string>
+    <string name="sp_uplusbox_NORMAL_network_error">የአውታመረብ ስህተት። አውታረመረብ በሚገኝበት ጊዜ ፎቶዎቹ በራሰሰር ወደ U+ Box ይሰቀላሉ።</string>
+    <string name="sp_uplusbox_NORMAL_desc_on">ፎቶዎች በራስሰር ወደ U+ Box ይሰቀላሉ።</string>
+    <string name="sp_voiceshutter_NORMAL">ድምጽ መዝጊያ</string>
+    <string name="sp_note_voiceshutter_NORMAL">ፎቶ ለመውሰድ በሚዘጋጁበት ጊዜ \"%s\" ይበሉ።</string>
+    <string name="sp_voiceshutter_say_NORMAL">ፎቶ ለመውሰድ \"%s\" ይበሉ።</string>
+    <string name="sp_cheeseshutter_NORMAL">ቺዝ መጋረጃ</string>
+    <string name="sp_voiceshutter_word_whisky_NORMAL">Whisky</string>
+    <string name="sp_voiceshutter_word_torimasu_NORMAL">ቶሪማሱ</string>
+    <string name="sp_voiceshutter_sound_kimchi_NORMAL">ኪሚቺ</string>
+    <string name="sp_voiceshutter_sound_cheese_NORMAL">አይብ</string>
+    <string name="sp_voiceshutter_sound_smile_NORMAL">ፈገግታ</string>
+    <string name="sp_voiceshutter_sound_whisky_NORMAL">ውስኪ</string>
+    <string name="sp_voiceshutter_sound_torimasu_NORMAL">ቶሪማሶ</string>
+    <string name="sp_note_voiceshutter_multi_sound_NORMAL">ፎቶ ለማንሳት፣ ከሚከተሉት ቃላት አንዱን ይበሉ።</string>
+    <string name="sp_note_voiceshutter_multi_sound_vzw_NORMAL">ቺዝ ሻተር እነዚህን ቃላት እስከሚናገሩ ድረስ ፎቶ ሳያነሳ ይጠብቃል፦</string>
+    <string name="sp_voiceshutter_multi_sound_say_NORMAL">ፎቶ ለማንሳት፣ \"%1$s\"፣ \"%2$s\"፣ ወይም \"%3$s\" ይበሉ።</string>
+    <string name="sp_voiceshutter_multi_keyword_say_NORMAL">ፎቶ ለማንሳት፣ \"%1$s\"፣ \"%2$s\"፣ \"%3$s\"፣ \"%4$s\"፣ \"%5$s\" ይበሉ።</string>
+    <string name="sp_voiceshutter_multi_keyword_say_4items">ፎቶ ለማንሳት፣ \"%1$s\"፣ \"%2$s\"፣ \"%3$s\"፣ \"%4$s\" ይበሉ።</string>
+    <string name="sp_voiceshutter_say_new_NORMAL">ፎቶ ለማንሳት፣ \"%s\" ይበሉ።</string>
+    <string name="sp_voiceshutter_help_desc_NORMAL">ከድምጽ ትዕዛዝ ጋር ፎቶ አንሳ።</string>
+    <string name="video_size">ቪዲዮ መጠን</string>
+    <string name="sp_video_duration_NORMAL">ቆይታ</string>
+    <string name="video_voice">የድምጽ ቅጂዎች</string>
+    <string name="sp_video_voice_unmute_NORMAL">በርቷል</string>
+    <string name="sp_video_voice_mute_NORMAL">ድምጸ ከል አድርግ</string>
+    <string name="show_recorded_video">በራሰሰር ግምገማ</string>
+    <string name="share">አጋራ</string>
+    <string name="sp_share_via_NORMAL">አጋራ በ</string>
+    <string name="set_as">አቀናብር እንደ</string>
+    <string name="sp_set_photo_as_NORMAL">ፎቶ አቀናብር እንደ</string>
+    <string name="rename">በድጋሚ መሰየም</string>
+    <string name="sp_share_SHORT">አጋራ</string>
+    <string name="sp_set_as_SHORT">አቀናብር እንደ</string>
+    <string name="sp_rename_SHORT">በድጋሚ መሰየም</string>
+    <string name="sp_set_as_twoline_NORMAL">አቀናብር እንደ</string>
+    <string name="sp_rename_twoline_NORMAL">በድጋሚ መሰየም</string>
+    <string name="edit">አርትዕ</string>
+    <string name="sp_play_twoline_SHORT">አጫውት</string>
+    <string name="sp_share_twoline_SHORT">አጋራ</string>
+    <string name="sp_set_as_twoline_SHORT">አቀናብር እንደ</string>
+    <string name="sp_rename_twoline_SHORT">በድጋሚ መሰየም</string>
+    <string name="sp_save_SHORT">አስቀምጥ</string>
+    <string name="sp_save_complete_SHORT">ተጠናቋል</string>
+    <string name="play">አጫውት</string>
+    <string name="dlg_title_rename">አዲስ ስም ያስገቡ</string>
+    <string name="dlg_title_delete">ሰርዝ</string>
+    <string name="msg_multi_image_delete">እነዚህ የሚዲያ ፋይሎች ይሰረዛሉ።</string>
+    <string name="msg_image_delete">ስዕሉ ይሰረዛል።</string>
+    <string name="msg_video_delete">ቪዲዮው ይሰረዛል።</string>
+    <string name="popup_delete_done">ተሰርዟል</string>
+    <string name="video_rec">ቅዳ</string>
+    <string name="slow_motion">የቀስታ እንቅስቃሴ</string>
+    <string name="sp_note_img_size_change_NORMAL">የመስል መጠን ወደ %s ተለውጧል።</string>
+    <string name="note_image_deleted">የተሰረዘ ምስል</string>
+    <string name="note_shot_mode_change_normal">የፎቶ ማንሻ ቅጥ ወደ መደበኛ ተለውጧል።</string>
+    <string name="note_timer_mode_off">የጊዜ ቆጣሪ ቅጥ እንዲጠፋ ተደርጎ ተቀናብሯል።</string>
+    <string name="note_smile_shutter_started">ፈገግታ ተፈልጎ ሲገኝ በራስሰር ፎቶ ያነሳል።</string>
+    <string name="note_focus_mode_set_to_auto">የማትኮር ሁኔታ ወደ ራስ ሆነዋል።</string>
+    <string name="note_iso_set_to_auto">ISO ወደ ራሰሰር ተቀናብሯል።</string>
+    <string name="sp_note_rec_size_change_NORMAL">ቪዲዮ መጠን ወደ %sተዋቅሯል</string>
+    <string name="note_select_image">ምንም ፋይል(ሎች) አልተመረጠም(ጡም)።</string>
+    <string name="sp_select_photo_NORMAL">ምንም ፎቶ(ዎች) አልተመረጠም(ጡም)።</string>
+    <string name="note_color_effect_change">የቀለም ተጽእኖ ጠፍቷል።</string>
+    <string name="sp_note_color_effect_change_NORMAL">የቀለም ተጽእኖ %s አብርቷል።</string>
+    <string name="note_color_effect_change_none">የቀለም ተጽእኖ ምንም አብርቷል።</string>
+    <string name="note_white_balance_change">የነጭ ሚዛን መጠበቂያ ወደ ራስሰር ተቀናብሯል።</string>
+    <string name="note_flash_change_off">የፍላሽው መጫወቻ ጠፍቶል።</string>
+    <string name="note_scene_mode_change">ገጽታ ሁናቴ ወደ ራሰሰር ተዋቅሯል።</string>
+    <string name="sp_note_scene_mode_change_NORMAL">ገጽታ ሁናቴ ወደ %s ተዋቅሯል።</string>
+    <string name="note_scene_mode_change_normal">ገጽታ ሁናቴ ወደ መደበኛ ተዋቅሯል።</string>
+    <string name="sp_note_video_ori_land_NORMAL">MMS ለመላክ የመሬት አቀማመጥ ቅጂ ብቻ ደግፍ።</string>
+    <string name="sp_note_brightness_set_to_zero_NORMAL">ብሩህነት ዜሮ ላይ ተቀናብሯል።</string>
+    <string name="error_not_enough_memory">በቂ ማህደረ ትውስታ የለም!</string>
+    <string name="error_not_exist_app">መተግበሪያ አልተገኘም።</string>
+    <string name="error_preview_fail">ቅኝት ማስጀመር አለመሳካት።</string>
+    <string name="error_write_file">ፋይል መጻፍ አለመሳካት።</string>
+    <string name="error_rename">ልክ ያልሆነ ስም፣ እባክዎ በድጋሚ ይሰይሙ።</string>
+    <string name="error_write_file_exist">አስቀድሞ አለ!</string>
+    <string name="error_unknown">ያልታወቀ ስህተት</string>
+    <string name="error_low_battery">ካሜራውን ለማስሄድ ባትሪው በቂ ሊሆን አይችልም።</string>
+    <string name="error_get_video_frame_fail">ማቀፊያ ለማግኘት አልተቻለም።</string>
+    <string name="error_video_recording">ጥሪ እየተደረገ ሳለ ቪዲዮን መቅዳት አይችሉም።</string>
+    <string name="error_video_recording_during_call">በጥሪ ጊዜ ቪዲዮ መቅዳት አልተቻለም።</string>
+    <string name="sp_error_call_camera_NORMAL">በጥሪ ጊዜ ካሜራ ለመጀመር አልተቻለም።</string>
+    <string name="error_camera_during_video_call">በቪዲዮ ጥሪ ጊዜ ካሜራ ለመጀመር አልተቻለም።</string>
+    <string name="error_cannot_start_recording_with_audio">ሌላ መተግበሪያ ኦዲዮ በሚጠቀምበት ጊዜ መቅዳትን መጀመር አይቻልም።</string>
+    <string name="error_sdm_server_setting">ካሜራውን ማስሄድ አልተቻለም። ከአገልጋዩ በኩል ባህሪው ተቆልፏል።</string>
+    <string name="help_title">ካሜራ እገዛ መመሪያ</string>
+    <string name="sp_detail_view_NORMAL">የዝርዝር እይታ</string>
+    <string name="help_swap_camera_menu_desc">ወደ ዋና እና ሁለተኛ ካሜራ ቀይር።</string>
+    <string name="help_zoom_desc">የጉዳዮቹን መጠን አተልቅ ወይም አሳጥር።</string>
+    <string name="help_brightness_desc">የተጋላጭነት መጠን በማስተካከል ላይ።</string>
+    <string name="sp_help_brightness_desc_video_NORMAL">የተጋላጭነት መጠን በማስተካከል ላይ</string>
+    <string name="help_flash_desc">ፍላሹን ያቀናብራል።</string>
+    <string name="help_flash_auto_desc">በራስሰር ፍላሹን ያዘጋጃል።</string>
+    <string name="sp_help_flash_off_desc_NORMAL">የተነሰው ፎቶ ያለ ፍላሽ ነው።</string>
+    <string name="sp_help_flash_on_desc_NORMAL">የተነሰው ፎቶ ሁሉ በፍላሽ ነው።</string>
+    <string name="help_camera_settings_desc">የካሜራ ቅንጅቶችን ያስተካክሉ</string>
+    <string name="help_image_size_menu_desc">የምስል ፋይል መጠንን ማቀናጀት።</string>
+    <string name="help_image_size_menu_5m_desc">እስከ A4 መጠን ድረስ ለማተም የተመረጠ።</string>
+    <string name="help_image_size_menu_3m_desc">እስከ A5 መጠን ድረስ ለማተም የተመረጠ።</string>
+    <string name="help_image_size_menu_2m_desc">እስከ ፖስትካርድ መጠን ድረስ ለማተም የተመረጠ።</string>
+    <string name="help_image_size_menu_1m_desc">ከፖስትካርዶች ያነሰ መጠን ለማተም ምርጥ ነው።</string>
+    <string name="help_image_size_menu_vga_desc">እንደ ኢሜይል ዓባሪረ ለመላክ የተመረጠ (የተወሰነ ትንሽ የማህደረ ትውስታ ቦታ ይወስዳል)።</string>
+    <string name="help_image_size_menu_qvga_desc">እንደ ኢሜይል ዓባሪረ ለመላክ የተመረጠ (የተወሰነ ትንሽ የማህደረ ትውስታ ቦታ ይወስዳል)።</string>
+    <string name="help_scene_mode_menu_desc">አሁን ላለው ድባብ ተገቢ የሆነውን ቅጥ አቀነባበር።</string>
+    <string name="help_scene_mode_menu_auto_desc">እንደ የሁኔታው በመመርኮዝ በራስሰር ያስተካክላል።</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_NORMAL">መደበኛውን ምስል ፎቶ ማንሳት።</string>
+    <string name="help_scene_mode_menu_portrait_desc">ሰዎችን ፎቶ ማንሳት።</string>
+    <string name="help_scene_mode_menu_landscape_desc">የተፈጥሮ ትዕይንትን ፎቶ ማንሳት።</string>
+    <string name="help_scene_mode_menu_sports_desc">ተነሺው ብዥ ሳይል በፍጥነት የሚንቀሳቀሱ ምስሎችን ፎቶ ማንሳት።</string>
+    <string name="help_scene_mode_menu_night_desc">የለሊት ትዕይነትን ፎቶ ማንሳት።</string>
+    <string name="help_scene_mode_menu_sunset_desc">የጸሐይ ግባት ትዕይንትን ፎቶ ማንሳት።</string>
+    <string name="help_iso_menu_desc">የካሜራው ለብርሃን ያለውን ንቁነት ተቆጣጠር</string>
+    <string name="help_white_balance_menu_desc">መጠነ ሰፊ የብርሃን ሁኔታዎች ስር ቀለም በማሳየት ላይ።</string>
+    <string name="help_white_balance_menu_auto_desc">በራስሰር ቀለምን ማስተካከል።</string>
+    <string name="help_white_balance_menu_incandescent_desc">በቀላል ብርሃን ለተወሰዱ ምስሎች።</string>
+    <string name="help_white_balance_menu_sunny_desc">በቀጥታ የፀሐይ ብርሃን ፎቶዎችን በማንሳት ላይ።</string>
+    <string name="help_white_balance_menu_flourescent_desc">በፍሎረሰንት ብርሃን ለተወሰዱ ምስሎች።</string>
+    <string name="help_white_balance_menu_cloudy_desc">በጥላ ወይም በደመናማ ቀናት ለተወሰዱ ምስሎች።</string>
+    <string name="help_color_effect_menu_desc">ስዕሎች ላይ አርቲስቲካዊ ተጽእኖዎች ይተገብራል።</string>
+    <string name="help_color_effect_menu_off_desc">ምንም የቀለም ማሳመሪያ አይተገበርም።</string>
+    <string name="help_color_effect_menu_sepia_desc">ሴፕያ ወንፊት ማሳመሪያን ትዝታን ቀስቃሽ ስዕል ለማንሳት በመተግበር ላይ።</string>
+    <string name="help_color_effect_menu_mono_desc">ጥቁር እና ነጭ ስዕልን ለመውሰድ ባለ አንድ ተጽእኖ ማጣሪያ በመተግበር ላይ።</string>
+    <string name="help_color_effect_menu_negative_desc">የስዕሉን ቀለም ለመቀልበስ አሉታዊ የማጣሪያ ተጽእኖ በመተግበር ላይ።</string>
+    <string name="help_color_effect_menu_vivid_desc">ስዕሎች ላይ ጉልህ ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_color_effect_menu_negative_sepia_desc">ስዕሎች ላይ ፈዘዝ ያለ ቡኒ ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_color_effect_menu_blue_desc">ስዕሎች ላይ ሰማያዊ ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_color_effect_menu_emboss_desc">ስዕሎች ላይ የማስጌጥ ተጽእኖ ይተገብራል።</string>
+    <string name="help_color_effect_menu_solarize_desc">ስዕሎች ላይ የፀሐይ ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_color_effect_menu_posterize_desc">ስዕሎች ላይ የፖስተር ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_color_effect_menu_aqua_desc">ስዕሎች ላይ የውሃ ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_color_effect_menu_pastel_desc">ስዕሎች ላይ ገርጣ ያለ ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_timer_menu_desc">የሻተር አዝራር በመጫን እና ፎቶ በማንሳት መካከል ባለው ጊዜ መካከል ያለውን መዘግየት ማቀናጀት።</string>
+    <string name="help_shot_mode_menu_desc">የተለያዩ የፎቶ አነሳስ ቅጦች ቅንጅት።</string>
+    <string name="help_shot_mode_menu_normal_desc">መደበኛውን ምስል ፎቶ ማንሳት።</string>
+    <string name="help_shot_mode_menu_continuous_shot_desc">በአንዴ ተከታታይ 6 ፎቶዎችን ፎቶዎችን በማንሳት ላይ።</string>
+    <string name="help_shot_mode_menu_smile_shot_desc">ካሜራው ፈገግታን ፈልጎ ሲያገኝ በራስሰር ሻተሩን እንዲሸበሸብ ያደርገዋል።</string>
+    <string name="help_shot_mode_menu_beauty_shot_desc">በራስሰር የፊቶችን ነጠብጣቦች እና ጎዶሎ ነገሮች ያስወግድ እና ፊቶቹ በራ እና ጸዳ ብለው እንዲታዩ ያደርጋል።</string>
+    <string name="help_shot_mode_menu_art_shot_desc">ጥቁርና ነጭ፣ ሞቃትና ቀዝቃዛ ውህዶችን እና ሌሎችንም ማሳመሪያዎች ጨምሮ ስነጥበባዊ ማስተርፒስ ይፈጥራል።</string>
+    <string name="help_shot_mode_menu_panorama_shot_desc">ተከታታይ ምስላ ሙሉውን ክልል በመውሰድ እና ወደ አንድ ምስል በማገጣጠም ላይ።</string>
+    <string name="help_shot_mode_menu_face_effect_desc">በቀላል ነቀሳ የተላያዩ መልክ ሙላ ይስጡ።</string>
+    <string name="help_shot_mode_menu_cartoon_shot_desc">እንደ ስዕል የመሰለ የካርቱን እና የስዕላዊ ፎቶዎችን እንዲያነሳ ለስልኩ ይፈቅዳል።</string>
+    <string name="help_shot_mode_menu_funny_mask_desc">ካሜራ ፊትን ፈልጎ ሲያገኝ በራስሰር በፊት ላይ የተለያዩ ተለወስዋሽ ጭምብሎችን ያነቃል።</string>
+    <string name="help_face_effect_blur_desc">በራስሰር ፊትን ፈልጎ በማግኘት በፊቱ ላይ የብዥታ ማሳመሪያ ይሰጣል።</string>
+    <string name="help_face_effect_snow_desc">በረዶ የሚዘንብበት ማሳመሪያን ጭንቅላት ላይ ያደርጋል።</string>
+    <string name="help_face_effect_shallow_focus_desc">ገጹ በራስሰር በመፈልግ የበስተጀርባ ቅንብር ከትኩርት ውጭ ያደርገዎታል።</string>
+    <string name="help_face_effect_big_face_desc">የአንድን ሰው ፊት ያተልቃል።</string>
+    <string name="help_face_effect_mosaic_desc">ካሜራ ፊትን ፈልጎ ሲያገኝ በራስሰር በፊት ላይ ሞዛይክ ማሳመሪያን ያነቃል።</string>
+    <string name="help_face_effect_fish_eye_desc">ካሜራ ፊትን ፈልጎ ሲያገኝ በራስሰር በፊት ላይ የዓሣ-ዓይን ማሳመሪያን ያነቃል።</string>
+    <string name="help_face_effect_concave_desc">ካሜራ ፊትን ፈልጎ ሲያገኝ በራስሰር በፊት ላይ ወደ ውስጥ ገብ ማሳመሪያን ያነቃል።</string>
+    <string name="help_focus_desc">አትኩርቱ ወደ ተወሰነ ነጥብ ሆነዋል።</string>
+    <string name="help_focus_auto_desc">ማዕከላዊውን የትኩረት ነጥብ በራስሰር ማቀናበር።</string>
+    <string name="help_focus_macro_desc">በጣም የቅርብ የሆነ ነገር ፎቶ ያነሳል።</string>
+    <string name="help_focus_face_desc">በራስሰር ፊቶችን መፈለግ እና ማተኮር።</string>
+    <string name="sp_help_focus_continuous_desc_NORMAL">የሚንቀሳቀሰው ነገር በራስሰር በመፈለግ በነገሩ ላይ ማትኮር።</string>
+    <string name="help_focus_manual_desc">ፎቶ የሚነሳው ዒላማ ላይ ለማተኮር በእጅ ያቀናብሩ</string>
+    <string name="help_image_quality_menu_desc">የምስሉን ጥራት ያቀናብራል (ጥራቱ የተሻለ በሆነ መጠን፣ የማህደረ ትውስታ ፍጆታው ይጨምራል)።</string>
+    <string name="help_image_quality_menu_super_fine_desc">ለእጹብ ምርጥ ጥራት ምስሎችን አስቀምጥ።</string>
+    <string name="help_image_quality_menu_fine_desc">ለምርጥ ጥራት ምስሎችን ያስቀምጡ።</string>
+    <string name="help_image_quality_menu_normal_desc">ለመደበኛ ጥራት ምስሎችን ያስቀምጡ።</string>
+    <string name="help_show_captured_image_menu_desc">ፎቶ ከተነሳ በኋላ በቅርቡ የተነሳውን ምስል ማሳየት።</string>
+    <string name="help_shutter_sound_menu_desc">ፎቶ ሲነሳ የሚጫወተውን ድምጽ ያቀናብራል።</string>
+    <string name="help_geo_tagging_menu_desc">ስዕሉ የተወሰደበትን ቦታ በጂኦግራፊ የተለየ መረጃን በማከል ላይ።</string>
+    <string name="sp_help_anti_banding_menu_desc_NORMAL">የቀለም መዛባትን ይከላከላል።</string>
+    <string name="sp_help_storage_NORMAL">ምስሎችን ለማስቀመጥ ማከማቻ ይምረጡ</string>
+    <string name="sp_help_storage_innner_NORMAL">ለውስጣዊ ማህደረ ትውስታ ምስሎችን አስቀምጥ።</string>
+    <string name="sp_help_storage_sd_NORMAL">ወደ SD ካርድ ምስሎችን አስቀምጥ</string>
+    <string name="help_video_title">ካምኮርደር እገዛ</string>
+    <string name="sp_help_video_title_NORMAL">ቪዲዮ እገዛ መመሪያ</string>
+    <string name="help_video_settings_desc">የቪዲዮ ቅንጅቶችን ያስተካክሉ።</string>
+    <string name="help_video_size_desc">የቪዲዮ ፋይል መጠንን ማቀናበር።</string>
+    <string name="help_video_size_vga_desc">ለVGA መጠን ቪዲዮዎችን ያስቀምጣል።</string>
+    <string name="help_video_size_qvga_desc">ለQVGA መጠን ቪዲዮዎች ያስቀምጣል።</string>
+    <string name="help_video_size_176x144_desc">እንደ ኢሜይል ዓባሪረ ለመላክ የተመረጠ (የተወሰነ ትንሽ የማህደረ ትውስታ ቦታ ይወስዳል)።</string>
+    <string name="help_video_scene_mode_menu_desc">ከወቅቱ የአካባቢው ሁኔታ የሚስማማ የቀለምና የብርሃን ቅንብሩን ያገኛል።</string>
+    <string name="help_video_scene_mode_menu_auto_desc">እንደ የሁኔታው በመመርኮዝ በራስሰር ያስተካክላል።</string>
+    <string name="help_video_scene_mode_menu_portrait_desc">ሰዎችን ለመቅዳት የተሻለ ነው።</string>
+    <string name="help_video_scene_mode_menu_landscape_desc">እንደ ዛፎች፣ አበቦች እና ሰማያ ለመሳሰሉ የተፈጥሮ ትዕይንቶች ለመቅዳት የተሻለ ነው።</string>
+    <string name="help_video_scene_mode_menu_sports_desc">እንደ ስፖርት ለመሳሰሉ፣ ፈጣን ተንቀሳቃሽ ነገሮች ትዕይንቶችን ለመቅዳት የተሻለ ነው።</string>
+    <string name="help_video_scene_mode_menu_night_desc">ቆንጆ የለሊት ትዕይንቶችን ፎቶ ያነሳል። የለሊት መልክዓምድሮችን ፈልጎ ለማግኘት ዝግ ያሉ የሻተር ፍጥነቶች ጥቅም ላይ ይውላሉ።</string>
+    <string name="help_video_scene_mode_menu_sunset_desc">ቆንጆ የጸሐይ ግብአት ትዕይንት በመቅዳት ላይ።</string>
+    <string name="help_video_white_balance_menu_desc">የቀለም ጥራቶች በተለያዩ የመብራት ሁኔታዎች ውስጥ ያሻሽላል።</string>
+    <string name="help_video_white_balance_menu_auto_desc">በራስሰር ቀለምን ያስተካክላል።</string>
+    <string name="help_video_white_balance_menu_incandescent_desc">በቀላል ብርሃን ለተቀዱ የቪዲዮ ቅጂዎች።</string>
+    <string name="help_video_white_balance_menu_sunny_desc">በቀጥተኛ የጸሐይ ብርሃን ወስጥ ቪዲዮዎችን በመቅዳት ላይ።</string>
+    <string name="help_video_white_balance_menu_flourescent_desc">በፍሎረሰንት ብርሃን ለተቀዱ የቪዲዮ ቅጂዎች።</string>
+    <string name="help_video_white_balance_menu_cloudy_desc">በጥላ ወይም በደመና ቀናት ለተቀዱ የቪዲዮ ቅጂዎች።</string>
+    <string name="help_video_color_effect_menu_desc">ልዩ ባለቀለም ወንፊት ማሳመሪያዎች ማቀናጀት።</string>
+    <string name="help_video_color_effect_menu_off_desc">ምንም የቀለም ማሳመሪያ አይተገበርም።</string>
+    <string name="sp_help_video_color_effect_menu_off_desc_NORMAL">ምንም የቀለም ማጣሪያ ተጽእኖ በመተግበር ላይ።</string>
+    <string name="help_video_color_effect_menu_sepia_desc">የድሮ ቪዲዬ ለመውሰድ የፈዛዛ ቡኒ ተጽእኖ በመተግበር ላይ።</string>
+    <string name="help_video_color_effect_menu_mono_desc">ጥቁር እና ነጭ ቪዲዮዎን ለመውሰድ ባለ አንድ ተጽእኖ ማጣሪያ በመተግበር ላይ።</string>
+    <string name="help_video_color_effect_menu_negative_desc">የቪዲዮውን ቀለም ለመቀልበስ አሉታዊ የማጣሪያ ተጽእኖ በመተግበር ላይ።</string>
+    <string name="help_video_color_effect_menu_vivid_desc">ቪዲዮዎች ላይ ጉልህ ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_video_color_effect_menu_negative_sepia_desc">ቪዲዮዎች ላይ ፈዘዝ ያለ ቡኒ ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_video_color_effect_menu_blue_desc">ቪዲዮዎች ላይ ሰማያዊ ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_video_color_effect_menu_emboss_desc">ቪዲዮዎች ላይ የማስጌጥ ተጽእኖ ይተገብራል።</string>
+    <string name="help_video_color_effect_menu_solarize_desc">ቪዲዮዎች ላይ የፀሐይ ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_video_color_effect_menu_posterize_desc">ቪዲዮዎች ላይ የፖስተር ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_video_color_effect_menu_aqua_desc">ቪዲዮዎች ላይ የውሃ ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_video_color_effect_menu_pastel_desc">ቪዲዮዎች ላይ ገርጣ ያለ ቀለም ተጽእኖ ይተገብራል።</string>
+    <string name="help_video_duration_desc">የጊዜ ቆይታውን ያቀናብራል።</string>
+    <string name="help_video_duration_normal_desc">ምንም ወሰን የለም።</string>
+    <string name="help_video_duration_mms_desc">እንደ MMS አባሪ ለመላክ</string>
+    <string name="help_video_quality_desc">የቪዲዮውን ጥራት ያቀናብራል (ጥራቱ የተሻለ በሆነ መጠን፣ የማህደረ ትውስታ ፍጆታው ይጨምራል)።</string>
+    <string name="help_video_quality_super_desc">ለእጹብ ምርጥ ጥራት ቪዲዮዎችን አስቀምጥ።</string>
+    <string name="help_video_quality_fine_desc">ለምርጥ ጥራት ቪዲዮዎችን አስቀምጥ።</string>
+    <string name="help_video_quality_normal_desc">ለመደበኛ ጥራት ቪዲዮዎችን አስቀምጥ።</string>
+    <string name="help_video_voice_desc">ቪዲዮ እየተቀረጸ የድምጽ መቅጃ ቅንጅት።</string>
+    <string name="help_video_voice_unmute_desc">ቪዲዬ ከድምጽ ጋር አስቀምጥ።</string>
+    <string name="help_video_voice_mute_desc">ቪዲዬ ያለ ድምጽ አስቀምጥ።</string>
+    <string name="help_video_show_desc">ከቅጂ በኋላ ቪዲዮ ገምግም</string>
+    <string name="sp_help_mirror_img_desc_NORMAL">እንደ ተንጸባራቂ ምስል አስቀምጥ።</string>
+    <string name="sp_help_videostorage_NORMAL">ቪዲዮዎችን ለማስቀመጥ ማከማቻ ይምረጡ</string>
+    <string name="sp_help_videostorage_in_NORMAL">ወደ ውስጣዊ ማህደረ ትውስታ ቪዲዮዎች አስቀምጥ</string>
+    <string name="sp_help_videostorage_sd_NORMAL">ወደ SD ካርድ ቪዲዮዎችን አስቀምጥ</string>
+    <string name="camera_application_stopped">ካሜራ ቆሞዋል።</string>
+    <string name="camera_driver_needs_reset">ካሜራ ሳይታሰብ ተቋርጧል፣ እንደገና ማስጀመር ይፈልጋል።</string>
+    <string name="geo_tag_dialog_title">GPS አገልግሎት ጠፍቷል።</string>
+    <string name="geo_tag_dialog_msg">የመገኛ ስፍራ መለያ ስምን ለመጠቀም ከቅንጅት ላይ GPS ን ያብሩ።</string>
+    <string name="geo_tag_dialog_confirm">GPS ቅንጅቶች</string>
+    <string name="sp_eula_popup_dialog_title_NORMAL">የግላዊነት ማንቂያ</string>
+    <string name="sp_eula_popup_do_not_show_this_again_NORMAL">ይህን ደግመህ አታሳይ</string>
+    <string name="sp_eula_popup_dialog_msg_NORMAL">"\"Geotagging\" በመምረጥ፣ ይህ መሳሪያ ስነምድራዊ መገኛ ስፍራዎን ውሂብ በእያንዳንዱ ስዕል ውስጥ አድርጎ ያያይዛል፣ ያካትታል እና ያከማቻል። እነዚህ ስዕሎች ስዕሉ የት እንደተነሳ መረጃ ስላላቸው እንደነዚህ ዓይነት ስዕሎችን ሲልኩ፣ ሲያጋሩ፣ ሲያከፋፍሉ፣ ሲያስተላልፉ ወይም ሲቀዱ ጥንቃቄ ያድርጉ። "</string>
+    <string name="sp_eula_popup_dialog_msg_taglocation_NORMAL">\"Tag Location\" በመምረጥ፣ ይህ መሳሪያ በእያንዳንዱ ስዕል ውስጥ ያለውን የስነምድራዊ መገኛ ስፍራ ውሂብ በዓባሪ ያያይዛል፣ ያካትታል እና ያከማቻል። እነዚህ ስዕሎች ስዕሉ የት እንደተነሳ መረጃ ስላላቸው እንደነዚህ ዓይነት ስዕሎችን ሲልኩ፣ ሲያጋሩ፣ ሲያከፋፍሉ፣ ሲያስተላልፉ ወይም ሲቀዱ ጥንቃቄ ያድርጉ።</string>
+    <string name="geo_tag_dialog_title_cdma">LBS አገልግሎት ጠፍቷል።</string>
+    <string name="geo_tag_dialog_msg_cdma">የመገኛ ስፍራ መለያ ስምን ለመጠቀም ከቅንጅት ላይ LBS ን ያብሩ።</string>
+    <string name="geo_tag_dialog_confirm_cdma">LBS ቅንጅቶች</string>
+    <string name="sp_video_length_dialog_title_NORMAL">ቪዲዮ ርዝማኔ</string>
+    <string name="sp_video_length_dialog_msg_NORMAL">የቅጂ ሁናቴ ይምረጡ</string>
+    <string name="sp_video_length_dialog_long_NORMAL">ረዥም ቪዲዮ</string>
+    <string name="sp_video_length_dialog_title_v2_NORMAL">መቅዳት ሁናቴ</string>
+    <string name="sp_video_length_dialog_mms_NORMAL">MMS ቪዲዮ</string>
+    <string name="camera_error_title">የካሜራ ስህተት</string>
+    <string name="cannot_connect_camera">ወደ ካሜራ ማገናኘት አይቻልም።</string>
+    <string name="sp_notiintsd_NORMAL">ፋይልዎ ወደ ውስጣዊ ማህደረ ትውስታ ይቀመጣል፣ ወደ ቅንጅቶች>SD ካርድ እና ማከማቻ ይሂዱ።</string>
+    <string name="sp_notiextsd_NORMAL">ፋይልዎ ወደ ውጫዊ ማህደረ ትውስታ ይቀመጣል፣ ወደ ቅንጅቶች>SD ካርድ እና ማከማቻ ይሂዱ።</string>
+    <string name="pref_camera_settings_category">የካሜራ ቅንጅቶች</string>
+    <string name="pref_camcorder_settings_category">ካምኮርደር ቅንጅቶች</string>
+    <string name="sp_Camcorder_NORMAL">ካምኮርደር</string>
+    <string name="camcorder_activity_name">ካምኮርደር</string>
+    <string name="sp_close_app_NORMAL">"እንደገና 'ተመለስ አዝራር' ይጫኑ፣ ካሜራው ይዘጋል።"</string>
+    <string name="sp_popup_storage_limitsize_NORMAL">"ከፍተኛው የሚፈቀደው የመቅጃ መጠን ላይ ተደርሷል።
+ፋይል ተቀምጧል።"</string>
+    <string name="sp_popup_storage_limit_with_exact_size_NORMAL">"ከፍተኛው የሚፈቀደው የመቅጃ (%s) መጠን ላይ ተደርሷል።
+ፋይል ተቀምጧል።"</string>
+    <string name="sp_popup_storage_maxsize_NORMAL">"ከፍተኛው የሚፈቀደው የቅጂ መጠን ላይ ተደርሷል።
+መቅዳቱ በቅርቡ ያቆማል።"</string>
+    <string name="sp_popup_storage_maximum_size_NORMAL">"ከፍተኛው የሚፈቀደው የቅጂ መጠን (%s) ላይ ተደርሷል። 
+መቅዳቱ በቅርቡ ያቆማል።"</string>
+    <string name="sp_sd_card_read_only_NORMAL">SD ካርድ ተነባቢ ብቻ ተሰክቷል</string>
+    <string name="sp_MMS_REC_limit_NORMAL">ለ MMS የሚፈቀደው ከፍተኛ የመቅጃ ጊዜ ወደ %d ሰከንድ ገደማ ነው።</string>
+    <string name="sp_popup_character_limit_NORMAL">ልክ ያልሆነ ቁምፊ</string>
+    <string name="sp_filename_already_exists_NORMAL">የፋይሉ ስም አለ</string>
+    <string name="sp_message_recording_limit_NORMAL">ዓባሪ ፋይል መጠን ወሰን ከትንሹ የቅጂ መጠን ያነሰ ነው።</string>
+    <string name="sp_help_toast_smart_shutter_NORMAL">ስማርት መከለያ ባልተፈለገ መወዝወዝ ጊዜ የተረጋጉ ፎቶዎችን ያቀርባል።</string>
+    <string name="sp_help_scene_mode_menu_smart_shutter_desc_NORMAL">ያለ ባለጉዳዩ ውስጣዊው ደብዛዛ ሳይሆን በፍጥነት የሚንቀሳቀሱ ምስሎችን በማንሳት ላይ።</string>
+    <string name="sp_help_scene_mode_menu_action_desc_NORMAL">ያለማደብዘዝ በፍጥነት የሚንቀሳቀሱ ምስሎችን ይያዙ።</string>
+    <string name="sp_help_shot_mode_beauty_desc_NORMAL">በብርሃናማ እና ደብዛዛ ተጽእኖዎች ውስጥ ፎቶ በማንሳት ላይ።</string>
+    <string name="sp_help_shot_mode_hdr_desc_NORMAL">የበለጠ የተፈጥሮ ገጽታ ለመፍጠር በተለያየ ቅርበቶች ተመሳሳይ ከፍተኛ ንጽጽር ትዕይንት የተነሱ የብዙ ማንሳቶች ማዋሀድ።</string>
+    <string name="sp_help_shot_mode_slow_motion_desc_NORMAL">በቀስታ እንዲጫወቱ በፍጥነት የሚንቀሳቀሱ ነገሮችን መቅዳት።</string>
+    <string name="sp_help_shot_mode_time_machine_desc_NORMAL">የመከለያ ቁልፍ ከመጫኑ በፊት በአንዴ ተከታታይ ስድስት ፎቶዎችን በማንሳት ላይ።</string>
+    <string name="sp_help_shot_mode_time_machine_5_picture_NORMAL">የመከለያ ቁልፉ ከመነካቱ በፊት በአንዴ ተከታታይ አምስት ፎቶዎችን በማንሳት ላይ።</string>
+    <string name="sp_shot_mode_clearshot_NORMAL">ፎቶ የተነሳውን አጽዳ</string>
+    <string name="sp_shot_mode_shot_and_clear">ፎት አንሳ &amp; አጽዳ</string>
+    <string name="sp_scene_mode_smart_shutter_NORMAL">ስማርት መከለያ</string>
+    <string name="sp_scene_mode_action_NORMAL">እርምጃ</string>
+    <string name="sp_shot_mode_beauty_NORMAL">የውበት ማንሳት</string>
+    <string name="sp_shot_mode_time_machine_NORMAL">የጊዜ ማሽን ካሜራ</string>
+    <string name="sp_shot_mode_live_desc_NORMAL">በቪዲዩ ቅጂ ጊዜ ቅጽበታዊ ገጽ ዕይታ በማንሳት ላይ።</string>
+    <string name="sp_shot_mode_live_effect_desc_NORMAL">በቪዲዮ ቅጂ ጊዜ የፊት ባህሪያቶችን ለመለወጥ በስተጀርባዎችን እና የማያስታውቅ ለውጥ ተጽእኖችን በመለወጥ ላይ።</string>
+    <string name="dual_camera">ባለሁለት አፈሙዝ ካሜራ</string>
+    <string name="sp_focus_infinity_NORMAL">እልፍ አላፍ</string>
+    <string name="sp_high_temp_action_NORMAL">ባትሪ ያውጡ ወይም ወደ ቀዝቃዛ ቦታ ያንቀሳቅሱ።</string>
+    <string name="sp_high_temperature_detection_NORMAL">የሙቀት አነፍናፊ ከፍተኛ ሙቀቶችን አግኝቷል።</string>
+    <string name="sp_attach_file_size_exceeded_NORMAL">ከፍተኛው የሚፈቀደው የዓባሪ ፋይል መጠን ገደብን አልፏል።</string>
+    <string name="sp_high_temp_action_on_enter_NORMAL">የሙቀት አነፍናፊ ከፍተኛ ሙቀቶችን አግኝቷል። ካሜራ ለማስነሳት አልተቻለም።</string>
+    <string name="sp_high_temp_action_on_recording_NORMAL">የሙቀት አነፍናፊ ከፍተኛ ሙቀቶችን አግኝቷል። ቪዲዮ መቅዳት ይዘጋል።</string>
+    <string name="high_temp_action_on_recording">የሚመከረውን ኦፕቲማል የስልክ ሙቀት ለመጠበቅ ቪዲዮ መቅረጽ አልተቻለም። ቆይተው እንደገና ይሞክሩ።</string>
+    <string name="sp_warning_high_temperature_on_recording_NORMAL">በጥንቃቄ ይጠቀሙ። ባትሪ በመሙላት ጊዜ ቪዲዮ መቅዳት የመሳሪያዎን ሙቀት ሊጨምር ይችላል</string>
+    <string name="warning_high_temp_action_flash_off">የተብቃቃ የስልክ ሙቀት ለማስጠበቅ ፍላሽ ጠፍቷል።</string>
+    <string name="sp_silly_face_title_NORMAL">አስቂኝ ፊቶች</string>
+    <string name="sp_big_eyes_NORMAL">ትልቅ ዓይኖች</string>
+    <string name="sp_big_mouth_NORMAL">ትልቅ አፍ</string>
+    <string name="sp_squeeze_NORMAL">ጭመቅ</string>
+    <string name="sp_big_nose_NORMAL">ትልቅ አፍንጫ</string>
+    <string name="sp_small_eyes_NORMAL">አነስተኛ አይኖች</string>
+    <string name="sp_small_mouth_NORMAL">አነስተኛ አፍ</string>
+    <string name="sp_background_title_NORMAL">በስተጀርባዎች</string>
+    <string name="sp_in_space_NORMAL">በቦታ ውስጥ</string>
+    <string name="sp_sunset_NORMAL">የፀሐይ ግባት</string>
+    <string name="sp_disco_NORMAL">ዲስኮ</string>
+    <string name="sp_choose_gallery_NORMAL">የእኔ ቪዲዮዎች</string>
+    <string name="sp_bg_replacement_message_NORMAL">"መሳሪያዎን ቀጥ ባለ ቦታ ላይ ያስቀምጡ እና ከጀርባዎ ምንም ዓይነት እንቅስቃሴ እንደሌለ ያረጋግጡ።
+
+ከዚህ በኋላ ከካሜራ እይታው ይውጡ።"</string>
+    <string name="sp_bg_replacement_message_v2_NORMAL">"እንዳይወዘወዝ መሳሪያውን ይያዙ እና ምንም እንቅስቃሴ እንደሌለ ያረጋግጡ።
+ቪዲዮ ለመቅዳት ዝግጁ ዲሆኑ ጊዜ፣ የሚቀዳው ጉዳይ ወደ ካሜራ እይታ ውስጥ እንዲገባ ያድርጉ።"</string>
+    <string name="sp_pano_too_fast_prompt_NORMAL">ከልክ በላይ ፈጣን</string>
+    <string name="sp_live_shot_NORMAL">ሕልው ፎቶ ማንሳት</string>
+    <string name="sp_live_effect_NORMAL">ሕልው ማሳመሪያ</string>
+    <string name="dual_recording">ሁለትዮሽ ቅጂ</string>
+    <string name="smart_zoom">ስማርት ማጉያ/ማሳነሻ</string>
+    <string name="tracking_zoom">መከታተያ ማጉያ/ማሳነሻ</string>
+    <string name="anti_shaking">ፀረ መወዝወዝ</string>
+    <string name="sp_audio_zoom_NORMAL">ድምጽ አጉላ/አሳንስ</string>
+    <string name="sp_tracking_focus_NORMAL">የዱካ መከታተያ ትኩረት</string>
+    <string name="sp_video_recording_normalmode_NORMAL">መደበኛ ቪዲዮ በመቅዳት ላይ።</string>
+    <string name="sp_note_shot_mode_setting_change_NORMAL">ለ %s ቅጥ የላቁ ቅንጅቶች።</string>
+    <string name="sp_help_swap_camera_menu_desc_v2_NORMAL">በፊት እና በኋላ ካሜራ መካከል ቀይር።</string>
+    <string name="sp_help_light_frame_desc_v2_NORMAL">የፊት ካሜራ በመጠቀም ላይ እያሉ ከትናንሽ ቅድመ ዕይታ ይበልጥ ብሩህ ፎቶዎችን ለማንሳት ፍላሹን ይብሩት።</string>
+    <string name="sp_help_zoom_desc_v2_NORMAL">አጉላ እና አሳንስ</string>
+    <string name="sp_help_brightness_desc_v2_NORMAL">የተጋላጭነት መጠን ያስተካክሉ</string>
+    <string name="sp_help_flash_desc_v2_NORMAL">ፍላሹን አቀናብር</string>
+    <string name="sp_help_flash_auto_desc_v2_NORMAL">በሚያስፈልግበት ጊዜ ፍላሹን ያብሩ</string>
+    <string name="sp_help_flash_off_desc_v2_NORMAL">ፍላሽ ጠፍተዎል</string>
+    <string name="sp_help_flash_on_desc_v2_NORMAL">የፍላሽ መጫወቻ በርተዎል</string>
+    <string name="sp_help_camera_settings_desc_v2_NORMAL">የካሜራ ቅንጅቶችን ያስተካክሉ</string>
+    <string name="sp_help_focus_desc_v2_NORMAL">ማተኮሪያን ያቀናብሩ</string>
+    <string name="sp_help_focus_auto_desc_v2_NORMAL">መደበኛ በራሰሰር ማነጣጠር</string>
+    <string name="sp_help_focus_face_desc_v2_NORMAL">በራስሰር ፊቶችን ፈልጎ ያገኛል እናም ያተኩርባቸዋል</string>
+    <string name="sp_help_image_size_menu_desc_v2_NORMAL">የምስሉን መጠን አቀናብር</string>
+    <string name="sp_help_scene_mode_menu_desc_v2_NORMAL">የተመረጠ ቅጥን ይምረጡ።</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_v2_NORMAL">መደበኛ ፎቶዎችን አንሳ።</string>
+    <string name="sp_help_scene_mode_menu_portrait_desc_v2_NORMAL">ሰዎችን ፎቶ አንሳ።</string>
+    <string name="sp_help_scene_mode_menu_landscape_desc_v2_NORMAL">የተፈጥሮ ትዕይንትን ፎቶ አንሳ።</string>
+    <string name="sp_help_scene_mode_menu_sports_desc_v2_NORMAL">ያለምንም ብዥታ በፍጥነት የሚንቀሳቀሱ ምስሎችን ፎቶ አንሳ።</string>
+    <string name="sp_help_scnen_mode_menu_sunset_desc_v2_NORMAL">የጸሐይ ግባትን እና ፎቶዎችን ከበስተጀርባ መብራት ጋር ፎቶ አንሳ።</string>
+    <string name="sp_help_scene_mode_menu_night_desc_v2_NORMAL">በጨለማ አካባቢዎች ያሉ ፎቶዎችን አንሳ።</string>
+    <string name="sp_help_iso_menu_desc_v2_NORMAL">በካሜራ መወዝወዝ ወይም በባለጉዳዩ እንቅስቃሴ የሚከሰተውን ብዥታ ለመቀነስ በዝቅተኛ ብርሃን ፎቶ በማንሳት ጊዜ ስሜታዊነትን ይጨምሩ።</string>
+    <string name="sp_help_withe_balance_desc_v2_NORMAL">በብርሃኑ ምንጭ መሰረት ቅድመ ዝግጅት የሆነ የምስል ቀለም ሙቀቶችን ያስተካክሉ።</string>
+    <string name="sp_help_white_balance_auto_desc_v2_NORMAL">የብርናማነት ሁኔታዎችን በሚመጥን መልኩ ለማስተካከል የነጭ ሚዛን መጠበቂያ ይስተካከላል።</string>
+    <string name="sp_help_withe_balance_incandescent_desc_v2_NORMAL">በቦግ ያለ ብርሃን ውስጥ ይጠቀሙበት።</string>
+    <string name="sp_help_white_balance_sunny_desc_v2_NORMAL">በፀሐይ ብርሃን ተጠቀም።</string>
+    <string name="sp_help_white_balance_flourescent_desc_v2_NORMAL">በፍሎረሰንት ብርሃን ውስጥ ይጠቀሙበት።</string>
+    <string name="sp_help_white_balance_cloudy_desc_v2_NORMAL">በጥላ እና በደመናማ ቀናት ውስጥ ይጠቀሙበት።</string>
+    <string name="sp_help_withe_balance_incandescent_desc_camera_v2_NORMAL">በቦግ ያለ ብርሃን ውስጥ ይጠቀሙበት።</string>
+    <string name="sp_help_white_balance_sunny_desc_camera_v2_NORMAL">በፀሐይ ብርሃን ተጠቀም።</string>
+    <string name="sp_help_white_balance_flourescent_desc_camera_v2_NORMAL">በፍሎረሰንት ብርሃን ውስጥ ይጠቀሙበት።</string>
+    <string name="sp_help_white_balance_cloudy_desc_camera_v2_NORMAL">በጥላ እና በደመናማ ቀናት ውስጥ ይጠቀሙበት።</string>
+    <string name="sp_help_color_effect_desc_v2_NORMAL">ፎቶ ሲነሳ ባለቀለም ወንፊት ማሳመሪያን ያቀናብሩ</string>
+    <string name="sp_help_color_effect_off_desc_v2_NORMAL">ምንም የቀለም ማሳመሪያ የለም</string>
+    <string name="sp_help_color_effect_mono_desc_v2_NORMAL">ምስሎችን በጥቁር እና ነጭ ፎቶ አንሳ።</string>
+    <string name="sp_help_color_effect_sepia_desc_v2_NORMAL">ምስሎችን በሴፕያ ቅላጼዎች ፎቶ አንሳ።</string>
+    <string name="sp_help_color_effect_negative_desc_v2_NORMAL">ምስሎችን በተገለበጠ ቀለም ፎቶ አንሳ።</string>
+    <string name="sp_help_timer_menu_desc_v2_NORMAL">ፎቶ ከመነሳቱ በፊት 3፣ 5 ወይም 10 ሰከንድ መዘግየትን አቀናብር</string>
+    <string name="sp_help_shot_mode_desc_v2_NORMAL">የተለያዩ ፎቶ ማንሻ ቅጦችን አቀናብር።</string>
+    <string name="sp_help_shot_mode_normal_desc_v2_NORMAL">መደበኛ ቅጥ</string>
+    <string name="sp_help_shot_mode_continuous_shot_desc_v2_NORMAL">በፈጣን ተከታታይ ውስጥ 6 ማንሳቶች ውሰድ።</string>
+    <string name="sp_help_shot_mode_panorama_shot_desc_v2_NORMAL">ወደ አንድ ነጠላ ፓናሮማ ምስል ለማዋሀድ የጎንዮሽ ተከታታይ ፎቶዎችን ይውሰዱ።</string>
+    <string name="sp_help_shutter_sound_menu_desc_v2_NORMAL">ፎቶ ለማንሳት ማሳመሪያ ድምጽን አቀናብር</string>
+    <string name="sp_help_show_captured_image_menu_desc_v2_NORMAL">ፎቶው ከተነሳ በኋላ ወዲያው አሳይ።</string>
+    <string name="sp_help_geo_tagging_menu_desc_v2_NORMAL">ስዕሉ የሚወሰድበት ቦታ መረጃ አክል።</string>
+    <string name="sp_help_storage_v2_NORMAL">ምስሎችን ለማስቀመጥ ማከማቻ ይምረጡ</string>
+    <string name="sp_help_storage_inner_v2_NORMAL">ለውስጣዊ ማህደረ ትውስታ ምስሎችን አስቀምጥ</string>
+    <string name="sp_help_storage_sd_v2_NORMAL">ወደ SD ካርድ ምስሎችን አስቀምጥ</string>
+    <string name="sp_help_video_size_desc_v2_NORMAL">የቪዲዮ ፋይል መጠንን አቀናብር</string>
+    <string name="sp_help_video_color_effect_desc_v2_NORMAL">ቪዲዮዎች ሲቀዱ ባለቀለም ወንፊት ማሳመሪያዎችን ያቀናብሩ።</string>
+    <string name="sp_help_video_color_effect_mono_desc_v2_NORMAL">በጥቁር እና ነጭ ቪዲዮዎችን ቅዳ።</string>
+    <string name="sp_help_video_color_effect_sepia_desc_v2_NORMAL">ፈዛዛ ቡኒ ቃናዎች ውስጥ ቪዲዮዎችን ቅዳ።</string>
+    <string name="sp_help_video_color_effect_negative_desc_v2_NORMAL">በተቀለበሰ ቀለም ቪዲዮዎችን ቅዳ።</string>
+    <string name="sp_help_video_shot_mode_live_shot_desc_v2_NORMAL">ቪዲዮ እየቀረጸ እያለ ማያ ገጽን ፎቶ አንሳ</string>
+    <string name="sp_help_video_shot_mode_live_effect_desc_v2_NORMAL">ቪዲዮ ሲቀዳ በስተጀርባውን በመቀየር የፊት ሁኔታ መለወጫ ውጤት ስጥ።</string>
+    <string name="sp_help_video_voice_desc_v2_NORMAL">ቪዲዮ እየተቀዳ የሚሰማውን ድምጽ አቀናብር</string>
+    <string name="sp_help_video_voice_unmute_desc_v2_NORMAL">በድምጽ ቪዲችን ቅዳ</string>
+    <string name="sp_help_video_voice_mute_desc_v2_NORMAL">ያለ ድምጽ ቪዲዮዎችን</string>
+    <string name="sp_help_video_show_desc_v2_NORMAL">ቪዲዮው ከተቀረጸ በኋላ ወዲያው አሳይ።</string>
+    <string name="sp_help_video_geo_tagging_menu_desc_v2_NORMAL">ቪዲዮው የሚቀዳበት ቦታ መረጃ አክል።</string>
+    <string name="sp_help_videostorage_v2_NORMAL">ቪዲዮዎችን ለማስቀመጥ ማከማቻ ይምረጡ</string>
+    <string name="sp_help_videostorage_in_v2_NORMAL">ወደ ውስጣዊ ማህደረ ትውስታ ቪዲዮዎች አስቀምጥ</string>
+    <string name="sp_help_videostorage_sd_v2_NORMAL">ወደ SD ካርድ ቪዲዮዎችን አስቀምጥ</string>
+    <string name="sp_help_shot_mode_beauty_desc_v2_NORMAL">ምስሎችን በብሩህ እና ብዥታ ማሳመሪያዎች ፎቶ አንሳ</string>
+    <string name="sp_help_flipped_img_desc_NORMAL">የተገለበጠ ምስል በቁም አስቀምጥ</string>
+    <string name="sp_help_normal_img_desc_NORMAL_NORMAL">መደበኛ ምስል አስቀምጥ</string>
+    <string name="sp_help_camera_reset_desc_v3_NORMAL">ካሜራ ቅንጅቶች ወደ ነባሪ እሴት እንደነበር ተመልሷል</string>
+    <string name="sp_help_flipped_img_desc_v3_NORMAL">እንደ የተገለበጠ ፎቶ አስቀምጥ።</string>
+    <string name="sp_help_video_reset_desc_v3_NORMAL">ቪዲዮ ቅንጅቶች ወደ ነባሪ እሴት እንደነበሩ ተመልሰዋል</string>
+    <string name="sp_deleted_images_NORMAL">የተመረጡት ምስሎች ይሰረዛሉ። ይቀጥል?</string>
+    <string name="sp_deleted_photos_NORMAL">የተመረጡት ፎቶዎች ይሰረዛሉ። ይቀጥል?</string>
+    <string name="sp_help_guide_beauty_shot_desc_NORMAL">የውበት ፎቶ ማንሻ የፊት ቆዳ ብሩህ እና ለስለስ ያለ ሆኖ እንዲታይ ያደርጋል።</string>
+    <string name="sp_help_guide_beauty_shot_desc_list">የውበት ፎቶ ማንሻ የፊት ቆዳ ብሩህ እና ለስለስ ያለ ሆኖ እንዲታይ ያደርጋል።</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL">ተከታታይ ማንሳት በተከታታይ 6 ፎቶዎችን በተርታ ያነሳል። ፎቶ በቀላሉ ለመምረጥ ራስ-ማሳያን ያብሩ።</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL_v2">ተከታታይ ማንሳት በተከታታይ 6 ፎቶዎችን በተርታ ያነሳል።</string>
+    <string name="sp_help_guide_hdr_desc_NORMAL">HDR ብዙ የብርሃን መጠን ቁጥጥርን በማጎልበት የጀርባ ብርሃንን በማንጣጣት በተለያዩ የብርሃን መጠኖች የተወሰዱ ፎቶዎችን በአንድ ላይ ያዋህዳል።</string>
+    <string name="sp_help_guide_hdr_desc_list">HDR ብዙ የብርሃን መጠን ቁጥጥርን በማጎልበት የጀርባ ብርሃንን በማንጣጣት በተለያዩ የብርሃን መጠኖች የተወሰዱ ፎቶዎችን በአንድ ላይ ያዋህዳል።</string>
+    <string name="sp_help_guide_live_effect_desc_NORMAL">"ሕልው ማሳመሪያ ቪዲዮ ሲቀዳ የተለያዩ የሚታዩ ማሳመሪያዎችን ያቀርባል። ማሳመሪያ ይምረጡ እና መቅዳት ይጀምሩ። "</string>
+    <string name="sp_help_guide_panorama_shot_desc_NORMAL">ተከታታይ ፎቶዎች ወደአንድ ሞባይል ምስል ይገጣጠማሉ። ለመጀመር ሻተርን ይጫኑና ቀስ እያሉ ካሜራውን ከአንድ አቅጣጫ ወደ ሌላ አቅጣጫ ያዟዝሩ።</string>
+    <string name="sp_help_guide_free_panorama_shot_desc_NORMAL">"ተከታታይ ፎቶዎች በአንድ ተሸከርካሪ 360 ፓናሮሚክ ምስል ውስጥ ተገጣጥመዋል።
+መዝጊያ ይጫኑ ለመጀመር እና በማንኛውም አቅጣጫ ካሜራውን ያንቀሳቅሱ።"</string>
+    <string name="sp_help_guide_time_machine_desc_NORMAL">የጊዜ ማሽን ካሜራ ሻተሩን ከመጫን በፊት ያመለጠውን ጊዜ ፎቶ ያነሳል።</string>
+    <string name="sp_help_guide_time_machine_desc_new_NORMAL">ከንግግር በፊት ያጡትን ክፍሎች በማረጋገጥ ያስቀምጡ።</string>
+    <string name="sp_help_guide_time_machine_desc_new_vzw_NORMAL">ሻተሩን ከመጫንዎ ብፊት ያሉትን ግዜያት ፎቶ ያንሱዋቸው።</string>
+    <string name="sp_help_popup_guide_time_machine_desc_new_NORMAL">ሻተሩን ከመጫንዎ ብፊት ያሉትን ግዜያት በጊዜ ገደብ የተቀመጠ ፎቶ ያንሱዋቸው።</string>
+    <string name="sp_help_guide_time_machine_new_desc_NORMAL">የጊዜ ማሽን ካሜራ ሻተሩን ከመጫን በፊት ያመለጠውን ጊዜ ፎቶ ያነሳል። የተመረጡ ፎቶዎች ብቻ ይቀመጣሉ።</string>
+    <string name="sp_image_SHORT">ምስል</string>
+    <string name="sp_video_SHORT">ቪዲዮ</string>
+    <string name="sp_will_be_deleted_NORMAL">%1$s ይሰረዛል። ይቀጥል?</string>
+    <string name="sp_photo_will_be_deleted_NORMAL">ፎቶ ይሰረዛል። ይቀጥል?</string>
+    <string name="sp_video_will_be_deleted_NORMAL">ቪዲዮ ይሰረዛል። ይቀጥል?</string>
+    <string name="sp_gps_settings_title_NORMAL">የመገኛ ስፍራ አገልግሎት ቦዝኗል</string>
+    <string name="sp_gps_setting_msg_NORMAL">ጂኦመለያ መስጠትን ለመጠቀም የአካባቢ አገልግሎቶችን ያንቁ።</string>
+    <string name="sp_geotagging_NORMAL">የቅርጽ ምድር መለያ አሰጠጥ</string>
+    <string name="sp_enable_app_msg_NORMAL">%s ይሄንን ተግባር ለመጠቀም መንቃት አለበት። ይሄንን መተግበሪያ አንቃ?</string>
+    <string name="sp_photoimage_SHORT">ስዕል</string>
+    <string name="sp_note_dialog_title_NORMAL">ማስታወሻ</string>
+    <string name="sp_saved_NORMAL">ተቀምጧል</string>
+    <string name="sp_front_NORMAL">ፊተኛ</string>
+    <string name="sp_rear_NORMAL">ጀርባ</string>
+    <string name="sp_timemachine_delete_warning_NORMAL">ያልተቀመጡ ፎቶዎች ይጠፉብዎታል። ይቀጥል?</string>
+    <string name="sp_timemachine_bubble_popup_NORMAL">ያመለጡ ጊዜዎችን ለማሳየት፣ ይህን አዝራር ይጫኑ።</string>
+    <string name="sp_timemachine_select_NORMAL">እንዲቀመጥሎት የሚፈልጉትን ፎቶ ያረጋግጡ።</string>
+    <string name="sp_timemachine_select_new_NORMAL">ማቆየት የሚፈልጉዋቸውን ፎቶዎች ይምረጡ።</string>
+    <string name="sp_timemachine_save_guide">ለማስቀመጥ የሚፈልጉትን ፎቶ ይምረጡ እና የአስቀምጥ አዝራርን ይጫኑ።</string>
+    <string name="sp_shot_mode_time_catch_NORMAL">በጊዜ ፎቶ ማንሻ</string>
+    <string name="sp_help_guide_time_catch_desc_NORMAL">ሻተሩን ከመጫን በፊት ያመለጠውን ጊዜ በጊዜ ፎቶ ማንሻ ማንሳት።</string>
+    <string name="sp_help_guide_time_catch_new_desc_NORMAL">ሻተሩን ከመጫን በፊት ያመለጠውን ጊዜ በጊዜ ፎቶ ማንሻ ማንሳት። የተመረጡ ፎቶዎች ብቻ ይቀመጣሉ።</string>
+    <string name="sp_timemachine_bubble_popup_jp_NORMAL">ሻተሩ ከመለቀቁ በፊት ባለው 1 ሰከንድ ውስጥ የተነሱ ፎቶዎችን ለማሳየት፣ ይህን አዝራር ይጫኑ።</string>
+    <string name="sp_force_close_on_high_temperature_NORMAL">ካሜራ በመሳሪያ ከፍተኛ ሙቀት የተነሳ ይዘጋል።</string>
+    <string name="sp_screen_cannot_be_captured_NORMAL">አሁን ያለው ማያ ገጽ ፎቶ ሊነሳ አይችልም።</string>
+    <string name="sp_voice_shutter_help_desc">ፎቶዎች የድምጽ ትዕዛዝን በመጠቀም ይነሳሉ።</string>
+    <string name="sp_clear_shot_tab_guide">ከፎቶው ላይ ለማስወገድ ምልክት ከተደረገባቸው ነገሮች ማናቸውንም ይንኩ።</string>
+    <string name="sp_clear_shot_tab_guide_v2">የአስቀምጥ አዝራር ለማስወገድ እና ለመጫን የተዘረዘረውን ነገር መታ ያድርጉ።</string>
+    <string name="sp_clear_shot_not_found_object">የሚወገድ ምንም ነገር የለም።</string>
+    <string name="sp_clear_shot_warning_popup">ሂደቱ ስላልተቀመጠ ፎቶ ይጠፋቦታል። ይቀጥል?</string>
+    <string name="sp_clear_shot_warning_handshake">ስልኩን ሳያነቃንቁ ይያዙ።</string>
+    <string name="sp_clear_shot_capture_failed">አልተሳካም።</string>
+    <string name="intelligent_auto">አዋቂ በራሰሰር</string>
+    <string name="sp_anti_shaking_help_desc">ከፍተኛ የቪዲዮ ጥራት ለማግኘት ቪዲዮ እየተቀደ ሳለ መንቀጠቀጥን ተከላከል።</string>
+    <string name="sp_photo_has_not_yet_been_saved_warning_popup">ፎቶ እስካሁን አልተቀመጠም። ሳይቀመጥ ይውጣ?</string>
+    <string name="sp_wdr_recording_help_desc">በተለያዩ አጋጣሚዎች የተነሱ ቪዲዮዎችን ከበለጸገ የጥራት መቆጣጠሪያ ጋር ከፍተኛ ጥራት ያለው የበስተጀርባ ብርሃን የተስተካከለለት ቪዲዮ እንዲኖራቸው ያድርጉ።</string>
+    <string name="sp_wdr_recording_help_desc_list">በተለያዩ አጋጣሚዎች የተነሱ ቪዲዮዎችን ከበለጸገ የጥራት መቆጣጠሪያ ጋር ከፍተኛ ጥራት ያለው የበስተጀርባ ብርሃን የተስተካከለለት ቪዲዮ እንዲኖራቸው ያድርጉ።</string>
+    <string name="sp_burst_shot_help_desc">መከለያውን በመጫን እስከ 20 ማንሳቶች ድረስ ይውሰዱ።</string>
+    <string name="sp_burst_shot_help_desc_list">መከለያውን በመጫን እስከ 20 ማንሳቶች ድረስ ይውሰዱ።</string>
+    <string name="sp_clear_shot_help_desc">ፎቶ ያንሱ። ከፎቶው ላይ ለማስወገድ ምልክት ከተደረገባቸው ነገሮች ማናቸውንም ይንኩ።</string>
+    <string name="sp_intelligent_auto_help_desc">የትዕይነት መድረኩን ባህሪያት በራስሰር ለይቆ ያውቅ እና ፎቶ ያነሳል።</string>
+    <string name="sp_intelligent_auto_help_desc_popup">የትዕይንት መድረኩን ባህሪያት በራስሰር ለይቶ ያውቅ እና ቀዳዳዎችን፣ የሻተር ፍጥነትን እና ፎቶ የማንሻ አማራጮችን እንዲጣጣሙ አድርጎ ያስተካክላል።</string>
+    <string name="sp_tracking_focus_help_desc">ፎቶ የሚነሳውን በቅድመ እይታ ማያ ገጽ ላይ ለመከታተል እና ትኩረትን ይበልጥ የጠራ ለማድረግ ፎቶ የሚነሳው ላይ ነካ ያድርጉ።</string>
+    <string name="sp_dual_recording_help_desc">ለመቅዳት በአንድ ማያ ገጽ ውስጥ ሁለቱንም የፊት እና ዋና ካሜራዎችን ያሰልፉ።</string>
+    <string name="sp_dual_recording_help_desc_v2">"1. አነስተኛውን ማያ ገጽ ለማንቀሳቀስ ይጎትቱ።
+2. መጠኑን በድጋሚ ለማስተካከል አነስተኛውን ማያ ገጽ ይንኩ እና ያዝ ያድርጉ።
+3. አነስተኛ እና ትልቅ ማያ ገጽ መካከል ለመቀያየር አነስተኛ ማያ ገጽ መታ ያድርጉ።"</string>
+    <string name="sp_audio_zoom_help_desc_in_recording">የኦዲዮ ማጉያ ድምጽን ለማላቅ አጉላ</string>
+    <string name="sp_audio_zoom_help_desc">በማጉሊያ አካባቢ የድምጽ ቀረቤታ ይጨምሩ እና በመቅዳት ጊዜ ጩኸት ይቀንሱ።</string>
+    <string name="sp_audio_zoom_help_desc_v2">የድምጽ ማንፍነፊያን ጉልበት ለመጨመር እና ጫጫታን ለመቀነስ በተወሰነ አካባቢ ላይ ያጉሉ። በመሬት አቀማመጥ (አግድም) እይታ ብቻ ሊገኝ ይችላል። የጎን ማይክራፎኖችን ይህን ባህሪ ሲጠቀሙ እንደተለቀቁ ይተዉዋቸው።</string>
+    <string name="sp_live_effect_help_desc">ቪዲዮ በመቅዳት ጊዜ የተለያዩ የዕይታ ተጽእኖዎችን ተግብር።</string>
+    <string name="sp_vrpanorama_help_desc">አንድ የተፈራረቀ ምስል ለመፍጠር በተከታታይ ፎቶዎችን ይውሰዱ።</string>
+    <string name="sp_vrpanorama_help_desc_v2">"1. VR ፓናሮማ ሁናቴን ለመጀመር መከለያ ይጫኑ። 
+2. ፎቶ ለማንሳት ወደ ሰማያዊ መመሪያ መስመር የማነጣጠሪያ አካባቢን ይመጥኑ። 
+3. ሌሎች የማነጣጠሪያ ኦካባቢዎችን ለመያዝ እና ፎቶዎችን ለማንሳት ካሜራ ያንቀሳቅሱ። ፎቶዎቹ በአንድ ላይ ወደ አንድ ምስል ይመጣሉ።"</string>
+    <string name="sp_dual_camera_help_desc">ሁለቱንም የፊት እና ዋና ካሜራዎች በአንድ ማያ ገጽ ላይ አሰልፍ</string>
+    <string name="sp_smart_zoom_help_desc">ቪዲዮ ሲያነሱ የተተኮረውን አካባቢ በትንሽ ማያ ገጽ ላይ ያተልቁ።</string>
+    <string name="sp_smart_zoom_help_desc_v2">"1. መጪውን ቪዲዮ ለማተለቅ ማተኮሪያውን ይጎትቱ።
+2. ትንሹ ማያ ገጽ የተገለጸውን ማተኮሪያ በትልቅ እይታ ያሳያል። ለማንቀሳቀስ፣ ይንኩት እና ይያዙት።"</string>
+    <string name="sp_intelligent_auto_mode_NORMAL">አዋቂ በራሰሰር የካሜራ ቅጥ።</string>
+    <string name="sp_normal_camera_mode_NORMAL">መደበኛ ካሜራ ቅጥ።</string>
+    <string name="sp_center_NORMAL">ማዕከል</string>
+    <string name="sp_border_NORMAL">ጠርዝ</string>
+    <string name="sp_3d_depth_NORMAL">3D ጥልቀት</string>
+    <string name="sp_popup_change_view_to_landscape_for_3d_NORMAL">የ3ል ውጤት እስከመጨረሻው ለመጠቀም መመልከቻዎትን ያዙሩ።</string>
+    <string name="sp_entering_guide_NORMAL">"ፈጣን ምናሌዎችን አርትዕ ለማድረግ፣
+አዶውን በረዥም መጫን።"</string>
+    <string name="sp_entering_clean_guide_NORMAL">በጣም የተሻለ የምስል ጥራት ለማግኘት እባክዎ የካሜራውን ሌንስ ንጹህ እንደሆነ ይያዙ።</string>
+    <string name="sp_entering_gallery_guide_NORMAL">"የተነሳን ፎቶ በፍጥነት ለመፈተሽ፣
+የቤተ ስዕላት አዶን ተጭነው ይያዙ።"</string>
+    <string name="entering_guide_att">"አቋራጮችን አርትዕ ለማድረግ 
+አዶ ተጭነው ይያዙ።"</string>
+    <string name="sp_entering_gallery_guide_vzw">"የተነሳን ፎቶ በፍጥነት ለመፈተሽ፣
+የቤተ ስዕላት አዶን ተጭነው ይያዙ።"</string>
+    <string name="entering_guide_vzw">"አቋራጮችን አርትዕ ለማድረግ 
+አዶ ተጭነው ይያዙ።"</string>
+    <string name="portrait_plus">ቁልቁል ገጽታ+</string>
+    <string name="help_guide_portrait_plus_shot_desc">ቁልቁል ገጽታ + የፊት ቆዳን በራ ብሎ እና ለስለስ ብሎ እንዲታይ ያደርገዋል።</string>
+    <string name="edit_quick_menu">ፈጣን ምናሌ አርትዕ</string>
+    <string name="error_occurred">ስህተት ተከስቷል።</string>
+    <string name="sp_info_empty_SHORT">ባዶ</string>
+    <string name="accessibility_exit_edit_menu">የአርታኤ ምናሌ መውጫ</string>
+    <string name="accessibility_shutter_button">ሻተር</string>
+    <string name="accessibility_review_thumbnail">በጣም የቅርብ ጊዜ ፎቶ ወይም ቪዲዮ</string>
+    <string name="accessibility_camera_picker">ካሜራ እና ካምኮደር ማቀያየር</string>
+    <string name="accessibility_beautyshot_bar">የውበት ፎቶ ማንሻ ቁጥጥር አሞሌ</string>
+    <string name="accessibility_beautyshot_control">የውበት ፎቶ ማንሻ ቁጥጥር</string>
+    <string name="accessibility_beautyshot_button">የውበት ፎቶ ማንሻ ቁጥጥር አዝራር</string>
+    <string name="accessibility_brightness_bar">የብሩህነት መቆጣጠሪያ አሞሌ</string>
+    <string name="accessibility_brightness_control">ብሩህነት መቆጣጠሪያ</string>
+    <string name="accessibility_brightness_button">ብራሃማነት ቁጥጥር አዝራር</string>
+    <string name="accessibility_manual_focus_bar">በእጅ የሚሰራ መቆጣጠሪያ አሞሌ</string>
+    <string name="accessibility_manual_focus_button">በእጅ የሚሰራ ማተኮሪያ ቁጥጥር</string>
+    <string name="accessibility_zoom_bar">የማጉያ መቆጣጠሪያ አሞሌ</string>
+    <string name="accessibility_zoom_control">የማጉያ መቆጣጠሪያ</string>
+    <string name="accessibility_zoom_button">የማጉያ መቆጣጠሪያ አዝራር</string>
+    <string name="accessiblity_free_panorama_retake">በድጋሚ ውሰድ</string>
+    <string name="accessiblity_start_recording">መቅዳት ጀምር</string>
+    <string name="accessiblity_stop_recording">መቅዳት አቁም</string>
+    <string name="accessiblity_pause_recording">ቅጂ ባለበት አቁም</string>
+    <string name="camera_accessibility_stop_button">አቁም</string>
+    <string name="free_panorama_bubble_popup">ፎቶ በ 360 እይታ ለማየት፣ ማያ ገጹን ይንኩ።</string>
+    <string name="error_panorama_during_taking">ለካሜራ አቀማመጥ የፓናሮማ ቀረፃ መውሰድ አቁሟል። ፎቶ ወደ ማዕከለ ስዕላት ተቀምጧል።</string>
+    <string name="sp_date_stamp">የአታሚ ቀን</string>
+    <string name="audio_zoom_warning">ድምጽ አጉላ/አሳንስ በመልክዓምድር እይታ ብቻ ይነቃል።</string>
+    <string name="audio_zoom_disabled">ድምጽ አጉላ/አሳንስ ቦዝኗል</string>
+    <string name="unable_to_use_qmemo">%s ለመጠቀም አልተቻለም</string>
+    <string name="sp_open_quick_camera_case">Quick Camera Case ክፈት</string>
+    <string name="message_received">አዲስ መልእክት ገብቷል</string>
+    <string name="pd_message_processing">በማስተናገድ ላይ...</string>
+    <string name="not_available_during_remote_care">በሩቅ መቆጣጠሪያ እንክብካቤ ወቅት አይገኝም።</string>
+    <string name="dual_camera_effect_menu_none">ምንም</string>
+    <string name="dual_camera_effect_menu_stamp">ማህተም</string>
+    <string name="dual_camera_effect_menu_ovalblur">ክብ ማደብዘዝ</string>
+    <string name="dual_camera_effect_menu_instantpic">ፈጣን</string>
+    <string name="dual_camera_effect_menu_heart">የልብ ቅርፅ</string>
+    <string name="dual_camera_effect_menu_star">የኮከብ ቅርጽ</string>
+    <string name="dual_camera_effect_menu_window">መስኮት</string>
+    <string name="dual_camera_effect_menu_fisheye">ትልቅ ስእል</string>
+    <string name="dual_camera_effect_menu_cubism">ኪዩቢያዊ</string>
+    <string name="dual_camera_effect_menu_splitview1">የተነጣጠለ ዕይታ 1</string>
+    <string name="dual_camera_effect_menu_splitview2">የተነጣጠለ ዕይታ 2</string>
+    <string name="smart_zoom_object_tracking_focus_mode">የማነጣጠሪያ ሁናቴ በመከታተል ላይ</string>
+    <string name="smart_zoom_manual_focus_mode">መደበኛ የማነጣጠሪያ ሁናቴ</string>
+    <string name="sp_shot_mode_new_hdr">ንቁ ቃና(HDR)</string>
+    <string name="sp_help_guide_new_hdr_desc_list">በደንጋዛ የመብራት ሁኔታዎች ውስጥ የተሻለ ፎቶ ለማግኘት በብዙ ዓይነት አነሳስ የተነሱ ፎቶዎችን ወደ አንድ ምርጥ ፎቶ ያጣምራል።</string>
+    <string name="accessiblity_mode_button">ሁናቴ።</string>
+    <string name="accessiblity_change_view_list_button">የዝርዝር እይታ</string>
+    <string name="accessiblity_change_view_grid_button">ፍርግርግ እይታ</string>
+    <string name="accessiblity_default_auto_button">መደበኛ</string>
+    <string name="mode_menu_camera_normal">በመደበኛ ካሜራ ሁናቴ ፎቶ ያንሱ።</string>
+    <string name="mode_menu_video_normal">በመደበኛ ቅጂ ሁናቴ ቪዲዮ ቅዳ።</string>
+    <string name="mode_menu_video_tracking_zoom">ለማተለቅ የማነጣጠሪያ ቦታ ለመምረጥ የመከታተያ ማጊሊያ ያስችሎታል። በአነስተኛው ማያ ገጽ ላይ ይመልከቱት እና ቪዲዮ ይቅዱ።</string>
+    <string name="help">እገዛ</string>
+    <string name="camera_quick_button_index_mode">ቅጥ</string>
+    <string name="panorama_guide_tap_shutter_to_start">ለመጀመር የመዝጊያ አዝራርን ይጫኑ።</string>
+    <string name="panorama_guide_move_in_one_direction">በአንድ አቅጣጫ ላይ አንቀሳቅስ</string>
+    <string name="panorama_guide_tap_to_finish">ለመጨረስ የአቁም አዝራርን መታ ያድርጉ</string>
+    <string name="sp_down_NORMAL">ወደታች</string>
+    <string name="sp_up_NORMAL">ወደ ላይ</string>
+    <string name="sp_right_NORMAL">ቀኝ</string>
+    <string name="sp_left_NORMAL">ግራ</string>
+    <string name="volume_key">የድምጽ መስጫ አዝራር</string>
+    <string name="volume_key_capture_image">ፎቶ አንሳ</string>
+    <string name="volume_key_record_video">ቅዳ</string>
+    <string name="volume_key_zoom">አጉላ</string>
+    <string name="volume_key_zoom_only">በፊተኛው ካሜራ በኩል ያሉ እንቅስቃሴዎችን ብቻ አጉላ።</string>
+    <string name="volume_key_zoom_disable">ማጉላት/ማሳነስ በዚህ ኹናቴ የተደገፈ አይደለም።</string>
+    <string name="volume_key_zoom_disable_resolution">ለዚህ ምስል ጥራት ምጥጥን ማጉያ/ማሳነሻ አይደገፍም።</string>
+    <string name="help_scene_mode_menu_night_desc_new">ያለ ፍላሽ በጨለማ ቦታዎች ውስጥ ፎቶዎችን ያንሱ።</string>
+    <string name="sp_confirm_NORMAL">እሺ</string>
+    <string name="sp_dialog_change_setting">አንቃን ወደ አሰናክል ለውጥ</string>
+    <string name="sp_dialog_change_setting_au_cloud">እባክዎ au application \"አሰናክል\" የሚለውን ይተዎት።</string>
+    <string name="sp_auto_upload_NORMAL">በራሰሰር ስቀል</string>
+    <string name="sp_new_ux_help_guide_title_clear_shot">አንሳ እና አጥራ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_hdr">ፈጣን ቃና (HDR) መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_panorama">ፓናሮማ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_vr_panorama">VR ፓናሮማ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_burst_shot">የፍንዳታ አነሳስ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_beauty_shot">የውበት አነሳስ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_portrait_plus">ቁልቁል ገጽታ + የአጠቃቀም መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_dual_camera">ባለሁለትዮሽ ካሜራ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_time_machine_camera">የጊዜ ማሽን ካሜራ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_time_catch_shot">በሰዓት የሚሞላ ፎቶ ማንሳት መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_intelligent_auto">አዋቂ በራሰሰር መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_sports">የስፖርቶች መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_night">የለሊት መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_dual_recording">ባለሁለትዮሽ መቅዳት መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_live_effect">የቀጥታ ተጽእኖ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_continuous_shot">ተከታታይ ማንሳት መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_hdr_recording">HDR የመቅጃ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_wdr_recording">WDRአቀዳድ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_voice_shutter">የድምጽ መዝጊያ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_cheese_shutter">የፈገግታ መዝጊያ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_uplus_box">U+ Box በራሰሰር ማስቀመጥ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_audio_zoom">ኦዲዮ ማጎላት መመሪያ</string>
+    <string name="sp_new_ux_help_guide_title_tracking_zoom">መከታተያ ማጉያ መመሪያ</string>
+    <string name="sp_new_ux_help_guide_desc_clear_shot">"1. ፎቶ ያንሱ።
+2.ከፎቶው ላይ ለማስወገድ የተዘረዘሩትን ማናቸውም ነገሮች መታ ያድርጉ።
+3.ለማስቀመጥ የአስቀምጥ አዝራር ይጫኑ።"</string>
+    <string name="sp_new_ux_help_guide_desc_hdr">HDR በተለያዩ የጥራት ደረጃዎች የተወሰዱ ፎቶዎችን ብዙ የጥራት መቆጣጠሪያዎችን በማጎልበት ወደ አንድ የተብቃቃ ፎቶ ያጣምራል።</string>
+    <string name="sp_new_ux_help_guide_desc_panorama">"1. ለመጀመር የመዝጊያ አዝራርን ይጫኑ።
+2. ወደ አንድ አቅጣጫ መሳሪያዎን በቀስታ ያጋድሉ።
+3. በሚጨርስበት ጊዜ የአቁም አዝራር ይጫኑ።"</string>
+    <string name="sp_new_ux_help_guide_desc_plane_panorama">"1. ለመጀመር የመዝጊያ አዝራርን ይጫኑ።
+2. ወደ አንድ አቅጣጫ መሳሪያዎን በቀስታ ያጋድሉ።
+3. ፎቶ ማንሳት እንዲቻል ትኩረት የተደረገበትን ቦታ ወደ ሰማያዊ የመመሪያ መስመር ላይ እንዲያርፍ አመጣጥን።
+4. በሚጨርስበት ጊዜ የአቁም አዝራር ይጫኑ።"</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama">"1. VR ፓናሮማ ሁናቴን ለመጀመር መከለያ ይጫኑ። 
+2. ፎቶ ለማንሳት ወደ ሰማያዊ መመሪያ መስመር የማነጣጠሪያ አካባቢን ይመጥኑ። 
+3. ሌሎች የማነጣጠሪያ ኦካባቢዎችን ለመያዝ እና ፎቶዎችን ለማንሳት ካሜራ ያንቀሳቅሱ። ፎቶዎቹ በአንድ ላይ ወደ አንድ ምስል ይመጣሉ።"</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new">"1. VR ፓናሮማ ሁናቴን ለመጀመር የመዝጊያ አዝራርን መታ ያድርጉ።
+2. ፎቶ ለማንሳት ወደ ሰማያዊ የመመሪያ መስመር ላይ የማነጣጠሪያን ቦታ ይመጥኑ።
+3. ሌላ የማነጣጠሪያ ቦታዎች ለመያዝ እና ፎቶዎችን ለማንሳት ካሜራ ያንቀሳቅሱ።
+ፎቶዎቹ ወደ አንድ ምስል ይሰበሰባሉ።
+ VR ፓናሮማ ፎቶዎችን በማንሳት ጊዜ፣ የሚነሳው ነገር ላይ በጣም አይቅረቡ እና ተገቢውን ርቀት ይጠብቁ።"</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new_specified">"1. VR ፓናሮማ ሁናቴን ለመጀመር የመዝጊያ አዝራርን መታ ያድርጉ።
+2. ፎቶ ለማንሳት ወደ ሰማያዊ የመመሪያ መስመር ላይ የማነጣጠሪያን ቦታ ይመጥኑ።
+3. ሌላ የማነጣጠሪያ ቦታዎች ለመያዝ እና ፎቶዎችን ለማንሳት ካሜራ ያንቀሳቅሱ።
+ፎቶዎቹ ወደ አንድ ምስል ይሰበሰባሉ።
+ VR ፓናሮማ ፎቶዎችን በማንሳት ጊዜ፣ የሚነሳው ነገር ላይ በጣም አይቅረቡ እና ተገቢውን ርቀት ይጠብቁ። (16 እርምጃ ወይም 5 ሜ)።"</string>
+    <string name="sp_new_ux_help_guide_desc_light_frame">የፊት ካሜራ በሚጠቀሙበት ጊዜ ከትናንሽ ቅድም እይታ ጋር ይበልጥ ብሩህ የሆኑ ፎቶዎችን ያንሱ።</string>
+    <string name="sp_new_ux_help_guide_desc_burst_shot">መከለያውን በመጫን እስከ 20 ማንሳቶች ድረስ ይውሰዱ።</string>
+    <string name="sp_new_ux_help_guide_desc_beauty_shot">የውበት አነሳስ የፊት ገጽታን የጎላ እና ለስላሳ ያደርገዋል።</string>
+    <string name="sp_new_ux_help_guide_desc_time_machine_camera">"1. የጊዜ ማሽን ካሜራን ለመጀመር ፎቶ ያንሱ።
+2. የጠፉትን ሁኔታዎች ለመገምገም የማዕከለ ስዕላት አዝራር ይጫኑ።
+3. ለማስቀመጥ የሚፈልጓቸውን ፎቶዎች ይምረጡ።
+4.የአስቀምጥ አዝራር ይጫኑ።"</string>
+    <string name="sp_new_ux_help_guide_desc_time_catch_shot">"1. በሰዓት የሚሞላ ፎቶ ማንሳት ለመጀመር ፎቶ ያንሱ። 
+2. የጠፉትን ሁኔታዎች ለመገምገም የማዕከለ ስዕላት አዝራር ይጫኑ።
+3. ለማስቀመጥ የሚፈልጓቸውን ፎቶዎች ይምረጡ።
+4.የአስቀምጥ አዝራር ይጫኑ።"</string>
+    <string name="sp_new_ux_help_guide_desc_intelligent_auto">የትዕይነት መድረኩን ባህሪያት በራስሰር ለይቆ ያውቅ እና ፎቶ ያነሳል።</string>
+    <string name="sp_new_ux_help_guide_desc_dual_recording">"1. አነስተኛውን ማያ ገጽ ለማንቀሳቀስ ይጎትቱ።
+2. መጠኑን በድጋሚ ለማስተካከል አነስተኛውን ማያ ገጽ ይንኩ እና ያዝ ያድርጉ።
+3. አነስተኛ እና ትልቅ ማያ ገጽ መካከል ለመቀያየር አነስተኛ ማያ ገጽ መታ ያድርጉ።"</string>
+    <string name="sp_new_ux_help_guide_desc_live_effect">"1. ለመጠቀም የሚፈልጉትን ተጽእኖ ይጠቀሙ።
+2. የቅዳ አዝራርን ይጫኑ እና መቅዳት ይጀምሩ።"</string>
+    <string name="sp_new_ux_help_guide_desc_hdr_recording">HDR በብዙ የጥራት መቆጣጠሪያዎች ቪዲዮዎችዎን ያጎልብቱ።</string>
+    <string name="sp_new_ux_help_guide_desc_wdr_recording">WDR አቀዳድ በብዙ የጥራት መቆጣጠሪያ ቪዲዮዎትን ያጎለብታል።</string>
+    <string name="sp_uhd_heat_warning">UHD ቪዲዮ ቅጂ የሚመከረውን ሙቀት ለማቆየት እስከ 5 ደቂቃ ድረስ ሊገኝ ይችላል። የቪዲዮ ቅጂ ይዘጋል።</string>
+    <string name="sp_help_guide_title_face_tracking_led">የፊት መልክ ዱካ መከታተያ መመሪያ</string>
+    <string name="sp_help_guide_face_tracking_led">"የማሳወቂያ መብራት ፊት ተፈልጎ ሲገኝ ብልጭ ድርግም ይላል።
+ቅንጅትን በቅንጅቶች > ማሳያ> ማሳወቂያ መብራት ላይ መለወጥ ይችላሉ።"</string>
+    <string name="dialog_alert_title">ማንቂያ</string>
+    <string name="camera_accessibility_indicator_message_remaining">አዲስ የጽሁፍ መልዕክቶች</string>
+    <string name="camera_accessibility_indicator_mms_remaining">አዲስ መልተሚዲያ መልዐክት</string>
+    <string name="camera_accessibility_indicator_voice_mail_remaining">አዲስ የድምጽ ደብዳቤ</string>
+    <string name="camera_accessibility_indicator_gps_connecting">geotagging በማብራት ላይ</string>
+    <string name="camera_accessibility_indicator_geotagging_on">Geotagging በርቷል</string>
+    <string name="camera_accessibility_indicator_remaining_picture_count">%s ተጨማሪ ፎቶዎች ሊወሰዱ ይችላሉ።</string>
+    <string name="camera_accessibility_indicator_battery">ባትሪ በ %s ፐርሰንት ላይ</string>
+    <string name="camera_accessibility_indicator_storage">አስቀምጥ ወደ %s</string>
+    <string name="camera_accessibility_indicator_voice_shutter_on">%s በርቷል</string>
+    <string name="camera_accessibility_indicator_anti_shaking_on">ፀረ መወዝወዝ በርቷል</string>
+    <string name="camera_accessibility_thumbnail">ወደ ማዕከለ ስዕላት ሂድ</string>
+    <string name="not_available_during_incoming_call">በገቢ ጥሪ ጊዜ አይገኝም</string>
+    <string name="camera_error_occurred_try_again">በጊዜያዊ ችግር የተነሳ ለትንሽ ጊዜ ካሜራ አይገኝም። በድጋሚ ይሞክሩ።</string>
+    <string name="mode_menu_camera_refocus_new">ፎቶ ካነሱ በኋላ የእርስዎን ማተኮሪያ ይምረጡ።</string>
+    <string name="sp_refocus_bubble_popup_NORMAL">ይሄንን ፎቶ በድጋሚ ለማነጣጠር፣ እዚህ መታ ያድርጉ።</string>
+    <string name="sp_postview_action_bar_menu_all_in_focus">ሁሉም በማተኮሪያ ላይ</string>
+    <string name="sp_refocus_preview_guide_message">ፎቶ በማንሳት ጊዜ ወደ የሚያነሰቱ አካል ይጠጉ እና ስልኩን ቀጥ አድርገው ይያዙ።</string>
+    <string name="shot_mode_magic_focus">ማጂክ ማተኮሪያ</string>
+    <string name="sp_new_ux_help_guide_title_refocus">ማጂክ ማተኮሪያ መመሪያ</string>
+    <string name="sp_camera_refocus_postview_allinfocus_message">በማተኮሪያ ውስጥ የፎቶዎችዎ ሁሉም ክፍል</string>
+    <string name="sp_new_ux_help_guide_desc_refocus_new">"1. ፎቶ ያንሱ እና የማዕከለ ስዕላት አዝራርን ጠቅ ያድርጉ።
+2. ማነጣጠሪያን ለማስተካከል፣ ነገርን መታ ያድርጉ ወይም መያዣውን ያስተካክሉ።
+3. በድጋሚ የተነጣጠረውን ፎቶ ለማስቀመጥ የአስቀመጥ አዝራርን መታ አድርግ።"</string>
+    <string name="sp_refocus_postview_message_new">ማንጣጠሪያን ለመለወጥ ነገርን መታ ያድርጉ ወይም መያዣን ያስተካክሉ፣ ከዛም በላይኛው ቀኝ ጥግ ውስጥ የ (#1#) ን አዝራር መታ ያድርጉ።</string>
+    <string name="sp_refocus_postview_message_vzw_new">ማንጣጠሪያን ለመለወጥ ነገርን መታ ያድርጉ ወይም መያዣን ያስተካክሉ፣ ከዛም በላይኛው ቀኝ ጥግ ውስጥ የአስቀመጥን አዝራር መታ ያድርጉ።</string>
+    <string name="sp_refocus_warning_popup">ማነጣጠሪያ አልተቀየረም። ይውጣ?</string>
+    <string name="gesture_guide">ፎቶ ለማንሳት ጣቶችዎን ይዝጉ</string>
+    <string name="sp_gesture_guide_msg_fist">ፎቶ ለማንሳት የእጅዎን ጭብጦ ያላቁ</string>
+    <string name="camera_help_activity_gesture_shot">የእንቅስቃሴ ማንሳት</string>
+    <string name="sp_help_gestureshot_desc">በእጅ እንቅስቃሴ ትግት እራስዎን ያንሱ። ፎቶ ለማንሳት፣</string>
+    <string name="sp_new_ux_help_guide_title_gestureshot">የእንቅስቃሴ ማንሳት መመሪያ</string>
+    <string name="sp_new_ux_gesture_shot_help_activity_desc">እራስዎን በእጅ እንቅስቃሴ ያንሱ። ፎቶ ለማንሳት፣ የፊተኛው ካሜራ እስኪያገኘው ድረስ እና ሳጥን እስኪታይ ድረስ እጅዎን ያንሱ። ከዛም፣ ፎቶ ለማንሳት የቡጢ ቅርስ ያሳዩ።</string>
+</resources>

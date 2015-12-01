@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sp_lowbattery_MLINE">Batterij heeft te weinig energie om camera te laten werken. Laadt uw telefoon.</string>
+    <string name="sp_lowbattery">Batterij momenteel te laag om de camera te starten.</string>
+    <string name="setting_init">Camera-instelling opnieuw instellen?</string>
+    <string name="sp_reset_message_NORMAL">Resetten naar standaard waarde?</string>
+    <string name="sp_All_settings_reset_NORMAL">Alle instellingen opnieuw instellen</string>
+    <string name="sp_blockedByEAS_NORMAL">De camera is uitgeschakeld door het Exchange-serverbeleid.</string>
+    <string name="sp_block_camera_NORMAL">De camera is uitgeschakeld door het serverbeleid.</string>
+    <string name="error_cannot_use_hdmi">De camera kan niet worden gebruikt tijdens verbinding met HDMI</string>
+    <string name="sp_dual_display_status_NORMAL">De camera kan niet worden gebruikt in dubbele weergave modus.</string>
+    <string name="reset">Herstellen</string>
+    <string name="cancel">Terug</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="sp_camera_helpdesc_generalsetting">Algemeen</string>
+    <string name="sp_Exit_NORMAL">Afsluiten</string>
+    <string name="on">Aan</string>
+    <string name="sp_review_timer_2_NORMAL">2 sec.</string>
+    <string name="off">Uit</string>
+    <string name="sp_none_NORMAL">Geen</string>
+    <string name="normal">Normaal</string>
+    <string name="settings">Instellingen</string>
+    <string name="sp_loading_camera_NORMAL">Voorbereiden...</string>
+    <string name="dual_camera_select">Camera wisselen</string>
+    <string name="insert_sd_card">Plaats een microSD</string>
+    <string name="insert_add_sd_card">Bevestig uw externe MicroSD</string>
+    <string name="sp_preparing_int_sd_NORMAL">Voorbereiden van intern geheugen...</string>
+    <string name="preparing_sd">MicroSD voorbereiden</string>
+    <string name="sp_cannot_use_camera_UMS_NORMAL">Verbreek USB om verder te gaan met camera. USB blokkeert gebruik van MicroSD.</string>
+    <string name="sp_connected_mass_storage_NORMAL">Massaopslag</string>
+    <string name="sp_not_available_connected_mass_storage_NORMAL">"Camera is niet beschikbaar.
+Verbreek USB verbinding."</string>
+    <string name="sp_launch_NORMAL">Starten</string>
+    <string name="sp_memory_full_diag_title_NORMAL">Geheugen vol</string>
+    <string name="sp_memory_full_diag_1_NORMAL">"Onvoldoende geheugen in %1$s.
+Uw bestand wordt opgeslagen in %2$s.
+Maak meer geheugen vrij in %3$s door uw telefoon op de PC aan te sluiten of de bestandsmanager te starten.
+
+De bestandsmanager nu starten?
+Controleer uw bestanden in '%4$s'"</string>
+    <string name="sp_memory_full_diag_1_no_file_manager_NORMAL">"Onvoldoende geheugen in %1$s.
+Uw bestand wordt opgeslagen in %2$s.
+Maak meer geheugen vrij in %3$s door uw telefoon op de PC aan te sluiten of de bestandsmanager te starten."</string>
+    <string name="sp_memory_full_diag_2_NORMAL">"Onvoldoende geheugen in %1$s.
+Maak meer geheugen vrij in %1$s door uw telefoon op de PC aan te sluiten of de bestandsmanager te starten.
+
+De bestandsmanager nu starten?
+Controleer uw bestanden in '%2$s'"</string>
+    <string name="sp_memory_full_diag_2_no_file_manager_NORMAL">"Onvoldoende geheugen in %1$s.
+Maak meer geheugen vrij in %1$s door uw telefoon op de PC aan te sluiten of de bestandsmanager te starten."</string>
+    <string name="sp_memory_full_diag_3_NORMAL">"Onvoldoende geheugen in alle geheugens.
+Maak meer geheugen vrij door uw telefoon op de PC aan te sluiten of de bestandsmanager te starten.
+
+De bestandsmanager nu starten?
+Controleer uw bestanden in '%1$s'"</string>
+    <string name="sp_memory_full_diag_3_no_file_manager_NORMAL">"Onvoldoende geheugen in alle geheugens.
+Maak meer geheugen vrij door uw telefoon op de PC aan te sluiten of de bestandsmanager te starten."</string>
+    <string name="sp_storage_full_popup_ics_title_NORMAL">Opslag vol</string>
+    <string name="sp_storage_full_message_not_on_internal_NORMAL">Onvoldoende ruimte op intern geheugen</string>
+    <string name="sp_storage_full_message_not_on_internal_sto_NORMAL">Onvoldoende ruimte op Interne opslag.</string>
+    <string name="sp_storage_full_message_not_on_sd_NORMAL">Onvoldoende ruimte op de MicroSD.</string>
+    <string name="sp_storage_full_message_save_to_internal_NORMAL">Bestand is opgeslagen op de interne opslag.</string>
+    <string name="sp_storage_full_message_save_to_internal_st_NORMAL">Bestand is opgeslagen op de interne opslag.</string>
+    <string name="sp_storage_full_message_save_to_sd_NORMAL">Bestanden opgeslagen op de microSD</string>
+    <string name="sp_storage_full_saving_file_NORMAL">Bestand aan het bewaren...</string>
+    <string name="sp_storage_full_free_NORMAL">Om vrije plaats te hebben, wis ongebruikte bestanden.</string>
+    <string name="msg_save_progress">Opslaan...</string>
+    <string name="sp_storage_full_popup_ics_1_NORMAL">Geen ruimte genoeg op %s. Om ruimte vrij te maken, verwijder ongebruikte bestanden.</string>
+    <string name="sp_storage_full_popup_ics_2_NORMAL">Onvoldoende geheugen %1$s. Bestand wordt bewaard op %2$s. Om geheugen vrij te maken, verwijder ongebruikte bestanden.</string>
+    <string name="sp_storage_full_popup_ics_3_NORMAL">Onvoldoende geheugen op alle opslagplaatsen. Om geheugen vrij te maken, verwijder ongebruikte bestanden.</string>
+    <string name="sp_storage_full_popup_ics_6_NORMAL">Onvoldoende geheugen op %s. Bestand bewaren...</string>
+    <string name="sp_full_popup_ics_1_not_in_memory_NORMAL">Onvoldoende ruimte op intern geheugen. Om vrije plaats te hebben, wis ongebruikte bestanden.</string>
+    <string name="sp_full_popup_ics_1_not_in_storage_NORMAL">Niet genoeg ruimte op de interne opslag. Om ruimte vrij te maken, verwijder ongebruikte bestanden.</string>
+    <string name="sp_full_popup_ics_1_not_sd_NORMAL">Onvoldoende ruimte op de MicroSD. Om ruimte vrij te maken, verwijder ongebruikte bestanden.</string>
+    <string name="sp_full_popup_ics_2_not_in_memory_to_sd_NORMAL">Onvoldoende ruimte op intern geheugen. Bestanden opgeslagen op de microSD. Om vrije plaats te hebben, wis ongebruikte bestanden.</string>
+    <string name="sp_full_popup_ics_2_not_in_storage_to_sd_NORMAL">Onvoldoende ruimte op Interne opslag. Bestanden opgeslagen op de microSD. Om vrije plaats te hebben, wis ongebruikte bestanden.</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_memory_NORMAL">Onvoldoende ruimte op de MicroSD. Bestand is opgeslagen op de interne opslag. Om vrije plaats te hebben, wis ongebruikte bestanden.</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_storage_NORMAL">Onvoldoende ruimte op de MicroSD. Bestand is opgeslagen op de interne opslag. Om vrije plaats te hebben, wis ongebruikte bestanden.</string>
+    <string name="sp_full_popup_ics_6_not_in_memory_NORMAL">Onvoldoende ruimte op intern geheugen. Bestand aan het bewaren.</string>
+    <string name="sp_full_popup_ics_6_not_in_storage_NORMAL">Onvoldoende ruimte op Interne opslag. Bestand aan het bewaren.</string>
+    <string name="sp_full_popup_ics_6_not_sd_NORMAL">Onvoldoende ruimte op de MicroSD. Bestand aan het bewaren...</string>
+    <string name="sp_internal_sd_prepared_NORMAL">Intern geheugen is voorbereid.</string>
+    <string name="sp_external_sd_prepared_NORMAL">MicroSD is voorbereid</string>
+    <string name="sp_not_enough_memory_NORMAL">"Onvoldoende opslagruimte in het gehele geheugen.
+Maak meer geheugen vrij."</string>
+    <string name="not_enough_space">Plaats een nieuwe microSD of wis inhoud.</string>
+    <string name="sp_not_enough_int_sd_NORMAL">"Niet genoeg opslagruimte op de interne geheugen.
+Uw bestand wordt opgeslagen in de microSD."</string>
+    <string name="sp_not_enough_add_space_NORMAL">"Niet genoeg opslagruimte op de MicroSD.
+Maak meer geheugen vrij."</string>
+    <string name="sp_not_enough_sd_int_NORMAL">"Niet genoeg opslagruimte op de microSD.
+Uw bestand wordt opgeslagen in het interne geheugen."</string>
+    <string name="sp_media_scanning_NORMAL">"Media worden gescand. Probeer het opnieuw
+nadat het scannen van de media voltooid is."</string>
+    <string name="sp_media_scanning_ics_NORMAL">Probeer opnieuw na het scannen van de media bestanden.</string>
+    <string name="scanning_sdcard_media_files">MicroSD aan het scannen op mediagegevens...</string>
+    <string name="sp_ext_sdcard_not_exist_NORMAL">De MicroSD bestaat niet. De opslag is beperkt tot het interne geheugen.</string>
+    <string name="sp_sdremoved_change_int_NORMAL">MicroSD verwijderd. Opslag wordt gewijzigd naar intern geheugen.</string>
+    <string name="sp_sd_card_removed_NORMAL">De microSD is verwijderd. Plaats de microSD.</string>
+    <string name="camera_closed_due_to_sdcard_removal">MicroSD werd onverwachts verwijderd. Cameras is gesloten.</string>
+    <string name="sp_sdcard_inserted_noti">MicroSD ingebracht. Bewaren op de MicroSD?</string>
+    <string name="sp_storage_always_ask_NORMAL">Altijd vragen</string>
+    <string name="sp_storage_noti_title_NORMAL">Melding</string>
+    <string name="title_not_enough_space">Geheugen vol</string>
+    <string name="popup_storage_full_save">Geheugen vol. Opslaan...</string>
+    <string name="sp_notenoughmemory_NORMAL">"Intern geheugen of MicroSD is vol.
+Verwijder inhoud."</string>
+    <string name="sp_addspace_NORMAL">"MicroSD is vol.
+Verwijder een deel van de inhoud."</string>
+    <string name="sp_mhl_cannot_use_camera_NORMAL">De camera kan niet worden gebruikt wanneer de MHL kabel is aangesloten.</string>
+    <string name="sp_mhl_cannot_show_preview_NORMAL">De preview van de camera kan niet worden getoond wanneer de MHL kabel aangesloten is.</string>
+    <string name="msg_found_escape_char">Teken dat niet is toegestaan</string>
+    <string name="sp_message_filename_limit_NORMAL">"Bestandsnaam te lang 
+(max. %d tekens)"</string>
+    <string name="waiting_save_image">"Een ogenblik
+geduld..."</string>
+    <string name="sp_image_size_front_NORMAL">Voorzijde beeldformaat</string>
+    <string name="image_size">Formaat</string>
+    <string name="scene_mode">Scene</string>
+    <string name="scene_mode_portrait">Portret</string>
+    <string name="scene_mode_landscape">Landschap</string>
+    <string name="scene_mode_sports">Sport</string>
+    <string name="scene_mode_night">Nacht</string>
+    <string name="scene_mode_sunset">Zonsondergang</string>
+    <string name="sp_scene_mode_normal_NORMAL">Normaal</string>
+    <string name="white_balance">Witbalans</string>
+    <string name="white_balance_incandescent">Gloeilamp</string>
+    <string name="white_balance_sunny">Zonnig</string>
+    <string name="white_balance_fluorescent">TL-lamp</string>
+    <string name="white_balance_cloudy">Bewolkt</string>
+    <string name="sp_whitebalance_default_NORMAL">Automatisch</string>
+    <string name="color_effect">Kleureffect</string>
+    <string name="color_effect_negative">Negatief</string>
+    <string name="color_effect_solarize">Solarizeren</string>
+    <string name="color_effect_negative_sepia">Negatief sepia</string>
+    <string name="color_effect_blue">Blauw</string>
+    <string name="color_effect_posterize">Posters</string>
+    <string name="color_effect_aqua">Lichtblauw</string>
+    <string name="sp_color_effect_none_cameraapp_NORMAL">Geen</string>
+    <string name="image_quality">Kwaliteit</string>
+    <string name="quality_super_fine">Zeer fijn</string>
+    <string name="quality_fine">Fijn</string>
+    <string name="sp_quality_normal_NORMAL">Normaal</string>
+    <string name="video_quality">Kwaliteit</string>
+    <string name="timer_1">1 sec.</string>
+    <string name="timer_3">3 sec.</string>
+    <string name="timer_5">5 sec.</string>
+    <string name="timer_10">10 sec.</string>
+    <string name="shot_mode">Fotomodus</string>
+    <string name="shot_mode_continuous">Reeksopname</string>
+    <string name="shot_mode_smile">Glimlachfoto</string>
+    <string name="shot_mode_beauty">Verfraaide foto</string>
+    <string name="shot_mode_art">Kunstfoto</string>
+    <string name="shot_mode_face_effect">Gezichtseffect</string>
+    <string name="shot_mode_vr_panorama">VR Panorama</string>
+    <string name="shot_mode_burst">Reeks-opname</string>
+    <string name="sp_shot_mode_burst">Reeks-opname</string>
+    <string name="record_mode">Opnamemodus</string>
+    <string name="record_mode_WDR">WDR Opnemen</string>
+    <string name="record_mode_HDR">HDR Roaming</string>
+    <string name="artshot_original">Origineel</string>
+    <string name="artshot_cold">Koud</string>
+    <string name="artshot_blackwhite">Zwart-wit</string>
+    <string name="face_effect_blur">Waas</string>
+    <string name="face_effect_snow">Sneeuw</string>
+    <string name="face_effect_shallow_focus">Ger. dieptescherpte</string>
+    <string name="face_effect_big_head">Groot hoofd</string>
+    <string name="face_effect_mosaic">Mozaïek</string>
+    <string name="face_effect_fish_eye">Visoog</string>
+    <string name="face_effect_concave">Concaaf</string>
+    <string name="face_effect_funny_mask">Grappig masker</string>
+    <string name="shutter_sound">Sluitergeluid</string>
+    <string name="shutter_sound_1">Toon 1</string>
+    <string name="shutter_sound_2">Toon 2</string>
+    <string name="shutter_sound_3">Toon 3</string>
+    <string name="shutter_sound_4">Toon 4</string>
+    <string name="geo_tagging">Tag locatie</string>
+    <string name="sp_storage_NORMAL">Opslagruimte</string>
+    <string name="sp_default_memory_NORMAL">MicroSD opslag</string>
+    <string name="sp_internal_memory_NORMAL">Intern geheugen</string>
+    <string name="sp_internal_storage_NORMAL">Intern geheugen</string>
+    <string name="sp_external_memory_NORMAL">MicroSD</string>
+    <string name="sp_anti_banding_NORMAL">Anti-banding</string>
+    <string name="focus_face_tracking">Gezicht volgen</string>
+    <string name="sp_quickfunction_focus_continuous_NORMAL">Reeksopname</string>
+    <string name="manual_for_camera">Handmatig</string>
+    <string name="flash">Flitser</string>
+    <string name="sp_save_direction_NORMAL">Richting opslaan</string>
+    <string name="brightness">Helderheid</string>
+    <string name="sp_mirror_image_NORMAL">Spiegelbeeld</string>
+    <string name="sp_flipped_image_NORMAL">Gedraaid beeld</string>
+    <string name="sp_save_as_flipped_NORMAL">Bewaard als gedraaid</string>
+    <string name="sp_uplusbox_NORMAL">U+ Box automatisch opslaan</string>
+    <string name="sp_help_guide_uplusbox_desc_NORMAL">"De foto's worden geüpload naar U+ Box. De gegevensaanrekenng kan van toepassing zijn wanneer deze zijn aangesloten dataverbinding."</string>
+    <string name="sp_uplusbox_NORMAL_network_error">"Netwerk fout. De foto's zullen automatisch worden geüpload naar U + Box Wanneer netwerk beschikbaar is."</string>
+    <string name="sp_uplusbox_NORMAL_desc_on">"Foto's worden automatisch geupload naar U + Box."</string>
+    <string name="sp_voiceshutter_NORMAL">Voice foto</string>
+    <string name="sp_note_voiceshutter_NORMAL">Zeg \"%s\" wanneer u klaar bent voor het nemen van een foto</string>
+    <string name="sp_voiceshutter_say_NORMAL">Zeg \"%s\" om een foto te nemen</string>
+    <string name="sp_voiceshutter_word_whisky_NORMAL">Whisky</string>
+    <string name="sp_voiceshutter_sound_kimchi_NORMAL">Kemtchi</string>
+    <string name="sp_voiceshutter_sound_cheese_NORMAL">Tjiez</string>
+    <string name="sp_voiceshutter_sound_LG_NORMAL">El Djie</string>
+    <string name="sp_voiceshutter_sound_smile_NORMAL">Smaajl</string>
+    <string name="sp_note_voiceshutter_multi_sound_NORMAL">Om een foto te nemen, zeg één van de volgende woorden.</string>
+    <string name="sp_note_voiceshutter_multi_sound_vzw_NORMAL">De Cheeseshutter wacht om de foto te nemen totdat u één van deze woorden zegt:</string>
+    <string name="sp_voiceshutter_multi_sound_say_NORMAL">Zeg \"%1$s\", \"%2$s\" of \"%3$s\" om een foto te nemen</string>
+    <string name="sp_voiceshutter_multi_keyword_say_NORMAL">Zeg \"%1$s\", \"%2$s\", \"%3$s\", \"%4$s\" of \"%5$s\" om een foto te nemen</string>
+    <string name="sp_voiceshutter_multi_keyword_say_4items">Zeg \"%1$s\", \"%2$s\", \"%3$s\" of \"%4$s\" om een foto te nemen</string>
+    <string name="sp_voiceshutter_say_new_NORMAL">Zeg \"%s\" om een foto te maken</string>
+    <string name="sp_voiceshutter_help_desc_NORMAL">Neem en foto met spraakopdracht</string>
+    <string name="video_size">Formaat</string>
+    <string name="sp_video_duration_NORMAL">Duur</string>
+    <string name="video_voice">Spraak</string>
+    <string name="sp_video_voice_unmute_NORMAL">Aan</string>
+    <string name="sp_video_voice_mute_NORMAL">Dempen</string>
+    <string name="share">Delen</string>
+    <string name="sp_share_via_NORMAL">Delen via</string>
+    <string name="set_as">Stel in</string>
+    <string name="sp_set_photo_as_NORMAL">Foto instellen als</string>
+    <string name="rename">Naam wijzigen</string>
+    <string name="sp_share_SHORT">Delen</string>
+    <string name="sp_set_as_SHORT">Stel in</string>
+    <string name="sp_rename_SHORT">Naam wijzigen</string>
+    <string name="sp_set_as_twoline_NORMAL">"Instellen
+als"</string>
+    <string name="sp_rename_twoline_NORMAL">"Naam
+wijzigen"</string>
+    <string name="edit">Bewerk</string>
+    <string name="sp_play_twoline_SHORT">Spelen</string>
+    <string name="sp_share_twoline_SHORT">Delen</string>
+    <string name="sp_set_as_twoline_SHORT">"Instellen
+als"</string>
+    <string name="sp_rename_twoline_SHORT">"Naam
+wijzigen"</string>
+    <string name="sp_save_SHORT">Opslaan</string>
+    <string name="sp_save_complete_SHORT">Voltooid</string>
+    <string name="play">Spelen</string>
+    <string name="dlg_title_rename">Nieuwe naam invoeren</string>
+    <string name="dlg_title_delete">Wissen</string>
+    <string name="msg_multi_image_delete">Deze mediabestanden worden verwijderd.</string>
+    <string name="msg_image_delete">De foto wordt verwijderd.</string>
+    <string name="msg_video_delete">De video wordt verwijderd.</string>
+    <string name="popup_delete_done">Gewist</string>
+    <string name="sp_note_img_size_change_NORMAL">Grootte is gewijzigd in %s</string>
+    <string name="note_image_deleted">Gewiste afbeelding</string>
+    <string name="note_shot_mode_change_normal">Opnamemodus is gewijzigd in normaal.</string>
+    <string name="note_timer_mode_off">Timermodus is uitgeschakeld.</string>
+    <string name="note_smile_shutter_started">Neemt automatisch een foto als een lach wordt waargenomen.</string>
+    <string name="note_focus_mode_set_to_auto">Scherpstelmodus is ingesteld op automatisch.</string>
+    <string name="note_iso_set_to_auto">ISO staat op automatisch</string>
+    <string name="sp_note_rec_size_change_NORMAL">Het videoformaat staat op %s</string>
+    <string name="note_select_image">Geen bestand(en) gekozen.</string>
+    <string name="sp_select_photo_NORMAL">"Geen foto's geselecteerd"</string>
+    <string name="note_color_effect_change">Kleureffect is uitgeschakeld.</string>
+    <string name="sp_note_color_effect_change_NORMAL">Kleur effect is op %s.</string>
+    <string name="note_color_effect_change_none">Kleureffect is uitgeschakeld</string>
+    <string name="note_white_balance_change">Witbalans is ingesteld op automatisch.</string>
+    <string name="note_flash_change_off">Flash is uitgeschakeld</string>
+    <string name="note_scene_mode_change">Liggende modus is ingesteld op automatisch.</string>
+    <string name="sp_note_scene_mode_change_NORMAL">Scène modus ingesteld op %s.</string>
+    <string name="note_scene_mode_change_normal">"Scène modus is ingesteld op normaal "</string>
+    <string name="sp_note_video_ori_land_NORMAL">Alleen landscape wordt ondersteund voor het verzenden als mms.</string>
+    <string name="sp_note_brightness_set_to_zero_NORMAL">Helderheid staat ingesteld op nul</string>
+    <string name="error_not_enough_memory">Onvoldoende geheugen</string>
+    <string name="error_not_exist_app">Applicatie niet gevonden</string>
+    <string name="error_preview_fail">Kan voorbeeld niet starten</string>
+    <string name="error_write_file">Kan bestand niet schrijven</string>
+    <string name="error_rename">Ongeldige naam, wijzig naam.</string>
+    <string name="error_write_file_exist">Bestaat al</string>
+    <string name="error_unknown">Onbekende fout</string>
+    <string name="error_low_battery">Batterij bijna leeg. Applicatie wordt afgesloten.</string>
+    <string name="error_get_video_frame_fail">Kan frame niet uitpakken.</string>
+    <string name="error_video_recording">Video-opname is niet beschikbaar tijdens het gesprek.</string>
+    <string name="error_video_recording_during_call">Onmogelijk een video op te nemen tijdens een oproep.</string>
+    <string name="sp_error_call_camera_NORMAL">Camera kan tijdens een gesprek niet worden gestart.</string>
+    <string name="error_camera_during_video_call">Kan camera niet starten tijdens de video-oproep.</string>
+    <string name="error_cannot_start_recording_with_audio">Kan niet beginnen met opnemen terwijl andere toepassing audio gebruikt.</string>
+    <string name="error_sdm_server_setting">Camera kan niet worden uitgevoerd. Deze functie is vanaf de server geblokkeerd.</string>
+    <string name="help_title">Camera help</string>
+    <string name="sp_detail_view_NORMAL">Detailweergave</string>
+    <string name="help_swap_camera_menu_desc">Verander van de hooofd- naar de tweede camera</string>
+    <string name="help_zoom_desc">Vergroot of verklein de grootte van de onderwerpen.</string>
+    <string name="help_brightness_desc">"Belichting van foto's aanpassen."</string>
+    <string name="sp_help_brightness_desc_video_NORMAL">"Helderheid van foto's aanpassen."</string>
+    <string name="help_flash_desc">flitser instellen.</string>
+    <string name="help_flash_auto_desc">Stelt automatisch de flitser in.</string>
+    <string name="sp_help_flash_off_desc_NORMAL">"Flitser is uitgeschakeld voor alle foto's."</string>
+    <string name="sp_help_flash_on_desc_NORMAL">"Flitser is ingeschakeld voor alle foto's."</string>
+    <string name="help_camera_settings_desc">Past de camera-instellingen aan.</string>
+    <string name="help_image_size_menu_desc">Instellen van de beeldmap grootte</string>
+    <string name="help_image_size_menu_5m_desc">Voor afdrukken tot A4-formaat.</string>
+    <string name="help_image_size_menu_3m_desc">Voor afdrukken tot A5-formaat.</string>
+    <string name="help_image_size_menu_2m_desc">Voor afdrukken tot ansichtkaartformaat.</string>
+    <string name="help_image_size_menu_1m_desc">Voor afdrukken op formaten kleiner dan ansichtkaarten.</string>
+    <string name="help_image_size_menu_vga_desc">Voor het zenden via e-mail.</string>
+    <string name="help_image_size_menu_qvga_desc">Voor het zenden via e-mail.</string>
+    <string name="help_scene_mode_menu_desc">Instellen van de juiste modus voor de huidige omgeving.</string>
+    <string name="help_scene_mode_menu_auto_desc">Geeft automatisch de meest geschikte scènemodus door de omstandigheden te herkennen.</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_NORMAL">Vastleggen van het standaard beeld.</string>
+    <string name="help_scene_mode_menu_portrait_desc">Legt personen vast.</string>
+    <string name="help_scene_mode_menu_landscape_desc">Vastleggen van natuur landschap.</string>
+    <string name="help_scene_mode_menu_sports_desc">Vastleggen van snel bewegende beelden zonder onscherpte.</string>
+    <string name="help_scene_mode_menu_night_desc">Vastleggen van nachtelijk decor.</string>
+    <string name="help_scene_mode_menu_sunset_desc">Vastleggen van zonsondergang.</string>
+    <string name="help_iso_menu_desc">Controleren van de licht-gevoeligheid van de camera.</string>
+    <string name="help_white_balance_menu_desc">Waardering van kleur onder een brede waaier van lichtomstandigheden.</string>
+    <string name="help_white_balance_menu_auto_desc">Automatische aanpassing van kleur</string>
+    <string name="help_white_balance_menu_incandescent_desc">"Voor foto's in zachte lichtomstandigheden."</string>
+    <string name="help_white_balance_menu_sunny_desc">"Foto's nemen in direkt zonlicht."</string>
+    <string name="help_white_balance_menu_flourescent_desc">"Voor foto's bij TL-licht."</string>
+    <string name="help_white_balance_menu_cloudy_desc">"Voor foto's op schaduwrijke en bewolkte dagen."</string>
+    <string name="help_color_effect_menu_desc">"Past artistieke effecten toe op de foto's."</string>
+    <string name="help_color_effect_menu_off_desc">Er wordt geen kleureffect toegepast.</string>
+    <string name="help_color_effect_menu_sepia_desc">Sepia filter effect toepassen om een nostalgische foto te nemen.</string>
+    <string name="help_color_effect_menu_mono_desc">Mono filter effect toepassen voor het nemen van een zwart-wit foto.</string>
+    <string name="help_color_effect_menu_negative_desc">Negatief filter effect toepassen voor het wisselen van de kleur van de foto.</string>
+    <string name="help_color_effect_menu_vivid_desc">"Past een levendig kleureffect toe op foto's."</string>
+    <string name="help_color_effect_menu_negative_sepia_desc">"Past een kleureffect (negatief/sepia) toe op foto's."</string>
+    <string name="help_color_effect_menu_blue_desc">"Past een kleureffect (blauw) toe op foto's."</string>
+    <string name="help_color_effect_menu_emboss_desc">"Past gebosseleerd effect toe op de foto's."</string>
+    <string name="help_color_effect_menu_solarize_desc">"Past een gesolariseerd effect toe op foto's."</string>
+    <string name="help_color_effect_menu_posterize_desc">"Past een kleureffect (poster) toe op foto's."</string>
+    <string name="help_color_effect_menu_aqua_desc">"Past een kleureffect (aqua) toe op foto's."</string>
+    <string name="help_color_effect_menu_pastel_desc">"Past een kleureffect (pastel) toe op foto's."</string>
+    <string name="help_timer_menu_desc">Instellen van tijdsvertrager tussen het ogenblik van indrukken en het nemen van een foto</string>
+    <string name="help_shot_mode_menu_desc">Het instellen van een verschillende opname modus</string>
+    <string name="help_shot_mode_menu_normal_desc">Vastleggen van het standaard beeld.</string>
+    <string name="help_shot_mode_menu_continuous_shot_desc">"Neem zes opeenvolgende foto's na elkaar"</string>
+    <string name="help_shot_mode_menu_smile_shot_desc">Maakt automatisch een foto wanneer de camera een glimlach detecteert.</string>
+    <string name="help_shot_mode_menu_beauty_shot_desc">Verwijdert automatisch vlekken en onvolkomenheden voor heldere en scherpe gezichten.</string>
+    <string name="help_shot_mode_menu_art_shot_desc">Maakt een artistiek meesterwerk met effecten zoals zwart-wit, warm-koudbelichting en meer.</string>
+    <string name="help_shot_mode_menu_panorama_shot_desc">Het nemen van de volledige reeks van continue beelden en de montage in één foto.</string>
+    <string name="help_shot_mode_menu_face_effect_desc">Hiermee worden verschillende effecten toegepast met behulp van gezichtsdetectie.</string>
+    <string name="help_shot_mode_menu_cartoon_shot_desc">Hiermee wordt een opname van de telefoon getoond als een soort cartoon of tekening.</string>
+    <string name="help_shot_mode_menu_funny_mask_desc">Hiermee worden automatisch verschillende animatiemaskers toegepast op het gezicht als de camera een gezicht detecteert.</string>
+    <string name="help_face_effect_blur_desc">Hiermee wordt automatisch een gezicht gedetecteerd en wordt het waaseffect toegepast op het gezicht.</string>
+    <string name="help_face_effect_snow_desc">Hiermee wordt een sneeuweffect toegepast op het hoofd.</string>
+    <string name="help_face_effect_shallow_focus_desc">Hiermee wordt automatisch het gezicht gezocht en wordt de achtergrond wazig.</string>
+    <string name="help_face_effect_big_face_desc">Hiermee wordt het gezicht van een persoon groter gemaakt.</string>
+    <string name="help_face_effect_mosaic_desc">Hiermee wordt automatisch het mozaïekeffect toegepast op het gezicht als de camera een gezicht detecteert.</string>
+    <string name="help_face_effect_fish_eye_desc">Hiermee wordt automatisch het visoogeffect toegepast op het gezicht als de camera een gezicht detecteert.</string>
+    <string name="help_face_effect_concave_desc">Hiermee wordt automatisch het concaafeffect toegepast op het gezicht als de camera een gezicht detecteert.</string>
+    <string name="help_focus_desc">Richt zich op het specifieke punt</string>
+    <string name="help_focus_auto_desc">Automatische instelling op focus punt.</string>
+    <string name="help_focus_macro_desc">Legt het onderwerp van heel dichtbij vast.</string>
+    <string name="help_focus_face_desc">Automatische herkenning en gezichtsfocus.</string>
+    <string name="sp_help_focus_continuous_desc_NORMAL">Vind het bewegende onderwerp automatisch en stel scherp op het onderwerp.</string>
+    <string name="help_focus_manual_desc">Past handmatig de focus aan met de regelaar op het scherm.</string>
+    <string name="help_image_quality_menu_desc">Stelt de beeldkwaliteit in (hoe hoger de kwaliteit, hoe meer geheugen er nodig is).</string>
+    <string name="help_image_quality_menu_super_fine_desc">Afbeeldingen opslaan in superfijne kwaliteit.</string>
+    <string name="help_image_quality_menu_fine_desc">Afbeeldingen opslaan in fijne kwaliteit.</string>
+    <string name="help_image_quality_menu_normal_desc">Afbeeldingen opslaan in normale kwaliteit.</string>
+    <string name="help_show_captured_image_menu_desc">Tonen van het laatst gemaakt beeld na een foto te hebben gemaakt</string>
+    <string name="help_shutter_sound_menu_desc">Stelt het geluid in dat wordt afgespeeld bij het maken van een foto.</string>
+    <string name="help_geo_tagging_menu_desc">Het toevoegen van geografische informatie over de locatie van de genomen foto</string>
+    <string name="sp_help_anti_banding_menu_desc_NORMAL">Voorkomt kleurafwijkingen.</string>
+    <string name="sp_help_storage_NORMAL">Kies een opslag voor het opslaan van afbeeldingen.</string>
+    <string name="sp_help_storage_innner_NORMAL">Sla de afbeeldingen op in het interne geheugen</string>
+    <string name="sp_help_storage_sd_NORMAL">Bestanden opslaan op de microSD</string>
+    <string name="sp_help_video_title_NORMAL">Video gebruiksaanwijzing</string>
+    <string name="help_video_settings_desc">Video-instellingen aanpassen.</string>
+    <string name="help_video_size_desc">Instellen van de video bestands grootte</string>
+    <string name="help_video_size_vga_desc">"Video's opslaan in VGA-formaat."</string>
+    <string name="help_video_size_qvga_desc">"Video's opslaan in QVGA-formaat."</string>
+    <string name="help_video_size_176x144_desc">Voor het zenden via e-mail.</string>
+    <string name="help_video_scene_mode_menu_desc">Vindt de juiste kleur- en lichtinstellingen voor de huidige omgeving.</string>
+    <string name="help_video_scene_mode_menu_auto_desc">Geeft automatisch de meest geschikte scènemodus door de omstandigheden te herkennen.</string>
+    <string name="help_video_scene_mode_menu_portrait_desc">Beter voor het opnemen van mensen.</string>
+    <string name="help_video_scene_mode_menu_landscape_desc">Beter voor het opnemen van natuurscènes zoals bomen, bloemen en de hemel.</string>
+    <string name="help_video_scene_mode_menu_sports_desc">Beter voor het opnemen van scènes met snel bewegende objecten, zoals sport.</string>
+    <string name="help_video_scene_mode_menu_night_desc">"Legt prachtige nachtfoto's vast. Voor nachtlandschappen worden lange sluitertijden gebruikt."</string>
+    <string name="help_video_scene_mode_menu_sunset_desc">Prachtige zonsondergangsscène opnemen.</string>
+    <string name="help_video_white_balance_menu_desc">Verbetert kleurkwaliteit in verschillende belichtingsomstandigheden.</string>
+    <string name="help_video_white_balance_menu_auto_desc">Past automatisch de kleur aan.</string>
+    <string name="help_video_white_balance_menu_incandescent_desc">"Voor video's die zijn opgenomen in zachte lichtomstandigheden."</string>
+    <string name="help_video_white_balance_menu_sunny_desc">"Opname video's bij direkt zonlicht."</string>
+    <string name="help_video_white_balance_menu_flourescent_desc">"Voor video's die zijn opgenomen bij TL-licht."</string>
+    <string name="help_video_white_balance_menu_cloudy_desc">"Voor video's die zijn opgenomen op schaduwrijke en bewolkte dagen."</string>
+    <string name="help_video_color_effect_menu_desc">Instellen van speciaal kleur filter effecten.</string>
+    <string name="help_video_color_effect_menu_off_desc">Er wordt geen kleureffect toegepast.</string>
+    <string name="sp_help_video_color_effect_menu_off_desc_NORMAL">Geen kleurfilter toepassen</string>
+    <string name="help_video_color_effect_menu_sepia_desc">Sepia filter effect toepassen om een nostalgische video te maken.</string>
+    <string name="help_video_color_effect_menu_mono_desc">Mono filter effect toepassen voor het maken van een zwart-wit video.</string>
+    <string name="help_video_color_effect_menu_negative_desc">Negatief filter effect toepassen voor het wisselen van de kleur van de video.</string>
+    <string name="help_video_color_effect_menu_vivid_desc">"Past een levendig kleureffect toe op video's."</string>
+    <string name="help_video_color_effect_menu_negative_sepia_desc">"Past een kleureffect (negatief/sepia) toe op video's."</string>
+    <string name="help_video_color_effect_menu_blue_desc">"Past een kleureffect (blauw) toe op video's."</string>
+    <string name="help_video_color_effect_menu_emboss_desc">"Past een gebosseleerd effect toe op video's."</string>
+    <string name="help_video_color_effect_menu_solarize_desc">"Past een gesolariseerd effect toe op video's."</string>
+    <string name="help_video_color_effect_menu_posterize_desc">"Past een kleureffect (poster) toe op video's."</string>
+    <string name="help_video_color_effect_menu_aqua_desc">"Past een kleureffect (aqua) toe op video's."</string>
+    <string name="help_video_color_effect_menu_pastel_desc">"Past een kleureffect (pastel) toe op video's."</string>
+    <string name="help_video_duration_desc">Hiermee stelt u de duur in.</string>
+    <string name="help_video_duration_normal_desc">Geen limiet.</string>
+    <string name="help_video_duration_mms_desc">Voor het zenden als MMS-bijlage.</string>
+    <string name="help_video_quality_desc">Stelt de videokwaliteit in (hoe hoger de kwaliteit, hoe meer geheugen er nodig is).</string>
+    <string name="help_video_quality_super_desc">"Video's opslaan in kwaliteit superfijn."</string>
+    <string name="help_video_quality_fine_desc">"Video's opslaan in kwaliteit fijn."</string>
+    <string name="help_video_quality_normal_desc">"Video's opslaan in kwaliteit normaal."</string>
+    <string name="help_video_voice_desc">Instellen van geluid bij het opnemen van een video .</string>
+    <string name="help_video_voice_unmute_desc">Video opslaan met geluid.</string>
+    <string name="help_video_voice_mute_desc">Video opslaan zonder geluid.</string>
+    <string name="help_video_show_desc">Video na opname bekijken.</string>
+    <string name="sp_help_mirror_img_desc_NORMAL">Opslaan als spiegelbeeld.</string>
+    <string name="sp_help_videostorage_NORMAL">"Kies een opslag voor het opslaan van video's."</string>
+    <string name="sp_help_videostorage_in_NORMAL">"Video's opslaan in het interne geheugen."</string>
+    <string name="sp_help_videostorage_sd_NORMAL">Bestanden opslaan op de microSD</string>
+    <string name="camera_application_stopped">Camera gestopt.</string>
+    <string name="camera_driver_needs_reset">De camera is onverwacht gestopt en moet opnieuw worden gestart.</string>
+    <string name="geo_tag_dialog_title">GPS-service is uitgeschakeld.</string>
+    <string name="geo_tag_dialog_msg">Schakel de GPS uit de instelling in om taglocatie te gebruiken.</string>
+    <string name="geo_tag_dialog_confirm">GPS-instellingen</string>
+    <string name="sp_eula_popup_do_not_show_this_again_NORMAL">Niet weer tonen</string>
+    <string name="sp_eula_popup_dialog_msg_NORMAL">"Door \"Geotaggen\" te kiezen, zal dit apparaat geografische locatie gegevens van elke foto opslaan. Wees voorzichtig bij het verzenden, delen, distribueren, uitzenden of kopiëren van deze foto's daar deze de locatie bevatten van waar de foto werd getrokken."</string>
+    <string name="sp_eula_popup_dialog_msg_taglocation_NORMAL">"Door \"Tag locatie\" te kiezen, zal dit apparaat geografische locatie gegevens van elke foto opslaan. Wees voorzichtig bij het verzenden, delen, distribueren, uitzenden of kopiëren van deze foto's daar deze de locatie bevatten van waar de foto werd getrokken."</string>
+    <string name="geo_tag_dialog_title_cdma">LBS-service is uitgeschakeld.</string>
+    <string name="geo_tag_dialog_msg_cdma">Schakel de LBS uit de instelling in om taglocatie te gebruiken.</string>
+    <string name="geo_tag_dialog_confirm_cdma">LBS-Inst.</string>
+    <string name="sp_video_length_dialog_title_NORMAL">Video lengte</string>
+    <string name="sp_video_length_dialog_msg_NORMAL">Kies opname modus</string>
+    <string name="sp_video_length_dialog_long_NORMAL">Lange video</string>
+    <string name="sp_video_length_dialog_title_v2_NORMAL">Opnamemodus</string>
+    <string name="cannot_connect_camera">Kan geen verbinding maken met de camera.</string>
+    <string name="sp_notiintsd_NORMAL">Uw bestand wordt opgeslagen in het interne geheugen, gaat u naar Opties>Opslagruimte</string>
+    <string name="sp_notiextsd_NORMAL">Uw bestand wordt opgeslagen in het interne geheugen, gaat u naar Opties>Opslagruimte</string>
+    <string name="pref_camera_settings_category">Camera-instellingen</string>
+    <string name="pref_camcorder_settings_category">Camcorder-instellingen</string>
+    <string name="sp_close_app_NORMAL">"Druk nogmaals op de knop 'terug', om de camera af te sluiten"</string>
+    <string name="sp_popup_storage_limitsize_NORMAL">"Maximum opname lengte is bereikt.
+Bestand is opgeslagen."</string>
+    <string name="sp_popup_storage_limit_with_exact_size_NORMAL">"Maximum opname lengte (%s)  is bereikt.
+Bestand is opgeslagen."</string>
+    <string name="sp_popup_storage_maxsize_NORMAL">"Max. Opname grootte  bereikt. 
+Opname zal spoedig eindigen."</string>
+    <string name="sp_popup_storage_maximum_size_NORMAL">"Max. Opname grootte (%s) bereikt. 
+Opname zal spoedig eindigen."</string>
+    <string name="sp_sd_card_read_only_NORMAL">Gekoppelde microSD is alleen-lezen</string>
+    <string name="sp_MMS_REC_limit_NORMAL">Maximale opnamegrootte voor het verzenden van een video-MMS is %d seconden</string>
+    <string name="sp_popup_character_limit_NORMAL">Ongeldig teken.</string>
+    <string name="sp_filename_already_exists_NORMAL">Bestandsnaam bestaat reeds.</string>
+    <string name="sp_message_recording_limit_NORMAL">Bijlage bestandsgrootte limiet is kleiner dan de min. opname grootte.</string>
+    <string name="sp_help_toast_smart_shutter_NORMAL">"Smart shutter voorziet gestabiliseerde foto's bij ongewilde beweging."</string>
+    <string name="sp_help_scene_mode_menu_smart_shutter_desc_NORMAL">Indoor trekken van snel bewegende beelden zonder onderwerp vervaging.</string>
+    <string name="sp_help_scene_mode_menu_action_desc_NORMAL">Neem een foto van een snel bewegend object, zonder strepen</string>
+    <string name="sp_help_shot_mode_beauty_desc_NORMAL">Foto nemen met heldere en wazige effecten</string>
+    <string name="sp_help_shot_mode_hdr_desc_NORMAL">Het mengen van verschillende opnames van de zelfde hoog-contrast scène om een natuurlijkere look te creëren.</string>
+    <string name="sp_help_shot_mode_slow_motion_desc_NORMAL">Opnemen van snel bewegende objecten om vertraagd af te spelen</string>
+    <string name="sp_help_shot_mode_time_machine_desc_NORMAL">"Zes opeenvolgende foto's nemen vóór de sluiter toets wordt aangeraakt"</string>
+    <string name="sp_help_shot_mode_time_machine_5_picture_NORMAL">"Het nemen van vijf opeenvolgende foto's alvorens de sluitertoets wordt aangetikt."</string>
+    <string name="sp_shot_mode_clearshot_NORMAL">Duidelijke opname</string>
+    <string name="sp_shot_mode_shot_and_clear">Foto nemen &amp; wissen</string>
+    <string name="sp_scene_mode_action_NORMAL">Actie</string>
+    <string name="sp_shot_mode_beauty_NORMAL">Verfraaide foto</string>
+    <string name="sp_shot_mode_time_machine_NORMAL">Opname van de tijdmachine</string>
+    <string name="sp_shot_mode_live_desc_NORMAL">Nemen van screenshots tijdens video opname.</string>
+    <string name="sp_shot_mode_live_effect_desc_NORMAL">Veranderen van achtergronden en het toevoegen van vervormde gezichtseffecten tijdens de video opname.</string>
+    <string name="dual_camera">Duale camera</string>
+    <string name="sp_focus_infinity_NORMAL">Oneindig</string>
+    <string name="sp_high_temp_action_NORMAL">Verwijder de accu of ga naar een koelere plek.</string>
+    <string name="sp_high_temperature_detection_NORMAL">Warmtesensor ontdekte hoge temperatuur</string>
+    <string name="sp_attach_file_size_exceeded_NORMAL">Max. Bijlage bestandsgrootte overschreden</string>
+    <string name="sp_high_temp_action_on_enter_NORMAL">Warmtesensor ontdekte hoge temperatuur. Kan de camera niet opstarten.</string>
+    <string name="sp_high_temp_action_on_recording_NORMAL">Warmtesensor ontdekte hoge temperatuur. Video opname zal afsluiten.</string>
+    <string name="high_temp_action_on_recording">Kan geen video opnemen om een optimale temperatuur te handhaven. Probeer het later opnieuw.</string>
+    <string name="sp_warning_high_temperature_on_recording_NORMAL">Wees voorzichtig. Video opnemen tijdens opladen, verhoogt de temperatuur van uw apparaat</string>
+    <string name="warning_high_temp_action_flash_off">Flash is uitgeschakeld om een ​​optimale temperatuur te handhaven.</string>
+    <string name="sp_silly_face_title_NORMAL">Gekke gezichten</string>
+    <string name="sp_big_eyes_NORMAL">grote ogen</string>
+    <string name="sp_big_mouth_NORMAL">grote mond</string>
+    <string name="sp_squeeze_NORMAL">knijpen</string>
+    <string name="sp_big_nose_NORMAL">grote neus</string>
+    <string name="sp_small_eyes_NORMAL">kleine ogen</string>
+    <string name="sp_small_mouth_NORMAL">kleine mond</string>
+    <string name="sp_background_title_NORMAL">Wallpapers</string>
+    <string name="sp_in_space_NORMAL">In Space</string>
+    <string name="sp_sunset_NORMAL">Zonsondergang</string>
+    <string name="sp_choose_gallery_NORMAL">"Video's"</string>
+    <string name="sp_bg_replacement_message_NORMAL">"Plaats uw apparaat op een vaste plaats en verzeker u dat er geen beweging achter u is.
+
+Stap dan uit het camera zicht."</string>
+    <string name="sp_bg_replacement_message_v2_NORMAL">"Houd het apparaat stil en trilvrij om er zeker van te zijn dat er geen beweging is.
+Wanneer u klaar bent voor het opnemen van de video, laat het te filmen voorwerp het gezichtsveld ingaan."</string>
+    <string name="sp_pano_too_fast_prompt_NORMAL">Te snel</string>
+    <string name="sp_live_shot_NORMAL">Live-opname</string>
+    <string name="sp_live_effect_NORMAL">Live-effect</string>
+    <string name="dual_recording">Dual opnemen</string>
+    <string name="tracking_zoom">Traceerzoom</string>
+    <string name="anti_shaking">Anti-trillen</string>
+    <string name="sp_tracking_focus_NORMAL">Focus wordt gevolgd</string>
+    <string name="sp_video_recording_normalmode_NORMAL">Openemen met standaard video.</string>
+    <string name="sp_note_shot_mode_setting_change_NORMAL">Instellingen geoptimaliseerd voor %s modus</string>
+    <string name="sp_help_swap_camera_menu_desc_v2_NORMAL">Schakel tussen de voor- en achtercamera</string>
+    <string name="sp_help_light_frame_desc_v2_NORMAL">"Zet de flits aan om helderdere foto's te nemen met een kleiner voorbeeldvenster van de camera aan de voorkant."</string>
+    <string name="sp_help_zoom_desc_v2_NORMAL">In-/uitzoomen</string>
+    <string name="sp_help_brightness_desc_v2_NORMAL">Pas de belichtingstijd aan</string>
+    <string name="sp_help_flash_desc_v2_NORMAL">Stel de flash in</string>
+    <string name="sp_help_flash_auto_desc_v2_NORMAL">Zet de flash aan indien nodig</string>
+    <string name="sp_help_flash_off_desc_v2_NORMAL">Flash uit</string>
+    <string name="sp_help_flash_on_desc_v2_NORMAL">Flash aan</string>
+    <string name="sp_help_camera_settings_desc_v2_NORMAL">Past de camera-instellingen aan.</string>
+    <string name="sp_help_focus_desc_v2_NORMAL">Stel focus in</string>
+    <string name="sp_help_focus_auto_desc_v2_NORMAL">Standaard autofocus</string>
+    <string name="sp_help_focus_face_desc_v2_NORMAL">Detecteert en focust automatisch gezichten</string>
+    <string name="sp_help_image_size_menu_desc_v2_NORMAL">Stel de beeldgrootte in</string>
+    <string name="sp_help_scene_mode_menu_desc_v2_NORMAL">Kier voorkeur modus</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_v2_NORMAL">"Neem normale foto's"</string>
+    <string name="sp_help_scene_mode_menu_portrait_desc_v2_NORMAL">Neem mensen</string>
+    <string name="sp_help_scene_mode_menu_landscape_desc_v2_NORMAL">Neem natuur landschap</string>
+    <string name="sp_help_scene_mode_menu_sports_desc_v2_NORMAL">Neem snel-bewegende beelden zonder te vervagen.</string>
+    <string name="sp_help_scnen_mode_menu_sunset_desc_v2_NORMAL">"Neem foto's met verlichte achtergrond of zonsondergang"</string>
+    <string name="sp_help_scene_mode_menu_night_desc_v2_NORMAL">"Neem foto's in donkere omgeving"</string>
+    <string name="sp_help_iso_menu_desc_v2_NORMAL">"Verhoog de gevoeligheid bij het nemen van foto's bij lage belichting om onscherpte te beperken door de beweging van de camera of van het onderwerp"</string>
+    <string name="sp_help_withe_balance_desc_v2_NORMAL">Pas de kleurschakeringen aan die zijn ingesteld afhangende van de lichtbron.</string>
+    <string name="sp_help_white_balance_auto_desc_v2_NORMAL">Automatisch witbalans aanpassen naargelang de licht voorwaarden</string>
+    <string name="sp_help_withe_balance_incandescent_desc_v2_NORMAL">Gebruik bij gloeilamp</string>
+    <string name="sp_help_white_balance_sunny_desc_v2_NORMAL">Gebruik in zonlicht</string>
+    <string name="sp_help_white_balance_flourescent_desc_v2_NORMAL">Gebruik fluorescerend licht</string>
+    <string name="sp_help_white_balance_cloudy_desc_v2_NORMAL">Gebruik in schaduw of bij bewolking</string>
+    <string name="sp_help_withe_balance_incandescent_desc_camera_v2_NORMAL">Gebruik bij gloeilamp.</string>
+    <string name="sp_help_white_balance_sunny_desc_camera_v2_NORMAL">Gebruik in zonlicht.</string>
+    <string name="sp_help_white_balance_flourescent_desc_camera_v2_NORMAL">Gebruik fluorescerend licht.</string>
+    <string name="sp_help_white_balance_cloudy_desc_camera_v2_NORMAL">Gebruik in schaduw of bij bewolking.</string>
+    <string name="sp_help_color_effect_desc_v2_NORMAL">"Stel kleurfilter effect in tijdens het nemen van foto's"</string>
+    <string name="sp_help_color_effect_off_desc_v2_NORMAL">Geen kleur effect</string>
+    <string name="sp_help_color_effect_mono_desc_v2_NORMAL">"Neem wit-zwarte foto's"</string>
+    <string name="sp_help_color_effect_sepia_desc_v2_NORMAL">"Neem foto's in sepia kleur"</string>
+    <string name="sp_help_color_effect_negative_desc_v2_NORMAL">"Neem foto's met geïnverteerde kleuren."</string>
+    <string name="sp_help_timer_menu_desc_v2_NORMAL">Stel 3, 5 of 10 seconden wachten in voor het nemen van een foto</string>
+    <string name="sp_help_shot_mode_desc_v2_NORMAL">Zet verschillende trekken modus</string>
+    <string name="sp_help_shot_mode_normal_desc_v2_NORMAL">Normale modus</string>
+    <string name="sp_help_shot_mode_continuous_shot_desc_v2_NORMAL">"Neem 6 foto's in een snelle volgorde"</string>
+    <string name="sp_help_shot_mode_panorama_shot_desc_v2_NORMAL">"Neem verschillende horizontale foto's om op een enkel panorama beeld te brengen"</string>
+    <string name="sp_help_shutter_sound_menu_desc_v2_NORMAL">Stel geluidseffect in tijdens het nemen van een foto</string>
+    <string name="sp_help_show_captured_image_menu_desc_v2_NORMAL">Toon de foto onmiddellijk na het nemen.</string>
+    <string name="sp_help_geo_tagging_menu_desc_v2_NORMAL">Locatie-informatie waar de foto genomen is toevoegen aan de foto</string>
+    <string name="sp_help_storage_v2_NORMAL">Kies een opslag voor het opslaan van afbeeldingen.</string>
+    <string name="sp_help_storage_inner_v2_NORMAL">Sla de afbeelden op in het interne geheugen.</string>
+    <string name="sp_help_storage_sd_v2_NORMAL">Bestanden opslaan op de microSD</string>
+    <string name="sp_help_video_size_desc_v2_NORMAL">Stel de video bestandsgrootte in</string>
+    <string name="sp_help_video_color_effect_desc_v2_NORMAL">"Stel kleur filter effect aan tijdens het opnemen van video's"</string>
+    <string name="sp_help_video_color_effect_mono_desc_v2_NORMAL">"Neem zwart-wit video's op"</string>
+    <string name="sp_help_video_color_effect_sepia_desc_v2_NORMAL">"Neem sepia kleuren video's op"</string>
+    <string name="sp_help_video_color_effect_negative_desc_v2_NORMAL">"Neem video's met kleurinversie op"</string>
+    <string name="sp_help_video_shot_mode_live_shot_desc_v2_NORMAL">Neem een screenshot tijdens het opnemen van een video</string>
+    <string name="sp_help_video_shot_mode_live_effect_desc_v2_NORMAL">Verander achtergrond en geef amorfe effecten om de gezichten te transformeren tijdens het opnemen van een video</string>
+    <string name="sp_help_video_voice_desc_v2_NORMAL">Zet geluid op tijden het opnemen van een video</string>
+    <string name="sp_help_video_voice_unmute_desc_v2_NORMAL">"Neem video's met geluid op"</string>
+    <string name="sp_help_video_voice_mute_desc_v2_NORMAL">"Neem video's zonder geluid op"</string>
+    <string name="sp_help_video_show_desc_v2_NORMAL">Toon de video onmiddellijk na het opnemen</string>
+    <string name="sp_help_video_geo_tagging_menu_desc_v2_NORMAL">Voeg de locatie informatie toe van waar de video is opgenomen</string>
+    <string name="sp_help_videostorage_v2_NORMAL">"Kies een opslag voor het opslaan van video's."</string>
+    <string name="sp_help_videostorage_in_v2_NORMAL">"Video's opslaan in het interne geheugen."</string>
+    <string name="sp_help_videostorage_sd_v2_NORMAL">Bestanden opslaan op de microSD</string>
+    <string name="sp_help_shot_mode_beauty_desc_v2_NORMAL">"Neem foto's met heldere en wazige effecten."</string>
+    <string name="sp_help_flipped_img_desc_NORMAL">Bewaar gedraaide beeld verticaal</string>
+    <string name="sp_help_normal_img_desc_NORMAL_NORMAL">Bewaar normaal beeld</string>
+    <string name="sp_help_camera_reset_desc_v3_NORMAL">Camera instelling naar standaard waarde resetten</string>
+    <string name="sp_help_flipped_img_desc_v3_NORMAL">Bewaar foto als omgedraaid</string>
+    <string name="sp_help_video_reset_desc_v3_NORMAL">Reset video instellingen naar de standaard waarde</string>
+    <string name="sp_deleted_images_NORMAL">"Gekozen foto's worden verwijderd. Doorgaan?"</string>
+    <string name="sp_deleted_photos_NORMAL">"Gekozen foto's worden verwijderd. Doorgaan?"</string>
+    <string name="sp_help_guide_beauty_shot_desc_NORMAL">Beauty shot past zowel helderheid als onscherpte effect aan met de controle balk onderaan.</string>
+    <string name="sp_help_guide_beauty_shot_desc_list">Beauty shot past zowel helderheid als onscherpte effect aan met de controle balk onderaan.</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL">"Er worden 6 foto's direct achter elkaar genomen. Om makkelijk een foto te kunnen selecteren, zet \"Auto Review\" aan."</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL_v2">"Er worden 6 foto's direct achter elkaar genomen. "</string>
+    <string name="sp_help_guide_hdr_desc_NORMAL">HDR maakt de beelden reëler door verschillende belichtingstechnologieën.</string>
+    <string name="sp_help_guide_hdr_desc_list">HDR maakt de beelden reëler door verschillende belichtingstechnologieën.</string>
+    <string name="sp_help_guide_live_effect_desc_NORMAL">Levend effect voorzit verschillende visuele effecten tijdens een video opname. Kies een effect, en begin op te nemen.</string>
+    <string name="sp_help_guide_panorama_shot_desc_NORMAL">"Meerdere foto's worden samengevoegd tot één enkel panoramabeeld.
+Druk op de fotoknop en beweeg de camera voorzichtig van kant tot kant."</string>
+    <string name="sp_help_guide_free_panorama_shot_desc_NORMAL">"Continue foto's zijn samengebracht in één sferisch 360º panoramisch beeld.
+Druk de sluiter om te starten en pan the camera in de gewenste richting."</string>
+    <string name="sp_help_guide_time_machine_desc_NORMAL">"Camera Trekt verscheidene foto's een seconde voor het drukke op de de sluiter. 
+U kan de gekozen beelden onmiddellijk bewaren en delen (met \"auto review aan\")."</string>
+    <string name="sp_help_guide_time_machine_desc_new_NORMAL">"Controleer de scènes die u hebt gemist voordat u de foto's nam en sla de beste op."</string>
+    <string name="sp_help_guide_time_machine_desc_new_vzw_NORMAL">Vang de momenten voordat u op de sluiterknop drukt.</string>
+    <string name="sp_help_popup_guide_time_machine_desc_new_NORMAL">Time Catch legt de momenten vast voordat u op de sluiter drukt.</string>
+    <string name="sp_help_guide_time_machine_new_desc_NORMAL">"Camera Trekt verscheidene foto's een seconde voor het drukke op de de sluiter. Enkel de gekozen foto's zullen bewaard worden."</string>
+    <string name="sp_image_SHORT">Afbeelding</string>
+    <string name="sp_will_be_deleted_NORMAL">%1$s worden gewist. Doorgaan?</string>
+    <string name="sp_photo_will_be_deleted_NORMAL">De foto zal worden verwijderd. Doorgaan?</string>
+    <string name="sp_video_will_be_deleted_NORMAL">Video wordt verwijderd. Doorgaan?</string>
+    <string name="sp_gps_settings_title_NORMAL">Locatieservice uitgeschakeld</string>
+    <string name="sp_gps_setting_msg_NORMAL">Locatieservices inschakelen voor gebruik van geotagging.</string>
+    <string name="sp_geotagging_NORMAL">Geotaggen</string>
+    <string name="sp_enable_app_msg_NORMAL">%s zou moeten aan staan voor het gebruik van deze functie. Applicatie inschakelen?</string>
+    <string name="sp_photoimage_SHORT">Foto</string>
+    <string name="sp_note_dialog_title_NORMAL">Notitie</string>
+    <string name="sp_saved_NORMAL">Opgeslagen</string>
+    <string name="sp_front_NORMAL">Voorzijde</string>
+    <string name="sp_rear_NORMAL">Achterzijde</string>
+    <string name="sp_timemachine_delete_warning_NORMAL">"U zal de foto's die niet bewaard werden verliezen. Doorgaan?"</string>
+    <string name="sp_timemachine_bubble_popup_NORMAL">Om de gemiste momenten weer te geven, druk deze knop.</string>
+    <string name="sp_timemachine_select_NORMAL">"Controleer de foto's die u wilt behouden"</string>
+    <string name="sp_timemachine_select_new_NORMAL">"Selecteer de foto's die u wilt behouden"</string>
+    <string name="sp_timemachine_save_guide">"Selecteer de foto's die u wilt behouden en druk op de knop opslaan."</string>
+    <string name="sp_shot_mode_time_catch_NORMAL">Time catch</string>
+    <string name="sp_help_guide_time_catch_desc_NORMAL">"Time Catch neemt al foto's nog voor u de sluiter volledig heeft ingedrukt."</string>
+    <string name="sp_help_guide_time_catch_new_desc_NORMAL">"Time Catch neemt al foto's nog voor u de sluiter volledig heeft ingedrukt. Enkel de gekozen foto's zullen bewaard worden."</string>
+    <string name="sp_timemachine_bubble_popup_jp_NORMAL">"Om de foto's 1 seconde voor het tijdstip van de sluitervertraging weer te geven, druk op deze knop."</string>
+    <string name="sp_force_close_on_high_temperature_NORMAL">De camera wordt afgesloten wegens een te hoge temperatuur.</string>
+    <string name="sp_screen_cannot_be_captured_NORMAL">Huidig scherm kan niet worden opgenomen</string>
+    <string name="sp_voice_shutter_help_desc">"Foto's gemaakt met gebruik van spraakopdracht"</string>
+    <string name="sp_clear_shot_tab_guide">Tik op een van de gemarkeerde objecten om deze uit de foto te verwijderen.</string>
+    <string name="sp_clear_shot_tab_guide_v2">Tik het omrande object om te verwijderen en druk op de knop Opslaan.</string>
+    <string name="sp_clear_shot_not_found_object">Er is geen object om te verwijderen</string>
+    <string name="sp_clear_shot_warning_popup">U zult de foto verliezen, omdat de verwerking niet is opgeslagen. Doorgaan?</string>
+    <string name="sp_clear_shot_warning_handshake">Houd de telefoon stil</string>
+    <string name="sp_clear_shot_capture_failed">Mislukt</string>
+    <string name="intelligent_auto">Auto Intelligent</string>
+    <string name="sp_anti_shaking_help_desc">Voorkom schudden tijdens video-opnamen om een hoge videokwaliteit te verkrijgen.</string>
+    <string name="sp_photo_has_not_yet_been_saved_warning_popup">Foto is nog niet opgeslagen. Afsluiten zonder opslaan?</string>
+    <string name="sp_wdr_recording_help_desc">Maak een opname met verschillende belichtingsinstellingen en een optimale achterbelichting aangepaste video met verbeterde meervoudige belichtingscontrole.</string>
+    <string name="sp_wdr_recording_help_desc_list">Maak een opname met verschillende belichtingsinstellingen en een optimale achterbelichting aangepaste video met verbeterde meervoudige belichtingscontrole.</string>
+    <string name="sp_burst_shot_help_desc">"Neem snel maximaal 20 foto's op door te drukken op de sluiterknop."</string>
+    <string name="sp_burst_shot_help_desc_list">"Neem snel maximaal 20 foto's op door te drukken op de sluiterknop."</string>
+    <string name="sp_clear_shot_help_desc">Maak een foto. Tik op een van de gemarkeerde objecten om deze uit de foto te verwijderen.</string>
+    <string name="sp_intelligent_auto_help_desc">Identificeert automatisch de kenmerken van de scène en neemt een foto.</string>
+    <string name="sp_intelligent_auto_help_desc_popup">Identificeert automatisch de scène kenmerken en past het diafragma, sluitertijd en opties aan om een foto te nemen.</string>
+    <string name="sp_tracking_focus_help_desc">Tik op het onderwerp in het voorbeeldscherm om het te volgen en de focus te verfijnen.</string>
+    <string name="sp_dual_recording_help_desc">"Voeg de voor- en achter-camera's samen in een scherm voor opname."</string>
+    <string name="sp_dual_recording_help_desc_v2">"1. Sleep het kleine scherm om te verplaatsen.
+2. Tik en houd het kleine scherm vast om het formaat aan te passen.
+3. Tik op een klein scherm om naar een een groot scherm over te gaan."</string>
+    <string name="sp_audio_zoom_help_desc_in_recording">Knijp ter verbetering van het zoemgeluid</string>
+    <string name="sp_audio_zoom_help_desc">Verhoging van geluidsgevoeligheid in het in te zoomen gebied en verlaging van ruis tijdens het opnemen.</string>
+    <string name="sp_audio_zoom_help_desc_v2">Zoom in op een bepaald gebied om de geluidsgevoeligheid te verhogen en lawaai te verlagen. Alleen beschikbaar in de liggende stand. Houd de microfoons vrij als u deze functie gebruikt.</string>
+    <string name="sp_live_effect_help_desc">Breng verschillende visuele effecten aan bij het opnemen van een video.</string>
+    <string name="sp_vrpanorama_help_desc">"Neem foto's achter elkaar om een ruimtelijk beeld te creëren."</string>
+    <string name="sp_vrpanorama_help_desc_v2">"1. Druk op de sluiterknop om de VR-panorama te starten.
+2. Pas het focusgebied aan op de blauwe hulplijn om de foto te nemen.
+3. Beweeg de camera om de focus op andere gebieden te richten en foto's te nemen. De foto's worden in één beeld samengevoegd."</string>
+    <string name="sp_dual_camera_help_desc">"Voeg de voor- en achter-camera's samen in een scherm voor opname."</string>
+    <string name="sp_smart_zoom_help_desc">Geconcentreerd gebied vergroten in een klein scherm bij het nemen van een video.</string>
+    <string name="sp_smart_zoom_help_desc_v2">"1. Gebruik het vergrootglas om bepaalde gebieden van de video te vergroten.
+2. Het kleine scherm geeft de gedefinieerde focus weer in grote weergave. Om het te verplaatsen, raakt u het aan en houdt u het vast."</string>
+    <string name="sp_intelligent_auto_mode_NORMAL">Intelligente Automatische cameramodus.</string>
+    <string name="sp_normal_camera_mode_NORMAL">Normale cameramodus.</string>
+    <string name="sp_center_NORMAL">Midden</string>
+    <string name="sp_border_NORMAL">Marge</string>
+    <string name="sp_3d_depth_NORMAL">3D-diepte</string>
+    <string name="sp_popup_change_view_to_landscape_for_3d_NORMAL">Verander uw beeld naar landschapsmodus voor optimaal 3D effect.</string>
+    <string name="sp_entering_guide_NORMAL">"Om sneltoetsen te bewerken,
+Druk het icoon lang in."</string>
+    <string name="sp_entering_clean_guide_NORMAL">"Probeer de lens van de camera schoon te houden voor betere foto's"</string>
+    <string name="sp_entering_gallery_guide_NORMAL">"Voor een snelle controle van de genomen foto,
+klikt u op de de galerie icoon en houdt deze ingedrukt. "</string>
+    <string name="entering_guide_att">Druk een icoon in en houd deze ingedrukt om snelkoppelingen te bewerken.</string>
+    <string name="sp_entering_gallery_guide_vzw">"Voor een snelle controle van de genomen foto,
+klikt u op de de galerie icoon en houdt deze ingedrukt. "</string>
+    <string name="entering_guide_vzw">Druk een icoon in en houd deze ingedrukt om snelkoppelingen te bewerken.</string>
+    <string name="portrait_plus">Portret +</string>
+    <string name="help_guide_portrait_plus_shot_desc">Portrait + geeft het gelaat een zachtere en helderdere weergave.</string>
+    <string name="edit_quick_menu">Bewerk quick menu</string>
+    <string name="error_occurred">Er is een fout opgetreden</string>
+    <string name="sp_info_empty_SHORT">Leeg</string>
+    <string name="accessibility_exit_edit_menu">Menu bewerken afsluiten</string>
+    <string name="accessibility_shutter_button">Sluiter</string>
+    <string name="accessibility_review_thumbnail">Meest recente foto of video</string>
+    <string name="accessibility_camera_picker">Camera en Camcorder verwisselen</string>
+    <string name="accessibility_beautyshot_bar">Regelingsbalk schoonheidsopname</string>
+    <string name="accessibility_beautyshot_control">Regelaar schoonheidsopname</string>
+    <string name="accessibility_beautyshot_button">Regelingsknop schoonheidsopname</string>
+    <string name="accessibility_brightness_bar">Helderheidsregelingsbalk</string>
+    <string name="accessibility_brightness_control">Helderheidsregelaar</string>
+    <string name="accessibility_brightness_button">Helderheidstoets</string>
+    <string name="accessibility_manual_focus_bar">Handmatige focusregelaarbalk</string>
+    <string name="accessibility_manual_focus_button">Handmatige focusregelaar</string>
+    <string name="accessibility_zoom_bar">Inzoomcontolebalk</string>
+    <string name="accessibility_zoom_control">Zoom-regelaar</string>
+    <string name="accessibility_zoom_button">Inzoomknop</string>
+    <string name="accessiblity_free_panorama_retake">Opn. maken</string>
+    <string name="accessiblity_start_recording">Opnemen starten</string>
+    <string name="accessiblity_stop_recording">Opnemen stoppen</string>
+    <string name="accessiblity_pause_recording">Opname pauzeren</string>
+    <string name="camera_accessibility_stop_button">Stoppen</string>
+    <string name="free_panorama_bubble_popup">Voor een weergave van een foto in 360º zicht, raak het scherm aan.</string>
+    <string name="error_panorama_during_taking">Gestopt met een panorama-opname voor camerapositionering. Foto wordt opgeslagen in de Galerij.</string>
+    <string name="sp_date_stamp">Datum stempel</string>
+    <string name="audio_zoom_warning">Audio zoom wordt enkel geactiveerd in liggende stand.</string>
+    <string name="audio_zoom_disabled">Audio zoom uitgeschakeld</string>
+    <string name="unable_to_use_qmemo">Kan geen gebruik maken van %s</string>
+    <string name="sp_open_quick_camera_case">Open de Quick Camera Case</string>
+    <string name="message_received">Nieuw bericht ontvangen</string>
+    <string name="pd_message_processing">Gegevens verwerken…</string>
+    <string name="not_available_during_remote_care">Niet beschikbaar tijdens Remote Care</string>
+    <string name="dual_camera_effect_menu_none">Geen</string>
+    <string name="dual_camera_effect_menu_stamp">Stempel</string>
+    <string name="dual_camera_effect_menu_ovalblur">Ovale vervaging</string>
+    <string name="dual_camera_effect_menu_heart">Hartvormig</string>
+    <string name="dual_camera_effect_menu_star">Stervorm</string>
+    <string name="dual_camera_effect_menu_window">Vensters</string>
+    <string name="dual_camera_effect_menu_fisheye">Visooglens</string>
+    <string name="dual_camera_effect_menu_cubism">Kubiek</string>
+    <string name="dual_camera_effect_menu_splitview1">Gedeeld zicht 1</string>
+    <string name="dual_camera_effect_menu_splitview2">Gedeeld zicht 2</string>
+    <string name="smart_zoom_object_tracking_focus_mode">Tracking scherpstellingsmodus</string>
+    <string name="smart_zoom_manual_focus_mode">Normale scherpstelmodus</string>
+    <string name="sp_shot_mode_new_hdr">Dynamische toon (HDR)</string>
+    <string name="sp_help_guide_new_hdr_desc_list">"Combineert foto's maken met meerdere belichtingen in één optimale foto om een beter resultaat te krijgen bij moeilijke lichtomstandigheden."</string>
+    <string name="accessiblity_mode_button">Modus</string>
+    <string name="accessiblity_change_view_list_button">Lijstweergave</string>
+    <string name="accessiblity_change_view_grid_button">Rasterweergave</string>
+    <string name="accessiblity_default_auto_button">Normaal</string>
+    <string name="mode_menu_camera_normal">"Foto nemen in normale cameramodus "</string>
+    <string name="mode_menu_video_normal">Video opnemen in de normale opnamemodus</string>
+    <string name="mode_menu_video_tracking_zoom">"Tracking zoom stelt u in staat een focusgebied te selecteren en dat te vergroten. Bekijk het op het kleine scherm en maak een video. "</string>
+    <string name="camera_quick_button_index_mode">Modus</string>
+    <string name="panorama_guide_tap_shutter_to_start">Druk op de sluiterknop om te starten.</string>
+    <string name="panorama_guide_move_in_one_direction">Verplaats in één richting</string>
+    <string name="panorama_guide_tap_to_finish">Tik op de stopknop om te beëindigen</string>
+    <string name="sp_down_NORMAL">Omlaag</string>
+    <string name="sp_up_NORMAL">Omhoog</string>
+    <string name="sp_right_NORMAL">Rechts</string>
+    <string name="sp_left_NORMAL">links</string>
+    <string name="volume_key">Volumetoets</string>
+    <string name="volume_key_capture_image">Vastleggen</string>
+    <string name="volume_key_zoom_only">Zoom activeert alleen in achterste camera.</string>
+    <string name="volume_key_zoom_disable">"Zoomen wordt  in deze modus niet ondersteund."</string>
+    <string name="volume_key_zoom_disable_resolution">Zoom niet ondersteund voor deze resolutie.</string>
+    <string name="help_scene_mode_menu_night_desc_new">"Foto's in donkere gebieden vastleggen zonder flits."</string>
+    <string name="sp_confirm_NORMAL">Bevestigen</string>
+    <string name="sp_dialog_change_setting">Wijzig Inschakelen in Uitschakelen</string>
+    <string name="sp_dialog_change_setting_au_cloud">Annuleer \"Deactiveren\" van au-toepassing .</string>
+    <string name="sp_auto_upload_NORMAL">Automatische upload</string>
+    <string name="sp_new_ux_help_guide_title_clear_shot">Shot&amp;Clear handleiding</string>
+    <string name="sp_new_ux_help_guide_title_hdr">Dynamische belichting (HDR) handleiding</string>
+    <string name="sp_new_ux_help_guide_title_panorama">Panoramagids</string>
+    <string name="sp_new_ux_help_guide_title_vr_panorama">VR-panorama handleiding</string>
+    <string name="sp_new_ux_help_guide_title_burst_shot">Burst-opname handleiding</string>
+    <string name="sp_new_ux_help_guide_title_beauty_shot">Beauty Shot handleiding</string>
+    <string name="sp_new_ux_help_guide_title_portrait_plus">Portret + Handleiding</string>
+    <string name="sp_new_ux_help_guide_title_dual_camera">Duale camera handleiding</string>
+    <string name="sp_new_ux_help_guide_title_time_machine_camera">Time Machine camera handleiding</string>
+    <string name="sp_new_ux_help_guide_title_time_catch_shot">Time Catch handleiding</string>
+    <string name="sp_new_ux_help_guide_title_intelligent_auto">Intelligente automatische gids</string>
+    <string name="sp_new_ux_help_guide_title_sports">Sportgids</string>
+    <string name="sp_new_ux_help_guide_title_night">Nachtgids</string>
+    <string name="sp_new_ux_help_guide_title_dual_recording">Duale opname handleiding</string>
+    <string name="sp_new_ux_help_guide_title_live_effect">Live effect handleiding</string>
+    <string name="sp_new_ux_help_guide_title_continuous_shot">Doorlopende opname handleiding</string>
+    <string name="sp_new_ux_help_guide_title_hdr_recording">HDR-opname handleiding</string>
+    <string name="sp_new_ux_help_guide_title_wdr_recording">WDR-opnamegids</string>
+    <string name="sp_new_ux_help_guide_title_voice_shutter">Cheese shutter handleiding</string>
+    <string name="sp_new_ux_help_guide_title_cheese_shutter">Cheese Shutter handleiding</string>
+    <string name="sp_new_ux_help_guide_title_uplus_box">Gids U+ Box automatisch opslaan</string>
+    <string name="sp_new_ux_help_guide_title_audio_zoom">Audiozoomgids</string>
+    <string name="sp_new_ux_help_guide_title_tracking_zoom">Tracking Zoom handleiding</string>
+    <string name="sp_new_ux_help_guide_desc_clear_shot">"1. Neem de foto.
+2. Tik op een omrand object om deze uit de foto te verwijderen.
+3. Druk op de knop Opslaan om op te slaan. "</string>
+    <string name="sp_new_ux_help_guide_desc_hdr">"HDR combineert foto's genomen met verschillende belichtingen tot een optimale foto. Tegenlicht wordt gecomponseerdt door het versterken van de meervoudige belichting."</string>
+    <string name="sp_new_ux_help_guide_desc_panorama">"1. Druk op de sluiterknop om te starten.
+2. Draai uw telefoon langzaam naar één richting.
+3. Pas het scherpstellingsgebied aan op de blauwe afstellijn de om foto te nemen.
+4. Druk op de stopknop als u klaar bent."</string>
+    <string name="sp_new_ux_help_guide_desc_plane_panorama">"1. Druk op de sluiterknop om te starten.
+2. Draai uw telefoon langzaam naar één richting.
+3. Pas het scherpstellingsgebied aan op de blauwe afstellijn de om foto te nemen.
+4. Druk op de stopknop als u klaar bent."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama">"1. Druk op de sluiterknop om de VR-panorama te starten.
+2. Pas het focusgebied aan op de blauwe hulplijn om de foto te nemen.
+3. Beweeg de camera om de focus op andere gebieden te richten en foto's te nemen. De foto's worden in één beeld samengevoegd."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new">"1. Tik op de sluiterknop om VR-panoramamodus te starten.
+2. Pas het scherpstelgebied aan op blauwe geleidelijn om een foto te maken.
+3. Verplaats de camera om een ander scherpstelgebied te vangen en om foto's te maken.
+De foto's worden samengebracht in één beeld.
+Bij het maken van VR-panoramafoto's, moet u niet te dichtbij het onderwerp gaan staan en moet u een gepaste afstand aanhouden."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new_specified">"1. Tik op de sluiterknop om VR-panoramamodus te starten.
+2. Pas het scherpstelgebied aan op blauwe lijnen om een foto te maken.
+3. Verplaats de camera om een ander scherpstelgebied te vangen en om foto's te maken.
+De foto's worden samengebracht in één beeld.
+Bij het maken van VR-panoramafoto's, moet u niet te dichtbij het onderwerp gaan staan en moet u een gepaste afstand aanhouden. (16 ft of 5 m)."</string>
+    <string name="sp_new_ux_help_guide_desc_light_frame">"Neem helderdere foto's met een kleiner voorbeeldvenster met de camera aan de voorkant."</string>
+    <string name="sp_new_ux_help_guide_desc_burst_shot">"Neem snel maximaal 20 foto's op door te drukken op de sluiterknop."</string>
+    <string name="sp_new_ux_help_guide_desc_beauty_shot">Beauty Shot maakt de huid er helderder en gladder.</string>
+    <string name="sp_new_ux_help_guide_desc_time_machine_camera">"1. Neem de foto om de TimeMachine-camera te starten.
+2. Druk op de galerijknop om de ontbrekende momenten na te kijken.
+3. Selecteer de foto's die u wilt bewaren.
+4. Druk op de knop Opslaan."</string>
+    <string name="sp_new_ux_help_guide_desc_time_catch_shot">"1. Neem de foto om te starten met de Time Catch opname.
+2. Druk op de galerijknop om de ontbrekende momenten na te kijken.
+3. Selecteer de foto's die u wilt bewaren.
+4. Druk op de knop Opslaan."</string>
+    <string name="sp_new_ux_help_guide_desc_intelligent_auto">Identificeert automatisch de kenmerken van de scène en neemt een foto.</string>
+    <string name="sp_new_ux_help_guide_desc_dual_recording">"1. Sleep het kleine scherm om te verplaatsen.
+2. Tik en houd het kleine scherm vast om het formaat aan te passen.
+3. Tik op een klein scherm om naar een een groot scherm over te gaan."</string>
+    <string name="sp_new_ux_help_guide_desc_live_effect">"1. Selecteer het effect dat u wilt gebruiken.
+2. Druk op de opnameknop en start de opname. "</string>
+    <string name="sp_new_ux_help_guide_desc_hdr_recording">HDR-opname verbetert uw video door controle meervoudige belichting.</string>
+    <string name="sp_new_ux_help_guide_desc_wdr_recording">De WDR-opname verbetert uw video door meervoudige belichtingscontrole.</string>
+    <string name="sp_uhd_heat_warning">Opnemen in UHD is maximaal 5 minuten beschikbaar om de aanbevolen temperatuur te handhaven. Video-opname wordt gestopt.</string>
+    <string name="sp_help_guide_title_face_tracking_led">Face Tracking handleiding</string>
+    <string name="sp_help_guide_face_tracking_led">"De notificatie LED knippert wanneer er een gezicht wordt gedetecteerd.
+U kunt de instelling veranderen in Instellingen> Weergave > Notificatie LED. "</string>
+    <string name="dialog_alert_title">Melding</string>
+    <string name="camera_accessibility_indicator_message_remaining">Nieuwe SMS</string>
+    <string name="camera_accessibility_indicator_mms_remaining">Nieuw beeldbericht</string>
+    <string name="camera_accessibility_indicator_voice_mail_remaining">Nieuw voicemailbericht</string>
+    <string name="camera_accessibility_indicator_gps_connecting">Geotagging wordt aangezet</string>
+    <string name="camera_accessibility_indicator_geotagging_on">Geotagging aangezet</string>
+    <string name="camera_accessibility_indicator_remaining_picture_count">"Er kunnen %s meer foto's worden genomen."</string>
+    <string name="camera_accessibility_indicator_battery">Batterij op %s procent</string>
+    <string name="camera_accessibility_indicator_storage">Opslaan in %s</string>
+    <string name="camera_accessibility_indicator_voice_shutter_on">%s ingeschakeld</string>
+    <string name="camera_accessibility_indicator_anti_shaking_on">Anti-trillen ingeschakeld</string>
+    <string name="camera_accessibility_thumbnail">Ga naar galerij</string>
+    <string name="not_available_during_incoming_call">Niet beschikbaar tijdens een gesprek</string>
+    <string name="camera_error_occurred_try_again">Camera is niet beschikbaar door een tijdelijk probleem. Probeer opnieuw.</string>
+    <string name="mode_menu_camera_refocus_new">Kies uw scherpstelling nogmaals na het nemen van een foto.</string>
+    <string name="sp_refocus_bubble_popup_NORMAL">Om deze foto opnieuw scherp te stellen, tikt u hier.</string>
+    <string name="sp_postview_action_bar_menu_all_in_focus">Alles scherpgesteld</string>
+    <string name="sp_refocus_preview_guide_message">Kom dichtbij uw object en houd de telefoon stil terwijl u een foto neemt.</string>
+    <string name="shot_mode_magic_focus">Magische autofocus</string>
+    <string name="sp_new_ux_help_guide_title_refocus">Magic focus gids</string>
+    <string name="sp_camera_refocus_postview_allinfocus_message">Alle delen van uw foto zijn scherpgesteld</string>
+    <string name="sp_new_ux_help_guide_desc_refocus_new">"1. Maak een foto en tik op de Gallerij-knop.
+2. Om de scherpstelling te veranderen, tik op een object of pas de schakelaar aan.
+3. Tik op de knop Opslaan om de opnieuw scherpgestelde foto op te slaan."</string>
+    <string name="sp_refocus_postview_message_new">Tik op een object of pas de handelaar aan om de scherpstelling te wijzigen, tik vervolgens op (#1#) in de rechterbovenhoek</string>
+    <string name="sp_refocus_postview_message_vzw_new">Tik op een object of pas de handelaar aan om de scherpstelling te wijzigen, tik vervolgens op de knop Opslaan in de rechterbovenhoek</string>
+    <string name="sp_refocus_warning_popup">Scherpstelling niet gewijzigd. Afsluiten?</string>
+    <string name="gesture_guide">Sluit uw vingers om een foto te nemen</string>
+    <string name="sp_gesture_guide_msg_fist">Laat eerst los om foto te maken</string>
+    <string name="camera_help_activity_gesture_shot">Gebaaropname</string>
+    <string name="sp_help_gestureshot_desc">Neem selfies met een handgebaar.</string>
+    <string name="sp_new_ux_help_guide_title_gestureshot">Handleiding voor gebarenopname</string>
+    <string name="sp_new_ux_gesture_shot_help_activity_desc">Zelfportretten maken met handgebaar. Om een foto te maken, brengt u uw hand omhoog totdat de voorcamera het detecteert en een vakje wordt weergegeven op het scherm. Maak vervolgens een vuist om een foto te maken.</string>
+</resources>

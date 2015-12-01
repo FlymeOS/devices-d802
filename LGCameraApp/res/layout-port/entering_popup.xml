@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/entering_popup" android:focusableInTouchMode="true" android:visibility="visible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onEnteringViewClick" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/backcover" android:background="#bf000000" android:layout_width="@dimen/lcd_height" android:layout_height="@dimen/lcd_width" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/entering_guide_circles" android:layout_width="fill_parent" android:layout_height="@dimen/quickfunction_layout.width" android:layoutDirection="ltr">
+        <com.lge.camera.components.RotateLayout android:id="@id/entering_guide_circle1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/osd_btn1.marginTop" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/entering_guide_circle_image1" android:background="@drawable/customization_guide_circle" android:layout_width="@dimen/osd_btn1.height" android:layout_height="@dimen/osd_btn1.width" />
+        </com.lge.camera.components.RotateLayout>
+        <com.lge.camera.components.RotateLayout android:id="@id/entering_guide_circle2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/osd_btn2.marginTop" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/entering_guide_circle_image2" android:background="@drawable/customization_guide_circle" android:layout_width="@dimen/osd_btn2.height" android:layout_height="@dimen/osd_btn2.width" />
+        </com.lge.camera.components.RotateLayout>
+        <com.lge.camera.components.RotateLayout android:id="@id/entering_guide_circle3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/osd_btn3.marginTop" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/entering_guide_circle_image3" android:background="@drawable/customization_guide_circle" android:layout_width="@dimen/osd_btn3.height" android:layout_height="@dimen/osd_btn3.width" />
+        </com.lge.camera.components.RotateLayout>
+        <com.lge.camera.components.RotateLayout android:id="@id/entering_guide_circle4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/osd_btn4.marginTop" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/entering_guide_circle_image4" android:background="@drawable/customization_guide_circle" android:layout_width="@dimen/osd_btn4.height" android:layout_height="@dimen/osd_btn4.width" />
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/entering_guide_circle_vzw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/quickfunction_layout.width" android:layoutDirection="ltr">
+        <ImageView android:id="@id/entering_guide_circle_image_vzw" android:background="@drawable/customization_guide_circle_one" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <com.lge.camera.components.RotateLayout android:id="@id/entering_guide_hand" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/entering_guide_hand.marginLeft" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/entering_guide_hand.marginTop" android:layout_alignParentEnd="true">
+        <ImageView android:background="@drawable/customization_guide_hand" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.lge.camera.components.RotateLayout>
+    <com.lge.camera.components.RotateLayout android:id="@id/entering_guide_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/entering_guide_arrow.marginLeft" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/entering_guide_arrow.marginTop" android:layout_alignParentEnd="true">
+        <ImageView android:background="@drawable/customization_guide_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.lge.camera.components.RotateLayout>
+    <com.lge.camera.components.RotateLayout android:id="@id/entering_guide_text_view" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/entering_guide_text_view.marginLeft" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/entering_guide_text_view.marginTop" android:layout_alignParentEnd="true">
+        <TextView android:id="@id/entering_guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/entering_guide_att" style="@style/customization_guide_info" />
+    </com.lge.camera.components.RotateLayout>
+    <RelativeLayout android:id="@id/entering_guide_gallery_sub" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/entering_guide_gallery" android:layout_width="fill_parent" android:layout_height="@dimen/preview_panel.width" android:layout_marginBottom="@dimen/preview_panel.marginBottom" android:layout_alignParentBottom="true" android:layoutDirection="ltr" android:layout_alignParentEnd="true">
+            <ImageView android:background="@drawable/customization_border_picture" android:layout_width="@dimen/review_thumbnail.height" android:layout_height="@dimen/review_thumbnail.width" android:layout_centerVertical="true" android:layout_marginStart="@dimen/review_thumbnail.marginLeft" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.lge.camera.components.RotateLayout android:id="@id/entering_guide_arrow_gallery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/entering_guide_arrow_gallery.marginTop" android:layout_alignParentEnd="true">
+        <ImageView android:background="@drawable/customization_guide_arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.lge.camera.components.RotateLayout>
+    <com.lge.camera.components.RotateLayout android:id="@id/entering_guide_hand_gallery" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/entering_guide_hand_gallery.marginRight" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/entering_guide_hand_gallery.marginTop" android:layout_alignParentEnd="true">
+        <ImageView android:background="@drawable/customization_guide_hand_right" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.lge.camera.components.RotateLayout>
+    <com.lge.camera.components.RotateLayout android:id="@id/entering_guide_text_view_gallery" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/entering_guide_text_view_gallery.marginTop" android:layout_alignParentEnd="true">
+        <TextView android:gravity="bottom" android:id="@id/entering_guide_text_gallery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_entering_gallery_guide_NORMAL" style="@style/customization_guide_info" />
+    </com.lge.camera.components.RotateLayout>
+    <com.lge.camera.components.RotateLayout android:id="@id/entering_guide_clean_text_view" android:focusableInTouchMode="true" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/lcd_height" android:layout_centerVertical="true" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/entering_guide_clean_text_view.marginTop" android:layout_alignParentEnd="true">
+        <TextView android:id="@id/entering_guide_clean_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_entering_clean_guide_NORMAL" style="@style/customization_guide_info" />
+    </com.lge.camera.components.RotateLayout>
+    <com.lge.camera.components.RotateLayout android:id="@id/entering_guide_close_button_View" android:focusableInTouchMode="true" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/entering_guide_button.marginTop" android:layout_alignParentEnd="true">
+        <Button android:id="@id/botton_do_not_show_again" android:background="@drawable/ripple_command_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/entering_guide_botton.width" android:minHeight="@dimen/entering_guide_botton.height" android:text="@string/sp_eula_popup_do_not_show_this_again_NORMAL" android:onClick="onEnteringDoNotShow" android:layoutDirection="ltr" style="@style/camera_command_btn_normal" />
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

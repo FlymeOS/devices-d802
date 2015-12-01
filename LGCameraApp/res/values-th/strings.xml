@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">กล้องถ่ายรูป</string>
+    <string name="sp_ok_NORMAL">ตกลง</string>
+    <string name="sp_lowbattery_MLINE">แบตเตอรี่่ต่ำจนไม่สามารถใช้กล้องได้ โปรดชาร์ทโทรศัพท์</string>
+    <string name="sp_lowbattery">แบตเตอรี่เหลือน้อยเกินไป ไม่สามารถใช้กล้องได้</string>
+    <string name="setting_init">การตั้งค่าทั้งหมดจะถูกรีเซ็ตเป็นค่าเริ่มต้น ทำต่อ?</string>
+    <string name="sp_reset_message_NORMAL">รีเซ็ทกลับไปเป็นค่าเริ่มต้นหรือไม่ ?</string>
+    <string name="sp_All_settings_reset_NORMAL">รีเซ็ตการตั้งค่าทั้งหมด</string>
+    <string name="sp_blockedByEAS_NORMAL">ปิดการทำงานของกล้องตามนโยบายเซิร์ฟเวอร์ Exchange</string>
+    <string name="sp_block_camera_NORMAL">ปิด กล้องถ่ายรูป ตามนโยบายเซิร์ฟเวอร์</string>
+    <string name="error_cannot_use_hdmi">ใช้กล้องไม่ได้ขณะต่อ HDMI.</string>
+    <string name="sp_dual_display_status_NORMAL">ไม่สามารถใช้กล้องในโหมดการแสดงผลจอคู่ได้</string>
+    <string name="reset">รีเซ็ต</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่</string>
+    <string name="sp_camera_helpdesc_generalsetting">ทั่วไป</string>
+    <string name="sp_Exit_NORMAL">ออก</string>
+    <string name="auto">อัตโนมัติ</string>
+    <string name="on">เปิด</string>
+    <string name="sp_review_timer_2_NORMAL">2 วิ.</string>
+    <string name="off">ปิด</string>
+    <string name="sp_none_NORMAL">ไม่มี</string>
+    <string name="normal">ปกติ</string>
+    <string name="settings">ตั้งค่า</string>
+    <string name="sp_loading_camera_NORMAL">กำลังเตรียม...</string>
+    <string name="dual_camera_select">สลับกล้อง</string>
+    <string name="insert_sd_card">"โปรดใส่ SD การ์ด "</string>
+    <string name="insert_add_sd_card">เชื่อมต่อกับการ์ด SD ภายนอก.</string>
+    <string name="sp_preparing_int_sd_NORMAL">กำลังเตรียมความจำภายใน</string>
+    <string name="preparing_sd">กำลังเตรียม SD การ์ด.</string>
+    <string name="sp_cannot_use_camera_UMS_NORMAL">ไม่สามารถใช้กล้องได้เนื่องจากการ์ด SD เชื่อมต่อกับ PC ถอดสาย USB เพื่อดำเนินการต่อ</string>
+    <string name="sp_connected_mass_storage_NORMAL">ที่เก็บข้อมูล</string>
+    <string name="sp_not_available_connected_mass_storage_NORMAL">"ไม่มีกล้อง
+ระบบจัดเก็บข้อมูลเชื่อมต่อกับ PC"</string>
+    <string name="sp_launch_NORMAL">เริ่ม</string>
+    <string name="sp_memory_full_diag_title_NORMAL">ความจำเต็ม</string>
+    <string name="sp_memory_full_diag_1_NORMAL">"ความจำไม่พอใน %1$s
+จะบันทึกไฟล์ใน %2$s
+เพิ่มความจำใน %3$s โดยเชื่อมต่อโทรศัพท์กับ PC หรือเรียกระบบจัดการไฟล์
+
+เรียกระบบจัดการไฟล์ตอนนี้หรือไม่
+ตรวจสอบไฟล์ใน '%4$s'"</string>
+    <string name="sp_memory_full_diag_1_no_file_manager_NORMAL">"ความจำไม่พอใน %1$s
+จะบันทึกไฟล์ใน %2$s
+เพิ่มความจำใน %3$s โดยเชื่อมต่อโทรศัพท์กับ PC หรือเรียกระบบจัดการไฟล์"</string>
+    <string name="sp_memory_full_diag_2_NORMAL">"ความจำไม่พอใน %1$s
+เพิ่มเมมโมรีใน %1$s โดยเชื่อมต่อโทรศัพท์กับ PC หรือเรียกระบบจัดการไฟล์
+
+เรียกระบบจัดการไฟล์ตอนนี้หรือไม่
+ตรวจสอบไฟล์ใน '%2$s'"</string>
+    <string name="sp_memory_full_diag_2_no_file_manager_NORMAL">"ความจำไม่พอใน %1$s
+เพิ่มความจำใน %1$s โดยเชื่อมต่อโทรศัพท์กับ PC หรือเรียกระบบจัดการไฟล์"</string>
+    <string name="sp_memory_full_diag_3_NORMAL">"ความจำไม่พอในความจำทุกชนิด
+เพิ่มความจำโดยเชื่อมต่อโทรศัพท์กับ PC หรือเรียกระบบจัดการไฟล์
+
+เรียกระบบจัดการไฟล์ตอนนี้หรือไม่
+ตรวจสอบไฟล์ใน '%1$s'"</string>
+    <string name="sp_memory_full_diag_3_no_file_manager_NORMAL">"ความจำไม่พอในความจำทุกชนิด
+เพิ่มความจำโดยเชื่อมต่อโทรศัพท์กับ PC หรือเรียกระบบจัดการไฟล์"</string>
+    <string name="sp_storage_full_popup_ics_title_NORMAL">ที่เก็บเต็ม</string>
+    <string name="sp_storage_full_message_not_on_internal_NORMAL">หน่วยความจำภายใน พื้นที่ไม่พอ</string>
+    <string name="sp_storage_full_message_not_on_internal_sto_NORMAL">หน่วยความจำภายใน พื้นที่ไม่พอ</string>
+    <string name="sp_storage_full_message_not_on_sd_NORMAL">"พื้นที่ใน SD การ์ดไม่พอ "</string>
+    <string name="sp_storage_full_message_save_to_internal_NORMAL">บันทึกไฟล์เอาไว้ในระบบจัดเก็บข้อมูลภายใน</string>
+    <string name="sp_storage_full_message_save_to_internal_st_NORMAL">บันทึกไฟล์เอาไว้ในระบบจัดเก็บข้อมูลภายใน</string>
+    <string name="sp_storage_full_message_save_to_sd_NORMAL">บันทึกไฟล์ใน SD การ์ด</string>
+    <string name="sp_storage_full_saving_file_NORMAL">กำลังบันทึกไฟล์...</string>
+    <string name="sp_storage_full_free_NORMAL">ถ้าต้องการเพิ่มพื้นที่ ลบไฟล์ที่ไม่ได้ใช้</string>
+    <string name="msg_save_progress">กำลังบันทึก...</string>
+    <string name="sp_storage_full_popup_ics_1_NORMAL">พื้นที่ใน %s ไม่พอ ถ้าต้องการเพิ่มพื้นที่ ลบไฟล์ที่ไม่ได้ใช้</string>
+    <string name="sp_storage_full_popup_ics_2_NORMAL">พื้นที่ใน %1$s ไม่พอ บันทึกไฟล์ไปยัง %2$s ถ้าต้องการเพิ่มพื้นที่ ลบไฟล์ที่ไม่ได้ใช้</string>
+    <string name="sp_storage_full_popup_ics_3_NORMAL">พื้นที่ในที่เก็บข้อมูลไม่พอ ถ้าต้องการเพิ่มพื้นที่ กรุณาลบไฟล์ที่ไม่ได้ใช้</string>
+    <string name="sp_storage_full_popup_ics_6_NORMAL">พื้นที่ใน %s ไม่พอ กำลังบันทึกไฟล์…</string>
+    <string name="sp_full_popup_ics_1_not_in_memory_NORMAL">"หน่วยความจำภายใน พื้นที่ไม่พอ  ถ้าต้องการเพิ่มพื้นที่ ลบไฟล์ที่ไม่ได้ใช้"</string>
+    <string name="sp_full_popup_ics_1_not_in_storage_NORMAL">พื้นที่เก็บข้อมูลภายในไม่เพียงพอ ถ้าต้องการเพิ่มพื้นที่ ลบไฟล์ที่ไม่ได้ใช้</string>
+    <string name="sp_full_popup_ics_1_not_sd_NORMAL">พื้นที่ใน SD การ์ดไม่พอ ถ้าต้องการเพิ่มพื้นที่ ลบไฟล์ที่ไม่ได้ใช้</string>
+    <string name="sp_full_popup_ics_2_not_in_memory_to_sd_NORMAL">หน่วยความจำภายใน พื้นที่ไม่พอ บันทึกไฟล์ใน SD การ์ด ถ้าต้องการเพิ่มพื้นที่ ลบไฟล์ที่ไม่ได้ใช้</string>
+    <string name="sp_full_popup_ics_2_not_in_storage_to_sd_NORMAL">พื้นที่จัดเก็บข้อมูลภายในไม่พอ บันทึกไฟล์ใน SD การ์ด. ถ้าต้องการเพิ่มพื้นที่ ลบไฟล์ที่ไม่ได้ใช้</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_memory_NORMAL">พื้นที่ใน SD การ์ดไม่พอ จะบันทึกไฟล์ในที่เก็บข้อมูลภายใน ถ้าต้องการเพิ่มพื้นที่ ลบไฟล์ที่ไม่ได้ใช้.</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_storage_NORMAL">พื้นที่ใน SD การ์ดไม่พอ จะบันทึกไฟล์ในที่เก็บข้อมูลภายใน ถ้าต้องการเพิ่มพื้นที่ ลบไฟล์ที่ไม่ได้ใช้.</string>
+    <string name="sp_full_popup_ics_6_not_in_memory_NORMAL">หน่วยความจำภายใน พื้นที่ไม่พอ กำลังบันทึกไฟล์...</string>
+    <string name="sp_full_popup_ics_6_not_in_storage_NORMAL">พื้นที่จะเก็บข้อมูลภายในไม่พอ กำลังบันทึกไฟล์...</string>
+    <string name="sp_full_popup_ics_6_not_sd_NORMAL">พื้นที่ใน SD การ์ดไม่พอ กำลังบันทึกไฟล์...</string>
+    <string name="sp_internal_sd_prepared_NORMAL">เตรียมความจำภายใน</string>
+    <string name="sp_external_sd_prepared_NORMAL">เตรียมการ์ด SD แล้ว</string>
+    <string name="sp_not_enough_memory_NORMAL">"พื้นที่ในความจำทุกชนิดไม่พอ
+เพิ่มความจำให้มากขึ้น"</string>
+    <string name="not_enough_space">ใส่การ์ดใหม่หรือลบบางคอนเท้นท์</string>
+    <string name="sp_not_enough_int_sd_NORMAL">"พื้นที่ระบบจัดเก็บข้อมูลภายในไม่พอ
+จะบันทึกไฟล์ในการ์ด SD "</string>
+    <string name="sp_not_enough_add_space_NORMAL">"พื้นที่ในการ์ด SD ไม่พอ
+เพิ่มความจำให้มากขึ้น"</string>
+    <string name="sp_not_enough_sd_int_NORMAL">"พื้นที่ในการ์ด SD ไม่พอ
+บันทึกไฟล์ในความจำภายใน"</string>
+    <string name="sp_media_scanning_NORMAL">"กำลังสแกนมีเดีย ลองใหม่อีกครั้ง
+หลังจากสแกนมีเดียเรียบร้อยแล้ว"</string>
+    <string name="sp_media_scanning_ics_NORMAL">ลองใหม่หลังจากสแกนไฟล์มีเดียแล้ว</string>
+    <string name="scanning_sdcard_media_files">กำลังสแกนไฟล์มีเดียในการ์ด SD</string>
+    <string name="sp_ext_sdcard_not_exist_NORMAL">ไม่มี SD การ์ด.ที่เก็บข้อมูลเปลี่ยนเป็นความจำภายใน</string>
+    <string name="sp_sdremoved_change_int_NORMAL">SD การ์ดถูกถอดออก พื้นที่จัดเก็บข้อมูลเปลี่ยนเป็นหน่วยความจำภายใน</string>
+    <string name="sp_sd_card_removed_NORMAL">ไม่มีการ์ด SD โปรดใส่การ์ด SD</string>
+    <string name="camera_closed_due_to_sdcard_removal">การ์ด SD ถูกถอดออกโดยไม่คาดคิด กล้อง ถูกปิด</string>
+    <string name="sp_sdcard_inserted_noti">ใส่การ์ด SD แล้ว. บันทึกไปในการ์ด SD?</string>
+    <string name="sp_storage_always_ask_NORMAL">ถามเสมอ</string>
+    <string name="sp_storage_noti_title_NORMAL">การแจ้ง</string>
+    <string name="title_not_enough_space">ความจำเต็ม</string>
+    <string name="popup_storage_full_save">"หน่วยความจำเต็ม
+กำลังบันทึก..."</string>
+    <string name="sp_notenoughmemory_NORMAL">"ความจำภายในหรือการ์ด SD เต็ม
+ลบคอนเทนท์บางชนิด"</string>
+    <string name="sp_addspace_NORMAL">"การ์ด SD เต็ม
+ลบคอนเทนท์บางชนิด"</string>
+    <string name="sp_mhl_cannot_use_camera_NORMAL">ไม่สามารถใช้กล้องได้เนื่องจากเชื่อมต่อเคเบิล MHL อยู่</string>
+    <string name="sp_mhl_cannot_show_preview_NORMAL">ไม่สามารถแสดงพรีวิวของกล้องได้เมื่อเชื่อมต่อเคเบิล MHL</string>
+    <string name="msg_found_escape_char">ไม่ยอมรับอักษรที่มี</string>
+    <string name="sp_message_filename_limit_NORMAL">"เกินขีดจำกัดความยาวชื่อไฟล์ 
+(ขีดจำกัด: %d ตัวอักษร)"</string>
+    <string name="waiting_save_image">กรุณารอ...</string>
+    <string name="sp_image_size_front_NORMAL">ขนาดภาพด้านหน้า</string>
+    <string name="image_size">ขนาดภาพ</string>
+    <string name="scene_mode">โหมดภาพ</string>
+    <string name="scene_mode_portrait">รูปคน</string>
+    <string name="scene_mode_landscape">ทิวทัศน์</string>
+    <string name="scene_mode_sports">กีฬา</string>
+    <string name="scene_mode_night">กลางคืน</string>
+    <string name="scene_mode_sunset">ดวงอาทิตย์ตก</string>
+    <string name="sp_scene_mode_normal_NORMAL">ปกติ</string>
+    <string name="sp_scene_mode_default_NORMAL">อัตโนมัติ</string>
+    <string name="white_balance">ความสมดุลแสง</string>
+    <string name="white_balance_incandescent">หลอดไฟ</string>
+    <string name="white_balance_sunny">แสงอาทิตย์</string>
+    <string name="white_balance_fluorescent">ฟลูออเรสเซนต์</string>
+    <string name="white_balance_cloudy">มืดครึ้ม</string>
+    <string name="sp_whitebalance_default_NORMAL">อัตโนมัติ</string>
+    <string name="color_effect">เอฟเฟคสี</string>
+    <string name="color_effect_mono">โมโน</string>
+    <string name="color_effect_negative">เนกาทีฟ</string>
+    <string name="color_effect_solarize">โซลาไรซ์</string>
+    <string name="color_effect_sepia">สีซีเปีย</string>
+    <string name="color_effect_negative_sepia">เนกาทีฟซีเปีย</string>
+    <string name="color_effect_blue">สีน้ำเงิน</string>
+    <string name="color_effect_pastel">พาสเทล</string>
+    <string name="color_effect_posterize">โพสเตอร์ไรซ์</string>
+    <string name="color_effect_aqua">สีฟ้าน้ำทะเล</string>
+    <string name="sp_color_effect_none_cameraapp_NORMAL">ไม่มี</string>
+    <string name="image_quality">คุณภาพ</string>
+    <string name="quality_super_fine">ละเอียดมาก</string>
+    <string name="quality_fine">ละเอียด</string>
+    <string name="sp_quality_normal_NORMAL">ปกติ</string>
+    <string name="video_quality">คุณภาพของวิดีโอ</string>
+    <string name="timer">ตั้งเวลา</string>
+    <string name="timer_1">1 วิ.</string>
+    <string name="timer_3">3 วิ.</string>
+    <string name="timer_5">5 วิ.</string>
+    <string name="timer_10">10 วิ.</string>
+    <string name="shot_mode">โหมดช็อต</string>
+    <string name="shot_mode_continuous">ช็อตต่อเนื่อง</string>
+    <string name="shot_mode_smile">ถ่ายภาพยิ้ม</string>
+    <string name="shot_mode_beauty">บิวตี้ช็อต</string>
+    <string name="shot_mode_art">อาร์ตช็อต</string>
+    <string name="shot_mode_panorama">พาโนรามา</string>
+    <string name="shot_mode_face_effect">เอฟเฟ็กต์ใบหน้า</string>
+    <string name="shot_mode_cartoon">การ์ตูน</string>
+    <string name="shot_mode_free_panorama">360 พาโนรามา</string>
+    <string name="shot_mode_vr_panorama">VR พาโนรามา</string>
+    <string name="shot_mode_burst">ถ่ายภาพต่อเนื่อง</string>
+    <string name="sp_shot_mode_burst">ถ่ายภาพต่อเนื่อง</string>
+    <string name="record_mode">โหมดการบันทึก</string>
+    <string name="record_mode_WDR">"บันทึก WDR "</string>
+    <string name="record_mode_HDR">"บันทึก HDR "</string>
+    <string name="artshot_original">ต้นฉบับ</string>
+    <string name="artshot_warm">ร้อน</string>
+    <string name="artshot_cold">เย็น</string>
+    <string name="artshot_blackwhite">ขาวดำ</string>
+    <string name="face_effect_blur">เบลอ</string>
+    <string name="face_effect_snow">หิมะ</string>
+    <string name="face_effect_shallow_focus">แชลโล่ว์โฟกัส</string>
+    <string name="face_effect_big_head">หัวโต</string>
+    <string name="face_effect_mosaic">โมเสค</string>
+    <string name="face_effect_fish_eye">ฟิช-อาย</string>
+    <string name="face_effect_concave">เว้า</string>
+    <string name="face_effect_funny_mask">หน้ากากฟันนี่</string>
+    <string name="auto_review">รีวิวอัตโนมัติ</string>
+    <string name="shutter_sound">เสียงชัตเตอร์</string>
+    <string name="shutter_sound_1">เสียง 1</string>
+    <string name="shutter_sound_2">เสียง 2</string>
+    <string name="shutter_sound_3">เสียง 3</string>
+    <string name="shutter_sound_4">เสียง 4</string>
+    <string name="geo_tagging">แท็กตำแหน่ง</string>
+    <string name="sp_storage_NORMAL">ที่เก็บข้อมูล</string>
+    <string name="sp_default_memory_NORMAL">การ์ด SD และ ความจำเครื่อง</string>
+    <string name="sp_internal_memory_NORMAL">หน่วยความจำภายใน</string>
+    <string name="sp_internal_storage_NORMAL">ที่เก็บข้อมูลภายใน</string>
+    <string name="sp_external_memory_NORMAL">SD การ์ด</string>
+    <string name="sp_anti_banding_NORMAL">Anti Banding</string>
+    <string name="focus">โฟกัส</string>
+    <string name="focus_macro">มาโคร</string>
+    <string name="focus_face_tracking">การติดตามหน้า</string>
+    <string name="sp_quickfunction_focus_continuous_NORMAL">โฟกัสต่อเนื่อง</string>
+    <string name="manual_for_camera">ปรับเอง</string>
+    <string name="flash">แฟลซ</string>
+    <string name="sp_save_direction_NORMAL">บันทึกทิศทาง</string>
+    <string name="zoom">ซูม</string>
+    <string name="brightness">ความสว่าง</string>
+    <string name="sp_mirror_image_NORMAL">ภาพกลับ</string>
+    <string name="sp_normal_save_NORMAL">ภาพปกติ</string>
+    <string name="sp_flipped_image_NORMAL">พลิกภาพ</string>
+    <string name="sp_save_as_flipped_NORMAL">บันทึกเป็นภาพพลิก</string>
+    <string name="sp_uplusbox_NORMAL">U+ Box บันทึกอัตโนมัติ</string>
+    <string name="sp_help_guide_uplusbox_desc_NORMAL">ระบบจะทำการอัปโหลดรูปถ่ายไปยัง U+ Box อาจมีการคิดค่าบริการใช้ข้อมูลเมื่อเชื่อมต่อกับ ข้อมูลโมไบล์</string>
+    <string name="sp_uplusbox_NORMAL_network_error">เครือข่ายผิดพลาด ระบบจะทำการอัพโหลดรูปภาพไปยัง U+Box โดยอัตโนมัติเมื่อเครือข่ายพร้อมใช้งาน</string>
+    <string name="sp_uplusbox_NORMAL_desc_on">ภาพถ่ายจะถูกอัปโหลดโดยอัตโนมัติไปยังกล่องของ U+</string>
+    <string name="sp_voiceshutter_NORMAL">เสียงชัตเตอร์</string>
+    <string name="sp_note_voiceshutter_NORMAL">พูด \"%s\" เมื่อคุณพร้อมที่จะถ่ายรูป</string>
+    <string name="sp_voiceshutter_say_NORMAL">พูด \"%s\" เพื่อถ่ายรูป</string>
+    <string name="sp_cheeseshutter_NORMAL">ชีสชัทเตอร์</string>
+    <string name="sp_voiceshutter_word_whisky_NORMAL">Whisky</string>
+    <string name="sp_voiceshutter_sound_kimchi_NORMAL">กิมจิ</string>
+    <string name="sp_voiceshutter_sound_cheese_NORMAL">ชีส</string>
+    <string name="sp_voiceshutter_sound_LG_NORMAL">แอลจี</string>
+    <string name="sp_voiceshutter_sound_smile_NORMAL">สไมล์</string>
+    <string name="sp_voiceshutter_sound_whisky_NORMAL">วิสกี้</string>
+    <string name="sp_voiceshutter_sound_torimasu_NORMAL">ทอริมาสุ</string>
+    <string name="sp_note_voiceshutter_multi_sound_NORMAL">ถ่ายภาพด้วยเสียง พูดคำดังต่อไปนี้</string>
+    <string name="sp_note_voiceshutter_multi_sound_vzw_NORMAL">Cheese shutter รอการถ่ายภาพจนกว่าคุณจะพูดคำต่อไปนี้:</string>
+    <string name="sp_voiceshutter_multi_sound_say_NORMAL">พูด \"%1$s\", \"%2$s\" หรือ \"%3$s\" เพื่อถ่ายรูป</string>
+    <string name="sp_voiceshutter_multi_keyword_say_NORMAL">พูด \"%1$s\", \"%2$s\", \"%3$s\", \"%4$s\" หรือ \"%5$s\" เพื่อถ่ายรูป</string>
+    <string name="sp_voiceshutter_multi_keyword_say_4items">พูด \"%1$s\", \"%2$s\", \"%3$s\" หรือ \"%4$s\" เพื่อถ่ายรูป</string>
+    <string name="sp_voiceshutter_say_new_NORMAL">พูด \"%s\" เพื่อถ่ายรูป</string>
+    <string name="sp_voiceshutter_help_desc_NORMAL">ถ่ายรูปแบบคำสั่งเสียง</string>
+    <string name="video_size">ขนาดวิดีโอ</string>
+    <string name="sp_video_duration_NORMAL">ระยะเวลา</string>
+    <string name="video_voice">บันทึกเสียง</string>
+    <string name="sp_video_voice_unmute_NORMAL">เปิด</string>
+    <string name="sp_video_voice_mute_NORMAL">ปิดเสียง</string>
+    <string name="show_recorded_video">รีวิวอัตโนมัติ</string>
+    <string name="share">แบ่งปัน</string>
+    <string name="sp_share_via_NORMAL">แบ่งปันผ่าน</string>
+    <string name="set_as">ตั้งเป็น</string>
+    <string name="sp_set_photo_as_NORMAL">ตั้งรูปภาพเป็น</string>
+    <string name="rename">แก้ชื่อ</string>
+    <string name="sp_share_SHORT">แบ่งปัน</string>
+    <string name="sp_set_as_SHORT">ตั้งเป็น</string>
+    <string name="sp_rename_SHORT">แก้ชื่อ</string>
+    <string name="sp_set_as_twoline_NORMAL">ตั้งเป็น</string>
+    <string name="sp_rename_twoline_NORMAL">แก้ชื่อ</string>
+    <string name="edit">แก้ไข</string>
+    <string name="sp_play_twoline_SHORT">เล่น</string>
+    <string name="sp_share_twoline_SHORT">แบ่งปัน</string>
+    <string name="sp_set_as_twoline_SHORT">ตั้งเป็น</string>
+    <string name="sp_rename_twoline_SHORT">แก้ชื่อ</string>
+    <string name="sp_save_SHORT">บันทึก</string>
+    <string name="sp_save_complete_SHORT">สำเร็จ</string>
+    <string name="play">เล่น</string>
+    <string name="dlg_title_rename">ป้อนชื่อใหม่</string>
+    <string name="dlg_title_delete">ลบ</string>
+    <string name="msg_multi_image_delete">ไฟล์มีเดียเหล่านี้จะถูกลบ</string>
+    <string name="msg_image_delete">รูปภาพจะถูกลบ</string>
+    <string name="msg_video_delete">วิดีโอจะถูกลบ</string>
+    <string name="popup_delete_done">ลบแล้ว</string>
+    <string name="slow_motion">สโลว์โมชั่น</string>
+    <string name="sp_note_img_size_change_NORMAL">ขนาดภาพถูกเปลี่ยนเป็น %s.</string>
+    <string name="note_image_deleted">ลบภาพ</string>
+    <string name="note_shot_mode_change_normal">ตั้งค่าโหมดช็อตเป็นปกติ</string>
+    <string name="note_timer_mode_off">ปิดโหมดเวลา</string>
+    <string name="note_smile_shutter_started">ถ่ายรูปอัตโนมัติเพื่อจับการยิ้ม</string>
+    <string name="note_focus_mode_set_to_auto">ตั้งค่าโฟกัสโหมดเป็นอัตโนมัติ</string>
+    <string name="note_iso_set_to_auto">กำหนด ISO เป็นอัตโนมัติ</string>
+    <string name="sp_note_rec_size_change_NORMAL">กำหนดขนาดวิดีโอเป็น %s</string>
+    <string name="note_select_image">ไม่ได้เลือกไฟล์</string>
+    <string name="sp_select_photo_NORMAL">ไม่มีรูปภาพที่เลือก</string>
+    <string name="note_color_effect_change">ปิดเอฟเฟ็กต์สี</string>
+    <string name="sp_note_color_effect_change_NORMAL">เทคนิคสีเปลี่ยนเป็น %s</string>
+    <string name="note_color_effect_change_none">เทคนิคสีเปลี่ยนเป็นไม่มี</string>
+    <string name="note_white_balance_change">ตั้งสมดุลแสงเป็นอัตโนมัติ</string>
+    <string name="note_flash_change_off">ตั้งค่าปิดแฟลช</string>
+    <string name="note_scene_mode_change">ตั้งค่าโหมดหน้าจอเป็นอัตโนมัติ</string>
+    <string name="sp_note_scene_mode_change_NORMAL">ตั้งค่าโหมดฉากเป็น%s.</string>
+    <string name="note_scene_mode_change_normal">ตั้งค่าโหมดฉากเป็นแบบปกติ</string>
+    <string name="sp_note_video_ori_land_NORMAL">"บันทึกภาพทิวทัศน์ที่รองรับเท่านั้น เพื่อส่งเป็น MMS "</string>
+    <string name="sp_note_brightness_set_to_zero_NORMAL">ตั้งค่าความสว่างเป็นศูนย์</string>
+    <string name="error_not_enough_memory">ความจำไม่พอ!</string>
+    <string name="error_not_exist_app">ไม่พบแอปพลิเคชัน</string>
+    <string name="error_preview_fail">เริ่มปรีวิวล้มเหลว</string>
+    <string name="error_write_file">เขียนไฟล์ไม่ได้</string>
+    <string name="error_rename">ชื่อไม่ถูกต้อง โปรดแก้ชื่อ</string>
+    <string name="error_write_file_exist">มีอยู่แล้ว!</string>
+    <string name="error_unknown">Err.ที่ไม่รู้จัก</string>
+    <string name="error_low_battery">แบตเตอรี่่อ่อน แอปพลิเคชันจะออกจากการทำงาน</string>
+    <string name="error_get_video_frame_fail">เอ็กแทรกเฟรมไม่ได้.</string>
+    <string name="error_video_recording">คุณไม่สามารถบันทึกวิดีโอขณะโทรได้</string>
+    <string name="error_video_recording_during_call">ไม่สามารถบันทึกวิดีโอระหว่างโทรได้</string>
+    <string name="sp_error_call_camera_NORMAL">ไม่สามารถเริ่มใช้กล้องขณะโทรได้</string>
+    <string name="error_camera_during_video_call">ไม่สามารถใช้กล้องในขณะวิดีโอคอลได้</string>
+    <string name="error_cannot_start_recording_with_audio">ไม่สามารถเริ่มต้นบันทึกในขณะที่แอปพลิเคชั่นอื่นๆกำลังใช้ระบบเสียงอยู่</string>
+    <string name="error_sdm_server_setting">ไม่สามารถกลับไปยังกล้อง ถูกล็อคจากเซิร์ฟเวอร์</string>
+    <string name="help_title">วิธีใช้</string>
+    <string name="sp_detail_view_NORMAL">ดูรายละเอียด</string>
+    <string name="help_swap_camera_menu_desc">สลับระหว่างกล้องหลักและกล้องรอง</string>
+    <string name="help_zoom_desc">ย่อหรือขยายขนาดของวัตถุ</string>
+    <string name="help_brightness_desc">ปรับระดับการรับแสง</string>
+    <string name="sp_help_brightness_desc_video_NORMAL">ปรับความสว่าง</string>
+    <string name="help_flash_desc">sets the flash</string>
+    <string name="help_flash_auto_desc">ตั้งค่าแฟลชโดยอัตโนมัติ</string>
+    <string name="sp_help_flash_off_desc_NORMAL">ปิดแฟลชตลอดทุกช็อต.</string>
+    <string name="sp_help_flash_on_desc_NORMAL">ใช้แฟลชทุกภาพ.</string>
+    <string name="help_camera_settings_desc">ปรับการตั้งค่ากล้อง.</string>
+    <string name="help_image_size_menu_desc">ตั้งค่าขนาดไฟล์ภาพ</string>
+    <string name="help_image_size_menu_5m_desc">"เหมาะสมที่สุดสำหรับการ
+พิมพ์ภาพขนาด A4."</string>
+    <string name="help_image_size_menu_3m_desc">"เหมาะสมที่สุดสำหรับการ
+พิมพ์ภาพขนาด A5."</string>
+    <string name="help_image_size_menu_2m_desc">"เหมาะสมที่สุดสำหรับการ
+พิมพ์ภาพขนาดใหญ่กว่า
+โปสการ์ด."</string>
+    <string name="help_image_size_menu_1m_desc">"เหมาะสมที่สุดสำหรับการ
+พิมพ์ภาพขนาดเล็กกว่า
+โปสการ์ด."</string>
+    <string name="help_image_size_menu_vga_desc">"เหมาะสมที่สุดสำหรับการ
+ส่งแนบไฟล์ในอีเมล์(ใช้ความจำน้อย)."</string>
+    <string name="help_image_size_menu_qvga_desc">"เหมาะสมที่สุดสำหรับการ
+ส่งแนบไฟล์ในอีเมล์(ใช้ความจำน้อย)."</string>
+    <string name="help_scene_mode_menu_desc">ตั้งค่าโหมดที่เหมาะสมสำหรับสภาพแวดล้อมในขณะนั้น</string>
+    <string name="help_scene_mode_menu_auto_desc">ปรับให้สอดคล้องกับสถานการณ์โดยอัตโนมัติ</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_NORMAL">ถ่ายภาพมาตรฐาน</string>
+    <string name="help_scene_mode_menu_portrait_desc">จับภาพผู้คน</string>
+    <string name="help_scene_mode_menu_landscape_desc">ถ่ายภาพธรรมชาติ</string>
+    <string name="help_scene_mode_menu_sports_desc">ถ่ายภาพที่เคลื่อนไหวอย่างรวดเร็วโดยที่วัตถุไม่พร่ามัว</string>
+    <string name="help_scene_mode_menu_night_desc">ถ่ายภาพกลางคืน</string>
+    <string name="help_scene_mode_menu_sunset_desc">ถ่ายภาพพระอาทิตย์ตกดิน</string>
+    <string name="help_iso_menu_desc">ควบคุมความไวแสงของกล้อง</string>
+    <string name="help_white_balance_menu_desc">เรนเดอร์สีในสภาพแสงที่หลากหลาย</string>
+    <string name="help_white_balance_menu_auto_desc">ปรับสีโดยอัตโนมัติ</string>
+    <string name="help_white_balance_menu_incandescent_desc">สำหรับถ่ายภาพในแสงอ่อน</string>
+    <string name="help_white_balance_menu_sunny_desc">ถ่ายภาพกลางแดด</string>
+    <string name="help_white_balance_menu_flourescent_desc">สำหรับถ่ายภาพในแสงฟลูออเรสเซ็นต์</string>
+    <string name="help_white_balance_menu_cloudy_desc">สำหรับบันทึกภาพในร่มหรือมืดครึ้ม</string>
+    <string name="help_color_effect_menu_desc">ใช้เอฟเฟกต์งานศิลปะกับภาพ</string>
+    <string name="help_color_effect_menu_off_desc">ไม่มีเอฟเฟ็คสีที่จะใช้</string>
+    <string name="help_color_effect_menu_sepia_desc">ใช้เอฟเฟกต์ซีเปียฟิลเตอร์เพื่อถ่ายภาพแบบโบราณ</string>
+    <string name="help_color_effect_menu_mono_desc">ใช้เอฟเฟกต์โมโนฟิลเตอร์เพื่อถ่ายภาพขาวดำ</string>
+    <string name="help_color_effect_menu_negative_desc">ใช้เอฟเฟกต์เนกาทีฟฟิลเตอร์เพื่อกลับสีของภาพ</string>
+    <string name="help_color_effect_menu_vivid_desc">ใช้เอฟเฟ็คสีชัดเจนในภาพ</string>
+    <string name="help_color_effect_menu_negative_sepia_desc">ใช้เอฟเฟ็คเนกาทีฟซีเปียในภาพ</string>
+    <string name="help_color_effect_menu_blue_desc">ใช้เอฟเฟ็คสีน้ำเงินในภาพ</string>
+    <string name="help_color_effect_menu_emboss_desc">ใช้เอฟเฟ็คสลักลายนูนในภาพ</string>
+    <string name="help_color_effect_menu_solarize_desc">ใช้เอฟเฟ็คโซลาไรซ์ในภาพ</string>
+    <string name="help_color_effect_menu_posterize_desc">ใช้เอฟเฟ็คโพสเตอร์ไรซ์ในภาพ</string>
+    <string name="help_color_effect_menu_aqua_desc">ใช้เอฟเฟ็คสีน้ำทะเลในภาพ</string>
+    <string name="help_color_effect_menu_pastel_desc">ใช้เอฟเฟ็คพาสเทลในภาพ</string>
+    <string name="help_timer_menu_desc">ตั้งค่าระยะเวลาหน่วงระหว่างการกดปุ่มชัตเตอร์และการถ่ายภาพ</string>
+    <string name="help_shot_mode_menu_desc">ตั้งค่าโหมดการถ่ายภาพหลากหลายรูปแบบ</string>
+    <string name="help_shot_mode_menu_normal_desc">ถ่ายภาพมาตรฐาน</string>
+    <string name="help_shot_mode_menu_continuous_shot_desc">ถ่ายภาพ 6 ภาพติดต่อกันในครั้งเดียว</string>
+    <string name="help_shot_mode_menu_smile_shot_desc">ลั่นชัตเตอร์โดยอัตโนมัติเมื่อกล้องถ่ายรูปตรวจจับรอยยิ้ม</string>
+    <string name="help_shot_mode_menu_beauty_shot_desc">ลบจุดและข้อบกพร่องบนใบหน้าอัตโนมัติและทำให้หน้าสดใส</string>
+    <string name="help_shot_mode_menu_art_shot_desc">สร้างภาพศิลป์โดยใช้เอฟเฟกต์ ขาวดำ และอื่นๆ</string>
+    <string name="help_shot_mode_menu_panorama_shot_desc">ถ่ายภาพทิวทัศน์อย่างต่อเนื่องและรวมเข้าเป็นภาพเดียว</string>
+    <string name="help_shot_mode_menu_face_effect_desc">ให้เอฟเฟ็คหลากหลายโดยใช้จับรูปใบหน้า</string>
+    <string name="help_shot_mode_menu_cartoon_shot_desc">ยอมให้เครื่องถ่ายภาพแบบการ์ตูนและสวยงามคล้ายกับภาพวาด</string>
+    <string name="help_shot_mode_menu_funny_mask_desc">เปิดใช้หน้ากากแอนนิเมชันอัตโนมัติเมื่อกล้องจับรูปใบหน้า</string>
+    <string name="help_face_effect_blur_desc">จับรูปหน้าอัตโนมัติและให้รูปหน้าเบลอ</string>
+    <string name="help_face_effect_snow_desc">ทำเอฟเฟ็คหิมะตกบนศรีษะ</string>
+    <string name="help_face_effect_shallow_focus_desc">หารูปหน้าอัตโนมัติและตั้งแบ็คกราวน์ออกจากโฟกัส</string>
+    <string name="help_face_effect_big_face_desc">ทำให้หน้าใหญ่ขึ้น</string>
+    <string name="help_face_effect_mosaic_desc">เปิดเอฟเฟ็คโมเสคบนหน้าอัตโนมัติเมื่อกล้องจับรูปหน้าได้</string>
+    <string name="help_face_effect_fish_eye_desc">เปิดเอฟเฟ็คฟิช-อายบนหน้าอัตโนมัติเมื่อกล้องจับรูปหน้าได้</string>
+    <string name="help_face_effect_concave_desc">เปิดเอฟเฟ็คเว้าบนหน้าอัตโนมัติเมื่อกล้องจับรูปหน้าได้</string>
+    <string name="help_focus_desc">โฟกัสเฉพาะจุด</string>
+    <string name="help_focus_auto_desc">กำหนดจุดโฟกัสโดยอัตโนมัติ</string>
+    <string name="help_focus_macro_desc">ถ่ายภาพออปเจ็คอย่างใกล้</string>
+    <string name="help_focus_face_desc">ตรวจหาและโฟกัสที่ใบหน้าอัตโนมัติ</string>
+    <string name="sp_help_focus_continuous_desc_NORMAL">เคลื่อนย้ายหาวัตถุและโฟกัสวัตถุอัตโนมัติ</string>
+    <string name="help_focus_manual_desc">ตั้งจุดบนโฟกัสเอง</string>
+    <string name="help_image_quality_menu_desc">ตั้งค่าคุณภาพภาพ (คุณภาพสูงจะใช้ความจำสูง).</string>
+    <string name="help_image_quality_menu_super_fine_desc">"บันทึกภาพสำหรับคุณภาพ
+ละเอียดมาก"</string>
+    <string name="help_image_quality_menu_fine_desc">"บันทึกภาพสำหรับคุณภาพ
+ละเอียด"</string>
+    <string name="help_image_quality_menu_normal_desc">"บันทึกภาพสำหรับคุณภาพ
+ปกติ"</string>
+    <string name="help_show_captured_image_menu_desc">แสดงภาพที่ถ่ายไว้ล่าสุดหลังจากถ่ายภาพ</string>
+    <string name="help_shutter_sound_menu_desc">ตั้งค่าเสียงที่เล่นเมื่อถ่ายภาพ</string>
+    <string name="help_geo_tagging_menu_desc">เพิ่มข้อมูลภูมิศาสตร์ของสถานที่ในภาพถ่าย</string>
+    <string name="sp_help_anti_banding_menu_desc_NORMAL">ป้องกันการบิดเบือนสี</string>
+    <string name="sp_help_storage_NORMAL">เลือกที่เก็บข้อมูลเพื่อจัดเก็บภาพ.</string>
+    <string name="sp_help_storage_innner_NORMAL">บันทึกภาพในความจำเครื่อง</string>
+    <string name="sp_help_storage_sd_NORMAL">บันทึกภาพใน SD การ์ด.</string>
+    <string name="help_video_title">วิธีใช้กล้องวิดีโอ</string>
+    <string name="sp_help_video_title_NORMAL">วิธีใช้</string>
+    <string name="help_video_settings_desc">ปรับแต่งค่าวิดีโอ.</string>
+    <string name="help_video_size_desc">ตั้งค่าขนาดไฟล์วิดีโอ</string>
+    <string name="help_video_size_vga_desc">"บันทึกวิดีโอสำหรับขนาด VGA "</string>
+    <string name="help_video_size_qvga_desc">บันทึกวิดีโอขนาด QVGA</string>
+    <string name="help_video_size_176x144_desc">"เหมาะสมที่สุดสำหรับการ
+ส่งแนบไฟล์ในอีเมล์(ใช้ความจำน้อย)."</string>
+    <string name="help_video_scene_mode_menu_desc">ปรับสีและความสว่างให้เหมาะสมกับสภาพแวดล้อมปัจจุบัน</string>
+    <string name="help_video_scene_mode_menu_auto_desc">ปรับให้สอดคล้องกับสถานการณ์โดยอัตโนมัติ</string>
+    <string name="help_video_scene_mode_menu_portrait_desc">เหมาะสำหรับบันทึกภาพผู้คน</string>
+    <string name="help_video_scene_mode_menu_landscape_desc">เหมาะสำหรับบันทึกทิวทัศน์ตามธรรมชาติ อาทิต้นไม้ ดอกไม้ และท้องฟ้า</string>
+    <string name="help_video_scene_mode_menu_sports_desc">เหมาะสำหรับบันทึกที่มีวัตเคลื่อนไหวอย่างรวดเร็ว อาทิกีฬา</string>
+    <string name="help_video_scene_mode_menu_night_desc">"ถ่ายภาพในช่วงกลางคืนให้สวยงาม
+ ใช้ความเร็วชัตเตอร์ต่ำเพื่อตรวจจับ
+ทิวทัศน์กลางคืน"</string>
+    <string name="help_video_scene_mode_menu_sunset_desc">กำลังบันทึกฉากพระอาทิตย์ตก</string>
+    <string name="help_video_white_balance_menu_desc">เพิ่มคุณภาพสีภายใต้ความสว่างที่ต่างกัน</string>
+    <string name="help_video_white_balance_menu_auto_desc">ปรับสีอัตโนมัติ</string>
+    <string name="help_video_white_balance_menu_incandescent_desc">สำหรับบันทึกวิดีโอในแสงอ่อน</string>
+    <string name="help_video_white_balance_menu_sunny_desc">บันทึกวิดีโอกับแสงแดดโดยตรง</string>
+    <string name="help_video_white_balance_menu_flourescent_desc">สำหรับบันทึกวิดีโอในแสงฟลูออเรสเซ็นต์</string>
+    <string name="help_video_white_balance_menu_cloudy_desc">สำหรับบันทึกวิดีโอในร่มหรือมืดครึ้ม</string>
+    <string name="help_video_color_effect_menu_desc">ตั้งค่าเอฟเฟกต์ฟิลเตอร์สีแบบพิเศษ</string>
+    <string name="help_video_color_effect_menu_off_desc">ไม่มีเอฟเฟ็คสีที่จะใช้</string>
+    <string name="sp_help_video_color_effect_menu_off_desc_NORMAL">ใช้เอฟเฟกต์ฟิลเตอร์แบบไม่มีสี</string>
+    <string name="help_video_color_effect_menu_sepia_desc">ใช้เอฟเฟกต์ซีเปียฟิลเตอร์เพื่อถ่ายวิดีโอแบบโบราณ</string>
+    <string name="help_video_color_effect_menu_mono_desc">ใช้เอฟเฟกต์โมโนฟิลเตอร์เพื่อถ่ายวิดีโอขาวดำ</string>
+    <string name="help_video_color_effect_menu_negative_desc">ใช้เอฟเฟกต์เนกาทีฟฟิลเตอร์เพื่อกลับสีของวิดีโอ</string>
+    <string name="help_video_color_effect_menu_vivid_desc">ใช้เอฟเฟ็คสีชัดเจนในวิดีโอ</string>
+    <string name="help_video_color_effect_menu_negative_sepia_desc">ใช้เอฟเฟ็คเนกาทีฟซีเปียในวิดีโอ</string>
+    <string name="help_video_color_effect_menu_blue_desc">ใช้เอฟเฟ็คสีน้ำเงินในวิดีโอ</string>
+    <string name="help_video_color_effect_menu_emboss_desc">ใช้เอฟเฟ็คสลักลายนูนในวิดีโอ</string>
+    <string name="help_video_color_effect_menu_solarize_desc">ใช้เอฟเฟ็คโซลาไรซ์ในวิดีโอ</string>
+    <string name="help_video_color_effect_menu_posterize_desc">ใช้เอฟเฟ็คโพสเตอร์ไรซ์ในวิดีโอ</string>
+    <string name="help_video_color_effect_menu_aqua_desc">ใช้เอฟเฟ็คสีน้ำทะเลในวิดีโอ</string>
+    <string name="help_video_color_effect_menu_pastel_desc">ใช้เอฟเฟ็คพาสเทลในวิดีโอ</string>
+    <string name="help_video_duration_desc">ตั้งระยะเวลา.</string>
+    <string name="help_video_duration_normal_desc">ไม่จำกัด.</string>
+    <string name="help_video_duration_mms_desc">สำหรับส่ง MMS</string>
+    <string name="help_video_quality_desc">ตั้งค่าคุณภาพวิดีโอ (คุณภาพสูงจะใช้ความจำสูง).</string>
+    <string name="help_video_quality_super_desc">"บันทึกวิดีโอคุณภาพความ
+ละเอียดสูงมาก"</string>
+    <string name="help_video_quality_fine_desc">"บันทึกวิดีโอคุณภาพความ
+ละเอียดสูง"</string>
+    <string name="help_video_quality_normal_desc">บันทึกวิดีโอคุณภาพปกติ</string>
+    <string name="help_video_voice_desc">ตั้งค่าการบันทึกเสียงขณะถ่ายวิดีโอ</string>
+    <string name="help_video_voice_unmute_desc">บันทึกวิดีโอแบบมีเสียง</string>
+    <string name="help_video_voice_mute_desc">บันทึกวิดีโอแบบไม่มีเสียง</string>
+    <string name="help_video_show_desc">ตรวจสอบวิดีโอหลังบันทึก</string>
+    <string name="sp_help_mirror_img_desc_NORMAL">บันทึกเป็นภาพสะท้อน</string>
+    <string name="sp_help_videostorage_NORMAL">เลือกที่เก็บข้อมูลเพื่อบันทึกวิดีโอ.</string>
+    <string name="sp_help_videostorage_in_NORMAL">บันทึกวิดีโอไปความจำภายใน.</string>
+    <string name="sp_help_videostorage_sd_NORMAL">บันทึกวิดีโอใน SD การ์ด.</string>
+    <string name="camera_application_stopped">หยุดกล้องถ่ายรูป</string>
+    <string name="camera_driver_needs_reset">หยุดกล้องถ่ายรูปโดยไม่ทราบสาเหตุ ต้องการรีสตาร์ท</string>
+    <string name="geo_tag_dialog_title">ปิดบริการ GPS</string>
+    <string name="geo_tag_dialog_msg">เปิด GPS จากการตั้งค่าเพื่อใช้แท็กตำแหน่ง</string>
+    <string name="geo_tag_dialog_confirm">ตั้งค่า GPS</string>
+    <string name="sp_eula_popup_dialog_title_NORMAL">แจ้งเตือนเรื่องความเป็นส่วนตัว</string>
+    <string name="sp_eula_popup_do_not_show_this_again_NORMAL">ไม่ต้องแสดงอีก</string>
+    <string name="sp_eula_popup_dialog_msg_NORMAL">หลังจากเลือก \"จีโอแท็ก\" แล้ว อุปกรณ์นี้จะแนบ ฝัง และจัดเก็บข้อมูลตำแหน่งทางภูมิศาสตร์ภายในแต่ละภาพ คุณควรใช้งานอย่างระมัดระวังตอนที่ส่ง แบ่งปัน แจกจ่าย ส่งต่อ หรือก็อปปี้ภาพเหล่านี้ เนื่องจากมีการระบุตำแหน่งว่าภาพถ่ายที่ใดด้วย</string>
+    <string name="sp_eula_popup_dialog_msg_taglocation_NORMAL">หลังจากเลือก \"แท็กพิกัด\" แล้ว อุปกรณ์นี้จะแนบ ฝัง และจัดเก็บข้อมูลพิกัดทางภูมิศาสตร์ภายในแต่ละภาพ คุณควรใช้งานอย่างระมัดระวังตอนที่ส่ง แบ่งปัน แจกจ่าย ส่งต่อ หรือก็อปปี้ภาพเหล่านี้ เนื่องจากมีการระบุพิกัดว่าภาพถ่ายที่ใดด้วย</string>
+    <string name="geo_tag_dialog_title_cdma">ปิดบริการ LBS</string>
+    <string name="geo_tag_dialog_msg_cdma">เปิด LBS จากการตั้งค่าเพื่อใช้แท็กตำแหน่ง</string>
+    <string name="geo_tag_dialog_confirm_cdma">ตั้งค่า LBS</string>
+    <string name="sp_video_length_dialog_title_NORMAL">ความยาววิดีโอ</string>
+    <string name="sp_video_length_dialog_msg_NORMAL">เลือกโหมดบันทึก</string>
+    <string name="sp_video_length_dialog_long_NORMAL">วิดีโอแบบยาว</string>
+    <string name="sp_video_length_dialog_title_v2_NORMAL">โหมดบันทึก</string>
+    <string name="sp_video_length_dialog_mms_NORMAL">" วีดีโอ MMS"</string>
+    <string name="camera_error_title">กล้องถ่ายรูปผิดพลาด</string>
+    <string name="cannot_connect_camera">ไม่สามารถเชื่อมต่อกับกล้องถ่ายรูป</string>
+    <string name="sp_notiintsd_NORMAL">ไฟล์ของคุณจะบันทึกในความจำภายใน เข้าไปใน การตั้งค่า > การ์ด SD และระบบจัดเก็บข้อมูล</string>
+    <string name="sp_notiextsd_NORMAL">ไฟล์ของคุณอาจบันทึกลงไปในความจำภายนอก เข้าไปในการตั้งค่า > การ์ด SD และระบบจัดเก็บข้อมูล</string>
+    <string name="pref_camera_settings_category">ตั้งค่ากล้องถ่ายรูป</string>
+    <string name="pref_camcorder_settings_category">การตั้งค่ากล้องวิดีโอ</string>
+    <string name="sp_Camcorder_NORMAL">กล้องวิดีโอ</string>
+    <string name="camcorder_activity_name">กล้องวิดีโอ</string>
+    <string name="sp_close_app_NORMAL">กดปุ่ม \"กลับ\" อีกครังเพื่อปิดกล้องถ่ายรูป</string>
+    <string name="sp_popup_storage_limitsize_NORMAL">"ถึงขนาดบันทึกสูงสุดแล้ว
+บันทึกไฟล์แล้ว"</string>
+    <string name="sp_popup_storage_limit_with_exact_size_NORMAL">"ถึงขนาดบันทึกสูงสุดแล้ว(%s)
+บันทึกไฟล์แล้ว"</string>
+    <string name="sp_popup_storage_maxsize_NORMAL">"ถึงขีดจำกัดสูงสุด  ของการบันทึกแล้ว
+การบันทึกจะสิ้นสุดเร็วๆนี้"</string>
+    <string name="sp_popup_storage_maximum_size_NORMAL">"ถึงขีดจำกัดสูงสุด (%s) ของการบันทึกแล้ว
+การบันทึกจะสิ้นสุดเร็วๆนี้"</string>
+    <string name="sp_sd_card_read_only_NORMAL">การ์ด SD ต่อเชื่อมแบบอ่านอย่างเดียว</string>
+    <string name="sp_MMS_REC_limit_NORMAL">เวลาบันทึกสูงสุดของ MMS คือ %d วินาที</string>
+    <string name="sp_popup_character_limit_NORMAL">อักขระไม่ถูกต้อง.</string>
+    <string name="sp_filename_already_exists_NORMAL">มีชื่อไฟล์นี้อยู่แล้ว</string>
+    <string name="sp_message_recording_limit_NORMAL">ขนาดไฟล์แนบเล็กกว่าขีดจำกัดขนาดบันทึกต่ำสุด</string>
+    <string name="sp_help_toast_smart_shutter_NORMAL">ระบบชัตเตอร์อัจฉริยะป้องกันภาพสั่น ถ้าคุณมือสั่นโดยไม่ตั้งใจ</string>
+    <string name="sp_help_scene_mode_menu_smart_shutter_desc_NORMAL">ถ่ายภาพที่เคลื่อนไหวอย่างรวดเร็วโดยที่วัตถุไม่พร่ามัวในร่ม</string>
+    <string name="sp_help_scene_mode_menu_action_desc_NORMAL">บันทึกภาพวัตถุที่กำลังเคลื่อนไหวอย่างรวดเร็วโดยภาพไม่เบลอ</string>
+    <string name="sp_help_shot_mode_beauty_desc_NORMAL">ถ่ายภาพโดยใช้เทคนิคภาพที่สว่างกว่าปกติจากภาพเบลอ</string>
+    <string name="sp_help_shot_mode_hdr_desc_NORMAL">รวมหลายๆภาพที่ถ่ายโดยใช้คอนทราสต์สูงแบบเดียวกัน ที่ใช้การเปิดหน้ากล้องต่างกันเพื่อสร้างภาพที่เป็นธรรมชาติมากขึ้น</string>
+    <string name="sp_help_shot_mode_slow_motion_desc_NORMAL">กำลังบันทึกวัตถุที่เคลื่อนไหวอย่างรวดเร็วเพื่อเล่นช้าๆ</string>
+    <string name="sp_help_shot_mode_time_machine_desc_NORMAL">ถ่ายภาพต่อเนื่อง 6 ภาพในครั้งเดียวก่อนแตะปุ่มชัตเตอร์</string>
+    <string name="sp_help_shot_mode_time_machine_5_picture_NORMAL">ถ่ายภาพต่อเนื่องห้าภาพก่อนแตะปุ่มชัทดาวน์</string>
+    <string name="sp_shot_mode_shot_and_clear">ช็อต &amp; เคลียร์</string>
+    <string name="sp_scene_mode_smart_shutter_NORMAL">ระบบชัทเตอร์อัจฉริยะ</string>
+    <string name="sp_scene_mode_action_NORMAL">การทำงาน</string>
+    <string name="sp_shot_mode_beauty_NORMAL">ช็อตสวยงาม</string>
+    <string name="sp_shot_mode_time_machine_NORMAL">ไทม์แมชชีนช๊อต</string>
+    <string name="sp_shot_mode_live_desc_NORMAL">บันทึกหน้าจอในระหว่างบันทึกวิดีโอ</string>
+    <string name="sp_shot_mode_live_effect_desc_NORMAL">เปลี่ยนพื้นหลังและใส่เทคนิคแปลงภาพ เพื่อแปลคุณสมบัติบนใบหน้าในช่วงการบันทึกวิดีโอ</string>
+    <string name="dual_camera">กล้องคู่</string>
+    <string name="sp_focus_infinity_NORMAL">อินฟินิตี้</string>
+    <string name="sp_high_temp_action_NORMAL">ถอดแบตเตอรี่หรือย้ายไปอยู่ที่เย็นๆ</string>
+    <string name="sp_high_temperature_detection_NORMAL">เซนเซอร์ความร้อนเจออุณหภูมิสูง</string>
+    <string name="sp_attach_file_size_exceeded_NORMAL">เกินขีดจำกัดสูงสุดของไฟล์แนบ</string>
+    <string name="sp_high_temp_action_on_enter_NORMAL">เซ็นเซอร์ความร้อนตรวจเจออุณหภูมิสูง เรียกใช้กล้องไม่ได้</string>
+    <string name="sp_high_temp_action_on_recording_NORMAL">เซ็นเซอร์ความร้อนตรวจเจออุณหภูมิสูง จะปิดการบันทึกวิดีโอ</string>
+    <string name="high_temp_action_on_recording">ไม่สามารถบันทึกวิดีโอได้ เพื่อควบคุมอุณหภูมิของโทรศัพท์ให้เหมาะสม โปรดรอสักครู่แล้วลองใหม่</string>
+    <string name="sp_warning_high_temperature_on_recording_NORMAL">เตือนการใช้งาน การถ่ายวิดีโอขณะชาร์ทอาจทำให้อุณหภูมิของอุปกรณ์สูงขึ้น</string>
+    <string name="warning_high_temp_action_flash_off">ปิดแฟลชเพื่อควบคุมอุณหภูมิโทรศัพท์ให้เหมาะสมที่สุด</string>
+    <string name="sp_silly_face_title_NORMAL">หน้าตลก</string>
+    <string name="sp_big_eyes_NORMAL">ตาโต</string>
+    <string name="sp_big_mouth_NORMAL">ปากโต</string>
+    <string name="sp_squeeze_NORMAL">แก้มตอบ</string>
+    <string name="sp_big_nose_NORMAL">จมูกโต</string>
+    <string name="sp_small_eyes_NORMAL">ดวงตาเล็ก</string>
+    <string name="sp_small_mouth_NORMAL">ปากเล็ก</string>
+    <string name="sp_background_title_NORMAL">แบ็คกราวน์</string>
+    <string name="sp_in_space_NORMAL">อวกาศ</string>
+    <string name="sp_sunset_NORMAL">ตะวันลับ</string>
+    <string name="sp_disco_NORMAL">ดิสโก้</string>
+    <string name="sp_choose_gallery_NORMAL">วิดีโอ</string>
+    <string name="sp_bg_replacement_message_NORMAL">"วางโทรศัพท์ลงไปในพื้นเรียบ และตรวจสอบให้แน่ใจว่าไม่มีการเคลื่อนไหวอยู่ด้านหลังของคุณ
+
+จากนั้นถอยออกมาจากมุมมองของกล้อง"</string>
+    <string name="sp_bg_replacement_message_v2_NORMAL">"ถืออุปกรณ์นิ่งๆเพื่อป้องกันการสั่น และดูให้แน่ใจว่าไม่มีการเคลื่อนไหว
+เมื่อพร้อมที่จะถ่ายวิดีโอให้วัตถุที่ต้องการถ่ายเข้ามาอยู่ในมุมมองของกล้อง"</string>
+    <string name="sp_pano_too_fast_prompt_NORMAL">เร็วเกินไป</string>
+    <string name="sp_live_effect_NORMAL">เอฟเฟกต์ไลฟ์</string>
+    <string name="dual_recording">บันทึกโหมดคู่</string>
+    <string name="smart_zoom">สมาร์ทซูม</string>
+    <string name="anti_shaking">ป้องกันการสั่น</string>
+    <string name="sp_audio_zoom_NORMAL">ซูมเสียง</string>
+    <string name="sp_tracking_focus_NORMAL">โฟกัสติดตามวัตถุ</string>
+    <string name="sp_video_recording_normalmode_NORMAL">กำลังบันทึกวิดีโอแบบมาตรฐาน</string>
+    <string name="sp_note_shot_mode_setting_change_NORMAL">ปรับแต่งการตั้งค่าสำหรับโหมด %s</string>
+    <string name="sp_help_swap_camera_menu_desc_v2_NORMAL">สลับระหว่างกล้องหลักและกล้องด้านหน้า</string>
+    <string name="sp_help_light_frame_desc_v2_NORMAL">เปิดแฟลชเพื่อถ่ายรูปที่สว่างมากขึ้น โดยใช้หน้าจอพรีวิวขนาดเล็กขณะใช้กล้องด้านหน้า</string>
+    <string name="sp_help_zoom_desc_v2_NORMAL">ซูมเข้าและออก</string>
+    <string name="sp_help_brightness_desc_v2_NORMAL">ปรับระดับการเปิดหน้ากล้อง</string>
+    <string name="sp_help_flash_desc_v2_NORMAL">ตั้งค่าแฟลช</string>
+    <string name="sp_help_flash_auto_desc_v2_NORMAL">เปิดแฟลชเมื่อต้องการใช้</string>
+    <string name="sp_help_flash_off_desc_v2_NORMAL">ปิดแฟลช</string>
+    <string name="sp_help_flash_on_desc_v2_NORMAL">เปิดแฟลช</string>
+    <string name="sp_help_camera_settings_desc_v2_NORMAL">ปรับการตั้งค่ากล้อง.</string>
+    <string name="sp_help_focus_desc_v2_NORMAL">ตั้งโฟกัส</string>
+    <string name="sp_help_focus_auto_desc_v2_NORMAL">โฟกัสอัตโนมัติมาตรฐาน</string>
+    <string name="sp_help_focus_face_desc_v2_NORMAL">แยกแยะและโฟกัสใบหน้าโดยอัตโนมัติ</string>
+    <string name="sp_help_image_size_menu_desc_v2_NORMAL">กำหนดขนาดของภาพ</string>
+    <string name="sp_help_scene_mode_menu_desc_v2_NORMAL">เลือกโหมดโปรด</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_v2_NORMAL">บันทึกภาพถ่ายแบบมาตรฐาน</string>
+    <string name="sp_help_scene_mode_menu_portrait_desc_v2_NORMAL">บันทึกภาพผู้คน</string>
+    <string name="sp_help_scene_mode_menu_landscape_desc_v2_NORMAL">บันทึกทิวทัศน์ตามธรรมชาติ</string>
+    <string name="sp_help_scene_mode_menu_sports_desc_v2_NORMAL">บันทึกภาพวัตถุที่กำลังเคลื่อนไหวอย่างรวดเร็วโดยภาพไม่เบลอ</string>
+    <string name="sp_help_scnen_mode_menu_sunset_desc_v2_NORMAL">บันทึกภาพพระอาทิตย์ตกโดยใช้แบ็กไลท์</string>
+    <string name="sp_help_scene_mode_menu_night_desc_v2_NORMAL">บันทึกภาพในพื้นที่มืด</string>
+    <string name="sp_help_iso_menu_desc_v2_NORMAL">เพิ่มความไวแสงตอนที่ถ่ายภาพในสภาพแสงน้อย เพื่อลดภาพเบลอเนื่องจากกล้องสั่นหรือวัตถุเคลื่อนไหว</string>
+    <string name="sp_help_withe_balance_desc_v2_NORMAL">ปรับอุณหภูมิสีของภาพที่ตั้งค่าเอาไว้ให้สอดคล้องกับแหล่งกำเนิดแสง</string>
+    <string name="sp_help_white_balance_auto_desc_v2_NORMAL">ปรับสมดุลแสงอัตโนมัติ เพื่อให้เหมาะกับสภาพแสง</string>
+    <string name="sp_help_withe_balance_incandescent_desc_v2_NORMAL">ใช้ในที่แสงจ้า</string>
+    <string name="sp_help_white_balance_sunny_desc_v2_NORMAL">ใช้กลางแดด</string>
+    <string name="sp_help_white_balance_flourescent_desc_v2_NORMAL">ใช้ในแสงฟลูออเรสเซนท์</string>
+    <string name="sp_help_white_balance_cloudy_desc_v2_NORMAL">ใช้ในที่ร่มหรือวันที่มีเมฆมาก</string>
+    <string name="sp_help_withe_balance_incandescent_desc_camera_v2_NORMAL">ใช้ในที่แสงจ้า</string>
+    <string name="sp_help_white_balance_sunny_desc_camera_v2_NORMAL">ใช้ตอนอยู่กลางแจ้ง</string>
+    <string name="sp_help_white_balance_flourescent_desc_camera_v2_NORMAL">ใช้ในแสงฟลูออเรสเซนท์</string>
+    <string name="sp_help_white_balance_cloudy_desc_camera_v2_NORMAL">ใช้ในที่ร่มหรือวันที่มีเมฆมาก</string>
+    <string name="sp_help_color_effect_desc_v2_NORMAL">ตั้งค่าเทคนิคกรองสีตอนถ่ายรูป</string>
+    <string name="sp_help_color_effect_off_desc_v2_NORMAL">ไม่มีเอฟเฟกต์สี</string>
+    <string name="sp_help_color_effect_mono_desc_v2_NORMAL">บันทึกเป็นภาพขาวดำ</string>
+    <string name="sp_help_color_effect_sepia_desc_v2_NORMAL">บันทึกภาพโทนสีซีเปีย</string>
+    <string name="sp_help_color_effect_negative_desc_v2_NORMAL">บันทึกภาพโดยการสลับสี</string>
+    <string name="sp_help_timer_menu_desc_v2_NORMAL">ตั้งถ่วงเวลา 3, 5 หรือ 10 วินาทีก่อนถ่ายภาพ</string>
+    <string name="sp_help_shot_mode_desc_v2_NORMAL">ตั้งค่าโหมดถ่ายรูปแบบต่างๆ</string>
+    <string name="sp_help_shot_mode_normal_desc_v2_NORMAL">โหมดปกติ</string>
+    <string name="sp_help_shot_mode_continuous_shot_desc_v2_NORMAL">ถ่าย 6 รูปติดต่ออย่างรวดเร็ว</string>
+    <string name="sp_help_shot_mode_panorama_shot_desc_v2_NORMAL">สลับภาพตามแนวนอนอย่างต่อเนื่องเพื่อรวมเป็นภาพพาโนรามาภาพเดียว</string>
+    <string name="sp_help_shutter_sound_menu_desc_v2_NORMAL">ตั้งเอฟเฟกต์เสียงตอนถ่ายรูป</string>
+    <string name="sp_help_show_captured_image_menu_desc_v2_NORMAL">แสดงภาพทันทีหลังจากที่ถ่าย</string>
+    <string name="sp_help_geo_tagging_menu_desc_v2_NORMAL">เพิ่มข้อมูลระบุพิกัดลงไปในภาพที่ถ่าย</string>
+    <string name="sp_help_storage_v2_NORMAL">เลือกที่เก็บข้อมูลเพื่อจัดเก็บภาพ.</string>
+    <string name="sp_help_storage_inner_v2_NORMAL">บันทึกภาพในความจำเครื่อง.</string>
+    <string name="sp_help_storage_sd_v2_NORMAL">บันทึกภาพใน SD การ์ด.</string>
+    <string name="sp_help_video_size_desc_v2_NORMAL">กำหนดขนาดไฟล์วิดีโอ</string>
+    <string name="sp_help_video_color_effect_desc_v2_NORMAL">ตั้งค่าเทคนิคกรองสีตอนบันทึกวิดีโอ</string>
+    <string name="sp_help_video_color_effect_mono_desc_v2_NORMAL">บันทึกวิดีโอเป็นภาพขาวดำ</string>
+    <string name="sp_help_video_color_effect_sepia_desc_v2_NORMAL">บันทึกวิดีโอเป็นโทนสีซีเปีย</string>
+    <string name="sp_help_video_color_effect_negative_desc_v2_NORMAL">บันทึกวิดีโอเป็นสีสลับ</string>
+    <string name="sp_help_video_shot_mode_live_shot_desc_v2_NORMAL">บันทึกหน้าจอขณะบันทึกวิดีโอ</string>
+    <string name="sp_help_video_shot_mode_live_effect_desc_v2_NORMAL">เปลี่ยนแบ็กกราวน์และใช้เทคนิคเชื่อมภาพ เพื่อแปลงคุณสมบัติบนใบหน้าเมื่อบันทึกวิดีโอ</string>
+    <string name="sp_help_video_voice_desc_v2_NORMAL">ตั้งเสียงตอนบันทึกวิดีโอ</string>
+    <string name="sp_help_video_voice_unmute_desc_v2_NORMAL">บันทึกวิดีโอพร้อมเสียง</string>
+    <string name="sp_help_video_voice_mute_desc_v2_NORMAL">บันทึกวิดีโอโดยไม่มีเสียง</string>
+    <string name="sp_help_video_show_desc_v2_NORMAL">แสดงวิดีโอทันทีหลังจากบันทึก</string>
+    <string name="sp_help_video_geo_tagging_menu_desc_v2_NORMAL">เพิ่มข้อมูลระบุพิกัดลงไปในวิดีโอที่บันทึก</string>
+    <string name="sp_help_videostorage_v2_NORMAL">เลือกที่เก็บข้อมูลเพื่อบันทึกวิดีโอ.</string>
+    <string name="sp_help_videostorage_in_v2_NORMAL">บันทึกวิดีโอไปความจำภายใน.</string>
+    <string name="sp_help_videostorage_sd_v2_NORMAL">บันทึกวิดีโอใน SD การ์ด.</string>
+    <string name="sp_help_shot_mode_beauty_desc_v2_NORMAL">บันทึกภาพโดยใช้เทคนิคความสว่างและภาพเบลอ</string>
+    <string name="sp_help_flipped_img_desc_NORMAL">บันทึกเป็นภาพพลิกตามแนวตั้ง</string>
+    <string name="sp_help_normal_img_desc_NORMAL_NORMAL">บันทึกเป็นภาพปกติ</string>
+    <string name="sp_help_camera_reset_desc_v3_NORMAL">รีเซ็ทการตั้งค่ากล้องกลับไปเป็นค่าเริ่มต้น</string>
+    <string name="sp_help_flipped_img_desc_v3_NORMAL">บันทึกรูปภาพเป็นแบบพลิกรูป</string>
+    <string name="sp_help_video_reset_desc_v3_NORMAL">รีเซ็ทการตั้งค่าวิดีโอไปเป็นค่าเริ่มต้น</string>
+    <string name="sp_deleted_images_NORMAL">จะลบภาพที่เลือกไว้ ดำเนินการต่อ ?</string>
+    <string name="sp_deleted_photos_NORMAL">จะลบภาพที่เลือกไว้ ดำเนินการต่อ ?</string>
+    <string name="sp_help_guide_beauty_shot_desc_NORMAL">ปรับแต่งภาพให้สวยโดยการปรับความสว่างและเทคนิคภาพเบลอ จากการควบคุมแถบที่อยู่ด้านล่าง</string>
+    <string name="sp_help_guide_beauty_shot_desc_list">ปรับแต่งภาพให้สวยโดยการปรับความสว่างและเทคนิคภาพเบลอ จากการควบคุมแถบที่อยู่ด้านล่าง</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL">"6 การถ่ายรูปต่อเนื่องจะทำได้ภายในช่วงเวลาต่ำสุดโดยการกดชัทเตอร์
+คุณสามารถเลือกภาพเพื่อบันทึกและแบ่งปันได้โดยตรง (เมื่อ \"เปิดการรีวิวอัตโนมัติ\")"</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL_v2">ถ่ายรูปต่อเนื่อง 6 รูปทันทีหลังจากการกดชัตเตอร์</string>
+    <string name="sp_help_guide_hdr_desc_NORMAL">HDR ทำให้ภาพสมจริงมากขึ้นโดยใช้เทคโนโลยีเปิดหน้ากล้องหลายชนิด</string>
+    <string name="sp_help_guide_hdr_desc_list">HDR ทำให้ภาพสมจริงมากขึ้นโดยใช้เทคโนโลยีเปิดหน้ากล้องหลายชนิด</string>
+    <string name="sp_help_guide_live_effect_desc_NORMAL">เอฟเฟกต์ไลฟ์จัดเตรียมเอฟเฟกต์หลากชนิดเอาไว้สำหรับการถ่ายวิดีโอ เลือกเอฟเฟกต์ แล้วเริ่มบันทึกภาพได้เลย</string>
+    <string name="sp_help_guide_panorama_shot_desc_NORMAL">"ภาพต่อเนื่องเชื่อมต่อเป็นภาพพาโนรามาภาพเดียว
+กดชัทเตอร์เพื่อเริ่มและแพนกล้องจากจุดปลายจุดหนึ่งไปยังอีกจุดหนึ่ง กดชัทเตอร์อีกครั้งเพื่อจบการทำงาน"</string>
+    <string name="sp_help_guide_free_panorama_shot_desc_NORMAL">"รูปภาพที่ถ่ายต่อเนื่องจะรวมเป็นภาพพาโนรามา 360 องศา
+กดชัทเตอร์เพื่อเริ่มและหันกล้องไปทางใดก็ได้"</string>
+    <string name="sp_help_guide_time_machine_desc_NORMAL">กล้องจะบันทึกภาพหลายๆภาพหนึ่งวินาทีก่อนกดชัตเตอร์ คุณสามารถเลือกภาพที่จะบันทึกและแบ่งปันได้โดยตรง (เมื่อ \"เปิดรีวิวอัตโนมัติ\")</string>
+    <string name="sp_help_guide_time_machine_desc_new_NORMAL">ตรวจสอบและบันทึกทิวทัศน์ที่คุณพลาดก่อนถ่ายรูป</string>
+    <string name="sp_help_guide_time_machine_desc_new_vzw_NORMAL">จับภาพช่วงเวลาก่อนที่คุณจะกดชัตเตอร์</string>
+    <string name="sp_help_popup_guide_time_machine_desc_new_NORMAL">Time catch shot จับภาพช่วงเวลาก่อนที่คุณจะกดชัตเตอร์</string>
+    <string name="sp_help_guide_time_machine_new_desc_NORMAL">กล้องจะบันทึกภาพหลายๆภาพหนึ่งวินาทีก่อนกดชัตเตอร์ จะบันทึกเฉพาะรูปภาพที่เลือกไว้</string>
+    <string name="sp_image_SHORT">ภาพ</string>
+    <string name="sp_video_SHORT">วิดีโอ</string>
+    <string name="sp_will_be_deleted_NORMAL">%1$sจะถูกลบ ดำเนินการต่อ?</string>
+    <string name="sp_photo_will_be_deleted_NORMAL">จะลบรูปภาพ ดำเนินการต่อ ?</string>
+    <string name="sp_video_will_be_deleted_NORMAL">จะลบวิดีโอ ดำเนินการต่อ?</string>
+    <string name="sp_gps_settings_title_NORMAL">ปิดบริการพิกัด</string>
+    <string name="sp_gps_setting_msg_NORMAL">เปิดใช้บริการระบุตำแหน่งเพื่อใช้ระบบติดป้ายระบุตำแหน่ง</string>
+    <string name="sp_geotagging_NORMAL">จีโอแท็ก</string>
+    <string name="sp_enable_app_msg_NORMAL">ต้องเปิด %s เพื่อใช้ฟังก์ชันนี้ เปิดใช้แอปพลิเคชันนี้หรือไม่ ?</string>
+    <string name="sp_photoimage_SHORT">รูปภาพ</string>
+    <string name="sp_note_dialog_title_NORMAL">บันทึก</string>
+    <string name="sp_saved_NORMAL">บันทึก</string>
+    <string name="sp_front_NORMAL">ด้านหน้า</string>
+    <string name="sp_rear_NORMAL">ด้านหลัง</string>
+    <string name="sp_timemachine_delete_warning_NORMAL">รูปภาพที่ยังไม่ได้บันทึกจะหายไป ดำเนินการต่อ?</string>
+    <string name="sp_timemachine_bubble_popup_NORMAL">ถ้าต้องการเช็คช่วงเวลาที่หายไป กดปุ่มนี้</string>
+    <string name="sp_timemachine_select_NORMAL">คลิกเลือกรูปที่ต้องการเก็บไว้</string>
+    <string name="sp_timemachine_select_new_NORMAL">เลือกรูปภาพที่คุณต้องการเก็บไว้</string>
+    <string name="sp_timemachine_save_guide">เลือกรูปภาพที่ต้องการจัดเก็บแล้วกดปุ่ม \"บันทึก\"</string>
+    <string name="sp_help_guide_time_catch_desc_NORMAL">"ถ่ายภาพและเลือกภาพที่ดีที่สุด
+ก่อนที่จะกดปุ่มซัตเตอร์"</string>
+    <string name="sp_help_guide_time_catch_new_desc_NORMAL">Time catch shot จะจับภาพที่อาจพลาดไปก่อนกดชัตเตอร์. จะบันทึกเฉพาะรูปภาพที่เลือกไว้</string>
+    <string name="sp_timemachine_bubble_popup_jp_NORMAL">ถ้าหากต้องการแสดงรูปภาพที่บันทึกไว้ 1 วินาทีก่อนที่จะปล่อยนิ้วจากชัตเตอร์ กดปุ่มนี้</string>
+    <string name="sp_force_close_on_high_temperature_NORMAL">กล้องถ่ายรูปจะถูกปิดเนื่องจากอุณหภูมิสูงเกิน</string>
+    <string name="sp_screen_cannot_be_captured_NORMAL">บันทึกภาพหน้าจอปัจจุบันไม่ได้</string>
+    <string name="sp_voice_shutter_help_desc">ถ่ายภาพโดยใช้คำสั่งเสียง</string>
+    <string name="sp_clear_shot_tab_guide">แตะโครงสร้างวัตถุใดๆเพื่อลบออกจากรูป</string>
+    <string name="sp_clear_shot_tab_guide_v2">แตะวัตถุรอบนอกเพื่อลบแล้วกดปุ่มบันทึก</string>
+    <string name="sp_clear_shot_not_found_object">ไม่มีวัตถุที่จะลบ</string>
+    <string name="sp_clear_shot_warning_popup">รูปภาพของคุณจะหายไปเนื่องจากไม่ได้บันทึกขั้นตอนนี้เอาไว้ ดำเนินการต่อ?</string>
+    <string name="sp_clear_shot_warning_handshake">ถือโทรศัพท์ให้มั่นคง</string>
+    <string name="sp_clear_shot_capture_failed">ล้มเหลว</string>
+    <string name="intelligent_auto">ระบบอัตโนมัติอัจฉริยะ</string>
+    <string name="sp_anti_shaking_help_desc">ป้องกันภาพสั่นขณะบันทึกวิดีโอ เพื่อให้ได้วิดีโอคุณภาพสูงสุด</string>
+    <string name="sp_photo_has_not_yet_been_saved_warning_popup">ยังไม่ได้บันทึกรูปภาพ ออกโดยไม่บันทึก?</string>
+    <string name="sp_wdr_recording_help_desc">บันทึกโดยใช้การเปิดหน้ากล้องที่ต่างกันเพื่อรองรับวิดีโอที่ปรับแต่งแบกไลท์ให้เหมาะสม พร้อมระบบควบคุมการเปิดหน้ากล้องหลากชนิด</string>
+    <string name="sp_wdr_recording_help_desc_list">บันทึกโดยใช้การเปิดหน้ากล้องที่ต่างกันเพื่อรองรับวิดีโอที่ปรับแต่งแบกไลท์ให้เหมาะสม พร้อมระบบควบคุมการเปิดหน้ากล้องหลากชนิด</string>
+    <string name="sp_burst_shot_help_desc">ถ่ายรูป 20 รูปอย่างรวดเร็วโดยกดชัทเตอร์เพียงครั้งเดียว</string>
+    <string name="sp_burst_shot_help_desc_list">ถ่ายรูป 20 รูปอย่างรวดเร็วโดยกดชัทเตอร์เพียงครั้งเดียว</string>
+    <string name="sp_clear_shot_help_desc">ถ่ายรูป แตะโครงสร้างวัตถุใดๆเพื่อลบออกจากรูป</string>
+    <string name="sp_intelligent_auto_help_desc">จำแนกรูปแบบของทิวทัศน์โดยอัตโนมัติแล้วจึงถ่ายภาพ</string>
+    <string name="sp_intelligent_auto_help_desc_popup">จำแนกรูปแบบของทิวทัศน์โดยอัตโนมัติ จากนั้นปรับหน้ากล้อง ความเร็วชัตเตอร์ และตัวเลือกต่างๆเพื่อถ่ายภาพ</string>
+    <string name="sp_tracking_focus_help_desc">แตะที่วัตถุในหน้าจอพรีวิวเพื่อติดตามและปรับโฟกัสไปที่วัตถุดังกล่าว</string>
+    <string name="sp_dual_recording_help_desc">ปรับกล้องด้านหน้าและกล้องหลักในหน้าจอเดียวสำหรับการบันทึก</string>
+    <string name="sp_dual_recording_help_desc_v2">"1. ลากเพื่อย้ายหน้าจอขนาดเล็ก
+2. แตะหน้าจอขนาดเล็กค้างไว้เพื่อปรับขนาด
+3. แตะหน้าจอขนาดเล็กเพื่อสลับไปมาระหว่างจอขนาดเล็กและใหญ่"</string>
+    <string name="sp_audio_zoom_help_desc_in_recording">หุบนิ้วเพื่อปรับปรุงระบบซูมเสียง</string>
+    <string name="sp_audio_zoom_help_desc">เพิ่มความไวของเสียงในพื้นที่ซูมและลดเสียงตอนที่บันทึก</string>
+    <string name="sp_audio_zoom_help_desc_v2">ซูมในบางจุดเพื่อเพิ่มความไวของเสียงและลดเสียงรบกวน ใช้บริการได้เฉพาะในมุมมองแนวนอน ถอดไมโครโฟนด้านข้างออกขณะใช้คุณสมบัตินี้</string>
+    <string name="sp_live_effect_help_desc">ใช้เทคนิคพิเศษต่างๆตอนที่บันทึกวิดีโอ</string>
+    <string name="sp_vrpanorama_help_desc">ถ่ายรูปเรียงตามลำดับเมื่อสร้างรูปภาพระบุตำแหน่ง</string>
+    <string name="sp_vrpanorama_help_desc_v2">"1. กดชัทเตอร์เพื่อเริ่มโหมด VR พาโนราม่า
+2. กำหนดพื้นที่โฟกัสตามแนวสีฟ้าเพื่อถ่ายรูป 
+3. เลื่อนกล้องเพื่อกำหนดพื้นที่โฟกัสอีกจุดหนึ่งแล้วถ่ายรูป รูปที่ถ่ายได้จะรวมกันเป็นรูปภาพเดียว"</string>
+    <string name="sp_dual_camera_help_desc">ปรับกล้องด้านหน้าและกล้องหลักในหน้าจอเดียวสำหรับการบันทึก</string>
+    <string name="sp_smart_zoom_help_desc">ขยายพื้นที่โฟกัสในหน้าจอขนาดเล็กตอนถ่ายวิดีโอ</string>
+    <string name="sp_smart_zoom_help_desc_v2">"1. ลากโฟกัสเพื่อขยายวิดีโอที่ได้รับ
+2. จอขนาดเล็กแสดงโฟกัสที่กำหนดของมุมมองขนาดใหญ่ ถ้าต้องการย้าย แตะค้างไว้"</string>
+    <string name="sp_intelligent_auto_mode_NORMAL">โหมดกล้องอัตโนมัติอัจฉริยะ</string>
+    <string name="sp_normal_camera_mode_NORMAL">โหมดกล้องปกติ</string>
+    <string name="sp_center_NORMAL">ศูนย์กลาง</string>
+    <string name="sp_border_NORMAL">ขอบ</string>
+    <string name="sp_3d_depth_NORMAL">ความลึกของภาพ 3D</string>
+    <string name="sp_popup_change_view_to_landscape_for_3d_NORMAL">เปลี่ยนมุมมองเป็นโหมดแนวนอน เพื่อดูเทคนิค 3D อย่างเต็มประสิทธิภาพ</string>
+    <string name="sp_entering_guide_NORMAL">"เพื่อแก้ไขเมนูด่วน
+กดไอคอนนี้แช่ไว้"</string>
+    <string name="sp_entering_clean_guide_NORMAL">โปรดตรวจสอบว่าเลนส์กล้องสะอาดแล้วเพื่อช่วยให้ได้ภาพที่คมชัด</string>
+    <string name="sp_entering_gallery_guide_NORMAL">"ถ้าต้องการตรวจสอบรูปที่ถ่ายไว้อย่างรวดเร็ว
+กดไอคอนแกลลอรีค้างไว้"</string>
+    <string name="entering_guide_att">"กดไอคอนค้างไว้ 
+เพื่อแก้ไขชอร์ทคัท"</string>
+    <string name="sp_entering_gallery_guide_vzw">"ถ้าต้องการตรวจสอบรูปที่ถ่ายไว้อย่างรวดเร็ว
+กดไอคอนแกลลอรีค้างไว้"</string>
+    <string name="entering_guide_vzw">"กดไอคอนค้างไว้ 
+เพื่อแก้ไขชอร์ทคัท"</string>
+    <string name="portrait_plus">รูปคน +</string>
+    <string name="help_guide_portrait_plus_shot_desc">Portrait + ช่วยให้ผิวหน้าสว่างและเรียบขึ้น</string>
+    <string name="edit_quick_menu">เมนูแก้ไขด่วน</string>
+    <string name="error_occurred">เกิดความผิดพลาด</string>
+    <string name="sp_info_empty_SHORT">ว่าง</string>
+    <string name="accessibility_exit_edit_menu">ออกจากเมนูแก้ไข</string>
+    <string name="accessibility_shutter_button">ชัตเตอร์</string>
+    <string name="accessibility_review_thumbnail">รูปภาพหรือวิดีโอล่าสุด</string>
+    <string name="accessibility_camera_picker">สลับกล้องถ่ายรูปกับกล้องวิดีโอ</string>
+    <string name="accessibility_beautyshot_bar">แถบควบคุมแต่งรูปสวย</string>
+    <string name="accessibility_beautyshot_control">ควบคุมการถ่ายรูปหน้าสวย</string>
+    <string name="accessibility_beautyshot_button">ปุ่มควบคุมแต่งรูปสวย</string>
+    <string name="accessibility_brightness_bar">แถบควบคุมความสว่าง</string>
+    <string name="accessibility_brightness_control">ควบคุมความสว่าง</string>
+    <string name="accessibility_brightness_button">ปุ่มควบคุมความสว่าง</string>
+    <string name="accessibility_manual_focus_bar">แถบควบคุมการโฟกัสด้วยตนเอง</string>
+    <string name="accessibility_manual_focus_button">ควบคุมการโฟกัสด้วยตนเอง</string>
+    <string name="accessibility_zoom_bar">แถบควบคุมการซูม</string>
+    <string name="accessibility_zoom_control">ควบคุมการซูม</string>
+    <string name="accessibility_zoom_button">ปุ่มควบคุมการซูม</string>
+    <string name="accessiblity_free_panorama_retake">ถ่ายภาพซ้ำ</string>
+    <string name="accessiblity_start_recording">เริ่มการบันทึก</string>
+    <string name="accessiblity_stop_recording">หยุดการบันทึก</string>
+    <string name="accessiblity_pause_recording">หยุดการบันทึกชั่วคราว</string>
+    <string name="camera_accessibility_stop_button">หยุด</string>
+    <string name="free_panorama_bubble_popup">ถ้าต้องการแสดงรูปภาพแบบ 360 องศา แตะที่หน้าจอ</string>
+    <string name="error_panorama_during_taking">หยุดการถ่ายภาพพาโนรามาสำหรับตำแหน่งของกล้องแบบนี้ ระบบบันทึกรูปภาพในแกลลอรี่</string>
+    <string name="sp_date_stamp">ประทับตราวันที่</string>
+    <string name="audio_zoom_warning">ระบบซูมเสียงจะเปิดใช้ในมุมมองแนวนอนเท่านั้น</string>
+    <string name="audio_zoom_disabled">ปิดซูมเสียง</string>
+    <string name="unable_to_use_qmemo">ไม่สามารถใช้ %s ได้</string>
+    <string name="sp_open_quick_camera_case">เปิด Quick Camera Case</string>
+    <string name="message_received">ได้รับข้อความใหม่</string>
+    <string name="pd_message_processing">กำลังประมวลผล…</string>
+    <string name="not_available_during_remote_care">ใช้งานไม่ได้ในช่วง Remote Care</string>
+    <string name="dual_camera_effect_menu_none">ไม่มี</string>
+    <string name="dual_camera_effect_menu_stamp">ตราประทับ</string>
+    <string name="dual_camera_effect_menu_ovalblur">เบลอรูปวงรี</string>
+    <string name="dual_camera_effect_menu_instantpic">ทันที</string>
+    <string name="dual_camera_effect_menu_heart">รูปหัวใจ</string>
+    <string name="dual_camera_effect_menu_star">รูปดาว</string>
+    <string name="dual_camera_effect_menu_window">หน้าต่าง</string>
+    <string name="dual_camera_effect_menu_cubism">ลูกบาศก์</string>
+    <string name="dual_camera_effect_menu_splitview1">แบ่งมุมมอง 1</string>
+    <string name="dual_camera_effect_menu_splitview2">แบ่งมุมมอง 2</string>
+    <string name="smart_zoom_object_tracking_focus_mode">โหมดโฟกัสแบบติดตามวัตถุ</string>
+    <string name="smart_zoom_manual_focus_mode">โหมดโฟกัสปกติ</string>
+    <string name="sp_shot_mode_new_hdr">Dynamic tone(HDR)</string>
+    <string name="sp_help_guide_new_hdr_desc_list">รวมรูปภาพที่ถ่ายโดยการเปิดหน้ากล้องให้กลายเป็นรูปภาพเดียว เพื่อทำให้ได้รูปภาพเดียวที่ดีขึ้น ภายใต้สภาพแสงที่ยุ่งยาก</string>
+    <string name="accessiblity_mode_button">โหมด</string>
+    <string name="accessiblity_change_view_list_button">มุมมองรายการ</string>
+    <string name="accessiblity_change_view_grid_button">มุมมองกริด</string>
+    <string name="accessiblity_default_auto_button">ปกติ</string>
+    <string name="mode_menu_camera_normal">ถ่ายรูปโดยใช้โหมดกล้องปกติ</string>
+    <string name="mode_menu_video_normal">บันทึกวิดีโอโดยใช้โหมดบันทึกปกติ</string>
+    <string name="mode_menu_video_tracking_zoom">การซูมติดตามวัตถุจะช่วยให้คุณขยายพื้นที่ที่เลือกได้ คุณสามารถดูผ่านหน้าจอขนาดเล็กและถ่ายวิดีโอได้</string>
+    <string name="help">ช่วยเหลือ</string>
+    <string name="camera_quick_button_index_mode">โหมด</string>
+    <string name="panorama_guide_tap_shutter_to_start">กดปุ่มชัทเตอร์เพื่อเริ่มการทำงาน</string>
+    <string name="panorama_guide_move_in_one_direction">ย้ายไปยังทิศทางใดทิศทางหนึ่ง</string>
+    <string name="panorama_guide_tap_to_finish">แตะปุ่ม \"หยุด\" เพื่อจบการทำงาน</string>
+    <string name="sp_down_NORMAL">ลง</string>
+    <string name="sp_up_NORMAL">ขึ้น</string>
+    <string name="sp_right_NORMAL">ขวา</string>
+    <string name="sp_left_NORMAL">ซ้าย</string>
+    <string name="volume_key">ปุ่มปรับระดับเสียง</string>
+    <string name="volume_key_capture_image">ถ่ายภาพ</string>
+    <string name="volume_key_record_video">บันทึก</string>
+    <string name="volume_key_zoom">ซูม</string>
+    <string name="volume_key_zoom_only">ซูมใช้ได้เฉพาะกล้องด้านหลัง</string>
+    <string name="volume_key_zoom_disable">โหมดนี้ไม่รองรับการซูม</string>
+    <string name="volume_key_zoom_disable_resolution">ซูมไม่ได้รับการสนับสนุนสำหรับการแก้ปัญหานี้</string>
+    <string name="help_scene_mode_menu_night_desc_new">ถ่ายรูปในที่มืด โดยไม่ใช้แฟลช</string>
+    <string name="sp_confirm_NORMAL">ยืนยัน</string>
+    <string name="sp_dialog_change_setting">เปลี่ยน \"เปิด\" เป็น \"ปิด\"</string>
+    <string name="sp_dialog_change_setting_au_cloud">โปรดยกเลิก \"การปิดการทำงาน\" ของแอปพลิเคชัน au</string>
+    <string name="sp_auto_upload_NORMAL">อัพโหลดอัตโนมัติ</string>
+    <string name="sp_new_ux_help_guide_title_clear_shot">คู่มือการใช้งานโหมดช็อต &amp; เคลียร์</string>
+    <string name="sp_new_ux_help_guide_title_hdr">คู่มือ Dynamic tone (HDR)</string>
+    <string name="sp_new_ux_help_guide_title_panorama">คู่มือการถ่ายภาพพาโนราม่า</string>
+    <string name="sp_new_ux_help_guide_title_vr_panorama">คู่มือ VR panorama</string>
+    <string name="sp_new_ux_help_guide_title_burst_shot">คู่มือ Burst shot</string>
+    <string name="sp_new_ux_help_guide_title_beauty_shot">คู่มือการถ่ายภาพให้หน้าสวย</string>
+    <string name="sp_new_ux_help_guide_title_portrait_plus">รูปคน + คู่มือ</string>
+    <string name="sp_new_ux_help_guide_title_dual_camera">คู่มือกล้องคู่</string>
+    <string name="sp_new_ux_help_guide_title_time_machine_camera">คู่มือการใช้กล้องโหมดไทม์แมชชีน</string>
+    <string name="sp_new_ux_help_guide_title_time_catch_shot">คู่มือการถ่ายภาพแบบ time catch</string>
+    <string name="sp_new_ux_help_guide_title_intelligent_auto">คู่มือการทำงานของโหมดระบบอัตโนมัติอัจฉริยะ</string>
+    <string name="sp_new_ux_help_guide_title_sports">คู่มือการถ่ายภาพกีฬา</string>
+    <string name="sp_new_ux_help_guide_title_night">คู่มือถ่ายภาพกลางคืน</string>
+    <string name="sp_new_ux_help_guide_title_dual_recording">คู่มือการบันทึกวีดีโอโหมดคู่</string>
+    <string name="sp_new_ux_help_guide_title_live_effect">คู่มือไลฟ์เอฟเฟกต์</string>
+    <string name="sp_new_ux_help_guide_title_continuous_shot">คู่มือการถ่ายภาพต่อเนื่อง</string>
+    <string name="sp_new_ux_help_guide_title_hdr_recording">คู่มือการบันทึกภาพแบบ HDR</string>
+    <string name="sp_new_ux_help_guide_title_wdr_recording">คู่มือการบันทึก WDR</string>
+    <string name="sp_new_ux_help_guide_title_voice_shutter">คู่มือ Voice shutter</string>
+    <string name="sp_new_ux_help_guide_title_cheese_shutter">คู่มือ Cheese shutter</string>
+    <string name="sp_new_ux_help_guide_title_uplus_box">คู่มือการใช้งาน บันทึกอัตโนมัติของ U+ Box</string>
+    <string name="sp_new_ux_help_guide_title_audio_zoom">คู่มือการซูมเสียง</string>
+    <string name="sp_new_ux_help_guide_title_tracking_zoom">คู่มือการซูมติดตามวัตถุ</string>
+    <string name="sp_new_ux_help_guide_desc_clear_shot">"1. ถ่ายรูป
+2. แตะวัตถุรอบข้าางที่ต้องการลบออกจากรูป
+3. แตะปุ่มบันทึกเพื่อบันทึก"</string>
+    <string name="sp_new_ux_help_guide_desc_hdr">โหมด HDR ถ่ายรูปหลายรูปด้วยการเปิดหน้ากล้องต่างกันโดยการปรับปรุงระบบควบคุมการเปิดหน้ากล้องหลายแบบแล้วรวมรูปให้กลายเป็นรูปภาพที่ดีที่สุดเพียงรูปเดียว</string>
+    <string name="sp_new_ux_help_guide_desc_panorama">"1. กดปุ่มชัทเตอร์เพื่อเริ่มการทำงาน
+2. เลื่อนอุปกรณ์ไปยังทิศทางหนึ่งอย่างช้าๆ
+3. กดปุ่มหยุดเมื่อจบการทำงาน"</string>
+    <string name="sp_new_ux_help_guide_desc_plane_panorama">"1. กดปุ่มชัทเตอร์เพื่อเริ่มการทำงาน
+2. เลื่อนอุปกรณ์ไปยังทิศทางหนึ่งอย่างช้าๆ
+3. วางโฟกัสไปตามแนวกรอบสีน้ำเงินเพื่อถ่ายรูป
+4. กดปุ่มหยุดเมื่อจบการทำงาน"</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama">"1. กดชัทเตอร์เพื่อเริ่มโหมด VR พาโนราม่า
+2. กำหนดพื้นที่โฟกัสตามแนวสีฟ้าเพื่อถ่ายรูป 
+3. เลื่อนกล้องเพื่อกำหนดพื้นที่โฟกัสอีกจุดหนึ่งแล้วถ่ายรูป รูปที่ถ่ายได้จะรวมกันเป็นรูปภาพเดียว"</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new">"1. แตะปุ่มชัทเตอร์เพื่อเริ่มโหมด VR panorama
+2. นำเอาพื้นที่ที่ต้องการโฟกัสไปยังแนวเส้นสีฟ้าเพื่อถ่ายรูป
+3. ย้ายกล้องเพื่อจับพื้นที่อื่นๆที่ต้องการโฟกัสแล้วถ่ายรูป
+รูปภาพจะรวมกันเป็นภาพเดียว
+ตอนที่ถ่ายรูป VR Panorama โปรดอย่ายืนใกล้กับวัตถุมาเกินไปแล้ว แต่ควรอยู่ในระยะห่างที่เหมาะสม"</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new_specified">"1. แตะปุ่มชัทเตอร์เพื่อเริ่มโหมด VR panorama
+2. นำเอาพื้นที่ที่ต้องการโฟกัสไปยังแนวเส้นสีฟ้าเพื่อถ่ายรูป
+3. ย้ายกล้องเพื่อจับพื้นที่อื่นๆที่ต้องการโฟกัสแล้วถ่ายรูป
+รูปภาพจะรวมกันเป็นภาพเดียว
+ตอนที่ถ่ายรูป VR Panorama โปรดอย่ายืนใกล้กับวัตถุมาเกินไปแล้ว แต่ควรอยู่ในระยะห่างอย่างเหมาะสม (16 ฟุตหรือ 5 ม.)"</string>
+    <string name="sp_new_ux_help_guide_desc_light_frame">ถ่ายรูปที่ผ่านหน้าจอพรีวิวขนาดเล็กกว่าขณะใช้กล้องด้านหน้า</string>
+    <string name="sp_new_ux_help_guide_desc_burst_shot">ถ่ายรูป 20 รูปอย่างรวดเร็วโดยกดชัทเตอร์เพียงครั้งเดียว</string>
+    <string name="sp_new_ux_help_guide_desc_beauty_shot">การถ่ายภาพให้หน้าสวยจะทำให้ผิวของใบหน้าสว่างและเรียบมากขึ้น</string>
+    <string name="sp_new_ux_help_guide_desc_time_machine_camera">"1. ถ่ายรูปเพื่อเริ่มทำงานกล้องไทม์แมชชีน
+2. กดปุ่ม gallery เพื่อทบทวนช่วงเวลาที่ประทับใจ
+3. เลือกรูปภาพที่คุณต้องการเก็บไว้
+4. กดปุ่มบันทึก"</string>
+    <string name="sp_new_ux_help_guide_desc_time_catch_shot">"1. ถ่ายรูปเพื่อเริ่มการทำงาน Time catch shot
+2. กดปุ่ม gallery เพื่อทบทวนช่วงเวลาที่ประทับใจ
+3. เลือกรูปภาพที่คุณต้องการเก็บไว้
+4. กดปุ่มบันทึก"</string>
+    <string name="sp_new_ux_help_guide_desc_intelligent_auto">จำแนกรูปแบบของทิวทัศน์โดยอัตโนมัติแล้วจึงถ่ายภาพ</string>
+    <string name="sp_new_ux_help_guide_desc_dual_recording">"1. ลากเพื่อย้ายหน้าจอขนาดเล็ก
+2. แตะหน้าจอขนาดเล็กค้างไว้เพื่อปรับขนาด
+3. แตะหน้าจอขนาดเล็กเพื่อสลับไปมาระหว่างจอขนาดเล็กและใหญ่"</string>
+    <string name="sp_new_ux_help_guide_desc_live_effect">"1. เลือกเอฟเฟกต์ที่ต้องการใช้
+2. กดปุ่มบันทึกเพื่อเริ่มการบันทึก"</string>
+    <string name="sp_new_ux_help_guide_desc_hdr_recording">การบันทึกภาพแบบ HDR ช่วยเพิ่มคุณภาพวิดีโอ โดยการควบคุมการเปิดหน้ากล้องหลายแบบ</string>
+    <string name="sp_new_ux_help_guide_desc_wdr_recording">การบันทึกแบบ WDR จะทำให้วิดีโอของคุณมีคุณภาพที่ดีขึ้นโดยการควบคุมการเปิดหน้ากล้องหลายแบบ</string>
+    <string name="sp_uhd_heat_warning">บันทึกกวิดีโอ UHD ได้ไม่เกิน 5 นาที เพื่อควบคุมอุณหภูมิอุปกรณ์ให้อยู่ในระดับที่เหมาะสม ระบบจะปิดการบันทึกวิดีโอ</string>
+    <string name="sp_help_guide_title_face_tracking_led">คู่มือระบบติดตามใบหน้า</string>
+    <string name="sp_help_guide_face_tracking_led">"กระพริบไฟแจ้งเตือนเมื่อเจอใบหน้า
+คุณสามารถเปลี่ยนการตั้งค่าในการตั้งค่า > จอภาพ> ไฟแจ้งเตือน"</string>
+    <string name="dialog_alert_title">การเตือน</string>
+    <string name="camera_accessibility_indicator_message_remaining">ข้อความตัวอักษรใหม่</string>
+    <string name="camera_accessibility_indicator_mms_remaining">ข้อความมัลติมีเดียใหม่</string>
+    <string name="camera_accessibility_indicator_voice_mail_remaining">วอยซ์เมลใหม่</string>
+    <string name="camera_accessibility_indicator_gps_connecting">เปิดใช้การติดป้ายระบุตำแหน่งทางภูมิศาสตร์</string>
+    <string name="camera_accessibility_indicator_geotagging_on">ใช้งานการติดป้ายระบุตำแหน่งทางภูมิศาสตร์</string>
+    <string name="camera_accessibility_indicator_remaining_picture_count">ถ่ายรูปได้อีก%s รูป</string>
+    <string name="camera_accessibility_indicator_battery">แบตเตอรีเหลือ %s เปอร์เซ็นต์</string>
+    <string name="camera_accessibility_indicator_storage">บันทึกใน %s</string>
+    <string name="camera_accessibility_indicator_voice_shutter_on">เปิด%s</string>
+    <string name="camera_accessibility_indicator_anti_shaking_on">เปิดป้องกันการสั่น</string>
+    <string name="camera_accessibility_thumbnail">ไปที่คลังภาพ</string>
+    <string name="not_available_during_incoming_call">"ใช้งานไม่ได้ในช่วงการโทร "</string>
+    <string name="camera_error_occurred_try_again">ใช้งานกล้องถ่ายรูปไม่ได้ชั่วขณะเนื่องจากมีปัญหาชั่วคราว โปรดลองใหม่</string>
+    <string name="mode_menu_camera_refocus_new">เลือกโฟกัสอีกครั้งหลังจากถ่ายรูป</string>
+    <string name="sp_refocus_bubble_popup_NORMAL">ถ้าต้องการปรับโฟกัสในรูปภาพใหม่ โปรดแตะที่นี่</string>
+    <string name="sp_postview_action_bar_menu_all_in_focus">โฟกัสรวมทั้งหมด</string>
+    <string name="sp_refocus_preview_guide_message">เข้าไปใกล้ๆวัตถุ แล้วถือกล้องนิ่งๆในขณะถ่ายรูป</string>
+    <string name="shot_mode_magic_focus">เมจิกโฟกัส</string>
+    <string name="sp_new_ux_help_guide_title_refocus">คู่มือเมจิกโฟกัส</string>
+    <string name="sp_camera_refocus_postview_allinfocus_message">โฟกัสทุกจุดในรูปภาพของคุณ</string>
+    <string name="sp_new_ux_help_guide_desc_refocus_new">"1. ถ่ายรูปและแตะปุ่ม แกลเลอรี่
+2. ถ้าต้องการเปลี่ยนโฟกัส โปรดแตะที่วัตถุที่ต้องการหรือปรับแกน
+3. แตะปุ่ม บันทึก เพื่อบันทึกรูปภาพที่ปรับโฟกัสใหม่"</string>
+    <string name="sp_refocus_postview_message_new">แตะวัตถุหรือปรับแกนเพื่อเปลี่ยนโฟกัส จากนั้นแตะปุ่ม (#1#) ที่อยู่บริเวณมุมขวาบน</string>
+    <string name="sp_refocus_postview_message_vzw_new">แตะวัตถุหรือปรับแกนเพื่อเปลี่ยนโฟกัส จากนั้นแตะปุ่ม บันทึก ที่อยู่บริเวณมุมขวาบน</string>
+    <string name="sp_refocus_warning_popup">ไม่ได้เปลี่ยนโฟกัส ออกจากโปรแกรม?</string>
+    <string name="gesture_guide">ปิดนิ้วเพื่อถ่ายรูป</string>
+    <string name="sp_gesture_guide_msg_fist">กางมือเพื่อถ่ายรูป</string>
+    <string name="camera_help_activity_gesture_shot">Gesture ช็อต</string>
+    <string name="sp_help_gestureshot_desc">ถ่ายรูปเซลฟีโดยใช้ท่าทางของมือ</string>
+    <string name="sp_new_ux_help_guide_title_gestureshot">คู่มือการถ่ายรูปโดยใช้ท่าทาง</string>
+    <string name="sp_new_ux_gesture_shot_help_activity_desc">ถ่ายเซลฟีโดยใช้ท่าทางมือ ถ้าต้องการถ่ายรูป โปรดยกมือจนกระทั่งกล้องด้านหน้าสามารถจำแนกใบหน้าของคุณและมีกรอบปรากฏบนหน้าจอ จากนั้นโปรดกำหมัดเพื่อถ่ายรูป</string>
+</resources>

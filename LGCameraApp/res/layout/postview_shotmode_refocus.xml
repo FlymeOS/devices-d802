@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/postview_shotmode_refocus" android:background="#ff000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/captured_image_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <ImageView android:id="@id/captured_image" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" android:layoutDirection="ltr" />
+        <ImageView android:id="@id/captured_ani_view" android:background="#00000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" android:layoutDirection="ltr" />
+        <RelativeLayout android:id="@id/object_background_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr" />
+        <FrameLayout android:id="@id/touch_focus_view_layout_framelayout" android:layout_width="@dimen/lcd_width" android:layout_height="@dimen/lcd_width" android:layoutDirection="ltr">
+            <FrameLayout android:id="@id/touch_focus_view_layout_framelayout_inner" android:layout_width="@dimen/lcd_width" android:layout_height="@dimen/lcd_width" android:layoutDirection="ltr">
+                <ImageView android:id="@id/touch_focus_view" android:background="@drawable/focus_guide" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layoutDirection="ltr" android:layout_alignParentStart="true" />
+            </FrameLayout>
+        </FrameLayout>
+        <TextView android:gravity="center" android:id="@id/refocus_guide_text_view" android:visibility="invisible" android:layout_width="@dimen/refocus_postview_guide_text.width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/clearshot_guide_text_marginBottom" android:text="@string/sp_refocus_postview_message_new" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" style="@style/refocus_guide_text" />
+        <RelativeLayout android:id="@id/refocus_bar_handler_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layoutDirection="ltr" android:layout_alignParentEnd="true">
+            <com.lge.camera.postview.PostViewBar android:id="@id/refocus_bar_handler" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layoutDirection="ltr">
+                <ImageView android:id="@id/refocus_bar_handler_index" android:background="@drawable/camera_preview_manual_focus_bar_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layoutDirection="ltr" />
+                <ImageView android:id="@id/refocus_bar_handler_plus" android:background="@drawable/camera_preview_brightness_plus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:layout_toEndOf="@id/refocus_bar_handler_index" style="@style/NoFocusableButton" />
+                <RelativeLayout android:id="@id/refocus_bar_handler_cursor_bg_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/refocus_bar_handler_plus" android:layoutDirection="ltr" android:layout_toEndOf="@id/refocus_bar_handler_index">
+                    <ImageView android:id="@id/refocus_bar_handler_cursor_bg" android:background="@drawable/camera_postview_manual_focus_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/accessibility_manual_focus_bar" android:layoutDirection="ltr" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/refocus_bar_handler_cursor_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_zoom_bar_cursor.marginTop" android:layoutDirection="ltr" android:layout_toEndOf="@id/refocus_bar_handler_index">
+                    <ImageView android:id="@id/refocus_bar_handler_cursor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_setting_ev_cursor" android:layout_centerHorizontal="true" android:layoutDirection="ltr" />
+                </RelativeLayout>
+                <ImageView android:id="@id/refocus_bar_handler_minus" android:background="@drawable/camera_preview_brightness_minus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/refocus_bar_handler_cursor_bg_view" android:layoutDirection="ltr" android:layout_toEndOf="@id/refocus_bar_handler_index" style="@style/NoFocusableButton" />
+                <RelativeLayout android:layout_width="20.0dip" android:layout_height="wrap_content" android:layout_toEndOf="@id/refocus_bar_handler_minus" />
+            </com.lge.camera.postview.PostViewBar>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

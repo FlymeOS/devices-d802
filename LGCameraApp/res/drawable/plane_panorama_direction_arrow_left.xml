@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="300" android:drawable="@drawable/panorama_blink_arrow_left_0" />
+    <item android:duration="100" android:drawable="@drawable/panorama_blink_arrow_left_1" />
+    <item android:duration="150" android:drawable="@drawable/panorama_blink_arrow_left_2" />
+    <item android:duration="400" android:drawable="@drawable/panorama_blink_arrow_left_3" />
+    <item android:duration="100" android:drawable="@drawable/panorama_blink_arrow_left_4" />
+    <item android:duration="150" android:drawable="@drawable/panorama_blink_arrow_left_5" />
+</animation-list>

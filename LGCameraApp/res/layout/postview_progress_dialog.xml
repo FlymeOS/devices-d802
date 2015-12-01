@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/postview_progress_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/progress_dialog_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/Dialog_Background">
+        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/dialog_top" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ProgressBar android:id="@android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="10000" android:layout_marginEnd="16.0dip" style="?android:attr/progressBarStyle" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/waiting_save_image" android:paddingEnd="50.0dip" style="@style/progress_rotate_dialog_text" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

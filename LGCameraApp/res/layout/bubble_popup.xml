@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lge.camera.components.RotateLayout android:layout_gravity="center" android:id="@id/bubble_popup_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bubble_popup" android:background="@drawable/camera_bubble_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.lge.camera.components.RotateTextView android:id="@id/bubble_popup_message" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bubble_popup_text" />
+    </RelativeLayout>
+</com.lge.camera.components.RotateLayout>

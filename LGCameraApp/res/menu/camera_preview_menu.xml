@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/camera_preview_edit_quickmenu" android:title="@string/edit_quick_menu" />
+    <item android:id="@id/camera_preview_reset" android:title="@string/reset" />
+    <item android:id="@id/camera_preview_help" android:title="@string/help_title" />
+</menu>

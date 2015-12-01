@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/setting_expand_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/backcover" android:background="#99000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr" />
+    <RelativeLayout android:id="@id/setting_expand_sub_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <com.lge.camera.components.RotateLayout android:id="@id/setting_expand_rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layoutDirection="locale">
+            <LinearLayout android:orientation="vertical" android:id="@id/setting_expand_inner_layout" android:background="#00000000" android:layout_width="@dimen/expand_settingview_port_3.width" android:layout_height="@dimen/expand_settingview_port_5.height">
+                <RelativeLayout android:id="@id/setting_expand_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ListView android:id="@id/setting_expand_listview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dividerHeight="0.0dip" />
+                    <ImageView android:id="@id/setting_expand_parent_scollbar_thumb" android:background="@drawable/scrollbar_handle_holo_dark" android:focusable="false" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:alpha="1.0" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

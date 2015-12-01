@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.lge.camera" platformBuildVersionCode="21" platformBuildVersionName="5.0.2-1509316167955">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_MMS"/>
+    <uses-permission android:name="com.lge.vvm.permission.READ_VVM_DATA"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.SET_ANIMATION_SCALE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="activecare.permission.READ_OMADM"/>
+    <uses-permission android:name="activecare.permission.WRITE_OMADM"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.lge.permission.WRITE_SYSTEM_PROPERTIES"/>
+    <uses-permission android:name="com.lge.permission.LGPOWER_MANAGER_HELPER"/>
+    <application android:hardwareAccelerated="true" android:icon="@drawable/topmenu_icon_camera" android:label="@string/app_name" android:largeHeap="true" android:supportsRtl="true">
+        <meta-data android:name="com.lge.bl.ms" android:value="true"/>
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true"/>
+        <meta-data android:name="navi_bar_bg_disabled" android:value="true"/>
+        <uses-library android:name="com.google.android.media.effects" android:required="false"/>
+        <receiver android:name="com.lge.camera.listeners.CameraButtonIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.CAMERA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.lge.camera.listeners.CameraBLEIntentReceiver">
+            <intent-filter>
+                <action android:name="com.lge.action.BLE_ONEKEY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:icon="@drawable/topmenu_icon_camera" android:label="@string/app_name" android:name="com.lge.camera.listeners.QuickCamCaseIntentReceiver">
+            <intent-filter>
+                <action android:name="com.lge.android.intent.action.ACCESSORY_COVER_EVENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name=".QuickWindowCameraApp" android:screenOrientation="portrait" android:theme="@style/SecureTheme" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.lge.android.intent.action.STILL_IMAGE_CAMERA_COVER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name=".CameraApp" android:screenOrientation="portrait" android:theme="@style/CustomTheme" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.lge.action.BLE_ONEKEY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.lge.autorun.start_ums"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_widget"/>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/app_name" android:name="com.lge.camera.SecureCameraActivity" android:screenOrientation="portrait" android:taskAffinity="com.lge.camera.SecureCameraActivity" android:theme="@style/SecureTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity-alias android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/app_name" android:name=".SecureCameraApp" android:screenOrientation="portrait" android:targetActivity="com.lge.camera.SecureCameraActivity" android:taskAffinity="com.lge.camera.SecureCameraActivity" android:theme="@style/SecureTheme" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_widget"/>
+        </activity-alias>
+        <activity-alias android:icon="@drawable/topmenu_icon_camera" android:label="@string/app_name" android:name=".CameraAppLauncher" android:targetActivity="com.lge.camera.CameraApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/ic_launcher_camera_record" android:label="@string/sp_Camcorder_NORMAL" android:name=".Camcorder" android:screenOrientation="portrait" android:theme="@style/CustomTheme" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.lge.action.BLE_ONEKEY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:label="@string/app_name" android:name="com.lge.camera.PostviewNormalActivity" android:screenOrientation="user" android:theme="@style/ShotModePostViewTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:label="@string/app_name" android:name="com.lge.camera.PostviewTimeMachineActivity" android:screenOrientation="user" android:theme="@style/ShotModePostViewTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:label="@string/app_name" android:name="com.lge.camera.PostviewAttachActivity" android:screenOrientation="user" android:theme="@style/ShotModePostViewTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:label="@string/app_name" android:name="com.lge.camera.PostviewClearShotActivity" android:screenOrientation="user" android:theme="@style/ShotModePostViewTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:label="@string/app_name" android:name="com.lge.camera.PostviewRefocusActivity" android:screenOrientation="user" android:theme="@style/ShotModePostViewTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/help_title" android:name=".CameraHelp" android:screenOrientation="fullSensor" android:windowSoftInputMode="stateAlwaysHidden">
+            <meta-data android:name="com.lge.theme" android:value="Theme_LGE_White"/>
+        </activity>
+    </application>
+</manifest>

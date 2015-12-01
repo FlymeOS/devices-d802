@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/btn_right_bg" android:layout_width="@dimen/preview_panel.width" android:layout_height="fill_parent" android:layoutDirection="ltr" android:layout_alignParentEnd="true">
+        <RelativeLayout android:background="@drawable/mode_bg_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/switcher_lever_vertical_marginTop" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layoutDirection="ltr">
+            <ImageView android:background="@drawable/mode_bg_cam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/switcher_lever_vertical_mode_camera_marginTop" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/switcher_lever_vertical_mode_camera_marginLeft" />
+            <ImageView android:background="@drawable/mode_bg_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/switcher_lever_vertical_mode_video_marginTop" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/switcher_lever_vertical_mode_video_marginLeft" />
+            <ImageView android:background="@drawable/selector_switcher_knob_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/switcher_lever_keyguard_mode_marginLeft" android:src="@drawable/btn_mode_camera_keyguard" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <ImageView android:background="@drawable/selector_main_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_main_cam_btn" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        <ImageView android:background="@drawable/border_last_picture" android:layout_width="@dimen/review_thumbnail.width" android:layout_height="@dimen/review_thumbnail.height" android:layout_marginBottom="@dimen/camera_switch.marginTop" android:src="@drawable/last_picture_default_lock" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

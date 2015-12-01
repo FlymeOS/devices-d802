@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Խցիկ</string>
+    <string name="sp_ok_NORMAL">Լավ (OK)</string>
+    <string name="sp_lowbattery_MLINE">Մարտկոցի լիցքավորվածության աստիճանը չափազանց ցածր է խցիկն աշխատեցնելու համար: Խնդրում ենք լիցքավորել Ձեր սարքը:</string>
+    <string name="sp_lowbattery">Մարտկոցի լիցքը հիմա չափազանց ցածր է՝ լուսախցիկն աշխատեցնելու համար։</string>
+    <string name="setting_init">"Բոլոր կարգավորումները կվերակայվեն նախադրված արժեքների։
+Շարունակե՞լ։"</string>
+    <string name="sp_reset_message_NORMAL">Վերակայե՞լ լռելյայն արժեքների։</string>
+    <string name="sp_All_settings_reset_NORMAL">Բոլոր կարգավորումները վերակայված են։</string>
+    <string name="sp_blockedByEAS_NORMAL">Խցիկն անջատվել է Exchange server-ի դրույթի կողմից:</string>
+    <string name="sp_block_camera_NORMAL">Խցիկն անջատվել է սպասարկչի դրույթի կողմից</string>
+    <string name="error_cannot_use_hdmi">Հնարավոր չէ օգտագործել լուսախցիկը՝ HDMI-ին միացված ժամանակ։</string>
+    <string name="sp_dual_display_status_NORMAL">Հնարավոր չէ օգտագործել լուսախցիկը երկակի ցուցասարքի ռեժիմում։</string>
+    <string name="reset">Վերակայել</string>
+    <string name="cancel">Չեղարկել</string>
+    <string name="yes">Այո</string>
+    <string name="no">Ոչ</string>
+    <string name="sp_camera_helpdesc_generalsetting">Ընդհանուր</string>
+    <string name="sp_Exit_NORMAL">Ելք</string>
+    <string name="auto">Ինքնաբերաբար</string>
+    <string name="on">Միացված</string>
+    <string name="sp_review_timer_2_NORMAL">2 վայրկյան</string>
+    <string name="off">Անջատված է</string>
+    <string name="sp_none_NORMAL">Ոչ մի</string>
+    <string name="normal">Սովորական</string>
+    <string name="settings">Կարգավորումներ</string>
+    <string name="sp_loading_camera_NORMAL">Նախապատրաստում է...</string>
+    <string name="dual_camera_select">Տեսախցիկ փոխանակել</string>
+    <string name="insert_sd_card">Խնդրում ենք SIM քարտ զետեղել</string>
+    <string name="insert_add_sd_card">Սարել Ձեր արտաքին SD քարտը։</string>
+    <string name="sp_preparing_int_sd_NORMAL">Նախապատրաստում է ներքին հիշողություն...</string>
+    <string name="preparing_sd">Նախապատրաստում է SD քարտը:</string>
+    <string name="sp_cannot_use_camera_UMS_NORMAL">Հնարավոր չէ օգտագործել լուսախցիկը, քանի որ SD քարտը տեղադրված է համակարգչի վրա։ Անջատեք USB-ն՝ շարունակելու։</string>
+    <string name="sp_connected_mass_storage_NORMAL">Զանգվածային պահուստ</string>
+    <string name="sp_not_available_connected_mass_storage_NORMAL">"Խցիկը հասանելի չէ:
+Զանգվածային պահեստը կապված է համակարգչին:"</string>
+    <string name="sp_launch_NORMAL">Թողարկել</string>
+    <string name="sp_memory_full_diag_title_NORMAL">Հիշողությունը լիքն է</string>
+    <string name="sp_memory_full_diag_1_NORMAL">"Բավարար հիշողություն չկա %1$s-ում։
+Ձեր ֆայլը կպահպանվի %2$s-ում։
+Ազատել ավելի շատ հիշողություն %3$s-ում՝ միացնելով հեռախոսն ԱՀ-ին կամ մեկնարկելով ֆայլերի կառավարիչը։
+
+Մեկնարկե՞լ ֆայլերի կառավարիչը հիմա։
+Ստուգեք Ձեր ֆայլերը '%4$s'-ում"</string>
+    <string name="sp_memory_full_diag_1_no_file_manager_NORMAL">"Բավարար հիշողություն չկա %1$s-ում։
+Ձեր ֆայլը կպահպանվի %2$s-ում։
+Ազատել ավելի շատ հիշողություն %3$s-ում՝ միացնելով հեռախոսն ԱՀ-ին կամ մեկնարկելով ֆայլերի կառավարիչը։"</string>
+    <string name="sp_memory_full_diag_2_NORMAL">"Բավարար հիշողություն չկա %1$s-ում։
+Ազատել ավելի շատ հիշողություն %1$s-ում՝ միացնելով հեռախոսն ԱՀ-ին կամ մեկնարկելով ֆայլերի կառավարիչը։
+
+Մեկնարկե՞լ ֆայլերի կառավարիչը հիմա։
+Ստուգեք Ձեր ֆայլերը '%2$s'-ում"</string>
+    <string name="sp_memory_full_diag_2_no_file_manager_NORMAL">"Բավարար հիշողություն չկա %1$s-ում։
+Ազատել ավելի շատ հիշողություն %1$s-ում՝ միացնելով հեռախոսն ԱՀ-ին կամ մեկնարկելով ֆայլերի կառավարիչը։"</string>
+    <string name="sp_memory_full_diag_3_NORMAL">"Բավարար հիշողություն չկա ամբողջ հիշողությունում։
+Ազատել ավելի շատ հիշողություն՝ միացնելով հեռախոսն ԱՀ-ին կամ մեկնարկելով ֆայլերի կառավարիչը։
+
+Մեկնարկե՞լ ֆայլերի կառավարիչը հիմա։
+Ստուգեք Ձեր ֆայլերը '%1$s'-ում"</string>
+    <string name="sp_memory_full_diag_3_no_file_manager_NORMAL">"Բավարար հիշողություն չկա ամբողջ հիշողությունում։
+Ազատել ավելի շատ հիշողություն՝ միացնելով հեռախոսն ԱՀ-ին կամ մեկնարկելով ֆայլերի կառավարիչը։"</string>
+    <string name="sp_storage_full_popup_ics_title_NORMAL">Պահեստը լցված է</string>
+    <string name="sp_storage_full_message_not_on_internal_NORMAL">Բավարար տարածք չկա ներքին հիշողությունում։</string>
+    <string name="sp_storage_full_message_not_on_internal_sto_NORMAL">Բավարար տարածք չկա ներքին պահուստում</string>
+    <string name="sp_storage_full_message_not_on_sd_NORMAL">Բավարար տարածք չկա SD քարտի վրա։</string>
+    <string name="sp_storage_full_message_save_to_internal_NORMAL">Ֆայլը պահվում է ներքին հիշողության մեջ:</string>
+    <string name="sp_storage_full_message_save_to_internal_st_NORMAL">Ֆայլը պահվում է ներքին պահեստում:</string>
+    <string name="sp_storage_full_message_save_to_sd_NORMAL">Ֆայլը պահվում է SD քարտում:</string>
+    <string name="sp_storage_full_saving_file_NORMAL">Պահպանում է ֆայլը...</string>
+    <string name="sp_storage_full_free_NORMAL">Ծավալ ազատելու համար ջնջեք չօգտագործվող նիշքերը:</string>
+    <string name="msg_save_progress">Պահպանում է...</string>
+    <string name="sp_storage_full_popup_ics_1_NORMAL">Բավարար տարածք չկա %s-ի վրա։ Տեղ ազատելու համար ջնջել չօգտագործվող ֆայլերը։</string>
+    <string name="sp_storage_full_popup_ics_2_NORMAL">Բավարար տարածք չկա %1$s-ի վրա։ Ֆայլը պահպանվել է %2$s-ում։ Տեղ ազատելու համար ջնջել չօգտագործվող ֆայլերը։</string>
+    <string name="sp_storage_full_popup_ics_3_NORMAL">Բավարար տարածք չկա ամբողջ պահուստում։ Տեղ ազատելու համար ջնջել չօգտագործվող ֆայլերը։</string>
+    <string name="sp_storage_full_popup_ics_6_NORMAL">Բավարար տարածք չկա %s-ի վրա։ Պահպանում է ֆայլը…</string>
+    <string name="sp_full_popup_ics_1_not_in_memory_NORMAL">Բավարար տարածք չկա ներքին հիշողությունում։ Տեղ ազատելու համար ջնջել չօգտագործվող ֆայլերը։</string>
+    <string name="sp_full_popup_ics_1_not_in_storage_NORMAL">Բավարար տարածք չկա ներքին պահուստում։ Տեղ ազատելու համար ջնջել չօգտագործվող ֆայլերը։</string>
+    <string name="sp_full_popup_ics_1_not_sd_NORMAL">Բավարար տարածք չկա SD քարտի վրա։ Տեղ ազատելու համար ջնջել չօգտագործվող ֆայլերը։</string>
+    <string name="sp_full_popup_ics_2_not_in_memory_to_sd_NORMAL">Բավարար տարածք չկա ներքին հիշողությունում։ Ֆայլը կպահպանվի SD քարտի վրա։ Տեղ ազատելու համար ջնջել չօգտագործվող ֆայլերը։</string>
+    <string name="sp_full_popup_ics_2_not_in_storage_to_sd_NORMAL">Բավարար տարածք չկա ներքին պահուստում։ Ֆայլը կպահպանվի SD քարտի վրա։ Տեղ ազատելու համար ջնջել չօգտագործվող ֆայլերը։</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_memory_NORMAL">Բավարար տարածք չկա SD քարտի վրա։ Ֆայլը կպահպանվի ներքին պահուստում։ Տեղ ազատելու համար ջնջել չօգտագործվող ֆայլերը։</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_storage_NORMAL">Բավարար տարածք չկա SD քարտի վրա։ Ֆայլը կպահպանվի ներքին պահուստում։ Տեղ ազատելու համար ջնջել չօգտագործվող ֆայլերը։</string>
+    <string name="sp_full_popup_ics_6_not_in_memory_NORMAL">Բավարար տարածք չկա ներքին հիշողությունում։ Պահպանում է ֆայլը…</string>
+    <string name="sp_full_popup_ics_6_not_in_storage_NORMAL">Բավարար տարածք չկա ներքին պահուստում։ Պահպանում է ֆայլը…</string>
+    <string name="sp_full_popup_ics_6_not_sd_NORMAL">Բավարար տարածք չկա SD քարտի վրա։ Պահպանում է ֆայլը...</string>
+    <string name="sp_internal_sd_prepared_NORMAL">Ներքին հիշողությունը պատրաստ է:</string>
+    <string name="sp_external_sd_prepared_NORMAL">SD քարտը նախապատրաստված է։</string>
+    <string name="sp_not_enough_memory_NORMAL">"Բավարար պահուստ չկա ամբողջ Հիշողության մեջ։
+Ազատել ավելի շատ հիշողություն։"</string>
+    <string name="not_enough_space">Զետեղել նոր արտաքին հիշողության քարտ կամ ջնջել պարունակության որոշ մասը:</string>
+    <string name="sp_not_enough_int_sd_NORMAL">"Բավարար պահուստ չկա ներքին հիշողության մեջ։
+Ձեր ֆայլը կպահպանվի SD քարտի վրա։"</string>
+    <string name="sp_not_enough_add_space_NORMAL">"Բավարար պահուստ չկա SD քարտի վրա։
+Ազատել ավելի շատ հիշողություն։"</string>
+    <string name="sp_not_enough_sd_int_NORMAL">"Բավարար պահուստ չկա SD քարտի վրա։
+Ձեր ֆայլը կպահպանվի ներքին հիշողության մեջ։"</string>
+    <string name="sp_media_scanning_NORMAL">"Մեդիան սկանավորման ընթացքում է։ Փորձել կրկին,
+երբ մեդիան կավարտի սկանավորումը։"</string>
+    <string name="sp_media_scanning_ics_NORMAL">Փորձեք կրկին` մեդիա նիշքերը սկանավորելուց հետո:</string>
+    <string name="scanning_sdcard_media_files">Որոնում է SD քարտի մեդիա ֆայլերը...</string>
+    <string name="sp_ext_sdcard_not_exist_NORMAL">SD քարտը գոյություն չունի։ Պահուստը տեղափոխվել է ներքին հիշողություն։</string>
+    <string name="sp_sdremoved_change_int_NORMAL">SD քարտը հեռացված է։ Պահուստը տեղափոխվել է ներքին հիշողություն։</string>
+    <string name="sp_sd_card_removed_NORMAL">SD քարտը հեռացվել է։ Ներդրեք SD քարտը կրկին։</string>
+    <string name="camera_closed_due_to_sdcard_removal">SD քարտն անսպասելիորեն հեռացվել է։ Խցիկը փակված է։</string>
+    <string name="sp_sdcard_inserted_noti">SD քարտը մուտքագրվել է։ Պահպանե՞լ SD քարտին։</string>
+    <string name="sp_storage_always_ask_NORMAL">Միշտ հարցնել</string>
+    <string name="sp_storage_noti_title_NORMAL">Ծանուցում</string>
+    <string name="title_not_enough_space">Հիշողությունը լիքն է</string>
+    <string name="popup_storage_full_save">"Հիշողությունը լիքն է  Պահպանում է..."</string>
+    <string name="sp_notenoughmemory_NORMAL">"Ներքին հիշողությունը կամ SD քարտը լցված է:
+Ջնջեք պարունակության մի մասը:"</string>
+    <string name="sp_addspace_NORMAL">"SD քարտը լիքն է։
+Ջնջել որոշ բովանդակություններ։"</string>
+    <string name="sp_mhl_cannot_use_camera_NORMAL">Հնարավոր չէ օգտագործել լուսախցիկը, երբ MHL մալուխը միացված է։</string>
+    <string name="sp_mhl_cannot_show_preview_NORMAL">Հնարավոր չէ ցուցադրել լուսախցիկի նախադիտումը, երբ MHL մալուխը միացված է։</string>
+    <string name="msg_found_escape_char">չթույլատրված գրանշ գոյություն ունի</string>
+    <string name="sp_message_filename_limit_NORMAL">"Ֆայլի անվանման երկարության սահմանը գերանցված է:
+(սահման՝ %d գրանիշեր)"</string>
+    <string name="waiting_save_image">Խնդրում ենք սպասել...</string>
+    <string name="sp_image_size_front_NORMAL">Պատկերի չափի տառատեսակ</string>
+    <string name="image_size">Պատկերի չափ</string>
+    <string name="scene_mode">Տեսարանի ռեժիմ</string>
+    <string name="scene_mode_portrait">Դիմանկար</string>
+    <string name="scene_mode_landscape">Բնանկար</string>
+    <string name="scene_mode_sports">Սպորտ</string>
+    <string name="scene_mode_night">Գիշեր</string>
+    <string name="scene_mode_sunset">Մայրամուտ</string>
+    <string name="sp_scene_mode_normal_NORMAL">Սովորական</string>
+    <string name="sp_scene_mode_default_NORMAL">Ինքնաբերաբար</string>
+    <string name="white_balance">Սպիտակ գույնի հավասարակշռություն</string>
+    <string name="white_balance_incandescent">Լուսաշեկ</string>
+    <string name="white_balance_sunny">Արևոտ</string>
+    <string name="white_balance_fluorescent">Լուսածորող</string>
+    <string name="white_balance_cloudy">Ամպամածություն</string>
+    <string name="sp_whitebalance_default_NORMAL">Ինքնաբերաբար</string>
+    <string name="color_effect">Գունային էֆեկտ</string>
+    <string name="color_effect_mono">Մոնո</string>
+    <string name="color_effect_negative">Բացասական</string>
+    <string name="color_effect_solarize">Ենթարկվել արեգակի ճառագայթներին</string>
+    <string name="color_effect_sepia">Սեպիա</string>
+    <string name="color_effect_negative_sepia">Բացասական դարչնագույն</string>
+    <string name="color_effect_blue">Կապույտ</string>
+    <string name="color_effect_pastel">գունամատիտ</string>
+    <string name="color_effect_posterize">Պաստառացում</string>
+    <string name="color_effect_aqua">Ծովագույն</string>
+    <string name="sp_color_effect_none_cameraapp_NORMAL">Ոչ մի</string>
+    <string name="image_quality">Պատկերի որակը</string>
+    <string name="quality_super_fine">Հիանալի</string>
+    <string name="quality_fine">Հիանալի որակ</string>
+    <string name="sp_quality_normal_NORMAL">Սովորական</string>
+    <string name="video_quality">Տեսանյութի որակ</string>
+    <string name="timer">Ժամաչափ</string>
+    <string name="timer_1">1 վայրկյան</string>
+    <string name="timer_3">3 վայրկյան</string>
+    <string name="timer_5">5 վայրկյան</string>
+    <string name="timer_10">10 վայրկյան</string>
+    <string name="shot_mode">Լուսանկարման ռեժիմ</string>
+    <string name="shot_mode_continuous">Շարունակական նկարահանում</string>
+    <string name="shot_mode_smile">Ժպիտի պատկերում</string>
+    <string name="shot_mode_beauty">Գեղեցկացնող լուսանկար</string>
+    <string name="shot_mode_art">Գեղարվեստական լուսանկար</string>
+    <string name="shot_mode_panorama">Համապատկեր</string>
+    <string name="shot_mode_face_effect">Երեսի էֆէկտ</string>
+    <string name="shot_mode_cartoon">Ծաղրանկար</string>
+    <string name="shot_mode_free_panorama">360 համայնապատկեր</string>
+    <string name="shot_mode_vr_panorama">VR համայնապատկեր</string>
+    <string name="shot_mode_burst">Արագ անընդմեջ պատկերում</string>
+    <string name="sp_shot_mode_burst">Արագ անընդմեջ պատկերում</string>
+    <string name="record_mode">Ձայնագրման ռեժիմ</string>
+    <string name="record_mode_WDR">WDR ձայնագրություն</string>
+    <string name="record_mode_HDR">Բարձր դինամիկ միջակայքով (HDR) տեսագրում</string>
+    <string name="artshot_original">Սկզբնական</string>
+    <string name="artshot_warm">Տաք</string>
+    <string name="artshot_cold">Սառը</string>
+    <string name="artshot_blackwhite">Սև ու սպիտակ</string>
+    <string name="face_effect_blur">Մշուշ</string>
+    <string name="face_effect_snow">Ձյուն</string>
+    <string name="face_effect_shallow_focus">Մակերեսային ֆոկուս</string>
+    <string name="face_effect_big_head">Մեծ գլուխ</string>
+    <string name="face_effect_mosaic">Խճանկար</string>
+    <string name="face_effect_fish_eye">Ձկան աչք</string>
+    <string name="face_effect_concave">Փոսիկ</string>
+    <string name="face_effect_funny_mask">Ծիծաղելի դիմակ</string>
+    <string name="auto_review">Ինքնաբեր վերադիտում</string>
+    <string name="shutter_sound">Փականակի ձայն</string>
+    <string name="shutter_sound_1">Երանգ 1</string>
+    <string name="shutter_sound_2">Երանգ 2</string>
+    <string name="shutter_sound_3">Երանգ 3</string>
+    <string name="shutter_sound_4">Երանգ 4</string>
+    <string name="geo_tagging">Կցապիտակի տեղը</string>
+    <string name="sp_storage_NORMAL">Պահեստ</string>
+    <string name="sp_default_memory_NORMAL">SD քարտ և պահուստ</string>
+    <string name="sp_internal_memory_NORMAL">Ներքին հիշողություն</string>
+    <string name="sp_internal_storage_NORMAL">Ներքին պահեստ</string>
+    <string name="sp_external_memory_NORMAL">SD քարտ</string>
+    <string name="sp_anti_banding_NORMAL">Հակակապիչ</string>
+    <string name="focus">Ֆոկուս</string>
+    <string name="focus_macro">Մակրո</string>
+    <string name="focus_face_tracking">Երեսի հետագծում</string>
+    <string name="sp_quickfunction_focus_continuous_NORMAL">Շարունակական</string>
+    <string name="manual_for_camera">Ձեռքով</string>
+    <string name="flash">Լուսարկիչ</string>
+    <string name="sp_save_direction_NORMAL">Պահպանել Ուղղությունը</string>
+    <string name="zoom">Չափափոխում</string>
+    <string name="brightness">Պայծառություն</string>
+    <string name="sp_mirror_image_NORMAL">Հայելային պատկեր</string>
+    <string name="sp_normal_save_NORMAL">Սովորական պահպանում</string>
+    <string name="sp_flipped_image_NORMAL">Շրջված պատկեր</string>
+    <string name="sp_save_as_flipped_NORMAL">Պահպանել որպես շրջված</string>
+    <string name="sp_uplusbox_NORMAL_desc_on">Photos will be automatically uploaded to U+ Box.</string>
+    <string name="sp_voiceshutter_NORMAL">Ձայնի փական</string>
+    <string name="sp_note_voiceshutter_NORMAL">Ասել \"%s\", երբ պատրաստվում եք լուսանկարել։</string>
+    <string name="sp_voiceshutter_say_NORMAL">Ասել \"%s\" լուսանկարելու համար։</string>
+    <string name="sp_cheeseshutter_NORMAL">Պայմանական բառով լուսանկարում</string>
+    <string name="sp_voiceshutter_sound_kimchi_NORMAL">Կիմչի</string>
+    <string name="sp_voiceshutter_sound_cheese_NORMAL">Պայմանական բառ</string>
+    <string name="sp_voiceshutter_sound_smile_NORMAL">Ժպիտ</string>
+    <string name="sp_voiceshutter_sound_whisky_NORMAL">Վիսկի</string>
+    <string name="sp_note_voiceshutter_multi_sound_NORMAL">Լուսանկարելու համար ասացեք հետևյալ բառերից մեկը:</string>
+    <string name="sp_note_voiceshutter_multi_sound_vzw_NORMAL">Պայմանական բառով լուսանկարումը հետաձգում է լուսանկարումը մինչև հետևյալ բառերից որևէ մեկի արտասանումը`</string>
+    <string name="sp_voiceshutter_multi_sound_say_NORMAL">Լուսանկարելու համար ասացեք \"%1$s\", \"%2$s\", կամ \"%3$s\":</string>
+    <string name="sp_voiceshutter_multi_keyword_say_NORMAL">Լուսանկարելու համար ասացեք\"%1$s\", \"%2$s\", \"%3$s\", \"%4$s\", \"%5$s\":</string>
+    <string name="sp_voiceshutter_multi_keyword_say_4items">Լուսանկարելու համար ասացեք \"%1$s\", \"%2$s\", \"%3$s\", \"%4$s\":</string>
+    <string name="sp_voiceshutter_say_new_NORMAL">Լուսանկարելու համար ասացեք \"%s\":</string>
+    <string name="sp_voiceshutter_help_desc_NORMAL">Անել լուսանկար ձայնային հրամանով։</string>
+    <string name="video_size">Տեսանյութի չափը</string>
+    <string name="sp_video_duration_NORMAL">Տևողություն</string>
+    <string name="video_voice">Ձայնագրություններ</string>
+    <string name="sp_video_voice_unmute_NORMAL">Միացված</string>
+    <string name="sp_video_voice_mute_NORMAL">Լուռ</string>
+    <string name="show_recorded_video">Ինքնաբեր վերադիտում</string>
+    <string name="share">Համօգտագործել</string>
+    <string name="sp_share_via_NORMAL">Համօգտագործել միջոցով</string>
+    <string name="set_as">Նախադրել որպես</string>
+    <string name="sp_set_photo_as_NORMAL">Լուսանկարը նախադրել որպես</string>
+    <string name="rename">Վերանվանել</string>
+    <string name="sp_share_SHORT">Համօգտագործել</string>
+    <string name="sp_set_as_SHORT">Նախադրել որպես</string>
+    <string name="sp_rename_SHORT">Վերանվանել</string>
+    <string name="sp_set_as_twoline_NORMAL">Նախադրել որպես</string>
+    <string name="sp_rename_twoline_NORMAL">Վերանվանել</string>
+    <string name="edit">Խմբագրել</string>
+    <string name="sp_play_twoline_SHORT">Նվագարկել</string>
+    <string name="sp_share_twoline_SHORT">Համօգտագործել</string>
+    <string name="sp_set_as_twoline_SHORT">Նախադրել որպես</string>
+    <string name="sp_rename_twoline_SHORT">Վերանվանել</string>
+    <string name="sp_save_SHORT">Պահպանել</string>
+    <string name="sp_save_complete_SHORT">Ավարտել</string>
+    <string name="play">Նվագարկել</string>
+    <string name="dlg_title_rename">Նոր անուն մուտքագրեք</string>
+    <string name="dlg_title_delete">Ջնջել</string>
+    <string name="msg_multi_image_delete">Այս մեդիա ֆայլերը կջնջվեն:</string>
+    <string name="msg_image_delete">Նկարը կջնջվի:</string>
+    <string name="msg_video_delete">Տեսանյութը կջնջվի:</string>
+    <string name="popup_delete_done">Ջնջված է</string>
+    <string name="video_rec">Ձայնագրում</string>
+    <string name="slow_motion">Դանդաղ շարժում</string>
+    <string name="sp_note_img_size_change_NORMAL">Պատկերի չափը փոխվել է %s։</string>
+    <string name="note_image_deleted">Ջնջված պատկեր</string>
+    <string name="note_shot_mode_change_normal">Լուսանկարման ռեժիմը փոխվել է նորմալի:</string>
+    <string name="note_timer_mode_off">Ժամաչափի ռեժիմը կայված է անջատած:</string>
+    <string name="note_smile_shutter_started">Ինքնաբերաբար լուսանկարում է, երբ հայտնաբերվում է ժպիտ։</string>
+    <string name="note_focus_mode_set_to_auto">Ֆոկուսը դրված է ինքնաբար ռեժիմում</string>
+    <string name="note_iso_set_to_auto">ISO կայված է ավտոմատի վրա:</string>
+    <string name="sp_note_rec_size_change_NORMAL">Տեսանյութի չափը կայված է %s</string>
+    <string name="note_select_image">Ֆայլ(եր) ընտրված չէ (չեն):</string>
+    <string name="sp_select_photo_NORMAL">Ոչ մի լուսանկար(ներ) չի ընտրվել։</string>
+    <string name="note_color_effect_change">Գունային էֆեկտը անջատված է:</string>
+    <string name="sp_note_color_effect_change_NORMAL">Գունային էֆեկտը փոխված է %s:</string>
+    <string name="note_color_effect_change_none">Գունային էֆեկտը կայված չէ:</string>
+    <string name="note_white_balance_change">Սպիտակ գույնի հավասարակշռությունը կարգավորված է ինքնաշխատ կերպի:</string>
+    <string name="note_flash_change_off">Լուսարկիչը նախադրված է անջատման ռեժիմում։</string>
+    <string name="note_scene_mode_change">Տեսարանի ռեժիմը նախադրված է ավտոմատի։</string>
+    <string name="sp_note_scene_mode_change_NORMAL">Տեսարանի ռեժիմը նախադրված է %s-ի։</string>
+    <string name="note_scene_mode_change_normal">Տեսարանի ռեժիմը նախադրված է նորմալի։</string>
+    <string name="sp_note_video_ori_land_NORMAL">Միայն աջակցում է լանդշաֆտի ձայնագրումը որպես ՄՀԾ ուղարկելու համար։</string>
+    <string name="sp_note_brightness_set_to_zero_NORMAL">Պայծառությունը զրոյի վրա է կարգավորված:</string>
+    <string name="error_not_enough_memory">Բավարար հիշողություն չկա։</string>
+    <string name="error_not_exist_app">Հավելվածը չգտնվեց:</string>
+    <string name="error_preview_fail">Դիտումն սկսելը ձախողվեց:</string>
+    <string name="error_write_file">Ֆայլը գրելը ձախողվեց:</string>
+    <string name="error_rename">Անվավեր անուն, խնդրում ենք վերանվանել:</string>
+    <string name="error_write_file_exist">Արդեն գոյություն ունի</string>
+    <string name="error_unknown">Անհայտ սխալ</string>
+    <string name="error_low_battery">Մարտկոցը կարող է բավարար չլինել խցիկն աշխատեցնելու համար:</string>
+    <string name="error_get_video_frame_fail">Հնարավոր չէ հանել կադրը։</string>
+    <string name="error_video_recording">Զանգի ժամանակ Դուք չեք կարող տեսանյութ նկարել:</string>
+    <string name="error_video_recording_during_call">Չեք կարող տեսագրել տեսանյութ զանգի ընթացքում։</string>
+    <string name="sp_error_call_camera_NORMAL">Չեք կարող գործարկել լուսախցիկը զանգի ընթացքում։</string>
+    <string name="error_camera_during_video_call">Չեք կարող գործարկել լուսախցիկը տեսազանգի ընթացքում։</string>
+    <string name="error_cannot_start_recording_with_audio">Հնարավոր չէ սկսել տեսագրումը, քանի դեռ մեկ այլ աշխատածրագիր օգտագործում է աուդիո։</string>
+    <string name="error_sdm_server_setting">Հնարավոր չէ աշխատեցնել լուսախցիկը։ Հնարավորությունը կողպված է սպասարկիչի կողմից։</string>
+    <string name="help_title">Խցիկի օգնության ուղեցույց</string>
+    <string name="sp_detail_view_NORMAL">Մանրամասների տեսք</string>
+    <string name="help_swap_camera_menu_desc">Գլխավոր և երկրորդային լուսախցիկներին անցնելը։</string>
+    <string name="help_zoom_desc">Մեծացնել կամ փոքրացլել առարկաների չափերը:</string>
+    <string name="help_brightness_desc">Լուսակայման մակարդակը կարգաբերելը</string>
+    <string name="sp_help_brightness_desc_video_NORMAL">Լուսակայման մակարդակը կարգաբերելը</string>
+    <string name="help_flash_desc">Նախադրում է լուսարկիչը:</string>
+    <string name="help_flash_auto_desc">Ինքնաբերաբար կարգավորում է լուսաբռնկումը։</string>
+    <string name="sp_help_flash_off_desc_NORMAL">Լուսարկիչն անջատված է յուրաքանչյուր լուսանկարման համար։</string>
+    <string name="sp_help_flash_on_desc_NORMAL">Լուսարկիչը միացված է յուրաքանչյուր լուսանկարման համար:</string>
+    <string name="help_camera_settings_desc">Կարգաբերում է լուսախցիկի կարգավորումները</string>
+    <string name="help_image_size_menu_desc">Պատկերի ֆայլի չափի նախադրում։</string>
+    <string name="help_image_size_menu_5m_desc">Տպելու համար լավագույնը՝ մինչև A4 չափի:</string>
+    <string name="help_image_size_menu_3m_desc">Տպելու համար լավագույնը՝ մինչև մոտավորապես A5 չափի:</string>
+    <string name="help_image_size_menu_2m_desc">Տպելու համար լավագույնը՝ մոտավորապես բացիկի չափ:</string>
+    <string name="help_image_size_menu_1m_desc">Տպելու համար լավագույնը՝</string>
+    <string name="help_image_size_menu_vga_desc">Որպես էլ.փոստի կցորդ ուղարկելու համար լավագույնը (քիչ հիշողություն է զբաղեցնում):</string>
+    <string name="help_image_size_menu_qvga_desc">Որպես էլ.փոստի կցորդ ուղարկելու համար լավագույնը (քիչ հիշողություն է զբաղեցնում):</string>
+    <string name="help_scene_mode_menu_desc">Տվյալ միջավայրին համապատասխան ռեժիմի նախադրում։</string>
+    <string name="help_scene_mode_menu_auto_desc">Ինքնաբերաբար հարմարեցնում է՝ ըստ հանգամանքների։</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_NORMAL">Ստանդարտ պատկեր սևեռելը։</string>
+    <string name="help_scene_mode_menu_portrait_desc">Մարդկանց սևեռելը։</string>
+    <string name="help_scene_mode_menu_landscape_desc">Բնության տեսարան սևեռելը։</string>
+    <string name="help_scene_mode_menu_sports_desc">Արագ շարժվող պատկերներ սևեռելը առանց առարկան աղոտացնելու։</string>
+    <string name="help_scene_mode_menu_night_desc">Գիշերային տեսարան սևեռելը։</string>
+    <string name="help_scene_mode_menu_sunset_desc">Մայրամուտի տեսարան սևեռելը։</string>
+    <string name="help_iso_menu_desc">Վերահսկում է խցիկի զգայունությունը լույսի հանդեպ։</string>
+    <string name="help_white_balance_menu_desc">Նյութավորում է գույնը լուսավորության լայն տիրույթի պայմաններում։</string>
+    <string name="help_white_balance_menu_auto_desc">Գույնի ինքնաբեր կարգաբերում։</string>
+    <string name="help_white_balance_menu_incandescent_desc">Մեղմ լուսավորվածության պայմաններում կատարված լուսանկարների համար։</string>
+    <string name="help_white_balance_menu_sunny_desc">Արևի ուղղակի լույսի տակ լուսանկարելը։</string>
+    <string name="help_white_balance_menu_flourescent_desc">Ցերեկային լույսի ներքո կատարված լուսանկարների համար։</string>
+    <string name="help_white_balance_menu_cloudy_desc">Ստվերում կամ ամպամած օրերին կատարված լուսանկարների համար։</string>
+    <string name="help_color_effect_menu_desc">Նկարներին նկարչական էֆեկտ է հաղորդում:</string>
+    <string name="help_color_effect_menu_off_desc">Գույնի ոչ մի էֆեկտ չի կիրառվի:</string>
+    <string name="help_color_effect_menu_sepia_desc">Դարչնագույն զտիչի էֆեկտ կիրառել՝ նոստալգիկ նկար նկարելու համար:</string>
+    <string name="help_color_effect_menu_mono_desc">Մոնո զտիչի էֆեկտ կիրառել՝ սև ու սպիտակ նկարներ նկարելու համար:</string>
+    <string name="help_color_effect_menu_negative_desc">Բացասական զտիչի էֆեկտ կիրառել՝ հակադարձելու նկարի գույնը:</string>
+    <string name="help_color_effect_menu_vivid_desc">Նկարներին պայծառ գույնի էֆեկտ է հաղորդում:</string>
+    <string name="help_color_effect_menu_negative_sepia_desc">Նկարներին բացասական դարչնագույնի էֆեկտ է հաղորդում:</string>
+    <string name="help_color_effect_menu_blue_desc">Նկարներին կապույտ գույնի էֆեկտ է հաղորդում:</string>
+    <string name="help_color_effect_menu_emboss_desc">Նկարներին փորագրման էֆեկտ է հաղորդում:</string>
+    <string name="help_color_effect_menu_solarize_desc">Նկարներին գունապնակի էֆեկտ է հաղորդում:</string>
+    <string name="help_color_effect_menu_posterize_desc">Նկարներին պաստառացման գույնի էֆեկտ է հաղորդում:</string>
+    <string name="help_color_effect_menu_aqua_desc">Նկարներին ծովագույն երանգ է հաղորդում:</string>
+    <string name="help_color_effect_menu_pastel_desc">Նկարներին գունատ ներկի էֆեկտ է հաղորդում:</string>
+    <string name="help_timer_menu_desc">Փականակի կոճակը սեղմելու և լուսանկարելու միջև դադարի ժամանակահատվածի կարգավորում։</string>
+    <string name="help_shot_mode_menu_desc">Լուսանկարման տարբեր ռեժիմների նախադրում։</string>
+    <string name="help_shot_mode_menu_normal_desc">Ստանդարտ պատկեր սևեռելը։</string>
+    <string name="help_shot_mode_menu_continuous_shot_desc">Միանգամից 6 հաջորդական լուսանկարներ անելը։</string>
+    <string name="help_shot_mode_menu_smile_shot_desc">Ինքնաբերաբար ձգում է փականակը, երբ լուսախցիկը հայտնաբերում է ժպիտ։</string>
+    <string name="help_shot_mode_menu_beauty_shot_desc">Ինքնաբերաբար հեռացնում է դեմքերի բծերը և թերությունները և դեմքերին տալիս պայծառ և մաքուր տեսք։</string>
+    <string name="help_shot_mode_menu_art_shot_desc">Ստեղծում է գեղարվեստական գլուխգործոց էֆեկտներով, ներառյալ՝ սև և սպիտակ, տաք և սառը լուսակայում և ավելին։</string>
+    <string name="help_shot_mode_menu_panorama_shot_desc">Շարունակական պատկերների ամբողջ միջակայքը վերցնելը և մեկ նկարի մեջ հավաքելը։</string>
+    <string name="help_shot_mode_menu_face_effect_desc">Տալ տարբեր էֆեկտներ՝ օգտագործելով դեմքի հայտնաբերման գործառույթը:</string>
+    <string name="help_shot_mode_menu_cartoon_shot_desc">Թույլատրում է հեռախոսին մուլտֆիլմի և գեղատեսիլ ոճերի նկարներ նկարել՝ նկարչության պես:</string>
+    <string name="help_shot_mode_menu_funny_mask_desc">Ինքնաբերաբար ակտիվացնում է տարբեր անիմացիոն դիմակներ դեմքի վրա, երբ լուսախցիկը հայտնաբերում է դեմք։</string>
+    <string name="help_face_effect_blur_desc">Ինքնաբերաբար հայտնաբերում է դեմք և դեմքին տալիս «Մշուշոտ» էֆեկտ։</string>
+    <string name="help_face_effect_snow_desc">Գլխի վրա թափվող ձյան էֆեկտ:</string>
+    <string name="help_face_effect_shallow_focus_desc">Գտնում է դեմքը ինքնաբերաբար և սահմանում է ֆոնը ֆոկուսից դուրս։</string>
+    <string name="help_face_effect_big_face_desc">Դարձնում է երեսն ավելի մեծ:</string>
+    <string name="help_face_effect_mosaic_desc">Ինքնաբերաբար ակտիվացնում է «Խճանկար» էֆեկտը դեմքի վրա, երբ լուսախցիկը հայտնաբերում է դեմք։</string>
+    <string name="help_face_effect_fish_eye_desc">Ինքնաբերաբար ակտիվացնում է «Ձկան աչք» էֆեկտը դեմքի վրա, երբ լուսախցիկը հայտնաբերում է դեմք։</string>
+    <string name="help_face_effect_concave_desc">Ինքնաբերաբար ակտիվացնում է «Գոգավոր» էֆեկտը դեմքի վրա, երբ լուսախցիկը հայտնաբերում է դեմք։</string>
+    <string name="help_focus_desc">Սևեռվում է որոշակի կետի։</string>
+    <string name="help_focus_auto_desc">Ֆոկուսի կետը ինքնաբեր դնելը։</string>
+    <string name="help_focus_macro_desc">Անել շատ մոտ գտնվող առարկայի լուսանկար։</string>
+    <string name="help_focus_face_desc">Ինքնաբերաբար դեմքեր հայտնաբերելը և ֆոկուսի մեջ վերցնելը։</string>
+    <string name="sp_help_focus_continuous_desc_NORMAL">Գտնել շարժվող առարկան ինքնաբերաբար և ֆոկուսը կարգավորել։</string>
+    <string name="help_focus_manual_desc">Ձեռքով նախադրել ֆոկուսի բերելու կետը։</string>
+    <string name="help_image_quality_menu_desc">Սահմանում է պատկերի որակը (որքան ավելի լավն է որակը, այնքան ավելի մեծ է հիշողության սպառումը)։</string>
+    <string name="help_image_quality_menu_super_fine_desc">Պահպանել պատկերները գերազանց որակով։</string>
+    <string name="help_image_quality_menu_fine_desc">Պահպանել պատկերները լավ որակով։</string>
+    <string name="help_image_quality_menu_normal_desc">Պահպանել պատկերները նորմալ որակով։</string>
+    <string name="help_show_captured_image_menu_desc">Նկարելուց հետո ցույց է տալիս ամենավերջին նկարված պատկերը։</string>
+    <string name="help_shutter_sound_menu_desc">Նախադրում է լուսանկարելիս գործարկվող ձայնը։</string>
+    <string name="help_geo_tagging_menu_desc">Աշխարհագրական տեղեկություններ ավելացնելը այն վայրին, որտեղ արվել է լուսանկարը։</string>
+    <string name="sp_help_anti_banding_menu_desc_NORMAL">Կանխում է գույների աղավաղումը:</string>
+    <string name="sp_help_storage_NORMAL">Ընտրել պահուստ պատկերներ պահպանելու համար</string>
+    <string name="sp_help_storage_innner_NORMAL">Պահպանել պատկերները ներքին հիշողությունում</string>
+    <string name="sp_help_storage_sd_NORMAL">Պահպանել պատկերները SD քարտին</string>
+    <string name="help_video_title">Տեսախցիկի օգնություն</string>
+    <string name="sp_help_video_title_NORMAL">Տեսաօգնության ուղեցույց</string>
+    <string name="help_video_settings_desc">Կարգաբերում է տեսախցիկի կարգավորումները։</string>
+    <string name="help_video_size_desc">Տեսաֆայլի չափի կարգավորում։</string>
+    <string name="help_video_size_vga_desc">Պահպանում է վիդեոները VGA չափով։</string>
+    <string name="help_video_size_qvga_desc">Պահպանում է վիդեոները QVGA չափով։</string>
+    <string name="help_video_size_176x144_desc">Որպես էլ.փոստի կցորդ ուղարկելու համար լավագույնը (քիչ հիշողություն է զբաղեցնում):</string>
+    <string name="help_video_scene_mode_menu_desc">Գտնում է գույնի և լույսի կարգավորումները, որոնք համապատասխան են տվյալ միջավայրին։</string>
+    <string name="help_video_scene_mode_menu_auto_desc">Ինքնաբերաբար հարմարեցնում է՝ ըստ հանգամանքների։</string>
+    <string name="help_video_scene_mode_menu_portrait_desc">Ավելի լավ է մարդկանց ձայնագրելու:</string>
+    <string name="help_video_scene_mode_menu_landscape_desc">Ավելի լավ է՝ բնության տեսարաններ նկարահանելու համար, ինչպես օրինակ՝ ծառեր, ծաղիկներ և երկինք:</string>
+    <string name="help_video_scene_mode_menu_sports_desc">Ավելի լավ է արագ շարժվող առարկաների նկարահանման համար, ինչպիսին է օրինակ սպորտաձևերը:</string>
+    <string name="help_video_scene_mode_menu_night_desc">Սևեռում է գեղեցիկ գիշերային տեսարան։ Օգտագործվում են փականակի դանդաղ արագություններ՝ հայտնաբերելու գիշերային բնապատկերներ։</string>
+    <string name="help_video_scene_mode_menu_sunset_desc">Ձայնագրում է գեղեցիկ մայրամուտի տեսարան։</string>
+    <string name="help_video_white_balance_menu_desc">Բարելավում է գույնի որակները լուսավորման տարբեր պայմաններում։</string>
+    <string name="help_video_white_balance_menu_auto_desc">Ինքնաբերաբար կարգաբերում է գույնը։</string>
+    <string name="help_video_white_balance_menu_incandescent_desc">Մեղմ լուսավորության ներքո նկարահանված տեսանյութերի համար։</string>
+    <string name="help_video_white_balance_menu_sunny_desc">Ձայնագրում է վիդեոներ անմիջապես արևի ճառագայթների տակ։</string>
+    <string name="help_video_white_balance_menu_flourescent_desc">Ցերեկային լույսի ներքո նկարահանված տեսանյութերի համար։</string>
+    <string name="help_video_white_balance_menu_cloudy_desc">Ստվերում կամ ամպամած օրերին նկարահանված տեսանյութերի համար։</string>
+    <string name="help_video_color_effect_menu_desc">Հատուկ գունավոր ֆիլտրերի էֆեկտների կարգավորում։</string>
+    <string name="help_video_color_effect_menu_off_desc">Գույնի ոչ մի էֆեկտ չի կիրառվի:</string>
+    <string name="sp_help_video_color_effect_menu_off_desc_NORMAL">Անգույն զտիչի էֆեկտ կիրառել:</string>
+    <string name="help_video_color_effect_menu_sepia_desc">Դարչնագույն զտիչի էֆեկտ կիրառել՝ նոստալգիկ տեսանյութ նկարահանելու համար:</string>
+    <string name="help_video_color_effect_menu_mono_desc">Մոնո զտիչի էֆեկտ կիրառել՝ սև ու սպիտակ տեսանյութ նկարահանելու համար:</string>
+    <string name="help_video_color_effect_menu_negative_desc">Բացասական զտիչի էֆեկտ կիրառել՝ հակադարձելու տեսանյութի գույնը:</string>
+    <string name="help_video_color_effect_menu_vivid_desc">Տեսանյութերին պայծառ գույնի էֆեկտ է հաղորդում:</string>
+    <string name="help_video_color_effect_menu_negative_sepia_desc">Տեսանյութերին բացասական դարչնագույնի էֆեկտ է հաղորդում:</string>
+    <string name="help_video_color_effect_menu_blue_desc">Տեսանյութերին կապույտ գույնի էֆեկտ է հաղորդում:</string>
+    <string name="help_video_color_effect_menu_emboss_desc">Տեսանյութերին փորագրման էֆեկտ է հաղորդում:</string>
+    <string name="help_video_color_effect_menu_solarize_desc">Տեսանյութերին գունապնակի էֆեկտ է հաղորդում:</string>
+    <string name="help_video_color_effect_menu_posterize_desc">Տեսանյութերին պաստառացման գույնի էֆեկտ է հաղորդում:</string>
+    <string name="help_video_color_effect_menu_aqua_desc">Տեսանյութերին ծովագույն երանգ է հաղորդում:</string>
+    <string name="help_video_color_effect_menu_pastel_desc">Տեսանյութերին գունատ ներկի էֆեկտ է հաղորդում:</string>
+    <string name="help_video_duration_desc">Սահմանում է տևողությունը։</string>
+    <string name="help_video_duration_normal_desc">Սահմանափակումներ չկան</string>
+    <string name="help_video_duration_mms_desc">Որպես ՄՄՀ կցորդ ուղարկելու համար</string>
+    <string name="help_video_quality_desc">Նախադրում է տեսանկարահանման որակը (որքան ավելի լավն է որակը, այնքան ավելի մեծ է հիշողության սպառումը)։</string>
+    <string name="help_video_quality_super_desc">Պահպանել վիդեոները գերազանց որակի համար։</string>
+    <string name="help_video_quality_fine_desc">Պահպանել վիդեոները լավ որակով։</string>
+    <string name="help_video_quality_normal_desc">Պահպանել վիդեոները նորմալ որակով։</string>
+    <string name="help_video_voice_desc">Տեսագրման ժամանակ ձայնի ձայնագրման կարգավորում։</string>
+    <string name="help_video_voice_unmute_desc">Պահպանել վիդեոն ձայնով։</string>
+    <string name="help_video_voice_mute_desc">Պահպանել վիդեոն առանց ձայնի։</string>
+    <string name="help_video_show_desc">Վերանայել տեսանյութը տեսագրումից հետո։</string>
+    <string name="sp_help_mirror_img_desc_NORMAL">Պահպանել որպես հայելային պատկեր։</string>
+    <string name="sp_help_videostorage_NORMAL">Ընտրել պահուստ վիդեոներ պահպանելու համար</string>
+    <string name="sp_help_videostorage_in_NORMAL">Պահպանել վիդեոները ներքին հիշողությունում</string>
+    <string name="sp_help_videostorage_sd_NORMAL">Պահպանել վիդեոները SD քարտին</string>
+    <string name="camera_application_stopped">Խցիկն անջատվեց:</string>
+    <string name="camera_driver_needs_reset">Խցիկն անսպասելիորն անջատվեց, պետք է վերագործարկվի:</string>
+    <string name="geo_tag_dialog_title">GPS Ծառայությունն անջատված է։</string>
+    <string name="geo_tag_dialog_msg">Միացնել GPS-ը կարգավորումներից՝ օգտագործելու տեղի կցապիտակը։</string>
+    <string name="geo_tag_dialog_confirm">GPS կարգավորումներ</string>
+    <string name="sp_eula_popup_dialog_title_NORMAL">Գաղտնիության զգուշացում</string>
+    <string name="sp_eula_popup_do_not_show_this_again_NORMAL">Սա կրկին մի՛ ցուցադրեք</string>
+    <string name="sp_eula_popup_dialog_msg_NORMAL">Ընտրելով «Աշխարհագրական պիտակավորումը»՝ այս սարքը յուրաքանչյուր նկարի համար կկցի, կներկառուցի և կպահի աշխարհագրական տեղանքին վերաբերող տվյալները: Ուշադիր եղեք երբ ուղարկում, համօգտագործում, բաշխում, հաղորդում կամ պատճենում եք այս նկարները, քանի որ դրանք պարունակում են այն տեղանքը, որտեղ նկարն արվել է:</string>
+    <string name="sp_eula_popup_dialog_msg_taglocation_NORMAL">«Պիտակավորման տեղանք» ընտրելով այս սարքը յուրաքանչյուր նկարի համար կկցի, կներկառուցի և կպահի աշխարհագրական տեղանքին վերաբերող տվյալները: Ուշադիր եղեք երբ ուղարկում, համօգտագործում, բաշխում, հաղորդում կամ պատճենում եք այս նկարները, քանի որ դրանք պարունակում են այն տեղանքը, որտեղ նկարն արվել է:</string>
+    <string name="geo_tag_dialog_title_cdma">Աշխարհագրականորեն կապված ծառայությունների (LBS) տրամադրումն անջատված է:</string>
+    <string name="geo_tag_dialog_msg_cdma">Միացնել LBS-ը կարգավորումներից՝ օգտագործելու տեղի կցապիտակը։</string>
+    <string name="geo_tag_dialog_confirm_cdma">Աշխարհագրականորեն կապված ծառայությունների (LBS) կարգավորումներ</string>
+    <string name="sp_video_length_dialog_title_NORMAL">Տեսանյութի երկարությունը</string>
+    <string name="sp_video_length_dialog_msg_NORMAL">Ընտրել ձայնագրման ռեժիմ</string>
+    <string name="sp_video_length_dialog_long_NORMAL">Հարատև տեսանյութ</string>
+    <string name="sp_video_length_dialog_title_v2_NORMAL">Ձայնագրման ռեժիմ</string>
+    <string name="sp_video_length_dialog_mms_NORMAL">ՄՀԾ վիդեո</string>
+    <string name="camera_error_title">Խցիկի սխալ</string>
+    <string name="cannot_connect_camera">Չի կարող կապվել խցիկին:</string>
+    <string name="sp_notiintsd_NORMAL">Ձեր ֆայլը կպահվի ներքին հիշողության մեջ, անցում կատարեք Կարգավորումներ>SD քարտ և պահեստ:</string>
+    <string name="sp_notiextsd_NORMAL">Ձեր ֆայլը կպահվի արտաքին հիշողության մեջ, անցում կատարեք Կարգավորումներ>SD քարտ և պահեստ:</string>
+    <string name="pref_camera_settings_category">Խցիկի կարգավորումներ</string>
+    <string name="pref_camcorder_settings_category">Տեսախցիկի կարգավորումներ</string>
+    <string name="sp_Camcorder_NORMAL">Տեսախցիկ</string>
+    <string name="camcorder_activity_name">Տեսախցիկ</string>
+    <string name="sp_close_app_NORMAL">Մեկ անգմա ևս սեղմեք «ետ կոճակը». խցիկը կփակվի:</string>
+    <string name="sp_popup_storage_limitsize_NORMAL">"Ձայնագրման առավելագույն չափը լրացել է։ 
+Ֆայլը պահպանվել է:"</string>
+    <string name="sp_popup_storage_limit_with_exact_size_NORMAL">"Ձայնագրման առավելագույն չափը (%s) լրացել է։
+Ֆայլը պահպանված է։"</string>
+    <string name="sp_popup_storage_maxsize_NORMAL">"Ձայնագրման առավ. չափը լրացել է։
+Ձայնագրումը շուտով կավարտվի։"</string>
+    <string name="sp_popup_storage_maximum_size_NORMAL">"Ձայնագրման առավ. չափը (%s) լրացել է։ 
+Ձայնագրումը շուտով կավարտվի։"</string>
+    <string name="sp_sd_card_read_only_NORMAL">SD քարտը սարվել է որպես կարդալ միայն</string>
+    <string name="sp_MMS_REC_limit_NORMAL">Առավելագույն ձայնագրման ժամանակը ՄՀԾ-ի համար մոտ %d վայրկյան է։</string>
+    <string name="sp_popup_character_limit_NORMAL">Անվավեր գրանիշ</string>
+    <string name="sp_filename_already_exists_NORMAL">Ֆայլի անվանումն արդեն գոյություն ունի:</string>
+    <string name="sp_message_recording_limit_NORMAL">Կցուրդային ֆայլի ծավալի առավելագույն սահմանաչափն ավելի փոքր է, քան գրանցման նվազագույն չափը։</string>
+    <string name="sp_help_toast_smart_shutter_NORMAL">Խելացի փականը կայունացված նկարներ է տրամադրում ոչ միտումնավոր թափահարման դեպքում:</string>
+    <string name="sp_help_scene_mode_menu_smart_shutter_desc_NORMAL">Արագ շարժվող պատկերներ սևեռելը առանց փակ տարածքում առարկան աղոտացնելու։</string>
+    <string name="sp_help_scene_mode_menu_action_desc_NORMAL">Սևեռել արագ շարժվող պատկերներ առանց աղոտացնելու։</string>
+    <string name="sp_help_shot_mode_beauty_desc_NORMAL">Պայծառացված և աղոտ էֆեկտներով լուսանկարելը։</string>
+    <string name="sp_help_shot_mode_hdr_desc_NORMAL">Բարձր ցայտունությամբ տեսարաններով մի քանի նկարների խառնումը տարբեր ցուցադրություններում՝ ավելի բնական տեսք ստեղծելու համար:</string>
+    <string name="sp_help_shot_mode_slow_motion_desc_NORMAL">Ձայնագրում է արագ շարժվող առարկաներ դանդաղ նվագարկելու համար։</string>
+    <string name="sp_help_shot_mode_time_machine_desc_NORMAL">Միանգամից վեց հաջորդական լուսանկարներ անելը՝ նախքան փականակի ստեղնին հպելը։</string>
+    <string name="sp_help_shot_mode_time_machine_5_picture_NORMAL">Միանգամից հինգ հաջորդական լուսանկարներ անելը՝ նախքան փականակի ստեղնին հպելը։</string>
+    <string name="sp_resol_mms_qcif_short">ՄՀԾ (176x144)</string>
+    <string name="sp_resol_mms_qvga_short">"ՄՀԾ  (320x240)"</string>
+    <string name="sp_shot_mode_clearshot_NORMAL">Մաքրել լուսանկարումը</string>
+    <string name="sp_shot_mode_shot_and_clear">Լուսանկարել և Մաքրել</string>
+    <string name="sp_scene_mode_smart_shutter_NORMAL">Խելացի փականի դեպքում</string>
+    <string name="sp_scene_mode_action_NORMAL">Գործողություն</string>
+    <string name="sp_shot_mode_beauty_NORMAL">Գեղեցկացնող լուսանկար</string>
+    <string name="sp_shot_mode_time_machine_NORMAL">Ժամանակի մեքենայի խցիկ</string>
+    <string name="sp_shot_mode_live_desc_NORMAL">Էկրանի պատկեր սևեռելը տեսանյութ տեսագրելիս։</string>
+    <string name="sp_shot_mode_live_effect_desc_NORMAL">Ետին պլանները փոխելը և սահուն անցման էֆեկտներ ապահովելը՝ տեսագրելիս ձևափոխելու դիմագծերը։</string>
+    <string name="dual_camera">Երկակի խցիկ</string>
+    <string name="sp_focus_infinity_NORMAL">Անվերջություն</string>
+    <string name="sp_high_temp_action_NORMAL">Հեռացնել մարտկոցը կամ տեղափոխել զով տեղ։</string>
+    <string name="sp_high_temperature_detection_NORMAL">Ջերմային սենսորը հայտնաբերել է բարձր ջերմաստիճաններ։</string>
+    <string name="sp_attach_file_size_exceeded_NORMAL">Կցորդ ֆայլի առավ. մեծության սահմանաչափը գերազանցվել է։</string>
+    <string name="sp_high_temp_action_on_enter_NORMAL">Ջերմային սենսորը հայտնաբերել է բարձր ջերմաստիճաններ։ Չի կարող գործարկել տեսախցիկը։</string>
+    <string name="sp_high_temp_action_on_recording_NORMAL">Ջերմային սենսորը հայտնաբերել է բարձր ջերմաստիճաններ։ Տեսաձայնագրումը կփակվի։</string>
+    <string name="high_temp_action_on_recording">Հնարավոր չէ տեսագրել տեսանյութ՝ հեռախոսի օպտիմալ ջերմաստիճանը պահպանելու նպատակով։ Ավելի ուշ նորից փորձեք։</string>
+    <string name="sp_warning_high_temperature_on_recording_NORMAL">Օգտագործման զգուշացում: Տեսանյութի նկարահանումը լիցքավորման ժամանակ կարող է բարձրացնել Ձեր սարքի ջերմաստիճանը:</string>
+    <string name="warning_high_temp_action_flash_off">Լուսարկիչն անջատված է հեռախոսի օպտիմալ ջերմաստիճանը պահպանելու նպատակով։</string>
+    <string name="sp_silly_face_title_NORMAL">Հիմար դեմքեր</string>
+    <string name="sp_big_eyes_NORMAL">Մեծ աչքեր</string>
+    <string name="sp_big_mouth_NORMAL">Մեծ բերան</string>
+    <string name="sp_squeeze_NORMAL">Դուրս սեղմել</string>
+    <string name="sp_big_nose_NORMAL">Մեծ քիթ</string>
+    <string name="sp_small_eyes_NORMAL">Փոքր աչքեր</string>
+    <string name="sp_small_mouth_NORMAL">Փոքր բերան</string>
+    <string name="sp_background_title_NORMAL">Հենքեր</string>
+    <string name="sp_in_space_NORMAL">Տարածությունում է</string>
+    <string name="sp_sunset_NORMAL">Մայրամուտ</string>
+    <string name="sp_disco_NORMAL">Դիսկո</string>
+    <string name="sp_choose_gallery_NORMAL">Իմ տեսանյութերը</string>
+    <string name="sp_bg_replacement_message_NORMAL">"Ձեր սարքը պինդ մակերեսի վրա դրեք և համոզվեք, որ Ձեր ետևում որևէ 
+
+շարժում չլինի:"</string>
+    <string name="sp_bg_replacement_message_v2_NORMAL">"Պահեք սարքը առանց թափահարելու և համոզվեք, որ շարժում չկա:
+Երբ պատրաստ եք տեսանյութի նկարահանման համար, թույլ տվեք, որպեսզի նկարվող սուբյեկտը հայտնվի խցիկի տեսադաշտում:"</string>
+    <string name="sp_pano_too_fast_prompt_NORMAL">Չափազանց արագ</string>
+    <string name="sp_live_shot_NORMAL">Կենդանի նկարահանում</string>
+    <string name="sp_live_effect_NORMAL">Կենդանի էֆեկտ</string>
+    <string name="dual_recording">Երկակի ձայնագրում</string>
+    <string name="smart_zoom">Խելացի խոշորացման դեպքում</string>
+    <string name="tracking_zoom">Հետագծման չափափոխում</string>
+    <string name="anti_shaking">Հակացնցող</string>
+    <string name="sp_audio_zoom_NORMAL">Աուդիոյի հեռափոխումը</string>
+    <string name="sp_tracking_focus_NORMAL">Հետագծի կիզակետում</string>
+    <string name="sp_video_recording_normalmode_NORMAL">Ձայնագրում է ստանդարտ վիդեո։</string>
+    <string name="sp_note_shot_mode_setting_change_NORMAL">Կարգավորումներն օպտիմալացվել են %s ռեժիմի համար։</string>
+    <string name="sp_help_swap_camera_menu_desc_v2_NORMAL">Անցնել ճակատայինից ետին լուսախցիկ և հակառակը։</string>
+    <string name="sp_help_light_frame_desc_v2_NORMAL">Միացրեք լուսաբռնկիչը՝ անելու ավելի պայծառ լուսանկարներ ավելի փոքր նախադիտմամբ՝ ճակատային լուսախցիկը օգտագործելիս։</string>
+    <string name="sp_help_zoom_desc_v2_NORMAL">Խոշորացնել և փոքրացնել</string>
+    <string name="sp_help_brightness_desc_v2_NORMAL">Կարգաբերել լուսակայման մակարդակը</string>
+    <string name="sp_help_flash_desc_v2_NORMAL">Նախադրել լուսարկիչ</string>
+    <string name="sp_help_flash_auto_desc_v2_NORMAL">Միացնել լուսաբռնկիչը հարկ եղած ժամանակ</string>
+    <string name="sp_help_flash_off_desc_v2_NORMAL">Լուսարկիչն անջատված է</string>
+    <string name="sp_help_flash_on_desc_v2_NORMAL">Լուսարկիչը միացված է</string>
+    <string name="sp_help_camera_settings_desc_v2_NORMAL">Կարգաբերում է լուսախցիկի կարգավորումները</string>
+    <string name="sp_help_focus_desc_v2_NORMAL">Նախադրել ֆոկուսը</string>
+    <string name="sp_help_focus_auto_desc_v2_NORMAL">Ստանդարտ ինքնակիզակետ</string>
+    <string name="sp_help_focus_face_desc_v2_NORMAL">Ինքնաբերաբար հայտնաբերում և ֆոկուսի մեջ է վերցնում դեմքեր։</string>
+    <string name="sp_help_image_size_menu_desc_v2_NORMAL">Սահմանել պատկերի չափը</string>
+    <string name="sp_help_scene_mode_menu_desc_v2_NORMAL">Ընտրեք նախընտրելի ռեժիմ։</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_v2_NORMAL">Սևեռել ստանդարտ լուսանկարներ։</string>
+    <string name="sp_help_scene_mode_menu_portrait_desc_v2_NORMAL">Սևեռել մարդկանց։</string>
+    <string name="sp_help_scene_mode_menu_landscape_desc_v2_NORMAL">Սևեռել բնության տեսարան։</string>
+    <string name="sp_help_scene_mode_menu_sports_desc_v2_NORMAL">Սևեռել արագ շարժվող պատկերներ առանց աղոտացնելու։</string>
+    <string name="sp_help_scnen_mode_menu_sunset_desc_v2_NORMAL">Սևեռել մայրամուտներ և ետնալուսավորված լուսանկարներ</string>
+    <string name="sp_help_scene_mode_menu_night_desc_v2_NORMAL">Սևեռել լուսանկարներ մութ տարածքներում։</string>
+    <string name="sp_help_iso_menu_desc_v2_NORMAL">Ավելացնել զգայունակությունը վատ լուսավորության պայմաններում` մշուշը նվազեցնելու նպատակով:</string>
+    <string name="sp_help_withe_balance_desc_v2_NORMAL">Կարգաբերել պատկերի գույնի ջերմաստիճանները, որոնք նախադրված են ըստ լույսի աղբյուրի։</string>
+    <string name="sp_help_white_balance_auto_desc_v2_NORMAL">Սպիտակ գույնի հավսարակշռությունը ինքնաշխատ կերպով հարմարեցված է՝ հարմարելու լուսավորության պայմաններին:</string>
+    <string name="sp_help_withe_balance_incandescent_desc_v2_NORMAL">Օգտագործել բոցավառ լույսերով:</string>
+    <string name="sp_help_white_balance_sunny_desc_v2_NORMAL">Օգտագործել արևին:</string>
+    <string name="sp_help_white_balance_flourescent_desc_v2_NORMAL">Օգտագործել լուսածորիչ լույսերով:</string>
+    <string name="sp_help_white_balance_cloudy_desc_v2_NORMAL">Օգտագործել ստվերում և ամպամած օրերին:</string>
+    <string name="sp_help_withe_balance_incandescent_desc_camera_v2_NORMAL">Օգտագործել բոցավառ լույսերով:</string>
+    <string name="sp_help_white_balance_sunny_desc_camera_v2_NORMAL">Օգտագործել արևին:</string>
+    <string name="sp_help_white_balance_flourescent_desc_camera_v2_NORMAL">Օգտագործել լուսածորիչ լույսերով:</string>
+    <string name="sp_help_white_balance_cloudy_desc_camera_v2_NORMAL">Օգտագործել ստվերում և ամպամած օրերին:</string>
+    <string name="sp_help_color_effect_desc_v2_NORMAL">Նախադրել գունավոր զտիչի էֆեկտը լուսանկարներ կատարելիս</string>
+    <string name="sp_help_color_effect_off_desc_v2_NORMAL">Գույնի ոչ մի էֆեկտ</string>
+    <string name="sp_help_color_effect_mono_desc_v2_NORMAL">Սևեռել սև-սպիտակ պատկերներ։</string>
+    <string name="sp_help_color_effect_sepia_desc_v2_NORMAL">Սևեռել դարչնագույն երանգների պատկերներ։</string>
+    <string name="sp_help_color_effect_negative_desc_v2_NORMAL">Սևեռել պատկերներ փոխված գույնով։</string>
+    <string name="sp_help_timer_menu_desc_v2_NORMAL">Սահմանել 3, 5 կամ 10 վայրկյան հապաղման ժամանակամիջոց՝ նախքան լուսանկարումը</string>
+    <string name="sp_help_shot_mode_desc_v2_NORMAL">Նախադրել լուսանկարման տարբեր ռեժիմներ։</string>
+    <string name="sp_help_shot_mode_normal_desc_v2_NORMAL">Սովորական ռեժիմ</string>
+    <string name="sp_help_shot_mode_continuous_shot_desc_v2_NORMAL">Անել 6 լուսանկար արագ հաջորդականությամբ</string>
+    <string name="sp_help_shot_mode_panorama_shot_desc_v2_NORMAL">Տեսախցիկը հորիզոնական դիրքով մաքրեք՝ տեսարանի մի ծայրից մյուսը՝ համայնապատկեր ստանալու համար:</string>
+    <string name="sp_help_shutter_sound_menu_desc_v2_NORMAL">Նախադրել ձայնային էֆեկտ լուսանկարման համար</string>
+    <string name="sp_help_show_captured_image_menu_desc_v2_NORMAL">Ցույց տալ լուսանկարն անմիջապես այն նկարելուց հետո։</string>
+    <string name="sp_help_geo_tagging_menu_desc_v2_NORMAL">Ավելացնել վայրը, որտեղ արվել է լուսանկարը։</string>
+    <string name="sp_help_storage_v2_NORMAL">Ընտրել պահուստ պատկերներ պահպանելու համար</string>
+    <string name="sp_help_storage_inner_v2_NORMAL">Պահպանել պատկերները ներքին հիշողությունում</string>
+    <string name="sp_help_storage_sd_v2_NORMAL">Պահպանել պատկերները SD քարտին</string>
+    <string name="sp_help_video_size_desc_v2_NORMAL">Սահմանել տեսաֆայլի չափը</string>
+    <string name="sp_help_video_color_effect_desc_v2_NORMAL">Նախադրել գունավոր զտիչի էֆեկտը տեսանյութ նկարահանելիս։</string>
+    <string name="sp_help_video_color_effect_mono_desc_v2_NORMAL">Ձայնագրել սև-սպիտակ վիդեոներ։</string>
+    <string name="sp_help_video_color_effect_sepia_desc_v2_NORMAL">Ձայնագրել վիդեոներ կարմրաշագանակագույն երանգներով։</string>
+    <string name="sp_help_video_color_effect_negative_desc_v2_NORMAL">Ձայնագրել գունաշրջված վիդեոներ։</string>
+    <string name="sp_help_video_shot_mode_live_shot_desc_v2_NORMAL">Սևեռել էկրանի պատկեր՝ տեսանյութ տեսագրելիս</string>
+    <string name="sp_help_video_shot_mode_live_effect_desc_v2_NORMAL">Փոխել ետին պլանները և ապահովել սահուն անցման էֆեկտներ՝ տեսագրելիս ձևափոխելու դիմագծերը։</string>
+    <string name="sp_help_video_voice_desc_v2_NORMAL">Նախադրել ձայնը տեսանյութ ձայնագրելիս</string>
+    <string name="sp_help_video_voice_unmute_desc_v2_NORMAL">Ձայնագրել վիդեոներ ձայնով</string>
+    <string name="sp_help_video_voice_mute_desc_v2_NORMAL">Ձայնագրել վիդեոներ առանց ձայնի</string>
+    <string name="sp_help_video_show_desc_v2_NORMAL">Ցույց տալ տեսանյութն անմիջապես այն նկարահանելուց հետո։</string>
+    <string name="sp_help_video_geo_tagging_menu_desc_v2_NORMAL">Ավելացնել տեղեկություններ տեսանյութը նկարելու վայրի մասին։</string>
+    <string name="sp_help_videostorage_v2_NORMAL">Ընտրել պահուստ վիդեոներ պահպանելու համար</string>
+    <string name="sp_help_videostorage_in_v2_NORMAL">Պահպանել վիդեոները ներքին հիշողությունում</string>
+    <string name="sp_help_videostorage_sd_v2_NORMAL">Պահպանել վիդեոները SD քարտին</string>
+    <string name="sp_help_shot_mode_beauty_desc_v2_NORMAL">Սևեռել պատկերներ պայծառ և աղոտ էֆեկտներով</string>
+    <string name="sp_help_flipped_img_desc_NORMAL">Պահպանել շրջված պատկերն ուղղահայաց</string>
+    <string name="sp_help_normal_img_desc_NORMAL_NORMAL">Պահպանել նորմալ պատկերը</string>
+    <string name="sp_help_camera_reset_desc_v3_NORMAL">Խցիկի կարգավորումները վերակարգավորվել են լռելյայն արժեքի</string>
+    <string name="sp_help_flipped_img_desc_v3_NORMAL">Պահպանել լուսանկարը որպես շրջված։</string>
+    <string name="sp_help_video_reset_desc_v3_NORMAL">Տեսանյութի կարգավորումները վերակայված են սկզբնադիր արժեքի</string>
+    <string name="sp_deleted_images_NORMAL">Ընտրված պատկերները կջնջվեն։ Շարունակե՞լ։</string>
+    <string name="sp_deleted_photos_NORMAL">Ընտրված լուսանկարները կջնջվեն։ Շարունակե՞լ։</string>
+    <string name="sp_help_guide_beauty_shot_desc_NORMAL">Գեղեցկացնող լուսանկարը ձեր դեմքին տալիս է ավելի պայծառ և ողորկ տեսք։</string>
+    <string name="sp_help_guide_beauty_shot_desc_list">Գեղեցկացնող լուսանկարը ձեր դեմքին տալիս է ավելի պայծառ և ողորկ տեսք։</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL">Շարունակական նկարահանումը կատարում է վեց լուսանկար անմիջապես իրար հետևից։ Լուսանկարը հեշտությամբ ընտրելու համար միացրեք Ինքնավերանայումը։</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL_v2">Շարունակական նկարահանումը կատարում է վեց լուսանկար, յուրաքանչյուրն անմիջապես նախորդից հետո։</string>
+    <string name="sp_help_guide_hdr_desc_NORMAL">Բարձր դինամիկ միջակայքը (HDR) համախմբում է լուսանկարներ, որոնք կատարվել են բազմակի լուսակայումներով մեկ օպտիմալ լուսանկարի համար՝ բարդ լուսավորման պայմաններում ավելի լավ լուսանկար ստանալու նպատակով։</string>
+    <string name="sp_help_guide_hdr_desc_list">Բարձր դինամիկ միջակայքը (HDR) համախմբում է լուսանկարներ, որոնք կատարվել են բազմակի լուսակայումներով մեկ օպտիմալ լուսանկարի համար՝ բարդ լուսավորման պայմաններում ավելի լավ լուսանկար ստանալու նպատակով։</string>
+    <string name="sp_help_guide_live_effect_desc_NORMAL">Կենդանի էֆեկտը տրամադրում է տարբեր տեսողական էֆեկտներ` տեսանյութ ձայնագրելիս: Ընտրեք էֆեկտը և սկսեք ձայնագրել:</string>
+    <string name="sp_help_guide_panorama_shot_desc_NORMAL">Ստեղծում է լայն լուսանկար համայնապատկերի տեսքով։ Պահեք սարքը հորիզոնական դիրքով, սեղմեք փականակը միացնելու համար և դանդաղ շարժեք տեսախցիկն ամբողջ տեսարանով։</string>
+    <string name="sp_help_guide_free_panorama_shot_desc_NORMAL">"Շարունակական լուսանկարները հավաքված են մեկ գնդաձև 360 համայնական պատկերի մեջ։
+Սեղմեք փականակը սկսելու և համայնացնելու տեսախցիկը ցանկացած ուղղությամբ։"</string>
+    <string name="sp_help_guide_time_machine_desc_NORMAL">Ժամանակի մեքենայի խցիկը պահում է բաց թողնված պահերը` նախքան փականի սեղմումը:</string>
+    <string name="sp_help_guide_time_machine_desc_new_NORMAL">Նշեք և պահպանեք տեսարանները, որոնք բաց էիք թողել նախքան լուսանկարներ անելը։</string>
+    <string name="sp_help_guide_time_machine_desc_new_vzw_NORMAL">Սևեռեք պահերը՝ նախքան փականակին հպելը։</string>
+    <string name="sp_help_popup_guide_time_machine_desc_new_NORMAL">Նախալուսանկարումը պահում է պահերը մինչև Ձեր փականի սեղմումը:</string>
+    <string name="sp_help_guide_time_machine_new_desc_NORMAL">Ժամանակի մեքենայի խցիկը պահում է բաց թողնված պահերը` նախքան փականի սեղմումը: Կպահվեն միայն ընտրված լուսանկարները:</string>
+    <string name="sp_image_SHORT">Պատկեր</string>
+    <string name="sp_video_SHORT">Տեսանյութ</string>
+    <string name="sp_will_be_deleted_NORMAL">%1$s Կջնջվի: Ջնջե՞լ:</string>
+    <string name="sp_photo_will_be_deleted_NORMAL">Լուսանկարը կջնջվի։ Շարունակե՞լ։</string>
+    <string name="sp_video_will_be_deleted_NORMAL">Տեսանյութը կջնջվի: Շարունակե՞լ:</string>
+    <string name="sp_gps_settings_title_NORMAL">Տեղորոշման ծառայությունն անջատված է</string>
+    <string name="sp_gps_setting_msg_NORMAL">Միացնել տեղանքի ծառայությունները՝ աշխարհագրական պիտակավորումն օգտագործելու համար:</string>
+    <string name="sp_geotagging_NORMAL">Geo-պիտակում</string>
+    <string name="sp_enable_app_msg_NORMAL">%s Պետք է միացված լինի օգտագործելու համար այս ֆունկցիան: Միացնե՞լ:</string>
+    <string name="sp_photoimage_SHORT">Նկար</string>
+    <string name="sp_note_dialog_title_NORMAL">Նշում</string>
+    <string name="sp_saved_NORMAL">Պահպանված է</string>
+    <string name="sp_front_NORMAL">Ճակատ</string>
+    <string name="sp_rear_NORMAL">Հետևի</string>
+    <string name="sp_timemachine_delete_warning_NORMAL">Դուք կկորցնեք այն նկարները, որոնք չեն պահվել: Ցանկանո՞ւմ եք շարունակել:</string>
+    <string name="sp_timemachine_bubble_popup_NORMAL">Կորցրած պահերը վերադիտելու համար հպեք այս կոճակը:</string>
+    <string name="sp_timemachine_select_NORMAL">Ստուգեք լուսանկարները, որոնք ցանկանում եք պահպանել։</string>
+    <string name="sp_timemachine_select_new_NORMAL">Ընտրեք լուսանկարները, որ ցանկանում եք պահել։</string>
+    <string name="sp_timemachine_save_guide">Ընտրեք լուսանկարները, որ ցանկանում եք պահել և սեղմեք պահպանել կոճակը։</string>
+    <string name="sp_shot_mode_time_catch_NORMAL">Նախալուսանկարում</string>
+    <string name="sp_help_guide_time_catch_desc_NORMAL">Նախալուսանկարումը պահում է փականի սեղմումից առաջ բաց թողնված պահը:</string>
+    <string name="sp_help_guide_time_catch_new_desc_NORMAL">Նախալուսանկարումը պահում է փականի սեղմումից առաջ բաց թողնված պահը: Կպահվեն միայն ընտրված լուսանկարները:</string>
+    <string name="sp_timemachine_bubble_popup_jp_NORMAL">Նախքան փականի բաց թողումը 1 վայրկյան առաջ նկարահանված լուսանկարները ցուցադրելու համար հպեք այս կոճակը:</string>
+    <string name="sp_force_close_on_high_temperature_NORMAL">Խցիկը կանջատվի սարքի բարձր ջերմաստիճանի պատճառով:</string>
+    <string name="sp_screen_cannot_be_captured_NORMAL">Ընթացիկ էկրանը չի կարող կորզվել։</string>
+    <string name="sp_voice_shutter_help_desc">Անել լուսանկար ձայնային հրամանով։</string>
+    <string name="sp_clear_shot_tab_guide">Հպել շրջագծված առարկային՝ հեռացնելու համար։</string>
+    <string name="sp_clear_shot_tab_guide_v2">Հպել շրջագծված առարկային՝ հեռացնելու համար, և հպել «Պահպանել» կոճակը։</string>
+    <string name="sp_clear_shot_not_found_object">Ջնջելու ենթակա առարկա չկա:</string>
+    <string name="sp_clear_shot_warning_popup">Դուք կկորցնեք նկարը, որովհետև գործընթացը չի պահվել: Ցանկանո՞ւմ եք շարունակել:</string>
+    <string name="sp_clear_shot_warning_handshake">Պահել հեռախոսն անշարժ:</string>
+    <string name="sp_clear_shot_capture_failed">Ձախողվեց:</string>
+    <string name="intelligent_auto">Խելացի ավտոմատ</string>
+    <string name="sp_anti_shaking_help_desc">Կանխում է ցնցելը, երբ տեսանյութ է ձայնագրվում՝ բարձրորակ տեսանյութ ստանալու համար:</string>
+    <string name="sp_photo_has_not_yet_been_saved_warning_popup">Լուսանկարը դեռ չի պահպանվել։ Դուրս գա՞լ առանց պահպանելու։</string>
+    <string name="sp_wdr_recording_help_desc">Տարբեր լուսակայման պայմաններում կատարված տեսագրությունները դարձրեք օպտիմալ կարգաբերած ֆոնային լուսավորմամբ տեսանյութ` կատարելագործած տարբեր լուսակայումների կառավարման միջոցով:</string>
+    <string name="sp_wdr_recording_help_desc_list">Տարբեր լուսակայման պայմաններում կատարված տեսագրությունները դարձրեք օպտիմալ կարգաբերած ֆոնային լուսավորմամբ տեսանյութ` կատարելագործած տարբեր լուսակայումների կառավարման միջոցով:</string>
+    <string name="sp_burst_shot_help_desc">Անել մինչև 20 հաջորդական լուսանկարներ՝ սեղմած պահելով փականակի կոճակը։</string>
+    <string name="sp_burst_shot_help_desc_list">Անել մինչև 20 հաջորդական լուսանկարներ՝ սեղմած պահելով փականակի կոճակը։</string>
+    <string name="sp_clear_shot_help_desc">Անել լուսանկար։ Հպեք շրջագծված առարկաներից ցանկացածին՝ հեռացնելու լուսանկարից։</string>
+    <string name="sp_intelligent_auto_help_desc">Ինքնաբերաբար բացահայտում է տեսարանի բնութագրերը և լուսանկարում։</string>
+    <string name="sp_intelligent_auto_help_desc_popup">Ինքնաբերաբար բացահայտում է տեսարանի բնութագրերը և կարգաբերում բացվածքը, փականակի արագությունը և այլ կարգավորումներ՝ լուսանկարելու համար։</string>
+    <string name="sp_tracking_focus_help_desc">Հպել նախադիտման էկրանի սուբյեկտին՝ հետևելու, և ճշտել ֆոկուսը։</string>
+    <string name="sp_dual_recording_help_desc">Ճակատային և գլխավոր լուսախցիկները համատեղել մեկ էկրանի վրա՝ տեսագրելու համար։</string>
+    <string name="sp_dual_recording_help_desc_v2">"1. Տեղափոխեք շարժելու համար փոքր էկրանը:
+2. Սեղմեք և պահեք
+ կրկին չափելու համար փոքր էկրանը:
+3. Նշեք փոքր էկրանը փոքր և մեծ էկրանները միացնելու համար:"</string>
+    <string name="sp_audio_zoom_help_desc_in_recording">Խոշորացնել` ձայնի աուդիո բարձրացումը միացնելու համար</string>
+    <string name="sp_audio_zoom_help_desc">Ավելացնել ձայնի զգայունակությունը աղմկոտ տարածքներում և նվազեցնել աղմուկը ձայնագրելիս:</string>
+    <string name="sp_audio_zoom_help_desc_v2">Խոշորացնել որոշակի հատված` ձայնի զգայողականությունը բարձրացնելու և աղմուկը նվազեցնելու համար: Մատչելի է միայն հորիզոնական տեսքի դեպքում: Այս հատկության օգտագործման ժամանակ ազատ պահեք կողային բարձրախոսները:</string>
+    <string name="sp_live_effect_help_desc">Տեսանյութ ձայնագրելիս տարբեր տեսանելի էֆեկտներ կիրառել:</string>
+    <string name="sp_vrpanorama_help_desc">Բազմաշարով լուսանկարված լուսանկարները ենթարկել 360-աստիճան պտտման մեկ լայնանկյուն համայնապատկերային նկարում:</string>
+    <string name="sp_vrpanorama_help_desc_v2">"1. Սեղմեք shutter կոճակը VR panorama ռեժիմը սկսելու համար:
+2. 
+Համապատասխանեցրեք ուղղորդվածության տարածքը հիմնական դիրքի հետ նկարելու համար:
+3. Տեղաշարժեք կամերան գտնելու համար մեկ այլ ուղղորդվածություն և նկարեք
+նկարները երևում են մեկ պատկերով:"</string>
+    <string name="sp_dual_camera_help_desc">Ճակատային և գլխավոր լուսախցիկները համատեղել մեկ էկրանի վրա։</string>
+    <string name="sp_smart_zoom_help_desc">Տեսանյութ նկարահանելիս կենտրոնացված տարածքը մեծացրեք փոքր էկրանում:</string>
+    <string name="sp_smart_zoom_help_desc_v2">"1. 
+Օգտագործեք խոշորացույցը մեծացնելու համար վիդեոյի տարածքը:
+2. Փոքր էկրանը ցույց է տալիս մեծացրած տարածքը: Ձգեք դեպի էկրանը այն շարժելու համար:"</string>
+    <string name="sp_intelligent_auto_mode_NORMAL">Խելացի ավտոմատ խցիկի ռեժիմ:</string>
+    <string name="sp_normal_camera_mode_NORMAL">Խցիկի սովորական ռեժիմ։</string>
+    <string name="sp_center_NORMAL">Կենտրոն</string>
+    <string name="sp_border_NORMAL">Սահման</string>
+    <string name="sp_3d_depth_NORMAL">3D խորություն</string>
+    <string name="sp_popup_change_view_to_landscape_for_3d_NORMAL">Փոխեք տեսքը հորիզոնական ռեժիմի՝ օպտիմալ 3D էֆեկտի համար։</string>
+    <string name="sp_entering_guide_NORMAL">"Արագ ցանկերը խմբագրելու համար,
+հարատև սեղմեք պատկերակը:"</string>
+    <string name="sp_entering_clean_guide_NORMAL">Խնդրում ենք խցիկի ոսպնյակները մաքուր պահել՝ պատկերի լավագույն որակ ստանալու համար:</string>
+    <string name="sp_entering_gallery_guide_NORMAL">"Լուսանկարած պատկերն արագ ստուգելու համար,
+սեղմեք և պահեք պատկերասրահի պատկերակը:"</string>
+    <string name="entering_guide_att">Սեղմել և պահել պատկերակը՝ դյուրանցումները խմբագրելու համար:</string>
+    <string name="sp_entering_gallery_guide_vzw">"Լուսանկարած պատկերն արագ ստուգելու համար,
+սեղմեք և պահեք պատկերասրահի պատկերակը:"</string>
+    <string name="entering_guide_vzw">"Դիպչեք և պահեք պատկերակը 
+կարճատները խմբագրելու համար:"</string>
+    <string name="portrait_plus">Դիմանկար +</string>
+    <string name="help_guide_portrait_plus_shot_desc">Դիմանկար +-ը դեմքի մաշկն ավելի պայծառ և հարթ է ցույց տալիս:</string>
+    <string name="edit_quick_menu">Խմբագրել արագ ցանկը</string>
+    <string name="error_occurred">Սխալ է տեղի ունեցել</string>
+    <string name="sp_info_empty_SHORT">Դատարկ</string>
+    <string name="accessibility_exit_edit_menu">Խմբագրման ցանկից դուրս գալ</string>
+    <string name="accessibility_shutter_button">Փականակ</string>
+    <string name="accessibility_review_thumbnail">Ամենավերջին լուսանկարը կամ տեսագրությունը</string>
+    <string name="accessibility_camera_picker">Խցիկի և տեսախցիկի փոխարկում</string>
+    <string name="accessibility_beautyshot_bar">Գեղեցկացնող լուսանկարի կառավարման գոտի</string>
+    <string name="accessibility_beautyshot_control">Գեղեցկացնող լուսանկարի կառավարում</string>
+    <string name="accessibility_beautyshot_button">Գեղեցկացնող լուսանկարի կառավարման կոճակ</string>
+    <string name="accessibility_brightness_bar">Պայծառության կառավավարման գոտի</string>
+    <string name="accessibility_brightness_control">Պայծառության կառավարում</string>
+    <string name="accessibility_brightness_button">Պայծառության կառավարման կոճակ</string>
+    <string name="accessibility_manual_focus_bar">Ֆոկուսի ձեռքով վերահսկման տող</string>
+    <string name="accessibility_manual_focus_button">Ֆոկուսի ձեռքով վերահսկում</string>
+    <string name="accessibility_zoom_bar">Չափափոխման կառավարման գոտի</string>
+    <string name="accessibility_zoom_control">Չափափոխման կառավարում</string>
+    <string name="accessibility_zoom_button">Չափափոխման կառավարման կոճակ</string>
+    <string name="accessiblity_free_panorama_retake">Նորից նկարել</string>
+    <string name="accessiblity_start_recording">Սկսել ձայնագրումը</string>
+    <string name="accessiblity_stop_recording">Դադարեցրեք ձայնագրումը</string>
+    <string name="accessiblity_pause_recording">Ընդհատել ձայնագրությունը</string>
+    <string name="camera_accessibility_stop_button">"Դադարեցնե՞լ "</string>
+    <string name="free_panorama_bubble_popup">Լուսանկարը 360 տեսքով ցուցադրելու համար դիպչեք էկրանին:</string>
+    <string name="error_panorama_during_taking">Դադարեց համայնապատկերի նկարումը՝ խցիկի տեղորոշման համար: Նկարը պահված է Պատկերասրահում:</string>
+    <string name="sp_date_stamp">Ամսաթվի կնիք</string>
+    <string name="audio_zoom_warning">Աուդիոյի հեռափոխումը ակտիվանում է միայն հորիզոնական տեսքում։</string>
+    <string name="audio_zoom_disabled">Աուդիոյի հեռափոխումը կասեցված է</string>
+    <string name="unable_to_use_qmemo">Հնարավոր չէ օգտագործել %s</string>
+    <string name="sp_open_quick_camera_case">Բացեք Արագ Տեսախցիկի Քեյս</string>
+    <string name="message_received">Նոր հաղորդագրությունն ստացվել է</string>
+    <string name="pd_message_processing">Մշակում է...</string>
+    <string name="not_available_during_remote_care">Մատչելի չէ հեռակառավարման սպասարկման ընթացքում։</string>
+    <string name="dual_camera_effect_menu_none">Ոչ մի</string>
+    <string name="dual_camera_effect_menu_stamp">Դրոշմ</string>
+    <string name="dual_camera_effect_menu_ovalblur">Մշուշոտ օվալ</string>
+    <string name="dual_camera_effect_menu_instantpic">Ակնթարթային</string>
+    <string name="dual_camera_effect_menu_heart">Սրտի ձև</string>
+    <string name="dual_camera_effect_menu_star">Աստղի ձև</string>
+    <string name="dual_camera_effect_menu_window">Պատուհան</string>
+    <string name="dual_camera_effect_menu_fisheye">Ձկան աչք</string>
+    <string name="dual_camera_effect_menu_cubism">Խորանարդային</string>
+    <string name="dual_camera_effect_menu_splitview1">Տրոհել տեսք 1-ը</string>
+    <string name="dual_camera_effect_menu_splitview2">Տրոհել տեսք 2-ը</string>
+    <string name="smart_zoom_object_tracking_focus_mode">Հետագծի կիզակետման ռեժիմ</string>
+    <string name="smart_zoom_manual_focus_mode">Ֆոկուսի սովորական ռեժիմ</string>
+    <string name="sp_shot_mode_new_hdr">Դինամիկ երանգ (HDR)</string>
+    <string name="sp_help_guide_new_hdr_desc_list">Համակցում է տարբեր լուսակայումներում կատարված լուսանկարները մեկ օպտիմալ լուսանկարում` ավելի լավ որակի լուսանկար ստանալու համար` խնդրահարույց լուսավորության իրավիճակներում:</string>
+    <string name="accessiblity_mode_button">Ռեժիմ</string>
+    <string name="accessiblity_change_view_list_button">Ցուցակի տեսք</string>
+    <string name="accessiblity_change_view_grid_button">Վանդակացանցային տեսք</string>
+    <string name="accessiblity_default_auto_button">Սովորական</string>
+    <string name="mode_menu_camera_normal">Անել լուսանկար լուսախցիկի սովորական ռեժիմով։</string>
+    <string name="mode_menu_video_normal">Ձայնագրել վիդեո նորմալ ձայնագրման ռեժիմով։</string>
+    <string name="mode_menu_video_tracking_zoom">"Թույլատրում է Ձեզ ընտրել կիազկետային տարածք՝ ընդարձակվելու համար:
+Դիտեք այն փոքր էկրանին և տեսանյութ ձայնագրեք:"</string>
+    <string name="help">Օգնություն</string>
+    <string name="camera_quick_button_index_mode">Ռեժիմ</string>
+    <string name="panorama_guide_tap_shutter_to_start">Հպել փականակի կոճակին՝ գործարկելու</string>
+    <string name="panorama_guide_move_in_one_direction">Տեղափոխել մեկ ուղղությամբ</string>
+    <string name="panorama_guide_tap_to_finish">Հպել «Կանգնեցնել» կոճակին՝ ավարտելու</string>
+    <string name="sp_down_NORMAL">Ներքև</string>
+    <string name="sp_up_NORMAL">Վերև</string>
+    <string name="sp_right_NORMAL">Աջ</string>
+    <string name="sp_left_NORMAL">Ձախ</string>
+    <string name="volume_key">Ձայնի հնչեղության ստեղն</string>
+    <string name="volume_key_capture_image">Սևեռել</string>
+    <string name="volume_key_record_video">Ձայնագրում</string>
+    <string name="volume_key_zoom">Չափափոխում</string>
+    <string name="volume_key_zoom_only">Չափափոխումն ակտիվանում է միայն ետին խցիկում:</string>
+    <string name="volume_key_zoom_disable">Չափափոխումը չի աջակցվում այս ռեժիմում:</string>
+    <string name="volume_key_zoom_disable_resolution">Չափափոխումը չի աջակցվում այս տարլուծման համար:</string>
+    <string name="help_scene_mode_menu_night_desc_new">Սևեռել լուսանկարներ մութ տարածքներում առանց լուսաբռնկիչի։</string>
+    <string name="sp_confirm_NORMAL">Հաստատել</string>
+    <string name="sp_dialog_change_setting">«Ակտիվացնել»-ը դարձնել «Կասեցնել»</string>
+    <string name="sp_dialog_change_setting_au_cloud">Խնդրում ենք չեղարկել au հավելվածի «Անջատումը»:</string>
+    <string name="sp_auto_upload_NORMAL">Ինքնաբեր վերբեռնում</string>
+    <string name="sp_new_ux_help_guide_title_clear_shot">Լուսանկարելու և Մաքրելու ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_hdr">Դինամիկ երանգի (HDR) ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_panorama">Համայնապատկերի ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_vr_panorama">VR համայնապատկերի ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_burst_shot">Արագ անընդմեջ պատկերման ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_beauty_shot">Գեղեցկացնող լուսանկարի ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_portrait_plus">Դիմանկար+ ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_dual_camera">Երկակի խցիկի ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_time_machine_camera">Ժամանակի մեքենայի խցիկի ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_time_catch_shot">Նախալուսանկարման ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_intelligent_auto">Խելացի ավտոմատ ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_sports">Սպորտային ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_night">Գիշերային ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_dual_recording">Երկակի ձայնագրման ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_live_effect">Կենդանի էֆեկտի ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_continuous_shot">Շարունակական նկարահանման ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_hdr_recording">Բարձր դինամիկ միջակայքով (HDR) տեսագրման ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_wdr_recording">WDR ձայնագրման ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_voice_shutter">Ձայնի փականի ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_cheese_shutter">Պայմանական բառով լուսանկարման ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_audio_zoom">Աուդիոյի հեռափոխման ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_title_tracking_zoom">Հետագծման չափափոխման ուղեցույց</string>
+    <string name="sp_new_ux_help_guide_desc_clear_shot">"1. Նկարեք
+:
+2. 
+Սեղմեք նշված օբյեկտներից որևէ մեկի վրա ֆոտոյից հեռացնելու համար:
+3. Սեղմեք պահպանել կոճակը:"</string>
+    <string name="sp_new_ux_help_guide_desc_hdr">Բարձր դինամիկ միջակայքը (HDR) համախմբում է լուսանկարներ, որոնք կատարվել են տարբեր լուսակայումներով մեկ օպտիմալ լուսանկարի համար՝ բազմակի լուսակայման վերահսկումը մեծացնելու միջոցով ետնալույսը համակշռելիս։</string>
+    <string name="sp_new_ux_help_guide_desc_panorama">"1. Սեղմեք shutter կոճակը սկսելու համար:
+2. Դանդաղ տեղաշարժեք սարքը մի ուղղությամբ
+:
+3.Ավարտելուց հետո սեղմեք պահպանել կոճակը:"</string>
+    <string name="sp_new_ux_help_guide_desc_plane_panorama">"1. Սեղմեք shutter կոճակը սկսելու համար:
+2. Դանդաղ տեղաշարժեք սարքը մի ուղղությամբ
+:
+3.
+Համապատասխանեցրեք ուղղորդվածության տարածքը հիմնական դիրքի հետ նկարելու համար:
+4. Ավարտելուց հետո սեղմեք պահպանել կոճակը:"</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama">"1. Սեղմեք shutter կոճակը VR panorama ռեժիմը սկսելու համար:
+2. 
+Համապատասխանեցրեք ուղղորդվածության տարածքը հիմնական դիրքի հետ նկարելու համար:
+3. Տեղաշարժեք կամերան գտնելու համար մեկ այլ ուղղորդվածություն և նկարեք
+նկարները երևում են մեկ պատկերով:"</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new">"1. Հպեք փականի կոճակին՝ VR համայնապատկերի կերպն սկսելու համար:
+2.Կիզակետի տարածքը հարմարեցրեք կապույտ ուղեգծին՝ նկար նկարելու համար:
+3. Խցիկը տեղափոխեք՝ մեկ այլ կիզակետի տարածք գտնելու համար և նկարներ նկարեք:
+Նկարները մեկ պատկերի մեջ կհամադրվեն:
+Երբ VR համայնապատկերով նկարներ եք նկարում, առարկային շատ մոտ մի՛ կանգնեք, այլ համապատասխան հեռավորություն պահպանեք:"</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new_specified">"1. Հպեք փականի կոճակին՝ VR համայնապատկերի կերպն սկսելու համար:
+2.Կիզակետի տարածքը հարմարեցրեք կապույտ ուղեգծին՝ նկար նկարելու համար:
+3. Խցիկը տեղափոխեք՝ մեկ այլ կիզակետի տարածք գտնելու համար և նկարներ նկարեք:
+Նկարները մեկ պատկերի մեջ կհամադրվեն:
+Երբ VR համայնապատկերով նկարներ եք նկարում, առարկային շատ մոտ մի՛ կանգնեք, այլ համապատասխան հեռավորություն պահպանեք: (16 ոտնչ.-ից 5մ):"</string>
+    <string name="sp_new_ux_help_guide_desc_light_frame">Անել ավելի պայծառ լուսանկարներ ավելի փոքր նախադիտմամբ՝ ճակատային լուսախցիկը օգտագործելիս։</string>
+    <string name="sp_new_ux_help_guide_desc_burst_shot">Անել մինչև 20 հաջորդական լուսանկարներ՝ սեղմած պահելով փականակի կոճակը։</string>
+    <string name="sp_new_ux_help_guide_desc_beauty_shot">Գեղեցկացնող լուսանկարը ձեր դեմքին տալիս է ավելի պայծառ և ողորկ տեսք։</string>
+    <string name="sp_new_ux_help_guide_desc_time_machine_camera">"1. Սեղմեք լուսանկարել կոճակը և կսկսվի ժամանակի մեքենա:
+2. Նշեք պատկերասրահ կոճակը, վերանայեք բացակայող պահերը:
+3. Ընտրեք լուսանկարները, որոնք դուք ցանկանում եք պահել:
+4. Սեղմեք պահպանել կոճակը:"</string>
+    <string name="sp_new_ux_help_guide_desc_time_catch_shot">"1. Սեղմեք լուսանկարել կոճակը և կսկսվի ժամանակի մեքենա:
+2. Նշեք պատկերասրահ կոճակը, վերանայեք բացակայող պահերը:
+3. Ընտրեք լուսանկարները, որոնք դուք ցանկանում եք պահել:
+4. Սեղմեք պահպանել կոճակը:"</string>
+    <string name="sp_new_ux_help_guide_desc_intelligent_auto">Ինքնաբերաբար բացահայտում է տեսարանի բնութագրերը և լուսանկարում։</string>
+    <string name="sp_new_ux_help_guide_desc_dual_recording">"1. Տեղափոխեք շարժելու համար փոքր էկրանը:
+2. Սեղմեք և պահեք
+ կրկին չափելու համար փոքր էկրանը:
+3. Նշեք փոքր էկրանը փոքր և մեծ էկրանները միացնելու համար:"</string>
+    <string name="sp_new_ux_help_guide_desc_live_effect">"1. Ընտրեք այն էֆեկտը, որը ցանկանում եք օգտագործել
+:
+2. Սեղմեք ձայնագրման կոճակը և սկսեք ձայնագրել:"</string>
+    <string name="sp_new_ux_help_guide_desc_hdr_recording">Բարձր դինամիկ միջակայքով (HDR) տեսագրումը բարելավում է Ձեր տեսանյութը բազմակի լուսակայման վերահսկման միջոցով։</string>
+    <string name="sp_new_ux_help_guide_desc_wdr_recording">WDR-ի ձայնագրությունը կատարելագործում է Ձեր տեսանյութը՝ լուսանկարի ժապավենի բազմակի ստուգումներից:</string>
+    <string name="sp_uhd_heat_warning">UHD տեսագրությունն առկա է մինչև 5 րոպե՝ պահպանելու խորհուրդ տրվող ջերմաստիճանը։ Տեսագրությունը կփակվի։</string>
+    <string name="sp_help_guide_title_face_tracking_led">Երեսի հետագծման ուղեցույց</string>
+    <string name="sp_help_guide_face_tracking_led">"Ծանուցման լուսադիոդը թարթում է, երբ դեմք է հայտնաբերվում։
+Դուք կարող եք փոխել կարգավորումները Կարգավորումներ > Ցուցադրում> Ծանուցման լուսադիոդ։"</string>
+    <string name="dialog_alert_title">Զգուշացում</string>
+    <string name="camera_accessibility_indicator_message_remaining">Նոր տեքստային հաղորդագրություններ</string>
+    <string name="camera_accessibility_indicator_mms_remaining">Նոր մուլտիմեդիա հաղորդագրություններ</string>
+    <string name="camera_accessibility_indicator_voice_mail_remaining">Նոր ձայնափոստ</string>
+    <string name="camera_accessibility_indicator_gps_connecting">Միացնում է աշխարհագրական կցապիտակները</string>
+    <string name="camera_accessibility_indicator_geotagging_on">Geo-պիտակումը միացված է</string>
+    <string name="camera_accessibility_indicator_remaining_picture_count">%s ավելի շատ լուսանկարներ կարելի է անել։</string>
+    <string name="camera_accessibility_indicator_battery">Մարտկոցը՝ %s տոկոս</string>
+    <string name="camera_accessibility_indicator_storage">Պահպանել %s-ում</string>
+    <string name="camera_accessibility_indicator_voice_shutter_on">%s միացված է</string>
+    <string name="camera_accessibility_indicator_anti_shaking_on">Հակացնցողը միացված է</string>
+    <string name="camera_accessibility_thumbnail">Գնալ դեպի պատկերասրահ</string>
+    <string name="not_available_during_incoming_call">Հասանելի չէ մուտքային կանչի ընթացքում</string>
+    <string name="camera_error_occurred_try_again">Խցիկը կարճ ժամանակով անհասանելի է՝ ժամանակավոր խնդրի պատճառով: Կրկին փորձեք:</string>
+    <string name="mode_menu_camera_refocus_new">Կրկին ընտրել կիզակետը` լուսանկարելուց հետո</string>
+    <string name="sp_refocus_bubble_popup_NORMAL">Այս լուսանկրի կիզակետը վերակայելու համար հպեք այստեղ:</string>
+    <string name="sp_postview_action_bar_menu_all_in_focus">Բոլորը ֆոկուսի մեջ են</string>
+    <string name="sp_refocus_preview_guide_message">Մոտեցեք Ձեր օբյեկտին և լուսանկարելիս հեռախոսը պահեք անշարժ</string>
+    <string name="shot_mode_magic_focus">Հրաշք կիզակետ</string>
+    <string name="sp_new_ux_help_guide_title_refocus">Մոգական կիզակետի ուղեցույց</string>
+    <string name="sp_camera_refocus_postview_allinfocus_message">Ձեր լուսանկարի բոլոր մասերը ֆոկուսի մեջ են</string>
+    <string name="sp_new_ux_help_guide_desc_refocus_new">"1. Նկարեք և սեղմեք 
+Gallery կոճակը:
+2. ֆոկուսը փոխելու համար սեղմեք օբյեկտի վրա
+:
+3. Սեղմեք պահպանել կոճակը պահպանելու համար վերաուղղորդված պատկերը:"</string>
+    <string name="sp_refocus_postview_message_new">Հպեք որևէ առարկայի կամ կարգաբերեք կարգադրիչը՝ փոխելու ֆոկուսը, հետո հպեք (#1#) վերին աջ անկյունում</string>
+    <string name="sp_refocus_postview_message_vzw_new">Հպեք որևէ առարկայի կամ կարգաբերեք կարգադրիչը՝ փոխելու ֆոկուսը, հետո հպեք Save կոճակին վերին աջ անկյունում</string>
+    <string name="sp_refocus_warning_popup">Ֆոկուսը չի փոխվել։ Դուրս գա՞լ։</string>
+    <string name="gesture_guide">Փակեք Ձեր մատերը՝ նկար պատկերելու համար</string>
+    <string name="sp_gesture_guide_msg_fist">Բռունցը բացել՝ նկար նկարելու համար</string>
+    <string name="camera_help_activity_gesture_shot">Շարժումով պատկերում</string>
+    <string name="sp_help_gestureshot_desc">Ինքնանկար նկարեք ձեռքի շարժումով:</string>
+    <string name="sp_new_ux_help_guide_title_gestureshot">Շարժումով նկարելու ուղեցույց</string>
+    <string name="sp_new_ux_gesture_shot_help_activity_desc">Ձեռքի շարժումով ինքնանկարներ նկարեք: Նկարելու համար բարձրացրեք Ձեր ձեռքը, մինչև որ Ձեր առջևի խցիկն այն հայտնաբերի և էկրանին տուփ հայտնվի: Այնուհետև ձեռքով դպեք՝ նկար նկարելու համար:</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/help_layout_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/help_item_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
+        <ImageView android:id="@id/help_item_menu7_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/help_activity_item_main_icon_topdown_margin" android:layout_marginBottom="@dimen/help_activity_item_main_icon_topdown_margin" android:layout_marginStart="@dimen/help_activity_item_main_icon_left_margin" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/help_item_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/help_activity_item_main_title.marginLeft" style="@style/help_item_main_menu" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/main_divider" android:layout_width="fill_parent" style="@style/help_item_main_divider" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/help_item_textview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.5">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/help_item_view_sub" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/help_item_view_text" android:paddingTop="@dimen/help_activity_item_sub_topdown_margin" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.9">
+                <TextView android:id="@id/help_item_sub_menu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/help_activity_item_sub_leftright_margin" android:layout_marginEnd="@dimen/help_activity_item_sub_leftright_margin" style="@style/help_item_sub_menu" />
+                <TextView android:gravity="start|center" android:id="@id/help_item_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/help_activity_item_sub_topdown_margin" android:includeFontPadding="true" android:lineSpacingMultiplier="1.1" android:layout_marginStart="@dimen/help_activity_item_sub_leftright_margin" android:layout_marginEnd="@dimen/help_activity_item_desc_right_margin" style="@style/help_item_activity_desc" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/help_item_view_icon" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1">
+                <ImageView android:layout_gravity="center" android:id="@id/help_popup_icon" android:background="@drawable/camera_icon_help_c" android:paddingTop="0.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/sp_detail_view_NORMAL" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/sub_divider" android:layout_width="fill_parent" style="@style/help_item_sub_divider" />
+    </LinearLayout>
+</LinearLayout>

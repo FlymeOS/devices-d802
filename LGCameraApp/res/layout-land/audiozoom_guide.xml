@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/audiozoom_guide" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lge.camera.components.RotateLayout android:id="@id/audiozoom_guide_rotatelayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:layoutDirection="ltr">
+        <RelativeLayout android:id="@id/audiozoom_guide_sublayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/audiozoom_guide_box" android:background="@drawable/audio_pinch_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+    <com.lge.camera.components.RotateLayout android:id="@id/audiozoom_guide_string_rotatelayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/audiozoom_guide_string_marginBottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.lge.camera.components.RotateTextView android:id="@id/audiozoom_guide_string" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/onScreenHint_rotate_text_view" />
+    </com.lge.camera.components.RotateLayout>
+    <RelativeLayout android:id="@id/audiozoom_angle_bar_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/audiozoom_angle_bar_marginTop" android:layoutDirection="ltr" android:layout_marginStart="@dimen/audiozoom_angle_bar_marginLeft">
+        <com.lge.camera.components.RotateLayout android:id="@id/audiozoom_angle_bar_rotatelayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/audiozoom_angle_bar_marginTop" android:layoutDirection="ltr" android:layout_marginStart="@dimen/audiozoom_angle_bar_marginLeft">
+            <RelativeLayout android:id="@id/audiozoom_angle_bar_sublayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <com.lge.camera.components.AudiozoomBarLevelMeter android:id="@id/audiozoom_angle_bar_level" android:background="@drawable/audiofocus_progress_bar_bg" android:visibility="gone" android:layout_width="@dimen/audiozoom_angle_bar_width" android:layout_height="@dimen/audiozoom_angle_bar_height" android:src="@drawable/audiofocus_progress_bar_full_down" android:scaleType="fitXY" />
+                <com.lge.camera.components.AudiozoomBar android:id="@id/audiozoom_angle_bar_step" android:visibility="gone" android:layout_width="@dimen/audiozoom_angle_bar_width" android:layout_height="@dimen/audiozoom_angle_bar_height" android:src="@drawable/audiofocus_progress_bar_full" android:scaleType="fitXY" />
+            </RelativeLayout>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

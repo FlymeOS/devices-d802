@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kamera</string>
+    <string name="sp_ok_NORMAL">Pilih</string>
+    <string name="sp_lowbattery_MLINE">Daya baterai terlalu lemah utk menjalankan kamera. Harap isi daya telepon Anda.</string>
+    <string name="sp_lowbattery">Baterai saat ini terlalu lemah untuk menjalankan kamera.</string>
+    <string name="setting_init">"Semua pengaturan akan direset ke
+nilai default. Lanjutkan?"</string>
+    <string name="sp_reset_message_NORMAL">Atur ulang ke nilai default?</string>
+    <string name="sp_All_settings_reset_NORMAL">Semua Pengaturan direset</string>
+    <string name="sp_blockedByEAS_NORMAL">Kamera dinonaktifkan karena kebijakan server Exchange.</string>
+    <string name="sp_block_camera_NORMAL">Kamera dinonaktifkan oleh kebijakan server</string>
+    <string name="error_cannot_use_hdmi">Tdk dpt menggunakan kamera selagi terhubung HDMI.</string>
+    <string name="sp_dual_display_status_NORMAL">Tidak bisa menggunakan kamera dalam modus tampilan ganda.</string>
+    <string name="reset">Atur ulang</string>
+    <string name="cancel">Batalkan</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="sp_camera_helpdesc_generalsetting">Umum</string>
+    <string name="sp_Exit_NORMAL">Keluar</string>
+    <string name="auto">Otomatis</string>
+    <string name="on">Hidup</string>
+    <string name="sp_review_timer_2_NORMAL">2 dtk.</string>
+    <string name="off">Mati</string>
+    <string name="sp_none_NORMAL">Tidak ada</string>
+    <string name="settings">Pengaturan</string>
+    <string name="sp_loading_camera_NORMAL">Menyiapkan...</string>
+    <string name="dual_camera_select">Tukar kamera</string>
+    <string name="insert_sd_card">Harap masukkan kartu SD</string>
+    <string name="insert_add_sd_card">Pasang kartu SD eksternal Anda.</string>
+    <string name="sp_preparing_int_sd_NORMAL">Mempersiapkan memori internal…</string>
+    <string name="preparing_sd">Menyiapkan kartu SD.</string>
+    <string name="sp_cannot_use_camera_UMS_NORMAL">Tidak bisa menggunakan kamera karena kartu SD terpasang ke PC. Putuskan koneksi USB untuk melanjutkan.</string>
+    <string name="sp_connected_mass_storage_NORMAL">Penyimpanan masal</string>
+    <string name="sp_not_available_connected_mass_storage_NORMAL">"Kamera tidak tersedia.
+Penyimpan USB terhubung ke PC."</string>
+    <string name="sp_launch_NORMAL">Jalankan</string>
+    <string name="sp_memory_full_diag_title_NORMAL">Memori penuh</string>
+    <string name="sp_memory_full_diag_1_NORMAL">"Tidak cukup memori di %1$s.
+File Anda akan disimpan ke %2$s.
+Hapus sejumlah memori di %3$s dengan menghubungkan telepon ke PC atau menjalankan pengelola file.
+
+Jalankan pengelola file sekarang?
+Periksa file Anda di '%4$s'"</string>
+    <string name="sp_memory_full_diag_1_no_file_manager_NORMAL">"Tidak cukup memori di %1$s.
+File Anda akan disimpan ke %2$s.
+Hapus sejumlah memori di %3$s dengan menghubungkan telepon ke PC atau menjalankan pengelola file."</string>
+    <string name="sp_memory_full_diag_2_NORMAL">"Tidak cukup memori di %1$s.
+Hapus sejumlah memori di %1$s dengan menghubungkan telepon ke PC atau menjalankan pengelola file.
+
+Jalankan pengelola file sekarang?
+Periksa file Anda di '%2$s'"</string>
+    <string name="sp_memory_full_diag_2_no_file_manager_NORMAL">"Tidak cukup memori di %1$s.
+Hapus sejumlah memori di %1$s dengan menghubungkan telepon ke PC atau menjalankan pengelola file."</string>
+    <string name="sp_memory_full_diag_3_NORMAL">"Tidak cukup memori di semua memori.
+Hapus sejumlah memori dengan menghubungkan telepon ke PC atau menjalankan pengelola file.
+
+Jalankan pengelola file sekarang?
+Periksa file Anda di '%1$s'"</string>
+    <string name="sp_memory_full_diag_3_no_file_manager_NORMAL">"Tidak cukup memori di semua memori.
+Hapus sejumlah memori dengan menghubungkan telepon ke PC atau menjalankan pengelola file."</string>
+    <string name="sp_storage_full_popup_ics_title_NORMAL">Penyimpanan Penuh!</string>
+    <string name="sp_storage_full_message_not_on_internal_NORMAL">Tidak cukup ruang simpan di memori internal</string>
+    <string name="sp_storage_full_message_not_on_internal_sto_NORMAL">Tidak cukup ruang simpan di Penyimpanan internal.</string>
+    <string name="sp_storage_full_message_not_on_sd_NORMAL">Tidak cukup ruang simpan pada kartu SD.</string>
+    <string name="sp_storage_full_message_save_to_internal_NORMAL">File disimpan ke memory internal.</string>
+    <string name="sp_storage_full_message_save_to_internal_st_NORMAL">File disimpan ke penyimpan internal.</string>
+    <string name="sp_storage_full_message_save_to_sd_NORMAL">File disimpan ke kartu SD</string>
+    <string name="sp_storage_full_saving_file_NORMAL">Menyimpan file...</string>
+    <string name="sp_storage_full_free_NORMAL">Untuk membebaskan ruang simpan, hapus file yang tidak digunakan.</string>
+    <string name="msg_save_progress">Menyimpan...</string>
+    <string name="sp_storage_full_popup_ics_1_NORMAL">Tidak cukup ruang simpan di %s. Untuk membebaskan ruang simpan, hapus file yang tidak digunakan.</string>
+    <string name="sp_storage_full_popup_ics_2_NORMAL">Tidak cukup ruang simpan di %1$s. File disimpan ke %2$s. Untuk membebaskan ruang simpan, hapus file yang tidak digunakan.</string>
+    <string name="sp_storage_full_popup_ics_3_NORMAL">Tidak cukup ruang simpan di semua penyimpan. Untuk membebaskan ruang simpan, hapus file yang tidak digunakan.</string>
+    <string name="sp_storage_full_popup_ics_6_NORMAL">Tidak cukup ruang simpan di %s. Menyimpan file...</string>
+    <string name="sp_full_popup_ics_1_not_in_memory_NORMAL">Tidak cukup ruang simpan di memori internal. Untuk membebaskan ruang simpan, hapus file yang tidak digunakan.</string>
+    <string name="sp_full_popup_ics_1_not_in_storage_NORMAL">Tidak cukup ruang simpan di penyimpan internal. Untuk membebaskan ruang simpan, hapus file yang tidak digunakan.</string>
+    <string name="sp_full_popup_ics_1_not_sd_NORMAL">Tidak cukup ruang simpan pada kartu SD. Untuk membebaskan ruang simpan, hapus file yang tidak digunakan.</string>
+    <string name="sp_full_popup_ics_2_not_in_memory_to_sd_NORMAL">Tidak cukup ruang simpan di memori internal. File disimpan ke kartu SD. Untuk membebaskan ruang simpan, hapus file yang tidak digunakan.</string>
+    <string name="sp_full_popup_ics_2_not_in_storage_to_sd_NORMAL">Tidak cukup ruang simpan di Penyimpanan internal. File disimpan ke kartu SD. Untuk membebaskan ruang simpan, hapus file yang tidak digunakan.</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_memory_NORMAL">Tidak cukup ruang simpan pada kartu SD. File disimpan ke penyimpan internal. Untuk membebaskan ruang simpan, hapus file yang tidak digunakan.</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_storage_NORMAL">Tidak cukup ruang simpan pada kartu SD. File disimpan ke penyimpan internal. Untuk membebaskan ruang simpan, hapus file yang tidak digunakan.</string>
+    <string name="sp_full_popup_ics_6_not_in_memory_NORMAL">Tidak cukup ruang simpan di memori internal. Menyimpan file.</string>
+    <string name="sp_full_popup_ics_6_not_in_storage_NORMAL">Tidak cukup ruang simpan di Penyimpanan internal. Menyimpan file.</string>
+    <string name="sp_full_popup_ics_6_not_sd_NORMAL">Tidak cukup ruang simpan pada kartu SD. Menyimpan file...</string>
+    <string name="sp_internal_sd_prepared_NORMAL">Memori internal dipersiapkan.</string>
+    <string name="sp_external_sd_prepared_NORMAL">Kartu SD dipersiapkan.</string>
+    <string name="sp_not_enough_memory_NORMAL">"Tidak cukup penyimpan di semua Memori.
+Hapus sejumlah memori."</string>
+    <string name="not_enough_space">Sisipkan kartu memori eksternal baru atau hapus konten yang ada</string>
+    <string name="sp_not_enough_int_sd_NORMAL">"Tidak cukup penyimpan di memori internal.
+File Anda akan disimpan ke kartu SD."</string>
+    <string name="sp_not_enough_add_space_NORMAL">"Tidak cukup penyimpan di kartu SD.
+Hapus sejumlah memori."</string>
+    <string name="sp_not_enough_sd_int_NORMAL">"Tidak cukup penyimpan di kartu SD.
+File Anda akan disimpan ke memori internal."</string>
+    <string name="sp_media_scanning_NORMAL">"Memindai media. Coba lagi,
+setelah selesai memindai media."</string>
+    <string name="sp_media_scanning_ics_NORMAL">Coba lagi setelah memindai file media.</string>
+    <string name="scanning_sdcard_media_files">Memindai file kartu SD...</string>
+    <string name="sp_ext_sdcard_not_exist_NORMAL">Kartu SD tidak ada. Penyimpanan dirubah ke memori internal.</string>
+    <string name="sp_sdremoved_change_int_NORMAL">Kartu SD dilepas. Penyimpanan diubah ke memori internal.</string>
+    <string name="sp_sd_card_removed_NORMAL">Kartu SD dilepas. Masukkan Kartu SD.</string>
+    <string name="camera_closed_due_to_sdcard_removal">Kartu SD tiba-tiba dilepas. Kamera ditutup.</string>
+    <string name="sp_sdcard_inserted_noti">Kartu SIM disisipkan. Simpan ke kartu SD?</string>
+    <string name="sp_storage_always_ask_NORMAL">Selalu tanya</string>
+    <string name="sp_storage_noti_title_NORMAL">Notifikasi</string>
+    <string name="title_not_enough_space">Memori penuh</string>
+    <string name="popup_storage_full_save">Memori penuh. Menyimpan ...</string>
+    <string name="sp_notenoughmemory_NORMAL">"Memori internal atau kartu SD penuh.
+Hapus beberapa konten."</string>
+    <string name="sp_addspace_NORMAL">"Kartu SD penuh.
+Hapus sejumlah konten."</string>
+    <string name="sp_mhl_cannot_use_camera_NORMAL">Tidak bisa menggunakan kamera saat kabel MHL terhubung.</string>
+    <string name="sp_mhl_cannot_show_preview_NORMAL">Tidak bisa menampilkan pratinjau kamera saat kabel MHL terhubung.</string>
+    <string name="msg_found_escape_char">ada karakter yang tak diizinkan</string>
+    <string name="sp_message_filename_limit_NORMAL">"Melebihi batas panjang nama file 
+(batas: %d karakter)"</string>
+    <string name="waiting_save_image">Mohon tunggu...</string>
+    <string name="sp_image_size_front_NORMAL">Font ukuran gambar</string>
+    <string name="image_size">Ukuran gbr</string>
+    <string name="scene_mode">Mode pemotretan</string>
+    <string name="scene_mode_portrait">Potret</string>
+    <string name="scene_mode_landscape">Lanskap</string>
+    <string name="scene_mode_sports">Senja</string>
+    <string name="scene_mode_night">Malam</string>
+    <string name="scene_mode_sunset">Matahari terbenam</string>
+    <string name="sp_scene_mode_default_NORMAL">Otomatis</string>
+    <string name="white_balance">Cahaya</string>
+    <string name="white_balance_incandescent">Cahaya</string>
+    <string name="white_balance_sunny">Bercahaya</string>
+    <string name="white_balance_fluorescent">Fluoresens</string>
+    <string name="white_balance_cloudy">Berawan</string>
+    <string name="sp_whitebalance_default_NORMAL">Otomatis</string>
+    <string name="color_effect">Efek warna</string>
+    <string name="color_effect_negative">Negatif</string>
+    <string name="color_effect_solarize">Solarisasi</string>
+    <string name="color_effect_negative_sepia">Sepia negatif</string>
+    <string name="color_effect_blue">Biru</string>
+    <string name="color_effect_posterize">Posteris</string>
+    <string name="sp_color_effect_none_cameraapp_NORMAL">Tidak ada</string>
+    <string name="image_quality">Kualitas gambar</string>
+    <string name="quality_super_fine">Super halus</string>
+    <string name="quality_fine">Baik</string>
+    <string name="video_quality">Kualitas video</string>
+    <string name="timer_1">1 dtk.</string>
+    <string name="timer_3">3 dtk.</string>
+    <string name="timer_5">5 dtk.</string>
+    <string name="timer_10">10 dtk.</string>
+    <string name="shot_mode">Mode bidik</string>
+    <string name="shot_mode_continuous">Bidikan secara kontinyu</string>
+    <string name="shot_mode_smile">Bidikan senyum</string>
+    <string name="shot_mode_beauty">Bidikan cantik</string>
+    <string name="shot_mode_art">Bidikan seni</string>
+    <string name="shot_mode_face_effect">Efek wajah</string>
+    <string name="shot_mode_cartoon">Kartun</string>
+    <string name="shot_mode_vr_panorama">Panorama VR</string>
+    <string name="shot_mode_burst">Bidikan penuh</string>
+    <string name="sp_shot_mode_burst">Bidikan penuh</string>
+    <string name="record_mode">Mode rekam</string>
+    <string name="record_mode_WDR">"Merekam WDR "</string>
+    <string name="record_mode_HDR">Perekaman HDR</string>
+    <string name="artshot_original">Asli</string>
+    <string name="artshot_warm">Hangat</string>
+    <string name="artshot_cold">Dingin</string>
+    <string name="artshot_blackwhite">Hitam dan Putih</string>
+    <string name="face_effect_blur">Kbr</string>
+    <string name="face_effect_snow">Salju</string>
+    <string name="face_effect_shallow_focus">Fokus dangkal</string>
+    <string name="face_effect_big_head">Kepala besar</string>
+    <string name="face_effect_mosaic">Mosaik</string>
+    <string name="face_effect_fish_eye">Mata-ikan</string>
+    <string name="face_effect_concave">Cekung</string>
+    <string name="face_effect_funny_mask">Topeng lucu</string>
+    <string name="auto_review">Tinjau otomatis</string>
+    <string name="shutter_sound">Nada rana</string>
+    <string name="shutter_sound_1">Nada tombol 1</string>
+    <string name="shutter_sound_2">Nada tombol 2</string>
+    <string name="shutter_sound_3">Nada tombol 3</string>
+    <string name="shutter_sound_4">Nada tombol 4</string>
+    <string name="geo_tagging">Tag lokasi</string>
+    <string name="sp_storage_NORMAL">Penyimpanan</string>
+    <string name="sp_default_memory_NORMAL">"Kartu SD &amp; penyimpan "</string>
+    <string name="sp_internal_memory_NORMAL">Memori internal</string>
+    <string name="sp_internal_storage_NORMAL">Penyimpanan internal</string>
+    <string name="sp_external_memory_NORMAL">Kartu SD</string>
+    <string name="focus">Fokus</string>
+    <string name="focus_macro">Makro</string>
+    <string name="focus_face_tracking">Pelacakan wajah</string>
+    <string name="sp_quickfunction_focus_continuous_NORMAL">Continous</string>
+    <string name="sp_save_direction_NORMAL">Simpan Arah</string>
+    <string name="zoom">Perbesar</string>
+    <string name="brightness">Kecerahan</string>
+    <string name="sp_mirror_image_NORMAL">Gambar cermin</string>
+    <string name="sp_normal_save_NORMAL">Simpan secara normal</string>
+    <string name="sp_flipped_image_NORMAL">Gambar dibalik</string>
+    <string name="sp_save_as_flipped_NORMAL">Simpan sebagai terlipat</string>
+    <string name="sp_uplusbox_NORMAL">U+ Box Simpan otomatis</string>
+    <string name="sp_help_guide_uplusbox_desc_NORMAL">Foto akan diupload ke U+ Box. Biaya data mungkin dikenakan saat terhubung ke ata seluler.</string>
+    <string name="sp_uplusbox_NORMAL_network_error">Kesalahan jaringan. Foto akan diunggah secara otomatis U+ Box saat jaringan tersedia.</string>
+    <string name="sp_uplusbox_NORMAL_desc_on">Foto secara otomatis upload ke kotak U+.</string>
+    <string name="sp_voiceshutter_NORMAL">Foto suara</string>
+    <string name="sp_note_voiceshutter_NORMAL">Katakan \"%s\" saat Anda siap untuk mengambil gambar.</string>
+    <string name="sp_voiceshutter_say_NORMAL">Katakan \"%s\" untuk mengambil gambar.</string>
+    <string name="sp_cheeseshutter_NORMAL">Cheese Shutter</string>
+    <string name="sp_voiceshutter_word_whisky_NORMAL">Whisky</string>
+    <string name="sp_voiceshutter_sound_smile_NORMAL">Senyum</string>
+    <string name="sp_note_voiceshutter_multi_sound_NORMAL">Untuk mengambil foto, ucapkan salah satu kata berikut.</string>
+    <string name="sp_note_voiceshutter_multi_sound_vzw_NORMAL">Cheese shutter menunggu pengambilan foto sampai Anda mengatakan salah satu kata di bawah ini:</string>
+    <string name="sp_voiceshutter_multi_sound_say_NORMAL">Untuk mengambil gambar, katakan \"%1$s\", \"%2$s\", atau \"%3$s\".</string>
+    <string name="sp_voiceshutter_multi_keyword_say_NORMAL">Untuk mengambil gambar, katakan \"%1$s\", \"%2$s\", \"%3$s\", \"%4$s\", atau \"%5$s\"</string>
+    <string name="sp_voiceshutter_multi_keyword_say_4items">"Untuk mengambil gambar, katakan \"%1$s\", \"%2$s\", \"%3$s\" atau \"%4$s\" "</string>
+    <string name="sp_voiceshutter_say_new_NORMAL">" untuk mengambil gambar, katakan \"%s\"."</string>
+    <string name="sp_voiceshutter_help_desc_NORMAL">Ambil foto menggunakan perintah suara.</string>
+    <string name="video_size">Ukuran video</string>
+    <string name="sp_video_duration_NORMAL">Durasi</string>
+    <string name="video_voice">Suara</string>
+    <string name="sp_video_voice_unmute_NORMAL">Hidup</string>
+    <string name="sp_video_voice_mute_NORMAL">Sunyi</string>
+    <string name="show_recorded_video">Tinjau otomatis</string>
+    <string name="share">Bagikan</string>
+    <string name="sp_share_via_NORMAL">Bagikan via</string>
+    <string name="set_as">Atur sbg</string>
+    <string name="sp_set_photo_as_NORMAL">Atur gambar sebagai</string>
+    <string name="rename">Ganti Nama</string>
+    <string name="sp_share_SHORT">Bagikan</string>
+    <string name="sp_set_as_SHORT">Atur sbg</string>
+    <string name="sp_rename_SHORT">Ganti Nama</string>
+    <string name="sp_set_as_twoline_NORMAL">"Atur
+Sebagai"</string>
+    <string name="sp_rename_twoline_NORMAL">"Ganti 
+Nama"</string>
+    <string name="sp_play_twoline_SHORT">Putar</string>
+    <string name="sp_share_twoline_SHORT">Bagikan</string>
+    <string name="sp_set_as_twoline_SHORT">"Atur
+Sebagai"</string>
+    <string name="sp_rename_twoline_SHORT">"Ganti 
+Nama"</string>
+    <string name="sp_save_SHORT">Simpan</string>
+    <string name="sp_save_complete_SHORT">Selesai</string>
+    <string name="play">Putar</string>
+    <string name="dlg_title_rename">Masukkan Nama Baru</string>
+    <string name="dlg_title_delete">Hapus</string>
+    <string name="msg_multi_image_delete">File media ini akan dihapus.</string>
+    <string name="msg_image_delete">Gambar akan dihapus.</string>
+    <string name="msg_video_delete">Video akan dihapus.</string>
+    <string name="popup_delete_done">Dihapus</string>
+    <string name="video_rec">REK</string>
+    <string name="slow_motion">Gerak lambat</string>
+    <string name="sp_note_img_size_change_NORMAL">Ukuran gambar dirubah ke %s.</string>
+    <string name="note_image_deleted">Gambar yang dihapus</string>
+    <string name="note_shot_mode_change_normal">Mode bidik diubah ke normal</string>
+    <string name="note_timer_mode_off">Mode timer diatur ke mati</string>
+    <string name="note_smile_shutter_started">Secara otomatis memotret bila senyum terdeteksi.</string>
+    <string name="note_focus_mode_set_to_auto">Mode fokus diatur ke otomatis</string>
+    <string name="note_iso_set_to_auto">ISO diatur ke otomatis</string>
+    <string name="sp_note_rec_size_change_NORMAL">Ukuran video diatur ke %s</string>
+    <string name="note_select_image">Tiada file dipilih.</string>
+    <string name="sp_select_photo_NORMAL">Tidak ada foto yang dipilih.</string>
+    <string name="note_color_effect_change">Efek warna dimatikan</string>
+    <string name="sp_note_color_effect_change_NORMAL">Efek warna di %s kan.</string>
+    <string name="note_color_effect_change_none">Efek warna ditiadakan.</string>
+    <string name="note_white_balance_change">Imbangan putih diatur ke otomatis</string>
+    <string name="note_flash_change_off">Lampu kilat diatur ke nonaktif.</string>
+    <string name="note_scene_mode_change">Mode pemotretan diatur ke otomatis</string>
+    <string name="sp_note_scene_mode_change_NORMAL">"Mode pemandangan diatur ke  %s."</string>
+    <string name="note_scene_mode_change_normal">Mode pemandangan diatur ke normal.</string>
+    <string name="sp_note_video_ori_land_NORMAL">Hanya mendukung perekaman mendatar untuk mengirim MMS.</string>
+    <string name="sp_note_brightness_set_to_zero_NORMAL">Kecerahan diatur ke nol</string>
+    <string name="error_not_enough_memory">Tak cukup memori!</string>
+    <string name="error_not_exist_app">Aplikasi tak ditemukan</string>
+    <string name="error_preview_fail">Kegagalan memulai pratayang</string>
+    <string name="error_write_file">Kegagalan menulis file</string>
+    <string name="error_rename">Nama tak sah, harap ganti nama.</string>
+    <string name="error_write_file_exist">Sudah ada!</string>
+    <string name="error_unknown">Kesalahan tak dikenal</string>
+    <string name="error_low_battery">Baterai hampir habis. Aplikasi akan ditutup.</string>
+    <string name="error_get_video_frame_fail">Tak dapat mengekstrak bingkai.</string>
+    <string name="error_video_recording">Anda tidak dapat merekam video selama panggilan</string>
+    <string name="error_video_recording_during_call">Tidak bisa merekam video selama panggilan berlangsung.</string>
+    <string name="sp_error_call_camera_NORMAL">Tidak bisa menjalankan kamera selama panggilan</string>
+    <string name="error_camera_during_video_call">Tidak bisa menjalankan kamera selama panggilan video.</string>
+    <string name="error_cannot_start_recording_with_audio">Tidak bisa mulai merekam saat aplikasi lain sedang menggunakan audio.</string>
+    <string name="error_sdm_server_setting">Tidak bisa menjalankan kamera. Fitur dikunci dari pihak server.</string>
+    <string name="help_title">Panduan kamera</string>
+    <string name="sp_detail_view_NORMAL">Tampilan Perincian</string>
+    <string name="help_swap_camera_menu_desc">Beralih antara kamera utama dan sekunder.</string>
+    <string name="help_zoom_desc">Memperbesar dan memperkecil ukuran subjek.</string>
+    <string name="help_brightness_desc">Menyesuaikan tingkat pencahayaan.</string>
+    <string name="sp_help_brightness_desc_video_NORMAL">Menyesuaikan tingkst eksposure</string>
+    <string name="help_flash_desc">sets the flash</string>
+    <string name="help_flash_auto_desc">Secara otomatis mengatur lampun kilat</string>
+    <string name="sp_help_flash_off_desc_NORMAL">Lampu kilat mati untuk setiap bidikan.</string>
+    <string name="sp_help_flash_on_desc_NORMAL">Lampu kilat aktif untuk setiap bidikan.</string>
+    <string name="help_camera_settings_desc">Menyesuaikan pengaturan kamera.</string>
+    <string name="help_image_size_menu_desc">Mengatur ukuran file gambar.</string>
+    <string name="help_image_size_menu_5m_desc">Pas untuk mencetak hingga ukuran A4.</string>
+    <string name="help_image_size_menu_3m_desc">Pas untuk mencetak hingga ukuran A5.</string>
+    <string name="help_image_size_menu_2m_desc">Pas untuk mencetak hingga ukuran kartu pos.</string>
+    <string name="help_image_size_menu_1m_desc">Pas untuk mencetak hingga ukuran yang lebih kecil dari kartu pos.</string>
+    <string name="help_image_size_menu_vga_desc">Pas untuk mengirim lampiran email (butuh sedikit memori).</string>
+    <string name="help_image_size_menu_qvga_desc">Pas untuk mengirim lampiran email (butuh sedikit memori).</string>
+    <string name="help_scene_mode_menu_desc">Mengatur modus yang tepat untuk lingkungan saat ini.</string>
+    <string name="help_scene_mode_menu_auto_desc">Secara otomatis menyesuaikan dengan keadaan</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_NORMAL">Membidik gambar standar.</string>
+    <string name="help_scene_mode_menu_portrait_desc">Memotret orang</string>
+    <string name="help_scene_mode_menu_landscape_desc">Membidik pemandangan alam.</string>
+    <string name="help_scene_mode_menu_sports_desc">Membidik gambar yang bergerak cepat tanpa pengaburan subjek.</string>
+    <string name="help_scene_mode_menu_night_desc">Membidik pemandangan malam.</string>
+    <string name="help_scene_mode_menu_sunset_desc">Membidik pemandangan matahari terbenam.</string>
+    <string name="help_iso_menu_desc">Mengontrol sensitivitas kamera terhadap cahaya.</string>
+    <string name="help_white_balance_menu_desc">Memberi warna dalam berbagai kondisi cahaya.</string>
+    <string name="help_white_balance_menu_auto_desc">Menyesuaikan warna secara otomatis.</string>
+    <string name="help_white_balance_menu_incandescent_desc">Untuk gambar yang diambil pada pencahayaan halus</string>
+    <string name="help_white_balance_menu_sunny_desc">Mengambil gambar di bawah sinar matahari langsung.</string>
+    <string name="help_white_balance_menu_flourescent_desc">Untuk gambar yang diambil pada cahaya lampu neon</string>
+    <string name="help_white_balance_menu_cloudy_desc">Untuk gambar yang diambil saat teduh atau berawan</string>
+    <string name="help_color_effect_menu_desc">Menerapkan efek artistik pada gambar</string>
+    <string name="help_color_effect_menu_off_desc">Tiada efek warna yang diterapkan</string>
+    <string name="help_color_effect_menu_sepia_desc">Menerapkan efek filter sepia untuk mengambil gambar nostalgia.</string>
+    <string name="help_color_effect_menu_mono_desc">Menerapkan efek filter mono untuk mengambil gambar hitam &amp; putih.</string>
+    <string name="help_color_effect_menu_negative_desc">Menerapkan efek filter negatif untuk membalikkan warna gambar.</string>
+    <string name="help_color_effect_menu_vivid_desc">Menerapkan efek warna hidup pada gambar</string>
+    <string name="help_color_effect_menu_negative_sepia_desc">Menerapkan efek warna sepia Negatif pada gambar</string>
+    <string name="help_color_effect_menu_blue_desc">Menerapkan efek warna Biru pada gambar</string>
+    <string name="help_color_effect_menu_emboss_desc">Menerapkan efek cetak timbul pada gambar</string>
+    <string name="help_color_effect_menu_solarize_desc">Menerapkan efek solarisasi pada gambar</string>
+    <string name="help_color_effect_menu_posterize_desc">Menerapkan efek warna Posterisasi pada gambar</string>
+    <string name="help_color_effect_menu_aqua_desc">Menerapkan efek warna Aqua pada gambar</string>
+    <string name="help_color_effect_menu_pastel_desc">Menerapkan efek warna Pastel pada gambar</string>
+    <string name="help_timer_menu_desc">Mengatur keterlambatan waktu antara momen saat menekan tombol rana dan mengambil gambar.</string>
+    <string name="help_shot_mode_menu_desc">Mengatur berbagai modus pengambilan gambar.</string>
+    <string name="help_shot_mode_menu_normal_desc">Membidik gambar standar.</string>
+    <string name="help_shot_mode_menu_continuous_shot_desc">Mengambil 6 gambar berurutan sekaligus.</string>
+    <string name="help_shot_mode_menu_smile_shot_desc">Secara otomatis memicu rana saat kamera mendeteksi senyuman</string>
+    <string name="help_shot_mode_menu_beauty_shot_desc">Secara otomatis menghilangkan bintik dan cacat di wajah dan membuat tampak bersinar dan bersih.</string>
+    <string name="help_shot_mode_menu_art_shot_desc">Membuat karya seni dengan efek seperti hitam-putih, eksposur hangat &amp; dingin, dan sebagainya</string>
+    <string name="help_shot_mode_menu_panorama_shot_desc">Mengambil gambar bersambung dengan jangkauan penuh dan menyusunnya ke dalam satu gambar.</string>
+    <string name="help_shot_mode_menu_face_effect_desc">Memberi beragam efek dengan memakai deteksi wajah</string>
+    <string name="help_shot_mode_menu_cartoon_shot_desc">Memungkinkan ponsel memotret gambar bergaya kartun dan lukisan</string>
+    <string name="help_shot_mode_menu_funny_mask_desc">Secara otomatis mengaktifkan beragam topeng animasi pada wajah bila kamera mendeteksi wajah</string>
+    <string name="help_face_effect_blur_desc">Secara otomatis mendeteksi wajah dan memberi efek Kabur pada wajah</string>
+    <string name="help_face_effect_snow_desc">Membuat efek salju berjatuhan di kepala</string>
+    <string name="help_face_effect_shallow_focus_desc">Mencari wajah secara otomatis dan mengaburkan latar belakang</string>
+    <string name="help_face_effect_big_face_desc">Membuat wajah orang jadi lebih besar</string>
+    <string name="help_face_effect_mosaic_desc">Secara otomatis mengaktifkan efek Mosaik pada wajah bila kamera mendeteksi wajah</string>
+    <string name="help_face_effect_fish_eye_desc">Secara otomatis mengaktifkan efek Mata-ikan pada wajah bila kamera mendeteksi wajah</string>
+    <string name="help_face_effect_concave_desc">Secara otomatis mengaktifkan efek Cekung pada wajah bila kamera mendeteksi wajah</string>
+    <string name="help_focus_desc">Memfokus pada titik tertentu</string>
+    <string name="help_focus_auto_desc">Mengatur titik fokus secara otomatis.</string>
+    <string name="help_focus_macro_desc">Memotret objek yang sangat dekat</string>
+    <string name="help_focus_face_desc">Mendeteksi dan memfokuskan ke wajah secara otomatis.</string>
+    <string name="sp_help_focus_continuous_desc_NORMAL">Automatis memukan objek yang dipindahkan dan enetapkan fokus pada objek</string>
+    <string name="help_focus_manual_desc">Secara manual mengatur titik fokus</string>
+    <string name="help_image_quality_menu_desc">Mengatur kualitas gambar (kualitas lebih baik, banyak konsumsi memori).</string>
+    <string name="help_image_quality_menu_super_fine_desc">Simpan gambar dengan kualitas super halus</string>
+    <string name="help_image_quality_menu_fine_desc">Simpan gambar dengan kualitas halus</string>
+    <string name="help_image_quality_menu_normal_desc">Simpan gambar dengan kualitas normal</string>
+    <string name="help_show_captured_image_menu_desc">Menampilkan gambar yang diambil terakhir kali setelah pengambilan gambar.</string>
+    <string name="help_shutter_sound_menu_desc">Mengatur suara yang dimainkan saat mengambil gambar</string>
+    <string name="help_geo_tagging_menu_desc">Menambahkan informasi yang diidentifikasi secara geografis di mana gambar diambil.</string>
+    <string name="sp_help_anti_banding_menu_desc_NORMAL">Mencegah perubahan warna.</string>
+    <string name="sp_help_storage_NORMAL">Pilih penyimpan untuk menyimpan gambar.</string>
+    <string name="sp_help_storage_innner_NORMAL">Simpan gambar ke Memori internal.</string>
+    <string name="sp_help_storage_sd_NORMAL">Simpan gambar ke kartu SD.</string>
+    <string name="help_video_title">Bantuan camcorder</string>
+    <string name="sp_help_video_title_NORMAL">Pedoman bantuan video</string>
+    <string name="help_video_settings_desc">Sesuaikan pengaturan video.</string>
+    <string name="help_video_size_desc">Mengatur ukuran file video.</string>
+    <string name="help_video_size_vga_desc">simpan vidio untuk ukuran VGA</string>
+    <string name="help_video_size_qvga_desc">Simpan video untuk ukuran QVGA</string>
+    <string name="help_video_size_176x144_desc">Pas untuk mengirim lampiran email (butuh sedikit memori).</string>
+    <string name="help_video_scene_mode_menu_desc">Mencari pengaturan warna dan cahaya yang sesuai dengan lingkungan saat ini</string>
+    <string name="help_video_scene_mode_menu_auto_desc">Secara otomatis menyesuaikan dengan keadaan</string>
+    <string name="help_video_scene_mode_menu_portrait_desc">Lebih cocok untuk merekam gambar orang.</string>
+    <string name="help_video_scene_mode_menu_landscape_desc">Lebih cocok untuk merekam gambar pemandangan alam seperti pohon, bunga dan langit.</string>
+    <string name="help_video_scene_mode_menu_sports_desc">Lebih cocok untuk merekam gambar pemandangan dengan objek yang bergerak cepat, seperti olahraga.</string>
+    <string name="help_video_scene_mode_menu_night_desc">Memotret pemandangan malam yang indah. Kecepatan rana rendah dipakai untuk mendeteksi lanskap malam.</string>
+    <string name="help_video_scene_mode_menu_sunset_desc">Merekam pemandangan matahari terbenam yang indah.</string>
+    <string name="help_video_white_balance_menu_desc">Memperbaiki kualitas warna pada aneka kondisi cahaya</string>
+    <string name="help_video_white_balance_menu_auto_desc">Secara otomatis menyesuaikan warna</string>
+    <string name="help_video_white_balance_menu_incandescent_desc">Untuk video yang direkam pada pencahayaan halus</string>
+    <string name="help_video_white_balance_menu_sunny_desc">Merekam video di bawah sinar matahari langsung.</string>
+    <string name="help_video_white_balance_menu_flourescent_desc">Untuk video yang direkam pada cahaya lampu neon</string>
+    <string name="help_video_white_balance_menu_cloudy_desc">Untuk video yang direkam saat teduh atau berawan</string>
+    <string name="help_video_color_effect_menu_desc">Mengatur efek filter berwarna khusus.</string>
+    <string name="help_video_color_effect_menu_off_desc">Tiada efek warna yang diterapkan</string>
+    <string name="sp_help_video_color_effect_menu_off_desc_NORMAL">Menerapkan efek filter tak berwarna.</string>
+    <string name="help_video_color_effect_menu_sepia_desc">Menerapkan efek filter sepia untuk mengambil video nostalgia.</string>
+    <string name="help_video_color_effect_menu_mono_desc">Menerapkan efek filter mono untuk mengambil video hitam &amp; putih.</string>
+    <string name="help_video_color_effect_menu_negative_desc">Menerapkan efek filter negatif untuk membalikkan warna video.</string>
+    <string name="help_video_color_effect_menu_vivid_desc">Menerapkan efek warna hidup pada video</string>
+    <string name="help_video_color_effect_menu_negative_sepia_desc">Menerapkan efek warna sepia Negatif pada video</string>
+    <string name="help_video_color_effect_menu_blue_desc">Menerapkan efek warna Biru pada video</string>
+    <string name="help_video_color_effect_menu_emboss_desc">Menerapkan efek cetak timbul pada video</string>
+    <string name="help_video_color_effect_menu_solarize_desc">Menerapkan efek solarisasi pada video</string>
+    <string name="help_video_color_effect_menu_posterize_desc">Menerapkan efek warna Posterisasi pada video</string>
+    <string name="help_video_color_effect_menu_aqua_desc">Menerapkan efek warna Aqua pada video</string>
+    <string name="help_video_color_effect_menu_pastel_desc">Menerapkan efek warna Pastel pada video</string>
+    <string name="help_video_duration_desc">Mengatur durasi.</string>
+    <string name="help_video_duration_normal_desc">Tanpa batas.</string>
+    <string name="help_video_duration_mms_desc">Untuk mengirim lampiran MMS</string>
+    <string name="help_video_quality_desc">Mengatur kualitas video (semakin baik kualitasnya, semakin banyak konsumsi memori).</string>
+    <string name="help_video_quality_super_desc">Simpan video dengan kualitas super halus</string>
+    <string name="help_video_quality_fine_desc">Simpan video dengan kualitas halus</string>
+    <string name="help_video_quality_normal_desc">Simpan video dengan kualitas normal</string>
+    <string name="help_video_voice_desc">Mengatur suara rekaman saat pengambilan video.</string>
+    <string name="help_video_voice_unmute_desc">Simpan video dengan suara</string>
+    <string name="help_video_voice_mute_desc">Simpan video tanpa suara</string>
+    <string name="help_video_show_desc">Tinjau video setelah merekam</string>
+    <string name="sp_help_mirror_img_desc_NORMAL">Simpan sebagai gambar cermin.</string>
+    <string name="sp_help_videostorage_NORMAL">Pilih penyimpan untuk menyimpan video.</string>
+    <string name="sp_help_videostorage_in_NORMAL">Simpan Video ke Memori internal.</string>
+    <string name="sp_help_videostorage_sd_NORMAL">Simpan video ke kartu SD.</string>
+    <string name="camera_application_stopped">Kamera Dihentikan</string>
+    <string name="camera_driver_needs_reset">Kamera berhenti tak terduga, perlu dijalankan lagi.</string>
+    <string name="geo_tag_dialog_title">Layanan GPS dimatikan</string>
+    <string name="geo_tag_dialog_msg">"Hidupkan GPS dari pengaturan untuk memakai
+tag Lokasi."</string>
+    <string name="geo_tag_dialog_confirm">Pengaturan GPS</string>
+    <string name="sp_eula_popup_dialog_title_NORMAL">Peringatan pribadi</string>
+    <string name="sp_eula_popup_do_not_show_this_again_NORMAL">Jangan tampilkan</string>
+    <string name="sp_eula_popup_dialog_msg_NORMAL">Dengan memilih \"Geotagging\", perangkat ini akan melampirkan, memasang dan menyimpan data lokasi geografis dalam tiap gambar. Berhati-hatilah saat Anda mengirim, berbagi, mendistribusikan, mentransimikan atau menyalin gambar ini mengingat gambar tersebut berisikan lokasi di mana gambar tersebut diambil.</string>
+    <string name="sp_eula_popup_dialog_msg_taglocation_NORMAL">Dengan memilih \"Tag lokasi\", perangkat ini akan melampirkan, memasang dan menyimpan data lokasi geografis dalam tiap gambar. Berhati-hatilah saat Anda mengirim, berbagi, mendistribusikan, mentransimikan atau menyalin gambar ini mengingat gambar tersebut berisikan lokasi di mana gambar tersebut diambil.</string>
+    <string name="geo_tag_dialog_title_cdma">Layanan LBS dimatikan</string>
+    <string name="geo_tag_dialog_msg_cdma">Hidupkan LBS dari pengaturan untuk menggunakan tag lokasi</string>
+    <string name="sp_video_length_dialog_title_NORMAL">Panjang video</string>
+    <string name="sp_video_length_dialog_msg_NORMAL">Ubah modus perekaman</string>
+    <string name="sp_video_length_dialog_long_NORMAL">Video panjang</string>
+    <string name="sp_video_length_dialog_title_v2_NORMAL">Mode rekam</string>
+    <string name="sp_video_length_dialog_mms_NORMAL">"Video MMS "</string>
+    <string name="camera_error_title">Kamera error</string>
+    <string name="cannot_connect_camera">Tidak dapat terhubung ke kamera.</string>
+    <string name="sp_notiintsd_NORMAL">File Anda akan disimpan ke memori internal, masuk ke Pengaturan>Kartu SD &amp; penyimpan.</string>
+    <string name="sp_notiextsd_NORMAL">File Anda akan disimpan ke memori eksternal, masuk ke Pengaturan>Kartu SD &amp; penyimpan.</string>
+    <string name="pref_camera_settings_category">Pengaturan kamera</string>
+    <string name="pref_camcorder_settings_category">Setelan perekam video</string>
+    <string name="sp_Camcorder_NORMAL">Perekam video</string>
+    <string name="camcorder_activity_name">Perekam video</string>
+    <string name="sp_close_app_NORMAL">"Tekan tombol 'Kembali' sekali lagi, kamera akan ditutup."</string>
+    <string name="sp_popup_storage_limitsize_NORMAL">"Maksimum ukuran perekaman telah tercapai.
+File telah disimpan."</string>
+    <string name="sp_popup_storage_limit_with_exact_size_NORMAL">"Maksimum ukuran perekaman telah tercapai(%s).
+File telah disimpan."</string>
+    <string name="sp_popup_storage_maxsize_NORMAL">"Maks. Ukuran perekaman  tercapai. 
+Perekaman akan segera berakhir."</string>
+    <string name="sp_popup_storage_maximum_size_NORMAL">"Maks. Ukuran perekaman (%s) tercapai. 
+Perekaman akan segera berakhir."</string>
+    <string name="sp_sd_card_read_only_NORMAL">Kartu SD disambungkan hanya-baca</string>
+    <string name="sp_MMS_REC_limit_NORMAL">Waktu perekaman maksimal untuk MMS sekitar %d detik</string>
+    <string name="sp_popup_character_limit_NORMAL">Karakter salah.</string>
+    <string name="sp_filename_already_exists_NORMAL">Nama file sudah ada.</string>
+    <string name="sp_message_recording_limit_NORMAL">Batas ukuran file lampiran lebih kecil dari minimum ukuran perekaman.</string>
+    <string name="sp_help_toast_smart_shutter_NORMAL">Rana pintar memberi foto yang stabil dalam goncangan yang tidak disengaja.</string>
+    <string name="sp_help_scene_mode_menu_smart_shutter_desc_NORMAL">Membidik gambar yang bergerak cepat tanpa pengaburan subjek dalam ruangan.</string>
+    <string name="sp_help_scene_mode_menu_action_desc_NORMAL">Ambil foto yang bergerak cepat tanpa pengaburan</string>
+    <string name="sp_help_shot_mode_beauty_desc_NORMAL">Ambil gambar dengan efek cerah dan kabur.</string>
+    <string name="sp_help_shot_mode_hdr_desc_NORMAL">Mencampur beberapa bidikan yang diambil dengan pemandangan berkontras tinggi yang sama pada pencahayaan yang berbeda untuk membuat tampilan yang lebih alami.</string>
+    <string name="sp_help_shot_mode_slow_motion_desc_NORMAL">Merekam objek yang bergerak cepat untuk dimainkan secara lambat.</string>
+    <string name="sp_help_shot_mode_time_machine_desc_NORMAL">Ambil enam gambar sekaligus sebelum tombol rana disentuh.</string>
+    <string name="sp_help_shot_mode_time_machine_5_picture_NORMAL">Mengambil lima gambar yang berurutan sekaligus sebelum tombol rana disentuh.</string>
+    <string name="sp_shot_mode_clearshot_NORMAL">Hapus bidikan</string>
+    <string name="sp_shot_mode_shot_and_clear">Bidik &amp; Bersihkan</string>
+    <string name="sp_scene_mode_smart_shutter_NORMAL">Nada rana pintar</string>
+    <string name="sp_scene_mode_action_NORMAL">Aksi</string>
+    <string name="sp_shot_mode_beauty_NORMAL">Bidikan cantik</string>
+    <string name="sp_shot_mode_time_machine_NORMAL">Bidikan mesin waktu</string>
+    <string name="sp_shot_mode_live_desc_NORMAL">Mengambil bidikan layar selama perekaman video berlangsung.</string>
+    <string name="sp_shot_mode_live_effect_desc_NORMAL">Mengubah background dan memberikan efek bentuk untuk mengubah fitur wajah selama perekaman video.</string>
+    <string name="dual_camera">Kamera ganda</string>
+    <string name="sp_focus_infinity_NORMAL">Ketidakterbatasan</string>
+    <string name="sp_high_temp_action_NORMAL">Lepas baterai atau pindahkan ke tempat yang sejuk.</string>
+    <string name="sp_high_temperature_detection_NORMAL">Suhu tinggi terdeteksi</string>
+    <string name="sp_attach_file_size_exceeded_NORMAL">Maks. Batas ukuran file lampiran terlampaui.</string>
+    <string name="sp_high_temp_action_on_enter_NORMAL">Sensor panas mendeteksi suhu tinggi. Tidak bisa menyalakan kamera.</string>
+    <string name="sp_high_temp_action_on_recording_NORMAL">Sensor panas mendeteksi suhu tinggi. Perekaman video akan ditutup.</string>
+    <string name="high_temp_action_on_recording">Tidak bisa merekam video untuk mempertahankan suhu optimal telepon. Coba lagi nanti.</string>
+    <string name="sp_warning_high_temperature_on_recording_NORMAL">Berhati-hatilah. Mengambil video sambil mengisi daya bisa meningkatkan suhu perangkat Anda</string>
+    <string name="warning_high_temp_action_flash_off">Lampu kilat dimatikan untuk mempertahankan suhu telepon yang optimal.</string>
+    <string name="sp_silly_face_title_NORMAL">Wajah konyol</string>
+    <string name="sp_big_eyes_NORMAL">Mata besar</string>
+    <string name="sp_big_mouth_NORMAL">Mulut besar</string>
+    <string name="sp_squeeze_NORMAL">Tekan</string>
+    <string name="sp_big_nose_NORMAL">Hidung Besar</string>
+    <string name="sp_small_eyes_NORMAL">Mata kecil</string>
+    <string name="sp_small_mouth_NORMAL">Mulut kecil</string>
+    <string name="sp_background_title_NORMAL">Latar belakang</string>
+    <string name="sp_in_space_NORMAL">Ruang</string>
+    <string name="sp_disco_NORMAL">"Disko "</string>
+    <string name="sp_choose_gallery_NORMAL">My video</string>
+    <string name="sp_bg_replacement_message_NORMAL">"Posisikan perangkat Anda di atas permukaan yang stabil dan pastikan tidak ada yang bergerak di belakang Anda.
+
+Kemudian melangkahlah keluar dari pandangan kamera."</string>
+    <string name="sp_bg_replacement_message_v2_NORMAL">"Pegang perangkat agar tidak goyang dan pastikan tidak ada gerakan.
+Bila sudah siap untuk merekam video, biarkan subjek pembidikan masuk ke tampilan kamera."</string>
+    <string name="sp_pano_too_fast_prompt_NORMAL">Terlalu Cepat</string>
+    <string name="sp_live_shot_NORMAL">Bidikan hidup</string>
+    <string name="sp_live_effect_NORMAL">Efek hidup</string>
+    <string name="dual_recording">Perekaman ganda</string>
+    <string name="tracking_zoom">Pelacakan zoom</string>
+    <string name="anti_shaking">Anti-goyang</string>
+    <string name="sp_audio_zoom_NORMAL">Perbesaran audio</string>
+    <string name="sp_tracking_focus_NORMAL">Fokus Pelacakan</string>
+    <string name="sp_video_recording_normalmode_NORMAL">Merekam video standar.</string>
+    <string name="sp_note_shot_mode_setting_change_NORMAL">Pengaturan dioptimalkan untuk modus %s.</string>
+    <string name="sp_help_swap_camera_menu_desc_v2_NORMAL">Alihkan antara kamera utama dan depan</string>
+    <string name="sp_help_light_frame_desc_v2_NORMAL">Aktifkan lampu kilat untuk mengambil foto yang lebih cerah dengan pratinjau yang lebih kecil saat menggunakan kamera depan.</string>
+    <string name="sp_help_zoom_desc_v2_NORMAL">Perbesar dan perkecil.</string>
+    <string name="sp_help_brightness_desc_v2_NORMAL">Sesuaikan tingkat pencahayaan</string>
+    <string name="sp_help_flash_desc_v2_NORMAL">Atur lampu kilat</string>
+    <string name="sp_help_flash_auto_desc_v2_NORMAL">Nyalakan flash bila diperlukan</string>
+    <string name="sp_help_flash_off_desc_v2_NORMAL">Flash nonaktif</string>
+    <string name="sp_help_flash_on_desc_v2_NORMAL">Flash aktif</string>
+    <string name="sp_help_camera_settings_desc_v2_NORMAL">Menyesuaikan pengaturan kamera.</string>
+    <string name="sp_help_focus_desc_v2_NORMAL">Atur fokus</string>
+    <string name="sp_help_focus_auto_desc_v2_NORMAL">Autofocus standar</string>
+    <string name="sp_help_focus_face_desc_v2_NORMAL">Secara otomatis mendeteksi dan memfokuskan pada wajah</string>
+    <string name="sp_help_image_size_menu_desc_v2_NORMAL">Atur ukuran gambar</string>
+    <string name="sp_help_scene_mode_menu_desc_v2_NORMAL">Simpan modus yang dipilih</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_v2_NORMAL">Ambil foto standar</string>
+    <string name="sp_help_scene_mode_menu_portrait_desc_v2_NORMAL">Ambil foto orang</string>
+    <string name="sp_help_scene_mode_menu_landscape_desc_v2_NORMAL">Ambil foto pemandangan alam</string>
+    <string name="sp_help_scene_mode_menu_sports_desc_v2_NORMAL">Ambil foto yang bergerak cepat tanpa pengaburan</string>
+    <string name="sp_help_scnen_mode_menu_sunset_desc_v2_NORMAL">Ambil foto matahari terbenam dan foto dengan cahaya latar</string>
+    <string name="sp_help_scene_mode_menu_night_desc_v2_NORMAL">Ambil foto di area gelap</string>
+    <string name="sp_help_iso_menu_desc_v2_NORMAL">Tingkatkan sensitivitas saat mengambil gambar di bawah cahaya redup untuk mengurangi pengaburan yang disebabkan oleh goyangan kamera atau pergerakan subjek</string>
+    <string name="sp_help_withe_balance_desc_v2_NORMAL">Sesuaikan suhu warna gambar yang diatur menurut sumber cahaya</string>
+    <string name="sp_help_white_balance_auto_desc_v2_NORMAL">Keseimbangan putih disesuaikan secara otomatis untuk menyesuaikan kondisi penerangan</string>
+    <string name="sp_help_withe_balance_incandescent_desc_v2_NORMAL">Gunakan dalam cahaya pijar</string>
+    <string name="sp_help_white_balance_sunny_desc_v2_NORMAL">Gunakan di bawah sinar matahari</string>
+    <string name="sp_help_white_balance_flourescent_desc_v2_NORMAL">Gunakan dalam cahaya fluorescen</string>
+    <string name="sp_help_white_balance_cloudy_desc_v2_NORMAL">Gunakan di hari gelap dan berawan</string>
+    <string name="sp_help_withe_balance_incandescent_desc_camera_v2_NORMAL">Gunakan dalam cahaya redup.</string>
+    <string name="sp_help_white_balance_sunny_desc_camera_v2_NORMAL">Gunakan di bawah sinar matahari.</string>
+    <string name="sp_help_white_balance_flourescent_desc_camera_v2_NORMAL">Gunakan dalam cahaya fluorescen.</string>
+    <string name="sp_help_white_balance_cloudy_desc_camera_v2_NORMAL">Gunakan di hari gelap dan berawan.</string>
+    <string name="sp_help_color_effect_desc_v2_NORMAL">Atur efek filter berwarna saat mengambil gambar</string>
+    <string name="sp_help_color_effect_off_desc_v2_NORMAL">Tidak ada efek warna</string>
+    <string name="sp_help_color_effect_mono_desc_v2_NORMAL">Ambil foto dalam hitam dan putih</string>
+    <string name="sp_help_color_effect_sepia_desc_v2_NORMAL">Ambil foto dalam nada warna sepia</string>
+    <string name="sp_help_color_effect_negative_desc_v2_NORMAL">"Ambil  foto dengan warna dibalik"</string>
+    <string name="sp_help_timer_menu_desc_v2_NORMAL">Atur jeda 3, 5 atau 10 detik sebelum bidikan</string>
+    <string name="sp_help_shot_mode_desc_v2_NORMAL">Atur berbagai modus bidikan</string>
+    <string name="sp_help_shot_mode_normal_desc_v2_NORMAL">Mode Normal</string>
+    <string name="sp_help_shot_mode_continuous_shot_desc_v2_NORMAL">Ambil 6 bidikan cepat secara berurutan</string>
+    <string name="sp_help_shot_mode_panorama_shot_desc_v2_NORMAL">Ambil foto kontinu secara horisontal yang akan digabungkan menjadi satu gambar panorama</string>
+    <string name="sp_help_shutter_sound_menu_desc_v2_NORMAL">Atur efek suara untuk mengambil gambar</string>
+    <string name="sp_help_show_captured_image_menu_desc_v2_NORMAL">Langsung tampilkan foto setelah diambil</string>
+    <string name="sp_help_geo_tagging_menu_desc_v2_NORMAL">Tambah informasi lokasi di mana gambar diambil</string>
+    <string name="sp_help_storage_v2_NORMAL">Pilih penyimpan untuk menyimpan gambar.</string>
+    <string name="sp_help_storage_inner_v2_NORMAL">Simpan gambar ke Memori internal.</string>
+    <string name="sp_help_storage_sd_v2_NORMAL">Simpan gambar ke kartu SD.</string>
+    <string name="sp_help_video_size_desc_v2_NORMAL">Atur ukuran file video</string>
+    <string name="sp_help_video_color_effect_desc_v2_NORMAL">Atur efek filter berwarna saat merekam video</string>
+    <string name="sp_help_video_color_effect_mono_desc_v2_NORMAL">Rekam video dalam hitam dan putih</string>
+    <string name="sp_help_video_color_effect_sepia_desc_v2_NORMAL">Rekam video dalam nada sepia</string>
+    <string name="sp_help_video_color_effect_negative_desc_v2_NORMAL">Rekam video dengan warna terbalik</string>
+    <string name="sp_help_video_shot_mode_live_shot_desc_v2_NORMAL">Ambil foto screenshot sambil merekam video</string>
+    <string name="sp_help_video_shot_mode_live_effect_desc_v2_NORMAL">Ubah latar belakang dan beri efek bentuk untuk mengubah fitur wajah saat merekam video</string>
+    <string name="sp_help_video_voice_desc_v2_NORMAL">Atur suara saat merekam video</string>
+    <string name="sp_help_video_voice_unmute_desc_v2_NORMAL">Rekam video dengan suara</string>
+    <string name="sp_help_video_voice_mute_desc_v2_NORMAL">Rekam video tanpa suara</string>
+    <string name="sp_help_video_show_desc_v2_NORMAL">Langsung tampilkan video setelah direkam</string>
+    <string name="sp_help_video_geo_tagging_menu_desc_v2_NORMAL">Tambah informasi lokasi di mana video direkam</string>
+    <string name="sp_help_videostorage_v2_NORMAL">Pilih penyimpan untuk menyimpan video.</string>
+    <string name="sp_help_videostorage_in_v2_NORMAL">Simpan Video ke Memori internal.</string>
+    <string name="sp_help_videostorage_sd_v2_NORMAL">Simpan video ke kartu SD.</string>
+    <string name="sp_help_shot_mode_beauty_desc_v2_NORMAL">Ambil foto dalam efek cerah dan kabur</string>
+    <string name="sp_help_flipped_img_desc_NORMAL">Simpan gambar yang dilipat secara vertikal</string>
+    <string name="sp_help_normal_img_desc_NORMAL_NORMAL">Simpan gambar yang normal</string>
+    <string name="sp_help_camera_reset_desc_v3_NORMAL">Pengaturan kamera diatur ke nilai default</string>
+    <string name="sp_help_flipped_img_desc_v3_NORMAL">Simpan foto saat dilipat</string>
+    <string name="sp_help_video_reset_desc_v3_NORMAL">Pengaturan video diatur ulang ke nilai default</string>
+    <string name="sp_deleted_images_NORMAL">Gambar yang dipilih akan dihapus. Lanjutkan?</string>
+    <string name="sp_deleted_photos_NORMAL">Gambar yang dipilih akan dihapus. Lanjutkan?</string>
+    <string name="sp_help_guide_beauty_shot_desc_NORMAL">Bidikan indah membuat kulit wajah tampak lebih cerah dan halus.</string>
+    <string name="sp_help_guide_beauty_shot_desc_list">Bidikan indah membuat kulit wajah tampak lebih cerah dan halus.</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL">"6 bidikan berurutan diambil dengan interval waktu minimum dengan menekan rana.
+Anda bisa langsung memilih gambar yang akan disimpan dan dibagikan (dengan \"tinjauan otomatis aktif\")."</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL_v2">6 bidikan berurutan diambil dengan interval waktu minimum dengan menekan rana.</string>
+    <string name="sp_help_guide_hdr_desc_NORMAL">HDR membuat gambar lebih realistis dengan menggunakan beberapa teknologi pencahayaan.</string>
+    <string name="sp_help_guide_hdr_desc_list">HDR membuat gambar lebih realistis dengan menggunakan beberapa teknologi pencahayaan.</string>
+    <string name="sp_help_guide_live_effect_desc_NORMAL">Efek hidup memberi berbagai efek visual saat mengambil video. Pilih efek, dan mulai perekaman.</string>
+    <string name="sp_help_guide_panorama_shot_desc_NORMAL">"Foto kontinyu digabungkan ke dalam satu gambar panorama.
+Tekan rana untuk memulai dan membentangkan kamera dari ujung ke ujung, Tekan rana satu kali untuk menyelesaikan."</string>
+    <string name="sp_help_guide_free_panorama_shot_desc_NORMAL">"Foto yang kontinyu dirangkai menjadi satu gambar panorama 360 melingkar.
+Tekan rana untuk memulai dan menggeser kamera ke segala arah."</string>
+    <string name="sp_help_guide_time_machine_desc_NORMAL">Kamera menangkap beberapa foto satu detik sebelum menekan rana. Anda bisa langsung memilih gambar yang akan disimpan dan dibagikan (dengan \"tinjauan otomatis aktif\").</string>
+    <string name="sp_help_guide_time_machine_desc_new_NORMAL">Periksa dan simpan adegan yang Anda lewatkan sebelum mengambil gambar.</string>
+    <string name="sp_help_guide_time_machine_desc_new_vzw_NORMAL">Tangkap momen sebelum Anda menekan tombol rana.</string>
+    <string name="sp_help_popup_guide_time_machine_desc_new_NORMAL">Time catch shot merekam momen sebelum Anda menekan tombol rana.</string>
+    <string name="sp_help_guide_time_machine_new_desc_NORMAL">Kamera menangkap beberapa foto satu detik sebelum menekan rana. Hanya foto yang dipilih yang akan disimpan.</string>
+    <string name="sp_image_SHORT">Gambar</string>
+    <string name="sp_will_be_deleted_NORMAL">%1$s akan dihapus. Lanjutkan?</string>
+    <string name="sp_photo_will_be_deleted_NORMAL">Foto akan dihapus. Lanjutkan?</string>
+    <string name="sp_video_will_be_deleted_NORMAL">Video akan dihapus. Lanjutkan?</string>
+    <string name="sp_gps_settings_title_NORMAL">Layanan lokasi telah dinonaktifkan</string>
+    <string name="sp_gps_setting_msg_NORMAL">Aktifkan layanan lokasi untuk menggunakan geotagging.</string>
+    <string name="sp_enable_app_msg_NORMAL">%s harus diaktifkan untuk menggunakan fungsi ini. Aktifkan aplikasi ini?</string>
+    <string name="sp_photoimage_SHORT">Gambar</string>
+    <string name="sp_note_dialog_title_NORMAL">Catatan</string>
+    <string name="sp_saved_NORMAL">Disimpan</string>
+    <string name="sp_front_NORMAL">Depan</string>
+    <string name="sp_rear_NORMAL">Belakang</string>
+    <string name="sp_timemachine_delete_warning_NORMAL">Anda akan kehilangan foto yang belum disimpan. Lanjutkan?</string>
+    <string name="sp_timemachine_bubble_popup_NORMAL">Untuk menampilkan momen yang hilang, tekan tombol ini.</string>
+    <string name="sp_timemachine_select_NORMAL">Beri tanda pada foto yang ingin Anda simpan.</string>
+    <string name="sp_timemachine_select_new_NORMAL">Pilih foto yang ingin Anda simpan.</string>
+    <string name="sp_timemachine_save_guide">Pilih foto yang ingin Anda simpan dan tekan tombol simpan.</string>
+    <string name="sp_shot_mode_time_catch_NORMAL">Bidikan berdasarkan waktu</string>
+    <string name="sp_help_guide_time_catch_desc_NORMAL">Bidikan berdasarkan waktu menangkap momen yang hilang sebelum menekan shutter.</string>
+    <string name="sp_help_guide_time_catch_new_desc_NORMAL">Bidikan berdasarkan waktu menangkap momen yang hilang sebelum menekan shutter. Hanya foto yang dipilih yang akan disimpan.</string>
+    <string name="sp_timemachine_bubble_popup_jp_NORMAL">Untuk menampilkan foto yang diambil 1 detik sebelum melepas rana, tekan tombol ini.</string>
+    <string name="sp_force_close_on_high_temperature_NORMAL">Kamera akan ditutup karena suhu perangkat yang tinggi.</string>
+    <string name="sp_screen_cannot_be_captured_NORMAL">Layar saat ini tidak bisa di capture</string>
+    <string name="sp_voice_shutter_help_desc">Foto diambil menggunakan perintah suara</string>
+    <string name="sp_clear_shot_tab_guide">Ketuk salah satu garis objek untuk menghapusnya dari foto.</string>
+    <string name="sp_clear_shot_tab_guide_v2">Tekan objek yang disorot untuk menghapus dan tekan tombol simpan.</string>
+    <string name="sp_clear_shot_not_found_object">Tidak ada objek yang akan dihapus.</string>
+    <string name="sp_clear_shot_warning_popup">Anda akan kehilangan foto karena prosesnya belum disimpan. Lanjutkan?</string>
+    <string name="sp_clear_shot_warning_handshake">Genggam telepon dengan mantap.</string>
+    <string name="sp_clear_shot_capture_failed">Gagal.</string>
+    <string name="intelligent_auto">Otomatis cerdas</string>
+    <string name="sp_anti_shaking_help_desc">Cegah goyangan ketika sedang merekam video untuk mendapatkan video berkualitas tinggi.</string>
+    <string name="sp_photo_has_not_yet_been_saved_warning_popup">Foto belum disimpan. Keluar tanpa menyimpan?</string>
+    <string name="sp_wdr_recording_help_desc">Lakukan perekaman yang diambil pada pajanan yang berbeda berupa video dengan cahaya latar yang disesuaikan secara optimal dengan beberapa kontrol pajanan yang ditingkatkan.</string>
+    <string name="sp_wdr_recording_help_desc_list">Lakukan perekaman yang diambil pada pajanan yang berbeda berupa video dengan cahaya latar yang disesuaikan secara optimal dengan beberapa kontrol pajanan yang ditingkatkan.</string>
+    <string name="sp_burst_shot_help_desc">Ambil hingga 20 bidikan secara cepat dengan menekan rana.</string>
+    <string name="sp_burst_shot_help_desc_list">Ambil hingga 20 bidikan secara cepat dengan menekan rana.</string>
+    <string name="sp_clear_shot_help_desc">Ambil foto. Ketuk salah satu objek yang dipilih untuk menghapusnya dari foto.</string>
+    <string name="sp_intelligent_auto_help_desc">Secara otomatis mengidentifikasi karakteristik adegan dan mengambil foto.</string>
+    <string name="sp_intelligent_auto_help_desc_popup">Secara otomatis mengidentifikasi karakteristik adegan dan menyesuaikan apertura, kecepatan rana, opsi untuk mengambil foto.</string>
+    <string name="sp_tracking_focus_help_desc">Ketuk pada subjek di layar pratinjau untuk melacak dan memperbaiki fokus.</string>
+    <string name="sp_dual_recording_help_desc">Sejajarkan baik kamera depan maupun utama dalam satu layar untuk merekam.</string>
+    <string name="sp_dual_recording_help_desc_v2">"1. Seret untuk memindahkan layar kecil.
+2. Sentuh dan tahan layar kecil untuk mengubah ukurannya.
+3. Ketuk layar kecil untuk beralih antara layar kecil dan besar."</string>
+    <string name="sp_audio_zoom_help_desc_in_recording">Jepit ke dalam untuk meningkatkan suara perbesaran audio</string>
+    <string name="sp_audio_zoom_help_desc">Tingkatkan sensitivitas suara di area yang diperbesar dan kurangi kebisingan saat merekam.</string>
+    <string name="sp_audio_zoom_help_desc_v2">Perbesar area tertentu untuk meningkatkan sensitivitas suara dan mengurangi derau. Hanya tersedia dalam tampilan lanskap. Biarkan mikrofon samping tetap dilepas saat menggunakan fitur ini.</string>
+    <string name="sp_live_effect_help_desc">Terapkan berbagai efek visual saat merekam video.</string>
+    <string name="sp_vrpanorama_help_desc">Ambil foto secara berurutan untuk membuat satu gambar spasial.</string>
+    <string name="sp_vrpanorama_help_desc_v2">"1. Tekan rana untuk memulai modus panorama VR.
+2. Sesuaikan area fokus dengan garis panduan biru untuk mengambil foto.
+3. Pindahkan kamera untuk menangkap area fokus lain dan mengambil foto. Foto-foto tersebut akan disatukan menjadi satu gambar."</string>
+    <string name="sp_dual_camera_help_desc">Sejajarkan baik kamera depan maupun utama dalam satu layar untuk merekam.</string>
+    <string name="sp_smart_zoom_help_desc">Perbesar area yang difokuskan pada layar kecil saat mengambil video.</string>
+    <string name="sp_smart_zoom_help_desc_v2">"1. Seret fokus untuk memperbesar dalam video yang masuk.
+2. Layar kecil menunjukkan fokus yang ditentukan dalam tampilan besar. Untuk memindahkannya, sentuh dan tahan."</string>
+    <string name="sp_intelligent_auto_mode_NORMAL">Modus kamera Otomatis Cerdas.</string>
+    <string name="sp_normal_camera_mode_NORMAL">Modus kamera normal.</string>
+    <string name="sp_center_NORMAL">Tengah</string>
+    <string name="sp_border_NORMAL">Batas</string>
+    <string name="sp_3d_depth_NORMAL">Ketajaman 3D</string>
+    <string name="sp_popup_change_view_to_landscape_for_3d_NORMAL">Ubah pandangan Anda menjadi mode lanskap untuk efek 3D yang optimal.</string>
+    <string name="sp_entering_guide_NORMAL">"Untuk menyunting menu cepat,
+tekan dan tahan ikon."</string>
+    <string name="sp_entering_clean_guide_NORMAL">Pastikan lensa kamera dibersihkan untuk memperoleh kualitas gambar yang baik.</string>
+    <string name="sp_entering_gallery_guide_NORMAL">"Untuk memeriksa dengan cepat foto yang diambil,
+tekan dan tahan ikon galeri."</string>
+    <string name="entering_guide_att">"Tekan dan tahan ikon 
+untuk menyunting pintasan."</string>
+    <string name="sp_entering_gallery_guide_vzw">"Untuk memeriksa dengan cepat foto yang diambil,
+tekan dan tahan ikon galeri."</string>
+    <string name="entering_guide_vzw">"Tekan dan tahan ikon 
+untuk menyunting pintasan."</string>
+    <string name="portrait_plus">Potret +</string>
+    <string name="help_guide_portrait_plus_shot_desc">Portret + membuat kulit wajah tampak lebih cerah dan halus.</string>
+    <string name="edit_quick_menu">Sunting menu cepat</string>
+    <string name="error_occurred">Terjadi kesalahan.</string>
+    <string name="sp_info_empty_SHORT">Kosong</string>
+    <string name="accessibility_exit_edit_menu">Keluar dari menu edit</string>
+    <string name="accessibility_shutter_button">Rana</string>
+    <string name="accessibility_review_thumbnail">Foto atau video terbaru</string>
+    <string name="accessibility_camera_picker">Sakelar kamera dan perekam kamera</string>
+    <string name="accessibility_beautyshot_bar">Bilah kontrol bidikan indah</string>
+    <string name="accessibility_beautyshot_control">Kontrol bidikan indah</string>
+    <string name="accessibility_beautyshot_button">Beauty shot control bar</string>
+    <string name="accessibility_brightness_bar">Bar pengontrol kecerahan</string>
+    <string name="accessibility_brightness_control">Kontrol kecerahan</string>
+    <string name="accessibility_brightness_button">Tombol pengontrol kecerahan</string>
+    <string name="accessibility_manual_focus_bar">Bar pengaturan fokus manual</string>
+    <string name="accessibility_manual_focus_button">Kontrol fokus manual</string>
+    <string name="accessibility_zoom_bar">Bar kontrol perbesaran</string>
+    <string name="accessibility_zoom_control">Kontrol perbesaran</string>
+    <string name="accessibility_zoom_button">Tombol kontrol perbesaran</string>
+    <string name="accessiblity_free_panorama_retake">Ambil ulang</string>
+    <string name="accessiblity_start_recording">Mulai merekam</string>
+    <string name="accessiblity_stop_recording">Stop Rekaman</string>
+    <string name="accessiblity_pause_recording">Jeda perekaman</string>
+    <string name="camera_accessibility_stop_button">Berhenti</string>
+    <string name="free_panorama_bubble_popup">Untuk menampilkan foto dalam pandangan 360 derajat, sentuh layarnya.</string>
+    <string name="error_panorama_during_taking">Berhenti mengambil bidikan panorama untuk pemosisian kamera. Foto disimpan ke Galeri.</string>
+    <string name="sp_date_stamp">Catatan tanggal</string>
+    <string name="audio_zoom_warning">Zoom Audio hanya aktif dalam tampilan lanskap.</string>
+    <string name="audio_zoom_disabled">Zoom Audio dinonaktifkan</string>
+    <string name="unable_to_use_qmemo">Tidak bisa menggunakan %s</string>
+    <string name="sp_open_quick_camera_case">Buka Quick Camera Case</string>
+    <string name="message_received">Pesan baru diterima</string>
+    <string name="pd_message_processing">Memproses...</string>
+    <string name="not_available_during_remote_care">Tidak tersedia selama remote care.</string>
+    <string name="dual_camera_effect_menu_none">Tidak ada</string>
+    <string name="dual_camera_effect_menu_stamp">Prangko</string>
+    <string name="dual_camera_effect_menu_instantpic">Instan</string>
+    <string name="dual_camera_effect_menu_heart">"Bentuk hati "</string>
+    <string name="dual_camera_effect_menu_star">Bentuk bintang</string>
+    <string name="dual_camera_effect_menu_window">Jendela</string>
+    <string name="dual_camera_effect_menu_cubism">"Kubik "</string>
+    <string name="dual_camera_effect_menu_splitview1">Bagi tampilan 1</string>
+    <string name="dual_camera_effect_menu_splitview2">Bagi tampilan 2</string>
+    <string name="smart_zoom_object_tracking_focus_mode">Modus pelacakan fokus</string>
+    <string name="smart_zoom_manual_focus_mode">Modus fokus normal</string>
+    <string name="sp_shot_mode_new_hdr">Nada dinamis (HDR)</string>
+    <string name="sp_help_guide_new_hdr_desc_list">Menggabungkan foto yang diambil pada beberapa eksposur menjadi satu foto yang optimal untuk mendapatkan foto yang lebih baik dalam situasi pencahayaan yang rumit.</string>
+    <string name="accessiblity_mode_button">Modus.</string>
+    <string name="accessiblity_change_view_list_button">Tampilan Daftar</string>
+    <string name="accessiblity_change_view_grid_button">Tampilan grid</string>
+    <string name="accessiblity_default_auto_button">Normal</string>
+    <string name="mode_menu_camera_normal">Ambil foto dengan modus kamera normal.</string>
+    <string name="mode_menu_video_normal">Rekam video dengan modus perekaman normal.</string>
+    <string name="mode_menu_video_tracking_zoom">"Memungkinkan Anda memilih area fokus untuk memperbesar. 
+Lihat dalam layar kecil dan ambil video."</string>
+    <string name="help">Bantuan</string>
+    <string name="panorama_guide_tap_shutter_to_start">Tekan tombol rana untuk memulai.</string>
+    <string name="panorama_guide_move_in_one_direction">Bergerak dalam satu arah</string>
+    <string name="panorama_guide_tap_to_finish">"Tekan tombol berhenti untuk menyelesaikan "</string>
+    <string name="sp_down_NORMAL">Turun</string>
+    <string name="sp_up_NORMAL">Naik</string>
+    <string name="sp_right_NORMAL">Kanan</string>
+    <string name="sp_left_NORMAL">Kiri</string>
+    <string name="volume_key">"Tombol volume "</string>
+    <string name="volume_key_capture_image">Potret</string>
+    <string name="volume_key_record_video">Rekam</string>
+    <string name="volume_key_zoom">Perbesar</string>
+    <string name="volume_key_zoom_only">Perbesaran hanya aktif di kamera belakang.</string>
+    <string name="volume_key_zoom_disable">"Perbesaran tidak didukung dalam modus ini. "</string>
+    <string name="volume_key_zoom_disable_resolution">Perbesaran tidak didukung untuk resolusi ini.</string>
+    <string name="help_scene_mode_menu_night_desc_new">Abadikan foto di area yang gelap tanpa lampu kilat.</string>
+    <string name="sp_confirm_NORMAL">Pilih</string>
+    <string name="sp_dialog_change_setting">Ubah Aktifkan ke Nonaktifkan</string>
+    <string name="sp_dialog_change_setting_au_cloud">Harap batalkan \"Nonaktifkan\" aplikasi au.</string>
+    <string name="sp_auto_upload_NORMAL">Unggah otomatis</string>
+    <string name="sp_new_ux_help_guide_title_clear_shot">Panduan Shot&amp;Clear</string>
+    <string name="sp_new_ux_help_guide_title_hdr">Panduan nada dinamis tone (HDR)</string>
+    <string name="sp_new_ux_help_guide_title_panorama">Panduan panorama</string>
+    <string name="sp_new_ux_help_guide_title_vr_panorama">Panduan panorama VR</string>
+    <string name="sp_new_ux_help_guide_title_burst_shot">Panduan burst shot</string>
+    <string name="sp_new_ux_help_guide_title_beauty_shot">Panduan beauty shot</string>
+    <string name="sp_new_ux_help_guide_title_portrait_plus">Potret + panduan</string>
+    <string name="sp_new_ux_help_guide_title_dual_camera">Panduan kamera ganda</string>
+    <string name="sp_new_ux_help_guide_title_time_machine_camera">Panduan time machine camera</string>
+    <string name="sp_new_ux_help_guide_title_time_catch_shot">Panduan time catch shot</string>
+    <string name="sp_new_ux_help_guide_title_intelligent_auto">Panduan otomatis cerdas</string>
+    <string name="sp_new_ux_help_guide_title_sports">Panduan olahraga</string>
+    <string name="sp_new_ux_help_guide_title_night">Panduan malam</string>
+    <string name="sp_new_ux_help_guide_title_dual_recording">Panduan perekaman ganda</string>
+    <string name="sp_new_ux_help_guide_title_live_effect">Panduan efek hidup</string>
+    <string name="sp_new_ux_help_guide_title_continuous_shot">Panduan continuous shot</string>
+    <string name="sp_new_ux_help_guide_title_hdr_recording">Panduan rekaman HDR</string>
+    <string name="sp_new_ux_help_guide_title_wdr_recording">Panduan rekaman WDR</string>
+    <string name="sp_new_ux_help_guide_title_voice_shutter">Panduan rana suara</string>
+    <string name="sp_new_ux_help_guide_title_cheese_shutter">Panduan chesse shutter</string>
+    <string name="sp_new_ux_help_guide_title_uplus_box">Panduan simpan otomatis U+ Box</string>
+    <string name="sp_new_ux_help_guide_title_audio_zoom">Panduan perbesaran audio</string>
+    <string name="sp_new_ux_help_guide_title_tracking_zoom">Panduan tracking zoom</string>
+    <string name="sp_new_ux_help_guide_desc_clear_shot">"1. Ambil foto.
+2. Tekan salah satu objek disorot untuk menghapusnya dari foto.
+3. Tekan tombol simpan untuk menyimpannya."</string>
+    <string name="sp_new_ux_help_guide_desc_hdr">HDR mengkombinasikan foto yang diambil dengan eksposur yang berbeda menjadi satu foto yang optimal sambil mengkompensasi cahaya latar dengan meningkatkan beberapa kontrol eksposur.</string>
+    <string name="sp_new_ux_help_guide_desc_panorama">"1. Tekan tombol rana untuk memulai.
+2. Miringkan perangkat Anda perlahan-lahan ke satu arah.
+3. Tekan tombol berhenti saat selesai."</string>
+    <string name="sp_new_ux_help_guide_desc_plane_panorama">"1. Tekan tombol rana untuk memulai.
+2. Miringkan perangkat Anda perlahan-lahan ke satu arah.
+3. Cocokkan area fokus dengan pemandu berwarna biru untuk mengambil foto. 
+4. Tekan tombol berhenti saat selesai."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama">"1. Tekan rana untuk memulai modus panorama VR.
+2. Sesuaikan area fokus dengan garis panduan biru untuk mengambil foto.
+3. Pindahkan kamera untuk menangkap area fokus lain dan mengambil foto. Foto-foto tersebut akan disatukan menjadi satu gambar."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new">"1. Tekan tombol rana untuk memulai modus panorama VR. 
+2. Cocokkan area fokus ke garis pemandu biru untuk mengambil foto. 
+3. Gerakkan kamera untuk menangkap area fokus lain dan mengambil foto. 
+Foto-foto digabungkan menjadi satu gambar. 
+Saat mengambil foto Panorama VR, jangan berdiri terlalu dekat dengan subjek dan pertahankan jarak yang tepat."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new_specified">"1. Tekan tombol rana untuk memulai modus panorama VR. 
+2. Cocokkan area fokus ke garis pemandu biru untuk mengambil foto. 
+3. Gerakkan kamera untuk menangkap area fokus lain dan mengambil foto. 
+Foto-foto digabungkan menjadi satu gambar. 
+Saat mengambil foto Panorama VR, jangan berdiri terlalu dekat dengan subjek dan pertahankan jarak yang tepat. (16 ft atau 5 m)."</string>
+    <string name="sp_new_ux_help_guide_desc_light_frame">Ambil foto yang lebih cerah dengan pratinjau yang lebih kecil saat menggunakan kamera depan.</string>
+    <string name="sp_new_ux_help_guide_desc_burst_shot">Ambil hingga 20 bidikan secara cepat dengan menekan rana.</string>
+    <string name="sp_new_ux_help_guide_desc_beauty_shot">Beauty shot membuat kulit wajah terlihat lebih cerah dan halus.</string>
+    <string name="sp_new_ux_help_guide_desc_time_machine_camera">"1. Ambil foto untuk mengaktifkan Time machine camera.
+2. Tekan tombol galeri untuk meninjau momen yang hilang.
+3. Pilih foto yang ingin Anda simpan.
+4. Tekan tombol simpan."</string>
+    <string name="sp_new_ux_help_guide_desc_time_catch_shot">"1. Ambil foto untuk memulai Time catch shot.
+2. Tekan tombol galeri untuk meninjau momen yang hilang.
+3. Pilih foto yang ingin Anda simpan.
+4. Tekan tombol simpan."</string>
+    <string name="sp_new_ux_help_guide_desc_intelligent_auto">Secara otomatis mengidentifikasi karakteristik adegan dan mengambil foto.</string>
+    <string name="sp_new_ux_help_guide_desc_dual_recording">"1. Seret untuk memindahkan layar kecil.
+2. Sentuh dan tahan layar kecil untuk mengubah ukurannya.
+3. Ketuk layar kecil untuk beralih antara layar kecil dan besar."</string>
+    <string name="sp_new_ux_help_guide_desc_live_effect">"1. Pilih efek yang ingin Anda gunakan.
+2. Tekan tombol rekam dan mulai merekam."</string>
+    <string name="sp_new_ux_help_guide_desc_hdr_recording">Rekaman HDR meningkatkan video Anda dengan beberapa kontrol eksposur.</string>
+    <string name="sp_new_ux_help_guide_desc_wdr_recording">Rekaman WDR meningkatkan kualitas video Anda dengan beberapa kontrol eksposur.</string>
+    <string name="sp_uhd_heat_warning">Perekaman video UHD tersedia hingga 5 menit untuk mempertahankan suhu yang disarankan. Perekaman video akan ditutup.</string>
+    <string name="sp_help_guide_title_face_tracking_led">Panduan pelacakan wajah</string>
+    <string name="sp_help_guide_face_tracking_led">"Lampu pemberitahuan berkedip saat wajah terdeteksi.
+Anda bisa mengubah pengaturan dalam Pengaturan > Tampilan > Lampu pemberitahuan."</string>
+    <string name="dialog_alert_title">Tanda</string>
+    <string name="camera_accessibility_indicator_message_remaining">Pesan teks baru</string>
+    <string name="camera_accessibility_indicator_mms_remaining">Pesan multimedia baru</string>
+    <string name="camera_accessibility_indicator_voice_mail_remaining">Pesan suara baru</string>
+    <string name="camera_accessibility_indicator_gps_connecting">Mengaktifkan geotagging</string>
+    <string name="camera_accessibility_indicator_geotagging_on">Geotagging diaktifkan</string>
+    <string name="camera_accessibility_indicator_remaining_picture_count">%s lebih banyak foto yang bisa diambil.</string>
+    <string name="camera_accessibility_indicator_battery">Baterai %s persen</string>
+    <string name="camera_accessibility_indicator_storage">Simpan ke %s</string>
+    <string name="camera_accessibility_indicator_voice_shutter_on">%s dihidupkan.</string>
+    <string name="camera_accessibility_indicator_anti_shaking_on">Anti-goyang dihidupkan.</string>
+    <string name="camera_accessibility_thumbnail">Ke galeri</string>
+    <string name="not_available_during_incoming_call">Tidak tersedia selama panggilan masuk berlangsung.</string>
+    <string name="camera_error_occurred_try_again">Kamera tidak tersedia untuk sementara waktu karena masalah temporer. Coba lagi.</string>
+    <string name="mode_menu_camera_refocus_new">Pilih lagi fokus Anda setelah mengambil foto.</string>
+    <string name="sp_refocus_bubble_popup_NORMAL">Untuk memfokuskan kembali foto ini, ketuk di sini.</string>
+    <string name="sp_postview_action_bar_menu_all_in_focus">Semua dalam fokus</string>
+    <string name="sp_refocus_preview_guide_message">Mendekatlah ke objek dan pegang telepon dengan mantap saat mengambil foto.</string>
+    <string name="sp_new_ux_help_guide_title_refocus">Panduan Magic focus</string>
+    <string name="sp_camera_refocus_postview_allinfocus_message">Seluruh bagian foto Anda dalam fokus</string>
+    <string name="sp_new_ux_help_guide_desc_refocus_new">"1. Ambil foto dan tekan tombol Galeri. 
+2. Untuk mengubah fokus, ketuk objek atau menyesuaikan bingkai. 
+3. Ketuk tombol Simpan untuk menyimpan foto yang difokuskan ulang."</string>
+    <string name="sp_refocus_postview_message_new">Ketuk objek atau sesuaikan bingkai untuk mengubah fokus, kemudian ketuk (#1#) di sudut kanan atas</string>
+    <string name="sp_refocus_postview_message_vzw_new">Ketuk objek atau sesuaikan bingkai untuk mengubah fokus, kemudian ketuk tombol Simpan di sudut kanan atas</string>
+    <string name="sp_refocus_warning_popup">Fokus tidak berubah. Keluar?</string>
+    <string name="gesture_guide">Tutup jari-jari Anda untuk mengambil foto</string>
+    <string name="sp_gesture_guide_msg_fist">Kepalkan tinju untuk mengambil foto</string>
+    <string name="camera_help_activity_gesture_shot">Bidikan isyarat</string>
+    <string name="sp_help_gestureshot_desc">Ambil foto selfie dengan isyarat tangan.</string>
+    <string name="sp_new_ux_help_guide_title_gestureshot">Panduan bidikan isyarat</string>
+    <string name="sp_new_ux_gesture_shot_help_activity_desc">Ambil foto narsis dengan menggunakan isyarat tangan. Untuk mengambil foto, angkat tangan Anda sampai kamera depan mendeteksi dan kotak muncul di layar. Setelah, kepalkan tangan untuk mengambil foto.</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/init" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/light_frame" />
+    <ViewStub android:id="@id/stub_preview" android:layout="@layout/preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/light_frame_ani" />
+    <ViewStub android:id="@id/stub_focus" android:layout="@layout/focus" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/free_panorama_black_background" />
+    <ViewStub android:id="@id/stub_free_panorama" android:layout="@layout/free_panorama_view" android:layout_width="@dimen/lcd_width" android:layout_height="@dimen/lcd_height" />
+    <ViewStub android:id="@id/stub_quick_function" android:layout="@layout/quick_function" android:layout_width="@dimen/quickfunction_preview.width" android:layout_height="@dimen/quickfunction_preview.height" />
+    <ViewStub android:id="@id/stub_preview_panel_without_shutter" android:layout="@layout/preview_2d_panel_without_shutter" android:layout_width="@dimen/preview_panel.width" android:layout_height="@dimen/preview_panel.height" android:layout_marginEnd="@dimen/preview_panel.marginRight" android:layout_alignParentEnd="true" />
+    <ViewStub android:id="@id/stub_preview_2d_panel" android:layout="@layout/preview_2d_panel" android:layout_width="@dimen/preview_panel.width" android:layout_height="@dimen/preview_panel.height" android:layout_marginEnd="@dimen/preview_panel.marginRight" android:layout_alignParentEnd="true" />
+    <ViewStub android:id="@id/stub_preview_3d_panel" android:layout="@layout/preview_3d_panel" android:layout_width="@dimen/preview_panel.width" android:layout_height="@dimen/preview_panel.height" android:layout_marginEnd="@dimen/preview_panel.marginRight" android:layout_alignParentEnd="true" />
+    <ViewStub android:id="@id/stub_camera_indicator" android:paddingTop="@dimen/layout_preview_indicators.paddingTop" android:clipChildren="false" android:clipToPadding="false" android:layout="@layout/camera_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/layout_preview_indicators.paddingRight" android:layout_marginEnd="@dimen/layout_preview_indicators.marginRight" />
+    <ViewStub android:id="@id/stub_camcorder_indicator" android:paddingTop="@dimen/layout_preview_indicators.paddingTop" android:clipChildren="false" android:clipToPadding="false" android:layout="@layout/camcorder_indicator" android:layout_width="@dimen/layout_preview_indicators.width" android:layout_height="@dimen/layout_preview_indicators.height" android:paddingEnd="@dimen/layout_preview_indicators.paddingRight" android:layout_marginEnd="@dimen/layout_preview_indicators.marginRight" />
+    <ViewStub android:id="@id/stub_smartmode_indicator" android:layout="@layout/smart_mode_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/smart_mode_indicator_marginTop" android:layout_marginStart="@dimen/smart_mode_indicator_marginLeft" />
+    <ViewStub android:orientation="horizontal" android:id="@id/stub_rec_indicator" android:layout="@layout/rec_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/stub_quick_button_rec" android:layout="@layout/quick_button_rec" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/stub_quick_window" android:layout="@layout/smart_cover_window_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <ViewStub android:id="@id/stub_audiozoom_guide" android:layout="@layout/audiozoom_guide" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/stub_zoom" android:layout="@layout/zoom" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/stub_setting_zoom" android:layout="@layout/setting_zoom" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/stub_brightness" android:layout="@layout/brightness" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/stub_setting_brightness" android:layout="@layout/setting_brightness" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/stub_beautyshot" android:layout="@layout/beautyshot" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/stub_setting_beautyshot" android:layout="@layout/setting_beautyshot" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/stub_manual_focus" android:layout="@layout/manual_focus" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/stub_camera_3d_depth" android:layout="@layout/camera_3d_depth" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/stub_setting_camera_3d_depth" android:layout="@layout/setting_camera_3d_depth" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/stub_panorama" android:layout="@layout/panorama_view" android:layout_width="@dimen/panorama_view_layout_width" android:layout_height="@dimen/panorama_view_layout_height" android:layout_marginStart="@dimen/panorama_view_layout_marginLeft" />
+    <ViewStub android:id="@id/stub_timer" android:layout="@layout/timer_view" android:layout_width="@dimen/timer_view_layout.width" android:layout_height="@dimen/timer_view_layout.height" android:layout_marginStart="@dimen/layout_preview_marginLeft" />
+    <ViewStub android:id="@id/stub_live_effect_menu" android:layout="@layout/live_effect_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/stub_quick_function_drag" android:layout="@layout/quick_function_drag" android:layout_width="@dimen/quickfunction_drag_preview.width" android:layout_height="@dimen/quickfunction_drag_preview.height" />
+    <ViewStub android:id="@id/stub_pip_frame_sliding_drawable_menu" android:layout="@layout/pip_small_screen_frame_sliding_drawer_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/stub_live_effect_sliding_drawer_menu" android:layout="@layout/live_effect_sliding_drawer_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/refocus_guide" />
+    <include layout="@layout/gallery_quickview_window" />
+</RelativeLayout>

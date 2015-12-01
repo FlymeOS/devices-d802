@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/postview_shotmode_attach" android:background="#ff000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/captured_image_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <ImageView android:id="@id/captured_image" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" android:layoutDirection="ltr" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_linear01" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/btn_play" android:background="#00000000" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_gallery_play" android:layout_centerInParent="true" android:contentDescription="@string/play" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/layout_attach_button" android:layoutDirection="ltr" style="@style/CommandBarBackground">
+        <LinearLayout style="@style/CommandBarSpacer" />
+        <Button android:id="@id/btn_cancel" android:text="@string/cancel" style="@style/Postview_CommandBarButton" />
+        <LinearLayout style="@style/CommandBarSpacer" />
+        <Button android:id="@id/btn_ok" android:text="@string/sp_ok_NORMAL" style="@style/Postview_CommandBarButton" />
+        <LinearLayout style="@style/CommandBarSpacer" />
+    </LinearLayout>
+</RelativeLayout>

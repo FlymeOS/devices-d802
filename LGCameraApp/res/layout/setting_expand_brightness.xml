@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/setting_expand_brightness" android:background="#ff5d5f61" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lge.camera.components.SettingBrightnessBarExpand android:id="@id/setting_brightness_bar" android:layout_width="fill_parent" android:layout_height="@dimen/setting_brightness_expand.height" android:layoutDirection="ltr">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layoutDirection="ltr">
+            <RelativeLayout android:id="@id/setting_adj_minus_button_view" android:layout_width="@dimen/setting_adj_minus_button_view.width" android:layout_height="@dimen/setting_adj_minus_button_view.height" android:layoutDirection="ltr" android:layout_toStartOf="@id/setting_adj_cursor_bg_view">
+                <ImageView android:id="@id/setting_adj_minus_button" android:background="@drawable/selector_expand_brightness_btn" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_preview_new_brightness_minus" android:contentDescription="@string/accessibility_brightness_button" android:layout_alignParentEnd="true" style="@style/NoFocusableButton" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/setting_adj_cursor_bg_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layoutDirection="ltr">
+                <ImageView android:id="@id/setting_adj_cursor_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_preview_setting_bar_expand" android:contentDescription="@string/accessibility_brightness_bar" android:layoutDirection="ltr" />
+                <ImageView android:id="@id/setting_adj_index_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_adj_cursor_index_expand.marginTop" android:src="@drawable/camera_preview_setting_bar_value_expand" android:layoutDirection="ltr" />
+                <ImageView android:id="@id/setting_adj_cursor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_setting_ev_cursor_expand" android:layoutDirection="ltr" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/setting_adj_plus_button_view" android:layout_width="@dimen/setting_adj_plus_button_view.width" android:layout_height="@dimen/setting_adj_plus_button_view.height" android:layoutDirection="ltr" android:layout_toEndOf="@id/setting_adj_cursor_bg_view">
+                <ImageView android:id="@id/setting_adj_plus_button" android:background="@drawable/selector_expand_brightness_btn" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_preview_new_brightness_plus" android:contentDescription="@string/accessibility_brightness_button" android:layout_alignParentStart="true" style="@style/NoFocusableButton" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.lge.camera.components.SettingBrightnessBarExpand>
+</RelativeLayout>

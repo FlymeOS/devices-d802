@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/postview_shotmode_clearshot" android:background="#ff000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/captured_image_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/captured_image" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" android:layoutDirection="ltr" />
+        <RelativeLayout android:id="@id/object_background_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr" />
+        <TextView android:id="@id/remove_guide_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/clearshot_guide_text_marginBottom" android:text="@string/sp_clear_shot_tab_guide" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" style="@style/clearshot_remove_guide_text" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_bar" android:layout_width="fill_parent" android:layout_height="@dimen/preview_panel.width" android:layout_alignParentBottom="true" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lge.camera.components.RotateLayout android:id="@id/main_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/main_button_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layoutDirection="ltr">
+            <com.lge.camera.components.ShutterButton android:id="@id/main_button_bg" android:background="@drawable/selector_main_bg" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <com.lge.camera.components.RotateImageButton android:id="@id/main_button" android:background="@drawable/selector_main_cam_btn" android:focusable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <com.lge.camera.components.RotateImageButton android:id="@id/main_button_animation" android:background="@drawable/btn_rec_outline" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

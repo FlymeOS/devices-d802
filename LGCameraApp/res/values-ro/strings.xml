@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cameră</string>
+    <string name="sp_lowbattery_MLINE">Baterie prea slabă pt a putea porni camera. Vă rugăm încărcaţi telefonul.</string>
+    <string name="sp_lowbattery">Acumulator prea slab pentru a acţiona camera.</string>
+    <string name="setting_init">Resetare setare cameră?</string>
+    <string name="sp_reset_message_NORMAL">Resetaţi la valoarea inițială?</string>
+    <string name="sp_All_settings_reset_NORMAL">Toate setările vor fi resetate</string>
+    <string name="sp_blockedByEAS_NORMAL">Cameră dezactivată de politica serverului Exchange.</string>
+    <string name="sp_block_camera_NORMAL">Camera este dezactivată datorită politicii serverului</string>
+    <string name="error_cannot_use_hdmi">Camera nu funcţionează când este conectat HDMI-ul.</string>
+    <string name="sp_dual_display_status_NORMAL">Nu se poate folosi camera în modul de afişare dublă.</string>
+    <string name="reset">Resetare</string>
+    <string name="cancel">Anulare</string>
+    <string name="yes">Da</string>
+    <string name="no">Nu</string>
+    <string name="sp_Exit_NORMAL">Ieşire</string>
+    <string name="on">Activat</string>
+    <string name="sp_review_timer_2_NORMAL">2 Secs</string>
+    <string name="off">Dezact.</string>
+    <string name="sp_none_NORMAL">Niciunul</string>
+    <string name="settings">Setări</string>
+    <string name="sp_loading_camera_NORMAL">Pregătire...</string>
+    <string name="dual_camera_select">Schimbare cameră</string>
+    <string name="insert_sd_card">Inseraţi un card SD.</string>
+    <string name="insert_add_sd_card">Conecatare card SD extern.</string>
+    <string name="sp_preparing_int_sd_NORMAL">Pregătire memorie internă...</string>
+    <string name="preparing_sd">Pregătire card SD.</string>
+    <string name="sp_cannot_use_camera_UMS_NORMAL">Camera nu se poate utiliza deoarece cardul SD este conectat la un PC. Deconectaţi USB-ul pentru a putea continua.</string>
+    <string name="sp_connected_mass_storage_NORMAL">Stocare în masă</string>
+    <string name="sp_not_available_connected_mass_storage_NORMAL">"Camera nu este disponibilă.
+Telefonul este conectat la PC ca disp. de stocare masivă"</string>
+    <string name="sp_launch_NORMAL">Lansare</string>
+    <string name="sp_memory_full_diag_title_NORMAL">Memorie plină</string>
+    <string name="sp_memory_full_diag_1_NORMAL">"Memorie insuficientă în %1$s.
+Fişierul dvs. va fi salvat pe %2$s.
+Eliberaţi memorie în %3$s conectând telefonul la PC sau lansând gestionarul de fişiere.
+
+Lansaţi acum gestionarul de fişiere?
+Verificaţi fişierele dvs. din '%4$s'"</string>
+    <string name="sp_memory_full_diag_1_no_file_manager_NORMAL">"Memorie insuficientă în %1$s.
+Fişierul dvs. va fi salvat pe %2$s.
+Eliberaţi memorie în %3$s conectând telefonul la PC sau lansând gestionarul de fişiere."</string>
+    <string name="sp_memory_full_diag_2_NORMAL">"Memorie insuficientă în %1$s.
+Eliberaţi memorie în %1$s conectând telefonul la PC sau lansând gestionarul de fişiere.
+
+Lansaţi acum gestionarul de fişiere?
+Verificaţi fişierele dvs. din '%2$s'"</string>
+    <string name="sp_memory_full_diag_2_no_file_manager_NORMAL">"Memorie insuficientă în %1$s.
+Eliberaţi memorie în %1$s conectând telefonul la PC sau lansând gestionarul de fişiere."</string>
+    <string name="sp_memory_full_diag_3_NORMAL">"Memorie totală insuficientă.
+Eliberaţi memorie conectând telefonul la PC sau lansând gestionarul de fişiere.
+
+Lansaţi acum gestionarul de fişiere?
+Verificaţi fişierele dvs. din '%1$s'"</string>
+    <string name="sp_memory_full_diag_3_no_file_manager_NORMAL">"Memorie totală insuficientă.
+Eliberaţi memorie conectând telefonul la PC sau lansând gestionarul de fişiere."</string>
+    <string name="sp_storage_full_popup_ics_title_NORMAL">Capacitatea de stocare epuizată</string>
+    <string name="sp_storage_full_message_not_on_internal_NORMAL">Spaţiu insuficient pe memorie internă</string>
+    <string name="sp_storage_full_message_not_on_internal_sto_NORMAL">Spaţiu insuficient pe pe Dispozitiv de stocare intern.</string>
+    <string name="sp_storage_full_message_not_on_sd_NORMAL">Nu există spaţiu de stocare suficient pe cardul SD.</string>
+    <string name="sp_storage_full_message_save_to_internal_NORMAL">Fişierul este salvat în stocarea internă.</string>
+    <string name="sp_storage_full_message_save_to_internal_st_NORMAL">Fişierul este salvat în stocarea internă.</string>
+    <string name="sp_storage_full_message_save_to_sd_NORMAL">Fişiere salvate pe cardul SD</string>
+    <string name="sp_storage_full_saving_file_NORMAL">Se salvează fişierul...</string>
+    <string name="sp_storage_full_free_NORMAL">Pentru a elibera spaţiu de stocare, ştergeţi fişierele neutilizate.</string>
+    <string name="msg_save_progress">Salvare...</string>
+    <string name="sp_storage_full_popup_ics_1_NORMAL">Spaţiu de stocare insuficient pe %s. Pentru a elibera spaţiu, ştergeţi din fişierele neutilizate.</string>
+    <string name="sp_storage_full_popup_ics_2_NORMAL">Spaţiu insuficient pe %1$s. Fişier salvat în %2$s. Pentru a elibera spaţiu, ştergeţi fişierele neutilizate.</string>
+    <string name="sp_storage_full_popup_ics_3_NORMAL">Spaţiu insuficient pe toate dispozitivele de stocare. Pentru a elibera spaţiu, ştergeţi fişierele neutilizate.</string>
+    <string name="sp_storage_full_popup_ics_6_NORMAL">Spaţiu insuficient pe %s. Salvarea fişierului în curs...</string>
+    <string name="sp_full_popup_ics_1_not_in_memory_NORMAL">Spaţiu insuficient pe memorie internă. Pentru a elibera spaţiu de stocare, ştergeţi fişierele neutilizate.</string>
+    <string name="sp_full_popup_ics_1_not_in_storage_NORMAL">Nu este suficient spaţiu în memorie interna. Pentru a elibera spaţiu, ştergeţi fişierele neutilizate.</string>
+    <string name="sp_full_popup_ics_1_not_sd_NORMAL">Nu există spaţiu de stocare suficient pe cardul SD. Pentru a elibera spaţiu de stocare, ştergeţi fişierele neutilizate.</string>
+    <string name="sp_full_popup_ics_2_not_in_memory_to_sd_NORMAL">Spaţiu insuficient pe memorie internă. Fişiere salvate pe cardul SD. Pentru a elibera spaţiu de stocare, ştergeţi fişierele neutilizate.</string>
+    <string name="sp_full_popup_ics_2_not_in_storage_to_sd_NORMAL">Spaţiu insuficient pe pe Dispozitiv de stocare intern. Fişiere salvate pe cardul SD. Pentru a elibera spaţiu de stocare, ştergeţi fişierele neutilizate.</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_memory_NORMAL">Nu există spaţiu de stocare suficient pe cardul SD. Fişierul este salvat în stocarea internă. Pentru a elibera spaţiu de stocare, ştergeţi fişierele neutilizate.</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_storage_NORMAL">Nu există spaţiu de stocare suficient pe cardul SD. Fişierul este salvat în stocarea internă. Pentru a elibera spaţiu de stocare, ştergeţi fişierele neutilizate.</string>
+    <string name="sp_full_popup_ics_6_not_in_memory_NORMAL">Spaţiu insuficient pe memorie internă. Se salvează fişierul.</string>
+    <string name="sp_full_popup_ics_6_not_in_storage_NORMAL">Spaţiu insuficient pe pe Dispozitiv de stocare intern. Se salvează fişierul.</string>
+    <string name="sp_full_popup_ics_6_not_sd_NORMAL">Nu există spaţiu de stocare suficient pe cardul SD. Se salvează fişierul...</string>
+    <string name="sp_internal_sd_prepared_NORMAL">Memoria internă este pregătită.</string>
+    <string name="sp_external_sd_prepared_NORMAL">Cardul SD este pregătit.</string>
+    <string name="sp_not_enough_memory_NORMAL">"Spaţiu de stocare insuficient pe toate mediile de stocare.
+Eliberaţi mai multă memorie."</string>
+    <string name="not_enough_space">Introduceţi un card de memorie nou sau ştergeţi din conţinutul cardului.</string>
+    <string name="sp_not_enough_int_sd_NORMAL">"Spaţiu de stocare insuficient pe memoria internă.
+Fişierul dvs. va fi salvat pe cardul SD."</string>
+    <string name="sp_not_enough_add_space_NORMAL">"Spaţiu de stocare insuficient pe cardul SD.
+Eliberaţi mai multă memorie."</string>
+    <string name="sp_not_enough_sd_int_NORMAL">"Spaţiu de stocare insuficient pe cardul SD.
+Fişierul dvs. va fi salvat pe memoria internă."</string>
+    <string name="sp_media_scanning_NORMAL">"Scanare media în derulare. Încercaţi din nou
+după finalizarea scanării fişierelor media."</string>
+    <string name="sp_media_scanning_ics_NORMAL">Încercați din nou după ce scanați fișierele media.</string>
+    <string name="scanning_sdcard_media_files">Scanarea fişierelor media de pe cardul SD...</string>
+    <string name="sp_ext_sdcard_not_exist_NORMAL">Nu există card SD. Stocarea s-a mutat pe memoria internă.</string>
+    <string name="sp_sdremoved_change_int_NORMAL">Cardul SD este scos. S-a trecut la stocarea în memorie internă.</string>
+    <string name="sp_sd_card_removed_NORMAL">Card SD scos. Introduceţi cardul SD.</string>
+    <string name="camera_closed_due_to_sdcard_removal">Cardul SD a fost scos în mod neaşteptat. Camera este închisă.</string>
+    <string name="sp_sdcard_inserted_noti">Cardul SD este introdus. Salvaţi pe cardul SD?</string>
+    <string name="sp_storage_always_ask_NORMAL">Solicitare confirmare</string>
+    <string name="sp_storage_noti_title_NORMAL">Notificare</string>
+    <string name="title_not_enough_space">Memorie plină</string>
+    <string name="popup_storage_full_save">Memory plina. Salvati...</string>
+    <string name="sp_notenoughmemory_NORMAL">"Memoria internă sau cardul SD este plin.
+Ştergeţi din conţinuturi."</string>
+    <string name="sp_addspace_NORMAL">"Cardul SD este plin.
+Ştergeţi din conţinuturi."</string>
+    <string name="sp_mhl_cannot_use_camera_NORMAL">Dacă cablul MHL este conectat, camera nu poate fi utilizată.</string>
+    <string name="sp_mhl_cannot_show_preview_NORMAL">Dacă cablul MHL este conectat, nu se poate previzualiza camera.</string>
+    <string name="msg_found_escape_char">Există caractere neacceptate</string>
+    <string name="sp_message_filename_limit_NORMAL">"S-a depăşit limita maximă admisă pentru numele de fişier 
+(limită: %d caractere)"</string>
+    <string name="waiting_save_image">Aşteptaţi...</string>
+    <string name="sp_image_size_front_NORMAL">Mărime imagine frontală</string>
+    <string name="image_size">Dimensiune</string>
+    <string name="scene_mode">Mod Peisaj</string>
+    <string name="scene_mode_portrait">Portret</string>
+    <string name="scene_mode_landscape">Peisaj</string>
+    <string name="scene_mode_sports">Sport</string>
+    <string name="scene_mode_night">Noapte</string>
+    <string name="scene_mode_sunset">Apus de soare</string>
+    <string name="white_balance">Balans Alb</string>
+    <string name="white_balance_sunny">Însorit</string>
+    <string name="white_balance_cloudy">Înnorat</string>
+    <string name="sp_whitebalance_default_NORMAL">Automat</string>
+    <string name="color_effect">Efect culoare</string>
+    <string name="color_effect_mono">Monocrom</string>
+    <string name="color_effect_negative">Negativ</string>
+    <string name="color_effect_solarize">Solarizare</string>
+    <string name="color_effect_negative_sepia">Sepia negativ</string>
+    <string name="color_effect_blue">Albastru</string>
+    <string name="color_effect_posterize">Posteriz.</string>
+    <string name="color_effect_aqua">Apă</string>
+    <string name="sp_color_effect_none_cameraapp_NORMAL">Niciunul</string>
+    <string name="image_quality">calitate imagine</string>
+    <string name="quality_super_fine">Super-fin</string>
+    <string name="quality_fine">Fin</string>
+    <string name="sp_quality_normal_NORMAL">Normală</string>
+    <string name="video_quality">Calitatea videoclipului</string>
+    <string name="timer">Temporizator</string>
+    <string name="timer_1">1 Sec.</string>
+    <string name="timer_3">3 Secs</string>
+    <string name="timer_5">5 Secs</string>
+    <string name="timer_10">10 Secs</string>
+    <string name="shot_mode">Mod Captură</string>
+    <string name="shot_mode_continuous">Fotografiere continuă</string>
+    <string name="shot_mode_smile">Fotografie zâmbet</string>
+    <string name="shot_mode_beauty">Fotografie portret</string>
+    <string name="shot_mode_art">Captură artistică</string>
+    <string name="shot_mode_panorama">Panoramă</string>
+    <string name="shot_mode_face_effect">Efect facial</string>
+    <string name="shot_mode_cartoon">Des. anim.</string>
+    <string name="shot_mode_free_panorama">Panoramă 360</string>
+    <string name="shot_mode_vr_panorama">Panoramă RV</string>
+    <string name="shot_mode_burst">Fotografiere continuă</string>
+    <string name="sp_shot_mode_burst">Foto cont.</string>
+    <string name="record_mode">Mod Înregistrare</string>
+    <string name="record_mode_WDR">Înregistrare WDR</string>
+    <string name="record_mode_HDR">HDR Roaming</string>
+    <string name="artshot_warm">Cald</string>
+    <string name="artshot_cold">Rece</string>
+    <string name="artshot_blackwhite">Alb-negru</string>
+    <string name="face_effect_blur">Estom.</string>
+    <string name="face_effect_snow">Zăpadă</string>
+    <string name="face_effect_shallow_focus">Focus plan apropiat</string>
+    <string name="face_effect_big_head">Amplificare cap</string>
+    <string name="face_effect_mosaic">Mozaic</string>
+    <string name="face_effect_fish_eye">Efect ochi de peşte</string>
+    <string name="face_effect_concave">Concav</string>
+    <string name="face_effect_funny_mask">Mască amuzantă</string>
+    <string name="auto_review">Vizualizare automată</string>
+    <string name="shutter_sound">Sunet declanşator</string>
+    <string name="shutter_sound_1">Ton 1</string>
+    <string name="shutter_sound_2">Ton 2</string>
+    <string name="shutter_sound_3">Ton 3</string>
+    <string name="shutter_sound_4">Ton 4</string>
+    <string name="geo_tagging">Etichetă poziţie</string>
+    <string name="sp_storage_NORMAL">Stocare</string>
+    <string name="sp_default_memory_NORMAL">Card SD &amp; stocare</string>
+    <string name="sp_internal_memory_NORMAL">Memorie internă</string>
+    <string name="sp_internal_storage_NORMAL">Memorie internă</string>
+    <string name="sp_external_memory_NORMAL">Card SD</string>
+    <string name="sp_anti_banding_NORMAL">Antiformare</string>
+    <string name="focus">Focalizare</string>
+    <string name="focus_face_tracking">Urmărire a feţei</string>
+    <string name="sp_quickfunction_focus_continuous_NORMAL">Continuă</string>
+    <string name="manual_for_camera">Manuală</string>
+    <string name="flash">Bliţ</string>
+    <string name="sp_save_direction_NORMAL">Salvează direcţia</string>
+    <string name="brightness">Luminozitate</string>
+    <string name="sp_mirror_image_NORMAL">Imagine oglindă</string>
+    <string name="sp_normal_save_NORMAL">Salvare normală</string>
+    <string name="sp_flipped_image_NORMAL">Imagine răsturnată</string>
+    <string name="sp_save_as_flipped_NORMAL">Salvează răsturnat</string>
+    <string name="sp_uplusbox_NORMAL">Salvare automată U+ Box</string>
+    <string name="sp_help_guide_uplusbox_desc_NORMAL">Pozele vor fi încărcate în U+ Box. Dacă vă conectaţi la reţeaua date mobile, s-ar putea să fiţi taxat cu tarif de date.</string>
+    <string name="sp_uplusbox_NORMAL_network_error">Eroare de reţea. Atunci când reţeaua devine disponibilă, fotografiile vor fi încărcate automat pe U+ Box.</string>
+    <string name="sp_uplusbox_NORMAL_desc_on">Pozele vor fi încărcate automat pe U+ Box.</string>
+    <string name="sp_voiceshutter_NORMAL">Comandă vocală poză</string>
+    <string name="sp_note_voiceshutter_NORMAL">Spuneţi \"%s\" când sunteţi gata să faceţi o poză.</string>
+    <string name="sp_voiceshutter_say_NORMAL">Spuneţi \"%s\" pentru a face o poză.</string>
+    <string name="sp_cheeseshutter_NORMAL">Declanşare vocală</string>
+    <string name="sp_voiceshutter_word_whisky_NORMAL">Whisky</string>
+    <string name="sp_voiceshutter_sound_kimchi_NORMAL">Chimci</string>
+    <string name="sp_voiceshutter_sound_cheese_NORMAL">Ciiz</string>
+    <string name="sp_voiceshutter_sound_smile_NORMAL">Smail</string>
+    <string name="sp_note_voiceshutter_multi_sound_NORMAL">Pentru a face o poză, spuneţi unul din următoarele cuvinte.</string>
+    <string name="sp_note_voiceshutter_multi_sound_vzw_NORMAL">Declanşatorul Cheese amână declanşarea aparatului până când spuneţi cu voce tare următoarele cuvinte:</string>
+    <string name="sp_voiceshutter_multi_sound_say_NORMAL">Spuneţi \"%1$s\", \"%2$s\", sau \"%3$s\" pentru a face o poză.</string>
+    <string name="sp_voiceshutter_multi_keyword_say_NORMAL">Spuneţi \"%1$s\", \"%2$s\", \"%3$s\", \"%4$s\" sau \"%5$s\" pentru a face o poză.</string>
+    <string name="sp_voiceshutter_multi_keyword_say_4items">Spuneţi \"%1$s\", \"%2$s\", \"%3$s\" sau \"%4$s\" pentru a face o poză.</string>
+    <string name="sp_voiceshutter_say_new_NORMAL">Spuneţi \"%s\" pentru a face o poză.</string>
+    <string name="sp_voiceshutter_help_desc_NORMAL">Fotografiază prin comandă vocală.</string>
+    <string name="video_size">Dimensiunea videoclipului</string>
+    <string name="sp_video_duration_NORMAL">Durată</string>
+    <string name="video_voice">Voce</string>
+    <string name="sp_video_voice_unmute_NORMAL">Activat</string>
+    <string name="sp_video_voice_mute_NORMAL">Mut</string>
+    <string name="show_recorded_video">Vizualizare automată</string>
+    <string name="share">Partajare</string>
+    <string name="sp_share_via_NORMAL">Partajare prin</string>
+    <string name="set_as">Set. ca</string>
+    <string name="sp_set_photo_as_NORMAL">Setare imagine ca</string>
+    <string name="rename">Reden.</string>
+    <string name="sp_share_SHORT">Part.</string>
+    <string name="sp_set_as_SHORT">Set. ca</string>
+    <string name="sp_rename_SHORT">Reden.</string>
+    <string name="sp_set_as_twoline_NORMAL">"Setare
+ca"</string>
+    <string name="sp_rename_twoline_NORMAL">"Rede
+numire"</string>
+    <string name="edit">Editare</string>
+    <string name="sp_play_twoline_SHORT">Redare</string>
+    <string name="sp_share_twoline_SHORT">Part.</string>
+    <string name="sp_set_as_twoline_SHORT">"Setare
+ca"</string>
+    <string name="sp_rename_twoline_SHORT">"Rede
+numire"</string>
+    <string name="sp_save_SHORT">Salv.</string>
+    <string name="sp_save_complete_SHORT">Finalizat</string>
+    <string name="play">Redare</string>
+    <string name="dlg_title_rename">Introduceţi numele nou</string>
+    <string name="dlg_title_delete">Ştergere</string>
+    <string name="msg_multi_image_delete">Aceste fişiere media vor fi şterse.</string>
+    <string name="msg_image_delete">Imaginea va fi ştearsă.</string>
+    <string name="msg_video_delete">Videoclipul va fi şters.</string>
+    <string name="popup_delete_done">Şters</string>
+    <string name="video_rec">ÎNREG.</string>
+    <string name="slow_motion">Redare Lentă</string>
+    <string name="sp_note_img_size_change_NORMAL">Dimensiunea imaginii este modificată la %s</string>
+    <string name="note_image_deleted">Imagine ştearsă</string>
+    <string name="note_shot_mode_change_normal">Modul fotografiere este schimbat la normal.</string>
+    <string name="note_timer_mode_off">Modul temporizator este dezactivat.</string>
+    <string name="note_smile_shutter_started">Efectuează automat o fotografie când detectează un zâmbet.</string>
+    <string name="note_focus_mode_set_to_auto">Modul focalizare este setat la automat.</string>
+    <string name="note_iso_set_to_auto">ISO este setat automat</string>
+    <string name="sp_note_rec_size_change_NORMAL">Dimensiunea videoclipului este setată la %s</string>
+    <string name="note_select_image">Niciun fişier selectat.</string>
+    <string name="sp_select_photo_NORMAL">Nicio fotografie selectată.</string>
+    <string name="note_color_effect_change">Efectul de culoare este dezactivat.</string>
+    <string name="sp_note_color_effect_change_NORMAL">Efectul culorii este comutat la %s.</string>
+    <string name="note_color_effect_change_none">Efectul culorii este comutat la Niciunul.</string>
+    <string name="note_white_balance_change">Balansul de alb este setat la automat.</string>
+    <string name="note_flash_change_off">Bliţul este setat oprit.</string>
+    <string name="note_scene_mode_change">Mod Peisaj este setat la automat.</string>
+    <string name="sp_note_scene_mode_change_NORMAL">Modul Scenă este setat la %s.</string>
+    <string name="note_scene_mode_change_normal">Modul Scenă este setat Normal.</string>
+    <string name="sp_note_video_ori_land_NORMAL">Suportă numai înregistrarea în mod peisaj pentru a putea fi trimis ca MMS.</string>
+    <string name="sp_note_brightness_set_to_zero_NORMAL">Luminozitatea este setată la zero</string>
+    <string name="error_not_enough_memory">Memorie insuficientă</string>
+    <string name="error_not_exist_app">Aplicaţia nu a fost găsită</string>
+    <string name="error_preview_fail">Iniţiere previzualizare eşuată</string>
+    <string name="error_write_file">Scriere fişiere eşuată</string>
+    <string name="error_rename">Nume invalid, redenumiţi.</string>
+    <string name="error_write_file_exist">Există deja</string>
+    <string name="error_unknown">Eroare necunoscută</string>
+    <string name="error_low_battery">Baterie descărcată. Aplicaţia se va închide.</string>
+    <string name="error_get_video_frame_fail">Extragere cadru eşuată.</string>
+    <string name="error_video_recording">Înregistrarea video nu este disponibilă în timpul stării apel.</string>
+    <string name="error_video_recording_during_call">În timpul unui apel nu se poate întregistra niciun videoclip.</string>
+    <string name="sp_error_call_camera_NORMAL">Camera nu poate fi pornită în timpul apelului</string>
+    <string name="error_camera_during_video_call">Nu se poate porni camera în timpul unui apel video.</string>
+    <string name="error_cannot_start_recording_with_audio">Dacă partea audio este utilizată de o altă aplicaţie, nu se poate începe înregistrarea.</string>
+    <string name="error_sdm_server_setting">Camera nu poate fi utilizată. Funcţia este blocată de server.</string>
+    <string name="help_title">Ghid cameră</string>
+    <string name="sp_detail_view_NORMAL">Vizualizare detaliată</string>
+    <string name="help_swap_camera_menu_desc">Comutare între aparatul foto principal şi cel secundar.</string>
+    <string name="help_zoom_desc">Măriţi sau scurtaţi dimensiunea subiectelor.</string>
+    <string name="help_brightness_desc">Reglare nivel expunere</string>
+    <string name="sp_help_brightness_desc_video_NORMAL">Reglare nivel expunere</string>
+    <string name="help_flash_desc">setează bliţul.</string>
+    <string name="help_flash_auto_desc">Setează automat bliţul.</string>
+    <string name="sp_help_flash_off_desc_NORMAL">Bliţul este dezactivat pentru fiecare fotografie.</string>
+    <string name="sp_help_flash_on_desc_NORMAL">Bliţul este activat pentru fiecare fotografie.</string>
+    <string name="help_camera_settings_desc">Reglează setările camerei.</string>
+    <string name="help_image_size_menu_desc">Setare dimensiune fişier imagine.</string>
+    <string name="help_image_size_menu_5m_desc">Optimă pentru tipărirea până la dimensiunea A4.</string>
+    <string name="help_image_size_menu_3m_desc">Optimă pentru tipărirea la o dimensiune apropiată de formatul A5.</string>
+    <string name="help_image_size_menu_2m_desc">Optimă pentru tipărirea la o dimensiune apropiată de cea a unei cărţi poştale.</string>
+    <string name="help_image_size_menu_1m_desc">Optimă pentru tipărirea la o dimensiune mai mică decât cea a cărţilor poştale.</string>
+    <string name="help_image_size_menu_vga_desc">Optimă pentru trimiterea ca ataşament la e-mail (ocupă cel mai mic spaţiu în memorie).</string>
+    <string name="help_image_size_menu_qvga_desc">Optimă pentru trimiterea ca ataşament la e-mail (ocupă cel mai mic spaţiu în memorie).</string>
+    <string name="help_scene_mode_menu_desc">Setare mod adecvat pentru mediul actual.</string>
+    <string name="help_scene_mode_menu_auto_desc">Prezintă automat cel mai adecvat mod pentru scenă prin recunoaşterea situaţiei de fotografiere.</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_NORMAL">Captură imagine standard.</string>
+    <string name="help_scene_mode_menu_portrait_desc">Capturează o persoană.</string>
+    <string name="help_scene_mode_menu_landscape_desc">Captură scenă din natură.</string>
+    <string name="help_scene_mode_menu_sports_desc">Captură subiect în mișcare rapidă fără distorsionarea imaginii în spaţii închise.</string>
+    <string name="help_scene_mode_menu_night_desc">Captură scenă de noapte.</string>
+    <string name="help_scene_mode_menu_sunset_desc">Captură scenă de apus.</string>
+    <string name="help_iso_menu_desc">Controlarea sensibilităţii camerei foto la lumină.</string>
+    <string name="help_white_balance_menu_desc">Redarea culorii într-o gamă largă de condiţii de iluminare.</string>
+    <string name="help_white_balance_menu_auto_desc">Reglare automată a culorii.</string>
+    <string name="help_white_balance_menu_incandescent_desc">Pentru fotografiile realizate în lumină delicată.</string>
+    <string name="help_white_balance_menu_sunny_desc">Realizarea fotografiilor în lumina directă a soarelui.</string>
+    <string name="help_white_balance_menu_flourescent_desc">Pentru fotografiile realizate în condiţii de iluminare fluorescentă.</string>
+    <string name="help_white_balance_menu_cloudy_desc">Pentru fotografiile realizate în zile înnorate şi întunecate.</string>
+    <string name="help_color_effect_menu_desc">Aplică efecte artistice imaginilor.</string>
+    <string name="help_color_effect_menu_off_desc">Nu se va aplica niciun efect de culoare.</string>
+    <string name="help_color_effect_menu_sepia_desc">Aplicare efect de filtru sepia pentru a face o fotografie nostalgică.</string>
+    <string name="help_color_effect_menu_mono_desc">Aplicare efect filtru mono pentru a face o fotografie alb-negru.</string>
+    <string name="help_color_effect_menu_negative_desc">Aplicare efect de filtru negativ pentru a inversa culoarea fotorafiei.</string>
+    <string name="help_color_effect_menu_vivid_desc">Aplică efect de culoare vie imaginilor.</string>
+    <string name="help_color_effect_menu_negative_sepia_desc">Aplică efect de culoare sepia negativ imaginilor.</string>
+    <string name="help_color_effect_menu_blue_desc">Aplică efect de culoare albastră imaginilor.</string>
+    <string name="help_color_effect_menu_emboss_desc">Aplică un efect în relief imaginilor.</string>
+    <string name="help_color_effect_menu_solarize_desc">Aplică efect de solarizare imaginilor.</string>
+    <string name="help_color_effect_menu_posterize_desc">Aplică efect de culoare posterizare imaginilor.</string>
+    <string name="help_color_effect_menu_aqua_desc">Aplică efect de culoare turcoaz imaginilor.</string>
+    <string name="help_color_effect_menu_pastel_desc">Aplică efect de culoare pastel imaginilor.</string>
+    <string name="help_timer_menu_desc">Setarea intervalului de timp între momentul când se apasă butonul de declanşare şi cel când se face o fotografie.</string>
+    <string name="help_shot_mode_menu_desc">Setare diverse moduri de fotografiere.</string>
+    <string name="help_shot_mode_menu_normal_desc">Captură imagine standard.</string>
+    <string name="help_shot_mode_menu_continuous_shot_desc">Realizarea a 6 fotografii consecutive odată.</string>
+    <string name="help_shot_mode_menu_smile_shot_desc">Porneşte automat declanşatorul când camera detectează un zâmbet.</string>
+    <string name="help_shot_mode_menu_beauty_shot_desc">Elimină automat petele şi imperfecţiunile feţelor, făcându-le mai clare şi mai luminoase.</string>
+    <string name="help_shot_mode_menu_art_shot_desc">Creează o lucrare artistică cu diverse efecte, precum alb-negru, expunere la cald/rece şi altele.</string>
+    <string name="help_shot_mode_menu_panorama_shot_desc">Realizarea gamei complete de imagini continue şi asamblarea într-o imagine.</string>
+    <string name="help_shot_mode_menu_face_effect_desc">Oferă diferite efecte prin utilizarea detectării feţei.</string>
+    <string name="help_shot_mode_menu_cartoon_shot_desc">Permite telefonului să realizeze imagini tip desen animat sau imagini viu colorate de forma unui desen.</string>
+    <string name="help_shot_mode_menu_funny_mask_desc">Activează automat diferite măşti animate pe faţă atunci când camera detectează o faţă.</string>
+    <string name="help_face_effect_blur_desc">Detectează automat o faţă şi adaugă un efect de estompare pe faţă.</string>
+    <string name="help_face_effect_snow_desc">Creează un efect de cădere de zăpadă pe cap.</string>
+    <string name="help_face_effect_shallow_focus_desc">Detectează faţa automat şi setează fundalul fără focalizare.</string>
+    <string name="help_face_effect_big_face_desc">Măreşte faţa subiectului.</string>
+    <string name="help_face_effect_mosaic_desc">Activează automat efectul mozaic pe faţă atunci când camera detectează o faţă.</string>
+    <string name="help_face_effect_fish_eye_desc">Activează automat efectul ochi de peşte pe faţă atunci când camera detectează o faţă.</string>
+    <string name="help_face_effect_concave_desc">Activează automat efectul concav pe faţă atunci când camera detectează o faţă.</string>
+    <string name="help_focus_desc">Se focalizează pe punctul specificat</string>
+    <string name="help_focus_auto_desc">Setarea automată a punctului de focalizare.</string>
+    <string name="help_focus_macro_desc">Capturează subiectul la o distanţă foarte mică.</string>
+    <string name="help_focus_face_desc">Detectarea automată şi focalizarea feţei.</string>
+    <string name="sp_help_focus_continuous_desc_NORMAL">Detectează automat obiectul în mişcare şi setează focalizarea pe acesta.</string>
+    <string name="help_focus_manual_desc">Reglează focalizarea în mod manual, cu ajutorul controlerului de pe ecran.</string>
+    <string name="help_image_quality_menu_desc">Setează calitatea imaginii (cu cât calitatea este mai mare, cu atât se va ocupa mai multă memorie).</string>
+    <string name="help_image_quality_menu_super_fine_desc">Salvare imagini pentru calitate extrem de bună.</string>
+    <string name="help_image_quality_menu_fine_desc">Salvaţi imagini pentru calitate bună.</string>
+    <string name="help_image_quality_menu_normal_desc">Salvare imagini pentru calitate normală.</string>
+    <string name="help_show_captured_image_menu_desc">Afişarea ultimei imagini realizate după realizarea imaginii.</string>
+    <string name="help_shutter_sound_menu_desc">Setează sunetul redat la realizarea unei fotografii.</string>
+    <string name="help_geo_tagging_menu_desc">Adăugarea informaţiilor identificate geografic pentru locul unde se face fotografia.</string>
+    <string name="sp_help_anti_banding_menu_desc_NORMAL">Împiedică distorsiunea culorii.</string>
+    <string name="sp_help_storage_NORMAL">Selectare dispozitiv de stocare pentru a salva imaginile.</string>
+    <string name="sp_help_storage_innner_NORMAL">Salvare imagini în memoria internă.</string>
+    <string name="sp_help_storage_sd_NORMAL">Salvează imaginile pe cardul SD.</string>
+    <string name="help_video_title">Asistenţă cameră video</string>
+    <string name="sp_help_video_title_NORMAL">Ghid de ajutor video</string>
+    <string name="help_video_settings_desc">Ajustaţi setările video.</string>
+    <string name="help_video_size_desc">Setarea dimensiunii fişierului video.</string>
+    <string name="help_video_size_qvga_desc">Salvează videoclipuri pentru dimensiune QVGA.</string>
+    <string name="help_video_size_176x144_desc">Optimă pentru trimiterea ca ataşament la e-mail (ocupă cel mai mic spaţiu în memorie).</string>
+    <string name="help_video_scene_mode_menu_desc">Găseşte setările de culoare şi lumină adecvate pentru mediul curent.</string>
+    <string name="help_video_scene_mode_menu_auto_desc">Prezintă automat cel mai adecvat mod pentru scenă prin recunoaşterea situaţiei de fotografiere.</string>
+    <string name="help_video_scene_mode_menu_portrait_desc">Recomandat pentru înregistrarea cadrelor cu oameni.</string>
+    <string name="help_video_scene_mode_menu_landscape_desc">Recomandat pentru înregistrarea cadrelor naturale cum ar fi copaci, flori şi cer.</string>
+    <string name="help_video_scene_mode_menu_sports_desc">Recomandat pentru înregistrarea de cadre cu subiecţi care se deplasează rapid, de ex. sporturi.</string>
+    <string name="help_video_scene_mode_menu_night_desc">Capturează scene nocturne. Se utilizează timpi mari de expunere pentru a detecta peisajele nocturne.</string>
+    <string name="help_video_scene_mode_menu_sunset_desc">Înregistrarea unui apus de soare frumos.</string>
+    <string name="help_video_white_balance_menu_desc">Îmbunătăţeşte calităţile culorii în diferite condiţii de iluminare.</string>
+    <string name="help_video_white_balance_menu_auto_desc">Reglează automat culorile.</string>
+    <string name="help_video_white_balance_menu_incandescent_desc">Pentru videoclipuri înregistrate în lumină delicată.</string>
+    <string name="help_video_white_balance_menu_sunny_desc">Înregistrarea materialelor video în lumina directă a soarelui.</string>
+    <string name="help_video_white_balance_menu_flourescent_desc">Pentru videoclipuri înregistrate în lumină fluorescentă.</string>
+    <string name="help_video_white_balance_menu_cloudy_desc">Pentru videoclipuri înregistrate în zone umbroase sau în zile înnorate.</string>
+    <string name="help_video_color_effect_menu_desc">Setare efecte speciale de filtru colorat.</string>
+    <string name="help_video_color_effect_menu_off_desc">Nu se va aplica niciun efect de culoare.</string>
+    <string name="sp_help_video_color_effect_menu_off_desc_NORMAL">Aplicare efect de filtru fără culoare.</string>
+    <string name="help_video_color_effect_menu_sepia_desc">Aplicare efect de filtru sepia pentru a face un material video nostalgic.</string>
+    <string name="help_video_color_effect_menu_mono_desc">Aplicare efect filtru mono pentru a face un material video alb-negru.</string>
+    <string name="help_video_color_effect_menu_negative_desc">Aplicare efect de filtru negativ pentru a inversa culoarea materialului video.</string>
+    <string name="help_video_color_effect_menu_vivid_desc">Aplică efect de culoare vie videoclipurilor.</string>
+    <string name="help_video_color_effect_menu_negative_sepia_desc">Aplică efect de culoare sepia negativ videoclipurilor.</string>
+    <string name="help_video_color_effect_menu_blue_desc">Aplică efect de culoare albastră videoclipurilor.</string>
+    <string name="help_video_color_effect_menu_emboss_desc">Aplică un efect în relief videoclipurilor.</string>
+    <string name="help_video_color_effect_menu_solarize_desc">Aplică efect de solarizare videoclipurilor.</string>
+    <string name="help_video_color_effect_menu_posterize_desc">Aplică efect de culoare posterizare videoclipurilor.</string>
+    <string name="help_video_color_effect_menu_aqua_desc">Aplică efect de culoare turcoaz videoclipurilor.</string>
+    <string name="help_video_color_effect_menu_pastel_desc">Aplică efect de culoare pastel videoclipurilor.</string>
+    <string name="help_video_duration_desc">Setează durata.</string>
+    <string name="help_video_duration_normal_desc">Fără limită.</string>
+    <string name="help_video_duration_mms_desc">Pentru trimiterea unui ataşament MMS.</string>
+    <string name="help_video_quality_desc">Setează calitatea videoclipului (o calitate mai bună înseamnă un consum mai ridicat de memorie).</string>
+    <string name="help_video_quality_super_desc">Salvare videoclipuri pentru calitate super-fină.</string>
+    <string name="help_video_quality_fine_desc">Salvare videoclipuri pentru calitate fină.</string>
+    <string name="help_video_quality_normal_desc">Salvare videoclipuri pentru calitate normală.</string>
+    <string name="help_video_voice_desc">Setarea înregistrării sunetului în timpul filmării video.</string>
+    <string name="help_video_voice_unmute_desc">Salvare videoclip cu sunet.</string>
+    <string name="help_video_voice_mute_desc">Salvare videoclip fără sunet.</string>
+    <string name="help_video_show_desc">Revizualizare videoclip după înregistrare.</string>
+    <string name="sp_help_mirror_img_desc_NORMAL">Salvează ca şi imagine oglindă.</string>
+    <string name="sp_help_videostorage_NORMAL">Selectaţi mediul de stocare pe care se vor salva videoclipurile.</string>
+    <string name="sp_help_videostorage_in_NORMAL">Salvează videoclipurile în memoria internă.</string>
+    <string name="sp_help_videostorage_sd_NORMAL">Salvează videoclipurile pe cardul SD.</string>
+    <string name="camera_application_stopped">Cameră oprită.</string>
+    <string name="camera_driver_needs_reset">Camera s-a oprit în mod neaşteptat, trebuie să o reporniţi.</string>
+    <string name="geo_tag_dialog_title">Serviciul GPS este oprit.</string>
+    <string name="geo_tag_dialog_msg">"Porniţi GPS-ul de la setari de a utiliza
+localizarea pozitiei."</string>
+    <string name="geo_tag_dialog_confirm">Setari GPS</string>
+    <string name="sp_eula_popup_dialog_title_NORMAL">Alertă referitoare la confidenţialitate</string>
+    <string name="sp_eula_popup_do_not_show_this_again_NORMAL">Nu mai afişaţi.</string>
+    <string name="sp_eula_popup_dialog_msg_NORMAL">Prin selectarea opţiunii \"Etichetă geografică\", acest aparat va ataşa, încorpora şi stoca datele locaţiei geografice ale fiecărei poze. Fiţi precauţi când trimiteţi, partajaţi, distribuiţi, transmiteţi sau copiaţi aceste poze, deoarece acestea conţin locaţia în care au fost făcute.</string>
+    <string name="sp_eula_popup_dialog_msg_taglocation_NORMAL">Prin selectarea opţiunii \"Etichetă poziţie\", acest aparat va ataşa, încorpora şi stoca datele locaţiei geografice ale fiecărei poze. Fiţi precauţi când trimiteţi, partajaţi, distribuiţi, transmiteţi sau copiaţi aceste poze, deoarece acestea conţin locaţia în care au fost făcute.</string>
+    <string name="geo_tag_dialog_title_cdma">Serviciul LBS este oprit.</string>
+    <string name="geo_tag_dialog_msg_cdma">"Porniţi LBS-ul de la setari de a utiliza
+localizarea pozitiei."</string>
+    <string name="geo_tag_dialog_confirm_cdma">Setări LBS</string>
+    <string name="sp_video_length_dialog_title_NORMAL">Lungime videoclip</string>
+    <string name="sp_video_length_dialog_msg_NORMAL">Alege modul de înregistrare</string>
+    <string name="sp_video_length_dialog_long_NORMAL">Videoclip lung</string>
+    <string name="sp_video_length_dialog_title_v2_NORMAL">Mod Înregistrare</string>
+    <string name="camera_error_title">Eroare camera</string>
+    <string name="cannot_connect_camera">Nu se poate realiza conectarea la camera foto.</string>
+    <string name="sp_notiintsd_NORMAL">Fişierul dvs. va fi salvat în memoria internă, mergeţi la Setări > Stocare.</string>
+    <string name="sp_notiextsd_NORMAL">Fişierul dvs. va fi salvat în memoria externă, mergeţi la Setări > Stocare.</string>
+    <string name="pref_camera_settings_category">Setări cameră</string>
+    <string name="pref_camcorder_settings_category">Setările camerei video</string>
+    <string name="sp_Camcorder_NORMAL">Cameră video</string>
+    <string name="camcorder_activity_name">Cameră video</string>
+    <string name="sp_close_app_NORMAL">"Apăsaţi 'butonul înapoi' încă o dată, camera se va închide."</string>
+    <string name="sp_popup_storage_limitsize_NORMAL">"S-a atins mărimea maximă admisă pentru înregistrare.
+Fişierul a fost salvat."</string>
+    <string name="sp_popup_storage_limit_with_exact_size_NORMAL">"S-a atins mărimea maximă admisă (%s) pentru înregistrare.
+Fişierul a fost salvat."</string>
+    <string name="sp_popup_storage_maxsize_NORMAL">"S-a ajuns la lungimea maximă a înregistrării .
+Înregistrarea se încheie în curând."</string>
+    <string name="sp_popup_storage_maximum_size_NORMAL">"S-a ajuns la lungimea maximă a înregistrării (%s).
+Înregistrarea se încheie în curând."</string>
+    <string name="sp_sd_card_read_only_NORMAL">Card SD montat doar pentru citire</string>
+    <string name="sp_MMS_REC_limit_NORMAL">Durata maximă de înregistrare pentru MMS este de %d secunde</string>
+    <string name="sp_popup_character_limit_NORMAL">Caracter invalid.</string>
+    <string name="sp_filename_already_exists_NORMAL">Acest nume de fişier există deja.</string>
+    <string name="sp_message_recording_limit_NORMAL">Limita de mărime a fișierului atașat este mai mică decât mărimea min. a înregistrării.</string>
+    <string name="sp_help_toast_smart_shutter_NORMAL">Declanşatorul inteligent contribuie la realizarea unor poze stabilizate în cazul tremuratului neintenţionat.</string>
+    <string name="sp_help_scene_mode_menu_smart_shutter_desc_NORMAL">Captură subiect în mișcare rapidă fără distorsionarea imaginii în spaţii închise.</string>
+    <string name="sp_help_scene_mode_menu_action_desc_NORMAL">Poze clare despre obiectele aflate în mişcare rapidă</string>
+    <string name="sp_help_shot_mode_beauty_desc_NORMAL">Realizare poză cu efecte de strălucire și estompare</string>
+    <string name="sp_help_shot_mode_hdr_desc_NORMAL">Amestecarea mai multor instantanee luate ale aceleiași scene cu contrast ridicat la expuneri diferite pentru a crea un aspect mai natural</string>
+    <string name="sp_help_shot_mode_slow_motion_desc_NORMAL">Înregistrare obiecte care se mișcă rapid pentru a fi redate încet</string>
+    <string name="sp_help_shot_mode_time_machine_desc_NORMAL">Realizarea a șase poze secvențiale dintr-odată înainte de a fi atinsă tasta de declanşare a camerei</string>
+    <string name="sp_help_shot_mode_time_machine_5_picture_NORMAL">Capturarea de cinci imagini consecvente înainte de atingerea tastei de cameră</string>
+    <string name="sp_shot_mode_clearshot_NORMAL">Drept la ţintă</string>
+    <string name="sp_shot_mode_shot_and_clear">Capturare &amp; Curăţare</string>
+    <string name="sp_scene_mode_smart_shutter_NORMAL">Fotografie inteligentă</string>
+    <string name="sp_scene_mode_action_NORMAL">Acţiune</string>
+    <string name="sp_shot_mode_beauty_NORMAL">Fotografie portret</string>
+    <string name="sp_shot_mode_time_machine_NORMAL">Poză maşina timpului</string>
+    <string name="sp_shot_mode_live_desc_NORMAL">Captură imagine ecran în timpul înregistrării video.</string>
+    <string name="sp_shot_mode_live_effect_desc_NORMAL">Schimbare fundaluri și furnizare de efecte morfologice pentru a transforma trăsăturile faciale în timpul înregistrării video.</string>
+    <string name="dual_camera">Cameră duală</string>
+    <string name="sp_focus_infinity_NORMAL">Infinit</string>
+    <string name="sp_high_temp_action_NORMAL">Scoateţi acumulatorul sau mutaţi-vă într-un loc răcoros.</string>
+    <string name="sp_high_temperature_detection_NORMAL">Senzorul de căldură a detectat temperaturi ridicate</string>
+    <string name="sp_attach_file_size_exceeded_NORMAL">S-a depăşit mărimea maximă admisă pentru un fişier ataşat.</string>
+    <string name="sp_high_temp_action_on_enter_NORMAL">Senzorul de căldură a detectat temperaturi ridicate. Camera nu poate fi pornită.</string>
+    <string name="sp_high_temp_action_on_recording_NORMAL">Senzorul de căldură a detectat temperaturi ridicate. Înregistrarea video se va opri.</string>
+    <string name="high_temp_action_on_recording">Nu se pot face înregistrări video pentru a păstra temperatura optimă a telefonului. Încercaţi din nou mai târziu.</string>
+    <string name="sp_warning_high_temperature_on_recording_NORMAL">Aveţi grijă. Efectuarea unei capturi video în timpul reîncărcării poate duce la încălzirea aparatului dvs.</string>
+    <string name="warning_high_temp_action_flash_off">Bliţul este oprit pentru a menţine temperatura optimă a telefonului.</string>
+    <string name="sp_silly_face_title_NORMAL">Fețe neghioabe</string>
+    <string name="sp_big_eyes_NORMAL">Ochi mari</string>
+    <string name="sp_big_mouth_NORMAL">Gură mare</string>
+    <string name="sp_squeeze_NORMAL">Strângere</string>
+    <string name="sp_big_nose_NORMAL">Nas mare</string>
+    <string name="sp_small_eyes_NORMAL">Ochii mici</string>
+    <string name="sp_small_mouth_NORMAL">Gură mică</string>
+    <string name="sp_background_title_NORMAL">Fundaluri</string>
+    <string name="sp_in_space_NORMAL">Spațiu</string>
+    <string name="sp_sunset_NORMAL">Apus</string>
+    <string name="sp_choose_gallery_NORMAL">Video</string>
+    <string name="sp_bg_replacement_message_NORMAL">"Amplasați-vă dispozitivul pe o suprafață stabilă și asigurați-vă că nu există mișcare în spatele dvs.
+
+Apoi ieșiți din vizualizarea camerei."</string>
+    <string name="sp_bg_replacement_message_v2_NORMAL">"Ţineţi aparatul astfel încât să nu tremure şi să nu se mişte.
+Când sunteţi gata să înregistraţi un videoclip, lăsaţi ca subiectul filmării să intre în câmpul vizual al camerei."</string>
+    <string name="sp_pano_too_fast_prompt_NORMAL">Prea repede</string>
+    <string name="sp_live_shot_NORMAL">Captură live</string>
+    <string name="sp_live_effect_NORMAL">Efect live</string>
+    <string name="dual_recording">Înregistrare dublă</string>
+    <string name="smart_zoom">Zoom inteligent</string>
+    <string name="tracking_zoom">Zoom de monitorizare</string>
+    <string name="anti_shaking">Eliminare tremurat mâini</string>
+    <string name="sp_audio_zoom_NORMAL">Zoom audio</string>
+    <string name="sp_tracking_focus_NORMAL">Focalizare de urmărire</string>
+    <string name="sp_video_recording_normalmode_NORMAL">Înregistrare video standard.</string>
+    <string name="sp_note_shot_mode_setting_change_NORMAL">Setări optimizate pentru modul %s.</string>
+    <string name="sp_help_swap_camera_menu_desc_v2_NORMAL">Comută între camera principală şi cea frontală</string>
+    <string name="sp_help_light_frame_desc_v2_NORMAL">Porniţi bliţul pentru a face poze mai luminoase cu o previzualizare mai mică utilizând camera frontală.</string>
+    <string name="sp_help_zoom_desc_v2_NORMAL">Mărire/Micşorare</string>
+    <string name="sp_help_brightness_desc_v2_NORMAL">Reglează nivelul expoziţiei</string>
+    <string name="sp_help_flash_desc_v2_NORMAL">Setaţi flash</string>
+    <string name="sp_help_flash_auto_desc_v2_NORMAL">Activează bliţul în caz de nevoie</string>
+    <string name="sp_help_flash_off_desc_v2_NORMAL">Bliţ oprit</string>
+    <string name="sp_help_flash_on_desc_v2_NORMAL">Bliţ pornit</string>
+    <string name="sp_help_camera_settings_desc_v2_NORMAL">Reglează setările camerei.</string>
+    <string name="sp_help_focus_desc_v2_NORMAL">Setează focalizarea</string>
+    <string name="sp_help_focus_auto_desc_v2_NORMAL">Focalizare automată standard</string>
+    <string name="sp_help_focus_face_desc_v2_NORMAL">Detectează feţele şi se focalizează automat pe ele</string>
+    <string name="sp_help_image_size_menu_desc_v2_NORMAL">Setează mărimea imaginii</string>
+    <string name="sp_help_scene_mode_menu_desc_v2_NORMAL">Selectaţi modul preferat</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_v2_NORMAL">Poze standard</string>
+    <string name="sp_help_scene_mode_menu_portrait_desc_v2_NORMAL">Ppze despre oameni</string>
+    <string name="sp_help_scene_mode_menu_landscape_desc_v2_NORMAL">Poze despre cadrul natural</string>
+    <string name="sp_help_scene_mode_menu_sports_desc_v2_NORMAL">Poze clare despre obiectele aflate în mişcare rapidă</string>
+    <string name="sp_help_scnen_mode_menu_sunset_desc_v2_NORMAL">Poze cu apus de soare şi poze cu lumină de fundal</string>
+    <string name="sp_help_scene_mode_menu_night_desc_v2_NORMAL">Poze în locaţii mai întunecoase</string>
+    <string name="sp_help_iso_menu_desc_v2_NORMAL">Sporeşte sensibilitatea când se fotografiază în condiţii de luminozitate redusă, pentru a reduce estomparea cauzată de tremuratul camerei sau de mişcarea subiectului</string>
+    <string name="sp_help_withe_balance_desc_v2_NORMAL">Reglează temperatura culorii imaginilor care este presetată în funcţie de sursa de lumină</string>
+    <string name="sp_help_white_balance_auto_desc_v2_NORMAL">Echilibrul de alb reglat automat în funcţie de condiţiile de lumină</string>
+    <string name="sp_help_withe_balance_incandescent_desc_v2_NORMAL">Pentru lumină incandescentă</string>
+    <string name="sp_help_white_balance_sunny_desc_v2_NORMAL">Pentru zi însorită</string>
+    <string name="sp_help_white_balance_flourescent_desc_v2_NORMAL">Pentru lumină fluorescentă</string>
+    <string name="sp_help_white_balance_cloudy_desc_v2_NORMAL">Pentru umbră şi în zile noroase</string>
+    <string name="sp_help_withe_balance_incandescent_desc_camera_v2_NORMAL">Utilizare în lumină incandescentă.</string>
+    <string name="sp_help_white_balance_sunny_desc_camera_v2_NORMAL">Utilizat în soare strălucitor.</string>
+    <string name="sp_help_white_balance_flourescent_desc_camera_v2_NORMAL">Utilizare în lumină fluorescentă.</string>
+    <string name="sp_help_white_balance_cloudy_desc_camera_v2_NORMAL">Utilizare în umbră şi în zile noroase.</string>
+    <string name="sp_help_color_effect_desc_v2_NORMAL">Setează efectul de filtru color la fotografiere</string>
+    <string name="sp_help_color_effect_off_desc_v2_NORMAL">Nu există efect de culoare</string>
+    <string name="sp_help_color_effect_mono_desc_v2_NORMAL">Poze în alb şi negru</string>
+    <string name="sp_help_color_effect_sepia_desc_v2_NORMAL">Poze în tonalităţi sepia</string>
+    <string name="sp_help_color_effect_negative_desc_v2_NORMAL">Poze în culori inversate</string>
+    <string name="sp_help_timer_menu_desc_v2_NORMAL">Setează o temporizare de 3, 5 sau 10 secunde înainte de declanşarea obturatorului</string>
+    <string name="sp_help_shot_mode_desc_v2_NORMAL">Setează diferite moduri de fotografiere</string>
+    <string name="sp_help_shot_mode_normal_desc_v2_NORMAL">Mod Normal</string>
+    <string name="sp_help_shot_mode_continuous_shot_desc_v2_NORMAL">Face rapid 6 poze consecutive</string>
+    <string name="sp_help_shot_mode_panorama_shot_desc_v2_NORMAL">Pozele consecutive culcate le uneşte într-o singură poză panoramică</string>
+    <string name="sp_help_shutter_sound_menu_desc_v2_NORMAL">Setează efectul de sunet pentru fotografiere</string>
+    <string name="sp_help_show_captured_image_menu_desc_v2_NORMAL">Afişează poza imediat după crearea ei</string>
+    <string name="sp_help_geo_tagging_menu_desc_v2_NORMAL">Adaugă informaţii despre locaţia unde a fost făcută fotografia respectivă</string>
+    <string name="sp_help_storage_v2_NORMAL">Selectare dispozitiv de stocare pentru a salva imaginile.</string>
+    <string name="sp_help_storage_inner_v2_NORMAL">Salvează imaginile în memoria internă.</string>
+    <string name="sp_help_storage_sd_v2_NORMAL">Salvează imaginile pe cardul SD.</string>
+    <string name="sp_help_video_size_desc_v2_NORMAL">Setează mărimea fişierului video</string>
+    <string name="sp_help_video_color_effect_desc_v2_NORMAL">Setează efectul de filtru color la înregistrarea videoclipurilor</string>
+    <string name="sp_help_video_color_effect_mono_desc_v2_NORMAL">Videoclipuri în alb şi negru</string>
+    <string name="sp_help_video_color_effect_sepia_desc_v2_NORMAL">Videoclipuri în nuanţe sepia</string>
+    <string name="sp_help_video_color_effect_negative_desc_v2_NORMAL">Videoclipuri în culori inversate</string>
+    <string name="sp_help_video_shot_mode_live_shot_desc_v2_NORMAL">Face capturi de ecran în timp ce se înregistrează un videoclip</string>
+    <string name="sp_help_video_shot_mode_live_effect_desc_v2_NORMAL">Schimbă fundalurile şi asigură efecte alomorfe pentru a transforma caracteristicile faciale la înregistrarea unui videoclip</string>
+    <string name="sp_help_video_voice_desc_v2_NORMAL">Setează sunetul pentru înregistrarea videoclipului</string>
+    <string name="sp_help_video_voice_unmute_desc_v2_NORMAL">Videoclipuri cu sonor</string>
+    <string name="sp_help_video_voice_mute_desc_v2_NORMAL">Videoclipuri fără sonor</string>
+    <string name="sp_help_video_show_desc_v2_NORMAL">Afişează videoclipul imediat după ce a fost înregistrat</string>
+    <string name="sp_help_video_geo_tagging_menu_desc_v2_NORMAL">Adaugă informaţii despre locaţia unde a fost înregistrat videoclipul respectiv</string>
+    <string name="sp_help_videostorage_v2_NORMAL">Selectaţi mediul de stocare pe care se vor salva videoclipurile.</string>
+    <string name="sp_help_videostorage_in_v2_NORMAL">Salvează videoclipurile în memoria internă.</string>
+    <string name="sp_help_videostorage_sd_v2_NORMAL">Salvează videoclipurile pe cardul SD.</string>
+    <string name="sp_help_shot_mode_beauty_desc_v2_NORMAL">Poze cu efecte de strălucire şi estompare</string>
+    <string name="sp_help_flipped_img_desc_NORMAL">Salvează în poziţie verticală imaginea răsturnată</string>
+    <string name="sp_help_normal_img_desc_NORMAL_NORMAL">Salvează imagine normală</string>
+    <string name="sp_help_camera_reset_desc_v3_NORMAL">Setările camerei revin la valorile inițiale</string>
+    <string name="sp_help_flipped_img_desc_v3_NORMAL">Salvează poza în mod răsturnat</string>
+    <string name="sp_help_video_reset_desc_v3_NORMAL">Setările video revin la valorile inițiale</string>
+    <string name="sp_deleted_images_NORMAL">Aceste imagini vor fi şterse. Continuare?</string>
+    <string name="sp_deleted_photos_NORMAL">Aceste imagini vor fi şterse. Continuare?</string>
+    <string name="sp_help_guide_beauty_shot_desc_NORMAL">Opţiunea Beauty shot reglează atât luminozitatea cât şi efectul de estompare prin manipularea barei de jos.</string>
+    <string name="sp_help_guide_beauty_shot_desc_list">Opţiunea Beauty shot reglează atât luminozitatea cât şi efectul de estompare prin manipularea barei de jos.</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL">"Prin apăsarea declanşatorului se fac 6 poze într-un interval minim de timp.
+Puteţi alege direct pozele pe care doriţi să le salvaţi şi partajaţi (cu opţiunea \"Reexaminare automată activată\")."</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL_v2">Prin apăsarea declanşatorului se fac 6 poze într-un interval minim de timp.</string>
+    <string name="sp_help_guide_hdr_desc_NORMAL">HDR crează imagini mai reale prin utilizarea tehnologiilor de expunere multiplă.</string>
+    <string name="sp_help_guide_hdr_desc_list">HDR crează imagini mai reale prin utilizarea tehnologiilor de expunere multiplă.</string>
+    <string name="sp_help_guide_live_effect_desc_NORMAL">Efectul Live pune la dispoziţie diferite efecte vizuale la efectuarea unei capturi video. Alegeţi un efect şi începeţi înregistrarea.</string>
+    <string name="sp_help_guide_panorama_shot_desc_NORMAL">"Pozele create prin fotografiere continuă se unesc într-o singură imagine panoramică. 
+Apăsaţi declanşatorul şi rotiţi camera de la un capăt la celălalt. Pentru a încheia fotografierea, apăsaţi din nou declanşatorul."</string>
+    <string name="sp_help_guide_free_panorama_shot_desc_NORMAL">"Fotografiile create cu modul fotografiere continuă sunt asamblate într-o imagine panoramică sferică de 360.
+Apăsaţi declanşatorul pentru a începe şi a roti camera în orice direcţie."</string>
+    <string name="sp_help_guide_time_machine_desc_NORMAL">"Camera capturează câteva poze deja cu o secundă înainte de apăsarea declanşatorului. 
+Puteţi să alegeţi direct imaginile pe care doriţi să le salvaţi şi să le partajaţi (cu \"Reexaminare automată activată\")."</string>
+    <string name="sp_help_guide_time_machine_desc_new_NORMAL">Verificaţi şi salvaţi scenele pierdute înainte să le fotografiaţi.</string>
+    <string name="sp_help_guide_time_machine_desc_new_vzw_NORMAL">Imortalizaţi momentele înainte să apăsaţi declanşatorul.</string>
+    <string name="sp_help_popup_guide_time_machine_desc_new_NORMAL">Funcţia Time catch shot imortalizează momentele dinaintea apăsării declanşatorului.</string>
+    <string name="sp_help_guide_time_machine_new_desc_NORMAL">Camera capturează câteva poze înainte de apăsarea declanşatorului. Vor fi salvate numai pozele selectate.</string>
+    <string name="sp_image_SHORT">Imagini</string>
+    <string name="sp_video_SHORT">Videoclipuri</string>
+    <string name="sp_will_be_deleted_NORMAL">%1$s vor fi şterse. Continuaţi?</string>
+    <string name="sp_photo_will_be_deleted_NORMAL">Fotografia va fi ştearsă. Continuaţi?</string>
+    <string name="sp_video_will_be_deleted_NORMAL">Videoclipul va fi şters. Continuaţi?</string>
+    <string name="sp_gps_settings_title_NORMAL">Servicu de localizare dezactivat</string>
+    <string name="sp_gps_setting_msg_NORMAL">Activaţi serviciile legate de locaţie, pentru a folosi detectarea geografică.</string>
+    <string name="sp_geotagging_NORMAL">Etichetă geografică</string>
+    <string name="sp_enable_app_msg_NORMAL">%s trebuie activată pentru a putea utiliza această funcţie. Activaţi această aplicaţie?</string>
+    <string name="sp_photoimage_SHORT">Imagine</string>
+    <string name="sp_note_dialog_title_NORMAL">Notificare</string>
+    <string name="sp_saved_NORMAL">Salvat</string>
+    <string name="sp_front_NORMAL">Frontal</string>
+    <string name="sp_rear_NORMAL">Spate</string>
+    <string name="sp_timemachine_delete_warning_NORMAL">Veţi pierde fotografiile care nu au fost salvate. Continuaţi?</string>
+    <string name="sp_timemachine_bubble_popup_NORMAL">Pentru a afişa momentele lipsă, apăsaţi acest buton.</string>
+    <string name="sp_timemachine_select_NORMAL">Verificaţi pozele pe care doriţi să le păstraţi.</string>
+    <string name="sp_timemachine_select_new_NORMAL">Selectaţi pozele pe care doriţi să le păstraţi.</string>
+    <string name="sp_timemachine_save_guide">Selectaţi pozele pe care doriţi să le păstraţi şi atingeţi butonul Salvare.</string>
+    <string name="sp_shot_mode_time_catch_NORMAL">Fotografie mașina timpului</string>
+    <string name="sp_help_guide_time_catch_desc_NORMAL">Mașina timpului surprinde momentul lipsă înainte de a apăsa declanşatorul.</string>
+    <string name="sp_help_guide_time_catch_new_desc_NORMAL">Mașina timpului surprinde momentul lipsă înainte de a apăsa declanşatorul. Vor fi salvate numai pozele selectate.</string>
+    <string name="sp_timemachine_bubble_popup_jp_NORMAL">Pentru a afişa pozele capturate cu 1 secundă înainte de momentul eliberării declanşatorului, apăsaţi acest buton.</string>
+    <string name="sp_force_close_on_high_temperature_NORMAL">Camera va fi închisă din cauza temperaturii ridicate a aparatului.</string>
+    <string name="sp_screen_cannot_be_captured_NORMAL">Ecranul curent nu poate fi capturat</string>
+    <string name="sp_voice_shutter_help_desc">Fotografiile sunt realizate prin utilizarea comenzii vocale</string>
+    <string name="sp_clear_shot_tab_guide">Atingeţi oricare dintre obiectele care au contur pentru a le îndepărta din poză.</string>
+    <string name="sp_clear_shot_tab_guide_v2">Atingeţi obiectul subliniat pentru a-l îndepărta, după care apăsaţi buton Salvare.</string>
+    <string name="sp_clear_shot_not_found_object">Nu există obiecte de şters.</string>
+    <string name="sp_clear_shot_warning_popup">Veţi pierde fotografia pentru că procesul nu a fost salvat. Continuaţi?</string>
+    <string name="sp_clear_shot_warning_handshake">Ţineţi nemişcat telefonul.</string>
+    <string name="sp_clear_shot_capture_failed">Eşuat</string>
+    <string name="intelligent_auto">Inteligent Automat</string>
+    <string name="sp_anti_shaking_help_desc">Previne tremuratul în timpul înregistrării unui videoclip în scopul obţinerii unei calităţi video remarcabile.</string>
+    <string name="sp_photo_has_not_yet_been_saved_warning_popup">Poza nu a fost salvată încă. Ieşiţi fără salvare?</string>
+    <string name="sp_wdr_recording_help_desc">Efectuare înregistrări cu diferiţi timpi de expunere şi videoclip cu lumină ambientală reglată optim, cu control îmbunătăţit de expunere multiplă.</string>
+    <string name="sp_wdr_recording_help_desc_list">Efectuare înregistrări cu diferiţi timpi de expunere şi videoclip cu lumină ambientală reglată optim, cu control îmbunătăţit de expunere multiplă.</string>
+    <string name="sp_burst_shot_help_desc">Capturează în rafală până la 20 de poze prin apăsarea declanşatorului.</string>
+    <string name="sp_burst_shot_help_desc_list">Capturează în rafală până la 20 de poze prin apăsarea declanşatorului.</string>
+    <string name="sp_clear_shot_help_desc">Faceţi o poză. Atingeţi oricare dintre obiectele care au contur pentru a le îndepărta din poză.</string>
+    <string name="sp_intelligent_auto_help_desc">Identifică automat caracteristicile scenei şi realizează poza.</string>
+    <string name="sp_intelligent_auto_help_desc_popup">Identifică automat caracteristicile scenei şi reglează automat diafragma, viteza obturatorului şi opţiunile de fotografiere.</string>
+    <string name="sp_tracking_focus_help_desc">Atingeţi subiectul în ecranul de previzualizare pentru urmărirea lui şi ajustaţi focalizarea.</string>
+    <string name="sp_dual_recording_help_desc">Pentru înregistrare, aliniaţi camera frontală cât şi cea principală într-o singur ecran.</string>
+    <string name="sp_dual_recording_help_desc_v2">"1. Trageţi pentru a muta ecranul mic.
+2. Atingeţi şi ţineţi ecranul mic pentru a-l redimensiona.
+3. Atingeţi ecranul mic pentru a alterna între ecranul mic şi cel mare."</string>
+    <string name="sp_audio_zoom_help_desc_in_recording">Zoom pentru a mări sunetul de la zoom-ul audio</string>
+    <string name="sp_audio_zoom_help_desc">Creşte sensibilitatea sunetului în zona de acţiune a zoom-ului şi reduce zgomotul în timpul înregistrării.</string>
+    <string name="sp_audio_zoom_help_desc_v2">Apropiaţi o anumită zonă pentru a creşte sensibilitatea sunetului şi a reduce zgomotul. Disponibil numai în vizualizarea peisaj. Menţineţi microfoanele laterale libere în timp ce folosiţi această caracteristică.</string>
+    <string name="sp_live_effect_help_desc">Aplică diferite efecte vizuale în timpul înregistrării unui videoclip.</string>
+    <string name="sp_vrpanorama_help_desc">Face poze succesive pentru a crea o imagine panoramică.</string>
+    <string name="sp_vrpanorama_help_desc_v2">"1. Apăsaţi declanşatorul pentru a porni modul Panoramă VR.
+2. Potriviţi zona focalizării la linia de ghidare albastră pentru a face o poză.
+3. Mişcaţi camera pentru a prinde o altă zonă de focalizare şi pentru a face poze. Pozele se unesc într-o singură imagine."</string>
+    <string name="sp_dual_camera_help_desc">Pentru înregistrare, aliniaţi camera frontală cât şi cea principală într-o singur ecran.</string>
+    <string name="sp_smart_zoom_help_desc">Măreşte zona focalizată pe un ecran mic la crearea unui videoclip.</string>
+    <string name="sp_smart_zoom_help_desc_v2">"1. Trageţi de focalizare pentru mărirea ei în videoclipul care urmează a fi creat.
+2. Ecranul mic afişează focalizarea într-o vizualizare mărită. Pentru a o muta, atingeţi-o şi menţineţi-o apăsat."</string>
+    <string name="sp_intelligent_auto_mode_NORMAL">Modul Intelligent Auto al camerei.</string>
+    <string name="sp_normal_camera_mode_NORMAL">Modul Normal al camerei.</string>
+    <string name="sp_center_NORMAL">Centru</string>
+    <string name="sp_border_NORMAL">Limită</string>
+    <string name="sp_3d_depth_NORMAL">Adâncime 3D</string>
+    <string name="sp_popup_change_view_to_landscape_for_3d_NORMAL">Schimbă vizualizarea în modul Peisaj pentru un efect 3D optim.</string>
+    <string name="sp_entering_guide_NORMAL">"Pentru a edita meniurile rapide,
+apăsaţi lung pictograma."</string>
+    <string name="sp_entering_clean_guide_NORMAL">Vă rugăm să curăţaţi lentilele camerei pentru a obţine o imagine ireproşabilă.</string>
+    <string name="sp_entering_gallery_guide_NORMAL">"Pentru a verifica rapid fotografia executată,
+apăsaţi şi ţineţi apăsată pictograma Galerie."</string>
+    <string name="entering_guide_att">"Apăsaţi şi ţineţi apăsată o pictogramă 
+pentru a edita comenzile rapide."</string>
+    <string name="sp_entering_gallery_guide_vzw">"Pentru a verifica rapid fotografia executată,
+apăsaţi şi ţineţi apăsată pictograma Galerie."</string>
+    <string name="entering_guide_vzw">"Apăsaţi şi ţineţi apăsată o pictogramă 
+pentru a edita comenzile rapide."</string>
+    <string name="portrait_plus">Portret +</string>
+    <string name="help_guide_portrait_plus_shot_desc">Funcţia Portrait + face ca pielea feţei să apară mai luminoasă şi mai catifelată.</string>
+    <string name="edit_quick_menu">Editare meniu rapid</string>
+    <string name="error_occurred">A apărut o eroare.</string>
+    <string name="sp_info_empty_SHORT">Gol</string>
+    <string name="accessibility_exit_edit_menu">Ieşire din meniul de editare</string>
+    <string name="accessibility_shutter_button">Declanşator</string>
+    <string name="accessibility_review_thumbnail">Cea mai recentă poză sau ultimul video</string>
+    <string name="accessibility_camera_picker">Comutator cameră foto şi cameră video</string>
+    <string name="accessibility_beautyshot_bar">Bară de control Fotografie frumoasă</string>
+    <string name="accessibility_beautyshot_control">Control poză Frumoasă</string>
+    <string name="accessibility_beautyshot_button">Butonul de control Fotografie frumoasă</string>
+    <string name="accessibility_brightness_bar">Bara de control Luminozitate</string>
+    <string name="accessibility_brightness_control">Control luminozitate</string>
+    <string name="accessibility_brightness_button">Butonul de control Luminozitate</string>
+    <string name="accessibility_manual_focus_bar">Bară de control focalizare manuală</string>
+    <string name="accessibility_manual_focus_button">Control focalizare manuală</string>
+    <string name="accessibility_zoom_bar">Bară de comandă zoom</string>
+    <string name="accessibility_zoom_control">Control zoom</string>
+    <string name="accessibility_zoom_button">Buton de comandă zoom</string>
+    <string name="accessiblity_free_panorama_retake">Reluaţi</string>
+    <string name="accessiblity_start_recording">Începutul înregistrării</string>
+    <string name="accessiblity_stop_recording">Opriţi înregistrarea</string>
+    <string name="accessiblity_pause_recording">Pauză în înregistrare</string>
+    <string name="camera_accessibility_stop_button">Oprire</string>
+    <string name="free_panorama_bubble_popup">Atingeţi ecranul pentru a afişa poza în vizualizare 360.</string>
+    <string name="error_panorama_during_taking">Oprit pentru capturarea unei imagini panoramice care necesită poziţionarea camerei. Poza este salvată în Galerie.</string>
+    <string name="sp_date_stamp">Ştampilă dată</string>
+    <string name="audio_zoom_warning">Zoom-ul audio se activează numai la vizualizarea în format peisaj.</string>
+    <string name="audio_zoom_disabled">Zoom audio dezactivat</string>
+    <string name="unable_to_use_qmemo">%s nu poate fi utilizat</string>
+    <string name="sp_open_quick_camera_case">Deschideţi Quick Camera Case</string>
+    <string name="message_received">A fost primit un mesaj nou</string>
+    <string name="pd_message_processing">procesare...</string>
+    <string name="not_available_during_remote_care">Indisponibil în timpul suportului de la distanţă.</string>
+    <string name="dual_camera_effect_menu_none">Niciunul</string>
+    <string name="dual_camera_effect_menu_stamp">Ştampilă</string>
+    <string name="dual_camera_effect_menu_ovalblur">Estompare ovală</string>
+    <string name="dual_camera_effect_menu_instantpic">Instantaneu</string>
+    <string name="dual_camera_effect_menu_heart">Formă de inimă</string>
+    <string name="dual_camera_effect_menu_star">Formă de stea</string>
+    <string name="dual_camera_effect_menu_window">Ferestre</string>
+    <string name="dual_camera_effect_menu_fisheye">Ochi de peşte</string>
+    <string name="dual_camera_effect_menu_splitview1">Vizualizare împărţită 1</string>
+    <string name="dual_camera_effect_menu_splitview2">Vizualizare împărţită 2</string>
+    <string name="smart_zoom_object_tracking_focus_mode">Modul Focalizare cu urmărire</string>
+    <string name="smart_zoom_manual_focus_mode">Modul Focalizare normală</string>
+    <string name="sp_shot_mode_new_hdr">Ton dinamic (HDR)</string>
+    <string name="sp_help_guide_new_hdr_desc_list">Combină fotografiile executate cu diferite expuneri într-o singură poză optimă pentru a obţine o poză mai bună în condiţii dificile de iluminare.</string>
+    <string name="accessiblity_mode_button">Mod.</string>
+    <string name="accessiblity_change_view_list_button">Viz. listă</string>
+    <string name="accessiblity_change_view_grid_button">Vizualizare grilă</string>
+    <string name="accessiblity_default_auto_button">Normal</string>
+    <string name="mode_menu_camera_normal">Faceți poză în modul Cameră normală.</string>
+    <string name="mode_menu_video_normal">Înregistrare videoclip cu modul normal de înregistrare.</string>
+    <string name="mode_menu_video_tracking_zoom">Zoom-ul de monitorizare vă permite să alegeţi zona de focalizare care poate fi mărită. Vizualizaţi pe ecran mic şi faceţi un videoclip.</string>
+    <string name="help">Asistenţă</string>
+    <string name="camera_quick_button_index_mode">Mod</string>
+    <string name="panorama_guide_tap_shutter_to_start">Apăsaţi butonul de declanşare pentru a porni aparatul.</string>
+    <string name="panorama_guide_move_in_one_direction">Mută într-o singură direcţie</string>
+    <string name="panorama_guide_tap_to_finish">Atingeţi butonul Stop pentru a încheia</string>
+    <string name="sp_down_NORMAL">Jos</string>
+    <string name="sp_up_NORMAL">Sus</string>
+    <string name="sp_right_NORMAL">Dreapta</string>
+    <string name="sp_left_NORMAL">Stânga</string>
+    <string name="volume_key">Tasta Volum sunet</string>
+    <string name="volume_key_capture_image">Captură</string>
+    <string name="volume_key_record_video">REC</string>
+    <string name="volume_key_zoom_only">Zoom-ul activează numai camera posterioară.</string>
+    <string name="volume_key_zoom_disable">În acest mod zoom-ul nu este suportat.</string>
+    <string name="volume_key_zoom_disable_resolution">Zoom nesprijinit de această rezoluţie.</string>
+    <string name="help_scene_mode_menu_night_desc_new">Face poze în locaţii cu lumină slabă fără a utiliza bliţul.</string>
+    <string name="sp_confirm_NORMAL">Confirmare</string>
+    <string name="sp_dialog_change_setting">Schimbați Activare în Dezactivare</string>
+    <string name="sp_dialog_change_setting_au_cloud">Vă rugăm să anulaţi opţiunea \"Dezactivare\" de la aplicaţia \"au\".</string>
+    <string name="sp_auto_upload_NORMAL">Încărcare automată</string>
+    <string name="sp_new_ux_help_guide_title_clear_shot">Ghid Shot&amp;Clear</string>
+    <string name="sp_new_ux_help_guide_title_hdr">Ghid tonalitate dinamică (HDR)</string>
+    <string name="sp_new_ux_help_guide_title_panorama">Ghid de panoramare</string>
+    <string name="sp_new_ux_help_guide_title_vr_panorama">Ghid panoramă VR</string>
+    <string name="sp_new_ux_help_guide_title_burst_shot">Ghid Captură în rafală</string>
+    <string name="sp_new_ux_help_guide_title_beauty_shot">Ghid Fotografie portret</string>
+    <string name="sp_new_ux_help_guide_title_portrait_plus">Portret + Ghid</string>
+    <string name="sp_new_ux_help_guide_title_dual_camera">Ghid cameră dublă</string>
+    <string name="sp_new_ux_help_guide_title_time_machine_camera">Ghid cameră Maşina timpului</string>
+    <string name="sp_new_ux_help_guide_title_time_catch_shot">Ghid captură Maşina timpului</string>
+    <string name="sp_new_ux_help_guide_title_intelligent_auto">Ghid Automat inteligent</string>
+    <string name="sp_new_ux_help_guide_title_sports">Ghid Sporturi</string>
+    <string name="sp_new_ux_help_guide_title_night">Ghid de noapte</string>
+    <string name="sp_new_ux_help_guide_title_dual_recording">Ghid înregistrare dublă</string>
+    <string name="sp_new_ux_help_guide_title_live_effect">Ghid Efect live</string>
+    <string name="sp_new_ux_help_guide_title_continuous_shot">Ghid fotografiere continuă</string>
+    <string name="sp_new_ux_help_guide_title_hdr_recording">Ghid de înregistrare HDR</string>
+    <string name="sp_new_ux_help_guide_title_wdr_recording">Ghid înregistrare WDR</string>
+    <string name="sp_new_ux_help_guide_title_voice_shutter">Ghid declanşator vocal</string>
+    <string name="sp_new_ux_help_guide_title_cheese_shutter">Ghid declanşator Cheese</string>
+    <string name="sp_new_ux_help_guide_title_uplus_box">Ghid salvare automată U+ Box</string>
+    <string name="sp_new_ux_help_guide_title_audio_zoom">Ghid Zoom audio</string>
+    <string name="sp_new_ux_help_guide_title_tracking_zoom">Ghid zoom de monitorizare</string>
+    <string name="sp_new_ux_help_guide_desc_clear_shot">"1. Faceţi poza.
+2. Atingeţi oricare dintre obiectele care au contur pentru a le şterge din poză.
+3. Apăsaţi butonul Salvare pentru a salva modificările."</string>
+    <string name="sp_new_ux_help_guide_desc_hdr">HDR combină pozele făcute cu diferite expuneri într-o singură poză optimă prin compensarea iluminării din spate şi îmbunătăţirea controlului multiplu al expunerii.</string>
+    <string name="sp_new_ux_help_guide_desc_panorama">"1. Apăsaţi butonul de declanşare pentru a porni aparatul.
+2. Rotiţi încet aparatul într-o anumită direcţie (panoramare).
+3. Apăsaţi butonul Stop atunci când aţi terminat."</string>
+    <string name="sp_new_ux_help_guide_desc_plane_panorama">"1. Apăsaţi butonul de declanşare pentru a porni aparatul.
+2. Rotiţi încet aparatul într-o anumită direcţie (panoramare).
+3. Potriviţi zona de focalizare cu linia albastră de ghidare pentru a face o poză.
+4. Apăsaţi butonul Stop atunci când aţi terminat."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama">"1. Apăsaţi declanşatorul pentru a porni modul Panoramă VR.
+2. Potriviţi zona focalizării la linia de ghidare albastră pentru a face o poză.
+3. Mişcaţi camera pentru a prinde o altă zonă de focalizare şi pentru a face poze. Pozele se unesc într-o singură imagine."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new">"1. Atingeți butonul obturatorului pentru pornirea modului Panorama VR. 
+2. Fixați aria de focalizare cu linia albastră, pentru a face poza. 
+3. Mișcați camera pentru crearea unei alte arii de focalizare, și faceți poze. 
+Pozele făcute vor fi compilate într-o singură imagine. 
+Când faceți poze cu Panorama VR, nu vă apropiați de subiect, păstrând distanța corespunzătoare."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new_specified">"1. Atingeți butonul obturatorului pentru pornirea modului Panorama VR. 
+2. Fixați aria de focalizare cu linia albastră, pentru a face poza. 
+3. Mișcați camera pentru crearea unei alte arii de focalizare, și faceți poze. 
+Pozele făcute vor fi compilate într-o singură imagine. 
+Când faceți poze cu Panorama VR, nu vă apropiați de subiect, păstrând distanța corespunzătoare. (16 ft sau 5 m)."</string>
+    <string name="sp_new_ux_help_guide_desc_light_frame">Faceţi poze mai strălucitoare cu o previzualizare mai mică utilizând camera frontală.</string>
+    <string name="sp_new_ux_help_guide_desc_burst_shot">Capturează în rafală până la 20 de poze prin apăsarea declanşatorului.</string>
+    <string name="sp_new_ux_help_guide_desc_beauty_shot">Fotografia portret face mai strălucitoare şi mai netedă pielea feţei.</string>
+    <string name="sp_new_ux_help_guide_desc_time_machine_camera">"1. Faceţi poza pentru a porni camera Time machine.
+2. Apăsaţi butonul Galerie pentru a revedea momentele lipsă.
+3. Selectaţi pozele pe care doriţi să le păstraţi.
+4. Apăsaţi butonul Salvare."</string>
+    <string name="sp_new_ux_help_guide_desc_time_catch_shot">"1. Faceţi o poză pentru a porni captura Time catch.
+2. Apăsaţi butonul Galerie pentru a revedea momentele lipsă.
+3. Selectaţi pozele pe care doriţi să le păstraţi.
+4. Apăsaţi butonul Salvare."</string>
+    <string name="sp_new_ux_help_guide_desc_intelligent_auto">Identifică automat caracteristicile scenei şi realizează poza.</string>
+    <string name="sp_new_ux_help_guide_desc_dual_recording">"1. Trageţi pentru a muta ecranul mic.
+2. Atingeţi şi ţineţi ecranul mic pentru a-l redimensiona.
+3. Atingeţi ecranul mic pentru a alterna între ecranul mic şi cel mare."</string>
+    <string name="sp_new_ux_help_guide_desc_live_effect">"1. Selectaţi efectul pe care doriţi să-l utilizaţi.
+2. Apăsaţi butonul Înregistrare şi începeţi înregistrarea."</string>
+    <string name="sp_new_ux_help_guide_desc_hdr_recording">Înregistrarea HDR îmbunătăţeşte videoclipul dvs. printr-un control multiplu al expunerii.</string>
+    <string name="sp_new_ux_help_guide_desc_wdr_recording">Înregistrarea WDR îmbunătăţeşte videoclipul dvs. printr-un control multiplu al expunerii.</string>
+    <string name="sp_uhd_heat_warning">Înregistrarea video UHD este disponibilă până la 5 minute, pentru a păstra temperatura recomandată. Înregistrarea video se va închide.</string>
+    <string name="sp_help_guide_title_face_tracking_led">Ghid monitorizare faţă</string>
+    <string name="sp_help_guide_face_tracking_led">"Lumina de notificare pâlpâie la detectarea unei feţe.
+Puteţi schimba setarea la Setări > Afişaj > Lumină notificări."</string>
+    <string name="dialog_alert_title">Alertă</string>
+    <string name="camera_accessibility_indicator_message_remaining">Mesaj text nou</string>
+    <string name="camera_accessibility_indicator_mms_remaining">Mesaj multimedia nou</string>
+    <string name="camera_accessibility_indicator_voice_mail_remaining">Mesaj vocal nou</string>
+    <string name="camera_accessibility_indicator_gps_connecting">Pornire etichetare geografică</string>
+    <string name="camera_accessibility_indicator_geotagging_on">Etichetarea geografică pornită</string>
+    <string name="camera_accessibility_indicator_remaining_picture_count">Puteţi face încă %s poze.</string>
+    <string name="camera_accessibility_indicator_battery">Baterie de la %s la suta</string>
+    <string name="camera_accessibility_indicator_storage">Salvare în %s</string>
+    <string name="camera_accessibility_indicator_voice_shutter_on">%s activat</string>
+    <string name="camera_accessibility_indicator_anti_shaking_on">Eliminare tremurat mâini activat</string>
+    <string name="camera_accessibility_thumbnail">Deplasare la galerie</string>
+    <string name="not_available_during_incoming_call">În timpul unui apel nu este disponibil.</string>
+    <string name="camera_error_occurred_try_again">Cameră indisponibilă momentan din cauza unei probleme temporare. Încercaţi din nou.</string>
+    <string name="mode_menu_camera_refocus_new">Focalizaţi din nou după ce aţi făcut o poză.</string>
+    <string name="sp_refocus_bubble_popup_NORMAL">Pentru a refocaliza această poză, atingeţi aici.</string>
+    <string name="sp_postview_action_bar_menu_all_in_focus">Totul focalizat</string>
+    <string name="sp_refocus_preview_guide_message">Mergeţi aproape de subiectul fotografiei şi ţineţi nemişcat aparatul în timpul fotografierii.</string>
+    <string name="shot_mode_magic_focus">Focalizare Magic</string>
+    <string name="sp_new_ux_help_guide_title_refocus">Ghid focalizare Magic</string>
+    <string name="sp_camera_refocus_postview_allinfocus_message">Toate părţile pozei dvs. focalizate</string>
+    <string name="sp_new_ux_help_guide_desc_refocus_new">"1. Faceţi o poză şi atingeţi butonul Galerie.
+2. Pentru a schimba focalizarea, atingeţi un obiect sau reglaţi mânerul.
+3. Atingeţi butonul Salvare pentru a salva poza refocalizată."</string>
+    <string name="sp_refocus_postview_message_new">Atingeţi un obiect sau reglaţi butonul pentru a schimba focalizarea, apoi atingeţi (#1#) din colţul dreapta sus</string>
+    <string name="sp_refocus_postview_message_vzw_new">Atingeţi un obiect sau reglaţi mânerul pentru a schimba focalizarea, după care atingeţi butonul Salvare din colţul dreapta sus</string>
+    <string name="sp_refocus_warning_popup">Focalizare neschimbată. Ieşire?</string>
+    <string name="gesture_guide">Închideți degetele pentru a face poze</string>
+    <string name="sp_gesture_guide_msg_fist">Desfaceţi pumnul pentru a face poza</string>
+    <string name="camera_help_activity_gesture_shot">Foto gest</string>
+    <string name="sp_help_gestureshot_desc">Pozați-vă folosind mâna.</string>
+    <string name="sp_new_ux_help_guide_title_gestureshot">Ghidul gesturilor</string>
+    <string name="sp_new_ux_gesture_shot_help_activity_desc">Faceţi fotografii selfie gesticulând cu mâna. Pentru a face o poză, ridicaţi-vă mâna la nivelul în care este detectată de camera frontală, şi până apare o casetă pe ecran. Apoi, strângeţi mâna în pumn, pentru a face o poză.</string>
+</resources>

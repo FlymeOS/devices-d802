@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/custom_dialog" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/backcover" android:background="#99000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr" />
+    <RelativeLayout android:id="@id/rotate_dialog_margin_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <com.lge.camera.components.RotateLayout android:id="@id/rotate_dialog_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rotate_dialog_inner_layout" android:background="@drawable/dialog_help_holo_light" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="center_vertical" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rotate_help_dialog_title_layout.marginTop" android:layout_marginBottom="@dimen/rotate_help_dialog_title_layout.marginBottom" android:layoutDirection="locale" android:layout_marginStart="@dimen/rotate_dialog_title_layout.marginLeft" android:layout_marginEnd="@dimen/rotate_dialog_title_layout.marginRight">
+                        <TextView android:textAppearance="@style/rotate_help_dialog_title" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dummy_space" android:singleLine="false" />
+                    </LinearLayout>
+                    <RelativeLayout android:id="@id/help_content_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale">
+                        <TextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/content_title_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dummy_space" android:singleLine="false" style="@style/rotate_help_dialog_content_title" />
+                        <ImageView android:id="@id/message_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/content_title_text" />
+                        <ScrollView android:id="@id/message_scroll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rotate_help_dialog_msg_scroll.margin" android:layout_below="@id/message_image" android:fadeScrollbars="false" android:overScrollMode="ifContentScrolls">
+                            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <TextView android:id="@id/message_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dummy_space" android:lineSpacingMultiplier="1.16" style="@style/rotate_help_dialog_text" />
+                                <RelativeLayout android:id="@id/checkbox_do_not_show_again_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="44.0dip" android:layoutDirection="locale">
+                                    <CheckBox android:id="@id/checkbox_do_not_show_again" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dummy_space" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/rotate_help_dialog_checkbox_text" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </ScrollView>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/button_inner_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <Button android:id="@id/ok_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="4.0dip" android:text="@string/sp_ok_NORMAL" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="@style/help_dialog_button" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

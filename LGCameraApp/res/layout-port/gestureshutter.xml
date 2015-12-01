@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lge.camera.components.RotateLayout android:id="@id/gestureshutter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/gestureshutter_guide_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/gestureshutter_guide_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.lge.camera.components.StrokeTextView android:id="@id/gestureshutter_guide_string" android:paddingTop="@dimen/gestureshutter_guidestring_topmargin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/gestureshutter_guidestring_margin" lge:use_stroke="true" lge:stroke_color="#ff5d5d5d" lge:stroke_width="0.5dip" style="@style/gestureshutter_guide_text" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.lge.camera.components.RotateLayout>

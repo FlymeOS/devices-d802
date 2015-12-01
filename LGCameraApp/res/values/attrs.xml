@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="sharedPreferenceName" format="string" />
+    <attr name="key" format="reference|string" />
+    <attr name="title" format="string" />
+    <attr name="menuIcons" format="reference" />
+    <attr name="menuIconsExpand" format="reference" />
+    <attr name="menuCommand" format="reference|string" />
+    <attr name="settingMenuIcons" format="reference" />
+    <attr name="settingMenuIconsExpand" format="reference" />
+    <attr name="settingMenuCommand" format="reference|string" />
+    <attr name="entryCommand" format="reference|string" />
+    <attr name="defaultValue" format="reference|string" />
+    <attr name="entries" format="reference" />
+    <attr name="entryValues" format="reference" />
+    <attr name="indicatorIcons" format="reference" />
+    <attr name="extraInfos" format="reference" />
+    <attr name="persist" format="boolean" />
+    <attr name="extraInfos2" format="reference" />
+    <attr name="extraInfos3" format="reference" />
+    <attr name="extraInfos4" format="reference" />
+    <attr name="background" format="reference" />
+    <attr name="text" format="reference|string" />
+    <attr name="textSize" format="dimension" />
+    <attr name="textColor" format="reference|color" />
+    <attr name="textPaddingTop" format="dimension" />
+    <attr name="textPaddingBottom" format="dimension" />
+    <attr name="textPaddingLeft" format="dimension" />
+    <attr name="textPaddingRight" format="dimension" />
+    <attr name="textGravity">
+        <flag name="bottom" value="0x00000004" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_horizontal" value="0x00000010" />
+        <flag name="center_vertical" value="0x00000001" />
+        <flag name="left" value="0x00000020" />
+        <flag name="right" value="0x00000040" />
+        <flag name="top" value="0x00000002" />
+    </attr>
+    <attr name="textShadowColor" format="reference|color" />
+    <attr name="textShadowRadius" format="float" />
+    <attr name="rotateInsideView" format="boolean" />
+    <attr name="rotateIconOnly" format="boolean" />
+    <attr name="pivotLeft" format="dimension" />
+    <attr name="pivotTop" format="dimension" />
+    <attr name="ellipsis" format="boolean" />
+    <attr name="direction">
+        <enum name="bottomToTop" value="1" />
+        <enum name="leftToRight" value="2" />
+        <enum name="rightToLeft" value="0" />
+        <enum name="topToBottom" value="3" />
+    </attr>
+    <attr name="handle" format="reference" />
+    <attr name="content" format="reference" />
+    <attr name="bottomOffset" format="dimension" />
+    <attr name="topOffset" format="dimension" />
+    <attr name="allowSingleTap" format="boolean" />
+    <attr name="animateOnClick" format="boolean" />
+    <attr name="use_stroke" format="boolean" />
+    <attr name="stroke_color" format="color" />
+    <attr name="stroke_width" format="dimension" />
+</resources>

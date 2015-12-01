@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/help_layout_view" android:paddingTop="?android:actionBarSize" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/help_background_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/help_list_view" android:scrollbars="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#ff333333" android:divider="#ffffffff" android:dividerHeight="0.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+</RelativeLayout>

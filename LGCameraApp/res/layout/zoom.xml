@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/zoom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lge.camera.components.RotateLayout android:id="@id/zoom_rotate_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+            <RelativeLayout android:id="@id/zoom_contents_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layoutDirection="ltr" android:layout_alignParentEnd="true">
+                <RelativeLayout android:id="@id/zoom_text_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_zoom_bar_bg.marginTop" android:layoutDirection="ltr">
+                    <com.lge.camera.components.RotateLayout android:id="@id/zoom_text_rotate_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                        <RelativeLayout android:paddingTop="@dimen/zoom_text_view_paddingTop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                            <TextView android:layout_gravity="end" android:id="@id/zoom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/zoom_text_paddingRight" style="@style/zoom_magnification_text" />
+                        </RelativeLayout>
+                    </com.lge.camera.components.RotateLayout>
+                </RelativeLayout>
+                <com.lge.camera.components.ZoomBar android:id="@id/zoom_control" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:layout_toEndOf="@id/zoom_text_view">
+                    <RelativeLayout android:id="@id/zoom_in_button_view" android:focusable="false" android:clickable="false" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                        <ImageView android:id="@id/zoom_in_button" android:background="@drawable/zoom_icon_zoom_in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/accessibility_zoom_control" style="@style/NoFocusableButton" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/zoom_bar_bg_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_zoom_bar_bg.marginTop" android:layoutDirection="ltr">
+                        <com.lge.camera.components.ZoomProgressBar android:id="@id/zoom_bar_bg" android:background="@drawable/camera_preview_zoom_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_preview_zoom_bar_full" android:scaleType="fitXY" android:contentDescription="@string/accessibility_zoom_bar" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/zoom_bar_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_zoom_bar_cursor.marginTop" android:layout_centerHorizontal="true" android:layoutDirection="ltr">
+                        <ImageView android:id="@id/zoom_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_setting_ev_cursor" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/zoom_out_button_view" android:focusable="false" android:clickable="false" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_zoom_in_button_view.marginTop" android:layoutDirection="ltr">
+                        <ImageView android:id="@id/zoom_out_button" android:background="@drawable/zoom_icon_zoom_out" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/accessibility_zoom_control" style="@style/NoFocusableButton" />
+                    </RelativeLayout>
+                </com.lge.camera.components.ZoomBar>
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

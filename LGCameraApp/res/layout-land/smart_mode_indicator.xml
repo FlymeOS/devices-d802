@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/smart_mode_indicator" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/smart_mode_indicator_marginTop" android:layoutDirection="ltr" android:layout_marginStart="@dimen/smart_mode_indicator_marginLeft"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lge.camera.components.RotateImageView android:id="@id/icon_smart_scene_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.lge.camera.components.RotateImageView android:id="@id/icon_smart_stand_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.lge.camera.components.RotateImageView android:id="@id/icon_smart_stabilization_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

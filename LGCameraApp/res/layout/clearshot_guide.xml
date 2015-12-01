@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/clearshot_guide_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.lge.camera.components.RotateLayout android:id="@id/clearshot_guide_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/clearshot_guide_image" android:background="@drawable/icon_clearshot_iofo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@id/clearshot_guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_clear_shot_warning_handshake" style="@style/burstshot_progress_text" />
+            </LinearLayout>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

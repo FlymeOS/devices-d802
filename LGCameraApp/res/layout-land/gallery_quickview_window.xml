@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/gallery_quick_window" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:camera="http://schemas.android.com/apk/res/com.lge.camera">
+    <RelativeLayout android:id="@id/gallery_quick_window_backcover" android:background="#bf000000" android:visibility="gone" android:layout_width="@dimen/lcd_width" android:layout_height="@dimen/lcd_height" />
+    <RelativeLayout android:id="@id/gallery_quick_window_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.lge.camera.components.RotateLayout android:layout_gravity="center" android:id="@id/gallery_quick_window_rotate" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:layoutDirection="ltr" android:paddingStart="2.0dip" android:paddingEnd="2.0dip">
+            <ImageView android:id="@id/gallery_quick_window_last_image" android:background="@drawable/camera_gallery_quickview_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/gallery_quick_window_trash_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gallery_quick_view_trash_marginBottom" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/gallery_quick_view_trash_marginRight" android:layout_alignParentEnd="true">
+        <com.lge.camera.components.RotateImageButton android:id="@id/gallery_quick_window_trash" android:layout_width="@dimen/gallery_quick_view_trash_width" android:layout_height="@dimen/gallery_quick_view_trash_height" android:src="@drawable/camera_gallery_quickview_trash_close" android:scaleType="center" android:contentDescription="@string/dlg_title_delete" camera:background="@drawable/selector_trash_bg" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/gallery_quick_thumb_layout" android:visibility="invisible" android:layout_width="@dimen/review_thumbnail.width" android:layout_height="@dimen/review_thumbnail.height">
+        <com.lge.camera.components.RotateImageView android:id="@id/gallery_quick_thumb_image" android:background="@drawable/border_last_picture_pressed" android:layout_width="@dimen/review_thumbnail.width" android:layout_height="@dimen/review_thumbnail.height" android:scaleType="fitXY" />
+    </RelativeLayout>
+</RelativeLayout>

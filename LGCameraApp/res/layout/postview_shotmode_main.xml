@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/stub_noraml_postview" android:layout="@layout/postview_shotmode_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/stub_attach_postview" android:layout="@layout/postview_shotmode_attach" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/stub_time_machine_postview" android:layout="@layout/postview_shotmode_timemachine" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/stub_clearshot_postview" android:layout="@layout/postview_shotmode_clearshot" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/stub_refocus_postview" android:layout="@layout/postview_shotmode_refocus" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_settings" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.lge.camera.components.RotateLayout android:id="@id/select_menu_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/select_menu_layout.marginLeft" android:layoutDirection="ltr" android:layout_alignParentEnd="true">
+            <GridView android:gravity="center" android:id="@id/select_menu_view" android:background="@drawable/camera_customization_bg" android:layout_width="@dimen/select_menu_view_landscape.width" android:layout_height="wrap_content" android:horizontalSpacing="@dimen/select_menu_view_spacing" android:verticalSpacing="@dimen/select_menu_view_spacing" android:stretchMode="columnWidth" android:numColumns="4" android:layoutDirection="ltr" />
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

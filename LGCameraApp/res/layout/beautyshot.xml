@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/beautyshot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lge.camera.components.RotateLayout android:id="@id/beautyshot_rotate_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+            <RelativeLayout android:id="@id/beautyshot_contents_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layoutDirection="ltr" android:layout_alignParentEnd="true">
+                <com.lge.camera.components.BeautyshotBar android:id="@id/beautyshot_bar" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                    <RelativeLayout android:id="@id/face_plus_button_view" android:focusable="false" android:clickable="false" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                        <ImageView android:id="@id/face_plus_button" android:background="@drawable/camera_preview_brightness_plus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/accessibility_beautyshot_control" style="@style/NoFocusableButton" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/face_cursor_bg_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_zoom_bar_bg.marginTop" android:layoutDirection="ltr">
+                        <ImageView android:id="@id/face_cursor_bg" android:background="@drawable/camera_preview_beautyshot_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/accessibility_beautyshot_bar" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/face_cursor_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_zoom_bar_cursor.marginTop" android:layout_centerHorizontal="true" android:layoutDirection="ltr">
+                        <ImageView android:id="@id/face_cursor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_setting_ev_cursor" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/face_minus_button_view" android:focusable="false" android:clickable="false" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_zoom_in_button_view.marginTop" android:layoutDirection="ltr">
+                        <ImageView android:id="@id/face_minus_button" android:background="@drawable/camera_preview_brightness_minus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/accessibility_beautyshot_control" style="@style/NoFocusableButton" />
+                    </RelativeLayout>
+                </com.lge.camera.components.BeautyshotBar>
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

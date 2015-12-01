@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/voice_command_layout" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/voice_command_cheese_command" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_marginStart="4.0dip">
+        <ImageView android:id="@id/speaker_image_cheese" android:background="@drawable/selector_voice_speaker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/speaker_image_cheese">
+            <TextView android:id="@id/voice_command_text_cheese" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_voiceshutter_word_cheese_NORMAL" android:layout_centerHorizontal="true" style="@style/voice_command_text" />
+            <TextView android:id="@id/voice_command_sound_cheese" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_voiceshutter_sound_cheese_NORMAL" android:textScaleX="0.9" android:layout_below="@id/voice_command_text_cheese" android:layout_centerHorizontal="true" style="@style/voice_command_text" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/voice_command_smile_command" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_marginStart="4.0dip">
+        <ImageView android:id="@id/speaker_image_smile" android:background="@drawable/selector_voice_speaker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/speaker_image_smile">
+            <TextView android:id="@id/voice_command_text_smile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_voiceshutter_word_smile_NORMAL" android:layout_centerHorizontal="true" style="@style/voice_command_text" />
+            <TextView android:id="@id/voice_command_sound_smile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_voiceshutter_sound_smile_NORMAL" android:textScaleX="0.9" android:layout_below="@id/voice_command_text_smile" android:layout_centerHorizontal="true" style="@style/voice_command_text" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/voice_command_whisky_command" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_marginStart="4.0dip">
+        <ImageView android:id="@id/speaker_image_whisky" android:background="@drawable/selector_voice_speaker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/speaker_image_whisky">
+            <TextView android:id="@id/voice_command_text_whisky" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_voiceshutter_word_whisky_NORMAL" android:layout_centerHorizontal="true" style="@style/voice_command_text" />
+            <TextView android:id="@id/voice_command_sound_whisky" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_voiceshutter_sound_whisky_NORMAL" android:textScaleX="0.9" android:layout_below="@id/voice_command_text_whisky" android:layout_centerHorizontal="true" style="@style/voice_command_text" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/voice_command_kimchi_command" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_marginStart="4.0dip">
+        <ImageView android:id="@id/speaker_image_kimchi" android:background="@drawable/selector_voice_speaker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/speaker_image_kimchi">
+            <TextView android:id="@id/voice_command_text_kimchi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_voiceshutter_word_kimchi_NORMAL" android:layout_centerHorizontal="true" style="@style/voice_command_text" />
+            <TextView android:id="@id/voice_command_sound_kimchi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_voiceshutter_sound_kimchi_NORMAL" android:textScaleX="0.9" android:layout_below="@id/voice_command_text_kimchi" android:layout_centerHorizontal="true" style="@style/voice_command_text" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/voice_command_LG_command" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_marginStart="4.0dip">
+        <ImageView android:id="@id/speaker_image_lg" android:background="@drawable/selector_voice_speaker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/speaker_image_lg">
+            <TextView android:id="@id/voice_command_text_lg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_voiceshutter_word_LG_NORMAL" android:layout_centerHorizontal="true" style="@style/voice_command_text" />
+            <TextView android:id="@id/voice_command_sound_lg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_voiceshutter_sound_LG_NORMAL" android:textScaleX="0.9" android:layout_below="@id/voice_command_text_lg" android:layout_centerHorizontal="true" style="@style/voice_command_text" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/voice_command_torimasu_command" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_marginStart="4.0dip">
+        <ImageView android:id="@id/speaker_image_torimasu" android:background="@drawable/selector_voice_speaker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/speaker_image_torimasu">
+            <TextView android:id="@id/voice_command_text_torimasu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_voiceshutter_word_torimasu_NORMAL" android:layout_centerHorizontal="true" style="@style/voice_command_text" />
+            <TextView android:id="@id/voice_command_sound_torimasu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_voiceshutter_sound_torimasu_NORMAL" android:textScaleX="0.9" android:layout_below="@id/voice_command_text_torimasu" android:layout_centerHorizontal="true" style="@style/voice_command_text" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

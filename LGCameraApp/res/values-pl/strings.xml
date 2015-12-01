@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aparat</string>
+    <string name="sp_lowbattery_MLINE">Poziom baterii jest zbyt niski aby uruchomić aparat. Proszę naładować telefon.</string>
+    <string name="sp_lowbattery">Poziom baterii jest zbyt niski, aby uruchomić aparat fotograficzny.</string>
+    <string name="setting_init">Zresetować ustawienie aparatu?</string>
+    <string name="sp_reset_message_NORMAL">Przywrócić wartość domyślną?</string>
+    <string name="sp_All_settings_reset_NORMAL">Reset wszystkich ustawień</string>
+    <string name="sp_blockedByEAS_NORMAL">Aparat fotograficzny jest wyłączony przez politykę serwera Exchange.</string>
+    <string name="sp_block_camera_NORMAL">Aparat wyłączony przez politykę serwera</string>
+    <string name="error_cannot_use_hdmi">Nie można korzystać z aparatu fotograficznego gdy podłączono przez HDMI.</string>
+    <string name="sp_dual_display_status_NORMAL">Nie można używać aparatu w trybie podwójnego wyświetlania.</string>
+    <string name="reset">Resetuj</string>
+    <string name="cancel">Anuluj</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="sp_camera_helpdesc_generalsetting">Ogólny</string>
+    <string name="sp_Exit_NORMAL">Zakończ</string>
+    <string name="on">Włącz</string>
+    <string name="sp_review_timer_2_NORMAL">2 sek.</string>
+    <string name="off">Wyłącz</string>
+    <string name="sp_none_NORMAL">Brak</string>
+    <string name="normal">Normalny</string>
+    <string name="settings">Ustawienia</string>
+    <string name="sp_loading_camera_NORMAL">Przygotowywanie...</string>
+    <string name="dual_camera_select">Przełącz aparat</string>
+    <string name="insert_sd_card">Włóż kartę SD.</string>
+    <string name="insert_add_sd_card">Zamontuj swoją zewnętrzną kartę SD.</string>
+    <string name="sp_preparing_int_sd_NORMAL">Przygotowywanie pamięci wewnętrznej...</string>
+    <string name="preparing_sd">Przygotowywanie karty SD.</string>
+    <string name="sp_cannot_use_camera_UMS_NORMAL">Nie można użyć aparatu, ponieważ karta SD jest zamontowana w trybie PC. Odłącz USB, aby kontynuować.</string>
+    <string name="sp_connected_mass_storage_NORMAL">Pamięć masowa</string>
+    <string name="sp_not_available_connected_mass_storage_NORMAL">"Aparat fotograficzny nie jest dostępny.
+Pamięć masowa podłączona do PC."</string>
+    <string name="sp_launch_NORMAL">Uruchom</string>
+    <string name="sp_memory_full_diag_title_NORMAL">Pamięć pełna</string>
+    <string name="sp_memory_full_diag_1_NORMAL">"Na: %1$s nie znajduje się wystarczająco dużo miejsca.
+Plik został zapisany na: %2$s.
+Zwolnij więcej pamięci w: %3$s podłączając telefon do komputera lub włączając menedżera plików.
+
+Uruchomić teraz menedżera plików?
+Sprawdź pliki na: '%4$s'"</string>
+    <string name="sp_memory_full_diag_1_no_file_manager_NORMAL">"Na %1$s nie znajduje się wystarczająco dużo miejsca.
+Plik został zapisany na %2$s.
+Zwolnij więcej pamięci w %3$s podłączając telefon do komputera lub włączając menedżera plików."</string>
+    <string name="sp_memory_full_diag_2_NORMAL">"Na %1$s nie znajduje się wystarczająco dużo miejsca.
+Zwolnij więcej pamięci w %1$s podłączając telefon do komputera lub włączając menedżera plików.
+
+Uruchomić teraz menedżera plików?
+Sprawdź pliki na '%2$s'"</string>
+    <string name="sp_memory_full_diag_2_no_file_manager_NORMAL">"Na %1$s nie znajduje się wystarczająco dużo miejsca.
+Zwolnij więcej pamięci w %1$s podłączając telefon do komputera lub włączając menedżera plików."</string>
+    <string name="sp_memory_full_diag_3_NORMAL">"Wszystkie pamięci są zapełnione.
+Zwolnij więcej pamięci w %1$s podłączając telefon do komputera lub włączając menedżera plików.
+
+Uruchomić teraz menedżera plików?
+Sprawdź pliki na '%1$s'"</string>
+    <string name="sp_memory_full_diag_3_no_file_manager_NORMAL">"Wszystkie pamięci są zapełnione.
+Zwolnij więcej pamięci podłączając telefon do komputera lub włączając menedżera plików."</string>
+    <string name="sp_storage_full_popup_ics_title_NORMAL">Pamięć przechowywania jest pełna</string>
+    <string name="sp_storage_full_message_not_on_internal_NORMAL">Brak wystarczającej ilości pamięci na pamięć wewnętrzna</string>
+    <string name="sp_storage_full_message_not_on_internal_sto_NORMAL">Brak wystarczającej ilości pamięci wewnętrznej.</string>
+    <string name="sp_storage_full_message_not_on_sd_NORMAL">Za mało miejsca na karcie SD.</string>
+    <string name="sp_storage_full_message_save_to_internal_NORMAL">Plik został zapisany do pamięci wewnętrznej.</string>
+    <string name="sp_storage_full_message_save_to_internal_st_NORMAL">Plik został zapisany do pamięci wewnętrznej.</string>
+    <string name="sp_storage_full_message_save_to_sd_NORMAL">Pliki zapisane na karcie SD</string>
+    <string name="sp_storage_full_saving_file_NORMAL">Zapisywanie plików...</string>
+    <string name="sp_storage_full_free_NORMAL">Aby zwolnić pamięć skasuj nieużywane pliki.</string>
+    <string name="msg_save_progress">Zapisywanie...</string>
+    <string name="sp_storage_full_popup_ics_1_NORMAL">Brak miejsca w %s. Usuń pliki, by uwolnić miejsce.</string>
+    <string name="sp_storage_full_popup_ics_2_NORMAL">"Brak miejsca w %1$s. Plik zapisano w  %2$s. Usuń pliki, by uwolnić miejsce."</string>
+    <string name="sp_storage_full_popup_ics_3_NORMAL">Brak wystarczającej ilości pamięci. Usuń niepotrzebne pliki by zwolnić pamięć.</string>
+    <string name="sp_storage_full_popup_ics_6_NORMAL">Brak miejsca w %s. Zapisywanie pliku...</string>
+    <string name="sp_full_popup_ics_1_not_in_memory_NORMAL">Brak wystarczającej ilości pamięci na pamięć wewnętrzna. Aby zwolnić pamięć skasuj nieużywane pliki.</string>
+    <string name="sp_full_popup_ics_1_not_in_storage_NORMAL">Za mało miejsca na pamięci wewnętrznej. Aby zwolnić miejsce, usunąć nieużywane pliki.</string>
+    <string name="sp_full_popup_ics_1_not_sd_NORMAL">Za mało miejsca na karcie SD. Aby zwolnić miejsce, usunąć nieużywane pliki.</string>
+    <string name="sp_full_popup_ics_2_not_in_memory_to_sd_NORMAL">Brak wystarczającej ilości pamięci na pamięć wewnętrzna. Pliki zapisane na karcie SD. Aby zwolnić pamięć skasuj nieużywane pliki.</string>
+    <string name="sp_full_popup_ics_2_not_in_storage_to_sd_NORMAL">Brak wystarczającej ilości pamięci wewnętrznej. Pliki zapisane na karcie SD. Aby zwolnić pamięć skasuj nieużywane pliki.</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_memory_NORMAL">Za mało miejsca na karcie SD. Plik został zapisany do pamięci wewnętrznej. Aby zwolnić pamięć skasuj nieużywane pliki.</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_storage_NORMAL">Za mało miejsca na karcie SD. Plik został zapisany do pamięci wewnętrznej. Aby zwolnić pamięć skasuj nieużywane pliki.</string>
+    <string name="sp_full_popup_ics_6_not_in_memory_NORMAL">Brak wystarczającej ilości pamięci na pamięć wewnętrzna. Zapisywanie plików.</string>
+    <string name="sp_full_popup_ics_6_not_in_storage_NORMAL">Brak wystarczającej ilości pamięci wewnętrznej. Zapisywanie plików.</string>
+    <string name="sp_full_popup_ics_6_not_sd_NORMAL">Za mało miejsca na karcie SD. Zapisywanie plików...</string>
+    <string name="sp_internal_sd_prepared_NORMAL">Pamięć wewnętrzna jest gotowa.</string>
+    <string name="sp_external_sd_prepared_NORMAL">Karta SD jest przygotowana.</string>
+    <string name="sp_not_enough_memory_NORMAL">"Brak wystarczającej ilości pamięci we wszystkich Pamięciach.
+Zwolnij więcej pamięci."</string>
+    <string name="not_enough_space">Zastosuj nową zewnętrzną kartę pamięci lub zwolnij miejsce.</string>
+    <string name="sp_not_enough_int_sd_NORMAL">"Brak wystarczającej ilości pamięci w Pamięci wewnętrznej.
+Twój plik zostanie zapisany do karcie SD."</string>
+    <string name="sp_not_enough_add_space_NORMAL">"Brak wystarczającej ilości pamięci na karcie SD.
+Zwolnij więcej pamięci."</string>
+    <string name="sp_not_enough_sd_int_NORMAL">"Brak wystarczającej ilości pamięci na karcie SD.
+Twój plik zostanie zapisany do pamięci wewnętrznej."</string>
+    <string name="sp_media_scanning_NORMAL">"Skanowanie mediów. Spróbuj ponownie,
+po ukończeniu skanowania mediów."</string>
+    <string name="sp_media_scanning_ics_NORMAL">Spróbuj ponownie po przeskanowaniu plików multimedialnych.</string>
+    <string name="scanning_sdcard_media_files">Skanowanie plików multimedialnych na karcie SD...</string>
+    <string name="sp_ext_sdcard_not_exist_NORMAL">Karta SD nie istnieje. Przechowywanie zmienione na pamięć wewnętrzną.</string>
+    <string name="sp_sdremoved_change_int_NORMAL">Karta SD została wyjęta. Pamięć zmieniono na Pamięć wewnętrzna.</string>
+    <string name="sp_sd_card_removed_NORMAL">Karta SD usunięta. Włóż kartę SD.</string>
+    <string name="camera_closed_due_to_sdcard_removal">Karta SD została nieoczekiwanie usunięta. Aparat zostanie zamknięty.</string>
+    <string name="sp_sdcard_inserted_noti">Włożono kartę SD. Zapisać na kartę SD?</string>
+    <string name="sp_storage_always_ask_NORMAL">Zawsze pytaj</string>
+    <string name="sp_storage_noti_title_NORMAL">Powiadomienie</string>
+    <string name="title_not_enough_space">Pamięć pełna</string>
+    <string name="popup_storage_full_save">Pamięć pełna. Zapisywanie…</string>
+    <string name="sp_notenoughmemory_NORMAL">"Pamięć wewnętrzna lub karta SD jest pełna.
+Usuń część zawartości."</string>
+    <string name="sp_addspace_NORMAL">"Karta pamięci SD jest pełna.
+Usuń część zawartości."</string>
+    <string name="sp_mhl_cannot_use_camera_NORMAL">"Nie można użyć aparatu, gdy jest  podłączony przewód MHL."</string>
+    <string name="sp_mhl_cannot_show_preview_NORMAL">Nie można wyświetlić podglądu aparatu kiedy podłączony jest przewód MHL.</string>
+    <string name="msg_found_escape_char">Użyto niedozwolonego znaku</string>
+    <string name="sp_message_filename_limit_NORMAL">"Przekroczono limit długości nazwy pliku 
+(limit : %d znaków)"</string>
+    <string name="waiting_save_image">Proszę czekać...</string>
+    <string name="sp_image_size_front_NORMAL">Rozmiar obrazu przód</string>
+    <string name="image_size">Rozmiar obrazu</string>
+    <string name="scene_mode">Tryb krajobrazu</string>
+    <string name="scene_mode_portrait">Pionowy</string>
+    <string name="scene_mode_landscape">Poziomo</string>
+    <string name="scene_mode_sports">Sport</string>
+    <string name="scene_mode_night">Noc</string>
+    <string name="scene_mode_sunset">Zachód słońca</string>
+    <string name="sp_scene_mode_normal_NORMAL">Normalny</string>
+    <string name="white_balance">Balans bieli</string>
+    <string name="white_balance_incandescent">Mocne światło</string>
+    <string name="white_balance_sunny">Słoneczny</string>
+    <string name="white_balance_fluorescent">"Oświetlenie "</string>
+    <string name="white_balance_cloudy">Pochmurno</string>
+    <string name="sp_whitebalance_default_NORMAL">Automatycznie</string>
+    <string name="color_effect">Efekty koloru</string>
+    <string name="color_effect_mono">Monochromatyczny</string>
+    <string name="color_effect_negative">Negatyw</string>
+    <string name="color_effect_solarize">Solaryzacja</string>
+    <string name="color_effect_negative_sepia">Sepia w negatywie</string>
+    <string name="color_effect_blue">Niebieski</string>
+    <string name="color_effect_pastel">Pastele</string>
+    <string name="color_effect_posterize">Plakat</string>
+    <string name="color_effect_aqua">Akwarela</string>
+    <string name="sp_color_effect_none_cameraapp_NORMAL">Brak</string>
+    <string name="image_quality">Jakość obrazu</string>
+    <string name="quality_super_fine">Bardzo dobra</string>
+    <string name="quality_fine">Dobra</string>
+    <string name="sp_quality_normal_NORMAL">Normalny</string>
+    <string name="video_quality">Jakość wideo</string>
+    <string name="timer">Samowyzwalacz</string>
+    <string name="timer_1">1 sek</string>
+    <string name="timer_3">3 sek.</string>
+    <string name="timer_5">5 sek.</string>
+    <string name="timer_10">10 sek.</string>
+    <string name="shot_mode">Tryb zdjęcia</string>
+    <string name="shot_mode_continuous">Zdjęcia seryjne</string>
+    <string name="shot_mode_smile">Wykrywacz uśmiechu</string>
+    <string name="shot_mode_beauty">Retusz</string>
+    <string name="shot_mode_art">Zdjęcie artystyczne</string>
+    <string name="shot_mode_face_effect">Efekt twarzy</string>
+    <string name="shot_mode_cartoon">Komiks</string>
+    <string name="shot_mode_free_panorama">Panorama 360</string>
+    <string name="shot_mode_vr_panorama">"Tryb panoramiczny VR "</string>
+    <string name="shot_mode_burst">Zdjęcia seryjne</string>
+    <string name="sp_shot_mode_burst">Zdjęcia seryjne</string>
+    <string name="record_mode">Tryb nagrywania</string>
+    <string name="record_mode_WDR">"Nagrywanie WDR "</string>
+    <string name="record_mode_HDR">"Nagrywanie HDR "</string>
+    <string name="artshot_original">Oryginalne</string>
+    <string name="artshot_warm">Ciepłe</string>
+    <string name="artshot_cold">Zimne</string>
+    <string name="artshot_blackwhite">Czarno-biały</string>
+    <string name="face_effect_blur">Rozmycie</string>
+    <string name="face_effect_snow">Śnieg</string>
+    <string name="face_effect_shallow_focus">Płytka ostrość</string>
+    <string name="face_effect_big_head">Duża głowa</string>
+    <string name="face_effect_mosaic">Mozaika</string>
+    <string name="face_effect_fish_eye">Rybie oko</string>
+    <string name="face_effect_concave">Wklęsłość</string>
+    <string name="face_effect_funny_mask">Zabawna maska</string>
+    <string name="auto_review">Automatycz. podgląd</string>
+    <string name="shutter_sound">Dźwięk migawki</string>
+    <string name="shutter_sound_1">Dźwięk1</string>
+    <string name="shutter_sound_2">Dźwięk2</string>
+    <string name="shutter_sound_3">Dźwięk3</string>
+    <string name="shutter_sound_4">Dźwięk4</string>
+    <string name="geo_tagging">Tag lokalizacji</string>
+    <string name="sp_storage_NORMAL">Pamięć</string>
+    <string name="sp_default_memory_NORMAL">Karta SD i pamięć telefonu</string>
+    <string name="sp_internal_memory_NORMAL">Pamięć wewnętrzna</string>
+    <string name="sp_internal_storage_NORMAL">Pamięć wewnętrzna</string>
+    <string name="sp_external_memory_NORMAL">Karta SD</string>
+    <string name="sp_anti_banding_NORMAL">Zapobieganie prążkowaniu</string>
+    <string name="focus">Ostrość</string>
+    <string name="focus_macro">Makro</string>
+    <string name="focus_face_tracking">Śledzenie twarzy</string>
+    <string name="sp_quickfunction_focus_continuous_NORMAL">Ciągłe</string>
+    <string name="manual_for_camera">Ręczna</string>
+    <string name="flash">Lampa bł.</string>
+    <string name="sp_save_direction_NORMAL">Zapisz Kierunek</string>
+    <string name="zoom">Zbliżenie</string>
+    <string name="brightness">Jasność ekranu</string>
+    <string name="sp_mirror_image_NORMAL">Obraz lustrzany</string>
+    <string name="sp_normal_save_NORMAL">Normalny zapis</string>
+    <string name="sp_flipped_image_NORMAL">Odwrócony obraz</string>
+    <string name="sp_save_as_flipped_NORMAL">Zapisz obrócone</string>
+    <string name="sp_uplusbox_NORMAL">Aut. zapisywanie U+ Box</string>
+    <string name="sp_help_guide_uplusbox_desc_NORMAL">Zdjęcia zostaną wgrane do U+ Box. Mogą być naliczane opłaty transmisji danych podczas połączenia dane komórkowe.</string>
+    <string name="sp_uplusbox_NORMAL_network_error">Błąd sieci. Zdjęcia zostaną automatycznie wgrane do U+ Box, gdy sieć będzie dostępna.</string>
+    <string name="sp_uplusbox_NORMAL_desc_on">Zdjęcia zostaną automatycznie wysłane do U+ Box.</string>
+    <string name="sp_voiceshutter_NORMAL">Zdjęcie połączenia</string>
+    <string name="sp_note_voiceshutter_NORMAL">Powiedz \"%s\" kiedy będziesz gotowy aby zrobić zdjęcie.</string>
+    <string name="sp_voiceshutter_say_NORMAL">Powiedz \"%s\" aby zrobić zdjęcie.</string>
+    <string name="sp_cheeseshutter_NORMAL">Włącz migawkę głosem</string>
+    <string name="sp_voiceshutter_word_whisky_NORMAL">Whisky</string>
+    <string name="sp_voiceshutter_sound_cheese_NORMAL">\"Cziz\"</string>
+    <string name="sp_voiceshutter_sound_smile_NORMAL">Smajl</string>
+    <string name="sp_note_voiceshutter_multi_sound_NORMAL">Wymów jedno ze słów aby wykonać zdjęcie.</string>
+    <string name="sp_note_voiceshutter_multi_sound_vzw_NORMAL">Funkcja głosowego wyzwalania migawki pozwala na automatyczne zrobienie zdjęcia po wypowiedzeniu jednego ze słów:</string>
+    <string name="sp_voiceshutter_multi_sound_say_NORMAL">Powiedz \"%1$s\", \"%2$s\", lub \"%3$s\" aby zrobić zdjęcie.</string>
+    <string name="sp_voiceshutter_multi_keyword_say_NORMAL">Powiedz \"%1$s\", \"%2$s\", \"%3$s\", \"%4$s\", lub \"%5$s\" aby zrobić zdjęcie.</string>
+    <string name="sp_voiceshutter_multi_keyword_say_4items">Powiedz \"%1$s\", \"%2$s\", \"%3$s\" lub \"%4$s\", aby zrobić zdjęcie.</string>
+    <string name="sp_voiceshutter_say_new_NORMAL">Powiedz \"%s\" aby zrobić zdjęcie.</string>
+    <string name="sp_voiceshutter_help_desc_NORMAL">Wykonaj zdjęcie poleceniem głosowym.</string>
+    <string name="video_size">Rozmiar wideo</string>
+    <string name="sp_video_duration_NORMAL">Czas</string>
+    <string name="video_voice">Głos</string>
+    <string name="sp_video_voice_unmute_NORMAL">Włącz</string>
+    <string name="sp_video_voice_mute_NORMAL">Wycisz</string>
+    <string name="show_recorded_video">Automatycz. podgląd</string>
+    <string name="share">Udostępnij</string>
+    <string name="sp_share_via_NORMAL">Udostępnij przez</string>
+    <string name="set_as">Ustaw</string>
+    <string name="sp_set_photo_as_NORMAL">Ustaw zdjęcie jako</string>
+    <string name="rename">Zmień</string>
+    <string name="sp_share_SHORT">Udost.</string>
+    <string name="sp_set_as_SHORT">Ustaw</string>
+    <string name="sp_rename_SHORT">Zmień</string>
+    <string name="sp_set_as_twoline_NORMAL">"Ustaw
+jako"</string>
+    <string name="sp_rename_twoline_NORMAL">"Zmień
+nazwę"</string>
+    <string name="edit">Edytuj</string>
+    <string name="sp_play_twoline_SHORT">Odtwórz</string>
+    <string name="sp_share_twoline_SHORT">Udost.</string>
+    <string name="sp_set_as_twoline_SHORT">"Ustaw
+jako"</string>
+    <string name="sp_rename_twoline_SHORT">"Zmień
+nazwę"</string>
+    <string name="sp_save_SHORT">Zapisz</string>
+    <string name="sp_save_complete_SHORT">Ukończono</string>
+    <string name="play">Odtwórz</string>
+    <string name="dlg_title_rename">Wprowadź nową nazwę</string>
+    <string name="dlg_title_delete">Usuń</string>
+    <string name="msg_multi_image_delete">Te pliki multimedialne zostaną usunięte.</string>
+    <string name="msg_image_delete">To zdjęcie zostanie usunięte.</string>
+    <string name="msg_video_delete">Ten plik wideo zostanie usunięty.</string>
+    <string name="popup_delete_done">Usunięto</string>
+    <string name="video_rec">NAGRAJ</string>
+    <string name="slow_motion">Zwolnione tempo</string>
+    <string name="sp_note_img_size_change_NORMAL">Rozmiar obrazu został zmieniony na %s</string>
+    <string name="note_image_deleted">Usunięty obraz</string>
+    <string name="note_shot_mode_change_normal">Tryb fotografowania został zmieniony na standardowy.</string>
+    <string name="note_timer_mode_off">Samowyzwalacz jest wyłączony.</string>
+    <string name="note_smile_shutter_started">Automatycznie wykonuje zdjęcie po wykryciu uśmiechu.</string>
+    <string name="note_focus_mode_set_to_auto">Wybrano automatyczny tryb zbliżenia.</string>
+    <string name="note_iso_set_to_auto">ISO ustawione na auto.</string>
+    <string name="sp_note_rec_size_change_NORMAL">Rozmiar wideo został ustawiony na %s</string>
+    <string name="note_select_image">Nie wybrano plików.</string>
+    <string name="sp_select_photo_NORMAL">Brak zdjęcia wybrane.</string>
+    <string name="note_color_effect_change">Efekt koloru jest wyłączony.</string>
+    <string name="sp_note_color_effect_change_NORMAL">Efekt kolorów jest %s.</string>
+    <string name="note_color_effect_change_none">Efekt kolorów jest wyłączony.</string>
+    <string name="note_white_balance_change">Wybrano automatyczny tryb balansu bieli.</string>
+    <string name="note_flash_change_off">Lampa błyskowa jest wyłączona.</string>
+    <string name="note_scene_mode_change">Wybrano automatyczny tryb krajobrazu.</string>
+    <string name="sp_note_scene_mode_change_NORMAL">Ustawiono tryb sceny na %s.</string>
+    <string name="note_scene_mode_change_normal">Ustawiono tryb sceny na normalny.</string>
+    <string name="sp_note_video_ori_land_NORMAL">Obsługiwane jest tylko nagrywanie w trybie poziomym do wysyłania jako MMS.</string>
+    <string name="sp_note_brightness_set_to_zero_NORMAL">Jasność ustawiona na zero</string>
+    <string name="error_not_enough_memory">Za mało pamięci</string>
+    <string name="error_not_exist_app">Nie znaleziono aplikacji</string>
+    <string name="error_preview_fail">Włączenie podglądu nie powiodło się</string>
+    <string name="error_write_file">Zapis pliku nie powiódł się</string>
+    <string name="error_rename">Nieprawidłowa nazwa; zmień nazwę.</string>
+    <string name="error_write_file_exist">Już istnieje</string>
+    <string name="error_unknown">Nieznany błąd</string>
+    <string name="error_low_battery">Niski poziom baterii. Aplikacja zostanie zamknięta.</string>
+    <string name="error_get_video_frame_fail">Nie można wyodrębnić klatki.</string>
+    <string name="error_video_recording">Nagrywanie wideo jest niedostępne podczas połączenia.</string>
+    <string name="error_video_recording_during_call">Nie można nagrywać filmu podczas połączenia.</string>
+    <string name="sp_error_call_camera_NORMAL">Nie można uruchomić aparatu podczas rozmowy</string>
+    <string name="error_camera_during_video_call">Nie można uruchomić aparatu podczas połączenia wideo.</string>
+    <string name="error_cannot_start_recording_with_audio">Nie można rozpocząć nagrywania, podczas gdy inna aplikacja używa dźwięku.</string>
+    <string name="error_sdm_server_setting">Nie można uruchomić aparatu. Funkcja jest zablokowana po stronie serwera.</string>
+    <string name="help_title">Pomoc aparatu</string>
+    <string name="sp_detail_view_NORMAL">Pokaż szczegóły</string>
+    <string name="help_swap_camera_menu_desc">Przełączanie pomiędzy główną i dodatkową kamerą.</string>
+    <string name="help_zoom_desc">Powiększ lub pomniejsz rozmiar tematów.</string>
+    <string name="help_brightness_desc">Ustawianie poziomu ekspozycji.</string>
+    <string name="sp_help_brightness_desc_video_NORMAL">Dopasowywanie poziomu jasności zdjęć.</string>
+    <string name="help_flash_desc">ustawienie lampy błyskowej.</string>
+    <string name="help_flash_auto_desc">Automatycznie ustawia lampę błyskową.</string>
+    <string name="sp_help_flash_off_desc_NORMAL">Lampa błyskowa wyłączona dla wszystkich zdjęć.</string>
+    <string name="sp_help_flash_on_desc_NORMAL">Lampa błyskowa włączona dla wszystkich zdjęć.</string>
+    <string name="help_camera_settings_desc">Dostosowanie ustawień aparatu.</string>
+    <string name="help_image_size_menu_desc">Ustawianie rozmiaru pliku obrazu.</string>
+    <string name="help_image_size_menu_5m_desc">To ustawienie jest najlepsze do drukowania zdjęć w formacie nie większym niż A4.</string>
+    <string name="help_image_size_menu_3m_desc">To ustawienie jest najlepsze do drukowania zdjęć w formacie nie większym niż A5.</string>
+    <string name="help_image_size_menu_2m_desc">To ustawienie jest najlepsze do drukowania zdjęć w formacie nie większym niż pocztówka.</string>
+    <string name="help_image_size_menu_1m_desc">To ustawienie jest najlepsze do drukowania zdjęć w formacie mniejszym niż pocztówka.</string>
+    <string name="help_image_size_menu_vga_desc">Najlepsza rozdzielczość do wysyłania zdjęć jako załączników wiadomości e-mail (zabiera mało pamięci).</string>
+    <string name="help_image_size_menu_qvga_desc">Najlepsza rozdzielczość do wysyłania zdjęć jako załączników wiadomości e-mail (zabiera mało pamięci).</string>
+    <string name="help_scene_mode_menu_desc">Ustawianie trybu odpowiedniego dla bieżącego środowiska.</string>
+    <string name="help_scene_mode_menu_auto_desc">Automatycznie wybiera najodpowiedniejszy tryb scen w oparciu o panujące warunki.</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_NORMAL">Przechwytywanie standardowych obrazów.</string>
+    <string name="help_scene_mode_menu_portrait_desc">Umożliwia robienie portretów.</string>
+    <string name="help_scene_mode_menu_landscape_desc">Przechwytywanie scen natury.</string>
+    <string name="help_scene_mode_menu_sports_desc">Przechwytywanie szybko poruszających się obrazów bez rozmycia.</string>
+    <string name="help_scene_mode_menu_night_desc">Przechwytywanie scen nocnych.</string>
+    <string name="help_scene_mode_menu_sunset_desc">Przechwytywanie scen zachodzącego słońca.</string>
+    <string name="help_iso_menu_desc">Regulacja czułości aparatu pod wpływem światła.</string>
+    <string name="help_white_balance_menu_desc">Wyświetlanie koloru w różnych warunkach oświetleniowych.</string>
+    <string name="help_white_balance_menu_auto_desc">Automatyczna regulacja koloru.</string>
+    <string name="help_white_balance_menu_incandescent_desc">Zapewnia lepszy efekt przy delikatnym oświetleniu.</string>
+    <string name="help_white_balance_menu_sunny_desc">Wykonywanie zdjęć w bezpośrednim świetle słonecznym.</string>
+    <string name="help_white_balance_menu_flourescent_desc">Zapewnia lepszy efekt przy świetle fluorescencyjnym.</string>
+    <string name="help_white_balance_menu_cloudy_desc">Zapewnia lepszy efekt w szare, pochmurne dni.</string>
+    <string name="help_color_effect_menu_desc">Dodaje artystyczne efekty do zdjęć.</string>
+    <string name="help_color_effect_menu_off_desc">Brak jakiegokolwiek efektu kolorystycznego.</string>
+    <string name="help_color_effect_menu_sepia_desc">Stosowanie efektu filtra sepii do zrobienia nostalgicznego zdjęcia.</string>
+    <string name="help_color_effect_menu_mono_desc">Stosowanie efektu filtra mono do zrobienia czarnobiałego zdjęcia.</string>
+    <string name="help_color_effect_menu_negative_desc">Stosowanie efektu filtra negatywu do odwrócenia kolorów zdjęcia.</string>
+    <string name="help_color_effect_menu_vivid_desc">Zastosowanie efektu żywych kolorów do zdjęć.</string>
+    <string name="help_color_effect_menu_negative_sepia_desc">Zastosowanie efektu negatywowego sepia do zdjęć.</string>
+    <string name="help_color_effect_menu_blue_desc">Zastosowanie efektu koloru niebieskiego do zdjęć.</string>
+    <string name="help_color_effect_menu_emboss_desc">Umożliwia zastosowanie efektu wytłoczenia do zdjęć.</string>
+    <string name="help_color_effect_menu_solarize_desc">Zastosowanie efektu solaryzacji do zdjęć.</string>
+    <string name="help_color_effect_menu_posterize_desc">Zastosowanie efektu posteryzacji do zdjęć.</string>
+    <string name="help_color_effect_menu_aqua_desc">Zastosowanie efektu koloru aqua do zdjęć.</string>
+    <string name="help_color_effect_menu_pastel_desc">Zastosowanie efektu koloru pastelowego do zdjęć.</string>
+    <string name="help_timer_menu_desc">Ustawianie opóźnienia pomiędzy naciśnięciem przycisku migawki a zrobieniem zdjęcia.</string>
+    <string name="help_shot_mode_menu_desc">Ustawianie różnych metod robienia zdjęć.</string>
+    <string name="help_shot_mode_menu_normal_desc">Przechwytywanie standardowych obrazów.</string>
+    <string name="help_shot_mode_menu_continuous_shot_desc">Wykonywanie sekwencji 6 zdjęć na raz.</string>
+    <string name="help_shot_mode_menu_smile_shot_desc">Automatycznie aktywuje migawkę po wykryciu uśmiechu.</string>
+    <string name="help_shot_mode_menu_beauty_shot_desc">Automatycznie usuwa plamy i niedoskonałości na twarzach, by wyglądały jasno i nieskazitelnie.</string>
+    <string name="help_shot_mode_menu_art_shot_desc">Umożliwia uzyskanie artystycznego efektu (czarno-białe, ekspozycja ciepłych i zimnych barw i inne).</string>
+    <string name="help_shot_mode_menu_panorama_shot_desc">Wykonywanie pełnego zakresu ciągłych zdjęć i składanie ich w jeden obraz.</string>
+    <string name="help_shot_mode_menu_face_effect_desc">Umożliwia stosowanie różnego rodzaju efektów dzięki funkcji wykrywania twarzy.</string>
+    <string name="help_shot_mode_menu_cartoon_shot_desc">Umożliwia wykonywanie zdjęć przypominających rysunek.</string>
+    <string name="help_shot_mode_menu_funny_mask_desc">Po wykryciu twarzy przez aparat automatycznie włącza dla niej efekt różnych animowanych masek.</string>
+    <string name="help_face_effect_blur_desc">Automatycznie wykrywa twarz i nadaje jej efekt rozmycia.</string>
+    <string name="help_face_effect_snow_desc">Tworzy efekt śniegu opadającego na głowę.</string>
+    <string name="help_face_effect_shallow_focus_desc">Automatycznie wyszukuje twarz i rozmywa ostrość tła.</string>
+    <string name="help_face_effect_big_face_desc">Powiększa twarz osoby na zdjęciu.</string>
+    <string name="help_face_effect_mosaic_desc">Po wykryciu twarzy przez aparat automatycznie włącza dla niej efekt mozaiki.</string>
+    <string name="help_face_effect_fish_eye_desc">Po wykryciu twarzy przez aparat automatycznie włącza dla niej efekt rybiego oka.</string>
+    <string name="help_face_effect_concave_desc">Po wykryciu twarzy przez aparat automatycznie włącza dla niej efekt wklęsłości.</string>
+    <string name="help_focus_desc">Ustawienie ostrości na wybranym obiekcie</string>
+    <string name="help_focus_auto_desc">Automatyczne ustawianie punktu centralnego.</string>
+    <string name="help_focus_macro_desc">Umożliwia fotografowanie obiektów z bliskiej odległości.</string>
+    <string name="help_focus_face_desc">Automatyczne wykrywanie twarzy i ustawianie ostrości.</string>
+    <string name="sp_help_focus_continuous_desc_NORMAL">Automatyczne wyszukiwanie obiektu w ruchu i ustawienie na nim ostrości.</string>
+    <string name="help_focus_manual_desc">Umożliwia ręczną zmianę ostrości za pomocą kontrolera na ekranie.</string>
+    <string name="help_image_quality_menu_desc">Ustawia jakość zdjęć (im wyższa jakość, tym więcej miejsca w pamięci zdjęcie zajmuje).</string>
+    <string name="help_image_quality_menu_super_fine_desc">Zapisywanie zdjęć w bardzo dobrej jakości.</string>
+    <string name="help_image_quality_menu_fine_desc">Zapisywanie zdjęć w dobrej jakości.</string>
+    <string name="help_image_quality_menu_normal_desc">Zapisywanie zdjęć w normalnej jakości.</string>
+    <string name="help_show_captured_image_menu_desc">Pokazywanie ostatnio zrobionego zdjęcia po zrobieniu zdjęcia.</string>
+    <string name="help_shutter_sound_menu_desc">Ustawia dźwięk odtwarzany podczas robienia zdjęcia.</string>
+    <string name="help_geo_tagging_menu_desc">Dodawanie informacji o położeniu geograficznym miejsca w którym wykonano zdjęcie.</string>
+    <string name="sp_help_anti_banding_menu_desc_NORMAL">Zapobiegaj przekłamaniom kolorów.</string>
+    <string name="sp_help_storage_NORMAL">Wybierz nośnik do zapisywania zdjęć.</string>
+    <string name="sp_help_storage_innner_NORMAL">Zapisz obrazy w pamięci wewnętrznej.</string>
+    <string name="sp_help_storage_sd_NORMAL">Zapisuj zdjęcia na karcie SD.</string>
+    <string name="help_video_title">Pomoc dotycząca kamery</string>
+    <string name="sp_help_video_title_NORMAL">Przewodnik wideo</string>
+    <string name="help_video_settings_desc">Regulacja ustawień wideo.</string>
+    <string name="help_video_size_desc">Ustawianie rozmiaru pliku filmowego.</string>
+    <string name="help_video_size_vga_desc">Zapisuje wideo do rozmiaru VGA.</string>
+    <string name="help_video_size_qvga_desc">Zapisywanie filmów w rozmiarze QVGA.</string>
+    <string name="help_video_size_176x144_desc">Najlepsza rozdzielczość do wysyłania zdjęć jako załączników wiadomości e-mail (zabiera mało pamięci).</string>
+    <string name="help_video_scene_mode_menu_desc">Dobiera ustawienia kolorów i światła odpowiednie do panujących warunków.</string>
+    <string name="help_video_scene_mode_menu_auto_desc">Automatycznie wybiera najodpowiedniejszy tryb scen w oparciu o panujące warunki.</string>
+    <string name="help_video_scene_mode_menu_portrait_desc">Najlepsze do nagrywania ludzi.</string>
+    <string name="help_video_scene_mode_menu_landscape_desc">Najlepsze do nagrywania scen natury, takich jak drzewa, kwiaty i niebo.</string>
+    <string name="help_video_scene_mode_menu_sports_desc">Najlepsze do nagrywania scen z szybko poruszającymi się obiektami (na przykład w sporcie).</string>
+    <string name="help_video_scene_mode_menu_night_desc">Umożliwia fotografowanie krajobrazu nocą. Małe szybkości migawki pozwalają na robienie zdjęć w nocy.</string>
+    <string name="help_video_scene_mode_menu_sunset_desc">Nagrywanie pięknej scenerii zachodu słońca.</string>
+    <string name="help_video_white_balance_menu_desc">Zapewnia lepszą jakość kolorów w różnych warunkach oświetleniowych.</string>
+    <string name="help_video_white_balance_menu_auto_desc">Automatycznie dostosowuje kolory.</string>
+    <string name="help_video_white_balance_menu_incandescent_desc">Przeznaczone do filmów rejestrowanych przy delikatnym oświetleniu.</string>
+    <string name="help_video_white_balance_menu_sunny_desc">Nagrywanie filmów w bezpośrednim świetle słonecznym.</string>
+    <string name="help_video_white_balance_menu_flourescent_desc">Przeznaczone do filmów rejestrowanych przy oświetleniu jarzeniowym.</string>
+    <string name="help_video_white_balance_menu_cloudy_desc">Przeznaczone do filmów rejestrowanych w cieniu lub w pochmurne dni.</string>
+    <string name="help_video_color_effect_menu_desc">Ustawianie specjalnych filtrów efektów kolorystycznych.</string>
+    <string name="help_video_color_effect_menu_off_desc">Brak jakiegokolwiek efektu kolorystycznego.</string>
+    <string name="sp_help_video_color_effect_menu_off_desc_NORMAL">Stosowanie efektu filtra braku koloru.</string>
+    <string name="help_video_color_effect_menu_sepia_desc">Stosowanie efektu filtra sepii do zrobienia nostalgicznego filmu.</string>
+    <string name="help_video_color_effect_menu_mono_desc">Stosowanie efektu filtra mono do robienia czarnobiałych filmów.</string>
+    <string name="help_video_color_effect_menu_negative_desc">Stosowanie efektu filtra negatywu do odwrócenia kolorów filmu.</string>
+    <string name="help_video_color_effect_menu_vivid_desc">Zastosowanie efektu żywych kolorów do filmów.</string>
+    <string name="help_video_color_effect_menu_negative_sepia_desc">Zastosowanie efektu negatywowego sepia do filmów.</string>
+    <string name="help_video_color_effect_menu_blue_desc">Zastosowanie efektu koloru niebieskiego do filmów.</string>
+    <string name="help_video_color_effect_menu_emboss_desc">Zastosowanie efektu wytłoczenia do filmów.</string>
+    <string name="help_video_color_effect_menu_solarize_desc">Zastosowanie efektu solaryzacji do filmów.</string>
+    <string name="help_video_color_effect_menu_posterize_desc">Zastosowanie efektu posteryzacji do filmów.</string>
+    <string name="help_video_color_effect_menu_aqua_desc">Zastosowanie efektu koloru aqua do filmów.</string>
+    <string name="help_video_color_effect_menu_pastel_desc">Zastosowanie efektu koloru pastelowego do filmów.</string>
+    <string name="help_video_duration_desc">Umożliwia określenie czasu trwania.</string>
+    <string name="help_video_duration_normal_desc">Bez ograniczeń.</string>
+    <string name="help_video_duration_mms_desc">Umożliwia wysyłanie zdjęć jako załączniki wiadomości MMS.</string>
+    <string name="help_video_quality_desc">Pozwala ustawić jakość filmów (im wyższa jakość, tym więcej miejsca w pamięci zajmuje film).</string>
+    <string name="help_video_quality_super_desc">Zapisywanie filmów w bardzo dobrej jakości.</string>
+    <string name="help_video_quality_fine_desc">Zapisywanie filmów w dobrej jakości.</string>
+    <string name="help_video_quality_normal_desc">Zapisywanie filmów w normalnej jakości.</string>
+    <string name="help_video_voice_desc">Ustawianie nagrywania dźwięku podczas nagrywania filmu.</string>
+    <string name="help_video_voice_unmute_desc">Zapis filmu z dźwiękiem.</string>
+    <string name="help_video_voice_mute_desc">Zapis filmu bez dźwięku.</string>
+    <string name="help_video_show_desc">Wyświetlaj zarejestrowany klip wideo.</string>
+    <string name="sp_help_mirror_img_desc_NORMAL">Zapisz jako obraz lustrzany.</string>
+    <string name="sp_help_videostorage_NORMAL">Wybierz pamięć do zapisu pliku wideo.</string>
+    <string name="sp_help_videostorage_in_NORMAL">Zapisz filmy w pamięci wewnętrznej.</string>
+    <string name="sp_help_videostorage_sd_NORMAL">Zapisz filmy na karcie SD.</string>
+    <string name="camera_application_stopped">Błąd aparatu.</string>
+    <string name="camera_driver_needs_reset">Nastąpił nieoczekiwany błąd aparatu. Uruchom go ponownie.</string>
+    <string name="geo_tag_dialog_title">GPS wyłączony.</string>
+    <string name="geo_tag_dialog_msg">"Włącz GPS z Ustawień by skorzystać z
+tagu lokalizacji."</string>
+    <string name="geo_tag_dialog_confirm">Ustawienia GPS</string>
+    <string name="sp_eula_popup_dialog_title_NORMAL">Ostrzeżenie prywatności</string>
+    <string name="sp_eula_popup_do_not_show_this_again_NORMAL">Nie pokazuj więcej</string>
+    <string name="sp_eula_popup_dialog_msg_NORMAL">Wybierając “Geotagowanie”, urządzenie załączy dane o położeniu do każdego zdjęcia. Zachowaj ostrożność kiedy wysyłasz, udostępniasz, przesyłasz lub kopiujesz zdjęcia.</string>
+    <string name="sp_eula_popup_dialog_msg_taglocation_NORMAL">Wybierając “Tag lokalizacji”, urządzenie załączy dane o położeniu do każdego zdjęcia. Zachowaj ostrożność kiedy wysyłasz, udostępniasz, przesyłasz lub kopiujesz zdjęcia.</string>
+    <string name="geo_tag_dialog_title_cdma">Usługi LBS wyłączone.</string>
+    <string name="geo_tag_dialog_msg_cdma">"Włącz usługi LBS z Ustawień by skorzystać z
+tagu lokalizacji."</string>
+    <string name="geo_tag_dialog_confirm_cdma">Ustawienia usług LBS</string>
+    <string name="sp_video_length_dialog_title_NORMAL">Długość filmu</string>
+    <string name="sp_video_length_dialog_msg_NORMAL">Wybierz tryb nagrywania</string>
+    <string name="sp_video_length_dialog_long_NORMAL">Długi film</string>
+    <string name="sp_video_length_dialog_title_v2_NORMAL">Tryb nagrywania</string>
+    <string name="sp_video_length_dialog_mms_NORMAL">MMS film</string>
+    <string name="camera_error_title">Błąd aparatu</string>
+    <string name="cannot_connect_camera">Nie można nawiązać połączenia z aparatem.</string>
+    <string name="sp_notiintsd_NORMAL">Twój plik zostanie zapisany do pamięci wewnętrznej, przejdź do Ustawienia > Karta SD i pamięć telefonu.</string>
+    <string name="sp_notiextsd_NORMAL">Twój plik zostanie zapisany do pamięci wewnętrznej, przejdź do Ustawienia > Karta SD i pamięć telefonu.</string>
+    <string name="pref_camera_settings_category">Ustawienia aparatu</string>
+    <string name="pref_camcorder_settings_category">Ustawienia kamery</string>
+    <string name="sp_Camcorder_NORMAL">Kamera</string>
+    <string name="camcorder_activity_name">Kamera</string>
+    <string name="sp_close_app_NORMAL">Naciśnij przycisk powrotu jeszcze raz, aby zamknąć aparat.</string>
+    <string name="sp_popup_storage_limitsize_NORMAL">"Osiągnięto maksymalny rozmiar nagrania wideo.
+Plik został zapisany."</string>
+    <string name="sp_popup_storage_limit_with_exact_size_NORMAL">"Osiągnięto maksymalny rozmiar (%s) nagrania wideo.
+Plik został zapisany."</string>
+    <string name="sp_popup_storage_maxsize_NORMAL">"Osiągnięto maksymalny rozmiar nagrywania . 
+Nagrywanie zakończy się za chwilę."</string>
+    <string name="sp_popup_storage_maximum_size_NORMAL">"Osiągnięto maksymalny rozmiar nagrywania (%s). 
+Nagrywanie zakończy się za chwilę."</string>
+    <string name="sp_sd_card_read_only_NORMAL">Karta SD jest podłączona tylko do odczytu</string>
+    <string name="sp_MMS_REC_limit_NORMAL">Maksymalny czas nagrywania dla wysyłania wideo MMS to %d sekund</string>
+    <string name="sp_popup_character_limit_NORMAL">Nieprawidłowy znak.</string>
+    <string name="sp_filename_already_exists_NORMAL">Nazwa pliku już istnieje.</string>
+    <string name="sp_message_recording_limit_NORMAL">Limit rozmiaru pliku załącznika jest mniejszy niż minimalny rozmiar nagrywania.</string>
+    <string name="sp_help_toast_smart_shutter_NORMAL">Inteligentna migawka zapewnia stabilizacje zdjęć w przypadku niezamierzonych drgań aparatu.</string>
+    <string name="sp_help_scene_mode_menu_smart_shutter_desc_NORMAL">Przechwytywanie szybko poruszających się obrazów bez rozmycia w pomieszczeniach.</string>
+    <string name="sp_help_scene_mode_menu_action_desc_NORMAL">Rób zdjęcia szybko poruszających się obiektów bez rozmycia.</string>
+    <string name="sp_help_shot_mode_beauty_desc_NORMAL">Robienie zdjęć z efektem rozjaśnienia i rozmycia.</string>
+    <string name="sp_help_shot_mode_hdr_desc_NORMAL">Mieszanie kilku zdjęć tej samej sceny o wysokim kontraście przy różnych czasach ekspozycji dla uzyskania bardziej naturalnego wyglądu.</string>
+    <string name="sp_help_shot_mode_slow_motion_desc_NORMAL">Nagrywanie szybko poruszających się obiektów do powolnego odtwarzania.</string>
+    <string name="sp_help_shot_mode_time_machine_desc_NORMAL">Robienie sekwencji sześciu zdjęć na raz, przed dotknięciem klawisza migawki.</string>
+    <string name="sp_help_shot_mode_time_machine_5_picture_NORMAL">Robienie sekwencji pięciu zdjęć na raz przed dotknięciem klawisza migawki</string>
+    <string name="sp_shot_mode_shot_and_clear">Upiększanie</string>
+    <string name="sp_scene_mode_smart_shutter_NORMAL">Inteligentna migawka</string>
+    <string name="sp_scene_mode_action_NORMAL">Akcja</string>
+    <string name="sp_shot_mode_beauty_NORMAL">Retusz</string>
+    <string name="sp_shot_mode_time_machine_NORMAL">Przedział czasu maszynowego</string>
+    <string name="sp_shot_mode_live_desc_NORMAL">Przechwytywanie obrazów podczas nagrywania filmów.</string>
+    <string name="sp_shot_mode_live_effect_desc_NORMAL">Zmienianie tła i dodawanie efektów przejścia do zmiany cech twarzy podczas nagrywania filmów.</string>
+    <string name="dual_camera">Podwójny aparat</string>
+    <string name="sp_focus_infinity_NORMAL">Nieskończoność</string>
+    <string name="sp_high_temp_action_NORMAL">Wyjmij akumulator lub przenieś telefon w chłodne miejsce.</string>
+    <string name="sp_high_temperature_detection_NORMAL">Wykryto zbyt wysoką temp.</string>
+    <string name="sp_attach_file_size_exceeded_NORMAL">Przekroczono maksymalny rozmiar pliku załącznika.</string>
+    <string name="sp_high_temp_action_on_enter_NORMAL">Wykryto zbyt wysoką temp. Nie można uruchomić aparatu fotograficznego.</string>
+    <string name="sp_high_temp_action_on_recording_NORMAL">Wykryto zbyt wysoką temp. Nagrywanie filmów zostanie zatrzymane.</string>
+    <string name="high_temp_action_on_recording">Przerwano nagrywanie filmu, aby utrzymać optymalną temperaturę telefonu. Spróbuj ponownie później.</string>
+    <string name="sp_warning_high_temperature_on_recording_NORMAL">Używaj ostrożnie. Robienie zdjęć podczas ładowania może zwiększyć temperaturę twojego urządzenia</string>
+    <string name="warning_high_temp_action_flash_off">Lampa błyskowa została wyłączona, aby utrzymać optymalną temperaturę telefonu.</string>
+    <string name="sp_silly_face_title_NORMAL">Głupie miny</string>
+    <string name="sp_big_eyes_NORMAL">Duże oczy</string>
+    <string name="sp_big_mouth_NORMAL">Duże usta</string>
+    <string name="sp_squeeze_NORMAL">Ściśnij</string>
+    <string name="sp_big_nose_NORMAL">Wielki nos</string>
+    <string name="sp_small_eyes_NORMAL">Małe oczy</string>
+    <string name="sp_small_mouth_NORMAL">Małe usta</string>
+    <string name="sp_background_title_NORMAL">Tła</string>
+    <string name="sp_in_space_NORMAL">Kosmos</string>
+    <string name="sp_sunset_NORMAL">Zachód</string>
+    <string name="sp_choose_gallery_NORMAL">Wideo</string>
+    <string name="sp_bg_replacement_message_NORMAL">"Ustaw urządzenie na stabilnej powierzchni, i upewnij się, że nie ma za tobą żadnego ruchu.
+
+Następnie wyjdź z kadru aparatu."</string>
+    <string name="sp_bg_replacement_message_v2_NORMAL">"Trzymaj urządzenie w taki sposób, aby nie potrząsać ani nie ruszać nim.
+Kiedy będziesz gotowy aby nagrać film, pozwól aby obiekt, który ma być nagrywany znalazł się w polu widzenia kamery."</string>
+    <string name="sp_pano_too_fast_prompt_NORMAL">Zbyt szybko</string>
+    <string name="sp_live_shot_NORMAL">Zdjęcie na żywo</string>
+    <string name="sp_live_effect_NORMAL">Efekt na żywo</string>
+    <string name="dual_recording">Podwójne nagrywanie</string>
+    <string name="smart_zoom">Inteligentny zoom</string>
+    <string name="tracking_zoom">Śledzenie w przybliżeniu</string>
+    <string name="anti_shaking">Anty-wstrząs</string>
+    <string name="sp_audio_zoom_NORMAL">Przybliżenie dźwięku</string>
+    <string name="sp_tracking_focus_NORMAL">Śledzenie ostrości</string>
+    <string name="sp_video_recording_normalmode_NORMAL">Nagrywanie standardowego filmu.</string>
+    <string name="sp_note_shot_mode_setting_change_NORMAL">Ustawienia zoptymalizowane dla trybu %s.</string>
+    <string name="sp_help_swap_camera_menu_desc_v2_NORMAL">Przełącz pomiędzy głównym i przednim aparatem.</string>
+    <string name="sp_help_light_frame_desc_v2_NORMAL">Włącz lampę błyskową, aby robić jaśniejsze zdjęcia przy mniejszym podglądzie podczas korzystania z przedniej kamery.</string>
+    <string name="sp_help_zoom_desc_v2_NORMAL">Przybliż/Oddal</string>
+    <string name="sp_help_brightness_desc_v2_NORMAL">Dopasuj poziom ekspozycji</string>
+    <string name="sp_help_flash_desc_v2_NORMAL">Ustaw lampę błyskową</string>
+    <string name="sp_help_flash_auto_desc_v2_NORMAL">Wyłącz lampę błyskową kiedy nie jest potrzebna</string>
+    <string name="sp_help_flash_off_desc_v2_NORMAL">Lampa błyskowa wyłączona</string>
+    <string name="sp_help_flash_on_desc_v2_NORMAL">Lampa błyskowa włączona</string>
+    <string name="sp_help_camera_settings_desc_v2_NORMAL">Dostosowanie ustawień aparatu.</string>
+    <string name="sp_help_focus_desc_v2_NORMAL">Ustaw ostrość</string>
+    <string name="sp_help_focus_auto_desc_v2_NORMAL">Standardowy autofocus</string>
+    <string name="sp_help_focus_face_desc_v2_NORMAL">Automatycznie wykrywa twarze i ustawiania na nich ostrość.</string>
+    <string name="sp_help_image_size_menu_desc_v2_NORMAL">Ustaw rozmiar obrazu</string>
+    <string name="sp_help_scene_mode_menu_desc_v2_NORMAL">Wybierz preferowany tryb</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_v2_NORMAL">Zrób zwykłe zdjęcia</string>
+    <string name="sp_help_scene_mode_menu_portrait_desc_v2_NORMAL">Rób zdjęcia ludzi</string>
+    <string name="sp_help_scene_mode_menu_landscape_desc_v2_NORMAL">Rób zdjęcia scen natury</string>
+    <string name="sp_help_scene_mode_menu_sports_desc_v2_NORMAL">Rób zdjęcia szybko poruszających się obiektów bez rozmycia.</string>
+    <string name="sp_help_scnen_mode_menu_sunset_desc_v2_NORMAL">Zrób zdjęcia zachodu słońca i scen oświetlonych z tyłu</string>
+    <string name="sp_help_scene_mode_menu_night_desc_v2_NORMAL">Rób zdjęcia w ciemnych miejscach</string>
+    <string name="sp_help_iso_menu_desc_v2_NORMAL">Zwiększ czułość podczas robienia zdjęć w słabym oświetleniu aby zmniejszyć rozmycie spowodowane drganiami aparatu lub ruchem obiektu.</string>
+    <string name="sp_help_withe_balance_desc_v2_NORMAL">Dopasuj temperaturę kolorów obrazu które są ustawiane odpowiednio do źródła światła</string>
+    <string name="sp_help_white_balance_auto_desc_v2_NORMAL">Automatycznie dopasowano balans bieli do warunków oświetlenia</string>
+    <string name="sp_help_withe_balance_incandescent_desc_v2_NORMAL">Używaj w świetle żarówki</string>
+    <string name="sp_help_white_balance_sunny_desc_v2_NORMAL">Używaj w słońcu</string>
+    <string name="sp_help_white_balance_flourescent_desc_v2_NORMAL">Używaj w świetle fluorescencyjnym</string>
+    <string name="sp_help_white_balance_cloudy_desc_v2_NORMAL">Używaj w cieniu i pochmurne dni</string>
+    <string name="sp_help_withe_balance_incandescent_desc_camera_v2_NORMAL">Używaj w świetle żarówki.</string>
+    <string name="sp_help_white_balance_sunny_desc_camera_v2_NORMAL">Używaj w słońcu.</string>
+    <string name="sp_help_white_balance_flourescent_desc_camera_v2_NORMAL">Używaj w świetle fluorescencyjnym.</string>
+    <string name="sp_help_white_balance_cloudy_desc_camera_v2_NORMAL">Używaj w cieniu i pochmurne dni.</string>
+    <string name="sp_help_color_effect_desc_v2_NORMAL">Ustaw efekt filtra koloru podczas robienia zdjęć</string>
+    <string name="sp_help_color_effect_off_desc_v2_NORMAL">Brak efektu koloru</string>
+    <string name="sp_help_color_effect_mono_desc_v2_NORMAL">Rób zdjęcia w czerni i bieli</string>
+    <string name="sp_help_color_effect_sepia_desc_v2_NORMAL">Rób zdjęcia w sepii</string>
+    <string name="sp_help_color_effect_negative_desc_v2_NORMAL">Rób zdjęcia w negatywie</string>
+    <string name="sp_help_timer_menu_desc_v2_NORMAL">Ustaw 3, 5 lub 10 sekund opóźnienia przed zrobieniem zdjęcia</string>
+    <string name="sp_help_shot_mode_desc_v2_NORMAL">Ustaw różne tryby wykonywania zdjęć</string>
+    <string name="sp_help_shot_mode_normal_desc_v2_NORMAL">Tryb normalny</string>
+    <string name="sp_help_shot_mode_continuous_shot_desc_v2_NORMAL">Zrób 6 zdjęć w szybkiej serii</string>
+    <string name="sp_help_shot_mode_panorama_shot_desc_v2_NORMAL">Zrób ciągłą serię pionowych zdjęć które zostaną połączone w jeden obraz panoramiczny</string>
+    <string name="sp_help_shutter_sound_menu_desc_v2_NORMAL">Ustaw efekt dźwiękowy podczas robienia zdjęcia</string>
+    <string name="sp_help_show_captured_image_menu_desc_v2_NORMAL">Pokazuj zdjęcie natychmiast po jego zrobieniu</string>
+    <string name="sp_help_geo_tagging_menu_desc_v2_NORMAL">Dodaj informacje o położeniu geograficznym miejsca w którym zrobiono zdjęcie</string>
+    <string name="sp_help_storage_v2_NORMAL">Wybierz nośnik do zapisywania zdjęć.</string>
+    <string name="sp_help_storage_inner_v2_NORMAL">Zapisuj zdjęcia w pamięci wewnętrznej.</string>
+    <string name="sp_help_storage_sd_v2_NORMAL">Zapisuj zdjęcia na karcie SD.</string>
+    <string name="sp_help_video_size_desc_v2_NORMAL">Ustaw rozmiaru pliku filmowego</string>
+    <string name="sp_help_video_color_effect_desc_v2_NORMAL">Ustaw efekt filtra koloru podczas nagrywania filmów</string>
+    <string name="sp_help_video_color_effect_mono_desc_v2_NORMAL">Nagrywaj filmy w czerni i bieli</string>
+    <string name="sp_help_video_color_effect_sepia_desc_v2_NORMAL">Nagrywaj filmy w sepii</string>
+    <string name="sp_help_video_color_effect_negative_desc_v2_NORMAL">Nagrywaj filmy w negatywie</string>
+    <string name="sp_help_video_shot_mode_live_shot_desc_v2_NORMAL">Zrób zdjęcie podczas nagrywania filmu</string>
+    <string name="sp_help_video_shot_mode_live_effect_desc_v2_NORMAL">Zmień tło i dodaj efekty przejścia aby zmienić cechy twarzy podczas nagrywania filmów.</string>
+    <string name="sp_help_video_voice_desc_v2_NORMAL">Ustaw dźwięk podczas nagrywania filmu</string>
+    <string name="sp_help_video_voice_unmute_desc_v2_NORMAL">Nagrywaj filmy z dźwiękiem</string>
+    <string name="sp_help_video_voice_mute_desc_v2_NORMAL">Nagrywaj filmy bez dźwięku</string>
+    <string name="sp_help_video_show_desc_v2_NORMAL">Pokazuj film natychmiast po jego nagraniu</string>
+    <string name="sp_help_video_geo_tagging_menu_desc_v2_NORMAL">Dodaj informacje o położeniu geograficznym miejsca w którym zrobiono film</string>
+    <string name="sp_help_videostorage_v2_NORMAL">Wybierz pamięć do zapisu pliku wideo.</string>
+    <string name="sp_help_videostorage_in_v2_NORMAL">Zapisz filmy w pamięci wewnętrznej.</string>
+    <string name="sp_help_videostorage_sd_v2_NORMAL">Zapisz filmy na karcie SD.</string>
+    <string name="sp_help_shot_mode_beauty_desc_v2_NORMAL">Rób zdjęcia z efektami jasności i rozmycia</string>
+    <string name="sp_help_flipped_img_desc_NORMAL">Zapisz obraz obrócony pionowo</string>
+    <string name="sp_help_normal_img_desc_NORMAL_NORMAL">Zapisz normalny obraz</string>
+    <string name="sp_help_camera_reset_desc_v3_NORMAL">Ustawienia aparatu przywrócono do wart. domyślnych</string>
+    <string name="sp_help_flipped_img_desc_v3_NORMAL">Zapisz obrócone zdęcie</string>
+    <string name="sp_help_video_reset_desc_v3_NORMAL">Ustawienia wideo przywrócono do wartości domyślnych</string>
+    <string name="sp_deleted_images_NORMAL">Wybrane obrazy zostaną skasowane. Kontynuować?</string>
+    <string name="sp_deleted_photos_NORMAL">Wybrane obrazy zostaną skasowane. Kontynuować?</string>
+    <string name="sp_help_guide_beauty_shot_desc_NORMAL">Piękne ujęcie dopasowuje jasność i efekty rozmycia za pomocą paska sterowania na dole.</string>
+    <string name="sp_help_guide_beauty_shot_desc_list">Piękne ujęcie dopasowuje jasność i efekty rozmycia za pomocą paska sterowania na dole.</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL">"Sekwencja 6 ujęć zrobionych jedno po drugim.
+By łatwo wybrać zdjęcia użyj \"automatycznego podglądu."</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL_v2">"Sekwencja 6 ujęć zrobionych jedno po drugim.
+By łatwo wybrać zdjęcia użyj \"automatycznego podglądu."</string>
+    <string name="sp_help_guide_hdr_desc_NORMAL">HDR czyni obrazy bardziej realistycznymi przez wykorzystanie technologii wielokrotnej ekspozycji.</string>
+    <string name="sp_help_guide_hdr_desc_list">HDR czyni obrazy bardziej realistycznymi przez wykorzystanie technologii wielokrotnej ekspozycji.</string>
+    <string name="sp_help_guide_live_effect_desc_NORMAL">Efekty na żywo zapewniają różne efekty wizualne podczas robienia filmu. Wybierz efekt i rozpocznij nagrywanie.</string>
+    <string name="sp_help_guide_panorama_shot_desc_NORMAL">"Zdjęcia ciągłe są łączone w jeden obraz panoramiczny.
+Naciśnij przycisk migawki, aby rozpocząć i obróć aparat z jednego końca na drugi. Naciśnij przycisk migawki po raz kolejny aby zakończyć."</string>
+    <string name="sp_help_guide_free_panorama_shot_desc_NORMAL">"Zdjęcia ciągłe są łączone w jeden sferyczny 360 stopniowy obraz panoramiczny.
+Naciśnij przycisk migawki, aby rozpocząć i obracaj aparat w dowolnym kierunku."</string>
+    <string name="sp_help_guide_time_machine_desc_NORMAL">"Aparat fotograficzny przechwytuje kilka zdjęć sekundę przed naciśnięciem przycisku migawki. 
+Możesz bezpośrednio wybrać obrazy do zapisania i udostępnienia (z włączonym \"automatycznym przeglądaniem\")."</string>
+    <string name="sp_help_guide_time_machine_desc_new_NORMAL">Sprawdź i zapisz sceny które umknęły Ci przed wykonaniem ujęcia.</string>
+    <string name="sp_help_guide_time_machine_desc_new_vzw_NORMAL">Uwieczniaj wyjątkowe chwile, jeszcze zanim naciśniesz spust migawki.</string>
+    <string name="sp_help_popup_guide_time_machine_desc_new_NORMAL">Uwieczniaj wyjątkowe chwile, jeszcze zanim naciśniesz spust migawki.</string>
+    <string name="sp_help_guide_time_machine_new_desc_NORMAL">Aparat fotograficzny przechwytuje kilka zdjęć przed naciśnięciem przycisku migawki. Tylko wybrane zdjęcia zostaną zapisane.</string>
+    <string name="sp_image_SHORT">Obraz</string>
+    <string name="sp_video_SHORT">Wideo</string>
+    <string name="sp_will_be_deleted_NORMAL">%1$s zostanie usunięty. Kontynuować?</string>
+    <string name="sp_photo_will_be_deleted_NORMAL">Zdjęcie zostanie skasowane. Kontynuować?</string>
+    <string name="sp_video_will_be_deleted_NORMAL">Film zostanie skasowany. Kontynuować?</string>
+    <string name="sp_gps_settings_title_NORMAL">Usługa lokalizacji wyłączona</string>
+    <string name="sp_gps_setting_msg_NORMAL">W celu użycia geotagowania włącz ustalanie lokalizacji z użyciem sieci komórkowych lub satelit GPS.</string>
+    <string name="sp_geotagging_NORMAL">Geotagowanie</string>
+    <string name="sp_enable_app_msg_NORMAL">Chcesz włączyć %s, by skorzystać z tej funkcji?</string>
+    <string name="sp_photoimage_SHORT">Obraz</string>
+    <string name="sp_note_dialog_title_NORMAL">Informacja</string>
+    <string name="sp_saved_NORMAL">Zapisane</string>
+    <string name="sp_front_NORMAL">Przód</string>
+    <string name="sp_rear_NORMAL">Tył</string>
+    <string name="sp_timemachine_delete_warning_NORMAL">Stracisz zdjęcia które nie zostały zapisane. Kontynuować?</string>
+    <string name="sp_timemachine_bubble_popup_NORMAL">Aby wyświetlić brakujące chwile naciśnij ten przycisk.</string>
+    <string name="sp_timemachine_select_NORMAL">Zaznacz zdjęcia, które chcesz zachować.</string>
+    <string name="sp_timemachine_select_new_NORMAL">Wybierz zdjęcia, które chcesz zachować.</string>
+    <string name="sp_timemachine_save_guide">Wybierz zdjęcia, które chcesz zachować i wciśnij przycisk zapisz.</string>
+    <string name="sp_help_guide_time_catch_desc_NORMAL">Time catch shot zachowuje moment utracony przed wciśnięciem migawki</string>
+    <string name="sp_help_guide_time_catch_new_desc_NORMAL">Time catch shot zachowuje moment utracony przed wciśnięciem migawki. Tylko wybrane zdjęcia zostaną zapisane.</string>
+    <string name="sp_timemachine_bubble_popup_jp_NORMAL">Aby wyświetlić zdjęcia wykonane na 1 sekundę przed zwolnieniem przycisku migawki, naciśnij ten przycisk.</string>
+    <string name="sp_force_close_on_high_temperature_NORMAL">Aparat zostanie zamknięty z powodu wysokiej temperatury urządzenia.</string>
+    <string name="sp_screen_cannot_be_captured_NORMAL">Nie można przechwycić bieżącego ekranu</string>
+    <string name="sp_voice_shutter_help_desc">Zdjęcia są wykonywane za pomocą komendy głosowej</string>
+    <string name="sp_clear_shot_tab_guide">Dotknij jednego z obrysowanych obiektów, aby usunąć go ze zdjęcia.</string>
+    <string name="sp_clear_shot_tab_guide_v2">Dotknij obrysowany obiekt i naciśnij przycisk zapisywania.</string>
+    <string name="sp_clear_shot_not_found_object">Brak obiektu do usunięcia.</string>
+    <string name="sp_clear_shot_warning_popup">Stracisz zdjęcia, ponieważ proces nie został zapisany. Kontynuować?</string>
+    <string name="sp_clear_shot_warning_handshake">Trzymaj telefon stabilnie.</string>
+    <string name="sp_clear_shot_capture_failed">Nieudane</string>
+    <string name="intelligent_auto">Inteligentny automat</string>
+    <string name="sp_anti_shaking_help_desc">Zapobiegaj drżeniom podczas nagrywania obrazu, aby uzyskać film o wysokiej jakości.</string>
+    <string name="sp_photo_has_not_yet_been_saved_warning_popup">Zdjęcie nie zostało zapisane. Wyjść bez zapisywania?</string>
+    <string name="sp_wdr_recording_help_desc">Wykonaj film z wykorzystaniem różnych ekspozycji dla uzyskania filmu o optymalnym ustawieniu podświetlenia z wielokrotną kontrolą ekspozycji.</string>
+    <string name="sp_wdr_recording_help_desc_list">Wykonaj film z wykorzystaniem różnych ekspozycji dla uzyskania filmu o optymalnym ustawieniu podświetlenia z wielokrotną kontrolą ekspozycji.</string>
+    <string name="sp_burst_shot_help_desc">Wykonuj szybko do 20 ujęć przez naciśnięcie spustu migawki.</string>
+    <string name="sp_burst_shot_help_desc_list">Wykonuj szybko do 20 ujęć przez naciśnięcie spustu migawki.</string>
+    <string name="sp_clear_shot_help_desc">Zrób zdjęcie. Dotknij jednego z obrysowanych obiektów, aby usunąć go ze zdjęcia.</string>
+    <string name="sp_intelligent_auto_help_desc">Automatycznie określa charakterystykę sceny i wykonuje zdjęcie.</string>
+    <string name="sp_intelligent_auto_help_desc_popup">Automatycznie identyfikuje charakterystykę kadru i dopasuje opcje apertury i szybkości przesłony pozwalając zrobić zdjęcie.</string>
+    <string name="sp_tracking_focus_help_desc">Dotknij obiekt na ekranie podglądu, aby śledzić i zwiększyć jego ostrość.</string>
+    <string name="sp_dual_recording_help_desc">Ustaw przedni i tylny aparat fotograficzny na jednym ekranie aby nagrywać.</string>
+    <string name="sp_dual_recording_help_desc_v2">"1. Przeciągnij, aby przesunąć mały obraz.
+2. Dotknij i przeciągnij mały obraz, aby zmienić jego rozmiar.
+3. Naciśnij mały ekran, aby przełączać pomiędzy dużym a małym ekranem."</string>
+    <string name="sp_audio_zoom_help_desc_in_recording">Uszczypnij aby ulepszyć dźwięk dzięki funkcji przybliżania dźwięku</string>
+    <string name="sp_audio_zoom_help_desc">Zwiększ czułość dźwięku w obszarze przybliżania i zmniejsz szum podczas nagrywania.</string>
+    <string name="sp_audio_zoom_help_desc_v2">Przybliż dany obszar ekranu aby zwiększyć czułość dźwięku i zmniejszyć poziom szumów. Dostępne tylko w widoku krajobrazowym. Podczas korzystania z tej funkcji mikrofony boczne muszą być odsłonięte.</string>
+    <string name="sp_live_effect_help_desc">Zastosuj różne efekty wizualne podczas nagrywania filmu.</string>
+    <string name="sp_vrpanorama_help_desc">Zrób sekwencję zdjęć, aby stworzyć jeden przestrzenny obraz.</string>
+    <string name="sp_vrpanorama_help_desc_v2">"1. Wciśnij przycisk \"migawka\" by uruchomić tryb panoramiczny VR. 
+2. Dopasuj określony obszar do niebieskiej linii pomocniczej by zrobić zdjęcie. 
+3. Przemieść aparat by uchwycić następne obszary i zrób zdjęcia. Zdjęcia łączą się w jeden obraz."</string>
+    <string name="sp_dual_camera_help_desc">Ustaw przedni i tylny aparat fotograficzny na jednym ekranie aby nagrywać.</string>
+    <string name="sp_smart_zoom_help_desc">Powiększ określony obszar na małym ekranie podczas nagrywania wideo.</string>
+    <string name="sp_smart_zoom_help_desc_v2">"1. Przeciągnij obszar, który będziesz chciał powiększyć.
+2. Mały ekran pokazuje określony obszar w powiększeniu. Aby go przesunąć, dotknij i przytrzymaj."</string>
+    <string name="sp_intelligent_auto_mode_NORMAL">Inteligentny automatyczny tryb aparatu</string>
+    <string name="sp_normal_camera_mode_NORMAL">Normalny tryb aparatu.</string>
+    <string name="sp_center_NORMAL">Środek</string>
+    <string name="sp_border_NORMAL">Obramowanie</string>
+    <string name="sp_3d_depth_NORMAL">Głębia 3D</string>
+    <string name="sp_popup_change_view_to_landscape_for_3d_NORMAL">Zmień widok na tryb poziomy aby uzyskać optymalny efekt 3D.</string>
+    <string name="sp_entering_guide_NORMAL">"Aby edytować menu podręczne,
+naciśnij długo ikonę."</string>
+    <string name="sp_entering_clean_guide_NORMAL">Aby zapewnić odpowiednią jakość obrazu przed skorzystaniem z aplikacji aparatu upewnij się, że soczewki obiektywu są czyste.</string>
+    <string name="sp_entering_gallery_guide_NORMAL">"Aby szybko sprawdzić wykonane zdjęcie,
+naciśnij i przytrzymaj ikonę galerii."</string>
+    <string name="entering_guide_att">"Naciśnij i przytrzymaj ikonę, 
+aby edytować skróty."</string>
+    <string name="sp_entering_gallery_guide_vzw">"Aby szybko sprawdzić wykonane zdjęcie,
+naciśnij i przytrzymaj ikonę galerii."</string>
+    <string name="entering_guide_vzw">"Naciśnij i przytrzymaj ikonę, 
+aby edytować skróty."</string>
+    <string name="portrait_plus">Pionowo +</string>
+    <string name="help_guide_portrait_plus_shot_desc">Porter + sprawia, że skóra twarzy zdaje się jaśniejsza i gładsza.</string>
+    <string name="edit_quick_menu">Edytuj szybkie menu</string>
+    <string name="error_occurred">Wystąpił błąd.</string>
+    <string name="sp_info_empty_SHORT">Pusty</string>
+    <string name="accessibility_exit_edit_menu">Wyjdź z menu edycji</string>
+    <string name="accessibility_shutter_button">Migawka</string>
+    <string name="accessibility_review_thumbnail">Najnowsze zdjęcie lub film</string>
+    <string name="accessibility_camera_picker">Przełącznik aparatu i kamery</string>
+    <string name="accessibility_beautyshot_bar">Pasek sterownia Beauty shot</string>
+    <string name="accessibility_beautyshot_control">Sterowanie Upiększaniem</string>
+    <string name="accessibility_beautyshot_button">Przycisk sterownia Beauty shot</string>
+    <string name="accessibility_brightness_bar">Pasek sterowania jasnością</string>
+    <string name="accessibility_brightness_control">Sterowanie jasnością</string>
+    <string name="accessibility_brightness_button">Przycisk sterowania jasnością</string>
+    <string name="accessibility_manual_focus_bar">Pasek ręcznego sterowania ostrością</string>
+    <string name="accessibility_manual_focus_button">Ręczne sterowania ostrością</string>
+    <string name="accessibility_zoom_bar">Pasek sterowania powiększeniem</string>
+    <string name="accessibility_zoom_control">Sterowanie powiększeniem</string>
+    <string name="accessibility_zoom_button">Przycisk ster. powiększeniem</string>
+    <string name="accessiblity_free_panorama_retake">Zrób ponownie</string>
+    <string name="accessiblity_start_recording">Rozpocz. nagrywanie</string>
+    <string name="accessiblity_stop_recording">Zatrzymaj nagrywanie</string>
+    <string name="accessiblity_pause_recording">Wstrzymaj nagrywanie</string>
+    <string name="free_panorama_bubble_popup">Aby wyświetlić zdjęcie w widoku 360, dotknij ekranu.</string>
+    <string name="error_panorama_during_taking">Zatrzymano wykonywanie ujęcia panoramicznego aby można było ustawić aparat. Zdjęcie zapisano w Galerii.</string>
+    <string name="sp_date_stamp">Datownik</string>
+    <string name="audio_zoom_warning">Przybliżenie dźwięku jest aktywne tylko w widoku krajobrazowym.</string>
+    <string name="audio_zoom_disabled">Przybliżenie dźwięku wyłączone</string>
+    <string name="unable_to_use_qmemo">Nie można użyć %s</string>
+    <string name="sp_open_quick_camera_case">Otwórz Quick Camera Case</string>
+    <string name="message_received">Otrzymano nową wiadomość</string>
+    <string name="pd_message_processing">Przetwarzanie…</string>
+    <string name="not_available_during_remote_care">Niedostępne podczas korzystania z Remote Care.</string>
+    <string name="dual_camera_effect_menu_none">Brak</string>
+    <string name="dual_camera_effect_menu_stamp">Znaczek</string>
+    <string name="dual_camera_effect_menu_ovalblur">Rozmycie owalne</string>
+    <string name="dual_camera_effect_menu_instantpic">Natychmiast</string>
+    <string name="dual_camera_effect_menu_heart">Kształt serca</string>
+    <string name="dual_camera_effect_menu_star">Kształt gwiazdy</string>
+    <string name="dual_camera_effect_menu_window">Okno</string>
+    <string name="dual_camera_effect_menu_fisheye">Rybie oko</string>
+    <string name="dual_camera_effect_menu_cubism">Sześcian</string>
+    <string name="dual_camera_effect_menu_splitview1">Widok dzielony 1</string>
+    <string name="dual_camera_effect_menu_splitview2">Widok dzielony 2</string>
+    <string name="smart_zoom_object_tracking_focus_mode">Tryb śledzenia ostrości</string>
+    <string name="smart_zoom_manual_focus_mode">Normalny tryb ostrości</string>
+    <string name="sp_shot_mode_new_hdr">Wysoka dynamika tonalna (HDR)</string>
+    <string name="sp_help_guide_new_hdr_desc_list">Łączy‎ kilka zdjęć o różnych parametrach ekspozycji w jeden obraz, aby uzyskać lepszą jakość w kontrastowym oświetleniu.</string>
+    <string name="accessiblity_mode_button">Tryb.</string>
+    <string name="accessiblity_change_view_list_button">Widok listy</string>
+    <string name="accessiblity_change_view_grid_button">Widok siatki</string>
+    <string name="accessiblity_default_auto_button">Normalny</string>
+    <string name="mode_menu_camera_normal">Zrób zdjęcie z trybie normalnym aparatu.</string>
+    <string name="mode_menu_video_normal">Nagrywaj film w trybie normalnym.</string>
+    <string name="mode_menu_video_tracking_zoom">Śledzenie w przybliżeniu pozwala na wybranie obszaru, który będzie powiększony. Będziesz mógł go oglądać na małym ekranie podczas nagrywania filmu.</string>
+    <string name="help">Pomoc</string>
+    <string name="camera_quick_button_index_mode">Tryb</string>
+    <string name="panorama_guide_tap_shutter_to_start">Naciśnij przycisk migawki, aby rozpocząć.</string>
+    <string name="panorama_guide_move_in_one_direction">Przesuń w jednym kierunku</string>
+    <string name="panorama_guide_tap_to_finish">Dotknij przycisku Stop by zakończyć</string>
+    <string name="sp_down_NORMAL">W dół</string>
+    <string name="sp_up_NORMAL">Do góry</string>
+    <string name="sp_right_NORMAL">Do prawej</string>
+    <string name="sp_left_NORMAL">Do lewej</string>
+    <string name="volume_key">Przycisk głośności</string>
+    <string name="volume_key_capture_image">Zarejestruj</string>
+    <string name="volume_key_record_video">Nagraj</string>
+    <string name="volume_key_zoom">Zbliżenie</string>
+    <string name="volume_key_zoom_only">Zoom może zostać uruchomiony tylko w tylnej kamerze.</string>
+    <string name="volume_key_zoom_disable">Zoom nie jest obsługiwany w tym trybie.</string>
+    <string name="volume_key_zoom_disable_resolution">Przybliżanie nie jest obsługiwane w tej rozdzielczości.</string>
+    <string name="help_scene_mode_menu_night_desc_new">Rób zdjęcia w ciemności bez używania lampy błyskowej.</string>
+    <string name="sp_confirm_NORMAL">Potwierdź</string>
+    <string name="sp_dialog_change_setting">Zmień \"Włącz\" na \"Wyłącz\"</string>
+    <string name="sp_dialog_change_setting_au_cloud">Proszę anulować opcję \"Wyłącz\" aplikacji au.</string>
+    <string name="sp_auto_upload_NORMAL">Auto. wysyłanie</string>
+    <string name="sp_new_ux_help_guide_title_clear_shot">Przewodnik po trybie Shot&amp;Clear</string>
+    <string name="sp_new_ux_help_guide_title_hdr">Przewodnik po HDR</string>
+    <string name="sp_new_ux_help_guide_title_panorama">Przewodnik Panorama</string>
+    <string name="sp_new_ux_help_guide_title_vr_panorama">Przewodnik po funkcji panorama VR</string>
+    <string name="sp_new_ux_help_guide_title_burst_shot">Przewodnik po zdjęciach seryjnych</string>
+    <string name="sp_new_ux_help_guide_title_beauty_shot">Przewodnik po funkcji Beauty shot</string>
+    <string name="sp_new_ux_help_guide_title_portrait_plus">Portret + Przewod.</string>
+    <string name="sp_new_ux_help_guide_title_dual_camera">Przewodnik po opcji podwójnej kamery</string>
+    <string name="sp_new_ux_help_guide_title_time_machine_camera">Przewodnik Time catch shot</string>
+    <string name="sp_new_ux_help_guide_title_time_catch_shot">Przewodnik Time catch shot</string>
+    <string name="sp_new_ux_help_guide_title_intelligent_auto">Przewodnik po inteligentnym trybie auto</string>
+    <string name="sp_new_ux_help_guide_title_sports">Przewodnik po trybie sportowym</string>
+    <string name="sp_new_ux_help_guide_title_night">Tryb nocny-przewodnik</string>
+    <string name="sp_new_ux_help_guide_title_dual_recording">Przewodnik po podwójnym nagrywaniu</string>
+    <string name="sp_new_ux_help_guide_title_live_effect">Live effect - przewodnik</string>
+    <string name="sp_new_ux_help_guide_title_continuous_shot">Przewodnik po trybie ciągłym aparatu</string>
+    <string name="sp_new_ux_help_guide_title_hdr_recording">Przewodnik po nagrywaniu HDR</string>
+    <string name="sp_new_ux_help_guide_title_wdr_recording">Przewodnik po nagrywaniu WDR</string>
+    <string name="sp_new_ux_help_guide_title_voice_shutter">Przewodnik Voice shutter</string>
+    <string name="sp_new_ux_help_guide_title_cheese_shutter">Przewodnik po funkcji Cheese shutter</string>
+    <string name="sp_new_ux_help_guide_title_uplus_box">Przewodnik po opcji autozapisywania U+ Box</string>
+    <string name="sp_new_ux_help_guide_title_audio_zoom">Audio zoom - przewodnik</string>
+    <string name="sp_new_ux_help_guide_title_tracking_zoom">Przewodnik Tracking zoom</string>
+    <string name="sp_new_ux_help_guide_desc_clear_shot">"1. Zrób zdjęcie.
+2. Naciśnij dowolny z obrysowanych obiektów, aby usunąć go ze zdjęcia.
+3. Naciśnij przycisk zapisu, aby zachować zmiany."</string>
+    <string name="sp_new_ux_help_guide_desc_hdr">HDR łączy zdjęcia o różnych ekspozycjach w jedno, optymalne zdjęcie, kompensując tylne oświetlenie poprzez sterowanie różnymi ekspozycjami.</string>
+    <string name="sp_new_ux_help_guide_desc_panorama">"1. Naciśnij przycisk migawki, aby rozpocząć.
+2. Powoli przesuwaj urządzenie w jednym kierunku.
+3. Naciśnij przycisk stop, aby zakończyć."</string>
+    <string name="sp_new_ux_help_guide_desc_plane_panorama">"1. Naciśnij przycisk migawki, aby rozpocząć.
+2. Powoli przesuwaj urządzenie w jednym kierunku.
+3. Dopasuj obszar ostrości do niebieskiej linii, aby zrobić zdjęcie.
+4. Naciśnij przycisk stop, aby zakończyć."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama">"1. Wciśnij przycisk \"migawka\" by uruchomić tryb panoramiczny VR. 
+2. Dopasuj określony obszar do niebieskiej linii pomocniczej by zrobić zdjęcie. 
+3. Przemieść aparat by uchwycić następne obszary i zrób zdjęcia. Zdjęcia łączą się w jeden obraz."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new">"1. Dotknij przycisk migawki aby uruchomić tryb panoramy VR.
+2. Nakieruj niebieską linie na fotografowany obszar aby zrobić zdjęcie.
+3. Przesuwaj aparat aby objąć kolejny obszar i zrobić zdjęcie.
+Zdjęcia łączą się w jeden obraz.
+Podczas robienia zdjęć VR Panorama, nie stój zbyt blisko fotografowanego obiektu i zachowaj odpowiednią odległość."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new_specified">"1. Dotknij przycisk migawki aby uruchomić tryb panoramy VR.
+2. Nakieruj niebieską linie na fotografowany obszar aby zrobić zdjęcie.
+3. Przesuwaj aparat aby objąć kolejny obszar i zrobić zdjęcie.
+Zdjęcia łączą się w jeden obraz.
+Podczas robienia zdjęć VR Panorama, nie stój zbyt blisko fotografowanego obiektu i zachowaj odpowiednią odległość. (16 stóp lub 5 m)."</string>
+    <string name="sp_new_ux_help_guide_desc_light_frame">Rób jaśniejsze zdjęcia przy mniejszym podglądzie podczas korzystania z przedniej kamery.</string>
+    <string name="sp_new_ux_help_guide_desc_burst_shot">Wykonuj szybko do 20 ujęć przez naciśnięcie spustu migawki.</string>
+    <string name="sp_new_ux_help_guide_desc_beauty_shot">Beauty shot sprawia, że skóra twarzy jest jaśniejsza i gładsza.</string>
+    <string name="sp_new_ux_help_guide_desc_time_machine_camera">"1. Zrób zdjęcie, aby uruchomić Time machine camera.
+2. Naciśnij przycisk Galerii, aby przejrzeć brakujące chwile.
+3. Wybierz zdjęcia, które chcesz zachować.
+4. Naciśnij przycisk zapisu."</string>
+    <string name="sp_new_ux_help_guide_desc_time_catch_shot">"1. Zrób zdjęcie, aby uruchomić Time catch shot.
+2. Naciśnij przycisk Galerii, aby przejrzeć brakujące chwile.
+3. Wybierz zdjęcia, które chcesz zachować.
+4. Naciśnij przycisk zapisu."</string>
+    <string name="sp_new_ux_help_guide_desc_intelligent_auto">Automatycznie określa charakterystykę sceny i wykonuje zdjęcie.</string>
+    <string name="sp_new_ux_help_guide_desc_dual_recording">"1. Przeciągnij, aby przesunąć mały obraz.
+2. Dotknij i przeciągnij mały obraz, aby zmienić jego rozmiar.
+3. Naciśnij mały ekran, aby przełączać pomiędzy dużym a małym ekranem."</string>
+    <string name="sp_new_ux_help_guide_desc_live_effect">"1. Wybierz efekt, z którego chcesz skorzystać.
+2. Naciśnij przycisk nagrywania i rozpocznij nagrywanie."</string>
+    <string name="sp_new_ux_help_guide_desc_hdr_recording">Nagrywanie HDR udoskonala Twoje filmy dzięki sterowaniu wieloma ekspozycjami.</string>
+    <string name="sp_new_ux_help_guide_desc_wdr_recording">Nagrywanie w trybie WDR udoskonala Twoje filmy poprzez sterowanie wieloma różnymi ekspozycjami.</string>
+    <string name="sp_uhd_heat_warning">Nagrywanie wideo w trybie UHD dostępne przez maks. 5 minut, aby utrzymać temperaturę na odpowiednim poziomie. Nagrywanie wideo zostanie zakończone.</string>
+    <string name="sp_help_guide_title_face_tracking_led">Przewodnik śledzenia twarzy</string>
+    <string name="sp_help_guide_face_tracking_led">"Lampka powiadomień mruga, gdy zostaje wykryta twarz.
+Możesz zmienić to ustawienie w Ustawienia > Wyświetlacz > Dioda powiadomień LED."</string>
+    <string name="dialog_alert_title">Alarm</string>
+    <string name="camera_accessibility_indicator_message_remaining">Nowy SMS</string>
+    <string name="camera_accessibility_indicator_mms_remaining">Nowy MMS</string>
+    <string name="camera_accessibility_indicator_voice_mail_remaining">Nowa wiadomość poczty głosowej</string>
+    <string name="camera_accessibility_indicator_gps_connecting">Włączanie geotagowania</string>
+    <string name="camera_accessibility_indicator_geotagging_on">Geotagowanie włączone</string>
+    <string name="camera_accessibility_indicator_remaining_picture_count">Można zrobić jeszcze %s zdjęć.</string>
+    <string name="camera_accessibility_indicator_battery">Poziom naładowania baterii: %s procent</string>
+    <string name="camera_accessibility_indicator_storage">Zapisz w %s</string>
+    <string name="camera_accessibility_indicator_voice_shutter_on">%s włączone</string>
+    <string name="camera_accessibility_indicator_anti_shaking_on">Anty-wstrząs włączony</string>
+    <string name="camera_accessibility_thumbnail">Przejdź do galerii</string>
+    <string name="not_available_during_incoming_call">Niedostępne podczas połączenia przychodzącego.</string>
+    <string name="camera_error_occurred_try_again">Aparat chwilowo niedostępny z powodu tymczasowego problemu. Spróbuj ponownie.</string>
+    <string name="mode_menu_camera_refocus_new">Wyostrz zdjęcie ponownie po zrobieniu.</string>
+    <string name="sp_refocus_bubble_popup_NORMAL">Aby ponownie ustawić ostrość zdjęcia, dotknij tutaj.</string>
+    <string name="sp_postview_action_bar_menu_all_in_focus">Wszystko wyostrzone</string>
+    <string name="sp_refocus_preview_guide_message">Zbliż się do obiektu i trzymaj telefon stabilnie podczas robienia zdjęcia.</string>
+    <string name="sp_new_ux_help_guide_title_refocus">Przewodnik po Magic focus</string>
+    <string name="sp_camera_refocus_postview_allinfocus_message">Wyostrzone wszystkie elementy na zdjęciu</string>
+    <string name="sp_new_ux_help_guide_desc_refocus_new">"1. Zrób zdjęcie i dotknij przycisku Galerii.
+2. Aby zmienić wyostrzenie, dotknij obiektu lub wyreguluj je uchwytem.
+3. Dotknij przycisku [Zapisz], aby zapisać zdjęcie o zmienionej ostrości."</string>
+    <string name="sp_refocus_postview_message_new">Dotknij obiektu lub skorzystaj z uchwytu, aby zmienić ostrość, a następnie dotknij przycisk (#1#) w prawym górnym rogu.</string>
+    <string name="sp_refocus_postview_message_vzw_new">Dotknij obiektu lub skorzystaj z uchwytu, aby zmienić ostrość, a następnie dotknij przycisk [Zapisz] w prawym górnym rogu.</string>
+    <string name="sp_refocus_warning_popup">Ostrość nie została zmieniona. Czy wyjść z programu?</string>
+    <string name="gesture_guide">Złącz palce, aby zrobić zdjęcie</string>
+    <string name="sp_gesture_guide_msg_fist">Rozłóż pięść aby zrobić zdjęcie</string>
+    <string name="camera_help_activity_gesture_shot">Zdjęcie gestem</string>
+    <string name="sp_help_gestureshot_desc">Rób sobie zdjęcia gestem dłoni.</string>
+    <string name="sp_new_ux_help_guide_title_gestureshot">Przewodnik zdjęcia gestem</string>
+    <string name="sp_new_ux_gesture_shot_help_activity_desc">Zrób sobie zdjęcia gestem dłoni. Aby zrobić zdjęcie, podnieś dłoń do momentu aż przedni aparat wykryje ją, a na ekranie pojawi się prostokąt. Następnie zaciśnij dłoń aby zrobić zdjęcie.</string>
+</resources>

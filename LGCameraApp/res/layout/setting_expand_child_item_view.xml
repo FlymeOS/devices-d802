@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/setting_expand_child_item_layout" android:layout_width="fill_parent" android:layout_height="@dimen/expand_child_item.height">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/expand_child_item_icon_layout.width" android:layout_height="fill_parent">
+            <ImageView android:id="@id/setting_expand_child_item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:layout_gravity="start|center" android:id="@id/setting_expand_child_item_text" android:layout_width="@dimen/expand_child_item_text_width" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/expand_child_item_text_4.marginLeft" android:layout_marginEnd="@dimen/expand_child_item_text_4.marginRight" android:layout_alignParentStart="true" style="@style/expand_child_item_text" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/setting_expand_child_item_radioButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/expand_child_item_button.marginRight" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

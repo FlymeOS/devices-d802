@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/camera_customization_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/select_menu_item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/select_menu_item_icon_landscape.marginTop" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/select_menu_item_text.textSize" android:gravity="center_horizontal" android:id="@id/select_menu_item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/select_menu_item_text.marginTop" android:layout_below="@id/select_menu_item_icon" android:layout_centerHorizontal="true" android:paddingStart="@dimen/select_menu_item_text.padding" android:paddingEnd="@dimen/select_menu_item_text.padding" />
+</RelativeLayout>

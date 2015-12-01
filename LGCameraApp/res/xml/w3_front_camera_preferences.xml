@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceGroup camera:sharedPreferenceName="front_camera"
+  xmlns:camera="http://schemas.android.com/apk/res/com.lge.camera">
+    <ListPreference camera:key="@string/key_edit_shortcut" camera:title="@string/edit_quick_menu" camera:settingMenuIcons="@array/editShortcut_settingMenuIcons" camera:settingMenuCommand="com.lge.camera.command.ShowQuickFunctionDragDrop" camera:persist="false" />
+</PreferenceGroup>

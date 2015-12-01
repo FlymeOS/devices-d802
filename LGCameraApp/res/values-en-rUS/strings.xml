@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sp_lowbattery_MLINE">The battery level is too low to run the camera. Please charge your phone.</string>
+    <string name="sp_reset_message_NORMAL">Reset to default values?</string>
+    <string name="preparing_sd">Preparing SD card.</string>
+    <string name="sp_memory_full_diag_1_NORMAL">"Not enough memory in %1$s.
+Your file will be saved to %2$s.
+Free more memory in %3$s by connecting phone to PC or launching file manager.
+
+Launch file manager now?
+Check your files in '%4$s'"</string>
+    <string name="sp_memory_full_diag_1_no_file_manager_NORMAL">"Not enough memory in %1$s.
+Your file will be saved to %2$s.
+Free more memory in %3$s by connecting phone to PC or launching file manager."</string>
+    <string name="sp_memory_full_diag_2_NORMAL">"Not enough memory in %1$s.
+Free more memory in %1$s by connecting phone to PC or launching file manager.
+
+Launch file manager now?
+Check your files in '%2$s'"</string>
+    <string name="sp_memory_full_diag_2_no_file_manager_NORMAL">"Not enough memory in %1$s.
+Free more memory in %1$s by connecting phone to PC or launching file manager."</string>
+    <string name="sp_memory_full_diag_3_NORMAL">"Not enough memory in all memory.
+Free more memory by connecting phone to PC or launching file manager.
+
+Launch file manager now?
+Check your files in '%1$s'"</string>
+    <string name="sp_memory_full_diag_3_no_file_manager_NORMAL">"Not enough memory in all memory.
+Free more memory by connecting phone to PC or launching file manager."</string>
+    <string name="sp_storage_full_message_not_on_internal_sto_NORMAL">Not enough space on internal storage</string>
+    <string name="sp_full_popup_ics_1_not_in_storage_NORMAL">Not enough space on internal storage. To free up space, delete some files.</string>
+    <string name="sp_full_popup_ics_2_not_in_storage_to_sd_NORMAL">Not enough space on internal storage. File will be saved to SD card. To free up space, delete some files.</string>
+    <string name="sp_sd_card_removed_NORMAL">SD card has been removed. Insert the SD card again.</string>
+    <string name="sp_message_filename_limit_NORMAL">"File name length limit exceeded
+(limit : %d characters)"</string>
+    <string name="color_effect">Color effect</string>
+    <string name="color_effect_negative_sepia">Negative Sepia</string>
+    <string name="sp_save_direction_NORMAL">Save direction</string>
+    <string name="sp_uplusbox_NORMAL_desc_on">Photos will be automatically uploaded to U+ Box.</string>
+    <string name="sp_note_voiceshutter_NORMAL">Say \"%s\" when you get ready to take a photo.</string>
+    <string name="sp_voiceshutter_say_NORMAL">Say \"%s\" to take a photo.</string>
+    <string name="sp_voiceshutter_sound_whisky_NORMAL">Whiskey</string>
+    <string name="sp_voiceshutter_multi_sound_say_NORMAL">To take a photo, say \"%1$s,\" \"%2$s,\" or \"%3$s.\"</string>
+    <string name="sp_voiceshutter_multi_keyword_say_NORMAL">To take a photo, say \"%1$s,\" \"%2$s,\" \"%3$s,\" \"%4$s,\" \"%5$s.\"</string>
+    <string name="sp_voiceshutter_multi_keyword_say_4items">To take a photo, say \"%1$s,\" \"%2$s,\" \"%3$s,\" \"%4$s.\"</string>
+    <string name="sp_voiceshutter_say_new_NORMAL">To take a photo, say \"%s.\"</string>
+    <string name="sp_voiceshutter_help_desc_NORMAL">Take a photo with voice command.</string>
+    <string name="note_color_effect_change">Color effect is turned off.</string>
+    <string name="sp_note_color_effect_change_NORMAL">Color effect is turned %s.</string>
+    <string name="note_color_effect_change_none">Color effect is turned none.</string>
+    <string name="error_write_file_exist">Already exist!</string>
+    <string name="sp_error_call_camera_NORMAL">Unable to start camera during call.</string>
+    <string name="help_image_size_menu_vga_desc">Best for sending as an email attachment (takes small amount of memory).</string>
+    <string name="help_image_size_menu_qvga_desc">Best for sending as an email attachment (takes small amount of memory).</string>
+    <string name="help_white_balance_menu_desc">Rendering color under a wide range of lighting conditions.</string>
+    <string name="help_white_balance_menu_auto_desc">Automatically adjusting color.</string>
+    <string name="help_color_effect_menu_desc">Applies artistic effects to the pictures.</string>
+    <string name="help_color_effect_menu_off_desc">No color effect will be applied.</string>
+    <string name="help_color_effect_menu_negative_desc">Applying negative filter effect to invert the color of the picture.</string>
+    <string name="help_color_effect_menu_vivid_desc">Applies vividy color effect to pictures.</string>
+    <string name="help_color_effect_menu_negative_sepia_desc">Applies Negative sepia color effect to pictures.</string>
+    <string name="help_color_effect_menu_blue_desc">Applies Blue color effect to pictures.</string>
+    <string name="help_color_effect_menu_posterize_desc">Applies Posterize color effect to pictures.</string>
+    <string name="help_color_effect_menu_aqua_desc">Applies Aqua color effect to pictures.</string>
+    <string name="help_color_effect_menu_pastel_desc">Applies Pastel color effect to pictures.</string>
+    <string name="sp_help_anti_banding_menu_desc_NORMAL">Prevents color distortion.</string>
+    <string name="sp_help_storage_innner_NORMAL">Save images to internal memory.</string>
+    <string name="help_video_size_176x144_desc">Best for sending as an email attachment (takes small amount of memory).</string>
+    <string name="help_video_scene_mode_menu_desc">Finds the color and light settings appropriate for the current environment.</string>
+    <string name="help_video_white_balance_menu_desc">Improves color qualities under different lighting conditions.</string>
+    <string name="help_video_white_balance_menu_auto_desc">Automatically adjusts color.</string>
+    <string name="help_video_color_effect_menu_desc">Setting special colored filter effects.</string>
+    <string name="help_video_color_effect_menu_off_desc">No color effect will be applied.</string>
+    <string name="sp_help_video_color_effect_menu_off_desc_NORMAL">Applying no colored filter effect.</string>
+    <string name="help_video_color_effect_menu_negative_desc">Applying negative filter effect to invert the color of the video.</string>
+    <string name="help_video_color_effect_menu_vivid_desc">Applies vividy color effect to videos.</string>
+    <string name="help_video_color_effect_menu_negative_sepia_desc">Applies Negative sepia color effect to videos.</string>
+    <string name="help_video_color_effect_menu_blue_desc">Applies Blue color effect to videos.</string>
+    <string name="help_video_color_effect_menu_posterize_desc">Applies Posterize color effect to videos.</string>
+    <string name="help_video_color_effect_menu_aqua_desc">Applies Aqua color effect to videos.</string>
+    <string name="help_video_color_effect_menu_pastel_desc">Applies Pastel color effect to videos.</string>
+    <string name="camera_application_stopped">Camera Stopped.</string>
+    <string name="camera_driver_needs_reset">Camera has stopped unexpectedly,need to restart.</string>
+    <string name="sp_eula_popup_do_not_show_this_again_NORMAL">"Don't show this again"</string>
+    <string name="sp_eula_popup_dialog_msg_taglocation_NORMAL">By selecting \"Tag Location\", this device will attach, embed and store geographical location data within each picture. Use caution when you send, share, distribute, transmit or copy these pictures since they contain the location where the picture was taken.</string>
+    <string name="sp_video_length_dialog_title_NORMAL">Video Length</string>
+    <string name="pref_camera_settings_category">Camera Settings</string>
+    <string name="sp_popup_storage_maxsize_NORMAL">"Max. recording size reached.
+Recording will end soon."</string>
+    <string name="sp_MMS_REC_limit_NORMAL">Maximum recording time for MMS is about %d seconds.</string>
+    <string name="sp_message_recording_limit_NORMAL">Attachment file size limit is smaller than the min. recording size.</string>
+    <string name="sp_shot_mode_shot_and_clear">Shot &amp; Clear</string>
+    <string name="sp_bg_replacement_message_NORMAL">"Place your device on a steady surface and be sure there is no movement behind you.
+
+Then step out of the camera view."</string>
+    <string name="sp_help_scnen_mode_menu_sunset_desc_v2_NORMAL">Capture sunsets and backlit photos</string>
+    <string name="sp_help_withe_balance_desc_v2_NORMAL">Adjust image color temperatures that are preset according to the light source.</string>
+    <string name="sp_help_color_effect_desc_v2_NORMAL">Set colored filter effect when take pictures</string>
+    <string name="sp_help_color_effect_off_desc_v2_NORMAL">No color effect</string>
+    <string name="sp_help_color_effect_negative_desc_v2_NORMAL">Capture images with color inverted.</string>
+    <string name="sp_help_shot_mode_normal_desc_v2_NORMAL">Normal mode</string>
+    <string name="sp_help_video_color_effect_desc_v2_NORMAL">Set colored filter effect when record videos.</string>
+    <string name="sp_help_video_color_effect_negative_desc_v2_NORMAL">Record videos with color inverted.</string>
+    <string name="sp_help_video_voice_desc_v2_NORMAL">Set the sound while recording video</string>
+    <string name="sp_help_guide_beauty_shot_desc_NORMAL">Beauty shot makes your face look brighter and smoother.</string>
+    <string name="sp_help_guide_beauty_shot_desc_list">Beauty shot makes your face look brighter and smoother.</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL">Continuous shot takes six photos immediately after each other. To select photo easily, turn Auto review on.</string>
+    <string name="sp_help_guide_live_effect_desc_NORMAL">Live effect provides various visual effects when recording a video. Choose an effect, and begin recording.</string>
+    <string name="sp_help_guide_panorama_shot_desc_NORMAL">Creates a wide photo of a panoramic view. Hold the phone horizontally, tap the shutter to start and slowly sweep the camera across the scene.</string>
+    <string name="sp_help_guide_time_machine_desc_new_vzw_NORMAL">Capture the moments before you tap the shutter.</string>
+    <string name="sp_will_be_deleted_NORMAL">%1$s will be deleted. Delete?</string>
+    <string name="sp_photo_will_be_deleted_NORMAL">Photo will be deleted. Delete?</string>
+    <string name="sp_gps_setting_msg_NORMAL">Enable location services to use geotagging.</string>
+    <string name="sp_photoimage_SHORT">Picture</string>
+    <string name="sp_timemachine_bubble_popup_NORMAL">To review the missing moments, tap this button.</string>
+    <string name="sp_timemachine_save_guide">Select the photos that you want to keep and tap save button.</string>
+    <string name="sp_help_guide_time_catch_new_desc_NORMAL">Time catch shot captures the missing moment before tapping the shutter. Only selected photos will be saved.</string>
+    <string name="sp_timemachine_bubble_popup_jp_NORMAL">To display the photos that captured 1 second before the moment of shutter release, tap this button.</string>
+    <string name="sp_clear_shot_tab_guide_v2">Tap outlined object to remove and tap save button.</string>
+    <string name="sp_burst_shot_help_desc">Take up to 20 consecutive shots by holding down the shutter button.</string>
+    <string name="sp_burst_shot_help_desc_list">Take up to 20 consecutive shots by holding down the shutter button.</string>
+    <string name="sp_intelligent_auto_help_desc">Automatically identifies the characteristics of the scene and takes a photo.</string>
+    <string name="sp_dual_recording_help_desc_v2">"1. Drag to move small screen.
+2. Touch and hold to re-size small screen.
+3. Tap small screen to switch small and large screen."</string>
+    <string name="sp_audio_zoom_help_desc_in_recording">Zoom in to enhance the audio zooming sound</string>
+    <string name="sp_audio_zoom_help_desc_v2">Zoom in a certain area to increase sound sensitivity and decrease noise. Available only in landscape view. Keep the side microphones released while using this feature.</string>
+    <string name="sp_vrpanorama_help_desc_v2">"1. Tap shutter to start VR panorama mode.
+2. Fit focus area to blue guideline to take a photo.
+3. Move camera to catch another focus areas and take photos.
+The photos come together into one image."</string>
+    <string name="sp_smart_zoom_help_desc_v2">"1. Use magnifying glass to enlarge areas of the video.
+2. Small screen shows the enlarged area. Drag the screen to move it."</string>
+    <string name="sp_center_NORMAL">Center</string>
+    <string name="sp_entering_guide_NORMAL">"To edit quick menus,
+long press the icon."</string>
+    <string name="sp_entering_clean_guide_NORMAL">Please keep the camera lens clean for best image quality.</string>
+    <string name="sp_entering_gallery_guide_NORMAL">"To quickly check the taken photo,
+press and hold the gallery icon."</string>
+    <string name="sp_entering_gallery_guide_vzw">"To quickly check the taken photo,
+touch and hold the gallery icon."</string>
+    <string name="unable_to_use_qmemo">Unable to use %s</string>
+    <string name="sp_open_quick_camera_case">Open the Quick Camera Case</string>
+    <string name="accessiblity_mode_button">Mode.</string>
+    <string name="accessiblity_change_view_list_button">List view</string>
+    <string name="accessiblity_change_view_grid_button">Grid view</string>
+    <string name="accessiblity_default_auto_button">Normal</string>
+    <string name="mode_menu_camera_normal">Take a photo with normal camera mode.</string>
+    <string name="mode_menu_video_tracking_zoom">"Allows you to select a focus area to enlarge.
+View it in the small screen and take a video."</string>
+    <string name="panorama_guide_tap_shutter_to_start">Tap the shutter button to start</string>
+    <string name="volume_key_zoom_disable">Zoom not supported for this mode</string>
+    <string name="volume_key_zoom_disable_resolution">Zoom not supported for this resolution</string>
+    <string name="sp_dialog_change_setting_au_cloud">Please cancel \"Disable\" of au application.</string>
+    <string name="sp_new_ux_help_guide_title_hdr">Dynamic tone (HDR) guide</string>
+    <string name="sp_new_ux_help_guide_desc_clear_shot">"1. Take a photo.
+2. Tap any of the outlined objects to remove it from the photo.
+3. Tap save button to save."</string>
+    <string name="sp_new_ux_help_guide_desc_panorama">"1. Tap shutter button to start.
+2. Pan your phone slowly to one direction.
+3. Tap stop button when finished."</string>
+    <string name="sp_new_ux_help_guide_desc_plane_panorama">"1. Tap the shutter button to start.
+2. Pan your phone slowly in one direction.
+3. Fit visible area to blue guideline to take photo.
+4. Tap the stop button when finished."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama">"1. Tap shutter to start VR panorama mode.
+2. Fit focus area to blue guideline to take a photo.
+3. Move camera to catch another focus areas and take photos.
+The photos come together into one image."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new">"1. Tap shutter button to start VR panorama mode.
+2. Fit focus area to blue guide line to take a photo.
+3. Move camera to catch another focus areas and take photos.
+The photos come together into one image.
+When taking VR Panorama photos, do not stand too close to the subject and keep a proper distance."</string>
+    <string name="sp_new_ux_help_guide_desc_burst_shot">Take up to 20 consecutive shots by holding down the shutter button.</string>
+    <string name="sp_new_ux_help_guide_desc_beauty_shot">Beauty shot makes your face look brighter and smoother.</string>
+    <string name="sp_new_ux_help_guide_desc_time_machine_camera">"1. Take a photo to start Time machine camera.
+2. Tap gallery button to review the missing moments.
+3. Select the photos that you want to keep.
+4. Tap save button."</string>
+    <string name="sp_new_ux_help_guide_desc_time_catch_shot">"1. Take a photo to start Time catch shot.
+2. Tap gallery button to review the missing moments.
+3. Select the photos that you want to keep.
+4. Tap save button."</string>
+    <string name="sp_new_ux_help_guide_desc_dual_recording">"1. Drag to move small screen.
+2. Touch and hold to re-size small screen.
+3. Tap small screen to switch small and large screen."</string>
+    <string name="sp_new_ux_help_guide_desc_live_effect">"1. Select effect that you want to use.
+2. Tap record button and start recording."</string>
+    <string name="camera_accessibility_indicator_gps_connecting">Turning geotagging on</string>
+    <string name="camera_accessibility_indicator_battery">Battery at %s percent</string>
+    <string name="sp_refocus_postview_message_new">Tap an object or adjust handler to change focus, then tap (#1#) in upper right corner to save</string>
+    <string name="sp_refocus_postview_message_vzw_new">Tap an object or move the slide to change the focus. Then tap Save in the upper right corner.</string>
+    <string name="gesture_guide">Make a fist to take a photo</string>
+    <string name="sp_new_ux_gesture_shot_help_activity_desc">Take selfies with hand gesture. To take a photo, raise your hand until front camera detects it and a box appears on the screen. Then, make a fist to take a photo.</string>
+</resources>

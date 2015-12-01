@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pip_frame_sliding_drawer_menu_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lge.camera.components.MultiDirectionSlidingDrawer android:id="@id/pip_frame_sliding_drawer_menu_slide" android:layout_width="fill_parent" android:layout_height="fill_parent" lge:direction="bottomToTop" lge:handle="@id/pip_frame_sliding_drawer_menu_handle" lge:content="@id/pip_frame_sliding_drawer_menu_content" lge:bottomOffset="0.0dip" lge:topOffset="@dimen/pip_frame_menu.topOffset" lge:allowSingleTap="true" lge:animateOnClick="true"
+      xmlns:lge="http://schemas.android.com/apk/res/com.lge.camera">
+        <ImageView android:id="@id/pip_frame_sliding_drawer_menu_handle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dual_camera_handler_close_land" />
+        <LinearLayout android:orientation="vertical" android:id="@id/pip_frame_sliding_drawer_menu_content" android:background="@drawable/dual_camera_handler_bg_land" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+            <ScrollView android:scrollbarStyle="insideOverlay" android:id="@id/pip_frame_sliding_drawer_menu_scroll_view" android:scrollbars="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/pip_frame_menu_scrollview.height_land" android:layout_marginTop="@dimen/pip_frame_menu_scrollview.marginTop_land" android:layoutDirection="ltr" android:layout_marginStart="@dimen/pip_frame_menu_scrollview.marginLeft_land" android:layout_marginEnd="@dimen/pip_frame_menu_scrollview.marginRight_land">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/pip_frame_sliding_drawer_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr" />
+            </ScrollView>
+        </LinearLayout>
+    </com.lge.camera.components.MultiDirectionSlidingDrawer>
+</RelativeLayout>

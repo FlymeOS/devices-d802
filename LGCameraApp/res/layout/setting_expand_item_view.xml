@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/setting_expand_config_item_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:id="@id/setting_expand_parent_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0" android:layoutDirection="ltr">
+        <include android:id="@id/setting_expand_parent_item_1" android:visibility="invisible" layout="@layout/setting_expand_parent_view" />
+        <include android:id="@id/setting_expand_parent_item_2" android:visibility="invisible" layout="@layout/setting_expand_parent_view" />
+        <include android:id="@id/setting_expand_parent_item_3" android:visibility="invisible" layout="@layout/setting_expand_parent_view" />
+        <include android:id="@id/setting_expand_parent_item_4" android:visibility="gone" layout="@layout/setting_expand_parent_view" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/setting_expand_child_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

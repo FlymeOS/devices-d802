@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/camera_setting_list_normal_expand_first" android:maxLevel="0" />
+    <item android:drawable="@drawable/camera_setting_list_pressed_expand_first" android:maxLevel="1" />
+</level-list>

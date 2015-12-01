@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/camera_postview_shot_menu_allinfocus_off" android:id="@id/postview_allinfocus" android:title="@string/sp_postview_action_bar_menu_all_in_focus" android:showAsAction="always" />
+    <item android:id="@id/postview_save" android:title="@string/sp_save_SHORT" android:showAsAction="always" />
+</menu>

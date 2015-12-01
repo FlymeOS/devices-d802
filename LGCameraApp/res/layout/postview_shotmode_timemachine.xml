@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/postview_shotmode_timemachine" android:background="#ff000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/captured_image_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <ImageView android:id="@id/captured_image" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" android:layoutDirection="ltr" />
+        <ImageView android:id="@id/captured_ani_view" android:background="#00000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" android:layoutDirection="ltr" />
+        <RelativeLayout android:id="@id/clock_ani_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <ImageView android:id="@id/clock_bg_view" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_centerInParent="true" android:layoutDirection="ltr" />
+            <ImageView android:id="@id/clock_needle_minute_view" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_centerInParent="true" android:layoutDirection="ltr" />
+            <ImageView android:id="@id/clock_needle_sec_view" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_centerInParent="true" android:layoutDirection="ltr" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/timemachine_gallery_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:layout_gravity="center" android:id="@id/timemachine_guide_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/sp_timemachine_save_guide" style="@style/clearshot_remove_guide_text" />
+        <RelativeLayout android:background="@drawable/camera_timemachine_gallery_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <HorizontalScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/timemachine_gallery_scroll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr" android:layout_alignParentStart="true">
+                <RelativeLayout android:id="@id/timemachine_gallery_images" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" />
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/camera_indicator" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:camera="http://schemas.android.com/apk/res/com.lge.camera"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/camera_indicator_sub1" android:paddingTop="@dimen/layout_preview_indicators.paddingTop" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/layout_preview_indicators.height" android:layoutDirection="ltr" android:paddingEnd="@dimen/layout_preview_indicators.paddingRight">
+        <com.lge.camera.components.RotateImageView android:id="@id/icon_vvm_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/layout_preview_indicators.gap" />
+        <com.lge.camera.components.RotateImageView android:id="@id/icon_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/layout_preview_indicators.gap" />
+        <com.lge.camera.components.RotateImageView android:id="@id/icon_voice_shutter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/layout_preview_indicators.gap2" />
+        <com.lge.camera.components.RotateImageView android:id="@id/icon_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/layout_preview_indicators.gap" />
+        <com.lge.camera.components.RotateImageView android:id="@id/icon_scene_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/layout_preview_indicators.gap" />
+        <com.lge.camera.components.RotateImageView android:id="@id/icon_geo_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/layout_preview_indicators.gap" />
+        <com.lge.camera.components.RotateImageView android:id="@id/icon_flash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/layout_preview_indicators.gap" />
+        <com.lge.camera.components.RotateImageView android:id="@id/icon_resolution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/layout_preview_indicators.gap" />
+        <com.lge.camera.components.RotateImageView android:id="@id/icon_focus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/layout_preview_indicators.gap" />
+        <com.lge.camera.components.RotateImageView android:id="@id/icon_storage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/layout_preview_indicators.gap" />
+        <com.lge.camera.components.RotateImageView android:id="@id/icon_battery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/layout_preview_indicators.gap" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/camera_text_remain_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:paddingStart="6.0dip" android:paddingEnd="6.0dip">
+        <com.lge.camera.components.RotateLayout android:id="@id/camera_text_remain_layout_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <ImageView android:layout_gravity="center" android:id="@id/icon_text_remain_camera" android:focusable="false" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cam_icon_remain_camera" />
+                <TextView android:id="@id/icon_text_remain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" style="@style/indi_text_rotate_text_view" />
+            </LinearLayout>
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/camera_mode_indicator_text_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:paddingStart="6.0dip" android:paddingEnd="6.0dip">
+        <com.lge.camera.components.RotateLayout android:id="@id/camera_mode_indicator_text_rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <TextView android:id="@id/camera_mode_indicator_text" android:layout_width="@dimen/shot_mode_menu_indi_width" android:layout_height="wrap_content" android:layoutDirection="ltr" style="@style/mode_menu_indi_text" />
+        </com.lge.camera.components.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

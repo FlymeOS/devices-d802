@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Κάμερα</string>
+    <string name="sp_lowbattery_MLINE">Χαμηλή στάθμη μπαταρίας για να λειτουργήσει η κάμερα. Φορτίστε το τηλέφωνό σας.</string>
+    <string name="sp_lowbattery">Η στάθμη της μπαταρίας είναι πολύ χαμηλή για να λειτουργήσει η κάμερα.</string>
+    <string name="setting_init">Επαναφορά ρυθμίσεων κάμερας;</string>
+    <string name="sp_reset_message_NORMAL">Επαναφορά στις προεπιλεγμένες τιμές;</string>
+    <string name="sp_All_settings_reset_NORMAL">Επαναφορά όλων των αρχικών ρυθμίσεων</string>
+    <string name="sp_blockedByEAS_NORMAL">Η κάμερα απενεργοποιήθηκε σύμφωνα με την πολιτική του διακομιστή Exchange.</string>
+    <string name="sp_block_camera_NORMAL">Κάμερα απενεργοποιημένη με βάση την πολιτική του διακομιστή</string>
+    <string name="error_cannot_use_hdmi">Δεν είναι δυνατή η χρήση της κάμερας ενώ είστε συνδεδεμένοι σε HDMI.</string>
+    <string name="sp_dual_display_status_NORMAL">Δεν μπορείτε να χρησιμοποιήσετε την κάμερα σε λειτουργία διπλής οθόνης.</string>
+    <string name="reset">Επαναφορά</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="sp_camera_helpdesc_generalsetting">Γενικές</string>
+    <string name="sp_Exit_NORMAL">Έξοδος</string>
+    <string name="auto">Αυτόματο</string>
+    <string name="on">Ενεργ.</string>
+    <string name="sp_review_timer_2_NORMAL">2 δευτ.</string>
+    <string name="off">Απενεργ.</string>
+    <string name="sp_none_NORMAL">Κανένα</string>
+    <string name="normal">Κανονικό</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="sp_loading_camera_NORMAL">Προετοιμασία...</string>
+    <string name="dual_camera_select">Εναλλαγή κάμερας</string>
+    <string name="insert_sd_card">Εισάγετε κάρτα SD.</string>
+    <string name="insert_add_sd_card">Τοποθετήστε την εξωτερική σας κάρτα SD.</string>
+    <string name="sp_preparing_int_sd_NORMAL">Προετοιμασία εσωτερικής μνήμης...</string>
+    <string name="preparing_sd">Προετοιμασία κάρτας SD.</string>
+    <string name="sp_cannot_use_camera_UMS_NORMAL">Δεν είναι δυνατή η χρήση της κάμερας επειδή η κάρτα SD είναι συνδεδεμένη στον υπολογιστή. Αποσυνδέστε το USB για συνέχεια.</string>
+    <string name="sp_connected_mass_storage_NORMAL">Μαζική αποθήκευση</string>
+    <string name="sp_not_available_connected_mass_storage_NORMAL">"Η κάμερα δεν είναι διαθέσιμη.
+Συσκευή μαζικής αποθήκευσης είναι συνδεδεμένη στον υπολογιστή."</string>
+    <string name="sp_launch_NORMAL">Εκκίνηση</string>
+    <string name="sp_memory_full_diag_title_NORMAL">Μνήμη πλήρης</string>
+    <string name="sp_memory_full_diag_1_NORMAL">"Δεν υπάρχει αρκετή μνήμη στο %1$s.
+Το αρχείο σας θα αποθηκευτεί στο %2$s.
+Ελευθερώστε μνήμη στο %3$s συνδέοντας το τηλέφωνο στον υπολογιστή ή ξεκινώντας το πρόγραμμα διαχείρισης αρχείων.
+
+Να ξεκινήσει το πρόγραμμα διαχείρισης αρχείων τώρα;
+Ελέγξτε τα αρχεία σας στο '%4$s'"</string>
+    <string name="sp_memory_full_diag_1_no_file_manager_NORMAL">"Δεν υπάρχει αρκετή μνήμη στο %1$s.
+Το αρχείο σας θα αποθηκευτεί στο %2$s.
+Ελευθερώστε μνήμη στο %3$s συνδέοντας το τηλέφωνο στον υπολογιστή ή ξεκινώντας το πρόγραμμα διαχείρισης αρχείων."</string>
+    <string name="sp_memory_full_diag_2_NORMAL">"Δεν υπάρχει αρκετή μνήμη στο %1$s.
+Ελευθερώστε μνήμη στο %1$s συνδέοντας το τηλέφωνο στον υπολογιστή ή ξεκινώντας το πρόγραμμα διαχείρισης αρχείων.
+
+Να ξεκινήσει το πρόγραμμα διαχείρισης αρχείων τώρα;
+Ελέγξτε τα αρχεία σας στο '%2$s"</string>
+    <string name="sp_memory_full_diag_2_no_file_manager_NORMAL">"Δεν υπάρχει αρκετή μνήμη στο %1$s.
+Ελευθερώστε μνήμη στο %1$s συνδέοντας το τηλέφωνο στον υπολογιστή ή ξεκινώντας το πρόγραμμα διαχείρισης αρχείων."</string>
+    <string name="sp_memory_full_diag_3_NORMAL">"Δεν υπάρχει αρκετή μνήμη συνολικά.
+Ελευθερώστε μνήμη συνδέοντας το τηλέφωνο στον υπολογιστή ή ξεκινώντας το πρόγραμμα διαχείρισης αρχείων.
+
+Να ξεκινήσει το πρόγραμμα διαχείρισης αρχείων τώρα;
+Ελέγξτε τα αρχεία σας στο '%1$s'"</string>
+    <string name="sp_memory_full_diag_3_no_file_manager_NORMAL">"Δεν υπάρχει αρκετή μνήμη συνολικά.
+Ελευθερώστε μνήμη συνδέοντας το τηλέφωνο στον υπολογιστή ή ξεκινώντας το πρόγραμμα διαχείρισης αρχείων."</string>
+    <string name="sp_storage_full_popup_ics_title_NORMAL">"Αποθηκευτικός χώρος γεμάτος "</string>
+    <string name="sp_storage_full_message_not_on_internal_NORMAL">Δεν υπάρχει αρκετός χώρος στο εσωτερική μνήμη</string>
+    <string name="sp_storage_full_message_not_on_internal_sto_NORMAL">Δεν υπάρχει αρκετός χώρος στον εσωτερικό αποθηκευτικό χώρο.</string>
+    <string name="sp_storage_full_message_not_on_sd_NORMAL">Δεν υπάρχει αρκετός χώρος στην κάρτα SD.</string>
+    <string name="sp_storage_full_message_save_to_internal_NORMAL">Το αρχείο αποθηκεύεται στην εσωτερική μνήμη.</string>
+    <string name="sp_storage_full_message_save_to_internal_st_NORMAL">Το αρχείο αποθηκεύεται στην εσωτερική μνήμη.</string>
+    <string name="sp_storage_full_message_save_to_sd_NORMAL">Τα αρχεία αποθηκεύτηκαν στην κάρτα SD</string>
+    <string name="sp_storage_full_saving_file_NORMAL">Αποθήκευση αρχείου...</string>
+    <string name="sp_storage_full_free_NORMAL">Για να ελευθερώσετε χώρο διαγράψτε αρχεία που δεν χρησιμοποιούνται.</string>
+    <string name="msg_save_progress">Αποθήκευση...</string>
+    <string name="sp_storage_full_popup_ics_1_NORMAL">Δεν υπάρχει αρκετός χώρος στο %s. Για να ελευθερώσετε χώρο, διαγράψτε τα αρχεία που δεν χρησιμοποιούνται.</string>
+    <string name="sp_storage_full_popup_ics_2_NORMAL">Ο χώρος στο %1$s δεν είναι αρκετός. Το αρχείο πρέπει να έχει %2$s χώρο για να αποθηκευτεί. Για να ελευθερώσετε χώρο, διαγράψτε μερικά αρχεία που δεν χρησιμοποιούνται.</string>
+    <string name="sp_storage_full_popup_ics_3_NORMAL">Ο χώρος σε όλες τις συσκευές αποθήκευσης δεν είναι αρκετός. Για να ελευθερώσετε χώρο, διαγράψτε μερικά αρχεία που δεν χρησιμοποιούνται.</string>
+    <string name="sp_storage_full_popup_ics_6_NORMAL">Ο χώρος στο %s δεν είναι αρκετός. Αποθήκευση αρχείου...</string>
+    <string name="sp_full_popup_ics_1_not_in_memory_NORMAL">Δεν υπάρχει αρκετός χώρος στο εσωτερική μνήμη. Για να ελευθερώσετε χώρο διαγράψτε αρχεία που δεν χρησιμοποιούνται.</string>
+    <string name="sp_full_popup_ics_1_not_in_storage_NORMAL">Δεν υπάρχει αρκετός χώρος στην εσωτερική μνήμη. Για να ελευθερώσετε χώρο, διαγράψτε τα αρχεία που δεν χρησιμοποιούνται.</string>
+    <string name="sp_full_popup_ics_1_not_sd_NORMAL">Δεν υπάρχει αρκετός χώρος στην κάρτα SD. Για να ελευθερώσετε χώρο, διαγράψτε τα αρχεία που δεν χρησιμοποιούνται.</string>
+    <string name="sp_full_popup_ics_2_not_in_memory_to_sd_NORMAL">Δεν υπάρχει αρκετός χώρος στο εσωτερική μνήμη. Τα αρχεία αποθηκεύτηκαν στην κάρτα SD. Για να ελευθερώσετε χώρο διαγράψτε αρχεία που δεν χρησιμοποιούνται.</string>
+    <string name="sp_full_popup_ics_2_not_in_storage_to_sd_NORMAL">Δεν υπάρχει αρκετός χώρος στον εσωτερικό αποθηκευτικό χώρο. Τα αρχεία αποθηκεύτηκαν στην κάρτα SD. Για να ελευθερώσετε χώρο διαγράψτε αρχεία που δεν χρησιμοποιούνται.</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_memory_NORMAL">Δεν υπάρχει αρκετός χώρος στην κάρτα SD. Το αρχείο αποθηκεύεται στην εσωτερική μνήμη. Για να ελευθερώσετε χώρο διαγράψτε αρχεία που δεν χρησιμοποιούνται.</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_storage_NORMAL">Δεν υπάρχει αρκετός χώρος στην κάρτα SD. Το αρχείο αποθηκεύεται στην εσωτερική μνήμη. Για να ελευθερώσετε χώρο διαγράψτε αρχεία που δεν χρησιμοποιούνται.</string>
+    <string name="sp_full_popup_ics_6_not_in_memory_NORMAL">Δεν υπάρχει αρκετός χώρος στο εσωτερική μνήμη. Αποθήκευση αρχείου.</string>
+    <string name="sp_full_popup_ics_6_not_in_storage_NORMAL">Δεν υπάρχει αρκετός χώρος στον εσωτερικό αποθηκευτικό χώρο. Αποθήκευση αρχείου...</string>
+    <string name="sp_full_popup_ics_6_not_sd_NORMAL">Δεν υπάρχει αρκετός χώρος στην κάρτα SD. Αποθήκευση αρχείου...</string>
+    <string name="sp_internal_sd_prepared_NORMAL">Γίνεται προετοιμασία της εσωτερικής μνήμης</string>
+    <string name="sp_external_sd_prepared_NORMAL">Η κάρτα SD προετοιμάζεται.</string>
+    <string name="sp_not_enough_memory_NORMAL">"Δεν υπάρχει επαρκής αποθηκευτικός χώρος στη μνήμη.
+Ελευθερώστε χώρο στη μνήμη."</string>
+    <string name="not_enough_space">Εισαγάγετε μια νέα εξωτερική κάρτα μνήμης ή διαγράψτε κάποιο περιεχόμενο.</string>
+    <string name="sp_not_enough_int_sd_NORMAL">"Δεν υπάρχει επαρκής αποθηκευτικός χώρος στην εσωτερική μνήμη.
+Το αρχείο σας θα αποθηκευτεί στην κάρτα SD."</string>
+    <string name="sp_not_enough_add_space_NORMAL">"Δεν υπάρχει επαρκής αποθηκευτικός χώρος στην κάρτα SD.
+Ελευθερώστε χώρο στη μνήμη."</string>
+    <string name="sp_not_enough_sd_int_NORMAL">"Δεν υπάρχει επαρκής αποθηκευτικός χώρος στην κάρτα SD.
+Το αρχείο σας θα αποθηκευτεί στην εσωτερική μνήμη."</string>
+    <string name="sp_media_scanning_NORMAL">"Σάρωση μέσων. Δοκιμάστε ξανά,
+μετά την ολοκλήρωση της σάρωσης των μέσων."</string>
+    <string name="sp_media_scanning_ics_NORMAL">Δοκιμάστε ξανά μετά τη σάρωση των αρχείων πολυμέσων.</string>
+    <string name="scanning_sdcard_media_files">Σαρώνονται αρχεία μέσων κάρτας SD...</string>
+    <string name="sp_ext_sdcard_not_exist_NORMAL">Δεν υπάρχει κάρτα SD. Ο αποθηκευτικός χώρος αλλάζει στην εσωτερική μνήμη.</string>
+    <string name="sp_sdremoved_change_int_NORMAL">Η κάρτα SD αφαιρέθηκε. Η αποθήκευση θα γίνεται στην εσωτερική μνήμη.</string>
+    <string name="sp_sd_card_removed_NORMAL">Η κάρτα SD αφαιρέθηκε. Εισάγετε την κάρτα SD.</string>
+    <string name="camera_closed_due_to_sdcard_removal">Η κάρτα SD αφαιρέθηκε απροσδόκητα. Η κάμερα είναι κλειστή.</string>
+    <string name="sp_sdcard_inserted_noti">Τοποθετήθηκε κάρτα SD. Αποθήκευση στην κάρτα SD;</string>
+    <string name="sp_storage_always_ask_NORMAL">Ερώτηση πάντα</string>
+    <string name="sp_storage_noti_title_NORMAL">Ειδοποίηση</string>
+    <string name="title_not_enough_space">Μνήμη πλήρης</string>
+    <string name="popup_storage_full_save">Μνήμη πλήρης. Αποθήκευση...</string>
+    <string name="sp_notenoughmemory_NORMAL">"Η εσωτερική μνήμη ή η κάρτα SD είναι γεμάτες.
+Διαγράψτε μερικά αρχεία."</string>
+    <string name="sp_addspace_NORMAL">"Η κάρτα SD είναι πλήρης.
+Διαγράψτε περιεχόμενο."</string>
+    <string name="sp_mhl_cannot_use_camera_NORMAL">Δεν είναι δυνατή η χρήση της κάμερας όταν είναι συνδεδεμένο το καλώδιο MHL.</string>
+    <string name="sp_mhl_cannot_show_preview_NORMAL">Δεν είναι δυνατή η προεπισκόπηση από την κάμερα όταν είναι συνδεδεμένο το καλώδιο MHL.</string>
+    <string name="msg_found_escape_char">Περιέχεται μη επιτρεπόμενος χαρακτήρας</string>
+    <string name="sp_message_filename_limit_NORMAL">"Υπέρβαση ορίου μήκους ονόματος αρχείου 
+(όριο: %d χαρακτήρες)"</string>
+    <string name="waiting_save_image">Περιμένετε...</string>
+    <string name="sp_image_size_front_NORMAL">Μέγεθος μπροστινής εικόνας</string>
+    <string name="image_size">Μέγεθ. εικ.</string>
+    <string name="scene_mode">Σκηνικό</string>
+    <string name="scene_mode_portrait">Πορτραίτο</string>
+    <string name="scene_mode_landscape">Οριζόντια</string>
+    <string name="scene_mode_sports">Αθλήματα</string>
+    <string name="scene_mode_night">Νύχτα</string>
+    <string name="scene_mode_sunset">Ηλιοβασίλεμα</string>
+    <string name="sp_scene_mode_normal_NORMAL">Κανονικό</string>
+    <string name="sp_scene_mode_default_NORMAL">Αυτόματο</string>
+    <string name="white_balance">Ισορροπία λευκού</string>
+    <string name="white_balance_incandescent">Πυρακτώσεως</string>
+    <string name="white_balance_sunny">Ήλιος</string>
+    <string name="white_balance_fluorescent">Φθορισμού</string>
+    <string name="white_balance_cloudy">Συννεφιά</string>
+    <string name="sp_whitebalance_default_NORMAL">Αυτόματο</string>
+    <string name="color_effect">Χρωματικό εφέ</string>
+    <string name="color_effect_mono">Μονόχρωμο</string>
+    <string name="color_effect_negative">Αρνητικό</string>
+    <string name="color_effect_solarize">Ακτίνες ήλιου</string>
+    <string name="color_effect_sepia">Σέπια</string>
+    <string name="color_effect_negative_sepia">Αρνητικό σέπια</string>
+    <string name="color_effect_blue">Μπλε</string>
+    <string name="color_effect_pastel">Παστέλ</string>
+    <string name="color_effect_posterize">Διαβάθμιση χρωμάτων</string>
+    <string name="color_effect_aqua">Γαλάζιο</string>
+    <string name="sp_color_effect_none_cameraapp_NORMAL">Κανένα</string>
+    <string name="image_quality">Ποιότητα εικόνας</string>
+    <string name="quality_super_fine">Πολύ καλή</string>
+    <string name="quality_fine">Καλή</string>
+    <string name="sp_quality_normal_NORMAL">Κανονικό</string>
+    <string name="video_quality">Ποιότητα βίντεο</string>
+    <string name="timer">Αντιστρ. Χρονόμ.</string>
+    <string name="timer_1">1 δευτ.</string>
+    <string name="timer_3">3 δευτ.</string>
+    <string name="timer_5">5 δευτ.</string>
+    <string name="timer_10">10 δευτ.</string>
+    <string name="shot_mode">Τροπος λήψης</string>
+    <string name="shot_mode_continuous">Συνεχής λήψη</string>
+    <string name="shot_mode_smile">Λήψη χαμόγελου</string>
+    <string name="shot_mode_beauty">Βελτιωμένη λήψη</string>
+    <string name="shot_mode_art">Καλλιτεχνική λήψη</string>
+    <string name="shot_mode_panorama">Πανόραμα</string>
+    <string name="shot_mode_face_effect">Εφέ προσώπου</string>
+    <string name="shot_mode_cartoon">Καρτούν</string>
+    <string name="shot_mode_free_panorama">360 Πανόραμα</string>
+    <string name="shot_mode_vr_panorama">VR πανόραμα</string>
+    <string name="shot_mode_burst">Πολλαπλή λήψη</string>
+    <string name="sp_shot_mode_burst">Πολλαπλή λήψη</string>
+    <string name="record_mode">Τρόπος εγγραφής</string>
+    <string name="record_mode_WDR">WDR εγγραφή</string>
+    <string name="record_mode_HDR">HDR Περιαγωγή</string>
+    <string name="artshot_original">Κανονικό</string>
+    <string name="artshot_warm">Θερμό</string>
+    <string name="artshot_cold">Κρύο</string>
+    <string name="artshot_blackwhite">Άσπρο &amp; Μαύρο</string>
+    <string name="face_effect_blur">Θάμπωμα</string>
+    <string name="face_effect_snow">Χιόνι</string>
+    <string name="face_effect_shallow_focus">Μικρό βάθος εστίασης</string>
+    <string name="face_effect_big_head">Μεγέθυνση κεφαλιού</string>
+    <string name="face_effect_mosaic">Μωσαϊκό</string>
+    <string name="face_effect_fish_eye">Υπερευρυγώνια λήψη</string>
+    <string name="face_effect_concave">Κοίλωμα</string>
+    <string name="face_effect_funny_mask">Αστεία μάσκα</string>
+    <string name="auto_review">Αυτ. ανασκόπηση</string>
+    <string name="shutter_sound">Ήχος κλείστρου</string>
+    <string name="shutter_sound_1">Ήχος 1</string>
+    <string name="shutter_sound_2">Ήχος 2</string>
+    <string name="shutter_sound_3">Ήχος 3</string>
+    <string name="shutter_sound_4">Ήχος 4</string>
+    <string name="geo_tagging">Τοποθεσία ετικέτας</string>
+    <string name="sp_storage_NORMAL">Αποθηκευτικός χώρος</string>
+    <string name="sp_default_memory_NORMAL">Αποθήκευση σε κάρτα SD και τηλέφωνο</string>
+    <string name="sp_internal_memory_NORMAL">Εσωτερική μνήμη</string>
+    <string name="sp_internal_storage_NORMAL">Εσωτερ. αποθ. χώρος</string>
+    <string name="sp_external_memory_NORMAL">Κάρτα SD</string>
+    <string name="sp_anti_banding_NORMAL">Ταίριασμα χρωματικής μπάντας</string>
+    <string name="focus">Εστίαση</string>
+    <string name="focus_face_tracking">Εντοπισμός προσώπου</string>
+    <string name="sp_quickfunction_focus_continuous_NORMAL">Συνεχής</string>
+    <string name="manual_for_camera">Μη αυτόματο</string>
+    <string name="flash">Φλας</string>
+    <string name="sp_save_direction_NORMAL">Αποθήκευση οδηγιών</string>
+    <string name="zoom">Ζουμ</string>
+    <string name="brightness">Φωτεινότητα</string>
+    <string name="sp_mirror_image_NORMAL">Είδωλο</string>
+    <string name="sp_normal_save_NORMAL">Κανονική αποθήκευση</string>
+    <string name="sp_flipped_image_NORMAL">Αναστροφή εικόνας</string>
+    <string name="sp_save_as_flipped_NORMAL">Αποθήκευση αναστροφής</string>
+    <string name="sp_uplusbox_NORMAL">U+ Box αυτόμ. αποθήκευση</string>
+    <string name="sp_help_guide_uplusbox_desc_NORMAL">"Οι φωτογραφίες θα ανεβούν στο U+ Box. Μπορεί να υπάρξουν χρεώσεις όταν συνδεθείτε σε δίκτυο  Δεδομένα κινητής τηλεφωνίας."</string>
+    <string name="sp_uplusbox_NORMAL_network_error">Σφάλμα δικτύου. Οι φωτογραφίες θα ανεβούν αυτόματα στο U+ Box όταν το δίκτυο είναι διαθέσιμο.</string>
+    <string name="sp_uplusbox_NORMAL_desc_on">Οι φωτογραφίες θα ανεβούν αυτόματα στο U+ Box.</string>
+    <string name="sp_voiceshutter_NORMAL">"Φωνητική  φωτογραφία"</string>
+    <string name="sp_note_voiceshutter_NORMAL">Πείτε \"%s\" όταν είστε έτοιμοι να τραβήξετε φωτογραφία.</string>
+    <string name="sp_voiceshutter_say_NORMAL">Πείτε \"%s\" για λήψη φωτογραφίας.</string>
+    <string name="sp_cheeseshutter_NORMAL">"Εφαρμογή  'Cheese'"</string>
+    <string name="sp_voiceshutter_word_whisky_NORMAL">Whisky</string>
+    <string name="sp_voiceshutter_sound_kimchi_NORMAL">Κίμτσι</string>
+    <string name="sp_voiceshutter_sound_cheese_NORMAL">Τσιζ</string>
+    <string name="sp_voiceshutter_sound_smile_NORMAL">Σμάιλ</string>
+    <string name="sp_voiceshutter_sound_whisky_NORMAL">Ουίσκυ</string>
+    <string name="sp_voiceshutter_sound_torimasu_NORMAL">Τοριμάσου</string>
+    <string name="sp_note_voiceshutter_multi_sound_NORMAL">Για λήψη φωτογραφίας, χρησιμοποιήστε τις λέξεις.</string>
+    <string name="sp_note_voiceshutter_multi_sound_vzw_NORMAL">Η εφαρμογή Cheese shutter περιμένει να πείτε μια από τις παρακάτω λέξεις για τη λήψη φωτογραφίας:</string>
+    <string name="sp_voiceshutter_multi_sound_say_NORMAL">Πείτε \"%1$s,\" \"%2$s\" ή \"%3$s\" για λήψη φωτογραφίας.</string>
+    <string name="sp_voiceshutter_multi_keyword_say_NORMAL">Πείτε \"%1$s,\" \"%2$s,\" \"%3$s,\" \"%4$s,\" ή \"%5$s\" για λήψη φωτογραφίας.</string>
+    <string name="sp_voiceshutter_multi_keyword_say_4items">Πείτε \"%1$s,\" \"%2$s,\" \"%3$s\" ή \"%4$s\" για λήψη φωτογραφίας.</string>
+    <string name="sp_voiceshutter_say_new_NORMAL">Πείτε \"%s\" για λήψη φωτογραφίας.</string>
+    <string name="sp_voiceshutter_help_desc_NORMAL">Λήψη φωτογραφίας με φωνητική εντολή.</string>
+    <string name="video_size">Μέγεθος βίντεο</string>
+    <string name="sp_video_duration_NORMAL">Διάρκεια</string>
+    <string name="video_voice">Ήχος</string>
+    <string name="sp_video_voice_unmute_NORMAL">Ενεργ.</string>
+    <string name="sp_video_voice_mute_NORMAL">Σίγαση</string>
+    <string name="show_recorded_video">Αυτ. ανασκόπηση</string>
+    <string name="share">Κοινή χρήση</string>
+    <string name="sp_share_via_NORMAL">Διαμοιρασμός μέσω</string>
+    <string name="set_as">"Ορισμός
+    ως"</string>
+    <string name="sp_set_photo_as_NORMAL">Ορισμός εικόνας ως</string>
+    <string name="rename">Όνομα</string>
+    <string name="sp_share_SHORT">Κοινή χρ.</string>
+    <string name="sp_set_as_SHORT">"Ορισμός
+    ως"</string>
+    <string name="sp_rename_SHORT">Όνομα</string>
+    <string name="sp_set_as_twoline_NORMAL">"Χρήση
+ως"</string>
+    <string name="sp_rename_twoline_NORMAL">"Μετονο
+μασία"</string>
+    <string name="edit">Επεξ.</string>
+    <string name="sp_play_twoline_SHORT">Αναπ.</string>
+    <string name="sp_share_twoline_SHORT">Κοινή χρ.</string>
+    <string name="sp_set_as_twoline_SHORT">"Χρήση
+ως"</string>
+    <string name="sp_rename_twoline_SHORT">"Μετονο
+μασία"</string>
+    <string name="sp_save_SHORT">Αποθηκ.</string>
+    <string name="sp_save_complete_SHORT">Ολοκληρ.</string>
+    <string name="play">Αναπ.</string>
+    <string name="dlg_title_rename">Εισάγετε νέο όνομα</string>
+    <string name="dlg_title_delete">Διαγραφή</string>
+    <string name="msg_multi_image_delete">Τα αρχεία μέσων θα διαγραφούν.</string>
+    <string name="msg_image_delete">Η εικόνα θα διαγραφεί.</string>
+    <string name="msg_video_delete">Το βίντεο θα διαγραφεί.</string>
+    <string name="popup_delete_done">Διαγραφή</string>
+    <string name="slow_motion">Αργή κίνηση</string>
+    <string name="sp_note_img_size_change_NORMAL">Το μέγεθος εικόνας άλλαξε σε %s</string>
+    <string name="note_image_deleted">Η εικόνα διαγράφηκε</string>
+    <string name="note_shot_mode_change_normal">Η λειτουργία λήψης άλλαξε σε κανονική.</string>
+    <string name="note_timer_mode_off">Απενεργοποιημένος χρονοδιακόπτης.</string>
+    <string name="note_smile_shutter_started">Αυτόματη λήψη φωτογραφίας όταν εντοπίζεται χαμόγελο.</string>
+    <string name="note_focus_mode_set_to_auto">Η λειτουργία εστίασης ορίζεται σε αυτόματη.</string>
+    <string name="note_iso_set_to_auto">Το ISO έχει ρυθμιστεί σε αυτόματο</string>
+    <string name="sp_note_rec_size_change_NORMAL">Το βίντεο έχει ρυθμιστεί σε ανάλυση %s</string>
+    <string name="note_select_image">Δεν υπάρχουν επιλεγμένα αρχεία.</string>
+    <string name="sp_select_photo_NORMAL">Δεν υπάρχουν φωτογραφίες επιλεγεί.</string>
+    <string name="note_color_effect_change">Απενεργοποιημένο χρωματικό εφέ.</string>
+    <string name="sp_note_color_effect_change_NORMAL">Το εφέ χρώματος είναι ενεργοποιημένο %s.</string>
+    <string name="note_color_effect_change_none">Το εφέ χρώματος είναι ενεργοποιημένο ως Κανένα.</string>
+    <string name="note_white_balance_change">Η ισορροπία λευκού ορίζεται σε αυτόματη.</string>
+    <string name="note_flash_change_off">Η χρήση flash είναι απενεργοποιημένη.</string>
+    <string name="note_scene_mode_change">Η Σκηνικό ορίζεται σε αυτόματη.</string>
+    <string name="sp_note_scene_mode_change_NORMAL">Η λειτουργία σκηνής έχει ρυθμιστεί σε %s.</string>
+    <string name="note_scene_mode_change_normal">Η λειτουργία σκηνής είναι ρυθμισμένη σε κανονική λειτουργία.</string>
+    <string name="sp_note_video_ori_land_NORMAL">Υποστηρίζεται μόνο οριζόντια εγγραφή στην αποστολή μηνυμάτων MMS.</string>
+    <string name="sp_note_brightness_set_to_zero_NORMAL">Η φωτεινότητα είναι στο μηδέν</string>
+    <string name="error_not_enough_memory">Μη επαρκής μνήμη</string>
+    <string name="error_not_exist_app">Η εφαρμογή δεν βρέθηκε</string>
+    <string name="error_preview_fail">Αποτυχία εκκίνησης προεπισκόπησης</string>
+    <string name="error_write_file">Αποτυχία εγγραφής αρχείου</string>
+    <string name="error_rename">Μη έγκυρο όνομα. Μετονομάστε.</string>
+    <string name="error_write_file_exist">Υπάρχει ήδη</string>
+    <string name="error_unknown">Άγνωστο σφάλμα</string>
+    <string name="error_low_battery">Χαμηλή μπαταρία. Η εφαρμογή θα τερματιστεί.</string>
+    <string name="error_get_video_frame_fail">Αδύνατη η εξαγωγή του πλαισίου.</string>
+    <string name="error_video_recording">Η εγγραφή βίντεο δεν είναι διαθέσιμη κατά την κλήση.</string>
+    <string name="error_video_recording_during_call">Δεν είναι δυνατή η εγγραφή βίντεο κατά τη διάρκεια της κλήσης</string>
+    <string name="sp_error_call_camera_NORMAL">Η εκκίνηση της κάμερας δεν είναι δυνατή στη διάρκεια της κλήσης</string>
+    <string name="error_camera_during_video_call">Η χρήση της κάμερας δεν είναι δυνατή στη βίντεο κλήση.</string>
+    <string name="error_cannot_start_recording_with_audio">Δεν μπορεί να γίνει εγγραφή όταν υπάρχει άλλη εφαρμογή σε εξέλιξη που κάνει χρήση του ήχου.</string>
+    <string name="error_sdm_server_setting">Δεν είναι δυνατή η λειτουργία της κάμερας. Η λειτουργία είναι κλειδωμένη από το διακομιστή.</string>
+    <string name="help_title">Bοήθεια κάμερας</string>
+    <string name="sp_detail_view_NORMAL">Λεπτομερής προβολή</string>
+    <string name="help_swap_camera_menu_desc">Εναλλαγή μεταξύ κύριας και δευτερεύουσας κάμερας.</string>
+    <string name="help_zoom_desc">Μεγέθυνση ή σμίκρυνση του μεγέθους των θεμάτων.</string>
+    <string name="help_brightness_desc">Ρύθμιση επιπέδου έκθεσης.</string>
+    <string name="sp_help_brightness_desc_video_NORMAL">Ρύθμιση φωτεινότητας φωτογραφιών</string>
+    <string name="help_flash_desc">Ρύθμιση φλας.</string>
+    <string name="help_flash_auto_desc">Για αυτόματη ρύθμιση του φλας.</string>
+    <string name="sp_help_flash_off_desc_NORMAL">Το φλας είναι απενεργοποιημένο για κάθε λήψη.</string>
+    <string name="sp_help_flash_on_desc_NORMAL">Το φλας είναι ενεργοποιημένο για κάθε λήψη.</string>
+    <string name="help_camera_settings_desc">Προσαρμογή ρυθμίσεων κάμερας.</string>
+    <string name="help_image_size_menu_desc">Ρύθμιση μεγέθους αρχείου εικόνας.</string>
+    <string name="help_image_size_menu_5m_desc">Ενδείκνυται για εκτύπωση έως το μέγεθος Α4 περίπου.</string>
+    <string name="help_image_size_menu_3m_desc">Ενδείκνυται για εκτύπωση έως το μέγεθος Α5 περίπου.</string>
+    <string name="help_image_size_menu_2m_desc">Ενδείκνυται για εκτύπωση έως το μέγεθος των καρτ-ποστάλ περίπου.</string>
+    <string name="help_image_size_menu_1m_desc">Ενδείκνυται για εκτύπωση σε μέγεθος μικρότερο από καρτ-ποστάλ.</string>
+    <string name="help_image_size_menu_vga_desc">Ενδείκνυται για αποστολή ως συνημμένο e-mail (καταλαμβάνει λίγο χώρο στη μνήμη).</string>
+    <string name="help_image_size_menu_qvga_desc">Ενδείκνυται για αποστολή ως συνημμένο e-mail (καταλαμβάνει λίγο χώρο στη μνήμη).</string>
+    <string name="help_scene_mode_menu_desc">Ρύθμιση της κατάλληλης λειτουργίας για το υφιστάμενο περιβάλλον.</string>
+    <string name="help_scene_mode_menu_auto_desc">Για αυτόματη παρουσίαση της καταλληλότερης λειτουργίας σκηνής ανάλογα με τις συνθήκες.</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_NORMAL">Λήψη κανονικής εικόνας.</string>
+    <string name="help_scene_mode_menu_portrait_desc">Για την αποτύπωση ατόμου.</string>
+    <string name="help_scene_mode_menu_landscape_desc">Λήψη εικόνας τοπίου.</string>
+    <string name="help_scene_mode_menu_sports_desc">Λήψη γρήγορων εικόνων χωρίς θάμπωμα.</string>
+    <string name="help_scene_mode_menu_night_desc">Λήψη νυχτερινού τοπίου.</string>
+    <string name="help_scene_mode_menu_sunset_desc">Λήψη ηλιοβασιλέματος.</string>
+    <string name="help_iso_menu_desc">Έλεγχος της ευαισθησίας της κάμερας στο φως.</string>
+    <string name="help_white_balance_menu_desc">Ρύθμιση χρώματος σε διαφορετικές συνθήκες φωτισμού</string>
+    <string name="help_white_balance_menu_auto_desc">Αυτόματη ρύθμιση χρώματος.</string>
+    <string name="help_white_balance_menu_incandescent_desc">Για φωτογραφίες που έχουν αποτυπωθεί με απαλό φωτισμό.</string>
+    <string name="help_white_balance_menu_sunny_desc">Λήψη φωτογραφίας με ήλιο.</string>
+    <string name="help_white_balance_menu_flourescent_desc">Για φωτογραφίες που έχουν αποτυπωθεί με φωτισμό φθορισμού.</string>
+    <string name="help_white_balance_menu_cloudy_desc">Για φωτογραφίες που έχουν αποτυπωθεί σε σκοτεινές και συννεφιασμένες ημέρες.</string>
+    <string name="help_color_effect_menu_desc">Βάζει καλλιτεχνικά εφέ στις φωτογραφίες.</string>
+    <string name="help_color_effect_menu_off_desc">Δεν εφαρμόζεται κανένα χρωματικό εφέ.</string>
+    <string name="help_color_effect_menu_sepia_desc">Εφαρμογή φίλτρου σέπια για τη λήψη νοσταλγικής φωτογραφίας.</string>
+    <string name="help_color_effect_menu_mono_desc">Εφαρμογή μονόχρωμου φίλτρου για τη λήψη ασπρόμαυρης φωτογραφίας.</string>
+    <string name="help_color_effect_menu_negative_desc">Εφαρμογή αρνητικού φίλτρου για την αντιστροφή των χρωμάτων της εικόνας.</string>
+    <string name="help_color_effect_menu_vivid_desc">Εφαρμογή έντονου χρωματικού εφέ στις φωτογραφίες.</string>
+    <string name="help_color_effect_menu_negative_sepia_desc">Εφαρμογή εφέ αρνητικού σέπια στις φωτογραφίες.</string>
+    <string name="help_color_effect_menu_blue_desc">Εφαρμογή μπλε χρωματικού εφέ στις φωτογραφίες.</string>
+    <string name="help_color_effect_menu_emboss_desc">Εφαρμογή εφέ ανάγλυφου στις φωτογραφίες.</string>
+    <string name="help_color_effect_menu_solarize_desc">Εφαρμογή εφέ ακτίνες ήλιου στις φωτογραφίες.</string>
+    <string name="help_color_effect_menu_posterize_desc">Εφαρμογή χρωματικού εφέ διαβάθμισης χρωμάτων στις φωτογραφίες.</string>
+    <string name="help_color_effect_menu_aqua_desc">Εφαρμογή χρωματικού εφέ υδατογραφίας στις φωτογραφίες.</string>
+    <string name="help_color_effect_menu_pastel_desc">Εφαρμογή παστέλ χρωματικού εφέ στις φωτογραφίες.</string>
+    <string name="help_timer_menu_desc">Ρύθμιση της χρονοκαθυστέρησης από το πάτημα του κλείστρου μέχρι τη λήψη φωτογραφίας.</string>
+    <string name="help_shot_mode_menu_desc">Ρύθμιση λειτουργίας λήψης.</string>
+    <string name="help_shot_mode_menu_normal_desc">Λήψη κανονικής εικόνας.</string>
+    <string name="help_shot_mode_menu_continuous_shot_desc">Λήψη 6 διαδοχικών φωτογραφιών.</string>
+    <string name="help_shot_mode_menu_smile_shot_desc">Για αυτόματη ενεργοποίηση του διαφράγματος όταν η κάμερα εντοπίζει χαμόγελο.</string>
+    <string name="help_shot_mode_menu_beauty_shot_desc">Για αυτόματη αφαίρεση σημαδιών και ατελειών και ενίσχυση φωτεινότητας και καθαρότητας σε πρόσωπα.</string>
+    <string name="help_shot_mode_menu_art_shot_desc">Για δημιουργία καλλιτεχνικών έργων με εφέ, όπως ασπρόμαυρο, θερμή &amp; ψυχρή έκθεση και άλλα.</string>
+    <string name="help_shot_mode_menu_panorama_shot_desc">Λήψη διαδοχικών φωτογραφιών και σύνθεση μιας ενιαίας φωτογραφίας.</string>
+    <string name="help_shot_mode_menu_face_effect_desc">Εφαρμόζει διάφορα εφέ μέσω της λειτουργίας εντοπισμού προσώπου.</string>
+    <string name="help_shot_mode_menu_cartoon_shot_desc">Το τηλέφωνο μπορεί να λαμβάνει καρτουνίστικες και γραφικές εικόνες σαν ζωγραφιά.</string>
+    <string name="help_shot_mode_menu_funny_mask_desc">Όταν η κάμερα εντοπίζει ένα πρόσωπο, ενεργοποιεί αυτόματα διάφορες αστείες μάσκες.</string>
+    <string name="help_face_effect_blur_desc">Εντοπίζει αυτόματα ένα πρόσωπο και του εφαρμόζει εφέ θολώματος.</string>
+    <string name="help_face_effect_snow_desc">Πλαισιώνει το κεφάλι με εφέ χιονόπτωσης.</string>
+    <string name="help_face_effect_shallow_focus_desc">Εντοπίζει αυτόματα το πρόσωπο και ορίζει το φόντο εκτός εστίασης.</string>
+    <string name="help_face_effect_big_face_desc">Μεγεθύνει το κεφάλι ενός ατόμου.</string>
+    <string name="help_face_effect_mosaic_desc">Όταν η κάμερα εντοπίζει ένα πρόσωπο, ενεργοποιεί αυτόματα το εφέ μωσαϊκού στο πρόσωπο.</string>
+    <string name="help_face_effect_fish_eye_desc">Όταν η κάμερα εντοπίζει ένα πρόσωπο, ενεργοποιεί αυτόματα το εφέ υπερευρυγώνιας λήψης στο πρόσωπο.</string>
+    <string name="help_face_effect_concave_desc">Όταν η κάμερα εντοπίζει ένα πρόσωπο, ενεργοποιεί αυτόματα το εφέ κοιλώματος στο πρόσωπο.</string>
+    <string name="help_focus_desc">Εστίαση στο συγκεκριμένο σημείο</string>
+    <string name="help_focus_auto_desc">Αυτόματη ρύθμιση του σημείου εστίασης.</string>
+    <string name="help_focus_macro_desc">Για αποτύπωση αντικειμένου σε πολύ κοντινή απόσταση.</string>
+    <string name="help_focus_face_desc">Αυτόματος εντοπισμός και εστίαση σε πρόσωπα.</string>
+    <string name="sp_help_focus_continuous_desc_NORMAL">Αυτόματος εντοπισμός κινούμενου αντικειμένου και εστίαση.</string>
+    <string name="help_focus_manual_desc">Για μη αυτόματη ρύθμιση της εστίασης με το στοιχείο ελέγχου της οθόνης.</string>
+    <string name="help_image_quality_menu_desc">Ρυθμίζει την ποιότητα της εικόνας (όσο καλύτερη ποιότητα, τόσο μεγαλύτερη κατανάλωση μνήμης).</string>
+    <string name="help_image_quality_menu_super_fine_desc">Αποθήκευση εικόνων για εξαιρετική ποιότητα.</string>
+    <string name="help_image_quality_menu_fine_desc">Αποθήκευση εικόνων για καλή ποιότητα.</string>
+    <string name="help_image_quality_menu_normal_desc">Αποθήκευση εικόνων για κανονική ποιότητα.</string>
+    <string name="help_show_captured_image_menu_desc">Εμφάνιση της τελευταίας φωτογραφίας μετά τη λήψη.</string>
+    <string name="help_shutter_sound_menu_desc">Ρυθμίζει τον ήχο που ακούγεται κατά τη λήψη φωτογραφίας.</string>
+    <string name="help_geo_tagging_menu_desc">Προσθήκη στοιχείων γεωγραφικού εντοπισμού όταν γίνεται λήψη φωτογραφίας.</string>
+    <string name="sp_help_anti_banding_menu_desc_NORMAL">Εμποδίζει την χρωματική παραμόρφωση.</string>
+    <string name="sp_help_storage_NORMAL">Επιλογή αποθηκευτικού μέσου για την αποθήκευση εικόνων.</string>
+    <string name="sp_help_storage_innner_NORMAL">Αποθήκευση εικόνων στην εσωτερική μνήμη.</string>
+    <string name="sp_help_storage_sd_NORMAL">Αποθήκευση εικόνων στην κάρτα SD.</string>
+    <string name="help_video_title">Βοήθεια για την βιντεοκάμερα</string>
+    <string name="sp_help_video_title_NORMAL">Βοήθεια βίντεο</string>
+    <string name="help_video_settings_desc">Προσαρμόζει ρυθμίσεις βίντεο.</string>
+    <string name="help_video_size_desc">Ρύθμιση του μεγέθους αρχείου βίντεο.</string>
+    <string name="help_video_size_vga_desc">Αποθηκεύει βίντεο σε μέγεθος VGA.</string>
+    <string name="help_video_size_qvga_desc">Αποθηκεύει βίντεο σε ανάλυση QVGA.</string>
+    <string name="help_video_size_176x144_desc">Ενδείκνυται για αποστολή ως συνημμένο e-mail (καταλαμβάνει λίγο χώρο στη μνήμη).</string>
+    <string name="help_video_scene_mode_menu_desc">Εντοπίζει τις κατάλληλες ρυθμίσεις χρώματος και φωτός για το τρέχον περιβάλλον.</string>
+    <string name="help_video_scene_mode_menu_auto_desc">Για αυτόματη παρουσίαση της καταλληλότερης λειτουργίας σκηνής ανάλογα με τις συνθήκες.</string>
+    <string name="help_video_scene_mode_menu_portrait_desc">Καλύτερο για τη λήψη ατόμων.</string>
+    <string name="help_video_scene_mode_menu_landscape_desc">Καλύτερο για τη λήψη φυσικών τοπίων όπως δέντρα, λουλούδια και ουρανό.</string>
+    <string name="help_video_scene_mode_menu_sports_desc">Καλύτερο για τη λήψη σκηνών με γρήγορη κίνηση, όπως για παράδειγμα σε αθλητικές εκδηλώσεις.</string>
+    <string name="help_video_scene_mode_menu_night_desc">Για αποτύπωση καλών νυχτερινών τοπίων. Για τη λήψη νυχτερινών τοπίων απαιτείται αργό διάφραγμα.</string>
+    <string name="help_video_scene_mode_menu_sunset_desc">Λήψη ειδυλλιακού ηλιοβασιλέματος.</string>
+    <string name="help_video_white_balance_menu_desc">Βελτιώνει την ποιότητα των χρωμάτων κάτω από ποικίλες συνθήκες φωτισμού.</string>
+    <string name="help_video_white_balance_menu_auto_desc">Για αυτόματη ρύθμιση χρωμάτων.</string>
+    <string name="help_video_white_balance_menu_incandescent_desc">Για βίντεο που τραβήχτηκαν σε απαλό φωτισμό.</string>
+    <string name="help_video_white_balance_menu_sunny_desc">Εγγραφή βίντεο με ήλιο.</string>
+    <string name="help_video_white_balance_menu_flourescent_desc">Για βίντεο που τραβήχτηκαν σε φως φθορισμού.</string>
+    <string name="help_video_white_balance_menu_cloudy_desc">Για βίντεο που τραβήχτηκαν στη σκιά ή με συννεφιά.</string>
+    <string name="help_video_color_effect_menu_desc">Ρύθμιση ειδικών χρωματικών φίλτρων εφέ.</string>
+    <string name="help_video_color_effect_menu_off_desc">Δεν εφαρμόζεται κανένα χρωματικό εφέ.</string>
+    <string name="sp_help_video_color_effect_menu_off_desc_NORMAL">Εφαρμογή φίλτρου χωρίς χρώμα.</string>
+    <string name="help_video_color_effect_menu_sepia_desc">Εφαρμογή φίλτρου σέπια για τη λήψη νοσταλγικού βίντεο.</string>
+    <string name="help_video_color_effect_menu_mono_desc">Εφαρμογή μονόχρωμου φίλτρου για τη λήψη ασπρόμαυρου βίντεο.</string>
+    <string name="help_video_color_effect_menu_negative_desc">Εφαρμογή αρνητικού φίλτρου για την αντιστροφή των χρωμάτων του βίντεο.</string>
+    <string name="help_video_color_effect_menu_vivid_desc">Εφαρμογή έντονου χρωματικού εφέ στα βίντεο.</string>
+    <string name="help_video_color_effect_menu_negative_sepia_desc">Εφαρμογή εφέ αρνητικού σέπια στα βίντεο.</string>
+    <string name="help_video_color_effect_menu_blue_desc">Εφαρμογή μπλε χρωματικού εφέ στα βίντεο.</string>
+    <string name="help_video_color_effect_menu_emboss_desc">Εφαρμογή εφέ ανάγλυφου στα βίντεο.</string>
+    <string name="help_video_color_effect_menu_solarize_desc">Εφαρμογή εφέ ακτίνες ήλιου στα βίντεο.</string>
+    <string name="help_video_color_effect_menu_posterize_desc">Εφαρμογή χρωματικού εφέ διαβάθμισης χρωμάτων στα βίντεο.</string>
+    <string name="help_video_color_effect_menu_aqua_desc">Εφαρμογή χρωματικού εφέ υδατογραφίας στα βίντεο.</string>
+    <string name="help_video_color_effect_menu_pastel_desc">Εφαρμογή παστέλ χρωματικού εφέ στις στα βίντεο.</string>
+    <string name="help_video_duration_desc">Ρυθμίζει τη διάρκεια.</string>
+    <string name="help_video_duration_normal_desc">Χωρίς όριο.</string>
+    <string name="help_video_duration_mms_desc">Για αποστολή ως συνημμένου MMS.</string>
+    <string name="help_video_quality_desc">Ρυθμίζει την ποιότητα του βίντεο (όσο καλύτερη είναι η ποιότητα, τόσο αυξάνεται η κατανάλωση μνήμης).</string>
+    <string name="help_video_quality_super_desc">Αποθήκευση βίντεο σε εξαιρετική ποιότητα.</string>
+    <string name="help_video_quality_fine_desc">Αποθήκευση βίντεο σε καλή ποιότητα.</string>
+    <string name="help_video_quality_normal_desc">Αποθήκευση βίντεο σε κανονική ποιότητα.</string>
+    <string name="help_video_voice_desc">Ρύθμιση του ήχου εγγραφής όταν γίνεται εγγραφή βίντεο.</string>
+    <string name="help_video_voice_unmute_desc">Αποθήκευση βίντεο με ήχο.</string>
+    <string name="help_video_voice_mute_desc">Αποθήκευση βίντεο χωρίς ήχο.</string>
+    <string name="help_video_show_desc">Προβολή του βίντεο μετά την εγγραφή.</string>
+    <string name="sp_help_mirror_img_desc_NORMAL">Αποθήκευση ως είδωλο.</string>
+    <string name="sp_help_videostorage_NORMAL">Επιλέξτε αποθηκευτικό χώρο για την αποθήκευση των βίντεο.</string>
+    <string name="sp_help_videostorage_in_NORMAL">Αποθήκευση βίντεο στην εσωτερική μνήμη.</string>
+    <string name="sp_help_videostorage_sd_NORMAL">Αποθήκευση βίντεο στην κάρτα SD.</string>
+    <string name="camera_application_stopped">Η κάμερα διακόπηκε.</string>
+    <string name="camera_driver_needs_reset">Η κάμερα διακόπηκε ξαφνικά. Απαιτείται επανεκκίνηση.</string>
+    <string name="geo_tag_dialog_title">Η υπηρεσία GPS είναι απενεργοποιημένη.</string>
+    <string name="geo_tag_dialog_msg">Ενεργοποίηση GPS από τη ρύθμιση για χρήση της ετικέτας τοποθεσίας.</string>
+    <string name="geo_tag_dialog_confirm">Ρυθμίσεις GPS</string>
+    <string name="sp_eula_popup_dialog_title_NORMAL">Ειδοποίηση απορρήτου</string>
+    <string name="sp_eula_popup_do_not_show_this_again_NORMAL">Να μην εμφανιστεί ξανά</string>
+    <string name="sp_eula_popup_dialog_msg_NORMAL">Επιλέγοντας \"Geotagging\", η παρούσα συσκευή θα επισυνάψει, ενσωματώσει και αποθηκεύσει στοιχεία γεωγραφικών πληροφοριών σε κάθε φωτογραφία. Προσέξτε ιδιαίτερα όταν στέλνετε, διανέμετε, μεταδίδετε ή αντιγράφετε αυτές τις φωτογραφίες επειδή περιέχουν την τοποθεσία λήψης της φωτογραφίας.</string>
+    <string name="sp_eula_popup_dialog_msg_taglocation_NORMAL">Επιλέγοντας \"Τοποθεσία ετικέτας\", η παρούσα συσκευή θα επισυνάψει, ενσωματώσει και αποθηκεύσει στοιχεία γεωγραφικών πληροφοριών σε κάθε φωτογραφία. Προσέξτε ιδιαίτερα όταν στέλνετε, διανέμετε, μεταδίδετε ή αντιγράφετε αυτές τις φωτογραφίες επειδή περιέχουν την τοποθεσία λήψης της φωτογραφίας.</string>
+    <string name="geo_tag_dialog_title_cdma">Η υπηρεσία LBS είναι απενεργοποιημένη.</string>
+    <string name="geo_tag_dialog_msg_cdma">Ενεργοποίηση LBS από τη ρύθμιση για χρήση της ετικέτας τοποθεσίας.</string>
+    <string name="geo_tag_dialog_confirm_cdma">Ρυθμίσεις LBS</string>
+    <string name="sp_video_length_dialog_title_NORMAL">Μέγεθος βίντεο</string>
+    <string name="sp_video_length_dialog_msg_NORMAL">Επιλέξτε λειτουργία εγγραφής</string>
+    <string name="sp_video_length_dialog_long_NORMAL">Μεγάλο βίντεο</string>
+    <string name="sp_video_length_dialog_title_v2_NORMAL">Τρόπος εγγραφής</string>
+    <string name="sp_video_length_dialog_mms_NORMAL">Βίντεο MMS</string>
+    <string name="camera_error_title">Σφάλμα κάμερας</string>
+    <string name="cannot_connect_camera">Δεν είναι δυνατή η σύνδεση με τη φωτογραφική μηχανή.</string>
+    <string name="sp_notiintsd_NORMAL">Το αρχείο σας θα αποθηκευτεί στην εσωτερική μνήμη , μεταβείτε στο μενού Ρυθμίσεις> Αποθήκευση σε κάρτα SD και τηλέφωνο.</string>
+    <string name="sp_notiextsd_NORMAL">Το αρχείο σας θα αποθηκευτεί στην εσωτερική μνήμη , μεταβείτε στο μενού Ρυθμίσεις> Αποθήκευση σε κάρτα SD και τηλέφωνο.</string>
+    <string name="pref_camera_settings_category">Ρυθμίσεις κάμερας</string>
+    <string name="pref_camcorder_settings_category">Ρυθμίσεις βιντεοκάμερας</string>
+    <string name="sp_Camcorder_NORMAL">Βιντεοκάμ.</string>
+    <string name="camcorder_activity_name">Βιντεοκάμ.</string>
+    <string name="sp_close_app_NORMAL">Πατήστε ξανά το κουμπί \"Πίσω\" για να κλείσει η κάμερα.</string>
+    <string name="sp_popup_storage_limitsize_NORMAL">"Υπέρβαση μέγιστου ορίου εγγραφής.
+Το αρχείο αποθηκεύτηκε."</string>
+    <string name="sp_popup_storage_limit_with_exact_size_NORMAL">"Υπέρβαση μέγιστου ορίου εγγραφής (%s).
+Το αρχείο αποθηκεύτηκε."</string>
+    <string name="sp_popup_storage_maxsize_NORMAL">"Έχετε φτάσει το μέγιστο μέγεθος εγγραφής .
+Η εγγραφή θα σταματήσει σύντομα."</string>
+    <string name="sp_popup_storage_maximum_size_NORMAL">"Έχετε φτάσει το μέγιστο μέγεθος εγγραφής (%s).
+Η εγγραφή θα σταματήσει σύντομα."</string>
+    <string name="sp_sd_card_read_only_NORMAL">Η κάρτα SD που προσαρτήθηκε είναι μόνο για ανάγνωση</string>
+    <string name="sp_MMS_REC_limit_NORMAL">Το μέγιστο μέγεθος εγγραφής για την αποστολή βίντεο MMS είναι %d δευτερόλεπτα</string>
+    <string name="sp_popup_character_limit_NORMAL">Μη έγκυρος χαρακτήρας.</string>
+    <string name="sp_filename_already_exists_NORMAL">Όνομα αρχείου υπάρχει ήδη.</string>
+    <string name="sp_message_recording_limit_NORMAL">Το όριο μεγέθους του συνημμένου αρχείου είναι μικρότερο από το ελάχιστο μέγεθος εγγραφής.</string>
+    <string name="sp_help_toast_smart_shutter_NORMAL">Το έξυπνο κλείστρο σταθεροποιεί τις φωτογραφίες σε περίπτωση ακούσιας δόνησης.</string>
+    <string name="sp_help_scene_mode_menu_smart_shutter_desc_NORMAL">Λήψη εικόνων γρήγορης κίνησης χωρίς θάμπωμα του θέματος σε εσωτερικό χώρο</string>
+    <string name="sp_help_scene_mode_menu_action_desc_NORMAL">Λήψη γρήγορα κινούμενης εικόνας χωρίς θόλωμα</string>
+    <string name="sp_help_shot_mode_beauty_desc_NORMAL">Λήψη φωτογραφίας με εφέ φωτισμού και θολότητας</string>
+    <string name="sp_help_shot_mode_hdr_desc_NORMAL">Συνδυάζει πολλές λήψεις που λαμβάνονται από την ίδια σκηνή υψηλής αντίθεσης σε διαφορετικές εκθέσεις για τη δημιουργία πιο φυσικής εμφάνισης</string>
+    <string name="sp_help_shot_mode_slow_motion_desc_NORMAL">Αργή αναπαραγωγή γρήγορα κινούμενων αντικειμένων</string>
+    <string name="sp_help_shot_mode_time_machine_desc_NORMAL">Διαδοχική λήψη έξι φωτογραφιών με τη μία πριν αγγίξετε το πλήκτρο του κλείστρου</string>
+    <string name="sp_help_shot_mode_time_machine_5_picture_NORMAL">Λήψη πέντε διαδοχικών στιγμιότυπων ταυτόχρονα πριν πατηθεί το κλείστρο της κάμερας.</string>
+    <string name="sp_shot_mode_clearshot_NORMAL">Καλή λήψη</string>
+    <string name="sp_shot_mode_shot_and_clear">Λήψη &amp; καθαρισμός</string>
+    <string name="sp_scene_mode_smart_shutter_NORMAL">Έξυπνο κλείστρο</string>
+    <string name="sp_scene_mode_action_NORMAL">Ενέργεια</string>
+    <string name="sp_shot_mode_beauty_NORMAL">Βελτιωμένη λήψη</string>
+    <string name="sp_shot_mode_time_machine_NORMAL">Στιγμιότυπο μηχανής χρόνου</string>
+    <string name="sp_shot_mode_live_desc_NORMAL">Λήψη στιγμιότυπου οθόνης κατά τη διάρκεια εγγραφής βίντεο.</string>
+    <string name="sp_shot_mode_live_effect_desc_NORMAL">Αλλαγή υπόβαθρου και εφέ μορφοποίησης για την αλλαγή των χαρακτηριστικών του προσώπου κατά τη διάρκεια εγγραφής βίντεο.</string>
+    <string name="dual_camera">Διπλή κάμερα</string>
+    <string name="sp_focus_infinity_NORMAL">Άπειρο</string>
+    <string name="sp_high_temp_action_NORMAL">Αφαιρέστε τη μπαταρία ή μετακινήστε σε δροσερό μέρος.</string>
+    <string name="sp_high_temperature_detection_NORMAL">Υψηλή θερμοκρ. μπαταρίας</string>
+    <string name="sp_attach_file_size_exceeded_NORMAL">Υπέρβαση μέγιστου μεγέθους συνημμένου αρχείου</string>
+    <string name="sp_high_temp_action_on_enter_NORMAL">Υψηλή θερμοκρασία μπαταρίας. Δεν είναι δυνατή η έναρξη της κάμερας.</string>
+    <string name="sp_high_temp_action_on_recording_NORMAL">Υψηλή θερμοκρασία μπαταρίας. Η εγγραφή βίντεο θα σταματήσει.</string>
+    <string name="high_temp_action_on_recording">Η εγγραφή βίντεο δεν είναι δυνατή επειδή θα επηρέαζε τη βέλτιστη θερμοκρασία λειτουργίας του τηλεφώνου. Δοκιμάστε ξανά αργότερα.</string>
+    <string name="sp_warning_high_temperature_on_recording_NORMAL">Προσέξτε. Η λήψη βίντεο όταν φορτίζεται η συσκευή σας μπορεί να προκαλέσει αύξηση της θερμοκρασίας της συσκευής σας</string>
+    <string name="warning_high_temp_action_flash_off">Το φλας απενεργοποιείται για τη διατήρηση της βέλτιστης θερμοκρασίας του τηλεφώνου.</string>
+    <string name="sp_silly_face_title_NORMAL">Αστείες γκριμάτσες</string>
+    <string name="sp_big_eyes_NORMAL">Μεγάλα μάτια</string>
+    <string name="sp_big_mouth_NORMAL">Μεγάλο στόμα</string>
+    <string name="sp_squeeze_NORMAL">"Σφιχτά    "</string>
+    <string name="sp_big_nose_NORMAL">Μεγάλη μύτη</string>
+    <string name="sp_small_eyes_NORMAL">Μικρά μάτια</string>
+    <string name="sp_small_mouth_NORMAL">Μικρό στόμα</string>
+    <string name="sp_background_title_NORMAL">Φόντο</string>
+    <string name="sp_choose_gallery_NORMAL">Βίντεο</string>
+    <string name="sp_bg_replacement_message_NORMAL">"Τοποθετήστε τη συσκευή σας σε σταθερή επιφάνεια και βεβαιωθείτε ότι δεν υφίσταται κίνηση πίσω σας.
+
+Στη συνέχεια βγείτε από το οπτικό εύρος της κάμερας"</string>
+    <string name="sp_bg_replacement_message_v2_NORMAL">"Κρατήστε τη συσκευή σταθερή για την αποφυγή τρανταγμάτων και δονήσεων.
+Όταν έχετε σταθεροποιήσει την κάμερα μπορείτε να ξεκινήσετε να εγγράφετε βίντεο του θέματος."</string>
+    <string name="sp_pano_too_fast_prompt_NORMAL">Υπερβολικά γρήγορα</string>
+    <string name="sp_live_shot_NORMAL">Ζωντανή λήψη</string>
+    <string name="sp_live_effect_NORMAL">Ζωντανό εφέ</string>
+    <string name="dual_recording">Διπλή εγγραφή</string>
+    <string name="smart_zoom">Έξυπνο ζουμ</string>
+    <string name="tracking_zoom">Μεγέθυνση παρακολούθησης</string>
+    <string name="anti_shaking">Προστασία από τον κραδασμό</string>
+    <string name="sp_audio_zoom_NORMAL">Ηχητική εστίαση</string>
+    <string name="sp_tracking_focus_NORMAL">Παρακολούθηση εστίασης</string>
+    <string name="sp_video_recording_normalmode_NORMAL">Εγγραφή πρότυπου βίντεο.</string>
+    <string name="sp_note_shot_mode_setting_change_NORMAL">Βέλτιστες ρυθμίσεις για τη λειτουργία %s.</string>
+    <string name="sp_help_swap_camera_menu_desc_v2_NORMAL">Εναλλαγή μεταξύ κύριας και μπροστινής κάμερας</string>
+    <string name="sp_help_light_frame_desc_v2_NORMAL">"Ενεργοποίηση φλας για τη λήψη φωτεινότερων φωτογραφιών με μικρότερη οθόνη προεπισκόπησης όταν χρησιμοποιείται η μπροστινή κάμερα. "</string>
+    <string name="sp_help_zoom_desc_v2_NORMAL">Μεγέθυνση/Σμίκρυνση</string>
+    <string name="sp_help_brightness_desc_v2_NORMAL">Ρύθμιση επιπέδου έκθεσης</string>
+    <string name="sp_help_flash_desc_v2_NORMAL">Ορισμός flash</string>
+    <string name="sp_help_flash_auto_desc_v2_NORMAL">Βάλτε το σε λειτουργία φλας όταν χρειάζεται</string>
+    <string name="sp_help_flash_off_desc_v2_NORMAL">Φλας σβηστό</string>
+    <string name="sp_help_flash_on_desc_v2_NORMAL">Φλας αναμμένο</string>
+    <string name="sp_help_camera_settings_desc_v2_NORMAL">Προσαρμογή ρυθμίσεων κάμερας.</string>
+    <string name="sp_help_focus_desc_v2_NORMAL">Ρύθμιση εστίασης</string>
+    <string name="sp_help_focus_auto_desc_v2_NORMAL">Κανονική αυτόματη εστίαση</string>
+    <string name="sp_help_focus_face_desc_v2_NORMAL">Αυτόματος εντοπισμός και εστίαση σε πρόσωπα</string>
+    <string name="sp_help_image_size_menu_desc_v2_NORMAL">Ρύθμιση μεγέθους εικόνας</string>
+    <string name="sp_help_scene_mode_menu_desc_v2_NORMAL">Επιλέξτε την προτιμώμενη λειτουργία</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_v2_NORMAL">Λήψη κανονικής φωτογραφίας</string>
+    <string name="sp_help_scene_mode_menu_portrait_desc_v2_NORMAL">Λήψη φωτογραφίας ανθρώπων</string>
+    <string name="sp_help_scene_mode_menu_landscape_desc_v2_NORMAL">Λήψη φωτογραφίας τοπίου</string>
+    <string name="sp_help_scene_mode_menu_sports_desc_v2_NORMAL">Λήψη γρήγορα κινούμενης εικόνας χωρίς θόλωμα</string>
+    <string name="sp_help_scnen_mode_menu_sunset_desc_v2_NORMAL">Λήψη σε ηλιοβασίλεμα και με οπίσθιο φωτισμό</string>
+    <string name="sp_help_scene_mode_menu_night_desc_v2_NORMAL">Λήψη φωτογραφίας στο σκοτάδι</string>
+    <string name="sp_help_iso_menu_desc_v2_NORMAL">Αύξηση ευαισθησίας κατά τη λήψη φωτογραφιών σε συνθήκες χαμηλού φωτισμού για τη μείωση του θαμπώματος που προκαλείται από το κούνημα της μηχανής η από την κίνηση του θέματος</string>
+    <string name="sp_help_withe_balance_desc_v2_NORMAL">Ρύθμιση θερμοκρασίας χρώματος της εικόνας που είναι προκαθορισμένες ανάλογα με την πηγή φωτός</string>
+    <string name="sp_help_white_balance_auto_desc_v2_NORMAL">Η ισορροπία λευκού προσαρμόζεται αυτόματα στις συνθήκες φωτισμού</string>
+    <string name="sp_help_withe_balance_incandescent_desc_v2_NORMAL">Χρήση με λάμπα πυράκτωσης</string>
+    <string name="sp_help_white_balance_sunny_desc_v2_NORMAL">Χρήση σε φως του ήλιου</string>
+    <string name="sp_help_white_balance_flourescent_desc_v2_NORMAL">Χρήση σε φως φθορισμού</string>
+    <string name="sp_help_white_balance_cloudy_desc_v2_NORMAL">Χρήση σε σκιά και σε ημέρες με συννεφιά</string>
+    <string name="sp_help_withe_balance_incandescent_desc_camera_v2_NORMAL">Χρήση με λάμπα πυράκτωσης.</string>
+    <string name="sp_help_white_balance_sunny_desc_camera_v2_NORMAL">Χρήση στο φως του ήλιου.</string>
+    <string name="sp_help_white_balance_flourescent_desc_camera_v2_NORMAL">Χρήση σε φως φθορισμού.</string>
+    <string name="sp_help_white_balance_cloudy_desc_camera_v2_NORMAL">Χρήση σε σκιά και σε ημέρες με συννεφιά.</string>
+    <string name="sp_help_color_effect_desc_v2_NORMAL">Ρύθμιση εφέ χρωματικού φίλτρου κατά την λήψη φωτογραφιών</string>
+    <string name="sp_help_color_effect_off_desc_v2_NORMAL">Δεν υπάρχει χρωματικό εφέ</string>
+    <string name="sp_help_color_effect_mono_desc_v2_NORMAL">Λήψη ασπρόμαυρης φωτογραφίας</string>
+    <string name="sp_help_color_effect_sepia_desc_v2_NORMAL">Λήψη φωτογραφίας με εφέ σέπια</string>
+    <string name="sp_help_color_effect_negative_desc_v2_NORMAL">Λήψη φωτογραφίας με αντίστροφα χρώματα</string>
+    <string name="sp_help_timer_menu_desc_v2_NORMAL">Ρύθμιση καθυστέρησης 3, 5 ή 10 δευτερολέπτων πριν από τη λήψη</string>
+    <string name="sp_help_shot_mode_desc_v2_NORMAL">Ρύθμιση διαφόρων λειτουργιών λήψης</string>
+    <string name="sp_help_shot_mode_normal_desc_v2_NORMAL">Κανονική προβολή</string>
+    <string name="sp_help_shot_mode_continuous_shot_desc_v2_NORMAL">Γρήγορη λήψη 6 φωτογραφιών στη σειρά</string>
+    <string name="sp_help_shot_mode_panorama_shot_desc_v2_NORMAL">Οριζόντια λήψη συνεχόμενων φωτογραφιών που θα συγχωνευθούν σε μία πανοραμική εικόνα</string>
+    <string name="sp_help_shutter_sound_menu_desc_v2_NORMAL">Ρύθμιση ηχητικού εφέ κατά τη λήψη φωτογραφίας</string>
+    <string name="sp_help_show_captured_image_menu_desc_v2_NORMAL">Εμφάνιση της φωτογραφίας αμέσως μετά τη λήψη της</string>
+    <string name="sp_help_geo_tagging_menu_desc_v2_NORMAL">Προσθήκη πληροφοριών τοποθεσίας λήψης της εικόνας</string>
+    <string name="sp_help_storage_v2_NORMAL">Επιλογή αποθηκευτικού μέσου για την αποθήκευση εικόνων.</string>
+    <string name="sp_help_storage_inner_v2_NORMAL">Αποθήκευση εικόνων στην εσωτερική μνήμη.</string>
+    <string name="sp_help_storage_sd_v2_NORMAL">Αποθήκευση εικόνων στην κάρτα SD.</string>
+    <string name="sp_help_video_size_desc_v2_NORMAL">Ρύθμιση μεγέθους αρχείου βίντεο</string>
+    <string name="sp_help_video_color_effect_desc_v2_NORMAL">Ρύθμιση εφέ χρωματικού φίλτρου κατά την εγγραφή βίντεο</string>
+    <string name="sp_help_video_color_effect_mono_desc_v2_NORMAL">Εγγραφή βίντεο σε ασπρόμαυρο</string>
+    <string name="sp_help_video_color_effect_sepia_desc_v2_NORMAL">Εγγραφή βίντεο σε τόνους σέπια</string>
+    <string name="sp_help_video_color_effect_negative_desc_v2_NORMAL">Εγγραφή βίντεο με ανεστραμμένο χρώμα</string>
+    <string name="sp_help_video_shot_mode_live_shot_desc_v2_NORMAL">Λήψη στιγμιότυπου φωτογραφίας κατά την εγγραφή βίντεο</string>
+    <string name="sp_help_video_shot_mode_live_effect_desc_v2_NORMAL">Αλλαγή φόντου και εφέ μορφοποίησης για την μεταμόρφωση των χαρακτηριστικών του προσώπου κατά την εγγραφή βίντεο</string>
+    <string name="sp_help_video_voice_desc_v2_NORMAL">Ρύθμιση ήχου κατά την εγγραφή βίντεο</string>
+    <string name="sp_help_video_voice_unmute_desc_v2_NORMAL">Εγγραφή βίντεο με ήχο</string>
+    <string name="sp_help_video_voice_mute_desc_v2_NORMAL">Εγγραφή βίντεο χωρίς ήχο</string>
+    <string name="sp_help_video_show_desc_v2_NORMAL">Εμφάνιση του βίντεο αμέσως μετά την εγγραφή</string>
+    <string name="sp_help_video_geo_tagging_menu_desc_v2_NORMAL">Προσθήκη πληροφοριών τοποθεσίας καταγραφής βίντεο</string>
+    <string name="sp_help_videostorage_v2_NORMAL">Επιλέξτε αποθηκευτικό χώρο για την αποθήκευση των βίντεο.</string>
+    <string name="sp_help_videostorage_in_v2_NORMAL">Αποθήκευση βίντεο στην εσωτερική μνήμη.</string>
+    <string name="sp_help_videostorage_sd_v2_NORMAL">Αποθήκευση βίντεο στην κάρτα SD.</string>
+    <string name="sp_help_shot_mode_beauty_desc_v2_NORMAL">Λήψη φωτογραφίας με εφέ θολώματος</string>
+    <string name="sp_help_flipped_img_desc_NORMAL">Αποθήκευση αναποδογυρισμένης εικόνας κάθετα</string>
+    <string name="sp_help_normal_img_desc_NORMAL_NORMAL">Αποθήκευση κανονικής εικόνας</string>
+    <string name="sp_help_camera_reset_desc_v3_NORMAL">Η κάμερα θα επαναφερθεί στις προεπιλεγμένες τιμές</string>
+    <string name="sp_help_flipped_img_desc_v3_NORMAL">Αποθήκευση φωτογραφίας ανεστραμμένη</string>
+    <string name="sp_help_video_reset_desc_v3_NORMAL">Επαναφορά ρυθμίσεων βίντεο στις προεπιλεγμένες τιμές</string>
+    <string name="sp_deleted_images_NORMAL">Οι επιλεγμένες εικόνες θα διαγραφούν. Συνέχεια?</string>
+    <string name="sp_deleted_photos_NORMAL">Οι επιλεγμένες εικόνες θα διαγραφούν. Συνέχεια?</string>
+    <string name="sp_help_guide_beauty_shot_desc_NORMAL">Οι λήψεις ομορφιάς ρυθμίζουν τη φωτεινότητα και το εφέ του θολώματος ελέγχοντας τη γραμμή στη βάση της οθόνης.</string>
+    <string name="sp_help_guide_beauty_shot_desc_list">Οι λήψεις ομορφιάς ρυθμίζουν τη φωτεινότητα και το εφέ του θολώματος ελέγχοντας τη γραμμή στη βάση της οθόνης.</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL">"Γίνεται λήψη 6 διαδοχικών φωτογραφιών πατώντας το κλείστρο.
+Μπορείτε να διαλέξετε εικόνες για αποθήκευση απευθείας και να τις μοιραστείτε (με τη λειτουργία \"αυτόματης προεπισκόπησης\")."</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL_v2">Γίνεται λήψη 6 διαδοχικών φωτογραφιών πατώντας το κλείστρο.</string>
+    <string name="sp_help_guide_hdr_desc_NORMAL">Το HDR κάνει τις εικόνες πιο ρεαλιστικές χρησιμοποιώντας πολλαπλές τεχνολογίες έκθεσης.</string>
+    <string name="sp_help_guide_hdr_desc_list">Το HDR κάνει τις εικόνες πιο ρεαλιστικές χρησιμοποιώντας πολλαπλές τεχνολογίες έκθεσης.</string>
+    <string name="sp_help_guide_live_effect_desc_NORMAL">Τα ζωντανά εφέ προσφέρουν οπτικά εφέ όταν γίνεται λήψη βίντεο. Διαλέξτε εφέ, και ξεκινήστε την εγγραφή.</string>
+    <string name="sp_help_guide_panorama_shot_desc_NORMAL">"Οι διαδοχικές φωτογραφίες συνδυάζονται και συνθέτουν μία πανοραμική φωτογραφία.
+Πατήστε το κλείστρο και στρέψτε την κάμερα από το ένα άκρο στο άλλο. Πατήστε μία ακόμη φορά το κλείστρο για τέλος."</string>
+    <string name="sp_help_guide_free_panorama_shot_desc_NORMAL">"Οι διαδοχικές εικόνες κατασκευάζουν μια σφαιρική 360 μοιρών πανοραμική εικόνα.
+Πατήστε το κουμπί του κλείστρου για να ξεκινήσετε και μετακινήστε την κάμερα σε οποιαδήποτε κατεύθυνση."</string>
+    <string name="sp_help_guide_time_machine_desc_NORMAL">"Η κάμερα τραβάει αρκετές φωτογραφίες το δευτερόλεπτο πριν πατήσετε το κουμπί του κλείστρου. 
+Μπορείτε να διαλέξετε απευθείας φωτογραφίες για αποθήκευση και να τις μοιραστείτε (με τη λειτουργία \"αυτόματης προεπισκόπησης\")."</string>
+    <string name="sp_help_guide_time_machine_desc_new_NORMAL">"Ελέγξτε και αποθηκεύστε τις σκηνές που χάσατε πριν τη λήψη "</string>
+    <string name="sp_help_guide_time_machine_desc_new_vzw_NORMAL">Τραβάει στιγμιότυπα πριν πατήσετε το κλείστρο.</string>
+    <string name="sp_help_popup_guide_time_machine_desc_new_NORMAL">Τραβάει φωτογραφίες πριν πατήστε το κλείστρο.</string>
+    <string name="sp_help_guide_time_machine_new_desc_NORMAL">Η κάμερα τραβάει αρκετές φωτογραφίες το δευτερόλεπτο πριν πατήσετε το κουμπί του κλείστρου. Μόνο οι επιλεγμένες φωτογραφίες θα αποθηκευτούν.</string>
+    <string name="sp_image_SHORT">Εικόνα</string>
+    <string name="sp_video_SHORT">Βίντεο</string>
+    <string name="sp_will_be_deleted_NORMAL">%1$s θα διαγραφούν. Συνέχεια;</string>
+    <string name="sp_photo_will_be_deleted_NORMAL">Η φωτογραφία θα διαγραφεί. Θέλετε να συνεχίσετε;</string>
+    <string name="sp_video_will_be_deleted_NORMAL">Το βίντεο θα διαγραφεί. Θέλετε να συνεχίσετε;</string>
+    <string name="sp_gps_settings_title_NORMAL">Η υπηρεσία τοποθεσίας απενεργοποιήθηκε</string>
+    <string name="sp_gps_setting_msg_NORMAL">Ενεργοποιήστε τις υπηρεσίες τοποθεσίας για να χρησιμοποιήσετε τη λειτουργία γεωγραφικού εντοπισμού.</string>
+    <string name="sp_enable_app_msg_NORMAL">Η εφαρμογή %s πρέπει να είναι ενεργοποιημένη για να χρησιμοποιήσετε αυτή τη λειτουργία. Θέλετε να ενεργοποιήσετε αυτή την εφαρμογή;</string>
+    <string name="sp_photoimage_SHORT">Φωτογραφία</string>
+    <string name="sp_note_dialog_title_NORMAL">Σημείωση</string>
+    <string name="sp_saved_NORMAL">Αποθηκεύθηκε</string>
+    <string name="sp_front_NORMAL">Μπροστά</string>
+    <string name="sp_rear_NORMAL">Οπίσθια κάμερα</string>
+    <string name="sp_timemachine_delete_warning_NORMAL">Θα χάσετε τις φωτογραφίες που δεν έχουν αποθηκευτεί. Θέλετε να συνεχίσετε;</string>
+    <string name="sp_timemachine_bubble_popup_NORMAL">Για να εμφανίσετε τις στιγμές που λείπουν, πατήστε αυτό το κουμπί.</string>
+    <string name="sp_timemachine_select_NORMAL">Ελέγξτε τις φωτογραφίες που θέλετε να κρατήσετε.</string>
+    <string name="sp_timemachine_select_new_NORMAL">Επιλέξτε τις φωτογραφίες που θέλετε να κρατήσετε.</string>
+    <string name="sp_timemachine_save_guide">Επιλέξτε τις φωτογραφίες που θέλετε να κρατήσετε και πατήστε το κουμπί Αποθήκευση.</string>
+    <string name="sp_shot_mode_time_catch_NORMAL">Χρόνος λήψης στιγμιότυπου</string>
+    <string name="sp_help_guide_time_catch_desc_NORMAL">Χρόνος λήψης στιγμιότυπου συλλαμβάνει τη στιγμή που λείπουν πριν πατήσετε το κουμπί του κλείστρου.</string>
+    <string name="sp_help_guide_time_catch_new_desc_NORMAL">Χρόνος λήψης στιγμιότυπου συλλαμβάνει τη στιγμή που λείπουν πριν πατήσετε το κουμπί του κλείστρου. Μόνο οι επιλεγμένες φωτογραφίες θα αποθηκευτούν.</string>
+    <string name="sp_timemachine_bubble_popup_jp_NORMAL">Για να εμφανίσετε τις φωτογραφίες που τραβήχτηκαν 1 δευτερόλεπτο πριν την απελευθέρωση του κλείστρου, πατήστε αυτό το κουμπί.</string>
+    <string name="sp_force_close_on_high_temperature_NORMAL">Η κάμερα θα απενεργοποιηθεί εξαιτίας υψηλής θερμοκρασίας στη συσκευή.</string>
+    <string name="sp_screen_cannot_be_captured_NORMAL">Η τρέχουσα οθόνη δεν μπορεί να συλληφθεί</string>
+    <string name="sp_voice_shutter_help_desc">Οι φωτογραφίες λαμβάνονται με φωνητική εντολή</string>
+    <string name="sp_clear_shot_tab_guide">Αγγίξτε οποιοδήποτε από τα αντικείμενα που περιγράφονται για να το αφαιρέσετε από τη φωτογραφία.</string>
+    <string name="sp_clear_shot_tab_guide_v2">Επιλέξτε το αντικείμενο που περιγράφεται για να το αφαιρέσετε και πατήστε το κουμπί Αποθήκευση.</string>
+    <string name="sp_clear_shot_not_found_object">Δεν υπάρχει αντικείμενο για κατάργηση.</string>
+    <string name="sp_clear_shot_warning_popup">Δεν έχετε αποθηκεύσει την εργασία σας. Τυχόν αλλαγές στη φωτογραφία θα χαθούν. Θέλετε να συνεχίσετε;</string>
+    <string name="sp_clear_shot_warning_handshake">Απόσβεση κουνήματος.</string>
+    <string name="sp_clear_shot_capture_failed">Απέτυχε</string>
+    <string name="intelligent_auto">Αυτόματη ενεργοποίηση έξυπνης λειτουργίας</string>
+    <string name="sp_anti_shaking_help_desc">Για υψηλή ποιότητα κατά τη διάρκεια βίντεο εγγραφής μην κουνάτε τη συσκευή.</string>
+    <string name="sp_photo_has_not_yet_been_saved_warning_popup">Η φωτογραφία δεν έχει αποθηκευτεί. Θέλετε να βγείτε από το πρόγραμμα χωρίς να κάνετε αποθήκευση;</string>
+    <string name="sp_wdr_recording_help_desc">Βελτιστοποιήστε το βίντεο προσαρμόζοντας τον οπίσθιο φωτισμό των εγγραφών που έγιναν με διαφορετικές εκθέσεις και με βελτιωμένο έλεγχο της πολλαπλής έκθεσης.</string>
+    <string name="sp_wdr_recording_help_desc_list">Βελτιστοποιήστε το βίντεο προσαρμόζοντας τον οπίσθιο φωτισμό των εγγραφών που έγιναν με διαφορετικές εκθέσεις και με βελτιωμένο έλεγχο της πολλαπλής έκθεσης.</string>
+    <string name="sp_burst_shot_help_desc">Τραβήξτε μέχρι και 20 φωτογραφίες γρήγορα με το πάτημα του κλείστρου.</string>
+    <string name="sp_burst_shot_help_desc_list">Τραβήξτε μέχρι και 20 φωτογραφίες γρήγορα με το πάτημα του κλείστρου.</string>
+    <string name="sp_clear_shot_help_desc">Τραβήξτε μια φωτογραφία. Αγγίξτε οποιοδήποτε από τα αντικείμενα που περιγράφονται για να το αφαιρέσετε από τη φωτογραφία.</string>
+    <string name="sp_intelligent_auto_help_desc">"Εντοπίζει αυτόματα τα στοιχεία μιας σκηνής και τραβάει φωτογραφία "</string>
+    <string name="sp_intelligent_auto_help_desc_popup">Εντοπίζει αυτόματα το περιβάλλον της σκηνής και ρυθμίζει το διάφραγμα, την ταχύτητα κλείστρου και τις επιλογές λήψης φωτογραφίας.</string>
+    <string name="sp_tracking_focus_help_desc">Πατήστε το θέμα στην οθόνη προεπισκόπησης για να παρακολουθήσετε και να βελτιώσετε την εστίαση.</string>
+    <string name="sp_dual_recording_help_desc">"Ευθυγραμμίστε την μπροστινή και την κύρια κάμερα σε μία οθόνη για την εγγραφή "</string>
+    <string name="sp_dual_recording_help_desc_v2">"1. Σύρετε για να μετακινήσετε τη μικρή οθόνη.
+2. Αγγίξτε και κρατήστε τη μικρή οθόνη για να αλλάξετε τις διαστάσεις της.
+3. Πατήστε την μικρή οθόνη για εναλλαγή μεταξύ της μικρής και της μεγάλης οθόνης."</string>
+    <string name="sp_audio_zoom_help_desc_in_recording">Τσιμπήστε προς τα μέσα για να ενισχύσετε την εστίαση του ήχου</string>
+    <string name="sp_audio_zoom_help_desc">"Αυξήστε την ευαισθησία του ήχου στην περιοχή μεγέθυνσης και μειώστε τον θόρυβο κατά την εγγραφή "</string>
+    <string name="sp_audio_zoom_help_desc_v2">Εστιάστε σε μια συγκεκριμένη περιοχή για να αυξήσετε την ευαισθησία του ήχου και να μειώσετε το θόρυβο. Αυτή η λειτουργία είναι διαθέσιμη μόνο στην οριζόντια προβολή. Μην καλύπτετε τα πλευρικά μικρόφωνα, όταν χρησιμοποιείτε αυτή τη λειτουργία.</string>
+    <string name="sp_live_effect_help_desc">Εφαρμογή διαφόρων οπτικών εφέ κατά την εγγραφή βίντεο</string>
+    <string name="sp_vrpanorama_help_desc">Τραβήξτε φωτογραφίες στη σειρά για να δημιουργήσετε μια πανοραμική εικόνα.</string>
+    <string name="sp_vrpanorama_help_desc_v2">"1. Πατήστε το πλήκτρο του κλείστρου για να ξεκινήσει η λειτουργία VR πανόραμα.
+2. Μετακινήστε το πλαίσιο εστίασης ώστε να χωρέσει στο μπλε πλαίσιο/οδηγό για να τραβήξετε μια φωτογραφία.
+3. Στρέψτε τη φωτογραφική μηχανή σε άλλες περιοχές εστίασης και τραβήξτε φωτογραφίες. Οι φωτογραφίες θα συνθέσουν μία μοναδική εικόνα."</string>
+    <string name="sp_dual_camera_help_desc">"Ευθυγραμμίστε την μπροστινή και την κύρια κάμερα σε μία οθόνη για την εγγραφή "</string>
+    <string name="sp_smart_zoom_help_desc">Μεγέθυνση περιοχής εστίασης στην οθόνη όταν τραβάτε βίντεο.</string>
+    <string name="sp_smart_zoom_help_desc_v2">"1. Μετακίνηση εστίασης για τη μεγέθυνση του βίντεο. 
+2. Στην οθόνη εμφανίζεται η περιοχή εστίασης. Για να αλλάξετε την περιοχή εστίασης πατήστε και κρατήστε τη πατημένη."</string>
+    <string name="sp_intelligent_auto_mode_NORMAL">"Λειτουργία αυτόματης έξυπνης κάμερας "</string>
+    <string name="sp_normal_camera_mode_NORMAL">Κανονική λειτουργία κάμερας.</string>
+    <string name="sp_center_NORMAL">Κέντρο</string>
+    <string name="sp_border_NORMAL">Περίγραμμα</string>
+    <string name="sp_3d_depth_NORMAL">Βάθος 3D</string>
+    <string name="sp_popup_change_view_to_landscape_for_3d_NORMAL">Αλλάξτε την προβολή σε οριζόντια για την καλύτερη δυνατή προβολή 3D.</string>
+    <string name="sp_entering_guide_NORMAL">"Για την επεξεργασία των γρήγορων μενού,
+κρατήστε πατημένο το εικονίδιο."</string>
+    <string name="sp_entering_clean_guide_NORMAL">Βεβαιωθείτε ότι ο φακός της κάμερας είναι καθαρός για να εξασφαλίσετε καλή ποιότητα εικόνας.</string>
+    <string name="sp_entering_gallery_guide_NORMAL">"Για γρήγορο έλεγχος της φωτογραφίας,
+πατήστε και κρατήστε πατημένο το εικονίδιο της γκαλερί."</string>
+    <string name="entering_guide_att">"Πατήστε και κρατήστε πατημένο ένα εικονίδιο
+για να επεξεργαστείτε συντομεύσεις."</string>
+    <string name="sp_entering_gallery_guide_vzw">"Για γρήγορο έλεγχος της φωτογραφίας,
+πατήστε και κρατήστε πατημένο το εικονίδιο της γκαλερί."</string>
+    <string name="entering_guide_vzw">"Πατήστε και κρατήστε πατημένο ένα εικονίδιο
+για να επεξεργαστείτε συντομεύσεις."</string>
+    <string name="portrait_plus">Πορτρέτο +</string>
+    <string name="help_guide_portrait_plus_shot_desc">Η εφαρμογή Portrait + προσδίδει φωτεινότητα στο πρόσωπο και το κάνει να φαίνεται πιο λείο.</string>
+    <string name="edit_quick_menu">Επεξεργασία γρήγορου μενού</string>
+    <string name="error_occurred">Παρουσιάστηκε σφάλμα.</string>
+    <string name="sp_info_empty_SHORT">Κενό</string>
+    <string name="accessibility_exit_edit_menu">Έξοδος από την επεξεργασία</string>
+    <string name="accessibility_shutter_button">Κλείστρο</string>
+    <string name="accessibility_review_thumbnail">Πιο πρόσφατη φωτογραφία ή βίντεο</string>
+    <string name="accessibility_camera_picker">Εναλλαγή μεταξύ κάμερας και βιντεοκάμερας</string>
+    <string name="accessibility_beautyshot_bar">Πίνακας ελέγχου Beauty shot</string>
+    <string name="accessibility_beautyshot_control">"Έλεγχος λήψης φωτογραφίας αισθητικής "</string>
+    <string name="accessibility_beautyshot_button">Πλήκτρο ελέγχου Beauty shot</string>
+    <string name="accessibility_brightness_bar">Γραμμή ελέγχου φωτεινότητας</string>
+    <string name="accessibility_brightness_control">Έλεγχος φωτεινότητας</string>
+    <string name="accessibility_brightness_button">Πλήκτρο ελέγχου φωτεινότητας</string>
+    <string name="accessibility_manual_focus_bar">Γραμμή ελέγχου χειροκίνητης εστίασης</string>
+    <string name="accessibility_manual_focus_button">Χειροκίνητος έλεγχος εστίασης</string>
+    <string name="accessibility_zoom_bar">Γραμμή ελέγχου μεγέθυνσης</string>
+    <string name="accessibility_zoom_control">Έλεγχος ζουμ</string>
+    <string name="accessibility_zoom_button">Πλήκτρο ελέγχου μεγέθυνσης</string>
+    <string name="accessiblity_free_panorama_retake">Νέα λήψη</string>
+    <string name="accessiblity_start_recording">Έναρξη εγγραφής</string>
+    <string name="accessiblity_stop_recording">Διακοπή εγγραφής</string>
+    <string name="accessiblity_pause_recording">Παύση εγγραφής</string>
+    <string name="camera_accessibility_stop_button">Διακοπή</string>
+    <string name="free_panorama_bubble_popup">Για να εμφανίσετε φωτογραφία με άποψή 360 μοιρών, αγγίξτε την οθόνη.</string>
+    <string name="error_panorama_during_taking">Η λήψη πανοραμικής φωτογραφίας διακόπηκε επειδή μετατοπίστηκε ή κάμερα. Η φωτογραφία αποθηκεύτηκε στο Άλμπουμ</string>
+    <string name="sp_date_stamp">Σφραγίδα ημερομηνίας</string>
+    <string name="audio_zoom_warning">Η ηχητική εστίαση ενεργοποιείται μόνο στην οριζόντια προβολή.</string>
+    <string name="audio_zoom_disabled">Η λειτουργία εστίασης ήχου είναι απενεργοποιημένη</string>
+    <string name="unable_to_use_qmemo">Δεν είναι δυνατή η χρήση του %s</string>
+    <string name="sp_open_quick_camera_case">Άνοιγμα Quick Camera Case</string>
+    <string name="message_received">Νέο μήνυμα ελήφθη</string>
+    <string name="pd_message_processing">Επεξεργασία...</string>
+    <string name="not_available_during_remote_care">Δεν είναι διαθέσιμη στη λειτουργία της απομακρυσμένης φροντίδας.</string>
+    <string name="dual_camera_effect_menu_none">Κανένα</string>
+    <string name="dual_camera_effect_menu_stamp">Σφραγίδα</string>
+    <string name="dual_camera_effect_menu_ovalblur">Εφέ θαμπό οβάλ</string>
+    <string name="dual_camera_effect_menu_instantpic">Εφέ άμεσης λήψης</string>
+    <string name="dual_camera_effect_menu_heart">Εφέ καρδιάς</string>
+    <string name="dual_camera_effect_menu_star">Σχήμα αστεριού</string>
+    <string name="dual_camera_effect_menu_window">Παράθυρα</string>
+    <string name="dual_camera_effect_menu_fisheye">Fisheye</string>
+    <string name="dual_camera_effect_menu_cubism">Εφέ Cubic</string>
+    <string name="dual_camera_effect_menu_splitview1">Διαχωρισμός προβολής 1</string>
+    <string name="dual_camera_effect_menu_splitview2">Διαχωρισμός προβολής 2</string>
+    <string name="smart_zoom_object_tracking_focus_mode">Λειτουργία παρακολούθησης εστίασης</string>
+    <string name="smart_zoom_manual_focus_mode">Λειτουργία κανονικής εστίασης</string>
+    <string name="sp_shot_mode_new_hdr">Δυναμικός τόνος (HDR)</string>
+    <string name="sp_help_guide_new_hdr_desc_list">Συνδυάζει φωτογραφίες που έχουν ληφθεί σε διαφορετικά περιβάλλοντα έκθεσης σε μια ενιαία φωτογραφία για να συνθέσει την καλύτερη φωτογραφία σε δύσκολες συνθήκες φωτισμού.</string>
+    <string name="accessiblity_mode_button">Λειτουργ.</string>
+    <string name="accessiblity_change_view_list_button">Προβολή λίστας</string>
+    <string name="accessiblity_change_view_grid_button">Προβολή πλέγματος</string>
+    <string name="accessiblity_default_auto_button">Κανονικό</string>
+    <string name="mode_menu_camera_normal">Λήψη φωτογραφίας με την κανονική λειτουργία κάμερας.</string>
+    <string name="mode_menu_video_normal">Εγγραφή βίντεο με την κανονική λειτουργία εγγραφής.</string>
+    <string name="mode_menu_video_tracking_zoom">Η λειτουργία εστίασης σας επιτρέπει να εστιάσετε σε μια περιοχή και να τη μεγεθύνετε. Εμφανίζεται σε μικρό παράθυρο και μπορείτε να τραβήξετε βίντεο.</string>
+    <string name="help">Βοήθεια</string>
+    <string name="camera_quick_button_index_mode">Λειτ.</string>
+    <string name="panorama_guide_tap_shutter_to_start">Πιέστε το πλήκτρο του κλείστρου για να ξεκινήσετε.</string>
+    <string name="panorama_guide_move_in_one_direction">Μετακίνηση σε μια κατεύθυνση</string>
+    <string name="panorama_guide_tap_to_finish">"Πατήστε το κουμπί Στοπ για να  ολοκληρώσετε"</string>
+    <string name="sp_down_NORMAL">Κάτω</string>
+    <string name="sp_up_NORMAL">Πάνω</string>
+    <string name="sp_right_NORMAL">Δεξιά</string>
+    <string name="sp_left_NORMAL">Αριστερά</string>
+    <string name="volume_key">Πλήκτρο έντασης ήχου</string>
+    <string name="volume_key_capture_image">Λήψη</string>
+    <string name="volume_key_record_video">Εγγρ</string>
+    <string name="volume_key_zoom">Ζουμ</string>
+    <string name="volume_key_zoom_only">Η μεγέθυνση ενεργοποιεί μόνο την πίσω κάμερα.</string>
+    <string name="volume_key_zoom_disable">Δεν υποστηρίζεται μεγέθυνση σε αυτήν τη λειτουργία.</string>
+    <string name="volume_key_zoom_disable_resolution">"Η λειτουργία ζουμ δεν υποστηρίζεται σε αυτή την ανάλυση. "</string>
+    <string name="help_scene_mode_menu_night_desc_new">Τραβήξτε φωτογραφίες σε σκοτεινούς χώρους χωρίς φλας.</string>
+    <string name="sp_confirm_NORMAL">Επιβεβαίωση</string>
+    <string name="sp_dialog_change_setting">Αλλαγή ενεργοποίησης και απενεργοποίησης</string>
+    <string name="sp_dialog_change_setting_au_cloud">Ακυρώστε την «Απενεργοποίηση» της εφαρμογής au</string>
+    <string name="sp_auto_upload_NORMAL">Αυτόματη μεταφόρτωση</string>
+    <string name="sp_new_ux_help_guide_title_clear_shot">"Οδηγός λειτουργίας Shot&amp;Clear  "</string>
+    <string name="sp_new_ux_help_guide_title_hdr">"Οδηγός λειτουργίας δυναμικού τόνου (HDR)  "</string>
+    <string name="sp_new_ux_help_guide_title_panorama">Οδηγός λειτουρ. Πανόραμα</string>
+    <string name="sp_new_ux_help_guide_title_vr_panorama">"Οδηγός πανοραμικής λήψης VR  "</string>
+    <string name="sp_new_ux_help_guide_title_burst_shot">"Οδηγός λειτουργίας Burst shot  "</string>
+    <string name="sp_new_ux_help_guide_title_beauty_shot">"Οδηγός λειτουργίας Beauty shot  "</string>
+    <string name="sp_new_ux_help_guide_title_portrait_plus">Πορτραίτο + Οδηγός</string>
+    <string name="sp_new_ux_help_guide_title_dual_camera">Οδηγός λειτουργίας διπλής κάμερας</string>
+    <string name="sp_new_ux_help_guide_title_time_machine_camera">Οδηγός ρύθμισης χρονοδιακόπτη κάμερας</string>
+    <string name="sp_new_ux_help_guide_title_time_catch_shot">Οδηγός χρόνου λήψης</string>
+    <string name="sp_new_ux_help_guide_title_intelligent_auto">"Οδηγός λειτουργίας Intelligent auto  "</string>
+    <string name="sp_new_ux_help_guide_title_sports">"Οδηγός λειτουρ. Sports  "</string>
+    <string name="sp_new_ux_help_guide_title_night">Οδηγός νυχτ. λειτουργ.</string>
+    <string name="sp_new_ux_help_guide_title_dual_recording">Οδηγός λειτουργίας διπλής εγγραφής</string>
+    <string name="sp_new_ux_help_guide_title_live_effect">"Οδηγός λειτουργίας Live effect  "</string>
+    <string name="sp_new_ux_help_guide_title_continuous_shot">Οδηγός λειτουργίας συνεχόμενης λήψης</string>
+    <string name="sp_new_ux_help_guide_title_hdr_recording">"Οδηγός λειτουργίας εγγραφής HDR  "</string>
+    <string name="sp_new_ux_help_guide_title_wdr_recording">"Οδηγός εγγραφής WDR  "</string>
+    <string name="sp_new_ux_help_guide_title_voice_shutter">Οδηγός φωνητικής διακοπής</string>
+    <string name="sp_new_ux_help_guide_title_cheese_shutter">"Οδηγός λειτουργίας Cheese shutter  "</string>
+    <string name="sp_new_ux_help_guide_title_uplus_box">Οδηγός αυτόματης αποθήκευσης U+ Box</string>
+    <string name="sp_new_ux_help_guide_title_audio_zoom">Οδηγός ηχητικής εστίασης</string>
+    <string name="sp_new_ux_help_guide_title_tracking_zoom">Οδηγός εστιασμένης παρακολούθησης</string>
+    <string name="sp_new_ux_help_guide_desc_clear_shot">"1. Τραβήξτε μια φωτογραφία. 
+2. Πατήστε πάνω σε ένα σκιαγραφημένο αντικείμενο για να το αφαιρέσετε από τη φωτογραφία. 
+3. Πατήστε το κουμπί αποθήκευση για να την αποθηκεύσετε."</string>
+    <string name="sp_new_ux_help_guide_desc_hdr">Η λειτουργία HDR συνδυάζει φωτογραφίες που έχουν τραβηχτεί με διαφορετική έκθεση φωτός σε μία βέλτιστη φωτογραφία αντισταθμίζοντας την έκθεση σε χαμηλό φωτισμό με τη χρήση πολλαπλών λειτουργιών ενίσχυσης έκθεσης.</string>
+    <string name="sp_new_ux_help_guide_desc_panorama">"1. Πιέστε το πλήκτρο του κλείστρου για να ξεκινήσετε.
+2. Στρίψτε τη  συσκευή σας σιγά-σιγά σε μια κατεύθυνση.
+3. Πατήστε το κουμπί διακοπής όταν τελειώσετε."</string>
+    <string name="sp_new_ux_help_guide_desc_plane_panorama">"1. Πιέστε το πλήκτρο του κλείστρου για να ξεκινήσετε.
+2. Στρίψτε τη  συσκευή σας σιγά-σιγά σε μια κατεύθυνση.
+3. Τοποθετήστε την περιοχή εστίασης στη μπλε κατευθυντήρια γραμμή για να τραβήξετε φωτογραφία.
+4. Πατήστε το κουμπί διακοπής όταν τελειώσετε."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama">"1. Πατήστε το πλήκτρο του κλείστρου για να ξεκινήσει η λειτουργία VR πανόραμα.
+2. Μετακινήστε το πλαίσιο εστίασης ώστε να χωρέσει στο μπλε πλαίσιο/οδηγό για να τραβήξετε μια φωτογραφία.
+3. Στρέψτε τη φωτογραφική μηχανή σε άλλες περιοχές εστίασης και τραβήξτε φωτογραφίες. Οι φωτογραφίες θα συνθέσουν μία μοναδική εικόνα."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new">"1. Πατήστε το κλείστρο για να ξεκινήσει η πανοραμική λειτουργία VR. 
+2. Τοποθετήστε την εστίαση της εικόνας στο μπλε πλαίσιο για να τραβήξετε φωτογραφία. 
+3. Μετακινήστε την φωτογραφική μηχανή για να αλλάξετε εστίαση και να τραβήξετε φωτογραφίες. 
+Οι φωτογραφίες θα συνθέσουν μια εικόνα. 
+Όταν τραβάτε πανοραμικές φωτογραφίες VR, μην στέκεστε πολύ κοντά στο αντικείμενο που θέλετε να τραβήξετε."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new_specified">"1. Πατήστε το κλείστρο για να ξεκινήσει η πανοραμική λειτουργία VR. 
+2. Τοποθετήστε την εστίαση της εικόνας στο μπλε πλαίσιο για να τραβήξετε φωτογραφία. 
+3. Μετακινήστε την φωτογραφική μηχανή για να αλλάξετε εστίαση και να τραβήξετε φωτογραφίες. 
+Οι φωτογραφίες θα συνθέσουν μια εικόνα. 
+Όταν τραβάτε πανοραμικές φωτογραφίες VR, μην στέκεστε πολύ κοντά στο αντικείμενο που θέλετε να τραβήξετε. (16 πόδια ή 5 μέτρα)."</string>
+    <string name="sp_new_ux_help_guide_desc_light_frame">"Λήψη πιο φωτεινών φωτογραφιών με μικτότερο παράθυρο προεπισκόπησης όταν χρησιμοποιείτε τη μπροστινή κάμερα. "</string>
+    <string name="sp_new_ux_help_guide_desc_burst_shot">Τραβήξτε μέχρι και 20 φωτογραφίες γρήγορα με το πάτημα του κλείστρου.</string>
+    <string name="sp_new_ux_help_guide_desc_beauty_shot">Η λειτουργία Beauty shot κάνει το δέρμα του προσώπου να δείχνει πιο φωτεινό και πιο απαλό.</string>
+    <string name="sp_new_ux_help_guide_desc_time_machine_camera">"1. Τραβήξτε μια φωτογραφία για να ξεκινήσετε τη λειτουργία Time machine camera.
+2. Πατήστε το κουμπί Άλμπουμ για να δείτε τις διαδοχικές λήψεις.
+3. Επιλέξτε τις φωτογραφίες που θέλετε να κρατήσετε.
+4. Πατήστε το κουμπί της αποθήκευσης."</string>
+    <string name="sp_new_ux_help_guide_desc_time_catch_shot">"1. Τραβήξτε μια φωτογραφία για να ξεκινήσει η λειτουργία Time catch.
+2. Πατήστε το κουμπί Άλμπουμ και δείτε τις διαδοχικές λήψεις.
+3. Διαλέξτε τη φωτογραφία που θέλετε να κρατήσετε.
+4. Πατήστε το κουμπί της αποθήκευσης."</string>
+    <string name="sp_new_ux_help_guide_desc_intelligent_auto">"Εντοπίζει αυτόματα τα στοιχεία μιας σκηνής και τραβάει φωτογραφία "</string>
+    <string name="sp_new_ux_help_guide_desc_dual_recording">"1. Σύρετε για να μετακινήσετε τη μικρή οθόνη.
+2. Αγγίξτε και κρατήστε τη μικρή οθόνη για να αλλάξετε τις διαστάσεις της.
+3. Πατήστε την μικρή οθόνη για εναλλαγή μεταξύ της μικρής και της μεγάλης οθόνης."</string>
+    <string name="sp_new_ux_help_guide_desc_live_effect">"1. Επιλέξτε το εφέ που θέλετε να χρησιμοποιήσετε.
+2. Πατήστε το κουμπί εγγραφής για να ξεκινήσετε την εγγραφή."</string>
+    <string name="sp_new_ux_help_guide_desc_hdr_recording">Η λειτουργία HDR ενισχύει την ποιότητα του βίντεο χρησιμοποιώντας διάφορες λειτουργίες ενίσχυσης έκθεσης φωτός.</string>
+    <string name="sp_new_ux_help_guide_desc_wdr_recording">Η λειτουργία εγγραφής WDR σας επιτρέπει να ενισχύσετε την ποιότητα του βίντεο με πολλαπλούς ελέγχους έκθεσης.</string>
+    <string name="sp_uhd_heat_warning">"Η εγγραφή βίντεο UHD καταγράφει  μέχρι 5 λεπτά για να διατηρηθεί η προτεινόμενη θερμοκρασία για τη συσκευή. Η εγγραφή βίντεο θα σταματήσει."</string>
+    <string name="sp_help_guide_title_face_tracking_led">Οδηγός εντοπισμού προσώπου</string>
+    <string name="sp_help_guide_face_tracking_led">"Η φωτεινή ένδειξη αναβοσβήνει όταν εντοπίζεται πρόσωπο. 
+Μπορείτε να αλλάξτε τη διαμόρφωση από το μενού Ρυθμίσεις > Εμφάνιση> Φωτεινή ένδειξη ειδοποίησης."</string>
+    <string name="dialog_alert_title">Ειδοποίηση</string>
+    <string name="camera_accessibility_indicator_message_remaining">Νέο μήνυμα κειμένου</string>
+    <string name="camera_accessibility_indicator_mms_remaining">Νέο MMS</string>
+    <string name="camera_accessibility_indicator_voice_mail_remaining">Νέο φωνητικό ταχυδρομείο</string>
+    <string name="camera_accessibility_indicator_gps_connecting">Ενεργοποίηση γεωγραφικής επισήμανσης</string>
+    <string name="camera_accessibility_indicator_geotagging_on">Η γεωγρ. επισήμανση είναι ενεργοποιημένη</string>
+    <string name="camera_accessibility_indicator_remaining_picture_count">Μπορείτε να τραβήξετε ακόμα %s φωτογραφίες.</string>
+    <string name="camera_accessibility_indicator_battery">Μπαταρία %s τοις εκατό</string>
+    <string name="camera_accessibility_indicator_storage">Αποθήκευση σε %s</string>
+    <string name="camera_accessibility_indicator_voice_shutter_on">%s ενεργοποιημένο</string>
+    <string name="camera_accessibility_indicator_anti_shaking_on">Προστασία από τον κραδασμό ενεργοποιημένο</string>
+    <string name="camera_accessibility_thumbnail">Μετάβαση στη συλλογή</string>
+    <string name="not_available_during_incoming_call">Δεν είναι διαθέσιμη κατά τη διάρκεια κλήσης.</string>
+    <string name="camera_error_occurred_try_again">Η κάμερα δεν είναι διαθέσιμη αυτή τη στιγμή. Δοκιμάστε ξανά αργότερα.</string>
+    <string name="mode_menu_camera_refocus_new">Επιλέξτε εστίαση ξανά με τη λήψη φωτογραφίας.</string>
+    <string name="sp_refocus_bubble_popup_NORMAL">Για αλλαγή εστίασης της φωτογραφίας, πατήστε εδώ.</string>
+    <string name="sp_postview_action_bar_menu_all_in_focus">Εστίαση όλων</string>
+    <string name="sp_refocus_preview_guide_message">Παραμείνετε κοντά στο αντικείμενο και κρατήστε το τηλέφωνο σταθερά όταν τραβάτε φωτογραφία.</string>
+    <string name="shot_mode_magic_focus">Μαγική εστίαση</string>
+    <string name="sp_new_ux_help_guide_title_refocus">Οδηγός μαγικής εστίασης</string>
+    <string name="sp_camera_refocus_postview_allinfocus_message">Όταν τμ τμήματα της φωτογραφίας σας σε εστίαση</string>
+    <string name="sp_new_ux_help_guide_desc_refocus_new">"1. Τραβήξτε φωτογραφία και πατήστε το κουμπί του 'Αλμπουμ. 
+2. Για να αλλάξετε εστίαση, πατήστε ένα αντικείμενο ή χρησιμοποιήστε το ρυθμιστικό. 
+3. Πατήστε το κουμπί Αποθήκευση για να αποθηκεύσετε την εστιασμένη φωτογραφία."</string>
+    <string name="sp_refocus_postview_message_new">Πατήστε ένα αντικείμενο ή χρησιμοποιήστε το ρυθμιστικό για να αλλάξετε εστίαση, και πατήστε το κουμπί (#1#) στην πάνω δεξιά γωνία</string>
+    <string name="sp_refocus_postview_message_vzw_new">Πατήστε ένα αντικείμενο για να αλλάξετε εστίαση, και πατήστε το κουμπί Αποθήκευση στην πάνω δεξιά γωνία</string>
+    <string name="sp_refocus_warning_popup">Η εστίαση δεν άλλαξε. Έξοδος;</string>
+    <string name="gesture_guide">Κλείστε τα δάχτυλά σας για να τραβήξετε φωτογραφία</string>
+    <string name="sp_gesture_guide_msg_fist">Ανοίξτε τη γροθιά σας για να τραβήξετε φωτογραφία</string>
+    <string name="camera_help_activity_gesture_shot">Λήψη με χειρονονομία</string>
+    <string name="sp_help_gestureshot_desc">Τραβήξτε selfies με χειρονομίες.</string>
+    <string name="sp_new_ux_help_guide_title_gestureshot">Οδηγός λήψης φωτογ. με χειρονομίες</string>
+    <string name="sp_new_ux_gesture_shot_help_activity_desc">Μπορείτε να τραβήξετε selfies με χειρονομίες. Για να τραβήξετε φωτογραφία, σηκώστε το χέρι σας στο ύψος της κάμερας, μέχρι να το εντοπίσει η κάμερα. Θα εμφανιστεί ένα τετράγωνο πλαίσιο στην οθόνη. Στη συνέχεια σχηματίστε γροθιά για να τραβήξετε φωτογραφία.</string>
+</resources>

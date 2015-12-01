@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/refocus_guide_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lge.camera.components.RotateLayout android:id="@id/refocus_guide_rotate" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/refocus_guide_text_parent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:gravity="center" android:id="@id/refocus_guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_refocus_preview_guide_message" android:layout_alignParentBottom="true" style="@style/refocus_guide_text" />
+        </RelativeLayout>
+    </com.lge.camera.components.RotateLayout>
+</RelativeLayout>

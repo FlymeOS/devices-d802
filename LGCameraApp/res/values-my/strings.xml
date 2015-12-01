@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ကင်မရာ</string>
+    <string name="sp_ok_NORMAL">အိုကေ</string>
+    <string name="sp_lowbattery_MLINE">ဘက်ထရီအခြေအနေသည် ကင်မရာအားဖွင့်ရန် အားနည်းလွန်းနေသည်။ ကျေးဇူးပြု၍ သင့်ဖုန်းအား အားသွင်းပါ။</string>
+    <string name="sp_lowbattery">ကင်မရာကို အသုံးပြုရန် လက်ရှိ ဘက်ထရီအား အလွန် နည်းနေသည်။</string>
+    <string name="setting_init">"ဆက်တင်အားလုံးနဂိုအခြေအနေအတိုင်းပြန်လည်တပ်ဆင်မည်။
+ဆက်လုပ်လိုပါသလား။"</string>
+    <string name="sp_reset_message_NORMAL">မူလတန်ဖိုးများအတိုင်းအစမှပြန်လည်သတ်မှတ်မလား</string>
+    <string name="sp_All_settings_reset_NORMAL">ဆက်တင်များအားလုံးကို ပြန်ချိန်သည်။</string>
+    <string name="sp_blockedByEAS_NORMAL">လဲလှယ်ခြင်းဆာဗာမူဝါဒအရ ကင်မရာအားပိတ်ထားသည်။</string>
+    <string name="sp_block_camera_NORMAL">ဆာဗာမူဝါဒအရ ကင်မရာအားပိတ်ထားသည်။</string>
+    <string name="error_cannot_use_hdmi">HDMI သို့ချိတ်ဆက်ထားစဉ်တွင် ကင်မရာအားအသုံးပြု၍မရနိုင်ပါ။</string>
+    <string name="sp_dual_display_status_NORMAL">နှစ်ဘက်ပြသသောပုံစံ (dual display mode) တွင် ကင်မရာအားအသုံးပြု၍မရနိုင်ပါ။</string>
+    <string name="reset">အစမှပြန်စပါ</string>
+    <string name="cancel">ပယ်ဖျက်ပါ။</string>
+    <string name="yes">လုပ်မည်</string>
+    <string name="no">မလုပ်ပါ</string>
+    <string name="sp_camera_helpdesc_generalsetting">အထွေထွေ</string>
+    <string name="sp_Exit_NORMAL">ထွက်ခွာသည်</string>
+    <string name="auto">အလိုအလျောက်</string>
+    <string name="on">ဖွင့်သည်</string>
+    <string name="sp_review_timer_2_NORMAL">၂စက္ကန့်</string>
+    <string name="off">ပိတ်သည်</string>
+    <string name="sp_none_NORMAL">တစ်ခုမှ မဟုတ်ပါ</string>
+    <string name="normal">ပုံမှန်</string>
+    <string name="settings">ဆက်တင်</string>
+    <string name="sp_loading_camera_NORMAL">ပြင်ဆင်နေသည်</string>
+    <string name="dual_camera_select">ကင်မရာ ခလုပ်</string>
+    <string name="insert_sd_card">SD ကဒ် ထည့်သွင်းပါ။</string>
+    <string name="insert_add_sd_card">သင်၏ အပြင်ပိုင်း SD ကဒ်ကို ထည့်သွင်းပါ</string>
+    <string name="sp_preparing_int_sd_NORMAL">အတွင်းပိုင်း မှတ်ဉာဏ်ကို ပြင်ဆင်နေသည်…</string>
+    <string name="preparing_sd">SD ကဒ်ကို ပြင်ဆင်နေသည်…</string>
+    <string name="sp_cannot_use_camera_UMS_NORMAL">SD ကဒ်သည် ကွန်ပြူတာ PC တစ်လုံးပေါ်တွင်တပ်ဆင်ထားသောကြောင့် ကင်မရာအားအသုံးပြု၍မရနိုင်ပါ။ ဆက်လက်လုပ်ဆောင်ရန် USB အားချိတ်ဆက်မှုမှဖြုတ်ပါ။</string>
+    <string name="sp_connected_mass_storage_NORMAL">အမြောက်အများ သိုလှောင်မှု</string>
+    <string name="sp_not_available_connected_mass_storage_NORMAL">"ကင်မရာမရရှိနိုင်ပါ။
+အများအပြားသိမ်းဆည်းရာနေရာသည် ကွန်ပြူတာ PC သို.ချိတ်ဆက်ထားသည်။"</string>
+    <string name="sp_launch_NORMAL">စတင်ဆောင်ရွက်ပါ</string>
+    <string name="sp_memory_full_diag_title_NORMAL">မှတ်ဉာဏ် ပြည့်နေသည်</string>
+    <string name="sp_memory_full_diag_1_NORMAL">"%1$s တွင်လုံလောက်သောမှတ်ဥာဏ်နေရာမရှိ။
+
+သင့်ဖိုင်အား  %2$s တွင်သိမ်းလိမ့်မည်။
+
+ဖုန်းကို PC သို့ ချိတ်ဆက်ခြင်း သို့ ဖိုင်စီစဉ်သူဖွင့်ခြင်းဖြင့် %3$s တွင် မှတ်ဥာဏ်နေရာပိုအောင်ရှင်းပါ။
+
+
+ယခု ဖိုင်စီစဉ်သူဖွင့်မည်လား။
+
+သင်၏ဖိုင်ကို '%4$s' တွင်စစ်ပါ။"</string>
+    <string name="sp_memory_full_diag_1_no_file_manager_NORMAL">"%1$sတွင် လုံလောက်သောမှတ်ဥာဏ်နေရာမရှိပါ။
+သင့်ဖိုင်အား %2$s တွင်သိမ်းလိမ့်မည်။
+ဖုန်းကို PC သို့ ချိတ်ဆက်ခြင်း သို့ ဖိုင်စီစဉ်သူဖွင့်ခြင်းဖြင့် %3$sတွင် မှတ်ဥာဏ်နေရာပိုအောင်ရှင်းပါ။"</string>
+    <string name="sp_memory_full_diag_2_NORMAL">"%1$s တွင်လုံလောက်သောမှတ်ဥာဏ်နေရာမရှိပါ။
+
+ဖုန်းကို PC သို့ ချိတ်ဆက်ခြင်း သို့ ဖိုင်စီစဉ်သူဖွင့်ခြင်းဖြင့် %1$s တွင် မှတ်ဥာဏ်နေရာပိုအောင်ရှင်းပါ။
+
+
+ယခု ဖိုင်စီစဉ်သူဖွင့်မည်လား။
+
+သင်၏ဖိုင်ကို'%2$s တွင်စစ်ပါ။"</string>
+    <string name="sp_memory_full_diag_2_no_file_manager_NORMAL">"%1$s တွင်လုံလောက်သောမှတ်ဥာဏ်နေရာမရှိပါ။
+ဖုန်းကို PC သို့ ချိတ်ဆက်ခြင်း သို့ ဖိုင်စီစဉ်သူဖွင့်ခြင်းဖြင့် %1$s တွင် မှတ်ဥာဏ်နေရာပိုအောင်ရှင်းပါ။"</string>
+    <string name="sp_memory_full_diag_3_NORMAL">"မှတ်ဥာဏ်နေရာအားလုံးတွင် နေရာအလုံအလောက်မရှိပါ။
+
+ဖုန်းကို PC သို့ချိတ်ဆက်ခြင်း (သို့) ဖိုင်စီစဉ်သူဖွင့်ခြင်းဖြင့် မှတ်ဥာဏ်နေရာပိုအောင် ရှင်းပါ။
+
+
+ယခုဖိုင်စီစဉ်သူဖွင့်မည်လား။
+
+သင်၏ဖိုင်ကို '%1$s'တွင်စစ်ပါ။"</string>
+    <string name="sp_memory_full_diag_3_no_file_manager_NORMAL">"မှတ်ဥာဏ်နေရာအားလုံးတွင် နေရာအလုံအလောက်မရှိပါ။
+
+ဖုန်းကို PC သို့ချိတ်ဆက်ခြင်း (သို့) ဖိုင်စီစဉ်သူဖွင့်ခြင်းဖြင့် မှတ်ဥာဏ်နေရာပိုအောင်ရှင်းပါ။"</string>
+    <string name="sp_storage_full_popup_ics_title_NORMAL">သိမ်းဆည်းမှုပြည့်ပြီ။</string>
+    <string name="sp_storage_full_message_not_on_internal_NORMAL">အတွင်းမှတ်ဥာဏ်နေရာတွင် နေရာအလုံအလောက်မရှိပါ။</string>
+    <string name="sp_storage_full_message_not_on_internal_sto_NORMAL">အတွင်းသိုလှောင်ရာနေရာတွင် လုံလောက်သောနေရာမရှိပါ။</string>
+    <string name="sp_storage_full_message_not_on_sd_NORMAL">အတွင်းမှတ်ဥာဏ်နေရာတွင် နေရာအလုံအလောက်မရှိပါ။</string>
+    <string name="sp_storage_full_message_save_to_internal_NORMAL">အတွင်းမှတ်ဥာဏ်နေရာသို့ ဖိုင်ကို သိမ်းလိုက်သည်။</string>
+    <string name="sp_storage_full_message_save_to_internal_st_NORMAL">အတွင်းသိုလှောင်နေရာသို့ ဖိုင်ကို သိမ်းလိုက်သည်။</string>
+    <string name="sp_storage_full_message_save_to_sd_NORMAL">SD ကဒ် သို့ ဖိုင်ကို သိမ်းလိုက်သည်။</string>
+    <string name="sp_storage_full_saving_file_NORMAL">ဖိုင်အားသိမ်းနေသည်။</string>
+    <string name="sp_storage_full_free_NORMAL">နေရာလွတ်ရရှိစေရန်၊ အသုံးမပြုသောဖိုင်များအား ဖျက်ပစ်ပါ။</string>
+    <string name="msg_save_progress">သိမ်းဆည်းနေသည်။…</string>
+    <string name="sp_storage_full_popup_ics_1_NORMAL">%s တွင် နေရာအလုံအလောက်မရှိပါ။ နေရာလွတ်ရန် မသုံးသောဖိုင်များကိုဖျက်ပါ။</string>
+    <string name="sp_storage_full_popup_ics_2_NORMAL">%1$s တွင် နေရာအလုံအလောက်မရှိပါ။ ဖိုင်ကို%2$s တွင်သိမ်းမည်။ နေရာရှင်းရန်၊ မသုံးသောဖိုင်များကိုဖျက်ပါ။</string>
+    <string name="sp_storage_full_popup_ics_3_NORMAL">မှတ်ဥာဏ်အားလုံးတွင် လုံလောက်သောနေရာမရှိပါ။နေရာရှင်းရန်၊ မသုံးသော ဖိုင်များကို ဖျက်ပါ။</string>
+    <string name="sp_storage_full_popup_ics_6_NORMAL">%s တွင် နေရာအလုံအလောက်မရှိပါ။ ဖိုင်ကိုသိမ်းနေသည်။</string>
+    <string name="sp_full_popup_ics_1_not_in_memory_NORMAL">အတွင်းမှတ်ဥာဏ်တွင်နေရာအလုံအလောက်မရှိပါ။ နေရာလွတ်ရှင်းရန် ၊ မသုံးသော ဖိုင်များကို ဖျက်ပါ။</string>
+    <string name="sp_full_popup_ics_1_not_in_storage_NORMAL">အတွင်းမှတ်ဥာဏ်တွင် လုံလောက်သောနေရာမရှိပါ။နေရာရှင်းရန်၊ မသုံးသော ဖိုင်များကို ဖျက်ပါ။</string>
+    <string name="sp_full_popup_ics_1_not_sd_NORMAL">SD ကဒ်အပေါ်တွင် နေရာအလုံအလောက်မရှိပါ။ နေရာရှင်းလင်းရန်၊ မသုံးသောဖိုင်များကို ဖျက်ပါ။</string>
+    <string name="sp_full_popup_ics_2_not_in_memory_to_sd_NORMAL">အတွင်းမှတ်ဥာဏ်နေရာတွင် နေရာအလုံအလောက်မရှိပါ။ ဖိုင်ကို SD ကဒ်သို့ သိမ်းပါမည်။ နေရာလွတ်ရန် မသုံးသောဖိုင်များကို ဖျက်ပါ။</string>
+    <string name="sp_full_popup_ics_2_not_in_storage_to_sd_NORMAL">အတွင်းမှတ်ဥာဏ်နေရာတွင် နေရာအလုံအလောက်မရှိပါ။ ဖိုင်ကို SD ကဒ်သို့ သိမ်းပါမည်။ နေရာလွတ်ရန် မသုံးသောဖိုင်များကို ဖျက်ပါ။</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_memory_NORMAL">အတွင်းမှတ်ဥာဏ်နေရာတွင် နေရာအလုံအလောက်မရှိပါ။ ဖိုင်ကို SD ကဒ်သို့ သိမ်းပါမည်။ နေရာလွတ်ရန် မသုံးသောဖိုင်များကို ဖျက်ပါ။</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_storage_NORMAL">အတွင်းမှတ်ဥာဏ်နေရာတွင် နေရာအလုံအလောက်မရှိပါ။ ဖိုင်ကို SD ကဒ်သို့ သိမ်းပါမည်။ နေရာလွတ်ရန် မသုံးသောဖိုင်များကို ဖျက်ပါ။</string>
+    <string name="sp_full_popup_ics_6_not_in_memory_NORMAL">အတွင်းမှ မှတ်ဥာဏ်တွင် နေရာအလုံအလောက်မရှိပါ။ ဖိုင်ကို သိမ်းနေသည်...</string>
+    <string name="sp_full_popup_ics_6_not_in_storage_NORMAL">အတွင်းပိုင်းတွင်သိုလှောင်ရန် နေရာအလုံအလောက်မရှိပါ။ ဖိုင်ကိုသိမ်းနေသည်…</string>
+    <string name="sp_full_popup_ics_6_not_sd_NORMAL">SD ကဒ်တွင် နေရာအလုံအလောက်မရှိပါ။ ဖိုင်ကိုသိမ်းနေသည် ...</string>
+    <string name="sp_internal_sd_prepared_NORMAL">အတွင်းရှိမှတ်ဥာဏ်အား ပြင်ဆင်ပါ။</string>
+    <string name="sp_external_sd_prepared_NORMAL">SDကဒ် ပြင်ဆင်ပြီးပြီ။</string>
+    <string name="sp_not_enough_memory_NORMAL">"မှတ်ဥာဏ်နေရာအားလုံးတွင် ထားသိုရန်နေရာ အလုံအလောက်မရှိပါ။
+
+မှတ်ဥာဏ်နေရာပိုလွတ်အောင်လုပ်ပါ။"</string>
+    <string name="not_enough_space">ပြင်ပမှတ်ဥာဏ်ကဒ်တစ်ခုအား ထည့်သွင်းပါ။ သို.မဟုတ် ပါဝင်သောအရာတချို.အား ဖျက်ပစ်ပါ။</string>
+    <string name="sp_not_enough_int_sd_NORMAL">"အတွင်းမှတ်ဥာဏ်တွင် သိုလှောင်ရန် နေရာအလုံအလောက်မရှိပါ။
+
+သင့်ဖိုင်ကို SD ကဒ် ထဲသို့ သိမ်းမည်။"</string>
+    <string name="sp_not_enough_add_space_NORMAL">"SDကဒ်တွင် ထားသိုရန်နေရာ အလုံအလောက်မရှိပါ။
+
+မှတ်ဥာဏ်နေရာပိုလွတ်အောင်လုပ်ပါ။"</string>
+    <string name="sp_not_enough_sd_int_NORMAL">"SD ကဒ်ပေါ်တွင် သိုလှောင်ရန် နေရာအလုံအလောက်မရှိပါ။
+
+သင့်ဖိုင်ကို အတွင်းမှတ်ဥာဏ်နေရာသို့ သိမ်းမည်။"</string>
+    <string name="sp_media_scanning_NORMAL">"မီဒီယာ စစ်ဆေးနေသည်။ မီဒီယာ
+စစ်ဆေးပြီးမှ ပြန်ကြိုးစားပါ။"</string>
+    <string name="sp_media_scanning_ics_NORMAL">မီဒီယာဖိုင်များအား စစ်ဆေးပြီးနောက် ထပ်ကြိုးစားပါ။</string>
+    <string name="scanning_sdcard_media_files">SD ကဒ်မီဒီယာဖိုင်များအားရှာဖွေနေသည်</string>
+    <string name="sp_ext_sdcard_not_exist_NORMAL">SDကဒ် မရှိပါ။သိုလှောင်မှုကို အတွင်းမှတ်ဥာဏ်ထဲ ပြောင်းလဲပါမည်။</string>
+    <string name="sp_sdremoved_change_int_NORMAL">SDကဒ်အား ဖယ်ထုတ်ပြီးပြီ။သိုလှောင်မှုကို အတွင်းမှတ်ဥာဏ်ထဲ ပြောင်းပါ။</string>
+    <string name="sp_sd_card_removed_NORMAL">SDကဒ် အား ဖယ်ထုတ်ပြီးပြီ။SDကဒ် တစ်ကဒ်အားထည့်ပါ။</string>
+    <string name="camera_closed_due_to_sdcard_removal">SDကဒ်အား မမျှော်လင့်ဘဲဖယ်ထုတ်မိသည်။ကင်မရာအား ပိတ်ပါမည်။</string>
+    <string name="sp_sdcard_inserted_noti">SDကဒ်ထည့်ပြီးပြီ။ SDကဒ်ထဲတွင် သိမ်းဆည်းမလား။</string>
+    <string name="sp_storage_always_ask_NORMAL">အမြဲတမ်း မေးမြန်းစုံစမ်းမည်</string>
+    <string name="sp_storage_noti_title_NORMAL">အသိပေးခြင်း</string>
+    <string name="title_not_enough_space">မှတ်ဉာဏ် ပြည့်နေသည်</string>
+    <string name="popup_storage_full_save">"မှတ်ဉာဏ် ပြည့်နေသည်
+သိမ်းဆည်းမှတ်သားနေသည်..."</string>
+    <string name="sp_notenoughmemory_NORMAL">"အတွင်းရှိ မှတ်ဥာဏ် သို.မဟုတ် SD ကဒ်သည် ပြည့်နေပြီ။
+ပါဝင်သောအကြောင်းအရာတစ်ချို.အားဖျက်ပါ။"</string>
+    <string name="sp_addspace_NORMAL">SDကဒ် ပြည့်နေပါပြီ။အချို့ အရာများကို ဖျတ်ပါ။</string>
+    <string name="sp_mhl_cannot_use_camera_NORMAL">MHL ကြိုးအားချိတ်ဆက်ထားသောအခါတွင် ကင်မရာအားအသုံးပြု၍မရနိုင်ပါ။</string>
+    <string name="sp_mhl_cannot_show_preview_NORMAL">MHL ကြိုးအားချိတ်ဆက်ထားသောအခါ ကင်မရာ အကြိုမြင်ကွင်းအား ပြသ၍မရနိုင်ပါ။</string>
+    <string name="msg_found_escape_char">အက္ခရာ သင်္ကေတကို ဖုန်းထဲ မထည့်သွင်းနိုင်ပါ</string>
+    <string name="sp_message_filename_limit_NORMAL">"ဖိုင်နာမည်ရှည်လျားမှုကန့်သတ်ချက်ကို ကျော်နေသည်။
+
+(ကန့်သတ်ချက် - စာလုံး %d လုံး)"</string>
+    <string name="waiting_save_image">ကျေးဇူးပြု၍ စောင့်ပါ...</string>
+    <string name="sp_image_size_front_NORMAL">ဓာတ်ပုံ အရွယ်အစား အရှေ.ဘက်</string>
+    <string name="image_size">ဓာတ်ပုံ အရွယ်အစား</string>
+    <string name="scene_mode">မြင်ကွင်းပုံစံ</string>
+    <string name="scene_mode_portrait">ပုံတူ ဓါတ်ပုံ</string>
+    <string name="scene_mode_landscape">အလျားလိုက်မြင်ကွင်း</string>
+    <string name="scene_mode_sports">အားကစားများ</string>
+    <string name="scene_mode_night">ည</string>
+    <string name="scene_mode_sunset">နေဝင်ခြင်း</string>
+    <string name="sp_scene_mode_normal_NORMAL">ပုံမှန်</string>
+    <string name="sp_scene_mode_default_NORMAL">အလိုအလျောက်</string>
+    <string name="white_balance">အဖြူရောင်ချိန်ညှိခြင်း</string>
+    <string name="white_balance_incandescent">တောက်ပသောအလင်းရောင်</string>
+    <string name="white_balance_sunny">နေသာသော</string>
+    <string name="white_balance_fluorescent">လျှပ်စစ်မီးအလင်းရောင်</string>
+    <string name="white_balance_cloudy">တိမ်ထူထပ်သော</string>
+    <string name="sp_whitebalance_default_NORMAL">အလိုအလျောက်</string>
+    <string name="color_effect">အရောင်သက်ရောက်မှု့</string>
+    <string name="color_effect_mono">တစ်ခုတည်း</string>
+    <string name="color_effect_negative">ငြင်းဆိုသော</string>
+    <string name="color_effect_solarize">အလင်းရောင်တိုးပီ အမှောင်အားကို ပြောင်းလဲခြင်း</string>
+    <string name="color_effect_negative_sepia">နက်ဂတစ် နီညိုရောင်</string>
+    <string name="color_effect_blue">အပြာရောင်</string>
+    <string name="color_effect_pastel">ရောင်စုံမြေဖြူအချောင်း</string>
+    <string name="color_effect_posterize">မတူညီသော အရောင်မျိုးစုံကို အနည်းငယ်သာ အသုံးပြုခြင်းဖြင့် (ဓါတ်ပုံ သို့မဟုတ် အခြား ရုပ်ပုံများ) ကို ပြသခြင်း</string>
+    <string name="sp_color_effect_none_cameraapp_NORMAL">တစ်ခုမှ မဟုတ်ပါ</string>
+    <string name="image_quality">ရုပ်ပုံအရည်အသွေး</string>
+    <string name="quality_super_fine">အလွန်ကောင်း</string>
+    <string name="quality_fine">ကောင်းသည်</string>
+    <string name="sp_quality_normal_NORMAL">ပုံမှန်</string>
+    <string name="video_quality">ဗွီဒီယို အရည်အသွေး</string>
+    <string name="timer">အချိန်တိုင်းတာစက်</string>
+    <string name="timer_1">၁စက္ကန့်</string>
+    <string name="timer_3">၃ စက္ကန့်</string>
+    <string name="timer_5">၅ စက္ကန့်</string>
+    <string name="timer_10">၁၀ စက္ကန့်</string>
+    <string name="shot_mode">ရိုက်ကူးမှု အသွင်ပုံစံ</string>
+    <string name="shot_mode_continuous">အဆက်မပြတ် ရိုက်ကူးခြင်း</string>
+    <string name="shot_mode_smile">အပြုံးရိုက်ချက်</string>
+    <string name="shot_mode_art">အနုပညာ ရိုက်ကွက်များ</string>
+    <string name="shot_mode_panorama">မြင်ကွင်းကျယ်</string>
+    <string name="shot_mode_face_effect">မျက်နှာအကျိုးသက်ရောက်မှု</string>
+    <string name="shot_mode_cartoon">ကာတွန်း</string>
+    <string name="shot_mode_free_panorama">၃၆၀ မြင်ကွင်းကျယ်</string>
+    <string name="shot_mode_vr_panorama">VR မြင်ကွင်းကျယ်</string>
+    <string name="sp_shot_mode_burst">လျှပ်တပြတ်ရိုက်ခြင်း</string>
+    <string name="record_mode">မှတ်တမ်းတင်သောနည်းလမ်း</string>
+    <string name="record_mode_WDR">WDR မှတ်တမ်းတင်နေသည်</string>
+    <string name="record_mode_HDR">HDR ခရီးသှားလာရာတှငျ ဖုနျး/အငျတာနကျအခကျြအလကျများ အသုံးပွုနိုငျရနျ ပွုလုပျထားခွငျး</string>
+    <string name="artshot_original">မူရင်း</string>
+    <string name="artshot_warm">ပူနွေးသော</string>
+    <string name="artshot_cold">ချမ်းအေးသော</string>
+    <string name="artshot_blackwhite">အနက်နှင့်အဖြူ</string>
+    <string name="face_effect_blur">မှုန်ဝါးသည်။</string>
+    <string name="face_effect_snow">နှင်း</string>
+    <string name="face_effect_shallow_focus">အရိပ် ဆုံချက်</string>
+    <string name="face_effect_big_head">ကြီးမားသောဦးခေါင်း</string>
+    <string name="face_effect_mosaic">Mosaic ရုပ်ပုံ</string>
+    <string name="face_effect_fish_eye">ငါး-မျက်စိ</string>
+    <string name="face_effect_concave">မျက်နှာပြင်အခွက်</string>
+    <string name="face_effect_funny_mask">ရယ်စရာကောင်းသောမျက်နှာဖုံး</string>
+    <string name="auto_review">အလိုအလျောက်ပြန်ကြည့်ခြင်း။</string>
+    <string name="shutter_sound">အလင်းတံခါးအဖွင့်အပိတ်အသံ</string>
+    <string name="shutter_sound_1">အသံပုံစံ ၁</string>
+    <string name="shutter_sound_2">မြည်သံ ၂</string>
+    <string name="shutter_sound_3">မြည်သံ ၃</string>
+    <string name="shutter_sound_4">မြည်သံ ၄</string>
+    <string name="geo_tagging">တည်နေရာကို ခေါက်</string>
+    <string name="sp_storage_NORMAL">သိုလှောင်ခြင်း</string>
+    <string name="sp_default_memory_NORMAL">SD ကဒ် နှင့် သိုလှောင်မှု</string>
+    <string name="sp_internal_memory_NORMAL">အတွင်းရှိမှတ်ဥာဏ်</string>
+    <string name="sp_internal_storage_NORMAL">ဖုန်းအတွင်းရှိ သိမ်းဆည်းမှု</string>
+    <string name="sp_external_memory_NORMAL">SDကဒ်</string>
+    <string name="sp_anti_banding_NORMAL">ပေါင်းစည်းထားမှုကိုဆန့်ကျင်ခြင်း</string>
+    <string name="focus">အချက်အချာ</string>
+    <string name="focus_macro">မာခရို</string>
+    <string name="focus_face_tracking">မျက်နှာခြေရာကောက်ခြင်း</string>
+    <string name="sp_quickfunction_focus_continuous_NORMAL">အဆက်မပြတ်ဖြစ်သော</string>
+    <string name="manual_for_camera">လက်ဖြင့်ဆောင်ရွက်ရသော</string>
+    <string name="flash">ကင်မရာမီးအလင်းရောင်</string>
+    <string name="sp_save_direction_NORMAL">ဦးတည်ချက်အားသိမ်းပါ</string>
+    <string name="zoom">အနီးအဝေးမြင်ကွင်း</string>
+    <string name="brightness">တောက်ပမှု</string>
+    <string name="sp_mirror_image_NORMAL">ကြေးမုံပုံရိပ်</string>
+    <string name="sp_normal_save_NORMAL">ပုံမှန်သိမ်းဆည်းမှု</string>
+    <string name="sp_flipped_image_NORMAL">လှန်ထားသော ဓါတ်ပုံ</string>
+    <string name="sp_save_as_flipped_NORMAL">တစ်ဖက်လှည့်ပုံအဖြစ်သိမ်းပါ။</string>
+    <string name="sp_uplusbox_NORMAL">U+ Box အလိုလျောက်သိမ်းဆည်းခြင်း</string>
+    <string name="sp_help_guide_uplusbox_desc_NORMAL">ဓာတ်ပုံများအား U+ Box သို့ဆွဲတင်ပါလိမ့်မည်။ 3G/4G သို့ချိတ်ဆက်သောအခါ အချက်အလက်သုံးစွဲမှုကျသင့်ငွေများ အားကုန်ကျနိုင်ပါသည်။</string>
+    <string name="sp_uplusbox_NORMAL_network_error">ကွန်ယက်ချို့ယွင်းချက်။ ကွန်ယက်ရရှိသည့်အခါ ဓါတ်ပုံများသည် U+ Box ပေါ်တွင် အလိုလို upload ဖြစ်သွားမည်။</string>
+    <string name="sp_uplusbox_NORMAL_desc_on">ဓါတ်ပုံများကို အလိုအလျောက် U+ Box ပေါ်သို့ upload လုပ်ပေးမည်။</string>
+    <string name="sp_voiceshutter_NORMAL">အသံ ကာဗာ</string>
+    <string name="sp_note_voiceshutter_NORMAL">ဓာတ်ပုံရိုက်ရန်အဆင်သင့်ဖြစ်သောအခါ \"%s\" ဟုပြောပါ။</string>
+    <string name="sp_voiceshutter_say_NORMAL">ဓာတ်ပုံရိုက်ရန်\"%s\"ဟုပြောပါ။</string>
+    <string name="sp_cheeseshutter_NORMAL">Cheese အသံဖြင့်အလိုအလျှောက်ပုံရိုက်ခြင်း</string>
+    <string name="sp_voiceshutter_word_whisky_NORMAL">Whisky</string>
+    <string name="sp_voiceshutter_sound_kimchi_NORMAL">ကင်မ်ချီ</string>
+    <string name="sp_voiceshutter_sound_cheese_NORMAL">ချီးစ်</string>
+    <string name="sp_voiceshutter_sound_LG_NORMAL">အယ်လ်ဂျီ</string>
+    <string name="sp_voiceshutter_sound_smile_NORMAL">ပြုံးခြင်း</string>
+    <string name="sp_voiceshutter_sound_torimasu_NORMAL">တိုရီမာစု</string>
+    <string name="sp_note_voiceshutter_multi_sound_NORMAL">ဓာတ်ပုံရိုက်ရန် အောက်ပါစကားလုံးများထဲမှ တစ်ခုအားပြောပါ။</string>
+    <string name="sp_note_voiceshutter_multi_sound_vzw_NORMAL">ဤ စကားလုံးများထဲမှ တစ်လုံးကို သင်မပြောမချင်း Cheeseခလုတ်သည်ဓါတ်ပုံမရိုက်သေးဘဲစောင့်ဆိုင်းပေးမည် -</string>
+    <string name="sp_voiceshutter_multi_sound_say_NORMAL">ဓာတ်ပုံရိုက်ရန် \"%1$s\", \"%2$s\", \"%3$s\". ဟုပြောပါ။</string>
+    <string name="sp_voiceshutter_multi_keyword_say_NORMAL">"ဓာတ်ပုံရိုက်ရန်  \"%1$s\", \"%2$s\", \"%3$s\", \"%4$s\", \"%5$s\"ဟုပြောပါ။"</string>
+    <string name="sp_voiceshutter_multi_keyword_say_4items">ဓာတ်ပုံရိုက်ရန် \"%1$s\", \"%2$s\", \"%3$s\", \"%4$s\" ကို ပြောပါ။</string>
+    <string name="sp_voiceshutter_say_new_NORMAL">ဓာတ်ပုံရိုက်ရန် \"%s\" ဟုပြောပါ။</string>
+    <string name="sp_voiceshutter_help_desc_NORMAL">အသံအမိန့်နှင့်ဓါတ်ပုံရိုက်ပါ။</string>
+    <string name="video_size">ဗွီဒီယို အရွယ်အစား</string>
+    <string name="sp_video_duration_NORMAL">ကာလ</string>
+    <string name="video_voice">အသံသွင်းခြင်းများ</string>
+    <string name="sp_video_voice_unmute_NORMAL">ဖွင့်သည်</string>
+    <string name="sp_video_voice_mute_NORMAL">အသံတိတ်နေသော</string>
+    <string name="show_recorded_video">အလိုအလျောက်ပြန်ကြည့်ခြင်း။</string>
+    <string name="share">မျှဝေသည်</string>
+    <string name="sp_share_via_NORMAL">မှတစ်ဆင့် မျှဝေပါ</string>
+    <string name="set_as">သတ်မှတ်ပါ</string>
+    <string name="sp_set_photo_as_NORMAL">ရုပ်ပုံကို - အဖြင့် သတ်မှတ်ပါ</string>
+    <string name="rename">အမည်ပြန်ပေးပါ</string>
+    <string name="sp_share_SHORT">မျှဝေခြင်း</string>
+    <string name="sp_set_as_SHORT">သတ်မှတ်ပါ</string>
+    <string name="sp_rename_SHORT">အမည်ပြန်ပေးပါ</string>
+    <string name="sp_set_as_twoline_NORMAL">သတ်မှတ်ပါ</string>
+    <string name="sp_rename_twoline_NORMAL">အမည်ပြန်ပေးပါ။</string>
+    <string name="edit">တည်းဖြတ်</string>
+    <string name="sp_play_twoline_SHORT">ဖွင့်ပါ</string>
+    <string name="sp_share_twoline_SHORT">မျှဝေခြင်း</string>
+    <string name="sp_set_as_twoline_SHORT">သတ်မှတ်ပါ</string>
+    <string name="sp_rename_twoline_SHORT">အမည်ပြန်ပေးပါ။</string>
+    <string name="sp_save_SHORT">သိမ်းပါ</string>
+    <string name="sp_save_complete_SHORT">ပြီးဆုံးပြီ</string>
+    <string name="play">ဖွင့်ပါ</string>
+    <string name="dlg_title_rename">နာမည်အသစ်ကို ရိုက်ထည့်ပါ။</string>
+    <string name="dlg_title_delete">ဖျက်မည်</string>
+    <string name="msg_multi_image_delete">ဤမီဒီယာဖိုင်များအား ဖျက်ပစ်ပါလိမ့်မည်။</string>
+    <string name="msg_image_delete">ရုပ်ပုံအားဖျက်ပစ်လိမ့်မည်။</string>
+    <string name="msg_video_delete">ဗီဒီယိုအားဖျက်ပစ်ပါလိမ့်မည်။</string>
+    <string name="popup_delete_done">ဖျက်ပြီးသည်။</string>
+    <string name="slow_motion">အနှေးလှုပ်ရှားမှု</string>
+    <string name="sp_note_img_size_change_NORMAL">ရုပ်ပုံအရွယ်အစားအား %s သို.ပြောင်းပါ။</string>
+    <string name="note_image_deleted">ဖျက်သည့်ပုံ</string>
+    <string name="note_shot_mode_change_normal">ရိုက်ကူးမှု အသွင်ပုံစံကို သာမန် အဖြင့် ပြောင်းလိုက်သည်။</string>
+    <string name="note_timer_mode_off">အချိန်တိုင်းတာစက်အား ပိတ်ပါ ဟုသတ်မှတ်ပါသည်။</string>
+    <string name="note_smile_shutter_started">အပြုံးကိုတွေ့ရှိပါက အလိုအလျောက်ဓါတ်ပုံရိုက်သည်။</string>
+    <string name="note_focus_mode_set_to_auto">ဆုံချက်အသွင်ပုံစံကို အလိုအလျောက်သို့ ချိန်သည်။</string>
+    <string name="note_iso_set_to_auto">ISO အားအလိုလျောက်အဖြစ်သို.သတ်မှတ်ပါ။</string>
+    <string name="sp_note_rec_size_change_NORMAL">ဗွီဒီယို အရွယ်အစားကို %s သို့ သတ်မှတ်လိုက်သည်</string>
+    <string name="note_select_image">မည်သည့် ဖိုင်မှ မရွေးချယ်ထားပါ။</string>
+    <string name="sp_select_photo_NORMAL">မည်သည့် ဓါတ်ပုံကိုမှ မရွေးချယ်ထားပါ။</string>
+    <string name="note_color_effect_change">အကျိုးသက်ရောက်သောအရောင် ကို ပိတ်ထားသည်။</string>
+    <string name="sp_note_color_effect_change_NORMAL">အကျိုးသက်ရောက်စေသောအရောင်ကို %s အဖြစ် ပြောင်းလဲထားသည်။</string>
+    <string name="note_color_effect_change_none">အရောင်ခံစားမှုရသအကျိုးသက်ရောက်မှုကို မရှိဟု ပြောင်းလဲထားသည်။</string>
+    <string name="note_white_balance_change">အဖြူရောင် balance ကို အော်တိုအဖြစ် သတ်မှတ်လိုက်သည်။</string>
+    <string name="note_flash_change_off">လျှပ်တစ်ပြက်မီးကို ပိတ်ထားသည်။</string>
+    <string name="note_scene_mode_change">မြင်ကွင်းပုံစံအားအလိုအလျှောက်သတ်မှတ်ပါ</string>
+    <string name="sp_note_scene_mode_change_NORMAL">မြင်ကွင်းပုံစံအား%s ဟုသတ်မှတ်ပါ</string>
+    <string name="note_scene_mode_change_normal">မြင်ကွင်းပုံစံအားပုံမှန်အတိုင်းသတ်မှတ်ပါ</string>
+    <string name="sp_note_video_ori_land_NORMAL">MMS အနေနှင့် ပို့ခြင်းအတွက် ရှုမျှော်ခင်းရိုက်ကူခြင်းကိုသာ လက်ခံသည်။</string>
+    <string name="sp_note_brightness_set_to_zero_NORMAL">တောက်ပမှုအားသုညတွင်ထားရှိသည်။</string>
+    <string name="error_not_enough_memory">မှတ်ဥာဏ်နေရာ အလုံအလောက် မရှိပါ</string>
+    <string name="error_not_exist_app">အပလီကေးရှင်း မတွေ့ရပါ။</string>
+    <string name="error_preview_fail">အကြိုကြည့်ရှုခြင်းကိုအစပြုရာ၌ မအောင်မြင်ပါ။</string>
+    <string name="error_write_file">ဖိုင်ရေးသားရာ၌မအောင်မြင်ပါ။</string>
+    <string name="error_rename">တရားမဝင်သောအမည်။ ကျေးဇူးပြု၍ အမည်ပြန်ပေးပါ။</string>
+    <string name="error_write_file_exist">ရှိနှင့်ပြီးသားဖြစ်သည်။</string>
+    <string name="error_unknown">အမျိုးအမည်မသိသော ချို့ယွင်းချက်</string>
+    <string name="error_low_battery">ဘက်ထရီသည် ကင်မရာအားဖွင့်ရန် မလုံလောက်နိုင်ပါ။</string>
+    <string name="error_get_video_frame_fail">ဘောင်ပုံစံအားဆွဲထုတ်ယူ၍မရနိုင်ပါ။</string>
+    <string name="error_video_recording">ဖုန်းပြောနေချိန်တွင် သင် ဗွီဒီယို ရိုက်ကူးဖမ်းယူလို့မရပါ။</string>
+    <string name="error_video_recording_during_call">ခေါ်ဆိုနေစဉ်အတွင်း ဗီဒီယိုမှတ်တမ်းတင်၍မရနိုင်ပါ။</string>
+    <string name="sp_error_call_camera_NORMAL">ခေါ်ဆိုနေစဉ်အတွင်းကင်မရာအားစတင်၍မရနိုင်ပါ။</string>
+    <string name="error_camera_during_video_call">ဗီဒီယိုခေါ်ဆိုနေစဉ်အတွင်း ကင်မရာအားစတင်၍မရနိုင်ပါ။</string>
+    <string name="error_cannot_start_recording_with_audio">အခြားအပလီကေးရှင်းမှအော်ဒီယိုကိုအသုံးပြုနေစဉ်ရိုက်ကူးမှုကိုမစတင်နိုင်ပါ။</string>
+    <string name="error_sdm_server_setting">ကင်မရာအားဖွင့်၍မရနိုင်ပါ။ အရေးကြီးသောအင်္ဂါရပ်အား ဆာဗာဘက်မှ လော့ခ်ချထားသည်။</string>
+    <string name="help_title">ကင်မရာဆိုင်ရာအကူအညီလမ်းညွှန်</string>
+    <string name="sp_detail_view_NORMAL">အသေးစိတ် မြင်ကွင်း</string>
+    <string name="help_swap_camera_menu_desc">အဓိကနှင့် အခြားကင်မရာခလုတ်ပြောင်းခြင်း</string>
+    <string name="help_zoom_desc">အကြောင်းအရာ၏ အရွယ်အစားကို ချဲ့ခြင်း သို့မဟုတ် အတိုချုပ်လိုက်ခြင်း</string>
+    <string name="help_brightness_desc">အလင်းရောင်ဖွင့်ပေးသောအချိန် အဆင့်ကို ချိန်ညှိနေသည်</string>
+    <string name="sp_help_brightness_desc_video_NORMAL">ကင်မရာရိုက်နေချိန်အလင်းရောင်ထွက်မှုအဆင့်အတွက်ချိန်ညှိပေးခြင်း</string>
+    <string name="help_flash_desc">flash သတ်မှတ်ပါ</string>
+    <string name="help_flash_auto_desc">အရောင်လင်းလက်ခြင်းအား အလိုအလျောက်ဆင်သတ်မှတ်သည်။</string>
+    <string name="sp_help_flash_off_desc_NORMAL">ရိုက်ချက်တိုင်းအတွက် မီးအလင်းကို ပိတ်ထားသည်</string>
+    <string name="sp_help_flash_on_desc_NORMAL">ရိုက်ချက်တိုင်းအတွက် မီးအလင်းကို ဖွင့်ထားသည်</string>
+    <string name="help_camera_settings_desc">ကင်မရာဆက်တင်များအား ချိန်ညှိပေးခြင်း</string>
+    <string name="help_image_size_menu_desc">ရုပ်ပုံ ဖိုင် အရွယ်အစား သတ်မှတ်ခြင်း</string>
+    <string name="help_image_size_menu_5m_desc">A4 အရွယ်အစားအထိ ပုံနှိပ်ရန်အကောင်းဆုံး</string>
+    <string name="help_image_size_menu_3m_desc">A5 အရွယ်အစားခန့်အထိ ပုံနှိပ်ထုတ်ခြင်းအတွက် အကောင်းဆုံး</string>
+    <string name="help_image_size_menu_2m_desc">ပို့စ်ကဒ်အရွယ်အစားလောက်အတွက် ပုံနှိပ်ရန်အကောင်းဆုံး</string>
+    <string name="help_image_size_menu_1m_desc">ပို့စ်ကဒ်ထက်သေးသောအရွယ်အစားပုံနှိပ်ရန်အတွက်အကောင်းဆုံး။</string>
+    <string name="help_image_size_menu_vga_desc">အီးမေးလ်ပူးတွဲဖိုင်အဖြစ်ပို့ရန်အ ကောင်းဆုံး (မှတ်ဥာဏ်&lt;memory>အနည်းငယ်သာသုံးသည်)</string>
+    <string name="help_image_size_menu_qvga_desc">အီးမေးလ်ပူးတွဲဖိုင်အဖြစ်ပို့ရန်အ ကောင်းဆုံး (မှတ်ဥာဏ်&lt;memory>အနည်းငယ်သာသုံးသည်)</string>
+    <string name="help_scene_mode_menu_desc">လက်ရှိ ပတ်ဝန်းကျင်အတွက် သင့်လျော်လိုက်ဖက်သော အသွင်ပုံစံ သတ်မှတ်ခြင်း။</string>
+    <string name="help_scene_mode_menu_auto_desc">အခြေအနေပေါ်မူတည်ပြီး အလိုအလျောက်ထိန်းညှိပေးခြင်း</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_NORMAL">သာမန်ဓာတ်ပုံများကို ဖမ်းယူနေသည်။</string>
+    <string name="help_scene_mode_menu_portrait_desc">လူပုံများကို ဖမ်းယူနေသည်။</string>
+    <string name="help_scene_mode_menu_landscape_desc">သဘာဝရှုခင်းများကို ဖမ်းယူနေသည်။</string>
+    <string name="help_scene_mode_menu_sports_desc">ပုံရိပ်အား ဝေ၀ါးခြင်းမရှိဘဲ အမြန်ရွေ.လျားနေသောဓာတ်ပုံများအား ဖမ်းယူနေသည်။</string>
+    <string name="help_scene_mode_menu_night_desc">ညဘက်ရှုခင်းကိုဖမ်းယူနေသည်။</string>
+    <string name="help_scene_mode_menu_sunset_desc">နေဝင်ချိန်ရှုခင်းအားဖမ်းယူနေသည်။</string>
+    <string name="help_iso_menu_desc">ကင်မရာ၏ အလင်းရောင်းတုံ့ပြန်နိုင်မှုကို ထိန်းချုပ်ချိန်ညှိခြင်း</string>
+    <string name="help_white_balance_menu_desc">ကျယ်ပြန့်သောအလင်းရောင်အခြေအနေအောက်တွင်အရောင်ဖြစ်ပေါ်စေခြင်း</string>
+    <string name="help_white_balance_menu_auto_desc">အရောင်ကို အလိုအလျောက်ထိန်းညှိပေးခြင်း</string>
+    <string name="help_white_balance_menu_incandescent_desc">အလင်းဖျော့နှင့် ရိုက်ယူထားသော ပုံများအတွက်။</string>
+    <string name="help_white_balance_menu_sunny_desc">နေရောင်တိုက်ရိုက်ကျရောက်မှုတွင် ဓါတ်ပုံရိုက်ခြင်း</string>
+    <string name="help_white_balance_menu_flourescent_desc">"fluorescent  အလင်းဖြင့် ရိုက်ယူထားသော ပုံများအတွက်။"</string>
+    <string name="help_white_balance_menu_cloudy_desc">အရိပ်ထဲတွင် သို့မဟုတ် တိမ်ထူသောရက်များတွင် ရိုက်ယူထားသော ပုံများအတွက်။</string>
+    <string name="help_color_effect_menu_desc">ပုံများတွင် အကျိုးသက်ရောက်စေသော အနုပညာအရည်အသွေးကို အသုံးချသည်။</string>
+    <string name="help_color_effect_menu_off_desc">အရောင် ခံစားမှုရသ ထည့်သွင်းလို့ မရပါ။</string>
+    <string name="help_color_effect_menu_sepia_desc">အတိတ်ကိုဖေါ်ပြသော ပုံများ ရိုက်ကူးရန်အတွက်အညိုရောင်ဆေးရေ စစ်ထုတ်device ထိရောက်မှုကို အသုံးချခြင်း</string>
+    <string name="help_color_effect_menu_mono_desc">အဖြူ၊ အမည်း ဓာတ်ပုံများ ရိုက်ကူးရန်အတွက် တစ်ခုတည်းပါသော စစ်ထုတ်ကိရိယာ ထိရောက်မှုကို အသုံးချခြင်း</string>
+    <string name="help_color_effect_menu_negative_desc">ပုံများ အရောင်ပြောင်းရန်အတွက် ဖလင်စစ်ထုတ်deviceကို အသုံးချခြင်း</string>
+    <string name="help_color_effect_menu_vivid_desc">ပုံများတွင် အကျိုးသက်ရောက်စေသော တောက်ပသည့် အရောင်ကို အသုံးချသည်။</string>
+    <string name="help_color_effect_menu_negative_sepia_desc">ပုံများတွင် အကျိုးသက်ရောက်စေသော အညိုရောင် ဖလင်များကို အသုံးချသည်။</string>
+    <string name="help_color_effect_menu_blue_desc">ပုံများတွင် အကျိုးသက်ရောက်စေသော အပြာရောင်ကို အသုံးချသည်။</string>
+    <string name="help_color_effect_menu_emboss_desc">ပုံများတွင် အကျိုးသက်ရောက်စေသော ဖေါင်းကြွကို အသုံးချသည်။</string>
+    <string name="help_color_effect_menu_solarize_desc">ပုံများတွင် အကျိုးသက်ရောက်မှုရှိသော ခရမ်းလွန်ရောင်ခြည်ကို အသုံးချသည်။</string>
+    <string name="help_color_effect_menu_posterize_desc">ပုံများတွင် အကျိုးသက်ရောက်စေသော ကြောင်ငြာပိုစတာများတွင် အသုံးပြုသည့် အရောင်ကို အသုံးချသည်။</string>
+    <string name="help_color_effect_menu_aqua_desc">ပုံများတွင် အကျိုးသက်ရောက်စေသော Aqua အရောင်ကို အသုံးချသည်။</string>
+    <string name="help_color_effect_menu_pastel_desc">ပုံများတွင် အကျိုးသက်ရောက်စေသော ရောင်စုံခဲတံ ဖြင့်ရေးဆွဲသည့် အရောင်ကို အသုံးချသည်။</string>
+    <string name="help_timer_menu_desc">ကင်မရာအလင်းတံခါး ဖွင့်/ပိတ် ခလုတ် နှိပ်သောအချိန် နှင့် ရုပ်ပုံ ရိုက်သောအချိန် အတွင်း ကြာချိန် သတ်မှတ်ခြင်း</string>
+    <string name="help_shot_mode_menu_desc">ရိုက်ကူးမှု အသွင်ပုံစံ မျိုးစုံ သတ်မှတ်ခြင်း</string>
+    <string name="help_shot_mode_menu_normal_desc">သာမန်ဓာတ်ပုံများကို ဖမ်းယူနေသည်။</string>
+    <string name="help_shot_mode_menu_continuous_shot_desc">တကြိမ်တည်း ၆ ပုံစီစဉ်တကျယူခြင်း</string>
+    <string name="help_shot_mode_menu_smile_shot_desc">ကင်မရာမှ အပြုံးကိုတွေ့ရှိပါက ရှပ်တာအလိုအလျောက်ပွင့်လာသည်။</string>
+    <string name="help_shot_mode_menu_beauty_shot_desc">မျက်နှာမှအစက်အပျောက်များနှင့်အနာအဆာများကို အလိုအလျောက်ဖယ်ရှားပြီး မျက်နှာကိုကြည်လင်တောက်ပစေသည်။</string>
+    <string name="help_shot_mode_menu_art_shot_desc">အဖြူအမဲ၊ ပူနွေးသော နှင့် အေးမြသော ကင်မရာအလင်းရောင် နှင့် အခြားအရာများစသည့် အကျိုးသက်ရောက်မှုများပါဝင်သော အနုပညာမြောက်သည့် ဓါတ်ပုံတစ်ပုံကို ပြုလုပ်ပါ။</string>
+    <string name="help_shot_mode_menu_panorama_shot_desc">ရုပ်ပုံတစ်ပုံအတွင်း ရုပ်ပုံအစုအဝေးတဆက်တည်းအပြည့်အဝပြုလုပ်ရယူခြင်း</string>
+    <string name="help_shot_mode_menu_face_effect_desc">မျက်နှာရှာဖွေဖော်ထုတ်ခြင်းအား အသုံးပြု၍ အမျိုးမျိုးသောအကျိုးသက်ရောက်မှုများကိုပေးပါ။</string>
+    <string name="help_shot_mode_menu_cartoon_shot_desc">ပန်းချီကားကဲ့သို့သော ကာတွန်းပုံများ နှင့် ကြည့်ရှု၍ကောင်းသော ပုံရိပ်များ ရိုက်ယူနိုင်ရန်အတွက် ဖုန်း အားခွင့်ပြုသည်။</string>
+    <string name="help_shot_mode_menu_funny_mask_desc">ကင်မရာမှမျက်နှာအားရှာတွေ့သောအခါ မျက်နှာပေါ်အမျိုးမျိုးသောတိရိစ္ဆာန်မျက်နှာဖုံးများကို အလိုအလျောက်ရစေသည်။</string>
+    <string name="help_face_effect_blur_desc">မျက်နှာများကိုအလိုအလျောက်ရှာဖွေ တွေ့ရှိပြီး မှုံဝါးသောအစွမ်းဖြစ်စေသည်။</string>
+    <string name="help_face_effect_snow_desc">ဦးခေါင်းပေါ်တွင် နှင်းကျနေသော အထူးပြုလုပ်ချက်ကိုလုပ်ပါ</string>
+    <string name="help_face_effect_shallow_focus_desc">မျက်နှာကို အလိုအလျောက် ရှာပြီး ဆုံချက်အပြင်ထွက်နေသော နောက်ခံကို ချိန်ပါ။</string>
+    <string name="help_face_effect_big_face_desc">မျက်နှာကို ကြီးအောင်လုပ်ပါ</string>
+    <string name="help_face_effect_mosaic_desc">ကင်မရာမှမျက်နှာအားရှာတွေ့သောအခါ မျက်နှာပေါ်တွင်ရောင်စုံခြယ်အစွမ်းကို အလိုအလျောက်ရစေသည်။</string>
+    <string name="help_face_effect_fish_eye_desc">ကင်မရာမှမျက်နှာအားရှာတွေ့သောအခါ မျက်နှာပေါ်တွင်ငါးမျက်လုံးအစွမ်းကို အလိုအလျောက်ရစေသည်။</string>
+    <string name="help_face_effect_concave_desc">ကင်မရာမှမျက်နှာအားရှာတွေ့သောအခါ မျက်နှာပေါ်တွင်မှန်ခွက်အစွမ်းကို အလိုအလျောက်ရစေသည်။</string>
+    <string name="help_focus_desc">သတ်မှတ် အစက်ကို ဆုံချက်ထားပါ။</string>
+    <string name="help_focus_auto_desc">ဆုံမှတ်အားအလိုအလျောက်သတ် မှတ် ပေးခြင်း။</string>
+    <string name="help_focus_macro_desc">အလွန်နီးကပ်သောနေရာမှအရာဝတ္ထုအား ဓါတ်ပုံရိုက်ခြင်း</string>
+    <string name="help_focus_face_desc">မျက်နှာများကိုအလိုအလျောက်ရှာဖွေခြင်းနှင့် ပြတ်သားအောင်ပြုလုပ်ခြင်း။</string>
+    <string name="sp_help_focus_continuous_desc_NORMAL">ရွေ့နေသောပစ္စည်းကို အလိုအလျောက်ရှာပြီး ထိုပစ္စည်းပေါ်တွင် ဆုံချက်ကို ချိန်ပါ။</string>
+    <string name="help_focus_manual_desc">ွဗဟိုချက်ကိုချိန်ရန် spot ကို လက်ဖြင့်ပြုလုပ်သတ်မှတ်ပါ</string>
+    <string name="help_image_quality_menu_desc">ရုပ်ပုံ အရည်အသွေး သတ်မှတ်ပါ (အရည်အသွေးကောင်းလေ၊ မှတ်ဉာဏ် အသုံးပြုမှုများလေဖြစ်သည်)</string>
+    <string name="help_image_quality_menu_super_fine_desc">အလှနျကောငျးမှနျသောအရညျအသှေးအတှကျ ဓာတျပုံများကိုသိမျးဆညျးပါ။</string>
+    <string name="help_image_quality_menu_fine_desc">ကောငျးမှနျသောအရညျအသှေးအတှကျ ဓာတျပုံများကိုသိမျးဆညျးပါ။</string>
+    <string name="help_image_quality_menu_normal_desc">သာမနျအရညျအသှေးအတှကျ ဓာတျပုံများကိုသိမျးဆညျးပါ။</string>
+    <string name="help_show_captured_image_menu_desc">ဓါတ်ပုံရိုက်ပြီးသောအခါ နောက်ဆုံးရိုက်ထားသော ဓါတ်ပုံကို ဖော်ပြပါ။</string>
+    <string name="help_shutter_sound_menu_desc">ရုပ်ပုံ ရိုက်ကူးနေသောအခါ အသံဖွင့်ရန် သတ်မှတ်ပါ</string>
+    <string name="help_geo_tagging_menu_desc">ဓာတ်ပုံရိုက်ခဲ့သောနေရာနှင့်ပတ်သက်သော ပထဝီဆိုင်ရာသိသာထင်ရှားသည့် သတင်းအချက်အလက်များအားပေါင်းထည့်နေသည်</string>
+    <string name="sp_help_anti_banding_menu_desc_NORMAL">နဂို အရောင် လွင့်ပျယ်ခြင်းမှ ကာကွယ်ပါ</string>
+    <string name="sp_help_storage_NORMAL">ရုပ်ပုံများကို သိမ်းဆည်ရန် သိုလှောင်သောနေရာကို ရွေးပါ</string>
+    <string name="sp_help_storage_innner_NORMAL">ဓါတ်ပုံများကိုအတွင်းမှတ်ဥာဏ်တွင်သိမ်းပါ</string>
+    <string name="sp_help_storage_sd_NORMAL">ဓါတ်ပုံများကို SD ကဒ်တွင်သိမ်းပါ</string>
+    <string name="help_video_title">ဗီဒီယိုကင်မရာအသေးဆိုင်ရာ အကူအညီ</string>
+    <string name="sp_help_video_title_NORMAL">ဗွီဒီယို ကူညီမှု လမ်းညွှန်</string>
+    <string name="help_video_settings_desc">ဗွီဒီယိုဆက်တင်များ ချိန်ညှိပေးခြင်း</string>
+    <string name="help_video_size_desc">ဗွီဒီယို ဖိုင် အရွယ်အစား သတ်မှတ်ခြင်း</string>
+    <string name="help_video_size_vga_desc">VGA အရွယ်အစားအတွက်ဗွီဒီယိုများကိုသိမ်းပါ</string>
+    <string name="help_video_size_qvga_desc">QGVA အရွယ်အစားအတွက်ဗွီဒီယိုများကိုသိမ်းပါ</string>
+    <string name="help_video_size_176x144_desc">အီးမေးလ်ပူးတွဲဖိုင်အဖြစ်ပို့ရန်အ ကောင်းဆုံး (မှတ်ဥာဏ်&lt;memory>အနည်းငယ်သာသုံးသည်)</string>
+    <string name="help_video_scene_mode_menu_desc">လက်ရှိပတ်ဝန်းကျင်အတွက် သင့်တော်သော အေရောင်နှင့် အလင်းဆက်တင်များကို ရှာပါ။</string>
+    <string name="help_video_scene_mode_menu_auto_desc">အခြေအနေပေါ်မူတည်ပြီး အလိုအလျောက်ထိန်းညှိပေးခြင်း</string>
+    <string name="help_video_scene_mode_menu_portrait_desc">လူများကို မှတ်တမ်းတင်ခြင်းအတွက် ပိုကောင်းသည်။</string>
+    <string name="help_video_scene_mode_menu_landscape_desc">သစ်ပင်များ၊ ပန်းများ၊ ကောင်းကင်စသောသဘာ၀ရှုခင်းများ မှတ်တမ်းတင်ခြင်းအတွက် ပိုကောင်းသည်။</string>
+    <string name="help_video_scene_mode_menu_sports_desc">အားကစားကဲ့သို့အလျင်အမြန်ရွေ့လျားနေသောမြင်ကွင်းများကို မှတ်တမ်းတင်ခြင်းအတွက် ပိုကောင်းသည်။</string>
+    <string name="help_video_scene_mode_menu_night_desc">လှပသောညရှုခင်းအား ဖမ်းယူပါ။ ညဘက်မြင်ကွင်းအားရှာဖွေတွေ.ရှိရန် shutter အရှိန် အနှေးအားအသုံးပြုပါ။</string>
+    <string name="help_video_scene_mode_menu_sunset_desc">လှပသောနေဝင်ချိန်မြင်ကွင်းအားမှတ်တမ်းတင်နေသည်</string>
+    <string name="help_video_white_balance_menu_desc">မတူညီသော အလင်းရောင်အခြေအနေများတွင် အရောင်အရည်အသွေး တိုးတက်ကောင်းအောင် လုပ်ပါ။</string>
+    <string name="help_video_white_balance_menu_auto_desc">အရောင်ကို အလိုအလျောက်ထိန်းညှိပေးခြင်း</string>
+    <string name="help_video_white_balance_menu_incandescent_desc">အလင်းဖျော့ဖျော့နေရာမျိုးတွင် ရိုက်ကူးထားသောဗွီဒီယိုများအတွက်</string>
+    <string name="help_video_white_balance_menu_sunny_desc">တိုက်ရိုက်ကျနေသောနေရောင်ခြည်အောက်တွင်ဗီဒီယိုများအားမှတ်တမ်းတင်နေသည်</string>
+    <string name="help_video_white_balance_menu_flourescent_desc">မီးချောင်းအလင်းရောင်အောက်တွင် ရိုက်ကူးထားသောဗွီဒီယိုများအတွက်</string>
+    <string name="help_video_white_balance_menu_cloudy_desc">နေရိပ်၍တိမ်ထူထပ်သောနေ့များတွင် ရိုက်ကူးထားသောဗွီဒီယိုများအတွက်</string>
+    <string name="help_video_color_effect_menu_desc">အရောင်စစ်ပေးသော အထူး ခံစားမှုရသ သတ်မှတ်ခြင်း</string>
+    <string name="help_video_color_effect_menu_off_desc">အရောင် အထူးပြုလုပ်ချက် ထည့်သွင်းလို့ မရပါ။</string>
+    <string name="sp_help_video_color_effect_menu_off_desc_NORMAL">အရောင်ပြောင်းလဲမှုမရှိသည့် စစ်ထုတ်device ထိရောက်မှုကို အသုံးချခြင်း</string>
+    <string name="help_video_color_effect_menu_sepia_desc">"အတိတ်ကိုဖေါ်ပြသော ဗွီဒီယိုများ ရိုက်ကူးရန်အတွက်အညိုရောင်ဆေးရောင် စစ်ထုတ်device  ထိရောက်မှုကို အသုံးချခြင်း"</string>
+    <string name="help_video_color_effect_menu_mono_desc">အဖြူ၊ အမည်း ဗွီဒီယိုများ ရိုက်ကူးရန်အတွက် တစ်ခုတည်းပါသော စစ်ထုတ်device အကျိုးသက်ရောက်မှုကို အသုံးချခြင်း</string>
+    <string name="help_video_color_effect_menu_negative_desc">ဗွီဒီယိုများ အရောင်ပြောင်းရန်အတွက် ဖလင်စစ်ထုတ်device ထိရောက်မှု ကို အသုံးပြုခြင်း</string>
+    <string name="help_video_color_effect_menu_vivid_desc">ပုံများတွင် အကျိုးသက်ရောက်စေသော တောက်ပသည့် အရောင်ကို အသုံးချသည်။</string>
+    <string name="help_video_color_effect_menu_negative_sepia_desc">ဗွီဒီယိုများတွင် အကျိုးသက်ရောက်စေသော အညိုရောင် ဖလင်များကို အသုံးချသည်။</string>
+    <string name="help_video_color_effect_menu_blue_desc">ဗွီဒီယိုများတွင် အကျိုးသက်ရောက်စေသော အပြာရောင်ကို အသုံးချသည်။</string>
+    <string name="help_video_color_effect_menu_emboss_desc">ဗွီဒီယိုများတွင် အကျိုးသက်ရောက်စေသော ဖေါင်းကြွကို အသုံးချသည်။</string>
+    <string name="help_video_color_effect_menu_solarize_desc">ဗွီဒီယိုများကို အကျိုးသက်ရောက်စေသော ခရမ်းလွန်ရောင်ခြည်ကို အသုံးချသည်။</string>
+    <string name="help_video_color_effect_menu_posterize_desc">ပုံများတွင် အကျိုးသက်ရောက်စေသော ကြောင်ငြာပိုစတာများတွင် အသုံးပြုသည့် အရောင်ကို အသုံးချသည်။</string>
+    <string name="help_video_color_effect_menu_aqua_desc">ဗွီဒီယိုများတွင် အကျိုးသက်ရောက်စေသောAqua အရောင်ကို အသုံးချသည်။</string>
+    <string name="help_video_color_effect_menu_pastel_desc">ဗွီဒီယိုများတွင် အကျိုးသက်ရောက်စေသော ရောင်စုံခဲတံ ဖြင့်ရေးဆွဲသည့် အရောင်ကို အသုံးချသည်။</string>
+    <string name="help_video_duration_desc">အချိန်ကို သတ်မှတ်ပါ။</string>
+    <string name="help_video_duration_normal_desc">ကန့်သတ်ချက်မရှိပါ</string>
+    <string name="help_video_duration_mms_desc">MMS ပူးတွဲဖိုင်ကဲ့သို့ ပေးပို့ခြင်းအတွက်.</string>
+    <string name="help_video_quality_desc">ဗီဒီယို အရည်အသွေးကို ချိန်ပါ။ (အရည်အသွေးပိုကောင်းလေ၊ မှတ်ဥာဏ်နေရာ ပိုကုန်လေဖြစ်သည်)။</string>
+    <string name="help_video_quality_super_desc">အလွန်ကောင်းမွန်သောအရည်အသွေးအတွက် ဗီဒီယိုများအား သိမ်းဆည်းပါ။</string>
+    <string name="help_video_quality_fine_desc">ကောင်းမွန်သောအရည်အသွေးအတွက် ဗီဒီယိုများအား သိမ်းဆည်းပါ။</string>
+    <string name="help_video_quality_normal_desc">သာမန်အရည်အသွေးအတွက် ဗီဒီယိုများအား သိမ်းဆည်းပါ။</string>
+    <string name="help_video_voice_desc">ဗွီဒီယို တိပ်ခွေသွင်းနေချိန်တွင် အသံ ဖမ်းယူမှု သတ်မှတ်ခြင်း</string>
+    <string name="help_video_voice_unmute_desc">အသံပါသောဗီဒီယိုအားသိမ်းပါ</string>
+    <string name="help_video_voice_mute_desc">အသံမပါသောဗီဒီယိုအားသိမ်းပါ</string>
+    <string name="help_video_show_desc">မှတ်တမ်းတင်ပြီးနောက်ဗီဒီယိုအားပြန်စစ်ပါ</string>
+    <string name="sp_help_mirror_img_desc_NORMAL">ကြေးမုံပုံစံဓါတ်ပုံအဖြစ်သိမ်းပါ</string>
+    <string name="sp_help_videostorage_NORMAL">ဗွီဒီယိုများကိုသိမ်းရန်သိုလှောင်ရာနေရာကိုရွေးပါ</string>
+    <string name="sp_help_videostorage_in_NORMAL">အတွင်းမှတ်ဥာဏ်ထဲသို့ဗီဒီယိုဖိုင်များအားသိမ်းပါ</string>
+    <string name="sp_help_videostorage_sd_NORMAL">SD ကဒ်သို့ဗီဒီယိုများအားသိမ်းပါ</string>
+    <string name="camera_application_stopped">ကင်မရာ ရပ်သွားပြီ။</string>
+    <string name="camera_driver_needs_reset">ကင်မရာသည် မထင်မှတ်ဘဲရပ်တန်.သွားသည်။ ပြန်လည်စတင်ရန်လိုအပ်သည်။</string>
+    <string name="geo_tag_dialog_title">GPS ဝန်ဆောင်မှုအားပိတ်ထားသည်။</string>
+    <string name="geo_tag_dialog_msg">တည်နေရာဆိုင်ရာအမှတ်အသားအားအသုံးပြုရန် ဆက်တင်မှ GPS အားဖွင့်ပါ။</string>
+    <string name="geo_tag_dialog_confirm">GPS ဆက်တင်များ</string>
+    <string name="sp_eula_popup_dialog_title_NORMAL">သီးသန့်တည်ရှိမှု သတိပေးချက်</string>
+    <string name="sp_eula_popup_do_not_show_this_again_NORMAL">ထပ်မပြနှင့်</string>
+    <string name="sp_eula_popup_dialog_msg_NORMAL">Geotagging ကိုရွေးချယ်ခြင်းအားဖြင့် ဤdevcieသည် ပုံတစ်ခုစီတိုင်းတွင် နယ်မြေတည်နေရာကို ထည့်သွင်းပေးမည်။ ဤပုံများကိုပို့ခြင်း၊ မျှဝေခြင်း၊ ဖြန့်ခြင်း၊ ကူးယူခြင်းတို့ပြုလုပ်ပါကသတိထားပါ။ ဤပုံများတွင် ပုံမည်သည့်နေရာတွင်ရိုက်ခဲ့သည်ဆိုသောတည်နေရာပါဝင်သောကြောင့် ဖြစ်သည်။</string>
+    <string name="sp_eula_popup_dialog_msg_taglocation_NORMAL">Tag Locationအား ရွေးချယ်ခြင်းဖြင့်၊ ဤ device သည် ပုံတစ်ပုံချင်းစီရှိ မြေပုံဆိုင်ရာတည်နေရာအား ပူးတွဲ၊ မြှပ်နှံ ၍သိမ်းဆည်းထားလိမ့်မည်။ ၎င်းတို.သည် ဓာတ်ပုံရိုက်ခဲ့သော တည်နေရာပါဝင်သောကြောင့် သင်သည် ဤဓာတ်ပုံများအား ပို.ခြင်း၊ ဝေမျှခြင်း၊ ဖြန်.ဝေခြင်း၊ ထုတ်လွှင့်ခြင်း သို.မဟုတ် ကူးယူခြင်းအား ပြုလုပ်သောအခါ သတိထား၍ အသုံးပြုပါ။</string>
+    <string name="geo_tag_dialog_title_cdma">LBS ဝန်ဆောင်မှုကို ပိတ်ထားသည်။</string>
+    <string name="geo_tag_dialog_msg_cdma">တည်နေရာဆိုင်ရာအမှတ်အသားအားအသုံးပြုရန် ဆက်တင်မှ LBS အားဖွင့်ပါ။</string>
+    <string name="geo_tag_dialog_confirm_cdma">LBS ဆက်တင်များ</string>
+    <string name="sp_video_length_dialog_title_NORMAL">ဗွီဒီယို ကြာချိန်</string>
+    <string name="sp_video_length_dialog_msg_NORMAL">ဖမ်းယူရိုက်ကူးမှု အသွင်ပုံစံကို ရွေးချယ်ပါ</string>
+    <string name="sp_video_length_dialog_long_NORMAL">ရှည်ကြာသော ဗွီဒီယို</string>
+    <string name="sp_video_length_dialog_title_v2_NORMAL">မှတ်တမ်းတင်သောနည်းလမ်း</string>
+    <string name="sp_video_length_dialog_mms_NORMAL">MMS ဗွီဒီယို</string>
+    <string name="camera_error_title">ကင်မရာမှားယွင်းမှု</string>
+    <string name="cannot_connect_camera">ကင်မရာသို. ချိတ်ဆက်၍မရနိုင်ပါ။</string>
+    <string name="sp_notiintsd_NORMAL">သင်၏ ဖိုင်သည် အတွင်းပိုင်း ကွန်ပျူတာမှတ်ဉာဏ်ထဲတွင် မှတ်သားသိမ်းဆည်းထားမည်။ ဆက်တင်များ>SD ကဒ် နှင့် သိုလှောင်မှု သို့ သွားပါ။</string>
+    <string name="sp_notiextsd_NORMAL">သင်၏ ဖိုင်ကို ပြင်ပ မှတ်ဉာဏ်တွင် မှတ်သားသိမ်းဆည်းထားမည်။ ဆက်တင်များ > SD ကဒ် နှင့် သိုလှောင်မှု သို့ သွားပါ။</string>
+    <string name="pref_camera_settings_category">ကင်မရာဆိုင်ရာဆက်တင်များ</string>
+    <string name="pref_camcorder_settings_category">ဗီဒီယိုကင်မရာအသေး (Camcorder) ဆိုင်ရာဆက်တင်များ</string>
+    <string name="sp_Camcorder_NORMAL">ဗီဒီယိုကင်မရာအသေး (Camcorder)</string>
+    <string name="camcorder_activity_name">ဗီဒီယိုကင်မရာအသေး (Camcorder)</string>
+    <string name="sp_close_app_NORMAL">"နောက်သို့' ဆိုသော ခလုတ်ကို နောက်တစ်ခေါက်ထပ်နှိပ်ပါ။ ကင်မရာ ပိတ်သွားမည်။"</string>
+    <string name="sp_popup_storage_limitsize_NORMAL">အများဆုံးမှတ်တမ်းတင်နိုင်သောအရွယ်အစားသို့ ရောက်ရှိနေသည်။ ဖိုင်ကိုသိမ်းဆည်းထားသည်။</string>
+    <string name="sp_popup_storage_limit_with_exact_size_NORMAL">"အလွန်ဆုံး ရုပ်သံဖမ်းယူရိုက်ကူးနိုင်သော အရွယ်အစား (%s) သို့ ရောက်ရှိနေသည်။
+ဖိုင်ကို သိမ်းဆည်းမှတ်သားထားသည်။"</string>
+    <string name="sp_popup_storage_maxsize_NORMAL">"ရုပ်သံဖမ်းယူမှု အရွယ်အစား ဂိတ်ဆုံး သို့ရောက်နေသည်။
+ရုပ်သံဖမ်းယူမှုကို မကြာမီ အဆုံးသတ်မည်။"</string>
+    <string name="sp_popup_storage_maximum_size_NORMAL">"ရုပ်သံဖမ်းယူမှု အရွယ်အစား ဂိတ်ဆုံး (%s) သို့ရောက်နေသည်။
+ရုပ်သံဖမ်းယူမှုကို မကြာမီ အဆုံးသတ်မည်။"</string>
+    <string name="sp_sd_card_read_only_NORMAL">SD ကဒ်အား ဖတ်ရန်အတွက်သာ အသုံးပြုထားသည်။</string>
+    <string name="sp_MMS_REC_limit_NORMAL">MMS ရုပ်သံဖမ်းယူရိုက်ကူးသည့် အလွန်ဆုံးကြာချိန်သည် %d စက္ကန့်ဖြစ်သည်</string>
+    <string name="sp_popup_character_limit_NORMAL">တရားမဝင်သော စကားလုံး</string>
+    <string name="sp_filename_already_exists_NORMAL">ဖိုင်နာမည်သည် ရှိပြီးဖြစ်သည်။</string>
+    <string name="sp_message_recording_limit_NORMAL">ပူးတွဲထားသည့်ဖိုင်၏ သတ်မှတ်ထားသည့် အရွယ်အစားပမာဏသည် အသံသွင်းသည့် အရွယ်အစား မိနစ်စာထက် သေးနေသည်။</string>
+    <string name="sp_help_toast_smart_shutter_NORMAL">မရည်ရွယ်ဘဲတုန်ခါမှုအတွင်းဓါတ်ပုံများပုံကောင်းရရန် Smart shutter မကူညီသည်။</string>
+    <string name="sp_help_scene_mode_menu_smart_shutter_desc_NORMAL">အမိုးအကာအောက်တွင် ပုံရိပ်အား ဝေ၀ါးခြင်းမရှိဘဲ အမြန်ရွေ.လျားနေသောဓာတ်ပုံများအား ဖမ်းယူနေသည်။</string>
+    <string name="sp_help_scene_mode_menu_action_desc_NORMAL">အမြန်ရွေ့လျားနေသောပုံရိပ်များကို မှုန်ဝါးခြင်းမရှိပဲရိုက်ယူမည်။</string>
+    <string name="sp_help_shot_mode_beauty_desc_NORMAL">အလင်းနှင့်အမှုန်ပုံစံများနှင့် ဓါတ်ပုံရိုက်ခြင်း</string>
+    <string name="sp_help_shot_mode_hdr_desc_NORMAL">ပို၍သဘာဝကျသောပုံထွက်ရန် ကွဲပြားသောအကွက်များရှိ တူညီသောပြတ်သားမှုမြင့်မားသည့် အမျိုးမျိုးသောရိုက်ချက်များကိုပေါင်းစပ်ခြင်း။</string>
+    <string name="sp_help_shot_mode_slow_motion_desc_NORMAL">မြန်ဆန်စွာရွေ့လျားနေသောအရာဝတ္ထုများအားဖြေးညှင်းစွာပြသစေရန်မှတ်တမ်းတင်နေသည်</string>
+    <string name="sp_help_shot_mode_time_machine_desc_NORMAL">အဖွင့်အပိတ်ခလုတ်ကိုမထိခင် တကြိမ်တည်း ၆ ပုံ စီစဉ်တကျဓါတ်ပုံရိုက်ခြင်း</string>
+    <string name="sp_help_shot_mode_time_machine_5_picture_NORMAL">အပိတ်အဖွင့်ကီးမထိခင် တပြိုင်နက်တည်းရုပ်ပုံငါးပုံအစီအစဉ်အလိုက် ရိုက်ခြင်း။</string>
+    <string name="sp_shot_mode_clearshot_NORMAL">ရှင်းလင်းသည့် ရိုက်ချက်</string>
+    <string name="sp_shot_mode_shot_and_clear">ရိုက်ကူးပြီး ကြည်လင်အောင် လုပ်ပါ</string>
+    <string name="sp_scene_mode_smart_shutter_NORMAL">Smart အဖွင့်အပိတ်</string>
+    <string name="sp_scene_mode_action_NORMAL">လုပ်ဆောင်မှု</string>
+    <string name="sp_shot_mode_beauty_NORMAL">အလှပုံရိုက်ယူခြင်း</string>
+    <string name="sp_shot_mode_time_machine_NORMAL">အချိန်ကျော်လွှားသောစက်ကင်မရာ</string>
+    <string name="sp_shot_mode_live_desc_NORMAL">ဗီဒီယိုမှတ်တမ်းတင်နေစဉ် မျက်နှာပြင်ပုံရိပ်အားဖမ်းယူနေသည်။</string>
+    <string name="sp_shot_mode_live_effect_desc_NORMAL">ဗွီဒီယိုရိုက်ကူးနေချိန်တွင် မျက်နှာပေါက်အင်္ဂါရပ်များကို ပြောင်းလဲရန် နောက်ခံမြင်ကွင်းများကို ပြောင်းလဲခြင်း နှင့် morphing effect ကို ထည့်သွင်းခြင်း။</string>
+    <string name="sp_shot_mode_hdr_NORMAL">အရေးအသွေးမြှင့်ပုံရိုက်ခြင်း</string>
+    <string name="dual_camera">နှစ်ဖက်မြင် ကင်မရာ</string>
+    <string name="sp_focus_infinity_NORMAL">အဆုံးမရှိ</string>
+    <string name="sp_high_temp_action_NORMAL">ဘက်ထရီကိုဖြုတ်ပါ(သို့မဟုတ်)အေးသောနေရာသို့ရွှေ့ထားပါ</string>
+    <string name="sp_high_temperature_detection_NORMAL">အပူအာရုံခံသည် မြင့်မားသောအပူချိန်များကို သိနိုင်သည်</string>
+    <string name="sp_attach_file_size_exceeded_NORMAL">အကြီးဆုံး ပူးတွဲနိုင်သည် ဖိုင်အရွယ်အစား ကန့်သတ်ချက်ကို ကျော်လွန်နေသည်။</string>
+    <string name="sp_high_temp_action_on_enter_NORMAL">အပူ sensor သည် မြင့်မားသောအပူချိန်အားတွေ.ရှိပါသည်။ ကင်မရာအား ဖွင့်၍မရနိုင်ပါ။</string>
+    <string name="sp_high_temp_action_on_recording_NORMAL">အပူ sensor သည် မြင့်မားသောအပူချိန်အားတွေ.ရှိပါသည်။ ဗီဒီယိုမှတ်တမ်းတင်ခြင်းအားပိတ်ပါလိမ့်မည်။</string>
+    <string name="high_temp_action_on_recording">အမြင့်ဆုံးဖုန်းအပူချိန်ကိုထိန်းရန် ဗီဒီယိုမရိုက်နိုင်ပါ။ နောက်မှထပ်မံကြိုးစားကြည့်ပါ။</string>
+    <string name="sp_warning_high_temperature_on_recording_NORMAL">သတိဖြင့် သုံးပါ။ အားသွင်းနေစဉ် ဗွီဒီယိုရိုက်ကုးခြင်းသည် သင့် device ၏ အပူချိန်ကို တိုးမြင့်စေနိုင်သည်</string>
+    <string name="warning_high_temp_action_flash_off">ဖုန်း၏ အပူချိန်ကို အကောင်းဆုံး ထိန်းညှိရန် ဓါတ်မီးကို ပိတ်လိုက်သည်။</string>
+    <string name="sp_silly_face_title_NORMAL">ကလေးကလား မျက်နှာများ</string>
+    <string name="sp_big_eyes_NORMAL">ကြီးမားသောမျက်လုံး</string>
+    <string name="sp_big_mouth_NORMAL">ကြီးမားသောပါးစပ်</string>
+    <string name="sp_squeeze_NORMAL">ဖျစ်ညစ်သည်</string>
+    <string name="sp_big_nose_NORMAL">ကြီးမားသောနှာခေါင်း</string>
+    <string name="sp_small_eyes_NORMAL">သေးငယ်သောမျက်လုံးများ</string>
+    <string name="sp_small_mouth_NORMAL">သေးငယ်သောပါးစပ်</string>
+    <string name="sp_background_title_NORMAL">နောက်ခံများ</string>
+    <string name="sp_in_space_NORMAL">နေရာလွတ်တွင်</string>
+    <string name="sp_sunset_NORMAL">နေဝင်ခြင်း</string>
+    <string name="sp_disco_NORMAL">ဒစ္စကို</string>
+    <string name="sp_choose_gallery_NORMAL">ကျွန်ုပ်၏ ဗွီဒီယိုများ</string>
+    <string name="sp_bg_replacement_message_NORMAL">"တည်ငြိမ်သော မျက်နှာပြင်ပေါ်တွင် သင့် device ကို ထားပြီး သင်ထွက်သွားပြီးနောက်တွင် လှုပ်ရှားမှု မရှိစေရန် သေချာအောင် လုပ်ထားပါ။
+
+ထို့နောက် ကင်မရာ မြင်ကွင်းက ဖယ်ပါ။"</string>
+    <string name="sp_bg_replacement_message_v2_NORMAL">မလှုပ်ရှားစေရန် deviceအားကိုင်ပြီးနောက် လှုပ်ရှားမှုမရှိခြင်းသေချာပါကဗီဒီယိုအားမှတ်တမ်းတင်ရန် အဆင်သင့်ဖြစ်သောအခါ၊ ရိုက်ကူးမည့်အရာအား ကင်မရာမြင်ကွင်းထဲသို.ဝင်လာအောင်ပြုလုပ်ပါ။</string>
+    <string name="sp_pano_too_fast_prompt_NORMAL">မြန်လွန်းသည်</string>
+    <string name="sp_live_shot_NORMAL">တိုက်ရိုက် ရိုက်ကူးမှု</string>
+    <string name="sp_live_effect_NORMAL">လှုပ်ရှားမှုရှိသောအထူးပြုလုပ်ချက်များ</string>
+    <string name="dual_recording">ရိုက်ကူးခြင်းနှစ်မျိုး</string>
+    <string name="smart_zoom">"smart  အနီးအဝေးမြင်ကွင်း"</string>
+    <string name="tracking_zoom">ခြေရာခံ ဇူးမ်မြင်ကွင်း</string>
+    <string name="anti_shaking">တုန်ခါမှုမဖြစ်သော</string>
+    <string name="sp_audio_zoom_NORMAL">အသံပိုင်းအတိုးအကျယ်</string>
+    <string name="sp_tracking_focus_NORMAL">ဆုံချက်အား Track လုပ်ခြင်း</string>
+    <string name="sp_video_recording_normalmode_NORMAL">ပုံမှန်ဗီဒီယိုအားမှတ်တမ်းတင်နေသည်</string>
+    <string name="sp_note_shot_mode_setting_change_NORMAL">%s အသွင်ပုံစံအတွက် သင့်လျော်အောင် ချိန်ညှိချက်များ</string>
+    <string name="sp_help_swap_camera_menu_desc_v2_NORMAL">မူလနှင့် ကင်မရာရှေ့ကြားကူးပြောင်း</string>
+    <string name="sp_help_light_frame_desc_v2_NORMAL">အရှေ့ဘက်ကင်မရာကိုအသုံးပြုနေစဉ်ပိုမိုတောက်ပသောဓါတ်ပုံများကိုမြင်ကွင်းအသေးတစ်ခုဖြင့်ရိုက်ကူးရန်ဖလပ်ခ်ျမီးကို ဖွင့်ပါ။</string>
+    <string name="sp_help_zoom_desc_v2_NORMAL">အနီးအဝေးမြင်ကွင်း ကျယ်ခြင်းနှင့်ကျုံခြင်း</string>
+    <string name="sp_help_brightness_desc_v2_NORMAL">အလင်းရောင်ဖွင့်ပေးသောအချိန် အဆင့်ကို ချိန်ညှိခြင်း</string>
+    <string name="sp_help_flash_desc_v2_NORMAL">flash သတ်မှတ်ပါ</string>
+    <string name="sp_help_flash_auto_desc_v2_NORMAL">လိုအပ်သောအခါ ဖလက်ရှ်မီးအားဖွင့်ပါ။</string>
+    <string name="sp_help_flash_off_desc_v2_NORMAL">ကင်မရာမီး ပိတ်နေသည်</string>
+    <string name="sp_help_flash_on_desc_v2_NORMAL">ကင်မရာမီး ပွင့်နေသည်</string>
+    <string name="sp_help_camera_settings_desc_v2_NORMAL">ကင်မရာဆက်တင်များအား ချိန်ညှိပေးခြင်း</string>
+    <string name="sp_help_focus_desc_v2_NORMAL">စုံချက်နေရာ သတ်မှတ်ပါ</string>
+    <string name="sp_help_focus_auto_desc_v2_NORMAL">အလိုအလျောက်ချိန်ညှိခြင်းစံ</string>
+    <string name="sp_help_focus_face_desc_v2_NORMAL">မျက်နှာများကိုအလိုအလျောက်ရှာဖွေ တေ့ြရှိပြီး ပြတ်သားအောင်ပြုလုပ်ပေးသည်။</string>
+    <string name="sp_help_image_size_menu_desc_v2_NORMAL">ရုပ်ပုံ အရွယ်အစား သတ်မှတ်ပါ</string>
+    <string name="sp_help_scene_mode_menu_desc_v2_NORMAL">ပိုနှစ်သက်သော အသွင်ပုံစံ ရွေးချယ်ပါ</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_v2_NORMAL">သာမန်ဓာတ်ပုံများကို ဖမ်းယူပါ။</string>
+    <string name="sp_help_scene_mode_menu_portrait_desc_v2_NORMAL">လူပုံများကို ဖမ်းယူပါ။</string>
+    <string name="sp_help_scene_mode_menu_landscape_desc_v2_NORMAL">သဘာဝရှုခင်းများကို ဖမ်းယူပါ။</string>
+    <string name="sp_help_scene_mode_menu_sports_desc_v2_NORMAL">ဝေ၀ါခြင်းမရှိဘဲ အမြန်ရွေ.လျားနေသောဓာတ်ပုံများအား ဖမ်းယူပါ။</string>
+    <string name="sp_help_scnen_mode_menu_sunset_desc_v2_NORMAL">နေဝင်ချိန်နှင့် နောက်ခံအလင်းရောင်ပါသောပုံများအား ဖမ်းယူပါ။</string>
+    <string name="sp_help_scene_mode_menu_night_desc_v2_NORMAL">မှောင်မဲသောနေရာများတွင် ဓာတ်ပုံများကို ဖမ်းယူပါ။</string>
+    <string name="sp_help_iso_menu_desc_v2_NORMAL">ကင်မရာလှုပ်ရှားမှု သို. အရာဝတ္တု ရွေ.လျားမှုကြောင့်ဖြစ်သော မှုန်ဝါးမှုအား လျော့ချရန် အလင်းရောင်နည်းနည်းတွင် ဓာတ်ပုံရိုက်သောအခါ sensitivity အားတိုးမြှင့်ပါ။</string>
+    <string name="sp_help_withe_balance_desc_v2_NORMAL">အလင်းရောင်အနေအထားအရ လှုပ်ရှားပြနေသော ရုပ်ပုံအရောင်အပူချိန်များအား ချိန်ညှိခြင်း</string>
+    <string name="sp_help_white_balance_auto_desc_v2_NORMAL">အလင်းအမှောင် အခြေအနေများနှင့် ကိုက်ညီစေရန် အဖြူရောင် ဟန်ချက် (balance) ကို အလိုလို ညှိပါ</string>
+    <string name="sp_help_withe_balance_incandescent_desc_v2_NORMAL">တောက်ပသော အလင်းရောင်အောက်တွင် အသုံးပြုပါ</string>
+    <string name="sp_help_white_balance_sunny_desc_v2_NORMAL">နေရောက်အောက်တွင် အသုံးပြုပါ</string>
+    <string name="sp_help_white_balance_flourescent_desc_v2_NORMAL">ဖန်ချောင်းမီးရောင်အောက်တွင် အသုံးပြုပါ</string>
+    <string name="sp_help_white_balance_cloudy_desc_v2_NORMAL">အရိပ်ထဲတွင် နှင့် တိမ်ထူသော နေ့များတွင် အသုံးပြုပါ</string>
+    <string name="sp_help_withe_balance_incandescent_desc_camera_v2_NORMAL">တောက်ပသော အလင်းရောင်အောက်တွင် အသုံးပြုပါ</string>
+    <string name="sp_help_white_balance_sunny_desc_camera_v2_NORMAL">နေရောင်တွင်သုံးပါ။</string>
+    <string name="sp_help_white_balance_flourescent_desc_camera_v2_NORMAL">မီးချောင်းအလင်းရောင်အောက်တွင် အသုံးပြုပါ</string>
+    <string name="sp_help_white_balance_cloudy_desc_camera_v2_NORMAL">အရိပ်ထဲနှင့် တိမ်ထူသော နေ့များတွင် အသုံးပြုပါ</string>
+    <string name="sp_help_color_effect_desc_v2_NORMAL">ဓါတ်ပုံ ရိုက်ကူးသောအခါ အရောင်စစ်ပေးသော ခံစားမှုရသ သတ်မှတ်ပါ</string>
+    <string name="sp_help_color_effect_off_desc_v2_NORMAL">အရောင်သက်ရောက်မှု မရှိပါ်</string>
+    <string name="sp_help_color_effect_mono_desc_v2_NORMAL">ဓာတ်ပုံအား အရောင် အဖြူ၊အမည်းဖြင့်ဖမ်းယူပါ။</string>
+    <string name="sp_help_color_effect_sepia_desc_v2_NORMAL">Sepia ကာလာဖြင့် ဓာတ်ပုံများအား ဖမ်းယူပါ။</string>
+    <string name="sp_help_color_effect_negative_desc_v2_NORMAL">ပြောင်းပြန်လှန်ထားသောအရောင်ဖြင့် ပုံရိပ်များအား ဖမ်းယူပါ။</string>
+    <string name="sp_help_timer_menu_desc_v2_NORMAL">မရိုက်ကူးမီ ၃၊ ၅ (သို့) ၁၀ စက္ကန့် နောက်ကျပြီး သတ်မှတ်ပါ</string>
+    <string name="sp_help_shot_mode_desc_v2_NORMAL">အမျိုးမျိုး ရိုက်ယူနိုင်သော အသွင်ပုံစံ သတ်မှတ်ပါ</string>
+    <string name="sp_help_shot_mode_normal_desc_v2_NORMAL">ပုံမှန် အသွင်ပုံစံ</string>
+    <string name="sp_help_shot_mode_continuous_shot_desc_v2_NORMAL">အလျင်အမြန်အစဉ်လိုက် ၆ ချက်ရိုက်ပါ</string>
+    <string name="sp_help_shot_mode_panorama_shot_desc_v2_NORMAL">တစ်ခုတည်းသော မြင်ကွင်းကျယ်ပုံနှင့်ပေါင်းစပ်ရန် အလျားလိုက်ဆက်တိုက်ပုံများရိုက်ပါ။</string>
+    <string name="sp_help_shutter_sound_menu_desc_v2_NORMAL">ဓါတ်ပုံရိုက်သောအခါ အသံ ခံစားမှုရသ သတ်မှတ်ပါ</string>
+    <string name="sp_help_show_captured_image_menu_desc_v2_NORMAL">ရိုက်ကူးထားသော ဓါတ်ပုံကို ချက်ချင်း ဖော်ပြပါ</string>
+    <string name="sp_help_geo_tagging_menu_desc_v2_NORMAL">ဤပုံကိုရိုက်ယူခဲ့သောတည်နေရာအားပေါင်းထည့်ခြင်း</string>
+    <string name="sp_help_storage_v2_NORMAL">ရုပ်ပုံများကို သိမ်းဆည်ရန် သိုလှောင်သောနေရာကို ရွေးပါ</string>
+    <string name="sp_help_storage_inner_v2_NORMAL">ဓာတ်ပုံများကိုအတွင်းမှတ်ဥာဏ်ထဲ တွင်သိမ်းပါ။</string>
+    <string name="sp_help_storage_sd_v2_NORMAL">ဓါတ်ပုံများကို SD ကဒ်တွင်သိမ်းပါ</string>
+    <string name="sp_help_video_size_desc_v2_NORMAL">ဗွီဒီယို ဖိုင် အရွယ်အစား သတ်မှတ်ပါ</string>
+    <string name="sp_help_video_color_effect_desc_v2_NORMAL">ဗွီဒီယို ရိုက်ကူးသောအခါ အရောင်စစ်ပေးသော ခံစားမှုရသ သတ်မှတ်ပါ</string>
+    <string name="sp_help_video_color_effect_mono_desc_v2_NORMAL">ဗွီဒီယိုများကို အရောင် အဖြူအမဲဖြင့် ကူးယူပါ</string>
+    <string name="sp_help_video_color_effect_sepia_desc_v2_NORMAL">ဗွီဒီယိုများကို အညိုရောင်ဖြင့် ကူးယူပါ</string>
+    <string name="sp_help_video_color_effect_negative_desc_v2_NORMAL">ပြောင်းပြန် အရောင် (colour inverted) ဖြင့် ဗွီဒီယိုများကို ကူးယူပါ</string>
+    <string name="sp_help_video_shot_mode_live_shot_desc_v2_NORMAL">ဗီဒီယိုမှတ်တမ်းတင်နေစဉ် မျက်နှာပြင်ပုံရိပ်အားဖမ်းယူပါ။</string>
+    <string name="sp_help_video_shot_mode_live_effect_desc_v2_NORMAL">နောက်ခံမြင်ကွင်းများကို ပြောင်းလဲပြီး ဗွီဒီယို ရိုက်ကူးသောအခါ မျက်နှာပေါက် အင်္ဂါရပ်များကို ပြောင်းလဲရန် ရုပ်ပုံတစ်ပုံမှတစ်ပုံသို့ပြောင်းလဲပေးသော ခံစားမှုရသ morph effect ကို စီစဉ်သတ်မှတ်ပါ။</string>
+    <string name="sp_help_video_voice_desc_v2_NORMAL">ဗွီဒီယို ရိုက်ကူးနေချိန်တွင် အသံ ထည့်ပါ</string>
+    <string name="sp_help_video_voice_unmute_desc_v2_NORMAL">ဗွီဒီယိုများကို အသံဖြင့် ကူးယူပါ</string>
+    <string name="sp_help_video_voice_mute_desc_v2_NORMAL">ဗွီဒီယိုများကို အသံမပါဘဲ ကူးယူပါ</string>
+    <string name="sp_help_video_show_desc_v2_NORMAL">မှတ်တမ်းတင်ပြီးသော ဗွီဒီယိုကို ချက်ချင်း ပြသပါ</string>
+    <string name="sp_help_video_geo_tagging_menu_desc_v2_NORMAL">ဤဗွီဒီယိုကိုရိုက်ကူးခဲ့သောတည်နေရာအားပေါင်းထည့်ခြင်း</string>
+    <string name="sp_help_videostorage_v2_NORMAL">ဗွီဒီယိုများကိုသိမ်းရန်သိုလှောင်ရာနေရာကိုရွေးပါ</string>
+    <string name="sp_help_videostorage_in_v2_NORMAL">အတွင်းမှတ်ဥာဏ်ထဲသို့ဗီဒီယိုဖိုင်များအားသိမ်းပါ</string>
+    <string name="sp_help_videostorage_sd_v2_NORMAL">SD ကဒ်သို့ဗီဒီယိုများအားသိမ်းပါ</string>
+    <string name="sp_help_shot_mode_beauty_desc_v2_NORMAL">တောက်ပ၍ ဝေ၀ါးစေသော အကျိုးသက်ရောက်မှုများဖြင့် ပုံရိပ်များအား ဖမ်းယူပါ။</string>
+    <string name="sp_help_flipped_img_desc_NORMAL">ထောင်လိုက်လှည့်ထားသောဓာတ်ပုံအားသိမ်းပါ။</string>
+    <string name="sp_help_normal_img_desc_NORMAL_NORMAL">သာမန်ဓာတ်ပုံကိုသိမ်းပါ။</string>
+    <string name="sp_help_camera_reset_desc_v3_NORMAL">ကင်မရာဆိုင်ရာဆက်တင်များအား မူလစံသို.ပြန်လည်သတ်မှတ်ပါ။</string>
+    <string name="sp_help_flipped_img_desc_v3_NORMAL">လှည့်ထားသည့်အတိုင်းဓာတ်ပုံအားသိမ်းပါ</string>
+    <string name="sp_help_video_reset_desc_v3_NORMAL">ဗွီဒီယို ဆက်တင်များသည် အလိုလို ရွေးချယ်ပေးသော default စံနှုန်းအဖြင့် ပြန်လည် သတ်မှတ်လိုက်သည်</string>
+    <string name="sp_deleted_images_NORMAL">ရွေးချယ်ထားသော ရုပ်ပုံများကို ဖျက်ပစ်လိုက်မည်။ ဆက်လုပ်လိုပါသလား?</string>
+    <string name="sp_deleted_photos_NORMAL">ရွေးချယ်ထားသော ဓါတ်ပုံများကို ဖျက်ပစ်မည်။ ဆက်လုပ်လိုပါသလား?</string>
+    <string name="sp_help_guide_beauty_shot_desc_NORMAL">အလှအပရိုက်ချက်သည်မျက်နှာအသားအရည်ကိုပိုမိုတောက်ပချောမွေ့စေသည်။</string>
+    <string name="sp_help_guide_beauty_shot_desc_list">အလှအပရိုက်ချက်သည်မျက်နှာအသားအရည်ကိုပိုမိုတောက်ပချောမွေ့စေသည်။</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL">"အဆက်မပြတ် ရိုက်ကူးခြင်းသည် ဓါတ်ပုံကိုတစ်ပုံပြီးတစ်ပုံ ခြောက်ပုံဆက်တိုက် ရိုက်ကူးပေးမည်။  ဓါတ်ပုံကို အလွယ်တကူ ရွေးရန် အော်တိုမြင်ကွင်းကို ဖွင့်ပါ။"</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL_v2">အဆက်မပြတ် ရိုက်ကူးခြင်းသည် ဓါတ်ပုံကိုတစ်ပုံပြီးတစ်ပုံ ခြောက်ပုံဆက်တိုက် ရိုက်ကူးပေးမည်။</string>
+    <string name="sp_help_guide_hdr_desc_NORMAL">HDR သည် နောက်ခံအလင်းရောင်အား များစွာသော ထိတွေ.ခြင်းဆိုင်ရာထိန်းချုပ်မှုဖြင့် ချိန်ညှိပေးချိန်တွင် မတူညီသော ထိတွေ.မှုများနှင့်ရိုက်ယူထားသော ဓာတ်ပုံများအား ကောင်းမွန်သောဓာတ်ပုံတစ်ပုံအဖြစ်သို.ပေါင်းစည်းပေးသည်။</string>
+    <string name="sp_help_guide_hdr_desc_list">HDR သည် နောက်ခံအလင်းရောင်အား များစွာသော ထိတွေ.ခြင်းဆိုင်ရာထိန်းချုပ်မှုဖြင့် ချိန်ညှိပေးချိန်တွင် မတူညီသော ထိတွေ.မှုများနှင့်ရိုက်ယူထားသော ဓာတ်ပုံများအား ကောင်းမွန်သောဓာတ်ပုံတစ်ပုံအဖြစ်သို.ပေါင်းစည်းပေးသည်။</string>
+    <string name="sp_help_guide_live_effect_desc_NORMAL">လှုပ်ရှားမှုရှိသောအထူးပြုလုပ်ချက်များသည် မြင်ကွင်း သက်ရောက်မှု အမျိုးမျိုးကို စီစဉ်ပေးထားသည်။ အထူးပြုလုပ်ချက်တစ်ခုကိုရွေးပြီး စတင်ရိုက်ကူးပါ။</string>
+    <string name="sp_help_guide_panorama_shot_desc_NORMAL">အဆက်မပြတ်ရိုက်ကူးထားသော ဓါတ်ပုံများကို မြင်ကွင်းကျယ်ရုပ်ပုံတစ်ခုထဲတွင် စုစည်းထားမည်။ စတင်ရန် shutter ကို နှိပ်ပြီး ကင်မရာကို တစ်ဖက်မှနောက်တစ်ဖက်သို့ ဖြည်းညှင်းစွာ လှည့်ပါ။</string>
+    <string name="sp_help_guide_free_panorama_shot_desc_NORMAL">"အဆက်မပြတ်ရိုက်ကူးထားသော ဓါတ်ပုံများကို 360 စက်ဝန်းပုံ မြင်ကွင်းကျယ် ရုပ်ပုံထဲတွင် စုဝေးထားမည်။
+စတင်ရန် shutter ကို နှိပ်ပြီး ကင်မရာကို ဦးတည်ချက်အမျိုးမျိုးသို့ လှည့်ပါ။"</string>
+    <string name="sp_help_guide_time_machine_desc_NORMAL">အချိန်ကျော်လွှားသောစက်ကင်မရာသည် အလင်းတံခါးအဖွင့်ပိတ်ခလုတ် အားမနှိပ်ခင်လွတ်သွားသောအချိန်အား ဖမ်းယူပါသည်။</string>
+    <string name="sp_help_guide_time_machine_desc_new_NORMAL">ဓါတ်ပုံမရိုက်ခင် လွတ်သွားသောရှုခင်းကိုကြည့်ပြီးသိမ်းပါ။</string>
+    <string name="sp_help_guide_time_machine_desc_new_vzw_NORMAL">ကင်မရာခလုတ်ကိုသင်မနှိပ်ခင်အချိန်အတွင်းဖမ်းယူ ရိုက်ကူးပါ။</string>
+    <string name="sp_help_popup_guide_time_machine_desc_new_NORMAL">အချိန် မှတ်သားပြီး ရိုက်ကူးသည့် စနစ်သည့် သင် ကင်မရာခလုတ်ကိုမနှိပ်မီ ရိုက်ကူးပေးမည်။</string>
+    <string name="sp_help_guide_time_machine_new_desc_NORMAL">အချိန်စက်ကင်မရာသည်ကင်မရာအဖုန်းကိုမဖိမီ လွတ်သွားသော အခိုက်အတန့်ကို ရိုက်ပေးသည်။ ရွေးချယ်ထားသော ဓာတ်ပုံများကိုသာသိမ်းပါမည်။</string>
+    <string name="sp_image_SHORT">ရုပ်ပုံ</string>
+    <string name="sp_video_SHORT">ဗွီဒီယို</string>
+    <string name="sp_will_be_deleted_NORMAL">%1$s ဖျက်သိမ်းမည်။ ဆက်လုပ်မလား</string>
+    <string name="sp_photo_will_be_deleted_NORMAL">ဓါတ်ပုံကို ဖျက်မည်။ ဆက်လုပ်လိုပါလား?</string>
+    <string name="sp_video_will_be_deleted_NORMAL">ဗွီဒီယိုကို ဖျက်မည်။ ဆက်လုပ်လိုပါလား?</string>
+    <string name="sp_gps_settings_title_NORMAL">တည်နေရာ ဝန်ဆောင်မှုကို အသုံးမပြုနိုင်စေရန် ပိတ်ထားသည်</string>
+    <string name="sp_gps_setting_msg_NORMAL">တည်နေရာပူးတွဲစနစ်ကိုအသုံးပြုရန်တည်နေရာဝန်ဆောင်မှုများကိုဖွင့်ပါ။</string>
+    <string name="sp_geotagging_NORMAL">မြေပုံဖြင့်တွဲဖက်နေသည်</string>
+    <string name="sp_enable_app_msg_NORMAL">ဤလုပ်ဆောင်ချက်ကို အသုံးပြု၍ရနိုင်ရန် %s ကို သုံးရမည်။ ဤ အပလီကေးရှင်း ကို သုံးမလား။</string>
+    <string name="sp_photoimage_SHORT">ရုပ်ပုံ</string>
+    <string name="sp_note_dialog_title_NORMAL">မှတ်ချက်</string>
+    <string name="sp_saved_NORMAL">သိမ်းပြီးပြီ</string>
+    <string name="sp_front_NORMAL">အရှေ.</string>
+    <string name="sp_rear_NORMAL">နောက်ကျောဘက်</string>
+    <string name="sp_timemachine_delete_warning_NORMAL">သင် မှတ်သားသိမ်းဆည်းထားခြင်း မရှိသော ဓါတ်ပုံများကို ဆုံးရှုံးလိမ့်မည်။ ဆက်လုပ်မလား?</string>
+    <string name="sp_timemachine_bubble_popup_NORMAL">လွတ်သွားသောအချိန်ကာလကိုဖော်ပြရန်၊ ဤခလုတ်အားနှိပ်ပါ။</string>
+    <string name="sp_timemachine_select_NORMAL">သင် သိမ်းဆည်းလိုသော ဓါတ်ပုံများကို အမှတ်ခြစ်ပါ။</string>
+    <string name="sp_timemachine_select_new_NORMAL">သင်သိမ်းလိုသောဓါတ်ပုံများကိုရွေးချယ်ပါ။</string>
+    <string name="sp_timemachine_save_guide">သိမ်းလိုသောဓါတ်ပုံများကိုရွေးပြီး သိမ်းမည် ဆိုသည့်ခလုတ်ကိုနှိပ်ပါ</string>
+    <string name="sp_shot_mode_time_catch_NORMAL">အချိန်ဖမ်းယူသောရိုက်ချက်</string>
+    <string name="sp_help_guide_time_catch_desc_NORMAL">အချိန်ဖမ်းယူသောရိုက်ချက်သည် shutter အားမနှိပ်ခင်လွတ်သွားသောအချိန်အား ဖမ်းယူပါသည်။</string>
+    <string name="sp_help_guide_time_catch_new_desc_NORMAL">အချိန်ဖမ်းကင်မရာသည်ကင်မရာအဖုန်းကိုမဖိမီ လွတ်သွားသော အခိုက်အတန့်ကို ရိုက်ပေးသည်။ ရွေးချယ်ထားသော ဓာတ်ပုံများကိုသာ သိမ်းပါမည်။</string>
+    <string name="sp_timemachine_bubble_popup_jp_NORMAL">ကင်မရာ အလင်းတံခါးခလုတ် မလွှတ်ခင် ၁စက္ကန့်တွင်ဖမ်းယူထားသော ဓာတ်ပုံများအား ဖော်ပြရန်၊ ဤခလုတ်အားနှိပ်ပါ။</string>
+    <string name="sp_force_close_on_high_temperature_NORMAL">device ၏မြင့်မားသောအပူချိန်ကြောင့် ကင်မရာသည်ပိတ်သွားလိမ့်မည်။</string>
+    <string name="sp_screen_cannot_be_captured_NORMAL">လက်ရှိ မျက်နှာပြင်ကို ဖမ်းယူရိုက်ကူးလို့မရပါ။</string>
+    <string name="sp_voice_shutter_help_desc">အသံဖြင့်ညွှန်ကြားခြင်းကို အသုံးပြုပြီး ဓါတ်ပုံများကို ရိုက်ကူးထားသည်</string>
+    <string name="sp_clear_shot_tab_guide">မျဉ်းသားထားသည့် အရာဝတ္ထုများကို ဓါတ်ပုံမှ ဖယ်ရှားရန် ၎င်းကို နှိပ်ပါ။</string>
+    <string name="sp_clear_shot_tab_guide_v2">အောက်ခံ မျဉ်းသားထားသည့် object ကို ဖယ်ရှားရန် နှိပ်ပြီး save ခလုတ်ကို နှိပ်ပါ။</string>
+    <string name="sp_clear_shot_not_found_object">ဖယ်ရှားရန် အရာဝတ္ထု တစ်ခုမျှ မရှိပါ</string>
+    <string name="sp_clear_shot_warning_popup">လုပ်ငန်းစဉ်ကို မမှတ်ရသေးသဖြင့် ဓါတ်ပုံကို သင် ဆုံးရှုံးမည်။ ဆက်လုပ်မလား</string>
+    <string name="sp_clear_shot_warning_handshake">ဖုန်းကို ငြိမ်ငြိမ် ကိုင်ထားပါ။</string>
+    <string name="sp_clear_shot_capture_failed">မအောင်မြင်လိုက်ပါ။</string>
+    <string name="intelligent_auto">အလိုအလျောက်နားလည်သိမြင်နိုင်သော</string>
+    <string name="sp_anti_shaking_help_desc">အရည်အသွေးမြင့်ဗီဒီယိုရရန် ဗီဒီယိုရိုက်ကူးစဉ်တုန်ခါမှုကိုကာကွယ်မည်။</string>
+    <string name="sp_photo_has_not_yet_been_saved_warning_popup">ဓါတ်ပုံကို မှတ်သားမှု မပြုလုပ်ရသေးပါ။ မမှတ်သားဘဲ ထွက်လိုပါလား?</string>
+    <string name="sp_wdr_recording_help_desc">အဆင့်မြင့် မြောက်များစွာသောဖော်ထုတ်မှုများထိန်းချုပ်ခြင်းနှင့်အတူ အမြင့်ဆုံးနောက်ခံအလင်းချိန်ညှိထားသည့်ဗီဒီယိုတစ်ခုအား မတူညီသောဖော်ထုတ်မှုတို့မှရိုက်ပါ။</string>
+    <string name="sp_wdr_recording_help_desc_list">အဆင့်မြင့် မြောက်များစွာသောဖော်ထုတ်မှုများထိန်းချုပ်ခြင်းနှင့်အတူ အမြင့်ဆုံးနောက်ခံအလင်းချိန်ညှိထားသည့်ဗီဒီယိုတစ်ခုအား မတူညီသောဖော်ထုတ်မှုတို့မှရိုက်ပါ။</string>
+    <string name="sp_burst_shot_help_desc">ကင်မရာအဖုံးကိုဖိထားခြင်းဖြင့် ရိုက်ချက်၂ဝအထိအမြန်ရိုက်ယူပါ။</string>
+    <string name="sp_burst_shot_help_desc_list">ကင်မရာအဖုံးကိုဖိထားခြင်းဖြင့် ရိုက်ချက်၂ဝအထိအမြန်ရိုက်ယူပါ။</string>
+    <string name="sp_clear_shot_help_desc">ဓါတ်ပုံ တစ်ပုံ ရိုက်ပါ။ မျဉ်းသားထားသည့် အရာဝတ္ထုများကို ဓါတ်ပုံမှ ဖယ်ရှားရန် ၎င်းကို နှိပ်ပါ။</string>
+    <string name="sp_intelligent_auto_help_desc">ရှုခင်း၏ဝိသေသများကို အလိုအလျောက်သိရှိပြီး ဓါတ်ပုံရိုက်သည်။</string>
+    <string name="sp_intelligent_auto_help_desc_popup">ရှုခင်း၏ သွင်ပြင်လက္ခဏာများကို အလိုအလျောက် ခွဲခြားပြီး ဓါတ်ပုံ တစ်ပုံ ရိုက်ရန် အလင်းဝင်ပေါက်. အလင်းတံခါးအမြန်နှုန်း၊ ရွေးချယ်ချက်များကို ချိန်ပါ။</string>
+    <string name="sp_tracking_focus_help_desc">Track လုပ်ရန်နှင့် ဆုံချက်ကိုမွမ်းမံရန်ကြိုတင်ကြည့်သည်မျက်နှာပြင်ရှိ subject ပေါ်တွင်နှိပ်ပါ</string>
+    <string name="sp_dual_recording_help_desc">ဖမ်းယူခြင်းအတွက် စခရင်တစ်ခုတွင် ရှေ့နှင့်အဓိကကင်မရာများကို ချိန်ညှိမည်။</string>
+    <string name="sp_dual_recording_help_desc_v2">"၁။မျက်နှာပြင်အသေးကိုနေရာရွေ့ရန်ဆွဲပါ။
+၂။မျက်နှာပြင်အသေးကိုအရွှယ်အစားပြန်ချိန်ရန်တို့ထိပြီးဖိထားပါ။
+၃။မျက်နှာပြင်အသေးနှင့်အကြီးပြောင်းရန်မျက်နှာပြင်အသေးကိုနှိပ်ပါ။"</string>
+    <string name="sp_audio_zoom_help_desc_in_recording">အော်ဒီယို zoom ဆွဲသည့် အသံကို တိုးမြှင့်ရန် လက်မနှင့်လက်ညိုးတို့ဖြင့် ချုံချဲပါ</string>
+    <string name="sp_audio_zoom_help_desc">အသံချဲ့ဧရိယာတွင် အသံအာရုံခံမှုကိုတိုးမြှင့်ပြီး အသံသွင်းသောအခါ ဆူညံမှုကိုလျှော့ချမည်။</string>
+    <string name="sp_audio_zoom_help_desc_v2">အသံ တုံ့ပြန်နိုင်မှုကို တိုးမြှင့်ပြီး ဆူညံသံကို လျော့ရန် နေရာ တစ်ခုတွင်အနီးအဝေးကို ချဲ့ပါ။ အလျားလိုက် မြင်ကွင်း ပုံစံတွင်သာ အသုံးပြုနိုင်သည်။ ဤ အင်္ဂါရပ်ကို အသုံးပြုနေစဉ် ဘေးရှိ မိုက်ခရိုဖုန်းများကို လျှော့ထားပါ။</string>
+    <string name="sp_live_effect_help_desc">ဗီဒီယိုရိုက်ကူးစဉ် များစွာသောအမြင်အစွမ်းများသုံးမည်။</string>
+    <string name="sp_vrpanorama_help_desc">ကွက်လပ်ရှိသည့် ရုပ်ပုံ တစ်ပုံကို ဖန်တီးရန် ဓါတ်ပုံများကို အစဉ်လိုက်ရိုက်ကူးပါ။</string>
+    <string name="sp_vrpanorama_help_desc_v2">"၁။ VR မြင်ကွင်းကျယ် အသွင်ကို စတင်ရန်shutterကို နှိပ်ပါ။
+၂။ ဓါတ်ပုံ ရိုက်ရန် ဆုံချက် ဧရိယာကို အပြာရောင်မျဉ်းဖြင့်ညှိပါ။
+၃။ အခြား ဆုံချက် ဧရိယာများကို ဖမ်းယူပြီး ဓါတ်ပုံများ ရိုက်ရန် ကင်မရာကို ရွေ့ပါ။ ဓါတ်ပုံများကို ရုပ်ပုံ တစ်ခုထဲတွင် အတူ ဖော်ပြပေးမည်။"</string>
+    <string name="sp_dual_camera_help_desc">ဖမ်းယူခြင်းအတွက် စခရင်တစ်ခုတွင် ရှေ့နှင့်အဓိကကင်မရာများကို ချိန်ညှိမည်။</string>
+    <string name="sp_smart_zoom_help_desc">ဗွီဒီယို တစ်ခု ရိုက်ကူးသည့်အခါ ဆုံချက်ချိန်ထားသည့် နေရာကို မျက်နှာပြင် အသေးတွင် အကြီးချဲ့ပေးပါ။</string>
+    <string name="sp_smart_zoom_help_desc_v2">"၁။ အကြီးချဲ့ရန် နောက်လာမည့် ဗွီဒီယိုထဲတွင် ဆုံချက်ကို ဆွဲသွင်းပါ။
+၂။ ဖန်သားပြင် အသေးသည် သတ်မှတ်ထားသော ဆုံချက်ကို မြင်ကွင်းကျယ်တွင် ဖော်ပြပေးသည်။ ၎င်းကို ရွေ့ရန်၊ တို့ထိပြီး ဖိထားပါ။"</string>
+    <string name="sp_intelligent_auto_mode_NORMAL">အလိုအလျောက်နားလည်သိမြင်နိုင်သောကင်မရာစနစ်</string>
+    <string name="sp_normal_camera_mode_NORMAL">ပုံမှန်ကင်မရာစနစ်</string>
+    <string name="sp_center_NORMAL">ဗဟို</string>
+    <string name="sp_border_NORMAL">အနားသတ်</string>
+    <string name="sp_3d_depth_NORMAL">3D ဖောင်းကြွပမာဏ</string>
+    <string name="sp_popup_change_view_to_landscape_for_3d_NORMAL">အကောင်းဆုံး 3D effect ကို ခံစားနိုင်ရန် သင်၏ မြင်ကွင်းကို အလျားလိုက် အသွင်ပုံစံသို့ ပြောင်းပါ။</string>
+    <string name="sp_entering_guide_NORMAL">"အမြန်ရွေးချယ်စရာခေါင်းစဉ်များအား တည်းဖြတ်ရန်
+သင်္ကေတအားအကြာကြီးနှိပ်ထားပါ။"</string>
+    <string name="sp_entering_clean_guide_NORMAL">"ကောင်းသောပုံရိပ်အရည်အသွေးအတွက် ကျေးဇူးပြုရန် ကင်မရာ
+မှင်္န်ဘီလူများကို သန့်ရှင်းအောင်ထားပါ။"</string>
+    <string name="sp_entering_gallery_guide_NORMAL">"ရိုက်ယူပြီးသောဓာတ်ပုံအား လျင်မြန်စွာစစ်ဆေးရန်၊
+ပြခန်းသင်္ကေတအား နှိပ်၍ကိုင်ထားပါ။"</string>
+    <string name="entering_guide_att">"shortcart များပြင်ဆင်ရန်
+icon တစ်ခုကိုဖိ၍နှိပ်ထားပါ။"</string>
+    <string name="sp_entering_gallery_guide_vzw">"ရိုက်ယူပြီးသောဓာတ်ပုံအား လျင်မြန်စွာစစ်ဆေးရန်၊
+ပြခန်းသင်္ကေတအား နှိပ်၍ကိုင်ထားပါ။"</string>
+    <string name="entering_guide_vzw">"shortcart များပြင်ဆင်ရန်
+icon တစ်ခုကိုဖိ၍နှိပ်ထားပါ။"</string>
+    <string name="portrait_plus">Partirat +</string>
+    <string name="help_guide_portrait_plus_shot_desc">portrait + သည် မျက်နှာ အသားရေကို ပိုမို တောက်ပပြီး ချောမွတ်စေသည်။</string>
+    <string name="edit_quick_menu">အမြန်စားရွေးချယ်ရန်ခေါင်းစဉ် တည်းဖြတ်ခြင်း</string>
+    <string name="error_occurred">အမှားဖြစ်ပေါ်နေသည်။</string>
+    <string name="sp_info_empty_SHORT">ဘာမှမရှိပါ</string>
+    <string name="accessibility_exit_edit_menu">ထွက်ရန် ပြင်ဆင်သည့် menu</string>
+    <string name="accessibility_review_thumbnail">လတ်တလော ဓါတ်ပုံ (သို့) ဗွီဒီယို</string>
+    <string name="accessibility_camera_picker">ကင်မရာနှင့် ဗီဒီယိုကင်မရာအသေး (Camcorder) ပြောင်းလဲခြင်း</string>
+    <string name="accessibility_beautyshot_bar">အလှအပရိုက်ချက်ကိုထိန်းချုပ်သောဘား</string>
+    <string name="accessibility_beautyshot_control">အလှအပ ရိုက်ကူးမှု ချိန်ညှိချက်</string>
+    <string name="accessibility_beautyshot_button">အလှအပရိုက်ချက်ကိုထိန်းချုပ်သောခလုတ်</string>
+    <string name="accessibility_brightness_bar">တောက်ပမှုထိန်းညှိခြင်းဘား</string>
+    <string name="accessibility_brightness_control">အလင်းအမှောင် ချိန်ညှိချက်</string>
+    <string name="accessibility_brightness_button">တောက်ပမှုထိန်းညှိခြင်းခလုတ်</string>
+    <string name="accessibility_manual_focus_bar">ဆုံချက် (focus) ကို လက်ဖြင့် ချိန်ညှိနိုင်သော ဘားကွက်</string>
+    <string name="accessibility_manual_focus_button">ဆုံချက် (focus) ကို လက်ဖြင့် ချိန်ညှိထိန်းချုပ်ခြင်း</string>
+    <string name="accessibility_zoom_bar">အနီးအဝေးမြင်ကွင်းထိန်းချုပ်မှုဘားတန်း</string>
+    <string name="accessibility_zoom_control">အနီးအဝေးထိန်းချုပ်ခြင်း</string>
+    <string name="accessibility_zoom_button">အနီးအဝေးမြင်ကွင်းထိန်းချုပ်မှုခလုတ်</string>
+    <string name="accessiblity_free_panorama_retake">ပြန်ယူမည်</string>
+    <string name="accessiblity_start_recording">စတင် ဖမ်းယူပါ</string>
+    <string name="accessiblity_stop_recording">ဖမ်းယူမှုကို ရပ်တံ့ပါ</string>
+    <string name="accessiblity_pause_recording">ဖမ်းယူမှုကို ရပ်ဆိုင်းပါ</string>
+    <string name="camera_accessibility_stop_button">ရပ်</string>
+    <string name="free_panorama_bubble_popup">360 မြင်ကွင်းရှိဓာတ်ပုံအားပြသရန် မျက်နှာပြင်အားထိပါ။</string>
+    <string name="error_panorama_during_taking">ကင်မရာ တည်နေရာကိုချိန်ရန် မြင်ကွင်းကျယ် ဓါတ်ပုံရိုက်ကူးမှုကို ရပ်လိုက်သည်။ ဓါတ်ပုံကို ပြခန်း (gallery) ထဲတွင် မှတ်သားထားသည်။</string>
+    <string name="sp_date_stamp">ရက်စွဲတံဆိပ်</string>
+    <string name="audio_zoom_warning">အသံပိုင်းဆိုင်ရာ အကျယ်အဝန်းသည် အလျားလိုက် မြင်ကွင်းထဲ၌သာ သက်ဝင်လှုပ်ရှားမည်။</string>
+    <string name="audio_zoom_disabled">အော်ဒီယို zoom ကို မသုံးနိုင်ပါ</string>
+    <string name="unable_to_use_qmemo">%s ကို သုံးလို့မရပါ</string>
+    <string name="sp_open_quick_camera_case">Quick Camera Case ကို ဖွင့်ပါ</string>
+    <string name="message_received">သတင်းတိုအသစ်လက်ခံရရှိသည်။</string>
+    <string name="pd_message_processing">လုပ်ဆောင်နေသည်...</string>
+    <string name="not_available_during_remote_care">အဝေးမှ စောင့်ကြပ်ရေး စနစ်ဖြစ်နေချိန်တွင် အသုံးပြူလို့ မရပါ။</string>
+    <string name="dual_camera_effect_menu_none">တစ်ခုမှ မဟုတ်ပါ</string>
+    <string name="dual_camera_effect_menu_stamp">တံဆိပ်ခေါင်း</string>
+    <string name="dual_camera_effect_menu_ovalblur">မှုန်ဝါးသည့် ဘဲဥပုံစံ</string>
+    <string name="dual_camera_effect_menu_instantpic">အရန်သင့်</string>
+    <string name="dual_camera_effect_menu_heart">အသဲ ပုံသဏ္ဍန်</string>
+    <string name="dual_camera_effect_menu_star">ကြယ် ပုံသဏ္ဍန်</string>
+    <string name="dual_camera_effect_menu_window">ဝင်းဒိုး</string>
+    <string name="dual_camera_effect_menu_fisheye">ငါး-မျက်စိ</string>
+    <string name="dual_camera_effect_menu_cubism">အန်စာတုံးပုံ</string>
+    <string name="dual_camera_effect_menu_splitview1">နှစ်ခြမ်းခွဲ မြင်ကွင်း ၁</string>
+    <string name="dual_camera_effect_menu_splitview2">နှစ်ခြမ်းခွဲ မြင်ကွင်း ၂</string>
+    <string name="smart_zoom_object_tracking_focus_mode">ရွေ့လျားရင်း ရိုက်ကူးမှု ပုံစံ</string>
+    <string name="smart_zoom_manual_focus_mode">သာမန် ဆုံချက် ပုံစံ</string>
+    <string name="sp_shot_mode_new_hdr">ကျယ်လောင်သည့် အသံ (HDR)</string>
+    <string name="sp_help_guide_new_hdr_desc_list">ဓာတ်ပုံကောင်းတစ်ပုံရရန်အလင်းအမှောင်ချိန်ဆရန်မလွယ်သည့်အချိန်တွင်အလင်းရောင်အနေအထားအမျိုးမျိုးဖြင့်ရိုက်ကူးထားသည့်ဓာတ်ပုံများကိုအကောင်းဆုံး ဓာတ်ပုံတစ်ပုံထဲတွင်ပေါင်းစပ်ပါ။</string>
+    <string name="accessiblity_mode_button">အသွင်ပုံစံ</string>
+    <string name="accessiblity_change_view_list_button">စာရင်း မြင်ကွင်း</string>
+    <string name="accessiblity_change_view_grid_button">ဇယားကွက်ချထားသောမြင်ကွင်း</string>
+    <string name="accessiblity_default_auto_button">ပုံမှန်</string>
+    <string name="mode_menu_camera_normal">ပုံမှန် ကင်မရာ အသွင်ဖြင့် ဓါတ်ပုံ ရိုက်ကူးပါ။</string>
+    <string name="mode_menu_video_normal">ပုံမှန် ရိုက်ကူးရေး အသွင်ဖြင့် ဗွီဒီယိုကို မှတ်သားပါ။</string>
+    <string name="mode_menu_video_tracking_zoom">Tracking zoom ဖြင့် ရိုက်လိုသည့် ဆုံချက် နေရာ တစ်ခုကို အကျယ်ချဲ့နိုင်သည်။ ၎င်း ဆုံချက်ကို မျက်နှာပြင် အသေးတွင် ကြည့်ပြီး ဗွီဒီယို ရိုက်ကူးပါ။</string>
+    <string name="help">အကူအညီ</string>
+    <string name="panorama_guide_tap_shutter_to_start">စတင်ရန်ရှပ်တာခလုတ်ကိုနှိပ်ပါ။</string>
+    <string name="panorama_guide_move_in_one_direction">ဦးတည်ချက်တစ်ခုတည်းရွှေ့မည်</string>
+    <string name="panorama_guide_tap_to_finish">အဆုံးသတ်ရန် ရပ်မည် ဆိုသည့်ခလုတ်ကိုပုတ်ပါ။</string>
+    <string name="sp_down_NORMAL">အောက်သို့</string>
+    <string name="sp_up_NORMAL">အပေါ်</string>
+    <string name="sp_right_NORMAL">ညာဘက်</string>
+    <string name="sp_left_NORMAL">ဘယ်ဖက်</string>
+    <string name="volume_key">အသံခလုတ်</string>
+    <string name="volume_key_capture_image">ဖမ်းယူသည်။</string>
+    <string name="volume_key_record_video">အသံ/ဗွီဒီယို ကို ဖမ်းယူရိုက်ကူးပါ</string>
+    <string name="volume_key_zoom">အနီးအဝေးမြင်ကွင်း</string>
+    <string name="volume_key_zoom_only">ချုံ့/ချဲ့လုပ်ခြင်းသည်နောက်ဖက်ကင်မရာတွင်သာလုပ်သည်။</string>
+    <string name="volume_key_zoom_disable">ဤအနေအထားတွင် ဇုမ်းကိုထည့်မပေးထားပါ။</string>
+    <string name="volume_key_zoom_disable_resolution">ဤပုံရိပ်ပြတ်သားမှုအတွက်အနီးအဝေးကိုအသုံးမပြုနိုင်ပါ။</string>
+    <string name="help_scene_mode_menu_night_desc_new">မှောင်သောနေရာများတွင် ဖလက်ရှ်မပါပဲ ဓါတ်ပုံရိုက်မည်။</string>
+    <string name="sp_confirm_NORMAL">အတည်ပြုပါ</string>
+    <string name="sp_dialog_change_setting">စတင်လုပ်ဆောင်စေခြင်းမှရပ်တန့်စေခြင်းသို့ပြောင်းမည်</string>
+    <string name="sp_dialog_change_setting_au_cloud">au အက်ပလီကေးရှင်း၏ \"ရပ်ခြင်း\" ကိုဖျက်သိမ်းပါ။</string>
+    <string name="sp_auto_upload_NORMAL">အော်တိုအပ်လုပ်</string>
+    <string name="sp_new_ux_help_guide_title_clear_shot">Shot&amp;Clear လမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_hdr">ဒိုင်နမစ်တုန်း (HDR) လမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_panorama">မြင်ကွင်းကျယ်လမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_vr_panorama">VR မြင်ကွင်းကျယ်လမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_burst_shot">ဗြုန်းခနဲရိုက်ခြင်းလမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_beauty_shot">အလှအပရိုက်ခြင်းလမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_portrait_plus">ပုံတူ ဓါတ်ပုံ + လမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_dual_camera">နှစ်မျိုးသုံးကင်မရာလမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_time_machine_camera">အချိန်စက်ကင်မရာလမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_time_catch_shot">အချိန်မီဖမ်းယူသည့်ရိုက်ချက်လမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_intelligent_auto">ထက်မြက်သောအလိုလျောက်လမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_sports">အားကစားလမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_night">ညလမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_dual_recording">နှစ်မျိုးသုံးမှတ်တမ်းတင်လမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_live_effect">သက်ဝင်အထူးပြုလုပ်ချက်လမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_continuous_shot">ဆက်တိုက်ရိုက်ခြင်းလမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_hdr_recording">HDR ရီကော်ဒင်းလမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_wdr_recording">WDR ရီကောဒင်းလမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_voice_shutter">အသံရှပ်တာလမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_cheese_shutter">ချိစ်ရှပ်တာလမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_uplus_box">U+ Box အလိုလျောက်သိမ်းဆည်းခြင်းလမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_audio_zoom">အသံအတိုးအကျယ်လမ်းညွှန်</string>
+    <string name="sp_new_ux_help_guide_title_tracking_zoom">ဇူမ်းလမ်းညွှန်ကိုခြေရာခံသည်</string>
+    <string name="sp_new_ux_help_guide_desc_clear_shot">"၁။ ဓါတ်ပုံရိုက်ပါ။
+၂။ မည်သည့်ဘောင်ခတ်ထားသည့်အရာကိုမဆို ဓါတ်ပုံမှဖျက်ရန် နှိပ်လိုက်ပါ။
+၃။ သိမ်းရန် သိမ်းမည်ဆိုသောခလုတ်ကိုနှိပ်ပါ။"</string>
+    <string name="sp_new_ux_help_guide_desc_hdr">HDR သည် အမျိုးမျိုးသောနေရာတွင်ရိုက်ကူးထားသည့်ဓါတ်ပုံများကို များပြားသောရိုက်ကွက်ထိန်းချုပ်ခြင်းကိုတိုးတက်စေခြင်းအားဖြင့် နောက်ခံအလင်းအတွက်ပြန်လည်ဖြည့်စည်းပေးစဉ် တစ်ပုံတည်းအဖြစ် ပေါင်းစည်းပေးသည်။</string>
+    <string name="sp_new_ux_help_guide_desc_panorama">"၁။ စတင်ရန် ရှပ်တာခလုတ်ကိုနှိပ်ပါ။
+၂။ သင့်ကိရိယာအား တစ်ဖက်တည်းသို့ဖြေးဖြေးချင်းလှည့်ပါ။
+၃။ ပြီးသည့်အခါ ရပ်သည့်ခလုတ်ကိုနှိပ်ပါ။"</string>
+    <string name="sp_new_ux_help_guide_desc_plane_panorama">"၁။ စတင်ရန်ရှပ်တာခလုတ်ကိုနှိပ်ပါ။
+၂။ သင့်ကိရိယာအားတစ်ဖက်တည်းသို့ဖြေးဖြေးချင်းလှည့်ပါ။
+၃။ ဓါတ်ပုံရိုက်ရန်ဆုံချက်ဧရိယာကိုအပြာရောင်ညွှန်မျဉ်းထဲကျအောင်လုပ်ပါ။
+၄။ ပြီးသည့်အခါရပ်သည့်ခလုတ်ကိုနှိပ်ပါ။"</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama">"၁။ VR မြင်ကွင်းကျယ် အသွင်ကို စတင်ရန်shutterကို နှိပ်ပါ။
+၂။ ဓါတ်ပုံ ရိုက်ရန် ဆုံချက် ဧရိယာကို အပြာရောင်မျဉ်းဖြင့်ညှိပါ။
+၃။ အခြား ဆုံချက် ဧရိယာများကို ဖမ်းယူပြီး ဓါတ်ပုံများ ရိုက်ရန် ကင်မရာကို ရွေ့ပါ။ ဓါတ်ပုံများကို ရုပ်ပုံ တစ်ခုထဲတွင် အတူ ဖော်ပြပေးမည်။"</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new">"၁။ VR မြင်ကွင်းကျယ်အသွင်ကိုစတင်ရန်ရှပ်တာခလုတ်ကို နှိပ်ပါ။
+၂။ ဓါတ်ပုံရိုက်ရန်ဆုံချက်ဧရိယာကိုအပြာရောင်အညွှန်းမျဉ်းအထိအံကိုက်ချိန်ပေးပါ။
+၃။ အခြားဆုံချက်ဧရိယာများကိုဖမ်းယူပြီးဓါတ်ပုံများရိုက်ကူးရန်ကင်မရာကိုရွေ့ပေးပါ။ဓါတ်ပုံများကိုရုပ်ပုံတစ်ပုံထဲတွင်အတူတကွဖော်ပြပေးမည်။VRမြင်ကွင်းကျယ်ဓါတ်ပုံများကိုရိုက်ကူးနေစဉ်ရိုက်ကူးမည့်အရာနှင့်အလွန်နီးကပ်စွာမနေပါနှင့်၊သင့်တော်သောအကွာအဝေးတွင် နေပါ။"</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new_specified">"၁။ VRမြင်ကွင်းကျယ်အသွင်ကိုစတင်ရန်ရှပ်တာခလုတ်ကိုနှိပ်ပါ။
+၂။ဓါတ်ပုံရိုက်ရန်ဆုံချက်ဧရိယာကိုအပြာရောင်အညွှန်းမျဉ်းအထိအံကိုက်ချိန်ပေးပါ။
+၃။ အခြားဆုံချက်ဧရိယာများကိုဖမ်းယူပြီးဓါတ်ပုံများရိုက်ကူးရန်ကင်မရာကိုရွေ့ပေးပါ။ဓါတ်ပုံများကိုရုပ်ပုံတစ်ပုံထဲတွင်အတူတကွဖော်ပြပေးမည်။VRမြင်ကွင်းကျယ်ဓါတ်ပုံများကိုရိုက်ကူးနေစဉ်ရိုက်ကူးမည့်အရာနှင့်အလွန်နီးကပ်စွာမနေပါနှင့်၊သင့်တော်သောအကွာအဝေးတွင်နေပါ။(၁၆ပေသို့မဟုတ်၅ မီတာ)။"</string>
+    <string name="sp_new_ux_help_guide_desc_light_frame">အရှေ့ဘက်ကင်မရာကိုအသုံးပြုနေစဉ်မြင်ကွင်းအသေးတစ်ခုဖြင့်ပိုမိုတောက်ပသောဓါတ်ပုံများကိုရိုက်ကူးပါ။</string>
+    <string name="sp_new_ux_help_guide_desc_burst_shot">ကင်မရာအဖုံးကိုဖိထားခြင်းဖြင့် ရိုက်ချက်၂ဝအထိအမြန်ရိုက်ယူပါ။</string>
+    <string name="sp_new_ux_help_guide_desc_beauty_shot">အလှအပရိုက်ခြင်းသည် မျက်နှာအသားအရေအားတောက်ပချော့မွတ်စေသည်။</string>
+    <string name="sp_new_ux_help_guide_desc_time_machine_camera">"၁။ အချိန်စက်ကင်မရာကိုစတင်ရန် ဓါတ်ပုံရိုက်ပါ။
+၂။ လွတ်သွားသောအကွက်များကိုပြန်ကြည့်ရန် ဂယ်လာရီခလုတ်ကိုနှိပ်ပါ။
+၃။ သိမ်းထားလိုသောပုံများကိုရွေးပါ။
+၄။ သိမ်းမည်ဆိုသောခလုတ်ကိုနှိပ်ပါ။"</string>
+    <string name="sp_new_ux_help_guide_desc_time_catch_shot">"၁။ အချိန်မီဖမ်းယူသည့်ရိုက်ချက်စတင်ရန် ဓါတ်ပုံရိုက်ပါ။
+၂။ လွတ်သွားသောအကွက်များကိုပြန်ကြည့်ရန် ဂယ်လာရီခလုတ်ကိုနှိပ်ပါ။
+၃။ သိမ်းထားလိုသောပုံများကိုရွေးပါ။
+၄။ သိမ်းမည်ဆိုသောခလုတ်ကိုနှိပ်ပါ။"</string>
+    <string name="sp_new_ux_help_guide_desc_intelligent_auto">ရှုခင်း၏ဝိသေသများကို အလိုအလျောက်သိရှိပြီး ဓါတ်ပုံရိုက်သည်။</string>
+    <string name="sp_new_ux_help_guide_desc_dual_recording">"၁။မျက်နှာပြင်အသေးကိုနေရာရွေ့ရန်ဆွဲပါ။
+၂။မျက်နှာပြင်အသေးကိုအရွှယ်အစားပြန်ချိန်ရန်တို့ထိပြီးဖိထားပါ။
+၃။မျက်နှာပြင်အသေးနှင့်အကြီးပြောင်းရန်မျက်နှာပြင်အသေးကိုနှိပ်ပါ။"</string>
+    <string name="sp_new_ux_help_guide_desc_live_effect">"၁။ သင်သုံးလိုသောအထူးပြုလုပ်ချက်ကိုရွေးပါ။
+၂။ မှတ်တမ်းတင်ခလုတ်ကိုနှိပ်ပြီး စတင်မှတ်တမ်းတင်ပါ။"</string>
+    <string name="sp_new_ux_help_guide_desc_hdr_recording">HDR ရီကောဒင်းသည် များပြားသောရိုက်ကွက်ထိန်းချုပ်ခြင်းအားဖြင့် သင့်ဗီဒီယိုကို ပိုမိုကောင်းစေသည်။</string>
+    <string name="sp_new_ux_help_guide_desc_wdr_recording">WDR ရီကောဒင်းသည် များပြားသောရိုက်ကွက်ထိန်းချုပ်ခြင်းအားဖြင့် သင့်ဗီဒီယိုအား ပိုကောင်းစေသည်။</string>
+    <string name="sp_uhd_heat_warning">UHD ဗီဒီယိုမှတ်တမ်းတင်ခြင်းသည် အကြံပြုထားသောအပူချိန်ကို ထိန်းထားရန် ၅ မိနစ်အထိရနိုင်သည်။ ဗီဒီယိုမှတ်တမ်းတင်ခြင်းပိတ်သွားမည်။</string>
+    <string name="sp_help_guide_title_face_tracking_led">မျက်နှာအမူအရာမှတ်သားသည့်လမ်းညွှန်</string>
+    <string name="sp_help_guide_face_tracking_led">"မျက်နှာကိုတွေ့သည့်အခါအသိပေးချက်မီးမှိတ်တုတ်မှိတ်တုတ်လင်းမည်။
+ဆက်တင်များ>မြင်ကွင်း>အသိပေးချက်မီးတွင်ဆက်တင်ကိုပြောင်းနိုင်သည်။"</string>
+    <string name="dialog_alert_title">သတိပေးချက်</string>
+    <string name="camera_accessibility_indicator_message_remaining">စာသားသတင်းတိုအသစ်</string>
+    <string name="camera_accessibility_indicator_mms_remaining">ရုပ်သံစုံမာတီမီဒီယာသတင်းတိုအသစ်</string>
+    <string name="camera_accessibility_indicator_voice_mail_remaining">အသံမေးလ်အသစ်</string>
+    <string name="camera_accessibility_indicator_gps_connecting">တည်နေရာပြစနစ်ကိုဖွင့်နေသည်</string>
+    <string name="camera_accessibility_indicator_geotagging_on">တည်နေရာပြစနစ်ကိုဖွင့်ထားသည်</string>
+    <string name="camera_accessibility_indicator_remaining_picture_count">နောက်ထပ်ဓါတ်ပုံ %s ပုံကိုရိုက်ကူးနိုင်သေးသည်။</string>
+    <string name="camera_accessibility_indicator_battery">ဘက်ထရီအား%s ရာခိုင်နှုန်းရှိသည်</string>
+    <string name="camera_accessibility_indicator_storage">%s သို့သိမ်းပါ။</string>
+    <string name="camera_accessibility_indicator_voice_shutter_on">%s ဖွင့်ပါ။</string>
+    <string name="camera_accessibility_indicator_anti_shaking_on">မတုန်ခါမှုကိုဖွင့်ပါ။</string>
+    <string name="camera_accessibility_thumbnail">ဂယ်လာရီထဲသို့ သွားပါ</string>
+    <string name="not_available_during_incoming_call">အဝင်ခေါ်ဆိုမှု ရှိနေစဉ် မရရှိနိုင်ပါ။</string>
+    <string name="camera_error_occurred_try_again">ယာယီ ဖြစ်ပေါ်နေသောပြဿနာကြောင့်ကင်မရာကိုခေတ္တအသုံးမပြုနိုင်ပါ။ပြန်ကြိုးစားပါ။</string>
+    <string name="mode_menu_camera_refocus_new">ဓါတ်ပုံတစ်ပုံကိုရိုက်ကူးပြီးလျှင်သင်၏ဆုံချက်ကိုထပ်မံရွေးချယ်ပါ။</string>
+    <string name="sp_refocus_bubble_popup_NORMAL">ဤဓါတ်ပုံကိုဆုံချက်ပြန်ချိန်ရန်ဤနေရာတွင်နှိပ်ပါ။</string>
+    <string name="sp_postview_action_bar_menu_all_in_focus">ဆုံချက်အားလုံးစုစည်းခြင်း</string>
+    <string name="sp_refocus_preview_guide_message">သင်ရိုက်ကူးလိုသောအရာအနီးသို့သွားပြီးဓါတ်ပုံရိုက်ကူးနေစဉ်ဖုန်းကိုငြိမ်ငြိမ်ကိုင်ထားပါ။</string>
+    <string name="shot_mode_magic_focus">မျက်လှည့်ဆုံချက်</string>
+    <string name="sp_new_ux_help_guide_title_refocus">မျက်လှည့်ဆုံချက်လမ်းညွှန်</string>
+    <string name="sp_camera_refocus_postview_allinfocus_message">သင့်ရုပ်ပုံနေရာအားလုံးကိုဆုံချက်ချိန်ခြင်း</string>
+    <string name="sp_new_ux_help_guide_desc_refocus_new">"၁။ ဓါတ်ပုံတစ်ပုံကိုရိုက်ကူးပြီးဂယ်လာရီခလုတ်ကိုနှိပ်ပါ။
+၂။ ဆုံချက်ပြောင်းရန်အရာဝတ္ထုတစ်ခုကိုနှိပ်ပါ (သို့) handlerကိုချိန်ပါ။
+၃။ ဆုံချက်ပြန်ချိန်ထားသောဓါတ်ပုံကိုမှတ်ရန်သိမ်းရန်ခလုတ်ကိုနှိပ်ပါ။"</string>
+    <string name="sp_refocus_postview_message_new">ဆုံချက်ပြောင်းရန်အရာဝတ္ထုတစ်ခုကိုနှိပ်ပါသို့မဟုတ်handlerကိုချိန်ပါ၊ထို့နောက်လက်ယာဘက်အပေါ်ထောင့်စွန့်မှ (#1#) ခလုတ်ကိုနှိပ်ပါ။</string>
+    <string name="sp_refocus_postview_message_vzw_new">ဆုံချက်ပြောင်းရန်အရာဝတ္ထုတစ်ခုကိုနှိပ်ပါသို့မဟုတ်handlerကိုချိန်ပါ၊ထို့နောက်လက်ယာဘက်အပေါ်ထောင့်မှ Save ခလုတ်ကိုနှိပ်ပါ</string>
+    <string name="sp_refocus_warning_popup">ဆုံချက်မပြောင်းထားပါ။ ထွက်မလား။</string>
+    <string name="gesture_guide">ဓါတ်ပုံရိုက်ရန်သင့်ရဲ့လက်ချောင်းများကိုပူးကပ်ပေးပါ</string>
+    <string name="sp_gesture_guide_msg_fist">ဓါတ်ပုံရိုက်ရန်ဆုပ်ထားသည့်လက်သီးကိုဖြည်ပါ</string>
+    <string name="camera_help_activity_gesture_shot">အမူအရာရိုက်ချက်</string>
+    <string name="sp_help_gestureshot_desc">လက်အမူအရာဖြင့်ရိုက်ပါ။</string>
+    <string name="sp_new_ux_help_guide_title_gestureshot">အမူအရာဖြင့်ရိုက်ကူးခြင်းလမ်းညွှန်</string>
+    <string name="sp_new_ux_gesture_shot_help_activity_desc">selfie များကိုလက်အမူအရာဖြင့်ရိုက်ကူးပါ။ဓါတ်ပုံရိုက်ရန်သင့်ရဲ့လက်ကိုကင်မရာမှသတိမပြုမိမချင်းလက်ကိုမြှောက်ထားပါ။ထို့နောက်မျက်နှာပြင်ပေါ်တွင်အကွက်တစ်ကွက်ပေါ်လာမည်။ ပြီးလျှင်ဓါတ်ပုံရိုက်ရန်လက်သီးဆုပ်ပါ။</string>
+</resources>

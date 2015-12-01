@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/plane_panorama_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/preview_panel.marginBottom" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/plane_panorama_background_preview_layout" android:layout_width="@dimen/preview_width" android:layout_height="@dimen/preview_height" android:layout_marginTop="@dimen/quickfunction_layout.width" android:layout_alignParentTop="true" android:layoutDirection="ltr" android:layout_alignParentStart="true">
+        <com.lge.camera.components.RotateLayout android:id="@id/plane_panorama_preview_mini_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layoutDirection="ltr">
+            <LinearLayout android:id="@id/plane_panorama_preview_mini_layout_inner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layoutDirection="ltr">
+                <ImageView android:id="@id/plane_panorama_preview_mini" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </com.lge.camera.components.RotateLayout>
+        <RelativeLayout android:id="@id/plane_panorama_preview_mini_dummy_layout" android:background="@drawable/panorama_mini_box" android:visibility="invisible" android:layout_width="@dimen/plane_panorama_preview_mini_dummy_width" android:layout_height="@dimen/plane_panorama_preview_mini_dummy_heigh" android:layout_centerInParent="true" android:layoutDirection="ltr" />
+        <ImageView android:id="@id/plane_panorama_arrow_up" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/plane_panorama_arrow.margin" android:src="@drawable/panorama_arrow_up_normal" android:layout_above="@id/plane_panorama_preview_mini_dummy_layout" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/plane_panorama_arrow_down" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/plane_panorama_arrow.margin" android:src="@drawable/panorama_arrow_down_normal" android:layout_below="@id/plane_panorama_preview_mini_dummy_layout" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/plane_panorama_arrow_left" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/panorama_arrow_left_normal" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/plane_panorama_arrow.margin" android:layout_toStartOf="@id/plane_panorama_preview_mini_dummy_layout" />
+        <ImageView android:id="@id/plane_panorama_arrow_right" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/panorama_arrow_right_normal" android:layout_centerVertical="true" android:layout_marginStart="@dimen/plane_panorama_arrow.margin" android:layout_toEndOf="@id/plane_panorama_preview_mini_dummy_layout" />
+        <RelativeLayout android:id="@id/guide_text_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <com.lge.camera.components.RotateLayout android:id="@id/guide_text_rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <RelativeLayout android:id="@id/guide_text_inner_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                    <TextView android:id="@id/guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/onScreenHint_text_view" />
+                </RelativeLayout>
+            </com.lge.camera.components.RotateLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/plane_panorama_preview_bar_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/preview_panel.width" android:layout_alignParentBottom="true" android:layoutDirection="ltr" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/plane_panorama_preview_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.lge.camera.components.RotateImageView android:id="@id/plane_panorama_preview_bar_arrow" android:background="@drawable/plane_panorama_direction_arrow_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/plane_panorama_preview_bar_guide_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <RelativeLayout android:id="@id/plane_panorama_box_guide" android:background="@drawable/panorama_gray_box" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layoutDirection="ltr" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="@dimen/lcd_width" android:layout_height="@dimen/lcd_height" android:layout_alignParentTop="true" android:layoutDirection="ltr" android:layout_alignParentStart="true">
+        <FrameLayout android:id="@id/plane_panorama_box_attach_layout_arrow" android:visibility="invisible" android:layout_width="@dimen/lcd_width" android:layout_height="@dimen/lcd_height" android:layoutDirection="ltr">
+            <RelativeLayout android:id="@id/plane_panorama_box_attach_inner_frame_arrow" android:layout_width="@dimen/lcd_width" android:layout_height="@dimen/lcd_height" android:layoutDirection="ltr">
+                <com.lge.camera.components.RotateLayout android:id="@id/plane_panorama_box_attach_rotate_layout_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layoutDirection="ltr">
+                    <RelativeLayout android:id="@id/plane_panorama_box_attach_inner_layout_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                        <ImageView android:id="@id/plane_panorama_box_arrow_up" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/panorama_guide_arrow_up" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                        <ImageView android:id="@id/plane_panorama_box_arrow_left" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/panorama_guide_arrow_left" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                        <RelativeLayout android:id="@id/plane_panorama_box_attach_arrow" android:background="@drawable/panorama_white_box" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/plane_panorama_box_arrow_up" android:layoutDirection="ltr" android:layout_toEndOf="@id/plane_panorama_box_arrow_left" />
+                        <ImageView android:id="@id/plane_panorama_box_arrow_down" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/panorama_guide_arrow_down" android:layout_below="@id/plane_panorama_box_attach_arrow" android:layout_centerHorizontal="true" />
+                        <ImageView android:id="@id/plane_panorama_box_arrow_right" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/panorama_guide_arrow_right" android:layout_centerVertical="true" android:layout_toEndOf="@id/plane_panorama_box_attach_arrow" />
+                    </RelativeLayout>
+                </com.lge.camera.components.RotateLayout>
+            </RelativeLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/plane_panorama_box_attach_layout_text" android:visibility="invisible" android:layout_width="@dimen/lcd_width" android:layout_height="@dimen/lcd_height" android:layoutDirection="ltr">
+            <RelativeLayout android:id="@id/plane_panorama_box_attach_inner_frame_text" android:layout_width="@dimen/lcd_width" android:layout_height="@dimen/lcd_height" android:layoutDirection="ltr">
+                <com.lge.camera.components.RotateLayout android:id="@id/plane_panorama_box_attach_rotate_layout_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layoutDirection="ltr">
+                    <RelativeLayout android:id="@id/plane_panorama_box_attach_center_layout_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layoutDirection="ltr">
+                        <TextView android:id="@id/plane_panorama_box_attach_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/onScreenHint_text_view" />
+                        <RelativeLayout android:id="@id/plane_panorama_box_attach_text_outline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" />
+                    </RelativeLayout>
+                </com.lge.camera.components.RotateLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kamera</string>
+    <string name="sp_lowbattery_MLINE">Batterinivået er altfor lavt til å kjøre kameraet. Vennligst lad opp batteriet.</string>
+    <string name="sp_lowbattery">Batteriet er for øyeblikket for lavt til å skru på kameraet.</string>
+    <string name="setting_init">Tilbakestille kamerainnstillingene?</string>
+    <string name="sp_reset_message_NORMAL">Tilbakestill til standard verdi?</string>
+    <string name="sp_All_settings_reset_NORMAL">Alle innstillinger er tilbakestilt</string>
+    <string name="sp_blockedByEAS_NORMAL">Kameraet er deaktivert ved retningslinjene til Exchange serveren.</string>
+    <string name="sp_block_camera_NORMAL">Kamera er deaktivert pga. serverpolicy</string>
+    <string name="error_cannot_use_hdmi">Kan ikke bruke kamera mens du er koblet til HDMI.</string>
+    <string name="sp_dual_display_status_NORMAL">Kan ikke benytte kamera i dobbel visningsmodus.</string>
+    <string name="reset">Tilbakestill</string>
+    <string name="cancel">Avbryt</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nei</string>
+    <string name="sp_camera_helpdesc_generalsetting">Generelt</string>
+    <string name="sp_Exit_NORMAL">Avslutt</string>
+    <string name="on">På</string>
+    <string name="sp_review_timer_2_NORMAL">2 sek.</string>
+    <string name="off">Av</string>
+    <string name="sp_none_NORMAL">Ingen</string>
+    <string name="settings">Innst.</string>
+    <string name="sp_loading_camera_NORMAL">Klargjør...</string>
+    <string name="dual_camera_select">Bytt kamera</string>
+    <string name="insert_sd_card">Sett inn et SD-kort.</string>
+    <string name="insert_add_sd_card">Installer eksternt SD-kort.</string>
+    <string name="sp_preparing_int_sd_NORMAL">Klargjør internminnet...</string>
+    <string name="preparing_sd">Forbereder SD-kort.</string>
+    <string name="sp_cannot_use_camera_UMS_NORMAL">Kan ikke bruke kamera fordi SD-kortet er montert til en PC. Koble fra USB for å fortsette.</string>
+    <string name="sp_connected_mass_storage_NORMAL">Masselagring</string>
+    <string name="sp_not_available_connected_mass_storage_NORMAL">"Kamera er ikke tilgjengelig.
+Masselagring er koblet til PC."</string>
+    <string name="sp_launch_NORMAL">Start</string>
+    <string name="sp_memory_full_diag_title_NORMAL">Minne fullt</string>
+    <string name="sp_memory_full_diag_1_NORMAL">"Ikke nok minne i %1$s.
+Filen din vil bli lagret i %2$s.
+Frigjør mer minne i %3$s ved å koble telefonen til PC eller starte Filbehandling.
+
+Starte Filbehandling nå?
+Sjekk filene i %4$s"</string>
+    <string name="sp_memory_full_diag_1_no_file_manager_NORMAL">"Ikke nok minne i %1$s.
+Filen din vil bli lagret i %2$s.
+Frigjør mer minne i %3$s ved å koble telefonen til PC eller starte Filbehandling."</string>
+    <string name="sp_memory_full_diag_2_NORMAL">"Ikke nok minne i %1$s.
+Frigjør mer minne i %1$ s ved å koble telefonen til PC eller starte Filbehandling.
+
+Starte Filbehandling nå?
+Sjekk filene i %2$s"</string>
+    <string name="sp_memory_full_diag_2_no_file_manager_NORMAL">"Ikke nok minne i %1$s.
+Frigjør mer minne i %1$ s ved å koble telefonen til PC eller starte Filbehandling."</string>
+    <string name="sp_memory_full_diag_3_NORMAL">"Ikke nok minne i alt minne.
+Frigjør mer minne ved å koble telefonen til PC eller starte Filbehandling.
+
+Starte Filbehandling nå?
+Sjekk filene dine i '%1$s'"</string>
+    <string name="sp_memory_full_diag_3_no_file_manager_NORMAL">"Ikke nok minne minne.
+Frigjør mer minne ved å koble telefonen til PC eller starte Filbehandling."</string>
+    <string name="sp_storage_full_popup_ics_title_NORMAL">Lager fullt</string>
+    <string name="sp_storage_full_message_not_on_internal_NORMAL">Ikke nok plass på internminne</string>
+    <string name="sp_storage_full_message_not_on_internal_sto_NORMAL">Ikke nok plass på Internlagring.</string>
+    <string name="sp_storage_full_message_not_on_sd_NORMAL">Ikke nok plass på SD-kort.</string>
+    <string name="sp_storage_full_message_save_to_internal_NORMAL">Filen er lagret til internt minne.</string>
+    <string name="sp_storage_full_message_save_to_internal_st_NORMAL">Filen er lagret til internt minne.</string>
+    <string name="sp_storage_full_message_save_to_sd_NORMAL">Filer lagret på SD-kort</string>
+    <string name="sp_storage_full_saving_file_NORMAL">Lagrer fil...</string>
+    <string name="sp_storage_full_free_NORMAL">For å frigjøre plass, slett filer som ikke benyttes.</string>
+    <string name="msg_save_progress">Lagrer...</string>
+    <string name="sp_storage_full_popup_ics_1_NORMAL">Ikke nok plass på %s. For å frigjøre plass, slett ubrukte filer.</string>
+    <string name="sp_storage_full_popup_ics_2_NORMAL">Ikke tilstrekkelig plass på %1$s. Filen er lagret til %2$s. Slett ubrukte filer for å frigjøre plass.</string>
+    <string name="sp_storage_full_popup_ics_3_NORMAL">Ikke tilstrekkelig plass på noen lagringsplasser. Slett ubrukte filer for å frigjøre plass.</string>
+    <string name="sp_storage_full_popup_ics_6_NORMAL">Ikke tilstrekkelig plass på %s. Lagrer filen...</string>
+    <string name="sp_full_popup_ics_1_not_in_memory_NORMAL">Ikke nok plass på internminne. For å frigjøre plass, slett filer som ikke benyttes.</string>
+    <string name="sp_full_popup_ics_1_not_in_storage_NORMAL">Ikke nok plass på intern lagringsplass. For å frigjøre plass, slett ubrukte filer.</string>
+    <string name="sp_full_popup_ics_1_not_sd_NORMAL">Ikke nok plass på SD-kort. For å frigjøre plass, slett ubrukte filer.</string>
+    <string name="sp_full_popup_ics_2_not_in_memory_to_sd_NORMAL">Ikke nok plass på internminne. Filer lagret på SD-kort. For å frigjøre plass, slett filer som ikke benyttes.</string>
+    <string name="sp_full_popup_ics_2_not_in_storage_to_sd_NORMAL">Ikke nok plass på Internlagring. Filer lagret på SD-kort. For å frigjøre plass, slett filer som ikke benyttes.</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_memory_NORMAL">Ikke nok plass på SD-kort. Filen er lagret til internt minne. For å frigjøre plass, slett filer som ikke benyttes.</string>
+    <string name="sp_full_popup_ics_2_not_sd_to_in_storage_NORMAL">Ikke nok plass på SD-kort. Filen er lagret til internt minne. For å frigjøre plass, slett filer som ikke benyttes.</string>
+    <string name="sp_full_popup_ics_6_not_in_memory_NORMAL">Ikke nok plass på internminne. Lagrer fil.</string>
+    <string name="sp_full_popup_ics_6_not_in_storage_NORMAL">Ikke nok plass på Internlagring. Lagrer fil.</string>
+    <string name="sp_full_popup_ics_6_not_sd_NORMAL">Ikke nok plass på SD-kort. Lagrer fil...</string>
+    <string name="sp_internal_sd_prepared_NORMAL">Internminnet klargjøres.</string>
+    <string name="sp_external_sd_prepared_NORMAL">SD-kortet er klart.</string>
+    <string name="sp_not_enough_memory_NORMAL">"Ikke nok lagerplass. 
+Frigjør mer minne."</string>
+    <string name="not_enough_space">Sett inn et nytt eksternt minnekort, eller slett innhold.</string>
+    <string name="sp_not_enough_int_sd_NORMAL">"Ikke nok lagringskapasitet på internminnet.
+Din fil vil lagres på SD kort."</string>
+    <string name="sp_not_enough_add_space_NORMAL">"Ikke nok lagerplass på SD-kortet.
+Frigjør mer minne."</string>
+    <string name="sp_not_enough_sd_int_NORMAL">"Ikke nok lagringskapasitet på SD kort.
+Din fil vil lagres i internminnet."</string>
+    <string name="sp_media_scanning_NORMAL">"Media skannes. Prøv igjen,
+etter at mediaskanning er fullført."</string>
+    <string name="sp_media_scanning_ics_NORMAL">Forsøk igjen etter skanning av mediafiler.</string>
+    <string name="scanning_sdcard_media_files">Skanning av SD-kort, mediefiler...</string>
+    <string name="sp_ext_sdcard_not_exist_NORMAL">SD-kortet finnes ikke. Lager er endret til internminne.</string>
+    <string name="sp_sdremoved_change_int_NORMAL">"SD-kort er fjernet. Lagring er endret til  Internt minne."</string>
+    <string name="sp_sd_card_removed_NORMAL">SD-kort er fjernet. Sett inn SD-kortet.</string>
+    <string name="camera_closed_due_to_sdcard_removal">SD-kortet ble fjernet uventet. Kameras er stengt.</string>
+    <string name="sp_sdcard_inserted_noti">SD-kort satt inn. Lagre til SD kort?</string>
+    <string name="sp_storage_always_ask_NORMAL">Spør alltid</string>
+    <string name="sp_storage_noti_title_NORMAL">Varsling</string>
+    <string name="title_not_enough_space">Minne fullt</string>
+    <string name="popup_storage_full_save">Fullt minne. Lagrer...</string>
+    <string name="sp_notenoughmemory_NORMAL">"Internminnet eller SD-kortet er fullt.
+Slett noe innhold."</string>
+    <string name="sp_addspace_NORMAL">"SD-kortet er fullt
+Slett noe innhold."</string>
+    <string name="sp_mhl_cannot_use_camera_NORMAL">Kan ikke bruke kamera med MHL-kabel tilkoblet.</string>
+    <string name="sp_mhl_cannot_show_preview_NORMAL">Kan ikke vise kameraforhåndsvisning med MHL-kabel tilkoblet.</string>
+    <string name="msg_found_escape_char">Ikke tillatt tegn</string>
+    <string name="sp_message_filename_limit_NORMAL">"Filnavnets lengdegrense overskredet 
+(grense: %d tegn)"</string>
+    <string name="waiting_save_image">Vennligst vent ...</string>
+    <string name="sp_image_size_front_NORMAL">Bildeformat</string>
+    <string name="image_size">Bildestørrelse</string>
+    <string name="scene_mode">Scenemodus</string>
+    <string name="scene_mode_portrait">Portrett</string>
+    <string name="scene_mode_landscape">Landskap</string>
+    <string name="scene_mode_sports">Sport</string>
+    <string name="scene_mode_night">Natt</string>
+    <string name="scene_mode_sunset">Solnedgang</string>
+    <string name="white_balance">Hvitbalanse</string>
+    <string name="white_balance_incandescent">Glødende</string>
+    <string name="white_balance_sunny">Pent vær</string>
+    <string name="white_balance_fluorescent">Fluorescerende</string>
+    <string name="white_balance_cloudy">Skyet</string>
+    <string name="sp_whitebalance_default_NORMAL">Automatisk</string>
+    <string name="color_effect">Fargeeffekt</string>
+    <string name="color_effect_mono">Ensfarget</string>
+    <string name="color_effect_negative">Negativ</string>
+    <string name="color_effect_solarize">Overeksponering</string>
+    <string name="color_effect_negative_sepia">Negativ sepia</string>
+    <string name="color_effect_blue">Blå</string>
+    <string name="color_effect_pastel">Pastell</string>
+    <string name="color_effect_posterize">Posteraktig</string>
+    <string name="color_effect_aqua">Vann</string>
+    <string name="sp_color_effect_none_cameraapp_NORMAL">Ingen</string>
+    <string name="image_quality">Bildekvalitet</string>
+    <string name="quality_super_fine">Superskarp</string>
+    <string name="quality_fine">Skarp</string>
+    <string name="video_quality">Videokvalitet</string>
+    <string name="timer">Tidsur</string>
+    <string name="timer_1">1 Sek.</string>
+    <string name="timer_3">3 sek.</string>
+    <string name="timer_5">5 sek.</string>
+    <string name="timer_10">10 sek.</string>
+    <string name="shot_mode">Fotomodus</string>
+    <string name="shot_mode_continuous">Seriefoto</string>
+    <string name="shot_mode_smile">Smilefoto</string>
+    <string name="shot_mode_beauty">Flatterende bilde</string>
+    <string name="shot_mode_art">Kunstfoto</string>
+    <string name="shot_mode_face_effect">Ansiktseffekt</string>
+    <string name="shot_mode_cartoon">Tegneserie</string>
+    <string name="shot_mode_vr_panorama">VR Panorama</string>
+    <string name="shot_mode_burst">Seriefoto</string>
+    <string name="sp_shot_mode_burst">Seriefoto</string>
+    <string name="record_mode">Opptaksmodus</string>
+    <string name="record_mode_WDR">WDR Opptak</string>
+    <string name="record_mode_HDR">HDR Roaming</string>
+    <string name="artshot_warm">Varm</string>
+    <string name="artshot_cold">Kaldt</string>
+    <string name="artshot_blackwhite">Sort / hvitt</string>
+    <string name="face_effect_blur">Uklar</string>
+    <string name="face_effect_snow">Snø</string>
+    <string name="face_effect_shallow_focus">Fokus bare på motiv</string>
+    <string name="face_effect_big_head">Stort hode</string>
+    <string name="face_effect_mosaic">Mosaikk</string>
+    <string name="face_effect_fish_eye">Vidvinkel</string>
+    <string name="face_effect_concave">Konkav</string>
+    <string name="face_effect_funny_mask">Animasjonsmaske</string>
+    <string name="auto_review">Automatisk visning</string>
+    <string name="shutter_sound">Lukkerlyd</string>
+    <string name="geo_tagging">Tag plassering</string>
+    <string name="sp_storage_NORMAL">Minne</string>
+    <string name="sp_default_memory_NORMAL">SD-kortlager</string>
+    <string name="sp_internal_memory_NORMAL">Internminne</string>
+    <string name="sp_internal_storage_NORMAL">Internlagring</string>
+    <string name="sp_external_memory_NORMAL">SD-kort</string>
+    <string name="sp_anti_banding_NORMAL">Fargestripe utgjevning</string>
+    <string name="focus">Fokus</string>
+    <string name="focus_macro">Makro</string>
+    <string name="focus_face_tracking">Ansiktsgjenkj.</string>
+    <string name="sp_quickfunction_focus_continuous_NORMAL">Kontinuerlig</string>
+    <string name="manual_for_camera">Manuell</string>
+    <string name="flash">Blitz</string>
+    <string name="sp_save_direction_NORMAL">Lagre retning</string>
+    <string name="brightness">Lysstyrke</string>
+    <string name="sp_mirror_image_NORMAL">Speilbilde</string>
+    <string name="sp_normal_save_NORMAL">Normal lagring</string>
+    <string name="sp_flipped_image_NORMAL">Vendt bilde</string>
+    <string name="sp_save_as_flipped_NORMAL">Lagre som snudd</string>
+    <string name="sp_uplusbox_NORMAL">U+ Box autolagring</string>
+    <string name="sp_help_guide_uplusbox_desc_NORMAL">Fotos vil automatisk bli lastet opp til U+ Box. Databruk kan bli belastet når tilkoblet mobildata.</string>
+    <string name="sp_uplusbox_NORMAL_network_error">Nettverksfeil. Bildene vil automatisk bli lastet opp til U+ Box når nettverk er tilgjengelig.</string>
+    <string name="sp_uplusbox_NORMAL_desc_on">Fotoer vil automatisk bli lastet opp til U+ Box.</string>
+    <string name="sp_voiceshutter_NORMAL">Stemmebilde</string>
+    <string name="sp_note_voiceshutter_NORMAL">Si \"%s\" når du er klar til å ta bildet.</string>
+    <string name="sp_voiceshutter_say_NORMAL">Si \"%s\" for å ta et bilde.</string>
+    <string name="sp_cheeseshutter_NORMAL">Smiiil utløserknapp</string>
+    <string name="sp_voiceshutter_word_whisky_NORMAL">Whisky</string>
+    <string name="sp_voiceshutter_sound_kimchi_NORMAL">Kim chi</string>
+    <string name="sp_voiceshutter_sound_cheese_NORMAL">Smiiil</string>
+    <string name="sp_voiceshutter_sound_smile_NORMAL">Smil</string>
+    <string name="sp_voiceshutter_sound_whisky_NORMAL">viskey</string>
+    <string name="sp_note_voiceshutter_multi_sound_NORMAL">Si et av følgende ord for å ta bilde.</string>
+    <string name="sp_note_voiceshutter_multi_sound_vzw_NORMAL">Cheese-lukker venter på å ta bildet inntil du sier ett av disse ordene:</string>
+    <string name="sp_voiceshutter_multi_sound_say_NORMAL">Si \"%1$s\", \"%2$s\", eller \"%3$s\" for å ta et bilde.</string>
+    <string name="sp_voiceshutter_multi_keyword_say_NORMAL">Si \"%1$s\", \"%2$s\", \"%3$s\", \"%4$s\", eller \"%5$s\" for å ta et bilde.</string>
+    <string name="sp_voiceshutter_multi_keyword_say_4items">Si \"%1$s\", \"%2$s\", \"%3$s\" eller \"%4$s\" for å ta et bilde.</string>
+    <string name="sp_voiceshutter_say_new_NORMAL">Si \"%s\" for å ta et bilde.</string>
+    <string name="sp_voiceshutter_help_desc_NORMAL">Ta bilde med stemmestyring.</string>
+    <string name="video_size">Videostørrelse</string>
+    <string name="sp_video_duration_NORMAL">Varighet</string>
+    <string name="video_voice">Tale</string>
+    <string name="sp_video_voice_unmute_NORMAL">På</string>
+    <string name="sp_video_voice_mute_NORMAL">Lydløs</string>
+    <string name="show_recorded_video">Automatisk visning</string>
+    <string name="share">Del</string>
+    <string name="sp_share_via_NORMAL">Del via</string>
+    <string name="set_as">Angi som</string>
+    <string name="sp_set_photo_as_NORMAL">Angi bilde som</string>
+    <string name="rename">N. navn</string>
+    <string name="sp_share_SHORT">Del</string>
+    <string name="sp_set_as_SHORT">Angi som</string>
+    <string name="sp_rename_SHORT">N. navn</string>
+    <string name="sp_set_as_twoline_NORMAL">"Angi
+som"</string>
+    <string name="sp_rename_twoline_NORMAL">"Gi nytt
+navn"</string>
+    <string name="edit">Rediger</string>
+    <string name="sp_play_twoline_SHORT">Spill</string>
+    <string name="sp_share_twoline_SHORT">Del</string>
+    <string name="sp_set_as_twoline_SHORT">"Angi
+som"</string>
+    <string name="sp_rename_twoline_SHORT">"Gi nytt
+navn"</string>
+    <string name="sp_save_SHORT">Lagre</string>
+    <string name="sp_save_complete_SHORT">Fullført</string>
+    <string name="play">Spill</string>
+    <string name="dlg_title_rename">tast inn nytt navn</string>
+    <string name="dlg_title_delete">Slett</string>
+    <string name="msg_multi_image_delete">Disse mediefilene vil bli slettet.</string>
+    <string name="msg_image_delete">Bildet vil bli slettet.</string>
+    <string name="msg_video_delete">Videoen vil bli slettet.</string>
+    <string name="popup_delete_done">Slettet</string>
+    <string name="video_rec">Ta opp</string>
+    <string name="sp_note_img_size_change_NORMAL">Bildeformat endret til %s</string>
+    <string name="note_image_deleted">Slettet bilde</string>
+    <string name="note_shot_mode_change_normal">Fotomodusen er endret til normal.</string>
+    <string name="note_timer_mode_off">Selvutløsermodusen er slått av.</string>
+    <string name="note_smile_shutter_started">Tar bilde automatisk når smil registreres.</string>
+    <string name="note_focus_mode_set_to_auto">Fokusmodusen er satt til automatisk.</string>
+    <string name="note_iso_set_to_auto">ISO er satt til auto.</string>
+    <string name="sp_note_rec_size_change_NORMAL">Video størrelse er satt til %s</string>
+    <string name="note_select_image">Ingen fil(er) er valgt.</string>
+    <string name="sp_select_photo_NORMAL">Ingen bilder er valgt.</string>
+    <string name="note_color_effect_change">Fargeeffekt er slått av.</string>
+    <string name="sp_note_color_effect_change_NORMAL">Fargeeffekt er slått %s.</string>
+    <string name="note_color_effect_change_none">Fargeeffekt er satt til ingen.</string>
+    <string name="note_white_balance_change">Hvitbalansen er satt til automatisk.</string>
+    <string name="note_flash_change_off">Blitsen er slukket.</string>
+    <string name="note_scene_mode_change">Scenemodus er satt til automatisk.</string>
+    <string name="sp_note_scene_mode_change_NORMAL">Scenemodus er satt til %s.</string>
+    <string name="note_scene_mode_change_normal">Scenemodus er satt til normalt.</string>
+    <string name="sp_note_video_ori_land_NORMAL">Støtter kun landskapsinnspilling via MMS.</string>
+    <string name="sp_note_brightness_set_to_zero_NORMAL">Lysstyrken er satt til null</string>
+    <string name="error_not_enough_memory">Ikke tilstrekkelig minne</string>
+    <string name="error_not_exist_app">Programmet ble ikke funnet</string>
+    <string name="error_preview_fail">Forhåndsvisning mislyktes</string>
+    <string name="error_write_file">Skriving av fil mislyktes</string>
+    <string name="error_rename">Ugyldig navn. Gi et nytt navn.</string>
+    <string name="error_write_file_exist">Finnes allerede</string>
+    <string name="error_unknown">Ukjent feil</string>
+    <string name="error_low_battery">Lavt batterinivå. Programmet avsluttes.</string>
+    <string name="error_get_video_frame_fail">Kan ikke trekke ut ramme.</string>
+    <string name="error_video_recording">Videoopptak kan ikke brukes med denne anropsstatusen.</string>
+    <string name="error_video_recording_during_call">Kan ikke ta opp video ved anrop.</string>
+    <string name="sp_error_call_camera_NORMAL">Kan ikke starte kameraet i løpet av samtalen</string>
+    <string name="error_camera_during_video_call">Kunne ikke starte kameraet ved videoanrop.</string>
+    <string name="error_cannot_start_recording_with_audio">Kan ikke starte opptak mens annen applikasjon bruker lyd.</string>
+    <string name="error_sdm_server_setting">Kan ikke kjøre kameraet. Funksjonen er låst fra serversiden.</string>
+    <string name="help_title">Kamera hjelpeguide</string>
+    <string name="sp_detail_view_NORMAL">Detaljvisning</string>
+    <string name="help_swap_camera_menu_desc">Skift mellom hoved- og sekundærkamera</string>
+    <string name="help_zoom_desc">Forstørr eller forminsk størrelsen på et subjekt.</string>
+    <string name="help_brightness_desc">Justerer nivået for eksponering.</string>
+    <string name="sp_help_brightness_desc_video_NORMAL">Justerer lysstyrken for bilder.</string>
+    <string name="help_flash_desc">angir blits.</string>
+    <string name="help_flash_auto_desc">Angir blitz automatisk.</string>
+    <string name="sp_help_flash_off_desc_NORMAL">Blits av for alle bilder.</string>
+    <string name="sp_help_flash_on_desc_NORMAL">Blits på for alle bilder.</string>
+    <string name="help_camera_settings_desc">Justerer kamerainnstillinger.</string>
+    <string name="help_image_size_menu_desc">Innstilling av størrelsen på bildefilen.</string>
+    <string name="help_image_size_menu_5m_desc">Best for utskrifter som er opptil A4-størrelse.</string>
+    <string name="help_image_size_menu_3m_desc">Best for utskrifter som er opptil A5-størrelse.</string>
+    <string name="help_image_size_menu_2m_desc">Best for utskrifter som er på størrelse med postkort.</string>
+    <string name="help_image_size_menu_1m_desc">Best for utskrifter som er mindre enn postkort.</string>
+    <string name="help_image_size_menu_vga_desc">Best for sending som e-postvedlegg (tar opp lite minne).</string>
+    <string name="help_image_size_menu_qvga_desc">Best for sending som e-postvedlegg (tar opp lite minne).</string>
+    <string name="help_scene_mode_menu_desc">Innstilling av passende modus for den aktuelle omgivelsen.</string>
+    <string name="help_scene_mode_menu_auto_desc">Viser automatisk beste scenemodus basert på omgivelsene.</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_NORMAL">Opptak av standardbilde.</string>
+    <string name="help_scene_mode_menu_portrait_desc">Tar bilder av mennesker.</string>
+    <string name="help_scene_mode_menu_landscape_desc">Opptak av naturbilde.</string>
+    <string name="help_scene_mode_menu_sports_desc">Opptak av hurtigbevegende bilder uten at subjektet blir uklart.</string>
+    <string name="help_scene_mode_menu_night_desc">Opptak av nattbilde.</string>
+    <string name="help_scene_mode_menu_sunset_desc">Opptak av solnedgang.</string>
+    <string name="help_iso_menu_desc">Kontroll av kameraets følsomhet for lys.</string>
+    <string name="help_white_balance_menu_desc">Gjengivelse av farger under et bredt spekter av lysforhold.</string>
+    <string name="help_white_balance_menu_auto_desc">Automatisk fargejustering</string>
+    <string name="help_white_balance_menu_incandescent_desc">For bilder som tas i dempet lys.</string>
+    <string name="help_white_balance_menu_sunny_desc">Ta bilder i direkte sollys.</string>
+    <string name="help_white_balance_menu_flourescent_desc">For bilder som tas i fluorescerende lys.</string>
+    <string name="help_white_balance_menu_cloudy_desc">For bilder som tas i skyggen eller i overskyet vær.</string>
+    <string name="help_color_effect_menu_desc">Bruker kunstneriske effekter på bildene.</string>
+    <string name="help_color_effect_menu_off_desc">Ingen fargeeffekt brukes.</string>
+    <string name="help_color_effect_menu_sepia_desc">Legger på sepiafiltereffekt for å ta et nostalgisk bilde.</string>
+    <string name="help_color_effect_menu_mono_desc">Legger på monofiltereffekt for å ta et svart/hvitt bilde.</string>
+    <string name="help_color_effect_menu_negative_desc">Legger på negativ filtereffekt for å snu om på fargene i bildet.</string>
+    <string name="help_color_effect_menu_vivid_desc">Bruker sterk fargeeffekt på bilder.</string>
+    <string name="help_color_effect_menu_negative_sepia_desc">Bruker sepianegativeffekt på bilder.</string>
+    <string name="help_color_effect_menu_blue_desc">Bruker blå fargeeffekt på bilder.</string>
+    <string name="help_color_effect_menu_emboss_desc">Bruker pregeffekt på bilder.</string>
+    <string name="help_color_effect_menu_solarize_desc">Bruker overeksponeringseffekt på bilder.</string>
+    <string name="help_color_effect_menu_posterize_desc">Bruker plakatfargeeffekt på bilder.</string>
+    <string name="help_color_effect_menu_aqua_desc">Bruker akvarelleffekt på bilder.</string>
+    <string name="help_color_effect_menu_pastel_desc">Bruker pastellfargeeffekt på bilder.</string>
+    <string name="help_timer_menu_desc">Innstilling av tidsforsinkelsen mellom øyeblikket når utløseren trykkes inn og bildet tas.</string>
+    <string name="help_shot_mode_menu_desc">Innstilling av forskjellige opptaksmodus.</string>
+    <string name="help_shot_mode_menu_normal_desc">Opptak av standardbilde.</string>
+    <string name="help_shot_mode_menu_continuous_shot_desc">Ta 6 sekvensielle bilder etter hverandre.</string>
+    <string name="help_shot_mode_menu_smile_shot_desc">Utløser lukkeren automatisk når kameraet registrerer et smil.</string>
+    <string name="help_shot_mode_menu_beauty_shot_desc">Fjerner automatisk uregelmessigheter fra portretter, slik at ansikter blir lyse og rene.</string>
+    <string name="help_shot_mode_menu_art_shot_desc">Skap et kunstnerisk mesterverk med effekter som svart/hvitt, varme eller kjølige farger med mer.</string>
+    <string name="help_shot_mode_menu_panorama_shot_desc">Ta en full serie av sammenhengende bilder og sett dem sammen til ett bilde.</string>
+    <string name="help_shot_mode_menu_face_effect_desc">Gir ulike effekter ved hjelp av ansiktsgjenkjenning.</string>
+    <string name="help_shot_mode_menu_cartoon_shot_desc">Lar telefonen ta bilder som ligner på tegninger.</string>
+    <string name="help_shot_mode_menu_funny_mask_desc">Bruker automatisk ulike animasjonsmasker på ansikter som kameraet oppdager.</string>
+    <string name="help_face_effect_blur_desc">Oppdager ansikter automatisk og gjør dem uklare.</string>
+    <string name="help_face_effect_snow_desc">Viser snø som faller på hodet.</string>
+    <string name="help_face_effect_shallow_focus_desc">Finner ansiktet automatisk og setter bakgrunnen ut av fokus.</string>
+    <string name="help_face_effect_big_face_desc">Gjør ansiktet større.</string>
+    <string name="help_face_effect_mosaic_desc">Bruker automatisk mosaikkeffekt på ansikter som kameraet oppdager.</string>
+    <string name="help_face_effect_fish_eye_desc">Bruker automatisk vidvinkeleffekt på ansikter som kameraet oppdager.</string>
+    <string name="help_face_effect_concave_desc">Bruker automatisk konkav effekt på ansikter som kameraet oppdager.</string>
+    <string name="help_focus_desc">Fokuserer på det valgte punktet</string>
+    <string name="help_focus_auto_desc">Automatisk innstilling av fokuspunkt.</string>
+    <string name="help_focus_macro_desc">Tar bilder av motiver på svært kort avstand.</string>
+    <string name="help_focus_face_desc">Automatisk gjenkjennelse og fokusering på ansikter.</string>
+    <string name="sp_help_focus_continuous_desc_NORMAL">Finn motivet i bevegelse automatisk, og fokuser på det.</string>
+    <string name="help_focus_manual_desc">Justerer fokus manuelt med kontrollen på skjermen.</string>
+    <string name="help_image_quality_menu_desc">Angi bildekvalitet (bedre bildekvalitet krever mer minne).</string>
+    <string name="help_image_quality_menu_super_fine_desc">Lagre bilder med superfin kvalitet.</string>
+    <string name="help_image_quality_menu_fine_desc">Lagre bilder med fin kvalitet.</string>
+    <string name="help_image_quality_menu_normal_desc">Lagre bilder med normal kvalitet.</string>
+    <string name="help_show_captured_image_menu_desc">Visning av sist tatte bilde etter å ha tatt et bilde.</string>
+    <string name="help_shutter_sound_menu_desc">Angi lyden som skal høres når du tar bilder.</string>
+    <string name="help_geo_tagging_menu_desc">Legger til geografisk identifiserbar informasjon om hvor bildet ble tatt.</string>
+    <string name="sp_help_anti_banding_menu_desc_NORMAL">Forhindrer farge forvrengning.</string>
+    <string name="sp_help_storage_NORMAL">Velg lager for å lagre bilder.</string>
+    <string name="sp_help_storage_innner_NORMAL">Lagre bilder på interne minnet.</string>
+    <string name="sp_help_storage_sd_NORMAL">Lagre bildene på SD-kort.</string>
+    <string name="help_video_title">Hjelp for videokamera</string>
+    <string name="sp_help_video_title_NORMAL">Hjelp for videoguide</string>
+    <string name="help_video_settings_desc">Justerer videoinnstillinger.</string>
+    <string name="help_video_size_desc">Innstilling av størrelsen på videofilen.</string>
+    <string name="help_video_size_qvga_desc">Lagrer videoer for QVGA-størrelse.</string>
+    <string name="help_video_size_176x144_desc">Best for sending som e-postvedlegg (tar opp lite minne).</string>
+    <string name="help_video_scene_mode_menu_desc">Finner innstillingene for lys og farge som egner seg best for omgivelsene.</string>
+    <string name="help_video_scene_mode_menu_auto_desc">Viser automatisk beste scenemodus basert på omgivelsene.</string>
+    <string name="help_video_scene_mode_menu_portrait_desc">Bedre for opptak av mennesker.</string>
+    <string name="help_video_scene_mode_menu_landscape_desc">Bedre for opptak av naturscener som trær, blomster og himmel.</string>
+    <string name="help_video_scene_mode_menu_sports_desc">Bedre for opptak av scener med hurtigbevegende objekter, som sport.</string>
+    <string name="help_video_scene_mode_menu_night_desc">Tar landskapsbilder i mørket. Det brukes lav lukkerhastighet for å ta landskapsbilder om kvelden.</string>
+    <string name="help_video_scene_mode_menu_sunset_desc">Tar opp vakkert solnedgangsbilde.</string>
+    <string name="help_video_white_balance_menu_desc">Gir bedre fargekvalitet under ulike lysforhold.</string>
+    <string name="help_video_white_balance_menu_auto_desc">Automatisk fargejustering.</string>
+    <string name="help_video_white_balance_menu_incandescent_desc">For videoer som tas i dempet lys.</string>
+    <string name="help_video_white_balance_menu_sunny_desc">Opptak av videoer i direkte solskinn.</string>
+    <string name="help_video_white_balance_menu_flourescent_desc">For videoer som tas i fluorescerende lys.</string>
+    <string name="help_video_white_balance_menu_cloudy_desc">For videoer som tas i skyggen eller i overskyet vær.</string>
+    <string name="help_video_color_effect_menu_desc">Innstilling av spesielle fargede filtereffekter.</string>
+    <string name="help_video_color_effect_menu_off_desc">Ingen fargeeffekt brukes.</string>
+    <string name="sp_help_video_color_effect_menu_off_desc_NORMAL">Bruker ingen fargefiltereffekt.</string>
+    <string name="help_video_color_effect_menu_sepia_desc">Legger på sepiafiltereffekt for å ta en nostalgisk video.</string>
+    <string name="help_video_color_effect_menu_mono_desc">Legger på monofiltereffekt for å ta svart/hvitt video.</string>
+    <string name="help_video_color_effect_menu_negative_desc">Legger på negativ filtereffekt for å snu om på fargene i videoen.</string>
+    <string name="help_video_color_effect_menu_vivid_desc">Bruker sterk fargeeffekt på videoer.</string>
+    <string name="help_video_color_effect_menu_negative_sepia_desc">Bruker sepianegativeffekt på videoer.</string>
+    <string name="help_video_color_effect_menu_blue_desc">Bruker blå fargeeffekt på videoer.</string>
+    <string name="help_video_color_effect_menu_emboss_desc">Bruker pregeffekt på videoer.</string>
+    <string name="help_video_color_effect_menu_solarize_desc">Bruker overeksponeringseffekt på videoer.</string>
+    <string name="help_video_color_effect_menu_posterize_desc">Bruker plakatfargeeffekt på videoer.</string>
+    <string name="help_video_color_effect_menu_aqua_desc">Bruker akvarelleffekt på videoer.</string>
+    <string name="help_video_color_effect_menu_pastel_desc">Bruker pastellfargeeffekt på videoer.</string>
+    <string name="help_video_duration_desc">Angir varighet.</string>
+    <string name="help_video_duration_normal_desc">Ingen grense.</string>
+    <string name="help_video_duration_mms_desc">For bilder som skal sendes som MMS-vedlegg.</string>
+    <string name="help_video_quality_desc">Angi videokvalitet (bedre kvalitet krever mer minne).</string>
+    <string name="help_video_quality_super_desc">Lagre videoer med superfin kvalitet.</string>
+    <string name="help_video_quality_fine_desc">Lagre videoer med fin kvalitet.</string>
+    <string name="help_video_quality_normal_desc">Lagre videoer med normal kvalitet.</string>
+    <string name="help_video_voice_desc">Innstilling av lyden som tas opp ved opptak av video.</string>
+    <string name="help_video_voice_unmute_desc">Lagre video med lyd.</string>
+    <string name="help_video_voice_mute_desc">Lagre video uten lyd.</string>
+    <string name="help_video_show_desc">Se gjennom en video etter opptak.</string>
+    <string name="sp_help_mirror_img_desc_NORMAL">Lagre som speilbilde.</string>
+    <string name="sp_help_videostorage_NORMAL">Velg lager for å lagre videoer.</string>
+    <string name="sp_help_videostorage_in_NORMAL">Lagre videoene til internt minne.</string>
+    <string name="sp_help_videostorage_sd_NORMAL">Lagre videoene på SD-kort.</string>
+    <string name="camera_application_stopped">Kameraet stoppet.</string>
+    <string name="camera_driver_needs_reset">Kameraet stoppet uventet og må starte på nytt.</string>
+    <string name="geo_tag_dialog_title">GPS-tjenesten er av.</string>
+    <string name="geo_tag_dialog_msg">Slå på GPS fra innstillinger for å bruke Plasseringstag.</string>
+    <string name="geo_tag_dialog_confirm">GPS-innstillinger</string>
+    <string name="sp_eula_popup_dialog_title_NORMAL">Personvernvarsel</string>
+    <string name="sp_eula_popup_do_not_show_this_again_NORMAL">Ikke vis dette igjen</string>
+    <string name="sp_eula_popup_dialog_msg_NORMAL">Ved å velge \"Geotagging\" vil denne enheten tilkoble, støpe inn og lagre geografiske lokaliseringsdata i hvert bilde. Vis forsiktighet når du sender, deler, distribuerer, overfører eller kopierer disse bildene siden de kan inneholde lokaliseringen der bildene ble tatt.</string>
+    <string name="sp_eula_popup_dialog_msg_taglocation_NORMAL">Ved å velge \"Tag plassering\" vil denne enheten tilkoble, støpe inn og lagre geografiske lokaliseringsdata i hvert bilde. Vis forsiktighet når du sender, deler, distribuerer, overfører eller kopierer disse bildene siden de kan inneholde lokaliseringen der bildene ble tatt.</string>
+    <string name="geo_tag_dialog_title_cdma">LBS-tjenesten er av.</string>
+    <string name="geo_tag_dialog_msg_cdma">Slå på LBS fra innstillinger for å bruke Plasseringstag.</string>
+    <string name="geo_tag_dialog_confirm_cdma">LBS-innstillinger</string>
+    <string name="sp_video_length_dialog_title_NORMAL">Videolengde</string>
+    <string name="sp_video_length_dialog_msg_NORMAL">Velg opptaksmodus</string>
+    <string name="sp_video_length_dialog_long_NORMAL">Lang video</string>
+    <string name="cannot_connect_camera">Kan ikke koble til kameraet.</string>
+    <string name="sp_notiintsd_NORMAL">Din fil vil lagres i intern minne, gå til Instillinger>SD kort &amp; telefonlagring.</string>
+    <string name="sp_notiextsd_NORMAL">Din fil vil lagres i intern minne, gå til Instillinger>SD kort &amp; telefonlagring.</string>
+    <string name="pref_camera_settings_category">Kamerainnstillinger</string>
+    <string name="pref_camcorder_settings_category">Videoinnstillinger</string>
+    <string name="sp_Camcorder_NORMAL">Video</string>
+    <string name="camcorder_activity_name">Video</string>
+    <string name="sp_close_app_NORMAL">Trykk en gang til på tilbakeknappen for å lukke kameraet.</string>
+    <string name="sp_popup_storage_limitsize_NORMAL">"Maks. opptaksstørrelse er nådd.
+Filen er lagret."</string>
+    <string name="sp_popup_storage_limit_with_exact_size_NORMAL">"Maks. opptaksstørrelse (%s) er nådd.
+Filen er lagret."</string>
+    <string name="sp_popup_storage_maxsize_NORMAL">"Maks opptaksstørrelse  nådd.
+Opptaket vil avsluttes snart."</string>
+    <string name="sp_popup_storage_maximum_size_NORMAL">"Maks opptaksstørrelse (%s) nådd.
+Opptaket vil avsluttes snart."</string>
+    <string name="sp_sd_card_read_only_NORMAL">SD-kort tilgjengelig for read-only</string>
+    <string name="sp_MMS_REC_limit_NORMAL">Maksimum opptakstid for å sende en video MMS er %d sekunder</string>
+    <string name="sp_popup_character_limit_NORMAL">Ugyldig tegn.</string>
+    <string name="sp_filename_already_exists_NORMAL">Filnavnet finnes allerede.</string>
+    <string name="sp_message_recording_limit_NORMAL">Størrelsesgrensen for vedlegget er mindre enn min. opptaksstørrelse.</string>
+    <string name="sp_help_toast_smart_shutter_NORMAL">Smart lukker gir stabiliserte bilder ved uventede bevegelser.</string>
+    <string name="sp_help_scene_mode_menu_smart_shutter_desc_NORMAL">Opptak av hurtigbevegende bilder innendørs uten at subjektet blir uklart.</string>
+    <string name="sp_help_scene_mode_menu_action_desc_NORMAL">Ta opp hurtigbevegende bilder uten uskarpheter</string>
+    <string name="sp_help_shot_mode_beauty_desc_NORMAL">Ta bilder med klar- og uklarhetseffekter</string>
+    <string name="sp_help_shot_mode_hdr_desc_NORMAL">Kombinerer forskjellige opptak av det samme høykontrastbildet med forskjellig innstillinger for å skape et mer naturlig inntrykk</string>
+    <string name="sp_help_shot_mode_slow_motion_desc_NORMAL">Tar opp hurtigbevegende objekter som spilles av sakte</string>
+    <string name="sp_help_shot_mode_time_machine_desc_NORMAL">Tar sekvensielt seks bilder på en gang før utløserknappen berøres</string>
+    <string name="sp_help_shot_mode_time_machine_5_picture_NORMAL">Tar sekvensielt fem bilder på en gang før utløserknappen trykkes</string>
+    <string name="sp_shot_mode_clearshot_NORMAL">Slett opptak</string>
+    <string name="sp_shot_mode_shot_and_clear">Skyt og slett</string>
+    <string name="sp_scene_mode_smart_shutter_NORMAL">Smart blender</string>
+    <string name="sp_scene_mode_action_NORMAL">Handling</string>
+    <string name="sp_shot_mode_time_machine_NORMAL">Tidsmaskinopptak</string>
+    <string name="sp_shot_mode_live_desc_NORMAL">Frysing av skjermbilde under videoopptak.</string>
+    <string name="sp_shot_mode_live_effect_desc_NORMAL">Endrer bakgrunnene og skaper morphing-effekter for å transformere ansiktstrekk under videoopptak.</string>
+    <string name="dual_camera">Dobbelt kamera</string>
+    <string name="sp_focus_infinity_NORMAL">Uendelig</string>
+    <string name="sp_high_temp_action_NORMAL">Fjern batteriet eller flytt det til et kjølig sted.</string>
+    <string name="sp_high_temperature_detection_NORMAL">Varmesensor detekterte høye temperaturer</string>
+    <string name="sp_attach_file_size_exceeded_NORMAL">Maks. størrelsesgrense for vedlegg er overskredet.</string>
+    <string name="sp_high_temp_action_on_enter_NORMAL">Varmesensor detekterte høye temperaturer. Kan ikke starte kamera.</string>
+    <string name="sp_high_temp_action_on_recording_NORMAL">Varmesensor detekterte høye temperaturer. Videoopptak vil stenge.</string>
+    <string name="high_temp_action_on_recording">Kan ikke ta opp video og beholde optimal telefontemperatur. Forsøk igjen senere.</string>
+    <string name="sp_warning_high_temperature_on_recording_NORMAL">Vis oppmerksom. Å ta opp video under lading kan øke temperaturen i enheten</string>
+    <string name="warning_high_temp_action_flash_off">Blitzen er slått av for å beholde optimal telefontemperatur.</string>
+    <string name="sp_silly_face_title_NORMAL">Dumme ansikter</string>
+    <string name="sp_big_eyes_NORMAL">Store øyne</string>
+    <string name="sp_big_mouth_NORMAL">Stor munn</string>
+    <string name="sp_squeeze_NORMAL">Klem</string>
+    <string name="sp_big_nose_NORMAL">Stor nese</string>
+    <string name="sp_small_eyes_NORMAL">Små øyne</string>
+    <string name="sp_small_mouth_NORMAL">Liten munn</string>
+    <string name="sp_background_title_NORMAL">Bakgrunner</string>
+    <string name="sp_in_space_NORMAL">I rommet</string>
+    <string name="sp_sunset_NORMAL">Solnedgang</string>
+    <string name="sp_choose_gallery_NORMAL">Videoer</string>
+    <string name="sp_bg_replacement_message_NORMAL">"Plasser enheten på en stabil flate og påse at det ikke er noen bevegelser bak deg.
+
+Gå så ut av kameravisningen."</string>
+    <string name="sp_bg_replacement_message_v2_NORMAL">"Hold enheten for å unngå risting og sørg for at det ikke er noen bevegelser.
+Når du er klar til å ta opp en video lar du opptakets motiv tre foran kameraets synsvinkel."</string>
+    <string name="sp_pano_too_fast_prompt_NORMAL">For raskt</string>
+    <string name="sp_live_shot_NORMAL">Direkte skudd</string>
+    <string name="sp_live_effect_NORMAL">Direkte effekt</string>
+    <string name="dual_recording">Dobbelt opptak</string>
+    <string name="tracking_zoom">Sporingszoom</string>
+    <string name="anti_shaking">Anti-risting</string>
+    <string name="sp_audio_zoom_NORMAL">Audiozoom</string>
+    <string name="sp_tracking_focus_NORMAL">Sporingsfokus</string>
+    <string name="sp_video_recording_normalmode_NORMAL">Opptak av standard video.</string>
+    <string name="sp_note_shot_mode_setting_change_NORMAL">Innstillinger optimalisert for %s modus.</string>
+    <string name="sp_help_swap_camera_menu_desc_v2_NORMAL">Bytt mellom hoved- og frontkameraet</string>
+    <string name="sp_help_light_frame_desc_v2_NORMAL">Slå på blitsen for å ta lysere bilder med en mindre forhåndsvisning mens du bruker frontkameraet.</string>
+    <string name="sp_help_zoom_desc_v2_NORMAL">Zoom inn/ut</string>
+    <string name="sp_help_brightness_desc_v2_NORMAL">Juster nivået for eksponering</string>
+    <string name="sp_help_flash_desc_v2_NORMAL">Still inn blitz</string>
+    <string name="sp_help_flash_auto_desc_v2_NORMAL">Skru blits på når nødvendig</string>
+    <string name="sp_help_flash_off_desc_v2_NORMAL">Blits er av</string>
+    <string name="sp_help_flash_on_desc_v2_NORMAL">Blits er på</string>
+    <string name="sp_help_camera_settings_desc_v2_NORMAL">Justerer kamerainnstillinger.</string>
+    <string name="sp_help_focus_desc_v2_NORMAL">Sett fokus</string>
+    <string name="sp_help_focus_auto_desc_v2_NORMAL">Standard autofokus</string>
+    <string name="sp_help_focus_face_desc_v2_NORMAL">Automatisk gjenkjenner og fokuserer på ansikter.</string>
+    <string name="sp_help_image_size_menu_desc_v2_NORMAL">Sett bildestørrelsen</string>
+    <string name="sp_help_scene_mode_menu_desc_v2_NORMAL">Velg ønsket modus</string>
+    <string name="sp_help_scene_mode_menu_normal_desc_v2_NORMAL">Ta standard fotografier</string>
+    <string name="sp_help_scene_mode_menu_portrait_desc_v2_NORMAL">Ta opp mennesker</string>
+    <string name="sp_help_scene_mode_menu_landscape_desc_v2_NORMAL">Ta opp naturbilder.</string>
+    <string name="sp_help_scene_mode_menu_sports_desc_v2_NORMAL">Ta opp hurtigbevegende bilder uten uskarpheter</string>
+    <string name="sp_help_scnen_mode_menu_sunset_desc_v2_NORMAL">Fang solnedgang og bilder med bakgrunnslys</string>
+    <string name="sp_help_scene_mode_menu_night_desc_v2_NORMAL">Ta opp bilder i mørke områder</string>
+    <string name="sp_help_iso_menu_desc_v2_NORMAL">Øk følsomheten når du tar bilder under lav belysning for å redusere uskarphet som følge av kamerabevegelser eller bevegelser i motivet</string>
+    <string name="sp_help_withe_balance_desc_v2_NORMAL">Juster bildefargetemperaturen som er forhåndsinnstilt i henhold til lyskilden</string>
+    <string name="sp_help_white_balance_auto_desc_v2_NORMAL">Automatisk hvitbalanse justert for å passe lysforholdene</string>
+    <string name="sp_help_withe_balance_incandescent_desc_v2_NORMAL">Bruk i glødende lys</string>
+    <string name="sp_help_white_balance_sunny_desc_v2_NORMAL">Bruk i sollys</string>
+    <string name="sp_help_white_balance_flourescent_desc_v2_NORMAL">Bruk i fluoriserende lys</string>
+    <string name="sp_help_white_balance_cloudy_desc_v2_NORMAL">Bruk i skygge og på overskyete dager</string>
+    <string name="sp_help_withe_balance_incandescent_desc_camera_v2_NORMAL">Bruk i glødende lys.</string>
+    <string name="sp_help_white_balance_sunny_desc_camera_v2_NORMAL">Bruk i solskinn.</string>
+    <string name="sp_help_white_balance_flourescent_desc_camera_v2_NORMAL">Bruk i fluoriserende lys.</string>
+    <string name="sp_help_white_balance_cloudy_desc_camera_v2_NORMAL">Bruk i skygge og på overskyete dager.</string>
+    <string name="sp_help_color_effect_desc_v2_NORMAL">Sett farget filtereffekt når du tar bilder</string>
+    <string name="sp_help_color_effect_off_desc_v2_NORMAL">Ingen fargeeffekt</string>
+    <string name="sp_help_color_effect_mono_desc_v2_NORMAL">Ta opp bilder i svart/hvitt</string>
+    <string name="sp_help_color_effect_sepia_desc_v2_NORMAL">Ta opp bilder i bruntoner</string>
+    <string name="sp_help_color_effect_negative_desc_v2_NORMAL">Ta opp bilder med omvendte farger</string>
+    <string name="sp_help_timer_menu_desc_v2_NORMAL">Sett 3, 5 eller 10 sekunders forsinkelse før opptaket</string>
+    <string name="sp_help_shot_mode_desc_v2_NORMAL">Sett variert opptaksmodus</string>
+    <string name="sp_help_shot_mode_normal_desc_v2_NORMAL">Normalmodus aktivert</string>
+    <string name="sp_help_shot_mode_continuous_shot_desc_v2_NORMAL">Ta 6 bilder i rask sekvens</string>
+    <string name="sp_help_shot_mode_panorama_shot_desc_v2_NORMAL">Ta horisontale fortløpende bilder som kan slås sammen til et stort panoramabilde</string>
+    <string name="sp_help_shutter_sound_menu_desc_v2_NORMAL">Sett lydeffekter når du tar et bilde</string>
+    <string name="sp_help_show_captured_image_menu_desc_v2_NORMAL">Vis bildet umiddelbart etter at det er tatt</string>
+    <string name="sp_help_geo_tagging_menu_desc_v2_NORMAL">Legg til lokaliseringsinformasjon om hvor bildet er tatt.</string>
+    <string name="sp_help_storage_v2_NORMAL">Velg lager for å lagre bilder.</string>
+    <string name="sp_help_storage_inner_v2_NORMAL">Lagre bildene til internt minne.</string>
+    <string name="sp_help_storage_sd_v2_NORMAL">Lagre bildene på SD-kort.</string>
+    <string name="sp_help_video_size_desc_v2_NORMAL">Sett video filstørrelsen</string>
+    <string name="sp_help_video_color_effect_desc_v2_NORMAL">Sett farget filtereffekt ved opptak av videoer</string>
+    <string name="sp_help_video_color_effect_mono_desc_v2_NORMAL">Ta opp videoer i sort og hvitt</string>
+    <string name="sp_help_video_color_effect_sepia_desc_v2_NORMAL">Ta opp videoer i sepiatoner</string>
+    <string name="sp_help_video_color_effect_negative_desc_v2_NORMAL">Ta opp videoer med inverterte farger</string>
+    <string name="sp_help_video_shot_mode_live_shot_desc_v2_NORMAL">Ta opp skjermdump mens du tar opp video</string>
+    <string name="sp_help_video_shot_mode_live_effect_desc_v2_NORMAL">Endre bakgrunnen og skap morphing-effekter for å endre ansiktstrekk under videoopptak.</string>
+    <string name="sp_help_video_voice_desc_v2_NORMAL">Sett på lyd når du tar opp video</string>
+    <string name="sp_help_video_voice_unmute_desc_v2_NORMAL">Ta opp videoer med lyd</string>
+    <string name="sp_help_video_voice_mute_desc_v2_NORMAL">Ta opp videoer uten lyd</string>
+    <string name="sp_help_video_show_desc_v2_NORMAL">Vis videoen umiddelbart etter at den er spilt inn</string>
+    <string name="sp_help_video_geo_tagging_menu_desc_v2_NORMAL">Legg til lokaliseringsinformasjon om hvor videoen er tatt opp.</string>
+    <string name="sp_help_videostorage_v2_NORMAL">Velg lager for å lagre videoer.</string>
+    <string name="sp_help_videostorage_in_v2_NORMAL">Lagre videoene til internt minne.</string>
+    <string name="sp_help_videostorage_sd_v2_NORMAL">Lagre videoene på SD-kort.</string>
+    <string name="sp_help_shot_mode_beauty_desc_v2_NORMAL">Ta opp bilder med lyse og uskarpe effekter</string>
+    <string name="sp_help_flipped_img_desc_NORMAL">Lagre vendt bilde vertikalt</string>
+    <string name="sp_help_normal_img_desc_NORMAL_NORMAL">Lagre normalt bilde</string>
+    <string name="sp_help_camera_reset_desc_v3_NORMAL">Kamerainnstillinger tilbakestilt til standardverdi</string>
+    <string name="sp_help_flipped_img_desc_v3_NORMAL">Lagre foto som vendt</string>
+    <string name="sp_help_video_reset_desc_v3_NORMAL">Videoinnstillinger tilbakestilt til standardverdi</string>
+    <string name="sp_deleted_images_NORMAL">Disse meldingene vil bli slettet. Fortsett?</string>
+    <string name="sp_deleted_photos_NORMAL">Disse meldingene vil bli slettet. Fortsett?</string>
+    <string name="sp_help_guide_beauty_shot_desc_NORMAL">\"Beauty shot\" justerer både lysstyrke og uskarphetseffekt ved å kontrollere feltet på bunnen.</string>
+    <string name="sp_help_guide_beauty_shot_desc_list">\"Beauty shot\" justerer både lysstyrke og uskarphetseffekt ved å kontrollere feltet på bunnen.</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL">"6 sekvensielle bilder tas med minimum tidsintervall ved å trykke utløseren.
+Du kan direkte velge bilder for å lagre og dele (med \"auto review on\")."</string>
+    <string name="sp_help_guide_continuous_shot_desc_NORMAL_v2">6 sekvensielle bilder tas med minimum tidsintervall ved å trykke utløseren.</string>
+    <string name="sp_help_guide_hdr_desc_NORMAL">HDR gjør bildene mer realistiske ved å bruke flereksponeringsteknologier.</string>
+    <string name="sp_help_guide_hdr_desc_list">HDR gjør bildene mer realistiske ved å bruke flereksponeringsteknologier.</string>
+    <string name="sp_help_guide_live_effect_desc_NORMAL">Live-effekten lager forskjellige visuelle effekter når det tas opp en video. Velg en effekt og begynn opptaket.</string>
+    <string name="sp_help_guide_panorama_shot_desc_NORMAL">"Kontinuerlige bilder slås sammen til ett enkelt panoramabilde.
+Trykk utløseren for å starte, og beveg kameraet hele veien fra den ene siden til den andre. Trykk utløseren en gang til for å avslutte."</string>
+    <string name="sp_help_guide_free_panorama_shot_desc_NORMAL">"Løpende bilder monteres inn i et sfærisks 360-panoramabilde.
+Trykk lukker for å starte og panorer kameraet i enhver retning."</string>
+    <string name="sp_help_guide_time_machine_desc_NORMAL">"Kameraet tar opp flere bilder før utløseren trykkes inn. 
+Du kan direkte velge bilder som skal lagres og deles (med \"auto review on\")."</string>
+    <string name="sp_help_guide_time_machine_desc_new_NORMAL">Sjekk og lagre scenene du gikk glipp av før du tar bilder.</string>
+    <string name="sp_help_guide_time_machine_desc_new_vzw_NORMAL">Fang øyeblikkene før du trykker på lukkerutløseren.</string>
+    <string name="sp_help_popup_guide_time_machine_desc_new_NORMAL">\"Time catch shot\"-funksjonen fanger øyeblikket før du trykker på lukkeren.</string>
+    <string name="sp_help_guide_time_machine_new_desc_NORMAL">Kameraet tar opp flere bilder før utløseren trykkes inn. Bare utvalgte bilder vil bli lagret.</string>
+    <string name="sp_image_SHORT">Bilde</string>
+    <string name="sp_will_be_deleted_NORMAL">%1$s slettes. Fortsette?</string>
+    <string name="sp_photo_will_be_deleted_NORMAL">Foto vil slettes. Fortsette?</string>
+    <string name="sp_video_will_be_deleted_NORMAL">Video vil bli slettet. Fortsette?</string>
+    <string name="sp_gps_settings_title_NORMAL">Lokaliseringsservice frakoblet</string>
+    <string name="sp_gps_setting_msg_NORMAL">Aktiver stedstjenester for å bruke geotagging.</string>
+    <string name="sp_enable_app_msg_NORMAL">%s må være aktivert for å benytte denne funksjonen. Aktivere denne applikasjonen?</string>
+    <string name="sp_photoimage_SHORT">Bilde</string>
+    <string name="sp_note_dialog_title_NORMAL">Merknader</string>
+    <string name="sp_saved_NORMAL">Lagret</string>
+    <string name="sp_front_NORMAL">Forside</string>
+    <string name="sp_rear_NORMAL">Bak</string>
+    <string name="sp_timemachine_delete_warning_NORMAL">Du vil miste bilder som ikke har blitt lagret. Fortsette?</string>
+    <string name="sp_timemachine_bubble_popup_NORMAL">Trykk denne knappen for å vise de manglende momentene.</string>
+    <string name="sp_timemachine_select_NORMAL">Merk av bildene du ønsker å beholde.</string>
+    <string name="sp_timemachine_select_new_NORMAL">Velg de bildene du vil beholde.</string>
+    <string name="sp_timemachine_save_guide">Velg de bildene du ønsker å ta vare på og trykk på lagre-knappen.</string>
+    <string name="sp_help_guide_time_catch_desc_NORMAL">\"Time catch shot\" fanger det manglende øyeblikk før du trykker på utløseren.</string>
+    <string name="sp_help_guide_time_catch_new_desc_NORMAL">Tid fanget tatt fanger den manglende øyeblikk før du trykker på utløseren. Bare utvalgte bilder vil bli lagret.</string>
+    <string name="sp_timemachine_bubble_popup_jp_NORMAL">Trykk denne knappen for å vise bilder tatt 1 sekund før utløseren.</string>
+    <string name="sp_force_close_on_high_temperature_NORMAL">Kameraet vil lukkes grunnet høy temperatur på enheten.</string>
+    <string name="sp_screen_cannot_be_captured_NORMAL">Nåværende skjermbilde kan ikke fanges</string>
+    <string name="sp_voice_shutter_help_desc">Bilder tas ved hjelp av stemmekommando</string>
+    <string name="sp_clear_shot_tab_guide">Berør ethvert objekt med omriss for å fjerne det fra fotoet.</string>
+    <string name="sp_clear_shot_tab_guide_v2">Trykk markert objekt for å fjerne det og trykk lagre-knappen.</string>
+    <string name="sp_clear_shot_not_found_object">Det er ikke noe objekt å slette.</string>
+    <string name="sp_clear_shot_warning_popup">Du vil miste bilder fordi prosessen ikke er lagret. Fortsette?</string>
+    <string name="sp_clear_shot_warning_handshake">Hold telefonen stille.</string>
+    <string name="sp_clear_shot_capture_failed">Mislyktes.</string>
+    <string name="sp_anti_shaking_help_desc">Unngå risting under videoopptak for å få høy videokvalitet.</string>
+    <string name="sp_photo_has_not_yet_been_saved_warning_popup">Bilde er ennå ikke lagret. Gå ut uten å lagre?</string>
+    <string name="sp_wdr_recording_help_desc">Lag opptak tatt med forskjellig blenderåpning en optimal motlysjustert video med forbedret flereksponeringskontroll.</string>
+    <string name="sp_wdr_recording_help_desc_list">Lag opptak tatt med forskjellig blenderåpning en optimal motlysjustert video med forbedret flereksponeringskontroll.</string>
+    <string name="sp_burst_shot_help_desc">Ta opptil 20 bilder raskt ved å trykke inn opptaksknappen.</string>
+    <string name="sp_burst_shot_help_desc_list">Ta opptil 20 bilder raskt ved å trykke inn opptaksknappen.</string>
+    <string name="sp_clear_shot_help_desc">Ta et bilde. Berør ethvert objekt med omriss for å fjerne det fra fotoet.</string>
+    <string name="sp_intelligent_auto_help_desc">Identifiserer automatisk scenenes karakteristikker og tar et foto.</string>
+    <string name="sp_intelligent_auto_help_desc_popup">Automatisk identifikasjon av scenens karakteristikker og justerer blenderåpning, lukkertid, alternativer for å ta et bilde.</string>
+    <string name="sp_tracking_focus_help_desc">Berør subjektet i forhåndsvisningsskjermen for å spore det og fininnstille fokus.</string>
+    <string name="sp_dual_recording_help_desc">Tilpass både front- og hovedkameraer i en skjerm for opptak.</string>
+    <string name="sp_dual_recording_help_desc_v2">"1. Dra for å flytte den lille skjermen.
+2. Trykk og hold på den lille skjermen for å endre størrelsen.
+3. Klikk liten skjerm for å skifte mellom liten og stor skjerm."</string>
+    <string name="sp_audio_zoom_help_desc_in_recording">Zoom inn for å forsterke audio zoom-lyden</string>
+    <string name="sp_audio_zoom_help_desc">Øk lydfølsomheten i zoomingsområdet og reduser støy når det gjøres opptak.</string>
+    <string name="sp_audio_zoom_help_desc_v2">Zoom inn et bestemt område for å øke lydfølsomheten og redusere støy. Tilgjengelig bare i liggende visning Hold sidemikrofonene frakoblet mens denne funksjonen brukes.</string>
+    <string name="sp_live_effect_help_desc">Bruk forskjellige visuelle effekter ved opptak av en video.</string>
+    <string name="sp_vrpanorama_help_desc">Ta bilder sekvensielt for å lage et bilde med romfølelse.</string>
+    <string name="sp_vrpanorama_help_desc_v2">"1. Trykk lukker for å starte VR panoramamodus. 
+2. Tilpass fokusområdet til blå styrelinje for å ta bilde. 
+3. Flytt kamera for å fange et annet fokusområde og ta bilder. Bildene kommer sammen til ett foto."</string>
+    <string name="sp_dual_camera_help_desc">Tilpass både front- og hovedkameraer i en skjerm.</string>
+    <string name="sp_smart_zoom_help_desc">Forstørr fokusert område på en liten skjerm når det tas opp video.</string>
+    <string name="sp_smart_zoom_help_desc_v2">"1. Trekk fokus for å forstørre den kommende videoen.
+2. Den lille skjermen viser det definerte fokus i et større bilde. For å flytte det, berør og hold det."</string>
+    <string name="sp_intelligent_auto_mode_NORMAL">Intelligent Auto-kameramodus.</string>
+    <string name="sp_normal_camera_mode_NORMAL">Normalt kameramodus.</string>
+    <string name="sp_center_NORMAL">sentrert</string>
+    <string name="sp_border_NORMAL">Kant</string>
+    <string name="sp_3d_depth_NORMAL">3D dybde</string>
+    <string name="sp_popup_change_view_to_landscape_for_3d_NORMAL">Endre visningen din til liggende modus for optimal 3D effekt.</string>
+    <string name="sp_entering_guide_NORMAL">"Trykk og hold inne ikonet
+for å redigere hurtigmenyer."</string>
+    <string name="sp_entering_clean_guide_NORMAL">Sørg for å rengjøre kameralinsen for å oppnå best mulig bildekvalitet.</string>
+    <string name="sp_entering_gallery_guide_NORMAL">"For å raskt sjekke bildet,
+trykk og hold galleri-ikonet."</string>
+    <string name="entering_guide_att">"Trykk og hold et ikon. 
+for å redigere snarveier."</string>
+    <string name="sp_entering_gallery_guide_vzw">"For å raskt sjekke bildet,
+trykk og hold galleri-ikonet."</string>
+    <string name="entering_guide_vzw">"Trykk og hold et ikon. 
+for å redigere snarveier."</string>
+    <string name="portrait_plus">Portrett +</string>
+    <string name="help_guide_portrait_plus_shot_desc">Portrett + får ansiktshuden til å fremstå lysere og glattere.</string>
+    <string name="edit_quick_menu">Rediger hurtigmenyen</string>
+    <string name="error_occurred">En feil oppstod.</string>
+    <string name="sp_info_empty_SHORT">Tom</string>
+    <string name="accessibility_exit_edit_menu">Gå ut av redigeringsmeny</string>
+    <string name="accessibility_shutter_button">Lukker</string>
+    <string name="accessibility_review_thumbnail">Nyeste bilde eller video</string>
+    <string name="accessibility_camera_picker">Kamera og videokamera bryter</string>
+    <string name="accessibility_beautyshot_bar">Skjønnhetsbilde kontroll-linje</string>
+    <string name="accessibility_beautyshot_control">"Beauty shot-kontroll "</string>
+    <string name="accessibility_beautyshot_button">Skjønnhetsbilde kontrollknapp</string>
+    <string name="accessibility_brightness_bar">Lysstyrkekontroll-linje</string>
+    <string name="accessibility_brightness_control">Lysstyrkekontroll</string>
+    <string name="accessibility_brightness_button">Lysstyrkekontrollknapp</string>
+    <string name="accessibility_manual_focus_bar">Manuell fokuskontrollstolpe</string>
+    <string name="accessibility_manual_focus_button">Manuell fokuskontroll</string>
+    <string name="accessibility_zoom_bar">Zoomkontrollinjen</string>
+    <string name="accessibility_zoom_control">Zoom-kontroll</string>
+    <string name="accessibility_zoom_button">Zoomkontroll-knappen</string>
+    <string name="accessiblity_free_panorama_retake">Ta på nytt</string>
+    <string name="accessiblity_start_recording">Start opptak</string>
+    <string name="accessiblity_stop_recording">Avslutt opptak</string>
+    <string name="accessiblity_pause_recording">Pause i opptak</string>
+    <string name="camera_accessibility_stop_button">Stopp</string>
+    <string name="free_panorama_bubble_popup">For å vise bilder i 360-visning, berør skjermen.</string>
+    <string name="error_panorama_during_taking">Stoppet å ta et panoramabilde for kameraposisjonering. Bildet er lagret i Galleri.</string>
+    <string name="sp_date_stamp">Datostempel</string>
+    <string name="audio_zoom_warning">Audio zoom aktiveres kun i landskapsvisning.</string>
+    <string name="audio_zoom_disabled">Lyd-zoom deaktivert</string>
+    <string name="unable_to_use_qmemo">Kunne ikke bruke %s</string>
+    <string name="sp_open_quick_camera_case">Åpne Quick Camera Case</string>
+    <string name="message_received">Ny melding mottatt</string>
+    <string name="pd_message_processing">stille behandling</string>
+    <string name="not_available_during_remote_care">Ikke tilgjengelig ved fjernbehandling.</string>
+    <string name="dual_camera_effect_menu_none">Ingen</string>
+    <string name="dual_camera_effect_menu_stamp">Stempel</string>
+    <string name="dual_camera_effect_menu_ovalblur">Oval uklarhet</string>
+    <string name="dual_camera_effect_menu_instantpic">Umiddelbart</string>
+    <string name="dual_camera_effect_menu_heart">Hjerteformet</string>
+    <string name="dual_camera_effect_menu_star">Stjerneformet</string>
+    <string name="dual_camera_effect_menu_window">Vinduer</string>
+    <string name="dual_camera_effect_menu_fisheye">Fiskeøye</string>
+    <string name="dual_camera_effect_menu_cubism">Kubikk</string>
+    <string name="dual_camera_effect_menu_splitview1">Delt bilde 1</string>
+    <string name="dual_camera_effect_menu_splitview2">Delt bilde 2</string>
+    <string name="smart_zoom_object_tracking_focus_mode">Sporing av fokusmodus</string>
+    <string name="smart_zoom_manual_focus_mode">Normalt fokusmodus</string>
+    <string name="sp_shot_mode_new_hdr">Dynamisk tone (HDR)</string>
+    <string name="sp_help_guide_new_hdr_desc_list">Kombinerer bilder tatt på flere eksponeringer til en optimal bilde for å få bedre bilder i vanskelige lysforhold.</string>
+    <string name="accessiblity_mode_button">Modus.</string>
+    <string name="accessiblity_change_view_list_button">Listeoversikt</string>
+    <string name="accessiblity_change_view_grid_button">Rutenettoversikt</string>
+    <string name="accessiblity_default_auto_button">Normal</string>
+    <string name="mode_menu_camera_normal">Ta bilde med normal kameramodus.</string>
+    <string name="mode_menu_video_normal">Opptak video med normal opptaksmodus.</string>
+    <string name="mode_menu_video_tracking_zoom">Lar deg velge et fokusområde for å forstørre. Vise det i den lille skjermen og ta en video.</string>
+    <string name="help">Hjelp</string>
+    <string name="camera_quick_button_index_mode">Modus</string>
+    <string name="panorama_guide_tap_shutter_to_start">Trykk lukkerknappen for å begynne.</string>
+    <string name="panorama_guide_move_in_one_direction">Beveg i én retning</string>
+    <string name="panorama_guide_tap_to_finish">Klikk på stopp-knappen for å avslutte</string>
+    <string name="sp_down_NORMAL">Ned</string>
+    <string name="sp_up_NORMAL">Opp</string>
+    <string name="sp_right_NORMAL">Høyre</string>
+    <string name="sp_left_NORMAL">venstre</string>
+    <string name="volume_key">Volumtast</string>
+    <string name="volume_key_capture_image">Ta bilde</string>
+    <string name="volume_key_record_video">Ta opp</string>
+    <string name="volume_key_zoom_only">Zoom aktiveres bare i det bakre kameraet.</string>
+    <string name="volume_key_zoom_disable">Zoom støttes ikke i denne modusen.</string>
+    <string name="volume_key_zoom_disable_resolution">Zoom støttes ikke for denne oppløsningen.</string>
+    <string name="help_scene_mode_menu_night_desc_new">"Ta bilder i mørke områder uten blitz. "</string>
+    <string name="sp_confirm_NORMAL">Bekreft</string>
+    <string name="sp_dialog_change_setting">Endre aktiver til deaktiver</string>
+    <string name="sp_dialog_change_setting_au_cloud">Avbryt \"Deaktiver\" i au-applikasjon.</string>
+    <string name="sp_auto_upload_NORMAL">Auto-opplasting</string>
+    <string name="sp_new_ux_help_guide_title_clear_shot">Ta bilde og slett-guide</string>
+    <string name="sp_new_ux_help_guide_title_hdr">Guide for dynamisk tone (HDR)</string>
+    <string name="sp_new_ux_help_guide_title_panorama">Panorama-guide</string>
+    <string name="sp_new_ux_help_guide_title_vr_panorama">VR panoramaguide</string>
+    <string name="sp_new_ux_help_guide_title_burst_shot">Guide for bildefoss</string>
+    <string name="sp_new_ux_help_guide_title_beauty_shot">Guide for \"beautyshot\"</string>
+    <string name="sp_new_ux_help_guide_title_portrait_plus">Portrett + Guide</string>
+    <string name="sp_new_ux_help_guide_title_dual_camera">Guide for dobbelt kamera</string>
+    <string name="sp_new_ux_help_guide_title_time_machine_camera">Guide for Tidsmaskinkamera</string>
+    <string name="sp_new_ux_help_guide_title_time_catch_shot">Guide for Time catch shot</string>
+    <string name="sp_new_ux_help_guide_title_intelligent_auto">Intelligent autoguide</string>
+    <string name="sp_new_ux_help_guide_title_sports">Sports-guide</string>
+    <string name="sp_new_ux_help_guide_title_night">Nattguide</string>
+    <string name="sp_new_ux_help_guide_title_dual_recording">Guide for dobbelt opptak</string>
+    <string name="sp_new_ux_help_guide_title_live_effect">Levende effekt-guide</string>
+    <string name="sp_new_ux_help_guide_title_continuous_shot">Guide for sammenhengende fotografering</string>
+    <string name="sp_new_ux_help_guide_title_hdr_recording">HDR opptaksguide</string>
+    <string name="sp_new_ux_help_guide_title_wdr_recording">WDR opptaksguide</string>
+    <string name="sp_new_ux_help_guide_title_voice_shutter">Guide for stemmeutløser</string>
+    <string name="sp_new_ux_help_guide_title_cheese_shutter">Guide for \"cheese\"-utløser</string>
+    <string name="sp_new_ux_help_guide_title_uplus_box">Guide for U+ Box autolagring</string>
+    <string name="sp_new_ux_help_guide_title_audio_zoom">Audio zoom-guide</string>
+    <string name="sp_new_ux_help_guide_title_tracking_zoom">Zoom-guide for sporing</string>
+    <string name="sp_new_ux_help_guide_desc_clear_shot">"1. Ta et bilde.
+2. Berør hvilken som helst objekt med omriss for å fjerne det fra bilder.
+3. Trykk lagre-knappen for å lagre."</string>
+    <string name="sp_new_ux_help_guide_desc_hdr">HDR kombinerer bilder tatt med forskjellige eksponeringer til ett optimalt bilde mens det kompenserer for motlys ved å forbedre multi eksponerings kontroll.</string>
+    <string name="sp_new_ux_help_guide_desc_panorama">"1. Trykk utløserknappen for å begynne.
+2. Panorer enheten sakte i én retning.
+3. Trykk stopp-knappen når du er ferdig."</string>
+    <string name="sp_new_ux_help_guide_desc_plane_panorama">"1. Trykk utløserknappen for å begynne.
+2. Panorer enheten sakte i én retning.
+3. Tilpass fokus til den blå veiledningslinjen for å ta bilde.
+4. Trykk stopp-knappen når du er ferdig."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama">"1. Trykk lukker for å starte VR panoramamodus. 
+2. Tilpass fokusområdet til blå styrelinje for å ta bilde. 
+3. Flytt kamera for å fange et annet fokusområde og ta bilder. Bildene kommer sammen til ett foto."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new">"1. Trykk på lukkerknappen for å starte VR panoramamodus.
+2. Tilpass fokus til den blå veledningslinjen for å ta bilde.
+3. Flytt på kameraet for å fange et annen fokusområde og ta bilder.
+Bildene kommer sammen til ett bilde.
+Når du tar VR panoramabilder, ikke stå for nær motivet og hold riktig avstand."</string>
+    <string name="sp_new_ux_help_guide_desc_vr_panorama_new_specified">"1. Trykk på lukkerknappen for å starte VR panoramamodus.
+2. Tilpass fokus til den blå veledningslinjen for å ta bilde.
+3. Flytt på kameraet for å fange et annen fokusområde og ta bilder.
+Bildene kommer sammen til ett bilde.
+Når du tar VR panoramabilder, ikke stå for nær motivet og hold riktig avstand. (16 fot eller 5 m)."</string>
+    <string name="sp_new_ux_help_guide_desc_light_frame">Ta lysere bilder med en mindre forhåndsvisning mens du bruker frontkameraet.</string>
+    <string name="sp_new_ux_help_guide_desc_burst_shot">Ta opptil 20 bilder raskt ved å trykke inn opptaksknappen.</string>
+    <string name="sp_new_ux_help_guide_desc_beauty_shot">\"Beautyshot\" gjør ansiktshuden klarere og glattere.</string>
+    <string name="sp_new_ux_help_guide_desc_time_machine_camera">"1. Ta et bilde for å starte tidsmaskinkamera.
+2. Trykk galleriknapp for å gjennomgå manglende øyeblikk.
+3. Velg bildet du ønsker å beholde.
+4. Trykk lagre-knappen."</string>
+    <string name="sp_new_ux_help_guide_desc_time_catch_shot">"1. Ta et bilde for å starte Time catch shot.
+2. Trykk galleriknapp for å gjennomgå manglende øyeblikk.
+3. Velg bildet du ønsker å beholde.
+4. Trykk lagre-knappen."</string>
+    <string name="sp_new_ux_help_guide_desc_intelligent_auto">Identifiserer automatisk scenenes karakteristikker og tar et foto.</string>
+    <string name="sp_new_ux_help_guide_desc_dual_recording">"1. Dra for å flytte den lille skjermen.
+2. Trykk og hold på den lille skjermen for å endre størrelsen.
+3. Klikk liten skjerm for å skifte mellom liten og stor skjerm."</string>
+    <string name="sp_new_ux_help_guide_desc_live_effect">"1. Velg effekt som du ønsker å bruke.
+2. Trykk opptaksknapp og start opptak."</string>
+    <string name="sp_new_ux_help_guide_desc_hdr_recording">HDR-opptak forbedrer video din ved multi eksponerings kontroll.</string>
+    <string name="sp_new_ux_help_guide_desc_wdr_recording">WDR-opptak forbedrer din video med kontroll ved flere eksponeringer.</string>
+    <string name="sp_uhd_heat_warning">UHD-videoopptak tilgjengelig for inntil 5 minutter for å vedlikeholde anbefalt temperatur. Videoopptak vil avslutte.</string>
+    <string name="sp_help_guide_title_face_tracking_led">Sporingsguide for ansikt</string>
+    <string name="sp_help_guide_face_tracking_led">"Varsellys blinker når et ansikt oppdages.
+Du kan endre innstilling i Innstillinger > Display> Varsellys."</string>
+    <string name="dialog_alert_title">Varsel</string>
+    <string name="camera_accessibility_indicator_message_remaining">Ny tekstmelding</string>
+    <string name="camera_accessibility_indicator_mms_remaining">Ny MMS-melding</string>
+    <string name="camera_accessibility_indicator_voice_mail_remaining">Ny talemelding</string>
+    <string name="camera_accessibility_indicator_gps_connecting">Slår geotagging på</string>
+    <string name="camera_accessibility_indicator_geotagging_on">Geotagging er slått på</string>
+    <string name="camera_accessibility_indicator_remaining_picture_count">%s flere bilder kan tas.</string>
+    <string name="camera_accessibility_indicator_battery">Batteri på %s prosent</string>
+    <string name="camera_accessibility_indicator_storage">Lagre i %s</string>
+    <string name="camera_accessibility_indicator_voice_shutter_on">%s er slått på</string>
+    <string name="camera_accessibility_indicator_anti_shaking_on">Anti-risting er slått på</string>
+    <string name="camera_accessibility_thumbnail">Gå til galleriet</string>
+    <string name="not_available_during_incoming_call">Ikke tilgjengelig under et anrop.</string>
+    <string name="camera_error_occurred_try_again">Kamera er utilgjengelig for en stund på grunn av et midlertidig problem. Prøv igjen.</string>
+    <string name="mode_menu_camera_refocus_new">Velg fokus på nytt etter å ha tatt et bilde.</string>
+    <string name="sp_refocus_bubble_popup_NORMAL">Trykk her for å refokusere dette bildet.</string>
+    <string name="sp_postview_action_bar_menu_all_in_focus">Alle er i fokus</string>
+    <string name="sp_refocus_preview_guide_message">Kom deg nærmere objektet og hold telefonen i ro når du tar bilde.</string>
+    <string name="shot_mode_magic_focus">Magisk fokus</string>
+    <string name="sp_new_ux_help_guide_title_refocus">Veiledning for magisk fokus</string>
+    <string name="sp_camera_refocus_postview_allinfocus_message">Alle delene av bildet ditt er i fokus</string>
+    <string name="sp_new_ux_help_guide_desc_refocus_new">"1. Ta et bilde og trykk på \"Gallery\" (Galleri)-knappen.
+2. For å endre fokus, trykk på et objekt og juster behandleren.
+3. Trykk på \"Save\" (Lagre)-knappen for å lagre det refokuserte bildet."</string>
+    <string name="sp_refocus_postview_message_new">Trykk på et objekt og juster behandleren for å endre fokus, og deretter trykk på (#1#)-knappen i det øvre høyre hjørnet</string>
+    <string name="sp_refocus_postview_message_vzw_new">Trykk på et objekt og juster behandleren for å endre fokus, og deretter trykk på \"Save\" (Lagre)-knappen i det øvre høyre hjørnet</string>
+    <string name="sp_refocus_warning_popup">Fokus er ikke endret. Gå ut?</string>
+    <string name="gesture_guide">Klem sammen fingrene for å ta et bilde</string>
+    <string name="sp_gesture_guide_msg_fist">Åpne neven for å ta bilde</string>
+    <string name="camera_help_activity_gesture_shot">Bevegelsesbilde</string>
+    <string name="sp_help_gestureshot_desc">Ta \"selfies\" med en håndbevegelse.</string>
+    <string name="sp_new_ux_help_guide_title_gestureshot">Veiledning for bevegelsesbilde</string>
+    <string name="sp_new_ux_gesture_shot_help_activity_desc">Ta \"selfies\" med en håndbevegelse. For å ta bilde, rekk opp hånden inntil frontkameraet oppdager den og en boks vises på skjermen. Deretter lage en knyttneve for å ta et bilde.</string>
+</resources>

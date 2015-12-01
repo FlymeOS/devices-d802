@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NoEnterExitAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+    </style>
+    <style name="CustomTheme" parent="@com.lge:style/Theme.LGE.White">
+        <item name="android:windowBackground">@drawable/loading</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/NoEnterExitAnimation</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+        <item name="android:windowShowAnimation">@null</item>
+        <item name="android:windowHideAnimation">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <style name="SecureTheme" parent="@style/CustomTheme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="ShotModePostViewTheme" parent="@com.lge:style/Theme.LGE.White">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/NoEnterExitAnimation</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:actionBarStyle">@style/Holo.ActionBar</item>
+        <item name="android:displayOptions">none</item>
+        <item name="android:actionModeCloseDrawable">@null</item>
+        <item name="android:actionModeCloseButtonStyle">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="NoFocusableButton">
+        <item name="android:focusable">false</item>
+    </style>
+    <style name="OnScreenHintTextAppearance">
+        <item name="android:textSize">@dimen/OnScreenHintTextAppearance.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+        <item name="android:textColorHighlight">#ffff9200</item>
+        <item name="android:textColorHint">#ff808080</item>
+        <item name="android:textColorLink">#ff5c5cff</item>
+    </style>
+    <style name="OnScreenHintTextAppearance.Small" parent="@style/OnScreenHintTextAppearance">
+        <item name="android:textSize">@dimen/OnScreenHintTextAppearance.Small.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/secondary_text_dark</item>
+    </style>
+    <style name="Animation" />
+    <style name="Animation.OnScreenHint" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@anim/on_screen_hint_enter</item>
+        <item name="android:windowExitAnimation">@anim/on_screen_hint_exit</item>
+    </style>
+    <style name="CommandBarBackground">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/btn_default_bg_holo</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="CommandBarSpacer">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">4.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="CommandBarButton">
+        <item name="android:textSize">@dimen/command_button_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@drawable/ripple_command_button</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Postview_CommandBarButton" parent="@style/CommandBarButton">
+        <item name="android:layout_marginTop">4.659973dip</item>
+        <item name="android:layout_marginBottom">3.3299866dip</item>
+    </style>
+    <style name="Holo.ActionBar" parent="@com.lge:style/Theme.LGE.White">
+        <item name="android:background">@drawable/actionbar_translucent</item>
+        <item name="android:height">48.0dip</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleTextAppearance</item>
+        <item name="android:backgroundStacked">@null</item>
+    </style>
+    <style name="ActionBarTitleTextAppearance">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="helpActivityDialog" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Dialog_Background">
+        <item name="android:background">@android:drawable/dialog_holo_light_frame</item>
+    </style>
+    <style name="Dialog_Title_Icon">
+        <item name="android:src">@drawable/ic_dialog_alert_holo_light</item>
+    </style>
+    <style name="Dialog_Divider_bar">
+        <item name="android:background">@android:color/holo_blue_light</item>
+    </style>
+    <style name="expand_setting_shadow">
+        <item name="android:padding">8.699982dip</item>
+        <item name="android:shadowColor">#8cffffff</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="dialog_button" parent="@style/CommandBarButton">
+        <item name="android:textSize">@dimen/rotate_dialog_button_text.size</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="help_dialog_button" parent="@style/dialog_button">
+        <item name="android:background">@drawable/ripple_help_dialog_btn</item>
+    </style>
+    <style name="voice_command_text">
+        <item name="android:textSize">@dimen/rotate_dialog_voice_shutter_text.size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="rotate_dialog_title">
+        <item name="android:textSize">@dimen/rotate_dialog_title_text.size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="rotate_dialog_text">
+        <item name="android:textSize">@dimen/rotate_dialog_text.textSize</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="rotate_help_dialog_title">
+        <item name="android:textSize">@dimen/rotate_dialog_title_text.size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff00c5d6</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="rotate_help_dialog_text">
+        <item name="android:textSize">@dimen/rotate_dialog_text.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:includeFontPadding">true</item>
+    </style>
+    <style name="mode_menu_content_title">
+        <item name="android:textSize">@dimen/shot_mode_menu_contents_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff5d5f61</item>
+        <item name="android:includeFontPadding">true</item>
+    </style>
+    <style name="mode_menu_content_desc">
+        <item name="android:textSize">@dimen/shot_mode_menu_contents_desc_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff5d5f61</item>
+        <item name="android:includeFontPadding">true</item>
+    </style>
+    <style name="mode_menu_grid_item">
+        <item name="android:textSize">@dimen/shot_mode_menu_grid_item_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff5d5f61</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowRadius">0.7</item>
+    </style>
+    <style name="mode_menu_default_normal">
+        <item name="android:textStyle">bold</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="textSize">@dimen/shot_mode_menu_default_normal_text</item>
+        <item name="textColor">#ff5d5f61</item>
+        <item name="textShadowColor">#bb909090</item>
+        <item name="textShadowRadius">1.0</item>
+        <item name="ellipsis">true</item>
+    </style>
+    <style name="expand_setting_menu_title">
+        <item name="android:textSize">@dimen/expand_settingview_title_text.size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff119291</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowRadius">0.7</item>
+    </style>
+    <style name="shot_img_name">
+        <item name="android:textSize">@dimen/shot_img_name.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="shot_img_name_rotate_text_view">
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="textSize">@dimen/shot_img_name_rotate_text_view.textSize</item>
+        <item name="textColor">#ffffffff</item>
+    </style>
+    <style name="quickfunction_text">
+        <item name="android:textSize">@dimen/quickfunction_text.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="quickfunction_text_rotate_text_view">
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="textSize">@dimen/quickfunction_text_rotate_text_view.textSize</item>
+        <item name="textColor">#ffffffff</item>
+    </style>
+    <style name="shot_menu_title">
+        <item name="android:textSize">@dimen/shot_menu_title.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="shot_menu_title_rotate_text_view">
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="textSize">@dimen/shot_menu_title_rotate_text_view.textSize</item>
+        <item name="textColor">#ffffffff</item>
+    </style>
+    <style name="video_name">
+        <item name="android:textSize">@dimen/shot_menu_title.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="video_name_rotate_text_view">
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="textSize">@dimen/video_name_rotate_text_view.textSize</item>
+        <item name="textColor">#ffffffff</item>
+    </style>
+    <style name="shot_list_number">
+        <item name="android:textSize">@dimen/shot_list_number.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="shot_list_number_rotate_text_view">
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="textSize">@dimen/shot_list_number_rotate_text_view.textSize</item>
+        <item name="textColor">#ffffffff</item>
+    </style>
+    <style name="setting_list_normal">
+        <item name="android:textSize">@dimen/setting_list_normal.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="indi_text">
+        <item name="android:textSize">@dimen/indi_text.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="indi_text_rotate_text_view">
+        <item name="android:textSize">@dimen/indi_text_rotate_text_view.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="live_effect_title">
+        <item name="android:textSize">@dimen/live_effect_title.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowRadius">0.7</item>
+    </style>
+    <style name="live_effect_message">
+        <item name="android:textSize">@dimen/live_effect_message.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="setting_list_selected">
+        <item name="android:textSize">@dimen/setting_list_selected.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="after_captured_page">
+        <item name="android:textSize">@dimen/after_captured_page.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="panorama_warning">
+        <item name="android:textSize">@dimen/panorama_warning.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffff0000</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="rotate_dialog_button" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:textSize">@dimen/rotate_dialog_button.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="share_popup_name">
+        <item name="android:textSize">@dimen/share_popup_name.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="time_progress">
+        <item name="android:textSize">@dimen/text_rec_time.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="video_rectime_rotate_text_view">
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="textSize">@dimen/text_rec_time.textSize</item>
+        <item name="textColor">#ffffffff</item>
+        <item name="textShadowColor">#ff000000</item>
+        <item name="textShadowRadius">2.0</item>
+    </style>
+    <style name="help_item_menu">
+        <item name="android:textSize">@dimen/help_item_menu.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="help_item_desc">
+        <item name="android:textSize">@dimen/help_item_desc.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="help_guide_desc">
+        <item name="android:textSize">@dimen/help_item_desc.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="help_activity_top_title">
+        <item name="android:textSize">@dimen/help_activity_title.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="help_item_main_menu">
+        <item name="android:textSize">@dimen/help_activity_item_menu.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff119291</item>
+        <item name="android:includeFontPadding">true</item>
+    </style>
+    <style name="help_item_sub_menu">
+        <item name="android:textSize">@dimen/help_activity_item_sub_menu.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:includeFontPadding">true</item>
+    </style>
+    <style name="help_item_activity_desc">
+        <item name="android:textSize">@dimen/help_activity_item_desc.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff4d4d4d</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="voice_command_text_help_activity_dialog">
+        <item name="android:textSize">@dimen/voice_command_text_help_activity_dialog.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="onScreenHint_rotate_text_view">
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="textSize">@dimen/onScreenHint_rotate_text_view.textSize</item>
+        <item name="textColor">#ffffffff</item>
+        <item name="textShadowColor">#bb000000</item>
+        <item name="textShadowRadius">2.75</item>
+    </style>
+    <style name="onScreenHint_text_view">
+        <item name="android:textSize">@dimen/onScreenHint_text_view.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#bb000000</item>
+        <item name="android:shadowRadius">2.75</item>
+    </style>
+    <style name="panorama_guide_text_view">
+        <item name="android:textSize">@dimen/panorama_guide_text_view.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#bb000000</item>
+        <item name="android:shadowRadius">2.75</item>
+    </style>
+    <style name="onScreenHint_rotate_text_view_white">
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="textSize">@dimen/onScreenHint_rotate_text_view_white.textSize</item>
+        <item name="textColor">#00000000</item>
+        <item name="textShadowColor">#bb000000</item>
+        <item name="textShadowRadius">2.75</item>
+    </style>
+    <style name="config_item_text">
+        <item name="android:textSize">@dimen/config_item_text.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowRadius">0.7</item>
+    </style>
+    <style name="config_parent_item_text">
+        <item name="android:textSize">@dimen/config_parent_item_text.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowRadius">0.7</item>
+    </style>
+    <style name="bubble_popup_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="textSize">@dimen/bubble_popup_text.textSize</item>
+        <item name="textColor">#ffffffff</item>
+        <item name="textShadowColor">#bb000000</item>
+        <item name="textShadowRadius">2.75</item>
+    </style>
+    <style name="cam_bubble_list">
+        <item name="android:textSize">@dimen/cam_bubble_list.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="hig_command_btn_normal">
+        <item name="android:textSize">@dimen/hig_command_btn_normal.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="customization_guide_info">
+        <item name="android:textSize">@dimen/customization_guide_info.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="rotate_dialog_checkbox_text">
+        <item name="android:textSize">@dimen/rotate_dialog_checkbox_text.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="camera_command_btn_normal">
+        <item name="android:textSize">@dimen/camera_command_btn_normal.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="rotate_help_dialog_checkbox_text">
+        <item name="android:textSize">@dimen/rotate_help_dialog_checkbox_text.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="rotate_help_dialog_content_title">
+        <item name="android:textSize">@dimen/rotate_help_dialog_content_title.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="help_item_main_divider">
+        <item name="android:background">#ff119291</item>
+        <item name="android:layout_height">1.7099915dip</item>
+    </style>
+    <style name="help_item_sub_divider">
+        <item name="android:background">#ff4d4d4d</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+    <style name="help_background_color">
+        <item name="android:background">#ffffffff</item>
+    </style>
+    <style name="gallery_quick_view_trash_text">
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="textSize">@dimen/gallery_quick_view_trash_text.textSize</item>
+        <item name="textColor">#ffffffff</item>
+    </style>
+    <style name="option_item_text">
+        <item name="android:textSize">@dimen/option_item_text.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="setting_menu_title">
+        <item name="android:textSize">@dimen/setting_menu_title.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowRadius">0.7</item>
+    </style>
+    <style name="setting_current_text">
+        <item name="android:textSize">@dimen/setting_current_text.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff004e60</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowRadius">0.7</item>
+    </style>
+    <style name="progress_rotate_dialog_text">
+        <item name="android:textSize">@dimen/progress_rotate_dialog_text.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="burstshot_progress_text">
+        <item name="android:textSize">@dimen/burstshot_progress_text.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="clearshot_remove_guide_text">
+        <item name="android:textSize">@dimen/clearshot_remove_guide_text.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowRadius">2.75</item>
+    </style>
+    <style name="mode_menu_list_item">
+        <item name="android:textSize">@dimen/shot_mode_menu_list_item_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowRadius">0.7</item>
+    </style>
+    <style name="mode_menu_indi_text">
+        <item name="android:textSize">@dimen/shot_mode_menu_indi_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="expand_parent_item_text">
+        <item name="android:textSize">@dimen/expand_parent_item_text.size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff5d5f61</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowRadius">0.7</item>
+    </style>
+    <style name="expand_parent_current_text">
+        <item name="android:textSize">@dimen/expand_parent_item_current_text.size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff004e60</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowRadius">0.7</item>
+    </style>
+    <style name="expand_child_item_text">
+        <item name="android:textSize">@dimen/expand_child_item_text.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowRadius">0.7</item>
+    </style>
+    <style name="zoom_magnification_text">
+        <item name="android:textSize">@dimen/zoom_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#cc000000</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="refocus_guide_text">
+        <item name="android:textSize">@dimen/refocus_guide_text.textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowRadius">2.75</item>
+    </style>
+    <style name="gestureshutter_guide_text">
+        <item name="android:textSize">@dimen/gestureshutter_guide_text.textSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#bb000000</item>
+        <item name="android:shadowRadius">2.75</item>
+    </style>
+</resources>
